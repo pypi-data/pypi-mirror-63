@@ -1,0 +1,3 @@
+[console_scripts]
+flask-dj startproject = Flask_DJ:console_creation
+
