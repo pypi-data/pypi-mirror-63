@@ -1,0 +1,14 @@
+manifestparser/__init__.py,sha256=l8jXQx-pLqf4lw_AXzzMCRZL3BOBUVwV6M2nG2BzfPQ,330
+manifestparser/cli.py,sha256=cHZkJI-luqaGl2-FqGFyVRRUcYOhBNtu5T5jtY7JXDs,7114
+manifestparser/expression.py,sha256=gC_iI4uFSh-P6nAAFFhhF4y1VDrnAXwfWTXRDzTKjWU,9177
+manifestparser/filters.py,sha256=gCM-qExBmbyMcV7Z_sVmdZQQgqifA2nv1nhPXqZx3rs,17701
+manifestparser/ini.py,sha256=iCQ4fs-viEWehWVOpcGOeJYY_ghE4fY-GcK5swEFpog,6105
+manifestparser/manifestparser.py,sha256=rsyozp5wmHNbnsGSQez5iPnt0koiTsFKAwHjifrz32E,30440
+manifestparser/util.py,sha256=I2NAIBSPOxskvfSnEigZeHLJLCNujGoQvSMS2gPnGUw,932
+manifestparser-2.1.0.dist-info/DESCRIPTION.rst,sha256=5Yqp_vL694nYZjK1trFEMN_m1rdrWuqn73XpeU4uQOw,65
+manifestparser-2.1.0.dist-info/METADATA,sha256=-5krfybYAN60eftTPLSS1c0ArXIAKnbiJBKsIRoS2Qc,590
+manifestparser-2.1.0.dist-info/RECORD,,
+manifestparser-2.1.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+manifestparser-2.1.0.dist-info/entry_points.txt,sha256=natGyz98YTuVWGiEjoTGcOwPV_YqMovQfB2XS5DaOYI,78
+manifestparser-2.1.0.dist-info/metadata.json,sha256=PraB3N3K3B5RhqeBODCDMWpQrxEwAC4-Uk9SobkAgjo,905
+manifestparser-2.1.0.dist-info/top_level.txt,sha256=hNv7ZLLSjPHA_2c6YIYbJIuZe8RaJgC7dmJIZwxYWHs,15
