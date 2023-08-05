@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+prophetable/__init__.py
+prophetable/prophetable.py
+prophetable.egg-info/PKG-INFO
+prophetable.egg-info/SOURCES.txt
+prophetable.egg-info/dependency_links.txt
+prophetable.egg-info/requires.txt
+prophetable.egg-info/top_level.txt
