@@ -1,0 +1,5 @@
+Click
+requests
+prettytable
+scrapy
+pymongo
