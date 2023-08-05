@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dictschema
+Version: 0.0.1
+Summary: Schema validation for python dictionaries
+Home-page: https://github.com/kbeauregard/dictschema
+Author: Kyle Beauregard
+Author-email: kylembeauregard@gmail.com
+License: MIT
+Description: # dictschema
+        
+        [![Generic badge](https://img.shields.io/badge/python-3.7+-blue.svg)](https://shields.io/)
+        [![codecov](https://codecov.io/gh/kbeauregard/dictschema/branch/master/graph/badge.svg)](https://codecov.io/gh/kbeauregard/dictschema)
+        [![Generic badge](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
+        
+        ## Install
+        
+        dictschema is available on PyPi and can be installed using pip
+        
+        `pip install dictschema`
+        
+        ## Development
+        #### Setup
+        ```
+        pip install -r requirements
+        pre-commit install
+        ```
+        
+Keywords: dict,schema,validation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+README.md
+setup.py
+dictschema/__init__.py
+dictschema/exceptions.py
+dictschema/validator.py
+dictschema.egg-info/PKG-INFO
+dictschema.egg-info/SOURCES.txt
+dictschema.egg-info/dependency_links.txt
+dictschema.egg-info/top_level.txt
+dictschema/tests/__init__.py
+dictschema/tests/test_validator.py
