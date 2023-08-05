@@ -1,0 +1,17 @@
+README.md
+setup.py
+jbs/__init__.py
+jbs/ir.py
+jbs/ml.py
+jbs/quotations.py
+jbs_utils.egg-info/PKG-INFO
+jbs_utils.egg-info/SOURCES.txt
+jbs_utils.egg-info/dependency_links.txt
+jbs_utils.egg-info/top_level.txt
+tests/__init__.py
+tests/test_jbs_ir.py
+tests/test_jbs_nlp.py
+tests/test_ml.py
+tests/test_quotationdetection.py
+tests/test_quotations.py
+tests/test_textanalysis.py
