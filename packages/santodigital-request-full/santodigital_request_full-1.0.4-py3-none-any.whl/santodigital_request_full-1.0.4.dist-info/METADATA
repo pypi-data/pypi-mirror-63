@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: santodigital-request-full
+Version: 1.0.4
+Summary: Http request library for paginated response api
+Home-page: https://bitbucket.org/rodrigoag/santodigital-request-full
+Author: Rodrigo Gonçalves
+Author-email: rodrigo@santodigital.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+
+# Objetivo
+Lib para executar chamadas em APIs com paginação, trazendo todos os registros de forma única.
+
+Esta lib não possui métodos para realização dos passos de autenticação e do fluxo de oauth. Ela espera que a aplicação chamadora execute estes passos e informe qual o tipo de autenticação utilizada e o token / session gerado na chamada desta lib
+
+# Utilização
+
+
+
