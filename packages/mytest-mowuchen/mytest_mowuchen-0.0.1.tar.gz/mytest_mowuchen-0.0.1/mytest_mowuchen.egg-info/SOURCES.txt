@@ -1,0 +1,6 @@
+README.md
+setup.py
+mytest_mowuchen.egg-info/PKG-INFO
+mytest_mowuchen.egg-info/SOURCES.txt
+mytest_mowuchen.egg-info/dependency_links.txt
+mytest_mowuchen.egg-info/top_level.txt
