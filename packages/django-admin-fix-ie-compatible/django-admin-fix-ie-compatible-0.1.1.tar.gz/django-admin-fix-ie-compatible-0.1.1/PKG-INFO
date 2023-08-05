@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: django-admin-fix-ie-compatible
+Version: 0.1.1
+Summary: Add X-UA-Compatible meta to django's admin site, so that the admin site can work in IE's compatible mode under IE9 or high version.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-admin-fix-ie-compatible
+        
+        Add X-UA-Compatible meta to django's admin site, so that the admin site can work in IE's compatible mode under IE9 or high version.
+        
+        ## Install
+        
+        ```shell
+        pip install django-admin-fix-ie-compatible
+        ```
+        
+        ## Settings
+        
+        **pro/settings.py**
+        
+        ```python
+        INSTALLED_APPS = [
+            ...
+            'django_admin_fix_ie_compatible',
+            ...
+        ]
+        ```
+        
+        **Note:**
+        
+        1. Just add django_admin_fix_ie_compatible to INSTALLED_APPS, and nothing more.
+        
+        ## Releases
+        
+        ### v0.1.1 2020/03/09
+        
+        - Fix requirements.txt reading problem in setup.py.
+        
+        ### v0.1.0 2020/03/09
+        
+        - First release.
+        
+Keywords: django admin extentions,django admin fix ie compatible
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

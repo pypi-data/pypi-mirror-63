@@ -1,0 +1,1 @@
+django_admin_fix_ie_compatible
