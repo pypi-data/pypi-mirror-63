@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+emojizones/__init__.py
+emojizones/convert.py
+emojizones/lookup.py
+emojizones.egg-info/PKG-INFO
+emojizones.egg-info/SOURCES.txt
+emojizones.egg-info/dependency_links.txt
+emojizones.egg-info/requires.txt
+emojizones.egg-info/top_level.txt
