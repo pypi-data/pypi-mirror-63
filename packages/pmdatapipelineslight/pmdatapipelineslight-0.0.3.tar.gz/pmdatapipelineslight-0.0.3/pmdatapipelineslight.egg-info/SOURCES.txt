@@ -1,0 +1,11 @@
+README.md
+setup.py
+pmdatapipelineslight/__init__.py
+pmdatapipelineslight/pmaws.py
+pmdatapipelineslight/pmcore.py
+pmdatapipelineslight/pmmatillion.py
+pmdatapipelineslight/pmtransfer.py
+pmdatapipelineslight.egg-info/PKG-INFO
+pmdatapipelineslight.egg-info/SOURCES.txt
+pmdatapipelineslight.egg-info/dependency_links.txt
+pmdatapipelineslight.egg-info/top_level.txt
