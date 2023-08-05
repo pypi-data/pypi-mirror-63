@@ -1,0 +1,13 @@
+sschema/__init__.py,sha256=_HW13SOF3EYkPU4FQPFivHdeOVF02LhtilKrEHY_hXY,1942
+sschema/handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sschema/handler/sschema.py,sha256=ROGQGTRqBwKDFXm0wWRvPcTXP-8cdhPKarM7tsAFRBs,1609
+sschema/schema/endian.yaml,sha256=jkv9H_ws8VBfsnDlPiCfeq6L7-_ajhwhrfnJVUwQJTw,131
+sschema/schema/raw-unit.yaml,sha256=PcKhvNgSZw1WY6AyAbOUzW-U36Nsla1JG3zfSqteeKQ,340
+sschema/schema/si-unit.yaml,sha256=4HYBkF7mwtwFGUMWDyvt_dR3PS7BsXCr8-Wf7mfUzWQ,610
+sschema/schema/type.yaml,sha256=Bid61BwFeofR_byvh9mWgpp5WSo9MU-zLZyVLU2-jdc,313
+sschema/schema/uuid.yaml,sha256=YChi9o4jQVb-SW_ZxDHC6KWCP5_aMgPov-2Tr54bIKk,196
+sschema-0.1.6.dist-info/LICENSE,sha256=_6npZfOsnJiOYinsyzFGG0AOcXTG98qU90yBQJEUvNc,548
+sschema-0.1.6.dist-info/METADATA,sha256=RcZhxudEFd_p36rjrfaLFCOtTWqIo5EefaDbihdYAAA,1237
+sschema-0.1.6.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+sschema-0.1.6.dist-info/top_level.txt,sha256=5bLVh9lnisjlUxofGW_uewrPh5_GrBU3eXtdY8v-Bz0,8
+sschema-0.1.6.dist-info/RECORD,,
