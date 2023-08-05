@@ -1,0 +1,16 @@
+pocketing/__init__.py,sha256=nZheahnZYaBTNQblbgCQGkviHdMUjKw4myRqz4i0MNY,149
+pocketing/contour.py,sha256=qiiDjJqHFmZQGJS-WBwxmLaAngLS2AnPI5gcc3-uttw,483
+pocketing/exchange.py,sha256=nPLiqBcFTSmU89Ci_bUOYCMmkQQuVNr3VVsbVk6JwpQ,347
+pocketing/graph.py,sha256=YlYa6HIhZvXbvTIJExYxWqCZ_N6PZCzS2EtrY3HngXY,5298
+pocketing/polygons.py,sha256=y4H8vcKTu2gAROITyiaj1unsRPSHNZf20e5kZ-NybrI,5412
+pocketing/raster.py,sha256=ouwW84EryYGz9ytcwVqJa15jAydJcC6m1xP6_bfOcMc,1316
+pocketing/spiral.py,sha256=AdsHX0pR8jTwF5BS9i-eGDT7EapYnA8Qwc08QHRwfwY,3247
+pocketing/toolpath.py,sha256=Pm8qmvLLJ8SreqQWg9e8Eq5_64LEJ0rtHI5036alRI0,4807
+pocketing/trochoidal.py,sha256=mazKdVMHC53AOSGSTdnorg6XTvZyeZR_96WmmTy8leU,13603
+pocketing/version.py,sha256=7EgDv-timUu06OY6bkABnaoin_WSpRfqEKwS3w4SJZ4,22
+pocketing/visualize.py,sha256=OBAlO3W3QwCyOm_VbRoCUUNhzD-aiD7EnYg_omYxtBQ,1672
+pocketing-0.0.7.dist-info/LICENSE,sha256=g8tDO7GM868rnn8owamOoud6GknS-nrEy2wLS1SpJSk,1080
+pocketing-0.0.7.dist-info/METADATA,sha256=2Pr9Il-WN1HizRe6mjWPgYMCIXZ3AiNVObLKKUqXIBY,2051
+pocketing-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pocketing-0.0.7.dist-info/top_level.txt,sha256=VFpDGsjth1WJ3HDk53WbAWlsnWflOpLwvRXmLRJDPo4,10
+pocketing-0.0.7.dist-info/RECORD,,
