@@ -1,0 +1,11 @@
+amazon/__init__.py,sha256=E_cx00QB_e1B2lRhr1d2q1ZWiK11f8ex-WqzWXL6Tsw,110
+amazon/constant.py,sha256=4R9V0KDpvkUkTcu_6CunHbCFJm3H0MJwcQwWTqeF2vI,11439
+amazon/exception.py,sha256=DXSLEpoW-1L9JBInCl3QiZy5gbW_gCL9XIDuYlcsMAM,331
+amazon/paapi.py,sha256=8BxmMR_U4kTzgINIiHsbpibX9Qo99ezGrbTSdBr5m4k,19256
+amazon/parse.py,sha256=zksYJLw7bNiWIBv2z7NbYdSdAx95vzaXW7Ql9yuFS_o,18300
+amazon/tools.py,sha256=xyn7D5i0RclPk-ihpnwx-u7o1N38ScrXdaDteu9Ofzc,706
+python_amazon_paapi-3.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+python_amazon_paapi-3.0.0.dist-info/METADATA,sha256=WSa2gL5Y9GifigoW-6gSar0Nf5BhXpXJW6Rts5kQ92E,4810
+python_amazon_paapi-3.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+python_amazon_paapi-3.0.0.dist-info/top_level.txt,sha256=d1idToLA1d0uHMQOY3WxsR-tqqL7mwHIKHOegzcpIGk,7
+python_amazon_paapi-3.0.0.dist-info/RECORD,,
