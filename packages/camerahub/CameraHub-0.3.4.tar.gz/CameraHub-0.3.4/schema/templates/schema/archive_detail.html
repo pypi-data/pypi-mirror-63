@@ -1,0 +1,34 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Archive type</td>
+    <td>{{ object.type }}</td>
+  </tr>
+  <tr>
+    <td>Archive name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>Max width</td>
+    <td>{{ object.max_width }}</td>
+  </tr>
+  <tr>
+    <td>Max height</td>
+    <td>{{ object.max_height }}</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>{{ object.location }}</td>
+  </tr>
+  <tr>
+    <td>Storage</td>
+    <td>{{ object.storage }}</td>
+  </tr>
+  <tr>
+    <td>Sealed</td>
+    <td>{{ object.sealed }}</td>
+  </tr>
+</table>
+{% endblock %}

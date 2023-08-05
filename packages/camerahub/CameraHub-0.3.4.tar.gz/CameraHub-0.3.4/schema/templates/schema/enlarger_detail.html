@@ -1,0 +1,50 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Manufacturer</td>
+    <td>{% if object.manufacturer is not None %}<a href="{% url 'manufacturer-detail' object.manufacturer.id %}">{{ object.manufacturer }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td>{{ object.model }}</td>
+  </tr>
+  <tr>
+    <td>Negative size</td>
+    <td>{% if object.negative_size is not None %}<a href="{% url 'negativesize-detail' object.negative_size.id %}">{{ object.negative_size }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>{{ object.type }}</td>
+  </tr>
+  <tr>
+    <td>Light source</td>
+    <td>{{ object.light_source }}</td>
+  </tr>
+  <tr>
+    <td>Acquired</td>
+    <td>{{ object.acquired }}</td>
+  </tr>
+  <tr>
+    <td>Lost</td>
+    <td>{{ object.lost }}</td>
+  </tr>
+  <tr>
+    <td>Introduced</td>
+    <td>{{ object.introduced }}</td>
+  </tr>
+  <tr>
+    <td>Discontinued</td>
+    <td>{{ object.discontinued }}</td>
+  </tr>
+  <tr>
+    <td>Cost</td>
+    <td>{{ object.cost }}</td>
+  </tr>
+  <tr>
+    <td>Lost price</td>
+    <td>{{ object.lost_price }}</td>
+  </tr>
+</table>
+{% endblock %}
