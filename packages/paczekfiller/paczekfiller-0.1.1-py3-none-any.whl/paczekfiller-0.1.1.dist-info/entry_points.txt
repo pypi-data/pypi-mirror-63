@@ -1,0 +1,3 @@
+[console_scripts]
+paczekfiller = paczekfiller.cli:main
+
