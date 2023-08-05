@@ -1,0 +1,13 @@
+README.md
+setup.py
+muid/__init__.py
+muid/corpus.py
+muid/crypto.py
+muid/explanation.py
+muid/mining.py
+muid.egg-info/PKG-INFO
+muid.egg-info/SOURCES.txt
+muid.egg-info/dependency_links.txt
+muid.egg-info/entry_points.txt
+muid.egg-info/requires.txt
+muid.egg-info/top_level.txt
