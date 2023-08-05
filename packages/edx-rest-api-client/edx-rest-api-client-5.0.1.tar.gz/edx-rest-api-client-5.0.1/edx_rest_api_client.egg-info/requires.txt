@@ -1,0 +1,4 @@
+requests
+slumber>=0.7.1
+PyJWT>=1.1.0
+edx-django-utils>=1.0.0
