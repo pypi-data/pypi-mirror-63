@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: Orange-Vision
+Version: 0.0.5
+Summary: FRC Orange Vision API
+Home-page: UNKNOWN
+Author: Danny Dasilva
+Author-email: dannydasilva.solutions@gmail.com
+License: Apache 2
+Description: API to run inference on image data coming from the camera.
+Platform: UNKNOWN
+Requires-Python: >=3.5.3

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title> Orange : Ai processing made easy</title>
+        <link rel="icon" type="image/png" href="images/orange-fav.png" />
+
+
+
+
+        <!--Server CSS -->
+        <script type="text/javascript" src="protobuf.min.js"></script>
+        <script type="text/javascript" src="broadway/YUVCanvas.js"></script>
+        <script type="text/javascript" src="broadway/Decoder.js"></script>
+        <script type="text/javascript" src="broadway/Player.js"></script>
+        <script type="text/javascript" src="ws_client.js"></script>
+
+        <!--Core CSS -->
+        <link rel="stylesheet" href="css/orange-bulma.css">
+        <link rel="stylesheet" href="css/orange-core.css">
+        
+        <!-- Fonts
+        <link href="../fonts.googleapis.com/cssc19e.css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
+        <link href="../fonts.googleapis.com/csse379.css?family=Raleway:300,400,500" rel="stylesheet"> -->
+        
+        <!-- plugins -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+    
+        <link rel="stylesheet" href="css/chosen/chosen.css">
+       
+
+    </head>
+    <body>
+        
+        <!-- Pageloader -->
+        <div class="pageloader"></div>
+        <div class="infraloader is-active"></div>
+        <nav class="navbar mobile-navbar is-hidden-desktop is-hidden-tablet" aria-label="main navigation">
+            <!-- Brand -->
+            <div class="navbar-brand">
+                <a class="navbar>-item" href="home.html">
+                    <img src="images/logo/orange-icon.svg" alt="">
+                </a>
+        
+                <!-- Sidebar mode toggler icon -->
+                <a id="sidebar-mode" class="navbar-item is-icon is-sidebar-toggler" href="javascript:void(0);">
+                    <i data-feather="sidebar"></i>
+                </a>
+        
+             
+            </div>
+         
+        </nav>
+        <!-- Main Sidebar-->
+        <div class="main-sidebar">
+            <div class="sidebar-brand">
+                <a href="#"><img src="images/logo/orange-icon.svg" alt=""></a>
+            </div>
+            <div class="sidebar-inner">
+                <ul class="icon-menu">
+                    <!-- Shop sidebar trigger -->
+                  
+                    <li>
+                        <a href="orange-ai.html" ><i data-feather="eye"  class="main_color"  ></i></a>
+                    </li>
+                    
+
+                    <li>
+                        <a  id="open-filters" href="#" ><i data-feather="settings"  ></i></a>
+                    </li>
+
+                    
+                    
+                    <!-- Search trigger -->
+                 
+                <!-- User account -->
+                
+            </div>
+        </div>
+        <!-- /Main Sidebar-->
+        
+    
+        
+       
+        
+        <!-- Main wrapper -->
+        <div class="shop-wrapper">
+      
+            <div class="search-overlay"></div>
+            
+            <!-- Search input -->
+            <div class="search-input-wrapper is-desktop is-hidden">
+                <div class="field">
+                    <div class="control">
+                        <input type="text" name="search" autofocus required>
+                        <span id="clear-search" role="button"><i data-feather="x"></i></span>
+                        <span class="search-help">Enter a search</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Main section -->
+            <div class="section">
+                <!-- Container -->
+                <div class="mainSection">
+        
+                    <!-- Account Layout -->
+                    <div class="columns account-header">
+                        <div class="column  is-tablet-landscape-padded">
+                            <!-- Title -->
+                            <div class="account-title">
+                                <h2>AI Pipeline</h2>
+                                <img class="brand-filigrane" src="images/logo/orange-grey.svg" alt="">
+                            </div>
+        
+                             <!-- Account tabs -->
+                             <div class="tabs-wrapper underline-tabs animated-tabs">
+                                <div class="tabs">
+                                    <ul>
+                                        <li class="is-active" data-tab="t1"><a> Camera 1</a></li>
+                                        <li data-tab="t2"><a>Camera 2</a></li>
+                                        <li data-tab="t3"><a> Both </a></li>
+                                    </ul>
+                                </div>
+                                <div id="t1" class="navtab-content is-active">
+                                    
+                                
+                                 
+                                        <!-- Chosen select -->
+                                        <div class="flat-card is-auto is-element-details">
+                                            <div class="columns  is-vcentered">
+                                                
+                                                <div class="column is-component">
+                                                  
+                                                      <div id="container"></div>
+                                                                          
+
+                                                </div>
+                                           
+                                            </div>
+                                        </div>
+                                
+                                
+                                
+                                
+                                </div>
+                                <div id="t2" class="navtab-content is-active">
+                                    
+                                
+                                 
+                                    <!-- Chosen select -->
+                                    <div class="flat-card is-auto is-element-details">
+                                        <div class="columns  is-vcentered">
+                                            
+                                            <div class="column is-component">
+                                           
+                                                  <div id="container1"></div>
+                                                                      
+
+
+                                         
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                            
+                            
+                            
+                            
+                            </div>
+                            
+
+                            <div id="t3" class="navtab-content is-active">
+                                    
+                                
+                                 
+                                <!-- Chosen select -->
+                                <div class="flat-card is-auto is-element-details">
+                                    <div class="columns  is-vcentered">
+                                        
+                                        <div class="column is-component">
+                                            
+                                                <div id="container3"></div>
+                                                
+                                                  
+
+
+                                       
+                                        </div>
+                                        <div class="column is-component">
+                                            
+                                          <div id="container4"></div>
+                                              
+
+
+                                   
+                                    </div>
+
+                                   
+                                    </div>
+                                </div>
+                        
+                        
+                        
+                        
+                        </div>
+
+
+                            
+                                
+                                
+                            </div>
+
+                           
+        
+                        </div>
+                    </div>
+
+
+                   
+                </div>
+                <!-- /Container -->
+            </div>
+            <!-- /Main section -->
+        </div>
+        <!-- /Main wrapper -->
+        <!-- Concatenated plugins -->
+        <script src="js/app.js"></script>
+
+
+    
+        <!-- Helios js -->
+
+        <script src="js/nephos.js"></script>    
+    
+ 
+    </body>  
+
+</html>
