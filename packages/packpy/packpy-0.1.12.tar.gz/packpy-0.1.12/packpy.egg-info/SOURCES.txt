@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+./packpy/packpy.py
+packpy/packpy.py
+packpy.egg-info/PKG-INFO
+packpy.egg-info/SOURCES.txt
+packpy.egg-info/dependency_links.txt
+packpy.egg-info/entry_points.txt
+packpy.egg-info/not-zip-safe
+packpy.egg-info/top_level.txt
