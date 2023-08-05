@@ -1,0 +1,14 @@
+pyvem/__init__.py,sha256=j8SYlnwxx4SFmwo8dw8SpeVQ4PHwy_0Zf3HBFtH4BDo,36
+pyvem/cli.py,sha256=pOCuQbe4fP7SOSjwp3CaiccPlcCRc3n9sLimK8rSIt4,1243
+pyvem/core.py,sha256=JmRTxyhCwjKp6Xh80uMKpE1ZZm0cM1HcO3C9igqa1Qk,1442
+pyvem/commands/__init__.py,sha256=aOlpmwHwuBXyexPUc0xpGBX6QWv_GacJ94Wm2Z8pZsg,84
+pyvem/commands/activate.py,sha256=SbMqcizZc4-tJ4mR4rGohK80ZiCNMK_FAyB2velbZjI,700
+pyvem/commands/base.py,sha256=XBcwnLfsl1uywBVLLjOgT8TM04wFDNBtOiWOptcCrvQ,437
+pyvem/commands/create.py,sha256=wltV08PS3M-gAy1EftjV5qkv5IlWvmz_LhT96UyU0KY,1015
+pyvem/commands/list.py,sha256=JM1nIjteWxWGjac9-de30Huh_DxJKOp1KgD54hGNG-E,258
+pyvem/commands/req.py,sha256=vFsL9bmej8eTumfH3XKDJDH0bJlJ0d6Gw-nbp_vMlnU,832
+pyvem-0.0.1.dist-info/METADATA,sha256=X0yhRb5ftdazKG9yyntx7A9GMfOXdB9IMp56vHtKrFE,1665
+pyvem-0.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pyvem-0.0.1.dist-info/entry_points.txt,sha256=2IMxsVM5C09n9XWpmPofUp6mTylDKRGMIjRa-YpPp3s,42
+pyvem-0.0.1.dist-info/top_level.txt,sha256=jK77zxsLoVlsH7Z1qG_yrg3Mz5j7IxVGr4VS2wg0gzA,6
+pyvem-0.0.1.dist-info/RECORD,,
