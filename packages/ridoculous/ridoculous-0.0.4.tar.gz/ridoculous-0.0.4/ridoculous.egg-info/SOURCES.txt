@@ -1,0 +1,9 @@
+README.md
+setup.py
+ridoculous/__init__.py
+ridoculous/core.py
+ridoculous/utils.py
+ridoculous.egg-info/PKG-INFO
+ridoculous.egg-info/SOURCES.txt
+ridoculous.egg-info/dependency_links.txt
+ridoculous.egg-info/top_level.txt
