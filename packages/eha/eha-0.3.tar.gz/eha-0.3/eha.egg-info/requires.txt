@@ -1,0 +1,4 @@
+pyzmq>=19.0.0
+PyYAML>=5.1.2
+aioetcd3>=1.10
+sdnotify>=0.3.2

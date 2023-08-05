@@ -1,0 +1,4 @@
+[console_scripts]
+eha-agent = eha:server_main
+eha-proxy = eha:proxy_main
+
