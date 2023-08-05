@@ -1,0 +1,10 @@
+odoo/addons/la_feixa/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/la_feixa/__manifest__.py,sha256=4bPJajfPD7pNNP3QfmS7QvXZxfegnmp3Y5dZVYYwW7c,397
+odoo/addons/la_feixa/models/__init__.py,sha256=sCVmYmtYm4gErw4oxc9I1kwZR925gCeT7MSapnWtZhU,35
+odoo/addons/la_feixa/models/subcription_request.py,sha256=lIPO6T74YASBcvWwyLMHB11OpLivE2VPNIh1pIKByao,255
+odoo/addons/la_feixa/views/become_cooperator_view.xml,sha256=yC1caesK4zsEr71Qkudxkq8MyDSotxF-NSke23GUlhc,726
+odoo/addons/la_feixa/views/subscription_request_view.xml,sha256=sGqOW_mTIXhy-Xash9WJFN-c7DfKau4RK31kQTwgNXQ,841
+odoo12_addon_la_feixa-12.0.0.0.3.dev1.dist-info/METADATA,sha256=yA1Dzlyw8JS93htm7jAiECr0pk8H5aN4WV1BE3rShsM,485
+odoo12_addon_la_feixa-12.0.0.0.3.dev1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+odoo12_addon_la_feixa-12.0.0.0.3.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_la_feixa-12.0.0.0.3.dev1.dist-info/RECORD,,
