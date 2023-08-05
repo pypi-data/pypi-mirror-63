@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: pywpsrpc
+Version: 1.0.2
+Requires-Python: >=3.5
+Summary: Python bindings for the WPS Office RPC
+Home-Page: https://github.com/timxx/pywpsrpc
+Author: Weitian Leung
+Author-Email: weitianleung@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Platform: Linux
+
+# pywpsrpc
+
+[![Build Status](https://travis-ci.org/timxx/pywpsrpc.svg?branch=master)](https://travis-ci.org/timxx/pywpsrpc)
+[![PyPI version](https://img.shields.io/pypi/v/pywpsrpc.svg)](https://pypi.org/project/pywpsrpc/)
+[![Python version](https://img.shields.io/badge/python-3.5+-green.svg)](http://python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Python bindings for WPS Office RPC (for Linux version only).
+
+What is WPS Office RPC?
+
+To make it simple, it means you can use the rpc (api) get working with WPS Office,
+open, edit and save documents,
+extend the WPS Office functionals etc.
+
+The C++ SDK headers was taken from [wps_cpp](https://dev.tencent.com/u/zouyingfeng/p/wps/git/tree/master/cpp) with *no changes*:
+```
+Copyright @ 2012-2019, Kingsoft office,All rights reserved.
+```
+
+For full API references, go to [https://open.wps.cn/docs/office](https://open.wps.cn/docs/office)
+or [https://docs.microsoft.com/en-us/office/vba/api/overview/](https://docs.microsoft.com/en-us/office/vba/api/overview/).
+
+
+## Requirements
+  - Python 3.5+
+  - Qt5 (the SDK required both for building & running)
+  - WPS Office for Linux 11.1.0.9080+
+  - sip 5.0+ (for building)
+  - qmake (for building)
+  - gcc (for building)
+
+## How to build
+
+Run `sip-build` under the project root directory
+
+append *--verbose* for getting the progress of building
+
+
+## Installation
+The pywpsrpc can be installed from PyPi:
+
+`pip install pywpsrpc`
+
+You can also install from the source:
+
+```
+# the easy way, you may need the root privilege
+sip-install
+
+# or package first, and then install the whl by pip
+sip-wheel
+```
+
+## Quick Start
+
+```
+# First import the module you want
+# rpcwpsapi contains the interfaces for WPS
+# rpcwppapi is for WPP
+# and rpcetapi for ET
+# the common module contains the shared interfaces, you can not use it alone.
+
+# you always need the createXXXRpcInstance, so first import
+# take wps for example here
+from pywpsrpc.rpcwpsapi import (createWpsRpcInstance, wpsapi)
+
+# use the RpcProxy to make things easy...
+from pywpsrpc import RpcProxy
+
+# now create the rpc instance
+hr, rpc = createWpsRpcInstance()
+
+# all the calls returns the error code as the first value
+# you can check it for failes
+# 0 means all fines, you can use the common module's S_OK,
+# FAILED or SUCCEEDED to check
+# recommend use the RpcProxy instead
+
+# get the application and you get everything...
+# here we use the RpcProxy to wrap the application
+# otherwise, you have to call Release on each instance
+# and handle the hr for every call...
+app = RpcProxy(rpc.getWpsApplication())
+
+# Add blank doc e.g.
+doc = app.Documents.Add()
+
+# append text...
+selection = app.Selection
+selection.InsertAfter("Hello, world")
+
+# bold the "Hello, world"
+selection.Font.Bold = True
+
+# get a notify about saving
+rpc.registerEvent(app._object,
+                  wpsapi.DIID_ApplicationEvents4,
+                  "DocumentBeforeSave",
+                  onDocumentBeforeSave)
+
+def onDocumentBeforeSave(doc, saveAsUi, cancel):
+    # to discard the saving, return cancel as True
+    return saveAsUi, cancel
+
+# save the doc, onDocumentBeforeSave will be called
+doc.SaveAs2("test.docx")
+
+# Quit the application if you don't need anymore
+# use wpsapi.wdDoNotSaveChanges to ignore the changes
+app.Quit(wpsapi.wdDoNotSaveChanges)
+```
