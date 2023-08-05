@@ -1,0 +1,7 @@
+pymongo
+Mako
+requests
+six
+watchdog
+tensorflow==1.8.0
+numpy==1.16
