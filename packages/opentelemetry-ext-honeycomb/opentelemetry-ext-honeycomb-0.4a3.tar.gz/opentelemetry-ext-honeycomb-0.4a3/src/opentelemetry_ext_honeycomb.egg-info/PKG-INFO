@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: opentelemetry-ext-honeycomb
+Version: 0.4a3
+Summary: Honeycomb Exporter for OpenTelemetry
+Home-page: https://github.com/honeycombio/opentelemetry-exporter-python
+Author: Honeycomb Authors
+Author-email: solutions@honeycomb.io
+License: Apache-2.0
+Description: # opentelemetry-exporter-python
+        The honeycomb.io Python exporter for OpenTelemetry
+        
+        ### Install
+        
+        ```bash
+        pip install opentelemetry-ext-honeycomb
+        ```
+        
+        ### Initialize
+        
+        ```python
+        # note writekey and dataset may be specified in the environment instead
+        exporter = HoneycombSpanExporter(
+        	service_name="test-service",
+        	writekey=<HONEYCOMB_WRITEKEY>,
+        	dataset=<HONEYCOMB_DATASET>,
+        )
+        span_processor = BatchExportSpanProcessor(exporter)
+        tracer.add_span_processor(span_processor)
+        ```
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
