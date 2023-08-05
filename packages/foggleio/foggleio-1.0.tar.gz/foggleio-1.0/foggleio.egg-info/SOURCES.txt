@@ -1,0 +1,7 @@
+setup.py
+foggleio/__init__.py
+foggleio.egg-info/PKG-INFO
+foggleio.egg-info/SOURCES.txt
+foggleio.egg-info/dependency_links.txt
+foggleio.egg-info/not-zip-safe
+foggleio.egg-info/top_level.txt
