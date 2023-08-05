@@ -1,0 +1,17 @@
+Qt.py
+pytest
+pytest-cov
+coveralls
+sphinx
+sphinx_rtd_theme
+ffmpeg-python
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+Fileseq
+
+[dev]
+wheel
+
+[test]
+pytest
