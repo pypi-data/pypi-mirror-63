@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pyexodus/RELEASE-VERSION
+pyexodus/__init__.py
+pyexodus/core.py
+pyexodus/version.py
+pyexodus.egg-info/PKG-INFO
+pyexodus.egg-info/SOURCES.txt
+pyexodus.egg-info/dependency_links.txt
+pyexodus.egg-info/requires.txt
+pyexodus.egg-info/top_level.txt
+pyexodus/tests/__init__.py
+pyexodus/tests/test_reading_exodus.py
+pyexodus/tests/test_writing_exodus.py
