@@ -1,0 +1,16 @@
+cs272_project/__init__.py,sha256=6iK2cGWDbPRZaEpd_dJTtJO2DhXD3_cM7H0TAUwEuGU,1233
+cs272_project/big_query_dataset.py,sha256=SCLyj5DoT0vjhOecUUaLaJm0VVxxxl5ETSP0Rdvrjho,3061
+cs272_project/cli.py,sha256=iXFq7vgbMVN9PtC68AXarlXOJDBkYRgFHps7javTRCs,3458
+cs272_project/fine_tuning.py,sha256=Y-kq8EXgG3kzSnCnjC-fdUVWFY0y3_1PZT4jnAT8q7Q,24958
+cs272_project/model.py,sha256=eZv6ozs8luDusQfbfcx2tHMHjmRsCKtYPc1PUqjF-is,3928
+cs272_project/view_tanda_network.py,sha256=cz27N0JtMZHU3lYjoh6tNdLrPj2OaSma7aWdsBMvi_w,1144
+cs272_project/config/__init__.py,sha256=CX1C6BHHkU1Qx5tgHGs4dInh290L3cOGRu6lTzoaG-E,1187
+cs272_project/config/config.ini,sha256=eWvvhv5CY_mRDisVgLZRt_gG4pJiYD8DSrcV7v9Ipqg,151
+cs272_project/config/config.py,sha256=RrNnbCHHyp8A6O2NJONXuYnNH7XA1nL3k2RpEaSdOPw,2345
+cs272_project-0.2.0.dist-info/AUTHORS.rst,sha256=28YtFlfcGa8NW8QUsV5lPtsOrYHgnnEiqRDj3kGqLDY,158
+cs272_project-0.2.0.dist-info/LICENSE,sha256=M6JIR_FcP4eniEuSwqV0kGGYqRVyc_z9YwoJGYiKNcY,1077
+cs272_project-0.2.0.dist-info/METADATA,sha256=-PZ0TK_Kb-idgo76kMH-Sru1XQMx1oZ5IrTRf9jbSCI,3387
+cs272_project-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+cs272_project-0.2.0.dist-info/entry_points.txt,sha256=6Nqq2iVQSRhNAC_mN4PA35mi0nyIjhyISIL29__tKg8,61
+cs272_project-0.2.0.dist-info/top_level.txt,sha256=EtSRQxgN5oO-vyiWcbRE_acNjoDVeX_z-MOrwaqZmmo,14
+cs272_project-0.2.0.dist-info/RECORD,,
