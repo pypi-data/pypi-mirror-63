@@ -1,0 +1,13 @@
+covidify/README.md,sha256=PwvaaDrm2hnAiHj3EUuFU7u4bQ9ZL-uJuhUAf4HE1sA,300
+covidify/__init__.py,sha256=s3ACyjEvx7nvj7NSTusUqiN2fwxRpEvXk0he4C1_xBw,339
+covidify/cli.py,sha256=PujF98P-0Vrf5tdMiVvux6pjFceJ2vDvX1LgxxkXoFI,1922
+covidify/config.py,sha256=Ah8eBSojPF-qgk67wrDfGgY22Q4RBaUneMR7l8X_a4s,300
+covidify/data_exploration.py,sha256=33A7kPpZrAYP88f-aTvdkIhQX_aF9w7Bx5SAF2lOxP4,5788
+covidify/data_prep.py,sha256=nBqNMMGbqdFjb3aVB2SZqS9dWi_qHUa--nMfUtmV_Ws,9680
+covidify/pipeline.sh,sha256=dzAm2fdxMe4U5kFctwKoeN6Dhf4dwDxY0T_1YjVnt0g,497
+covidify-0.1.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+covidify-0.1.5.dist-info/METADATA,sha256=cF9sFeCXyiQXJURFIUcfZQYdegCVIVzy0u53rmcHcpU,5127
+covidify-0.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+covidify-0.1.5.dist-info/entry_points.txt,sha256=lWe1QtSiWG_zhrzHzFm_m6XRfFqsPKs_b7z_j9iHj7M,47
+covidify-0.1.5.dist-info/top_level.txt,sha256=V0hsEo9zvqz9JAwQuyi8DvhQ1AADO5d1OVQlCMJRhPg,9
+covidify-0.1.5.dist-info/RECORD,,
