@@ -1,0 +1,84 @@
+# pwnedpasswords tool
+
+This code enables efficient querying of the [Pwned Passwords](https://haveibeenpwned.com/Passwords) database,
+*without* connecting to an external web service. This is primarily a python port of [pwnedpass](https://github.com/tylerchr/pwnedpass).
+This version uses the full 32 bit integer for each pwned count, and the searching code is written in python instead
+of Go since I need to use it in a Flask web application.
+
+## Binary file conversion tool
+
+*If you'd rather not go to the hassle of running this, you can download a copy of the .bin file
+[off my site](https://watch.lambda.dance/~lambda/pwned-passwords-v5.bin).*
+
+First download the latest Pwned Passwords SHA-1 file from here: <https://haveibeenpwned.com/Passwords>.
+Pick the one that's ordered by hash.
+
+```
+$ make
+go build rewrite.go
+# command-line-arguments
+loadinternal: cannot find runtime/cgo
+$ 7z e -so pwned-passwords-sha1-ordered-by-hash-v5.7z pwned-passwords-sha1-ordered-by-hash-v5.txt | ./rewrite pwned-passwords-v5.bin
+Reserving space for the index segment...
+Writing data segment...
+Writing index segment...
+OK
+```
+
+The SHA-256 hash of the outputted file should be **e49b811e38a3e64d0c79aac3d6a46e0eaa0011f47603b91e131fa6aac61ea43a**.
+
+## Testing the binary file
+
+Assuming you did use v5 of the pwned passwords file, you can test the output file was generated correctly by
+running `./test.py <path to the binary file>`.
+
+## Python search tool
+
+Included is a python module, `pwnedpass.py` that can be used as a CLI script or a library. You can install both using
+pip:
+
+```
+pip install pwnedpass
+```
+
+### CLI
+
+```
+$ pwnedpass pwned-passwords-v5.bin 9e7c97801cb4cce87b6c02f98291a6420e6400ad
+6753
+$ echo $?
+2
+$ pwnedpass pwned-passwords-v5.bin 4e0ff63499ff9931ec2980c6a71d63cab4f94f99
+$ echo $?
+0
+$ pwnedpass pwned-passwords-v5.bin
+Password: 
+6753
+```
+
+Where `pwned-passwords-v5.bin` is the output of the rewrite tool.
+
+* For compromised password hashes, output the number of times the password was compromised, and return an unsuccessful error code != 1.
+* For non-compromised password hashes, output nothing successfully.
+
+### As a library
+
+```
+import hashlib
+import pwnedpass
+
+user_password = read_password_from_web_form()
+
+with open('pwned-passwords-v5.bin', 'rb') as f:
+	if count := pwnedpass.search(f, hashlib.sha1(user_password.encode()).digest()):
+		return f'Please use a different password. This one has been compromised {count} times.'
+	else:
+		# DO NOT USE the sha1 digest in your user database. SHA1 should *only* be used for checking if it's compromised.
+		hash = salt_and_hash_password(user_password)
+		save_to_database(hash)
+```
+
+## License
+
+* `pwnedpass.py` and `test.py` are under the BlueOak Model License v1.0.0. See LICENSE.md for details.
+* `rewrite.go` is used under the BSD 3-clause license. See that file for details.
