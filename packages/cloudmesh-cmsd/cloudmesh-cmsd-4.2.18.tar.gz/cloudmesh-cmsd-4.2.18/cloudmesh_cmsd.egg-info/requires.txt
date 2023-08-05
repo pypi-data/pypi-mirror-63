@@ -1,0 +1,5 @@
+psutil
+cloudmesh-common
+cloudmesh-cmd5
+cloudmesh-configuration
+cloudmesh-gui
