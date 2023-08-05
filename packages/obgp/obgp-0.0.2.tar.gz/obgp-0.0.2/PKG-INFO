@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: obgp
+Version: 0.0.2
+Summary: Open Book Genome Project
+Home-page: https://github.com/Open-Book-Genome-Project/sequencer
+Author: OBGP
+Author-email: michael.karpeles@gmail.com
+License: LICENSE
+Description: # sequencer
+        A collection of tasks for sequencing and fingerprinting book fulltext
+        
+Keywords: open book genome analysis fulltext
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
