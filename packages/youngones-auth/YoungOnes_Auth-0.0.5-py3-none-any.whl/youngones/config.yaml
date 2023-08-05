@@ -1,0 +1,21 @@
+settings:
+  url: https://auth.api.youngones
+  actions:
+    login: /oauth/token
+    register: /users
+    who_am_i: /users/me
+    logout: /logout
+  environs:
+    local: .local
+    staging: .dev
+    production: .io
+  http:
+    max_retries: 3
+    timeout: 10  # For future.
+  scopes:
+    grant_type: password
+  credentials:
+    client_id: ""  # Required, retrieved manually from Auth
+    client_secret: ""  # Required, retrieved manually from Auth
+    username: ""  # Set dynamically, leave key.
+    password: ""  # Set dynamically, leave key.
