@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: user-tools
+Version: 0.0.3
+Summary: 个人相关工具
+Home-page: https://github.com/Skypekey/user_tools
+Author: SkypeKey
+Author-email: enablekey@outlook.com
+License: GNU GPLv3
+Project-URL: Documentation, https://github.com/Skypekey/user_tools/wiki
+Project-URL: Source, https://github.com/Skypekey/user_tools
+Project-URL: Tracker, https://github.com/Skypekey/user_tools/issues
+Keywords: time file json
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# user_tools
+
+个人使用部分常用脚本。
+
