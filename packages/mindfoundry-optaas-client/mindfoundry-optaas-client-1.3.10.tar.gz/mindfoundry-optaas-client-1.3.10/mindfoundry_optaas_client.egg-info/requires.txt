@@ -1,0 +1,6 @@
+requests
+holoviews
+plotly
+
+[sklearn]
+scikit-learn
