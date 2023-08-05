@@ -1,0 +1,12 @@
+dataset/__init__.py,sha256=gZJ19XqiDwDfi8GhWmk36qFh4ymWSSPGhAl32esGM90,2253
+dataset/chunked.py,sha256=zZaZm0gR_hCzDrRnogqwkgNZUY8EryK-bKTCZIyvqnc,846
+dataset/database.py,sha256=eevXil45FShtN_1D-HHcaD5quAUlJCSza3o69X23K5E,9785
+dataset/table.py,sha256=ef_YZVBxHkxpmKTDpF9npS4JsYd5C95kbNBQj2GYNnY,26854
+dataset/types.py,sha256=JNoy9smdN6T42W-4gPsp67kh1voIAu1PvTD43nlXFRk,1108
+dataset/util.py,sha256=qrOSYPZq2c3bMtoUGWtANUxgbz6xxYz9BXJJoxTPP6k,3368
+dataset-1.2.3.dist-info/LICENSE.txt,sha256=Vgm6HhOV7-JiCwHQp6ZhJstX-bYr7vndLOKWlzRqaZI,1108
+dataset-1.2.3.dist-info/METADATA,sha256=9CFiBHHCl_1siW9Sy3pwI4pjKDMem6a3eDUKP_FQ6Aw,792
+dataset-1.2.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+dataset-1.2.3.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dataset-1.2.3.dist-info/top_level.txt,sha256=azD5Wy9MBv9bfMbTscYXdFdDxcIUlm2bl46qT0i1ra4,8
+dataset-1.2.3.dist-info/RECORD,,
