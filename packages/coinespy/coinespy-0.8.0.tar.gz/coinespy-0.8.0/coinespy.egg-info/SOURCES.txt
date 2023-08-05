@@ -1,0 +1,13 @@
+README.md
+setup.py
+coinespy/__init__.py
+coinespy/libcoines.dylib
+coinespy/libcoines_32.dll
+coinespy/libcoines_32.so
+coinespy/libcoines_64.dll
+coinespy/libcoines_64.so
+coinespy/libcoines_armv7_32.so
+coinespy.egg-info/PKG-INFO
+coinespy.egg-info/SOURCES.txt
+coinespy.egg-info/dependency_links.txt
+coinespy.egg-info/top_level.txt
