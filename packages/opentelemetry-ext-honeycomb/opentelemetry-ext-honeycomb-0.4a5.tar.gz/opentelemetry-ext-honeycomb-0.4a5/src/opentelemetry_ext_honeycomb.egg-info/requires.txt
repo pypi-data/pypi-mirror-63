@@ -1,0 +1,4 @@
+opentelemetry-api
+opentelemetry-ext-http-requests
+opentelemetry-sdk
+libhoney
