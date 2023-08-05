@@ -1,0 +1,8 @@
+README.md
+setup.py
+sortout/__init__.py
+sortout/test.py
+sortout.egg-info/PKG-INFO
+sortout.egg-info/SOURCES.txt
+sortout.egg-info/dependency_links.txt
+sortout.egg-info/top_level.txt
