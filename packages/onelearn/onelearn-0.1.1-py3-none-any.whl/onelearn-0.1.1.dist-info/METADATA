@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: onelearn
+Version: 0.1.1
+Summary: Machine learning algorithms for online learning
+Author: Stéphane Gaïffas
+Author-email: stephane.gaiffas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bokeh (>=1.3.4,<2.0.0)
+Requires-Dist: colorcet (>=2.0.2,<3.0.0)
+Requires-Dist: matplotlib (>=3.1,<4.0)
+Requires-Dist: numba (>=0.48,<0.49)
+Requires-Dist: numpy (>=1.17.4,<2.0.0)
+Requires-Dist: scikit-learn (>=0.22,<0.23)
+Requires-Dist: scipy (>=1.3.2,<2.0.0)
+Requires-Dist: streamlit (>=0.49.0,<0.50.0)
+Requires-Dist: tqdm (>=4.36,<5.0)
