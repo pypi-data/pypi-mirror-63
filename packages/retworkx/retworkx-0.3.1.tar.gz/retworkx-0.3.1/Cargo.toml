@@ -1,0 +1,24 @@
+[package]
+name = "retworkx"
+description = "A python graph library implemented in Rust"
+version = "0.3.1"
+authors = ["Matthew Treinish <mtreinish@kortar.org>"]
+license = "Apache-2.0"
+readme = "README.rst"
+repository = "https://github.com/mtreinish/retworkx"
+keywords = ["python", "graph"]
+
+[badges]
+travis-ci = {repository = "mtreinish/retworkx"}
+
+[lib]
+name = "retworkx"
+crate-type = ["cdylib"]
+
+[dependencies]
+petgraph = "0.5"
+fixedbitset = "0.2.0"
+
+[dependencies.pyo3]
+version = "0.8.5"
+features = ["extension-module"]
