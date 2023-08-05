@@ -1,0 +1,3 @@
+pod-base<2,>=1.0.3
+pycrypto>=2.6.1
+xmltodict>=0.12.0
