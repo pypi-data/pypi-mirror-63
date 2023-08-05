@@ -1,0 +1,4 @@
+Babel>=2.2
+Django<4,>=2.2
+enmerkar>=0.7.1
+prices>=1.0.0
