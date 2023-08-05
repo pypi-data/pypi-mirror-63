@@ -1,0 +1,10 @@
+compression_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compression_middleware/br.py,sha256=H_JvDEqoc7-5LtMUA2XrnslDl6U-G_sYjPwsnXjYDCA,863
+compression_middleware/decorators.py,sha256=7kn5L3h137FeyILrDQdc8harv3uikwWnmelFpUr1a4Q,694
+compression_middleware/middleware.py,sha256=dzZomHra9ugqpxn9YtfTonCIEUJc2XR59lEs33w6OlM,5939
+compression_middleware/zstd.py,sha256=8l2WMQTLeZdkZF68G7EDemJ-I1zfzYPpGaCEaCamDro,1697
+django_compression_middleware-0.4.0.dist-info/METADATA,sha256=sjSImCtL7Z6Uv9OkjQfSrqBYrWHz2EZN0VQcZsl8VUc,7187
+django_compression_middleware-0.4.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+django_compression_middleware-0.4.0.dist-info/top_level.txt,sha256=V-UhVEBevSRqcoy16l0FaRvT6SO_W2g8-xIFNB0HWVY,23
+django_compression_middleware-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_compression_middleware-0.4.0.dist-info/RECORD,,
