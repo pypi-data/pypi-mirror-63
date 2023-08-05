@@ -1,0 +1,16 @@
+jbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jbs/ir.py,sha256=RDSIbDdOymDUNWoXntCT3yFUoHzNH3bAogqKiNObQio,17883
+jbs/ml.py,sha256=NsIaX21BKcH0wyeT9A4BeSquJhWHqQVt8oLMN-12_9k,846
+jbs/quotations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_jbs_ir.py,sha256=URwApCsNiv9ABw40ENZecJZMsrrBJy-D9Wli4WX0nXU,6363
+tests/test_jbs_nlp.py,sha256=6aqH4X0BK2CtzcFdZsGttVGjhiKxq6Xla7917if2RNc,318
+tests/test_ml.py,sha256=nsMepnh8qkHvYwtycPLYHpFtO2oT5hZe-ufdqCMA4Lo,809
+tests/test_quotationdetection.py,sha256=n9oELEIqFUF4y2_U4g8FMfIxOpM_Wj4hbVGy9gk2vYU,1607
+tests/test_quotations.py,sha256=E4SVWWnqjCmNxqU75x0I2MZZ-IpTrpospQ60CqBxJcM,1233
+tests/test_textanalysis.py,sha256=M2FRcOjjkNKIyanMy1814NFTyYUIM7eI1vByk7jONao,1736
+jbs_utils-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+jbs_utils-0.0.3.dist-info/METADATA,sha256=gAoauMzcFNl6SdYeuIB2ZarCV6yb43aM6oxkVcBS-kk,567
+jbs_utils-0.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+jbs_utils-0.0.3.dist-info/top_level.txt,sha256=xvjG_sPgd8qiAjYZoknvw6Xput3aDHvvLXTxGOPsDdo,10
+jbs_utils-0.0.3.dist-info/RECORD,,
