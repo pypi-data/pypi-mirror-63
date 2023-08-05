@@ -1,0 +1,10 @@
+README.md
+setup.py
+epdnorway/__init__.py
+epdnorway/epdnorway.py
+epdnorway.egg-info/PKG-INFO
+epdnorway.egg-info/SOURCES.txt
+epdnorway.egg-info/dependency_links.txt
+epdnorway.egg-info/not-zip-safe
+epdnorway.egg-info/requires.txt
+epdnorway.egg-info/top_level.txt
