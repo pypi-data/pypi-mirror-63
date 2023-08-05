@@ -1,0 +1,14 @@
+[console_scripts]
+hoplite-auto-start = hoplite.auto_start:main
+hoplite-client = hoplite.main:client_main
+hoplite-server = hoplite.main:server_main
+
+[hoplite.jobs]
+hoplite.plugins.download_folder_from_ftp_job = hoplite.builtin_plugins.download_folder_from_ftp_job
+hoplite.plugins.download_network_folder_job = hoplite.builtin_plugins.download_network_folder_job
+hoplite.plugins.install_python_package_job = hoplite.builtin_plugins.install_python_package_job
+hoplite.plugins.remote_enabler_job = hoplite.builtin_plugins.remote_enabler_job
+hoplite.plugins.remote_enabler_module_job = hoplite.builtin_plugins.remote_enabler_module_job
+hoplite.plugins.sync_perforce_path_job = hoplite.builtin_plugins.sync_perforce_path_job
+hoplite.plugins.upload_to_network_folder_job = hoplite.builtin_plugins.upload_to_network_folder_job
+
