@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: todoer
+Version: 0.1.1
+Summary: Removes todo that match a certain regex.
+Home-page: https://github.com/max-wittig/todoer
+License: MIT
+Keywords: gitlab,todo
+Author: Max Wittig
+Author-email: max.wittig95@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Dist: loguru (>=0.4.1,<0.5.0)
+Requires-Dist: python-gitlab (>=2.1.0,<3.0.0)
+Project-URL: Repository, https://github.com/max-wittig/todoer
+Description-Content-Type: text/markdown
+
+# todoer
+
+Remove your todos on GitLab based on different criteria.
+
+### build
+
+```sh
+poetry install --no-dev --no-root
+poetry build
+```
+
+### installation
+
+```sh
+pip3 install dist/todoer-0.1.0-py3-none-any.whl
+```
+
+### usage
+
+Specific the following environment variables:
+
+* GITLAB_URL (defaults to `https://gitlab.com`)
+* GITLAB_TOKEN
+
+```sh
+usage: todoer [-h] [-t TITLE] [-d DESCRIPTION] [-c CREATOR]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TITLE, --title TITLE
+                        Regex of todo title to remove
+  -d DESCRIPTION, --description DESCRIPTION
+                        Regex of todo description to remove
+  -c CREATOR, --creator CREATOR
+                        Username of the issue creator
+```
+
+
