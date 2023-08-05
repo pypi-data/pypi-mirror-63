@@ -1,0 +1,9 @@
+pylsqpack/__init__.pyi,sha256=DtFR_NjgfyjmN1gPTx00ywfvW6uXmj1KftXqmriKHoY,801
+pylsqpack/_binding.cpython-35m-i386-linux-gnu.so,sha256=-XHH3P76ZPY5VoOh_fijzPap3AlxiZOCScjn8qA0XlA,1019248
+pylsqpack/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+pylsqpack/about.py,sha256=Ol0Tu_s2G4T2FlKGu-XB8By48VJ_qRMNCcft87-8GJc,240
+pylsqpack/__init__.py,sha256=g-Vs2JN1XT9UrZk42GimdvicNTAY55jmgkD5WfUpSxA,191
+pylsqpack-0.3.6.dist-info/top_level.txt,sha256=QS-Tl3rMYCkkfn67PH4TbFiOG1kpS_v96u4MIpw0LQ0,10
+pylsqpack-0.3.6.dist-info/RECORD,,
+pylsqpack-0.3.6.dist-info/METADATA,sha256=c7toP1LXmblzLGzJmIWhM5rVwjzgu2pwgs97Dlau4z0,1881
+pylsqpack-0.3.6.dist-info/WHEEL,sha256=5uJgXrzESlz5BEVUtG_qT5iZkFr_xW73vqby14S5SqE,107
