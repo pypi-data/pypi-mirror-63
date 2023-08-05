@@ -1,0 +1,306 @@
+all:
+    `ctx.opts = None`
+    (
+        args_def
+        `ctx.opts = args_def.res`
+    )?
+    rule_defs
+    `ctx.rule_defs = rule_defs.res`
+    end
+
+
+end:
+    '$'
+
+
+comma:
+    ','
+
+
+colon:
+    ':'
+
+
+equal_sign:
+    '='
+
+
+at_sign:
+    '@'
+
+
+pipe_sign:
+    r'\|'
+
+
+parenthesis_start:
+    r'\('
+
+
+parenthesis_end:
+    r'\)'
+
+
+bracket_start:
+    r'\['
+
+
+bracket_end:
+    r'\]'
+
+
+occ01_trailer:
+    r'\?'
+
+
+occ0m_trailer:
+    r'\*'
+
+
+occ1m_trailer:
+    r'\+'
+
+
+none:
+    'None(?![a-zA-Z0-9_])'
+    `ctx.res = None`
+
+
+boolean:
+    '(True|False)(?![a-zA-Z0-9_])'
+    `ctx.res = True if (boolean.res.txt == 'True') else False`
+
+
+number:
+    r"""
+([-+])?         # Sign
+(?=\d|[.]\d)    # Next is an integer part or a fraction part
+(\d*)           # Integer part
+([.]\d*)?       # Fraction part
+(e[-+]?\d+)?    # Exponent part
+""" @(flags='re.VERBOSE | re.IGNORECASE')
+    `ctx.res = eval(number.res.txt)`
+
+
+string:
+    'r?(\'\'\'|"""|\'|")((?:[^\\\\]|\\\\.)*?)(\\1)'
+    `ctx.res = string.res`
+
+
+literal:
+    none
+    `ctx.res = none.res`
+    |
+    boolean
+    `ctx.res = boolean.res`
+    |
+    number
+    `ctx.res = number.res`
+    |
+    string
+    `ctx.res = eval(string.res.txt)`
+
+
+rule_name:
+    r'\b([a-zA-Z_][a-zA-Z0-9_]*)\b(?=:)'
+    `ctx.res = rule_name.res`
+
+
+name:
+    r'\b([a-zA-Z_][a-zA-Z0-9_]*)\b(?!:)'
+    `ctx.res = name.res`
+
+
+args_def:
+    at_sign
+    args_list
+    `ctx.res = dict(args_list.res)`
+
+
+args_list:
+    `ctx.res = []`
+    parenthesis_start
+    (
+        parenthesis_end
+        |
+        args_list_item
+    )
+
+
+args_list_item:
+    `ctx.res = ctx.par.res`
+    arg_expr
+    `ctx.res.append(arg_expr.res)`
+    (
+        parenthesis_end
+        |
+        comma
+        (
+            parenthesis_end
+            |
+            args_list_item
+        )
+    )
+
+
+arg_expr:
+    name
+    equal_sign
+    literal
+    `ctx.res = (name.res.txt, literal.res)`
+
+
+rule_defs:
+    `ctx.res = []`
+    (
+        rule_def
+        `ctx.res.append(rule_def.res)`
+    )+
+
+
+rule_def:
+    rule_name
+    colon
+    `args = None`
+    (
+        args_def
+        `args = args_def.res`
+    )?
+    or_expr
+    ```
+    ctx.res = RuleDef(
+        name=rule_name.res.txt,
+        item=or_expr.res,
+        args=args,
+    )
+    ```
+
+
+or_expr:
+    seq_expr
+    `items = [seq_expr.res]`
+    (
+        pipe_sign
+        seq_expr
+        `items.append(seq_expr.res)`
+    )*
+    `ctx.res = AltExpr(items) if len(items) > 1 else items[0]`
+
+
+seq_expr:
+    `items = []`
+    (
+        (
+            code
+            `items.append(code.res)`
+        )*
+        occ_expr
+        `items.append(occ_expr.res)`
+        (
+            code
+            `items.append(code.res)`
+        )*
+    )+
+    `ctx.res = SeqExpr(items) if len(items) > 1 else items[0]`
+
+
+code:
+    r'(`+)((?:.|\n)*?)\1'
+    `ctx.res = Code(code.res.match_obj.group(2))`
+
+
+occ_expr:
+    occ01_group
+    `ctx.res = occ01_group.res`
+    |
+    atom
+    `occ_type = None`
+    (
+        occ01_trailer
+        `occ_type = 0`
+        |
+        occ0m_trailer
+        `occ_type = 1`
+        |
+        occ1m_trailer
+        `occ_type = 2`
+    )?
+    ```
+    if occ_type is None:
+        ctx.res = atom.res
+    elif occ_type == 0:
+        item = atom.res
+
+        while isinstance(item, Occ01Expr):
+            item = item.item
+
+        if isinstance(item, Occ0mExpr):
+            ctx.res = item
+        elif isinstance(item, Occ1mExpr):
+            ctx.res = Occ0mExpr(item.item)
+        else:
+            ctx.res = Occ01Expr(item)
+    elif occ_type == 1:
+        item = atom.res
+
+        while isinstance(item, (Occ01Expr, Occ0mExpr, Occ1mExpr)):
+            item = item.item
+
+        ctx.res = Occ0mExpr(item)
+    elif occ_type == 2:
+        item = atom.res
+
+        while isinstance(item, Occ1mExpr):
+            item = item.item
+
+        if isinstance(item, Occ01Expr):
+            ctx.res = Occ0mExpr(item.item)
+        elif isinstance(item, Occ0mExpr):
+            ctx.res = item
+        else:
+            ctx.res = Occ1mExpr(item)
+    else:
+        raise ValueError(occ_type)
+    ```
+
+
+occ01_group:
+    bracket_start
+    or_expr
+    bracket_end
+    ```
+    item = or_expr.res
+
+    while isinstance(item, Occ01Expr):
+        item = item.item
+
+    if isinstance(item, Occ0mExpr):
+        ctx.res = item
+    elif isinstance(item, Occ1mExpr):
+        ctx.res = Occ0mExpr(item.item)
+    else:
+        ctx.res = Occ01Expr(item)
+    ```
+
+
+atom:
+    string
+    `args = None`
+    (
+        args_def
+        `args = args_def.res`
+    )?
+    `ctx.res = Pattern(string.res.txt, args=args)`
+    |
+    name
+    `ctx.res = RuleRef(name.res.txt)`
+    |
+    group
+    `ctx.res = group.res`
+
+
+group:
+    parenthesis_start
+    or_expr
+    parenthesis_end
+    `ctx.res = or_expr.res`

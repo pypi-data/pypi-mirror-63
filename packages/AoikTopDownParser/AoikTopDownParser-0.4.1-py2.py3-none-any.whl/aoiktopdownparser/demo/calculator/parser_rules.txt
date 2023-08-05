@@ -1,0 +1,53 @@
+goal:
+    expr
+    `ctx.res = expr.res`
+    end
+
+
+end:
+    '$'
+
+
+expr:
+    factor
+    `value = factor.res`
+    (
+        '[+]'
+        factor
+        `value += factor.res`
+        |
+        '-'
+        factor
+        `value -= factor.res`
+    )*
+    `ctx.res = value`
+
+
+factor:
+    term
+    `value = term.res`
+    (
+        '[*]'
+        term
+        `value *= term.res`
+        |
+        '/'
+        term
+        `value /= term.res`
+    )*
+    `ctx.res = value`
+
+
+term:
+    num
+    `ctx.res = num.res`
+    |
+    '[(]'
+    expr
+    '[)]'
+    `ctx.res = expr.res`
+
+
+num:
+    '[0-9]+'
+    `ctx.res = int(num.res.match_obj.group())`
