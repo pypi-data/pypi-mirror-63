@@ -1,0 +1,12 @@
+javaproperties/__init__.py,sha256=cpwD0HSjB12Sb_vC1RvOTkWN4BFgJddqdkixNIKBWps,1739
+javaproperties/propclass.py,sha256=eqCxN9g-R-57_xR6vKZ1kDnVAFmdnc791_SwHiBumZE,8760
+javaproperties/propfile.py,sha256=lAUJiUSH_I45TmewpBcbpYVim628NUoXPTN1mXhCZ-k,18798
+javaproperties/reading.py,sha256=YvWdDUfBjVm2yGbbg3r5GIi0_aMAWGTBTM7ZJq-Db9w,11458
+javaproperties/util.py,sha256=pdZYc-2reStGZcooF3yZYRxmMv6ywwFJQHpZQPXgPYQ,2786
+javaproperties/writing.py,sha256=7qeTnjD4pCSuGelyEQuC3Q1aPViCAkEWnz6u1ZlxESc,13685
+javaproperties/xmlprops.py,sha256=ByIMj-HuMnt3cycCGjZxmmBhXdSlDFeHUCam8ClWPjY,6805
+javaproperties-0.7.0.dist-info/LICENSE,sha256=1OqB0ttCenTfc22XK3-2LXHVPVLDfTS3buwyUoNcz08,1095
+javaproperties-0.7.0.dist-info/METADATA,sha256=F0EqOyC2XTYS9ZfW0W3u3z7Sz3HRR9i90nDh4r30j3w,6193
+javaproperties-0.7.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+javaproperties-0.7.0.dist-info/top_level.txt,sha256=-fiHT33LF5lxBYllInD-gT-TpQskYGQoEQ1wyv1Q-ek,15
+javaproperties-0.7.0.dist-info/RECORD,,
