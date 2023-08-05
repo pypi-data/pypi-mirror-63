@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+linaro-test-definitions = testdefinitionsmkdocs:LinaroTestDefinitionsMkDocsPlugin
+
