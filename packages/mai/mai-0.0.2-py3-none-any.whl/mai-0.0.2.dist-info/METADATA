@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mai
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://gitee.com/whghcyx/sai
+Author: hcyx
+Author-email: whghcyx@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torchsummaryX
+Requires-Dist: flyai
+
+UNKNOWN
+
+
