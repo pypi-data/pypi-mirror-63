@@ -1,0 +1,54 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Film format</td>
+    <td>{% if object.format is not None %}<a href="{% url 'format-detail' object.format.id %}">{{ object.format }}</a>{% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td>Filmstock</td>
+    <td>{% if object.filmstock is not None %}<a
+        href="{% url 'filmstock-detail' object.filmstock.id %}">{{ object.filmstock }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Purchase date</td>
+    <td>{{ object.purchase_date }}</td>
+  </tr>
+  <tr>
+    <td>Cost</td>
+    <td>{{ object.cost }}</td>
+  </tr>
+  <tr>
+    <td>Source</td>
+    <td>{{ object.source }}</td>
+  </tr>
+  <tr>
+    <td>Batch code</td>
+    <td>{{ object.batch }}</td>
+  </tr>
+  <tr>
+    <td>Expiry date</td>
+    <td>{{ object.expiry }}</td>
+  </tr>
+</table>
+
+<a data-toggle="collapse" href="#collapseFilms" role="button" aria-expanded="false" aria-controls="collapseFilms">
+  Films cut from this bulk film
+</a>
+<div class="collapse" id="collapseFilms">
+  <table class="table table-hover">
+    <tr>
+      <th>Film ID</th>
+      <th>Title</th>
+    </tr>
+    {% for film in bulkfilm.film_set.all %}
+    <tr>
+      <td>{{ film.id }}</td>
+      <td>{{ film.title }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
