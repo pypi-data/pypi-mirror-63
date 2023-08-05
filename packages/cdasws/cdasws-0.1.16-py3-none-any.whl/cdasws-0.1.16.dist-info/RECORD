@@ -1,0 +1,12 @@
+cdasws/__init__.py,sha256=XZI0Txfah_2CNvKEAIoAGiooQFZyxWsUfgpcW2o3kcA,36064
+cdasws/__main__.py,sha256=MJvrsypC1OQJVcC_95wXhsjqbaMfeo3dTedcQtkaKCc,6994
+cdasws/cdasws.py,sha256=FnYu0L-7SVxy1uYoLLQ6GZcN4QOhPG-o7R2SaM6RR6g,29596
+cdasws/datarequest.py,sha256=puzVTM0aJ0Tqp44YLd1I6-fuAMcudsljulAB_hJURFU,19006
+cdasws/timeinterval.py,sha256=VuC0nkHW_ZKNagXd7VegyKtvdJ_sXu-aPh4CTdqwEtA,4718
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cdasws.py,sha256=9LE2420BB4ZA4dCOXJa_DCRkQ8XtZsKH1ILEe4gh76s,24403
+cdasws-0.1.16.dist-info/LICENSE,sha256=og42scUY42lPLGBg0wHt6JtrbeInVEr5xojyrguPqrQ,12583
+cdasws-0.1.16.dist-info/METADATA,sha256=cunLBEr0xCqCbUEutto4Gil0VrD6jdDViCtE7anCOpY,8381
+cdasws-0.1.16.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cdasws-0.1.16.dist-info/top_level.txt,sha256=GyIvHk5F6ysnTdDfnQsjZbTBt_EYrKyC0oeiIt9l-AE,7
+cdasws-0.1.16.dist-info/RECORD,,
