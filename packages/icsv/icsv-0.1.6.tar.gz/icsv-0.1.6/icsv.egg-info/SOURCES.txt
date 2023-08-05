@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+icsv/__init__.py
+icsv/csv
+icsv.egg-info/PKG-INFO
+icsv.egg-info/SOURCES.txt
+icsv.egg-info/dependency_links.txt
+icsv.egg-info/top_level.txt
