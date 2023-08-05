@@ -1,0 +1,4 @@
+[console_scripts]
+porerefinerd = porerefiner.porerefiner:cli
+prfr = porerefiner.cli:cli
+
