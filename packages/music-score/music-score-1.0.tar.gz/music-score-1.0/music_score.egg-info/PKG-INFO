@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: music-score
+Version: 1.0
+Summary: 使用re模块解析曲谱(简谱)的程序。
+A program that using re module to analyze music score (simplified score).
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: 详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: terminal,command-line,console
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Topic :: Terminals
