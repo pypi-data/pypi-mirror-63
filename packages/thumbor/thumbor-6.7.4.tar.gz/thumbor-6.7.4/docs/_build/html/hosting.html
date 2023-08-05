@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hosting &mdash; Thumbor 7.0.0a2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Logging" href="logging.html" />
+    <link rel="prev" title="Automated Error Handling" href="custom_error_handling.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Thumbor
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                7.0.0a2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="imaging.html">Imaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="customizing.html">Customizing Thumbor</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="administration.html">Administration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_error_handling.html">Automated Error Handling</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Hosting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#development-environment">Development Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#production-environment">Production Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#thumbor-in-the-cloud">Thumbor in the Cloud</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#running-with-docker">Running with Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#thumbor-on-openshift">Thumbor on OpenShift</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#thumbor-behind-cloudfront">Thumbor behind CloudFront</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html">Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html">Running thumbor server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="metadata.html">Image Metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="security.html">Security</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="upload.html">Upload</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">Contributors &amp; Users</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thumbor</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="administration.html">Administration</a> &raquo;</li>
+        
+      <li>Hosting</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/hosting.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hosting">
+<h1>Hosting<a class="headerlink" href="#hosting" title="Permalink to this headline">¶</a></h1>
+<p>Let’s see how would you run thumbor in different environments.</p>
+<div class="section" id="development-environment">
+<h2>Development Environment<a class="headerlink" href="#development-environment" title="Permalink to this headline">¶</a></h2>
+<p>For running it locally you just need to get a proper <a class="reference internal" href="configuration.html"><span class="doc">Configuration</span></a>
+file. You can put it at <code class="docutils literal notranslate"><span class="pre">/etc/thumbor.conf</span></code>, <code class="docutils literal notranslate"><span class="pre">~/thumbor.conf</span></code> (home folder)
+or specify it when starting thumbor.</p>
+<p>To verify if you have thumbor, just type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>thumbor --version
+</pre></div>
+</div>
+<p>It should return the version you’ve installed. Starting thumbor is as
+easy as:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>thumbor
+</pre></div>
+</div>
+<p>For more options check the <a class="reference internal" href="configuration.html"><span class="doc">Configuration</span></a> page.</p>
+</div>
+<div class="section" id="production-environment">
+<h2>Production Environment<a class="headerlink" href="#production-environment" title="Permalink to this headline">¶</a></h2>
+<p>Other than having the proper <a class="reference internal" href="configuration.html"><span class="doc">Configuration</span></a> file for your
+environment, we have some recommendations on how to run thumbor in
+production.</p>
+<p>Our first recommendation is to run more than one instance of it. You can
+specify different ports using thumbor easily. This will make sure that
+your service stays responsive even if one of the processes die.</p>
+<p>We also recommend having some form of load balance that distributes the
+load between the aforementioned processes. We are using NGINX to do it,
+but there are more sophisticated load balance softwares around. thumbor
+supports health checking under the <code class="docutils literal notranslate"><span class="pre">/healthcheck</span></code> URI if you need to
+use it.</p>
+<p>Other than that, you run it using the thumbor console app specifying the
+arguments, like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>thumbor --port<span class="o">=</span><span class="m">8888</span> --conf<span class="o">=</span><span class="s2">&quot;~/mythumbor.conf&quot;</span>
+</pre></div>
+</div>
+<p>We recommend using an application such as Supervisor
+(<a class="reference external" href="http://supervisord.org/index.html">http://supervisord.org/index.html</a>) to monitor your services. An
+example of a <code class="docutils literal notranslate"><span class="pre">supervisord.conf</span></code> file would be:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">supervisord</span><span class="p">]</span>
+<span class="n">logfile</span> <span class="o">=</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">thumbor</span><span class="o">/</span><span class="n">logs</span><span class="o">/</span><span class="n">supervisord</span><span class="o">.</span><span class="n">log</span>
+<span class="n">logfile_maxbytes</span> <span class="o">=</span> <span class="mi">50</span><span class="n">MB</span>
+<span class="n">logfile_backups</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">loglevel</span> <span class="o">=</span> <span class="n">info</span>
+<span class="n">pidfile</span> <span class="o">=</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">thumbor</span><span class="o">/</span><span class="n">supervisord</span><span class="o">.</span><span class="n">pid</span>
+<span class="n">user</span> <span class="o">=</span> <span class="n">thumbor</span>
+
+<span class="p">[</span><span class="n">program</span><span class="p">:</span><span class="n">thumbor</span><span class="p">]</span>
+<span class="n">command</span><span class="o">=</span><span class="n">thumbor</span> <span class="o">--</span><span class="n">port</span><span class="o">=</span><span class="mi">800</span><span class="o">%</span><span class="p">(</span><span class="n">process_num</span><span class="p">)</span><span class="n">s</span> <span class="o">--</span><span class="n">conf</span><span class="o">=/</span><span class="n">etc</span><span class="o">/</span><span class="n">thumbor800</span><span class="o">%</span><span class="p">(</span><span class="n">process_num</span><span class="p">)</span><span class="n">s</span><span class="o">.</span><span class="n">conf</span>
+<span class="n">process_name</span><span class="o">=</span><span class="n">thumbor800</span><span class="o">%</span><span class="p">(</span><span class="n">process_num</span><span class="p">)</span><span class="n">s</span>
+<span class="n">numprocs</span><span class="o">=</span><span class="mi">4</span>
+<span class="n">user</span><span class="o">=</span><span class="n">thumbor</span>
+<span class="n">directory</span><span class="o">=/</span><span class="n">home</span><span class="o">/</span><span class="n">thumbor</span><span class="o">/</span>
+<span class="n">autostart</span><span class="o">=</span><span class="n">true</span>
+<span class="n">autorestart</span><span class="o">=</span><span class="n">true</span>
+<span class="n">startretries</span><span class="o">=</span><span class="mi">3</span>
+<span class="n">stopsignal</span><span class="o">=</span><span class="n">TERM</span>
+<span class="n">stdout_logfile</span><span class="o">=/</span><span class="n">home</span><span class="o">/</span><span class="n">thumbor</span><span class="o">/</span><span class="n">logs</span><span class="o">/</span><span class="n">thumbor800</span><span class="o">%</span><span class="p">(</span><span class="n">process_num</span><span class="p">)</span><span class="n">s</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">log</span>
+<span class="n">stdout_logfile_maxbytes</span><span class="o">=</span><span class="mi">1</span><span class="n">MB</span>
+<span class="n">stdout_logfile_backups</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">stderr_logfile</span><span class="o">=/</span><span class="n">home</span><span class="o">/</span><span class="n">thumbor</span><span class="o">/</span><span class="n">logs</span><span class="o">/</span><span class="n">thumbor800</span><span class="o">%</span><span class="p">(</span><span class="n">process_num</span><span class="p">)</span><span class="n">s</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">log</span>
+<span class="n">stderr_logfile_maxbytes</span><span class="o">=</span><span class="mi">1</span><span class="n">MB</span>
+<span class="n">stderr_logfile_backups</span><span class="o">=</span><span class="mi">10</span>
+</pre></div>
+</div>
+<p>This configuration file makes sure that supervisor starts 4 processes of
+thumbor on the 8000, 8001, 8002 and 8003 ports, each with a different
+configuration file (thumbor8000.conf, thumbor8001.conf,
+thumbor8002.conf, thumbor8003.conf all under /etc folder). The other
+settings are optional, but if you need help with supervisor’s settings
+it has extensive documentation online
+(<a class="reference external" href="http://supervisord.org/introduction.html">http://supervisord.org/introduction.html</a>).</p>
+</div>
+<div class="section" id="thumbor-in-the-cloud">
+<h2>Thumbor in the Cloud<a class="headerlink" href="#thumbor-in-the-cloud" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="running-with-docker">
+<h3>Running with Docker<a class="headerlink" href="#running-with-docker" title="Permalink to this headline">¶</a></h3>
+<p>Running thumbor with docker is as easy as:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run -p 8888:80 minimalcompact/thumbor
+...
+$ curl http://localhost:8888/healthcheck
+WORKING%
+</pre></div>
+</div>
+<p>For more details check the <a class="reference external" href="https://github.com/MinimalCompact/thumbor">MinimalCompact thumbor docker image</a>.</p>
+</div>
+</div>
+<div class="section" id="thumbor-on-openshift">
+<h2>Thumbor on OpenShift<a class="headerlink" href="#thumbor-on-openshift" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This may be outdated since thumbor moved to python 3.</p>
+</div>
+<p>There’s a project showing how to deploy a working version on
+<a class="reference external" href="https://www.openshift.com/">OpenShift</a>
+<a class="reference external" href="https://github.com/rafaelcaricio/thumbor-openshift-example">https://github.com/rafaelcaricio/thumbor-openshift-example</a></p>
+</div>
+<div class="section" id="thumbor-behind-cloudfront">
+<h2>Thumbor behind CloudFront<a class="headerlink" href="#thumbor-behind-cloudfront" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This may be outdated since thumbor moved to python 3.</p>
+</div>
+<p>The awesome people at <a class="reference external" href="http://yipit.com">yipit</a> are using thumbor
+behind the CloudFront
+<a class="reference external" href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a> at
+Amazon.</p>
+<p>The detailed information on how to do it can be seen at <a class="reference external" href="http://tech.yipit.com/2013/01/03/how-yipit-scales-thumbnailing-with-thumbor-and-cloudfront/">this blog
+post</a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="logging.html" class="btn btn-neutral float-right" title="Logging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="custom_error_handling.html" class="btn btn-neutral float-left" title="Automated Error Handling" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Globo.com
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
