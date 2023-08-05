@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pyphysim
+Version: 0.3
+Summary: Implementation of a digital communication (physical layer) in python
+Home-page: https://github.com/darcamo/pyphysim
+License: GPL-2.0-or-later
+Keywords: phy,QAM,PSK,QPSK,BPSK,OFDM,Modulation,Monte Carlo
+Author: Darlan Cavalcante Moreira
+Author-email: darcamo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: configobj
+Requires-Dist: matplotlib
+Requires-Dist: numba (>=0.48.0,<0.49.0)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Project-URL: Repository, https://github.com/darcamo/pyphysim
+Description-Content-Type: text/markdown
+
+![Testing](https://travis-ci.org/darcamo/pyphysim.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/darcamo/pyphysim/badge.svg?branch=master)](https://coveralls.io/github/darcamo/pyphysim?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/pyphysim/badge/?version=latest)](http://pyphysim.readthedocs.io/en/latest/?badge=latest)
+
+PyPhysim
+========
+
+Simulation of Digital Communication (physical layer) in Python.
+
+This includes classes related to digital modulation, AWGN channels, MIMO,
+OFDM, etc.. It also includes classes related to multiuser transmission such
+as block diagonalization, interference alignment, etc.
+
+Furthermore, a framework for implementing Monte Carlo simulations is also
+implemented (see the pyphysim.simulations package).
+
+
+Note
+----
+
+Install [poetry](https://python-poetry.org/), clone this repository and then use
+the command `poetry install` to install pyphysim.
+
+You can also directly install it from pypi with `pip install pyphysim`.
+
