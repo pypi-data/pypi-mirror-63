@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        wt-mgr=wt_mgr.wt_mgr:main
+    
