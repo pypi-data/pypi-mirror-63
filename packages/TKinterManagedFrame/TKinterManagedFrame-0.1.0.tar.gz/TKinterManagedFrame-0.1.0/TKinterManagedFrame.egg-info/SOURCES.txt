@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+TKinterManagedFrame/ManagedFrame.py
+TKinterManagedFrame.egg-info/PKG-INFO
+TKinterManagedFrame.egg-info/SOURCES.txt
+TKinterManagedFrame.egg-info/dependency_links.txt
+TKinterManagedFrame.egg-info/requires.txt
+TKinterManagedFrame.egg-info/top_level.txt
