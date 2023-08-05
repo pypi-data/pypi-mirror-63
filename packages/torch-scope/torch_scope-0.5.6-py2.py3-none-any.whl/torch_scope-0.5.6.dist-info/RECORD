@@ -1,0 +1,11 @@
+torch_scope/__init__.py,sha256=m-pI_KE0GdHsIfcBWsZSynQRQPv9We70RyjdUQDaLYY,517
+torch_scope/__main__.py,sha256=JXsAEeVNRiASwLxOpzv1n8Wl8W0Lzjw2HoQhU40TfY4,142
+torch_scope/commands.py,sha256=33RLaz6LXwxqlvyCfbdVRTo6hOJpVLo0CIbfR8DsmrU,1653
+torch_scope/file_manager.py,sha256=l4SMDzdknbS9WZebwn7VtlYZ6I5ItmQmHRNwb7FOXtM,1733
+torch_scope/sheet_writer.py,sha256=Hvoq4K1qx7I2Ui1z0nIUwIi5XwtYi78Twuh8y8php14,4977
+torch_scope/wrapper.py,sha256=HIZsYKyqOyDPjHViZe4sS6-DOUQKib7uud3nEmgPLAc,26657
+torch_scope-0.5.6.dist-info/METADATA,sha256=1F_ekK5y5RUNhXAlVoJERIKp4PByXU6ZgPJ37So7dHc,4981
+torch_scope-0.5.6.dist-info/RECORD,,
+torch_scope-0.5.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+torch_scope-0.5.6.dist-info/entry_points.txt,sha256=qYf6hlPZSN4czdp_zhtch3kTbOSnLYGmsM-_83W3Zms,58
+torch_scope-0.5.6.dist-info/top_level.txt,sha256=sjzWkwA2gtZbCYFYXO64PQFxIjQrMY31pQ991_rVGLM,12
