@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: czmodel
+Version: 0.1.0
+Summary: A conversion tool for TensorFlow ANNs to CZModel
+Home-page: UNKNOWN
+Author: Sebastian Soyer
+Author-email: sebastian.soyer@zeiss.com
+License: UNKNOWN
+Project-URL: Demo, https://notebooks.azure.com/sebastian-soyer/projects/czmodel
+Project-URL: ZEN Intellesis, https://www.zeiss.de/mikroskopie/produkte/mikroskopsoftware/zen-intellesis-image-segmentation-by-deep-learning.html
+Description: # ANN to CZModel conversion toolbox
+        This project provides simple-to-use conversion tools to generate a CZModel file from a 
+        [TensorFlow](https://www.tensorflow.org/) model that resides in memory or on disk to be usable in the 
+        [ZEN Intellesis](https://www.zeiss.de/mikroskopie/produkte/mikroskopsoftware/zen-intellesis-image-segmentation-by-deep-learning.html) module.
+        
+        ## System setup
+        The current version of this toolbox only requires a fresh Python 3.x installation. 
+        It was tested with Python 3.7 on Windows.
+        
+        ## Model conversion
+        The toolbox provides a `convert` module that features all supported conversion strategies. It currently supports 
+        converting Keras models in memory or stored on disk with a corresponding metadata JSON file.
+        
+        ### Keras models in memory
+        The toolbox also provides functionality that can be imported e.g. in the training script used to fit a Keras model. The function is accessible by running: 
+        ```python
+        from czmodel.convert import convert_from_model_spec
+        ```
+        It accepts a `tensorflow.keras.Model` that will be exported to [SavedModel](https://www.tensorflow.org/guide/saved_model) 
+        format and at the same time wrapped into a CZModel file to be compatible with the Intellesis infrastructure.  
+        To provide the meta data, the toolbox provides a ModelSpec class that must be filled with the model and a ModelMetadata 
+        instance containing the required information described in the [specification](TODO: insert final link to AnnSpec#model-metadata) 
+        file. 
+        
+        A CZModel can be created from a Keras model with the following three steps.
+        
+        ####Creating a model meta data class
+        To export a CZModel file several meta information is needed that must be provided through a `ModelMetadata` instance.
+        ```python
+        from czmodel.model_metadata import ModelMetadata
+        
+        model_metadata = ModelMetadata.from_params(name='DNNModelFromKeras', 
+                                 color_handling='ConvertToMonochrome',
+                                 pixel_type='Gray16',
+                                 classes=["Background", "Interesting Object", "Foreground"],
+                                 border_size=90,
+                                 license_file="C:\\some\\path\\to\\a\\LICENSE.txt")
+        ```
+        
+        ####Creating a model specification
+        The model and its corresponding metadata are now wrapped into a ModelSpec object.
+        ```python
+        from czmodel.model_metadata import ModelSpec
+        
+        model_spec = ModelSpec(model=model, model_metadata=model_metadata)
+        ```
+        
+        ####Converting the model
+        The actual model conversion is finally performed with the ModelSpec object and the output path and name of the CZModel 
+        file.
+        ```python
+        from czmodel.convert import convert_from_model_spec
+        
+        convert_from_model_spec(model_spec=model_spec, output_path='some/path', output_name='some_file_name')
+        ```
+        
+        ### Exported TensorFlow models
+        To convert an exported TensorFlow model the model and the provided meta data need to comply with 
+        (TODO: insert final link to AnnSpec)
+        
+        The actual conversion is triggered by either calling:
+        ```python
+        from czmodel.convert import convert_from_json_spec
+        
+        convert_from_json_spec('Path to JSON file', 'Output path', 'Model Name')
+        ```
+        or by using the command line interface of the `convert` script:
+        ```console
+        convert.py path/to/model_spec.json output/path/ output_name
+        ```
+        
+        ### Addding pre-processing layers
+        Both, `convert_from_json_spec` and `convert_from_model_spec` additionally allow specifying the following optional parameters:
+        - `spatial_dims`: Set new spatial dimensions for the new input node of the model. This parameter is expected to contain the new height 
+        and width in that order. **Note:** The spatial input dimensions can only be changed in ANN architectures that are invariant to the 
+        spatial dimensions of the input, e.g. FCNs.
+        - `preprocessing`: One or more pre-processing layers that will be prepended to the deployed model. A pre-processing 
+        layer must be derived from the `tensorflow.keras.layers.Layer` class.
+        
+        While ANN models are often trained on images in RGB(A) space, the ZEN infrastructure requires models inside a CZModel to 
+        expect inputs in BGR(A) color space. This toolbox offers pre-processing layers to convert the color space before 
+        passing the input to the model to be actually deployed. The followig code shows how to add a RGB to BGR conversion layer 
+        to a model and set its spatial input dimensions to 512x512.
+        
+        ```python
+        from czmodel.util.preprocessing import RgbToBgr
+        
+        # Define dimensions and pre-processing
+        spatial_dims = 512, 512  # Optional: Target spatial dimensions of the model
+        preprocessing = RgbToBgr()  # Optional: Pre-Processing layers to be prepended to the model. Can be a list of layers.
+        
+        # Perform conversion
+        convert_from_model_spec(model_spec=model_spec, output_path='some/path', output_name='some_file_name', spatial_dims=spatial_dims, preprocessing=preprocessing)
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
