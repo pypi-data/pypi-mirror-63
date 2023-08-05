@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: rosey-stats
+Version: 0.2020.3.7
+Summary: UNKNOWN
+Home-page: https://github.com/arose13/rosey-stats
+Author: Stephen Rose
+Author-email: me@stephenro.se
+License: BSD
+Description: # Rosey (Stats)
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
