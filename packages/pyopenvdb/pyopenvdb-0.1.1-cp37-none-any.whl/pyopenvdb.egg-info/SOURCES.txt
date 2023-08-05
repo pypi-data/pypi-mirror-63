@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version.txt
+lib/pyopenvdb.egg-info/PKG-INFO
+lib/pyopenvdb.egg-info/SOURCES.txt
+lib/pyopenvdb.egg-info/dependency_links.txt
+lib/pyopenvdb.egg-info/top_level.txt
