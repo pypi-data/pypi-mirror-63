@@ -1,0 +1,13 @@
+FHmonitor/FHmonitor_main.py,sha256=SlRqC03hyE4zoYa1leRSiqg-NNkgqDYrrhRsn8V67Jo,789
+FHmonitor/__init__.py,sha256=t1sIEdlL_GiYZrp8R1xXm1leZIdr5zF_eZ1tQkOBWuM,133
+FHmonitor/atm90_e32_pi.py,sha256=Pd_71t4aimPwdx1Y5ocI94WXW9kHmeSPyvcS_F8IlI0,16009
+FHmonitor/atm90_e32_registers.py,sha256=CZ344GLKTgU2gvX0JdVipg25FofSv9syrKq0CojceVU,8244
+FHmonitor/error_handling.py,sha256=T9XpzfprRexwwCV2i9ermNnxnkG7QSfREK2Mz6hu9LE,322
+FHmonitor/monitor.py,sha256=6RJdgo9RFbxo7JJzpMOCbXHibR3E7bm51Dk-HCWUCSU,7316
+FHmonitor/store.py,sha256=If1h2mzTLbkTLmxo1F0_ccnhw9g2i2aTgQ-rtHmTKIY,2915
+FHmonitor-0.0.4.dist-info/AUTHORS.rst,sha256=bHJDKk7trakrCjpeu8m_Y9MBUEWoTKoUKA08p29OFIM,162
+FHmonitor-0.0.4.dist-info/LICENSE,sha256=2YGEbtsVVuNY4y0gSS2GAlmc48y-jy8kNSBDXaaCOcg,1075
+FHmonitor-0.0.4.dist-info/METADATA,sha256=Oxv0cjX_vwKxMn8vH1MiINlYfoF7NKb2cJzvMu1pWLY,2919
+FHmonitor-0.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+FHmonitor-0.0.4.dist-info/top_level.txt,sha256=HBPd6a4BkSb7r8fbjBNaOQu60-KNYsk7_BIBL76wJ_8,10
+FHmonitor-0.0.4.dist-info/RECORD,,
