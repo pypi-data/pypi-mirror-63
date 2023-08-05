@@ -1,0 +1,3 @@
+[console_scripts]
+cdasws = cdasws.__main__:example
+
