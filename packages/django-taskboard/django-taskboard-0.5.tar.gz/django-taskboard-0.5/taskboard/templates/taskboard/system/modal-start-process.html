@@ -1,0 +1,22 @@
+<div class="modal fade" id="startProcessModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Run new process</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <input class="form-control mb-2" id="executablePath" placeholder="Executable path (ex. /usr/bin/python)">
+        <input class="form-control" id="executableArgs" placeholder="Arguments (Optional, separated by comma)">
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+        <a class="btn btn-primary" id="startProcess" style="cursor: pointer; color: #F8F9FA;">Run</a>
+      </div>
+    </div>
+  </div>
+</div>

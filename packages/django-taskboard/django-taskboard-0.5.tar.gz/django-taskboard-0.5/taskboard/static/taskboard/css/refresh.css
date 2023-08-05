@@ -1,0 +1,14 @@
+.current {
+    background-color: #4e73df;
+    color: #FFFFFF !important;
+}
+
+.current:hover {
+    background-color: #4e73df;
+    color: #FFFFFF !important;
+}
+
+.dropdown-menu a:active {
+    background-color: #4e73df;
+    color: #FFFFFF !important;
+}
