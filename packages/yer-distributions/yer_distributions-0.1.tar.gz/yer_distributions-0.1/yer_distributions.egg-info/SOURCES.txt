@@ -1,0 +1,11 @@
+setup.py
+yer_distributions/BinomialDistribution.py
+yer_distributions/GaussianDistribution.py
+yer_distributions/Generaldistribution.py
+yer_distributions/__init__.py
+yer_distributions.egg-info/PKG-INFO
+yer_distributions.egg-info/SOURCES.txt
+yer_distributions.egg-info/dependency_links.txt
+yer_distributions.egg-info/not-zip-safe
+yer_distributions.egg-info/requires.txt
+yer_distributions.egg-info/top_level.txt
