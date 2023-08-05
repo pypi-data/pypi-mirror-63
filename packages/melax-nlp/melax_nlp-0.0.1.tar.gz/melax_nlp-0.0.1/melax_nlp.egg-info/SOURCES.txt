@@ -1,0 +1,7 @@
+setup.py
+melax_nlp.egg-info/PKG-INFO
+melax_nlp.egg-info/SOURCES.txt
+melax_nlp.egg-info/dependency_links.txt
+melax_nlp.egg-info/requires.txt
+melax_nlp.egg-info/top_level.txt
+melaxapi/melaxapi.py
