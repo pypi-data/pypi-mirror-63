@@ -1,0 +1,2 @@
+include pricestf/*.json
+include pricestf/request.py
