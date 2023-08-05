@@ -1,0 +1,7 @@
+numpy
+redis
+kafka-python
+lz4
+blosc
+ffmpeg-python
+natsort
