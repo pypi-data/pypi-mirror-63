@@ -1,0 +1,6 @@
+setup.py
+write_composition.py
+write_composition.egg-info/PKG-INFO
+write_composition.egg-info/SOURCES.txt
+write_composition.egg-info/dependency_links.txt
+write_composition.egg-info/top_level.txt
