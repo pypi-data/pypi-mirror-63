@@ -1,0 +1,7 @@
+README.md
+setup.py
+santodigital_gcpLogging/__init__.py
+santodigital_gcpLogging.egg-info/PKG-INFO
+santodigital_gcpLogging.egg-info/SOURCES.txt
+santodigital_gcpLogging.egg-info/dependency_links.txt
+santodigital_gcpLogging.egg-info/top_level.txt
