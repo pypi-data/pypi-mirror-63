@@ -1,0 +1,4 @@
+django-filter
+django
+python-pragmatic
+django-pragmatic
