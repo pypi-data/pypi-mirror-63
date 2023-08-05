@@ -1,0 +1,11 @@
+pendulum
+markdown
+jinja2
+more-itertools
+
+[dev]
+pipenv
+check-manifest
+
+[test]
+pytest
