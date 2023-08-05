@@ -1,0 +1,7 @@
+phhelper/__init__.py,sha256=DY6Z4qkKqUq3nR4XB4lytMn4eeWW842QdOkjzTI7tqw,128
+phhelper/aws_lambda_helper.py,sha256=dfaDnloREws_hV5etoPQW4ZvuNdb4RL2yoSrNs44ZGU,5068
+phhelper/aws_lambda_logging.py,sha256=sELQ_8hfJgV3xgH5EGoBjY8m-vW8UQS1svl-MKjcVg4,4185
+phhelper-0.7.1.dist-info/METADATA,sha256=7uuHdkZzD3fph4vhVHz-pbl5zKFQy2E7LiUQXOuJ8GU,2558
+phhelper-0.7.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+phhelper-0.7.1.dist-info/top_level.txt,sha256=A7Q-Lp54WNTaLXidhyUtRQxvoE3X-pnC9L1NSEiqFQw,9
+phhelper-0.7.1.dist-info/RECORD,,
