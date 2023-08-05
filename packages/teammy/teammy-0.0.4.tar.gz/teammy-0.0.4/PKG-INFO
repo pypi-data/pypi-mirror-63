@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: teammy
+Version: 0.0.4
+Summary: ฝึกวิชาจากอาจารย์ลุงวิศวกร
+Home-page: https://github.com/t3ammy/teammy
+Author: T3ammy Engineer
+Author-email: t3ammydev@gmail.com
+License: MIT
+Download-URL: https://github.com/t3ammy/teammy/archive/0.0.3.zip
+Description: plese read in: https://github.com/t3ammy/teammy
+Keywords: teammy,t3ammy,engineer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
