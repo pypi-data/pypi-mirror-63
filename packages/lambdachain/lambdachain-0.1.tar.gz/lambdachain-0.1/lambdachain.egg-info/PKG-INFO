@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: lambdachain
+Version: 0.1
+Summary: Expressive and concise lambda expressions and function chaining.
+Home-page: https://github.com/marcuslimdw/lambdachain
+Author: Marcus Lim
+Author-email: marcuslimdw@gmail.com
+License: GNU GPL v3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
