@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        aws-ssm-commander=ssmcommander.cli:cli
+    
