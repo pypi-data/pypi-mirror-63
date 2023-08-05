@@ -1,0 +1,8 @@
+README.md
+setup.py
+nested_dictionaries/__init__.py
+nested_dictionaries/nesteddict.py
+nested_dictionaries.egg-info/PKG-INFO
+nested_dictionaries.egg-info/SOURCES.txt
+nested_dictionaries.egg-info/dependency_links.txt
+nested_dictionaries.egg-info/top_level.txt
