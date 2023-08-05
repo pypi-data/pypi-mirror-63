@@ -1,0 +1,17 @@
+LICENSE.rst
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+ckan_wit/__init__.py
+ckan_wit.egg-info/PKG-INFO
+ckan_wit.egg-info/SOURCES.txt
+ckan_wit.egg-info/dependency_links.txt
+ckan_wit.egg-info/not-zip-safe
+ckan_wit.egg-info/top_level.txt
+ckan_wit/src/__init__.py
+ckan_wit/src/ckan_opendata_portals_uris.txt
+ckan_wit/src/proxies.py
+ckan_wit/src/test_wit.py
+ckan_wit/src/uris.py
+ckan_wit/src/wit_main.py
