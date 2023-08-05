@@ -1,0 +1,11 @@
+README.md
+setup.py
+kopper/__init__.py
+kopper/group.py
+kopper/korail.py
+kopper/train_info.py
+kopper.egg-info/PKG-INFO
+kopper.egg-info/SOURCES.txt
+kopper.egg-info/dependency_links.txt
+kopper.egg-info/requires.txt
+kopper.egg-info/top_level.txt
