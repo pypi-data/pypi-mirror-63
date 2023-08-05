@@ -1,0 +1,15 @@
+Anapass/TModule.py,sha256=YVNA1tdyiq1mvquHBgWmXZ7xkSSC2U67o4eBFVJpzvw,3336
+Anapass/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+Anapass/Example/ReadChipID.py,sha256=MrMACNxA01f57sSOqrcjWEx7Y3h1EXyiYqXieIDrk34,715
+Anapass/Example/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+anapass_python-1.0.0.5.data/data/AnapassTComm.dll,sha256=oSf4RVFwJ3EuNCnlE_4HTpcP7ch-7DyZ66hYjHcy2Wo,91136
+anapass_python-1.0.0.5.data/data/AnapassTComm32.dll,sha256=J9i1nVFKVQrCb3G9-dSevTXVnO5cXuV1xzqrju02ZDI,76800
+anapass_python-1.0.0.5.data/data/AnapassTModule.dll,sha256=qNnPWBe6wshEvdGgQ27G0BDbU1wqEOYxNlhQE2TX2J0,928768
+anapass_python-1.0.0.5.data/data/AnapassTModule32.dll,sha256=CT81tV02KECZsoAw6PQqotCMrBtNWTOw3oHil1Plc9c,834560
+anapass_python-1.0.0.5.data/data/AnapassTParser.dll,sha256=kFtBJnjOz6jRq_sgSIIiIVfKNoIHfgcikPZIBQIVtec,160256
+anapass_python-1.0.0.5.data/data/AnapassTParser32.dll,sha256=uD8syebcyseo3zkkFj67ZfGOSl9Nj-iZDBZwdtheFxU,141312
+anapass_python-1.0.0.5.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+anapass_python-1.0.0.5.dist-info/METADATA,sha256=FiRKvmpsKLYyxItEbtvYPl0gUloUUfcpGt1FGwx4xBM,594
+anapass_python-1.0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+anapass_python-1.0.0.5.dist-info/top_level.txt,sha256=AGVDltaxfao6v9FJwpk6vwYCEjTq7As_L4acbGrorlQ,8
+anapass_python-1.0.0.5.dist-info/RECORD,,
