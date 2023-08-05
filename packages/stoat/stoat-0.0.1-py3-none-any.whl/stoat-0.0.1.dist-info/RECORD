@@ -1,0 +1,14 @@
+stoat/Array.py,sha256=MaZ_hs2UbWd82e-Q_r0uVs0teImOkYtvYjI9O-f2dxw,4524
+stoat/BaseStructure.py,sha256=ak1XlTTq8CEpOt1-4rcE__Cdzu0ppNJOpZrjWVcuJZ8,3060
+stoat/BaseTypeFactory.py,sha256=bIdKayTg19tnHprUph88l7xzotH_4-XAHsSzTl6kizg,112
+stoat/CStructure.py,sha256=Dm3ndVSsEL36eK_QabT9i4V2eb7fh1lErCaMHcAU5tA,2153
+stoat/CompoundByte.py,sha256=7DQf0HM2u_mkzI_elJp5_B5qWvOHPeASUypAhTq3lzw,3947
+stoat/MetaStructure.py,sha256=f-Ze5M-s_asn1KI_37FHNmU3shfGMx16UzIj4Fu6EAw,959
+stoat/Structure.py,sha256=n_pn0o-uNGgCOXbEQPI2vdJ0pksiT53Sd39jmi2b298,391
+stoat/TypeFactory.py,sha256=snkN9XnKolVMnhzhwoKEt3t_8DANYcgqBigtUnXlELM,1156
+stoat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stoat-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+stoat-0.0.1.dist-info/METADATA,sha256=qtezxMmCzkmICPV2uafHCGwCsBu8akHG3uEF_DmjK_M,449
+stoat-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+stoat-0.0.1.dist-info/top_level.txt,sha256=hyRDTdh1NR0SCJb4uideCdo5oxii-BM6FSJukuE0RAg,6
+stoat-0.0.1.dist-info/RECORD,,

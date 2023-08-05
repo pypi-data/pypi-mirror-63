@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: stoat
+Version: 0.0.1
+Summary: A package for declarative definition of binary structures
+Home-page: https://github.com/saarkatz/stoat-struct
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
