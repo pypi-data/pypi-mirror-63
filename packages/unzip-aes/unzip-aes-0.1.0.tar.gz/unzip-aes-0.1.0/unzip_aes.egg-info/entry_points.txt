@@ -1,0 +1,3 @@
+[console_scripts]
+unzip-aes = unzip_aes:unzip
+

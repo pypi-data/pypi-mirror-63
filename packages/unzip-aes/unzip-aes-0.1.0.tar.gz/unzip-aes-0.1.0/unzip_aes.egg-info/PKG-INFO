@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: unzip-aes
+Version: 0.1.0
+Summary: Unzip AES encrypted zip file.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # unzip-aes
+        
+        Unzip AES encrypted zip file.
+        
+        ## Install
+        
+        ```shell
+        pip install unzip-aes
+        ```
+        
+        ## Installed Utils
+        
+        - unzip-aes
+        
+        
+        ## Usage
+        
+        ```shell
+        C:\Code\unzip-aes256>python unzip-aes.py --help
+        Usage: unzip-aes.py [OPTIONS] ZIPFILE [DST]
+        
+          Unzip AES encrypted zip file.
+        
+        Options:
+          -p, --password TEXT  [required]
+          --help               Show this message and exit.
+        ```
+        
+        ## Example
+        
+        **Example1:**
+        
+        Unzip the-target.zip file to current folder.
+        
+        ```shell
+        unzip-aes -p Password the-target.zip
+        ```
+        
+        **Example2:**
+        
+        Unzip the-target.zip file to dst folder
+        
+        ```shell
+        unzip-aes -p Password the-target.zip dst
+        ```
+        
+        ## Release
+        
+        ### v0.1.0 2020/03/11
+        
+        - First release.
+Keywords: command line utils,unzip-aes
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
