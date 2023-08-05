@@ -1,0 +1,9 @@
+native_shortuuid/__init__.py,sha256=NaCMzqlX_HWWTlwdriEa5G38rSDTrShYj5jh7IfXZPY,284
+native_shortuuid/apps.py,sha256=CbM3U9FWolEBb4zN4huXmRbBJK079_Z7yqmKmtrRN1Y,106
+native_shortuuid/fields.py,sha256=SlMfFngjDdCUOcbmlmvYJoXMPYt1tfDMDStOZzf0JFY,1139
+native_shortuuid/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_nativeshortuuidfield-1.0.dist-info/LICENSE,sha256=Qm20MsPWfdI91idaPNJIXnzsjE-6_ax-zRBABek1qfA,33
+django_nativeshortuuidfield-1.0.dist-info/METADATA,sha256=X1zYEM54xtV06rwG_wk-5JOQlOqGHF9MKhUF3vt17dk,1872
+django_nativeshortuuidfield-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_nativeshortuuidfield-1.0.dist-info/top_level.txt,sha256=6SEe_LVNAw2kTEbgV8fe8Lq4VXsXZJeevoOK3fNto8w,17
+django_nativeshortuuidfield-1.0.dist-info/RECORD,,
