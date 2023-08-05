@@ -1,0 +1,15 @@
+dsdobjects/__init__.py,sha256=ljmIw3v4z_nBI43IKgbS36lSETUMngA3H0WwM4b4GhY,1019
+dsdobjects/objectio.py,sha256=q8uKn5fiCxCodf1vzNqIw_yI2cOqQK0EpoK4Oi5YGWQ,8584
+dsdobjects/prototypes.py,sha256=tS55il4Zt5Sfv0Fh4Q0weFwhBjgtiX9aMrocFeR69ko,11807
+dsdobjects/utils.py,sha256=iFvi69qcu_DWOfP1Nr97kaxzlYPlIqADgrRJvv8PQRk,8136
+dsdobjects/core/__init__.py,sha256=L6SF8MXlDVZ3ibbmyn0bMxDABoqdxU7KUYksc0QU6VE,649
+dsdobjects/core/base_classes.py,sha256=cgs8eE4MnVtLsxdYkzTW3ilvQDI6AZeJp3Iv3DKWVjc,49688
+dsdobjects/parser/__init__.py,sha256=lZVmy0jLuUPbIUP-yBiz_BnTXSjtEwtS4O5m0DSR8MQ,520
+dsdobjects/parser/pil_extended_format.py,sha256=-MEne-vLAB2aD4S9mqkPwalHc2hwBVjTbF8AEjHZlLc,4651
+dsdobjects/parser/pil_kernel_format.py,sha256=qRGoOueifZ7p_6xJcafTPvC9XMLsMZL1a_Wj65n8B_Q,3101
+dsdobjects/parser/seesaw_format.py,sha256=4uZ59rmRVzl7cyx7R7Je80FxpPhTceTHpZnRSztAXC8,3114
+dsdobjects-0.7.1.dist-info/LICENSE,sha256=wwdIXjqCL24Vgt97RfTKNILub00vrX42c0YxpB3wOrU,1118
+dsdobjects-0.7.1.dist-info/METADATA,sha256=BRwQd2x4JAj5CP_aJTB5IwidP9Mc3Ri1O_78nIZvqlc,5775
+dsdobjects-0.7.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dsdobjects-0.7.1.dist-info/top_level.txt,sha256=tVCRQeD5roce3iYHG6wWSQTqhmO84m5nm1J9Y7riJvs,11
+dsdobjects-0.7.1.dist-info/RECORD,,
