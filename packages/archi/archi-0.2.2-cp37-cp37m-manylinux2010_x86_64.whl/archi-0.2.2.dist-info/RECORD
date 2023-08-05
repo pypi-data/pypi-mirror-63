@@ -1,0 +1,12 @@
+archi.cpython-37m-x86_64-linux-gnu.so,sha256=hktGoOftVqWbiwJLyIw1hqzjHxbxbfA65oWT9kLxZts,494816
+.libsarchi/liblzma-75668d9c.so.0.0.0,sha256=w8rL827kHHou3etv4i4kpikkbR9-3t4vTwn8Dh0GMr4,137944
+.libsarchi/libzstd-6b791659.so.1.4.4,sha256=Wr-mF8zgArNN4NWtQfEBLk0ia9EsDHIdlaydB867XzQ,616528
+.libsarchi/libacl-3907442e.so.1.1.0,sha256=xX8vQdyvP8KUXlyibtRU6OsmObO-w8rDTbZYA-5a_5s,38112
+.libsarchi/libattr-46fe1d86.so.1.1.0,sha256=OMewLAhSmnJN308bnCcHS7yVE0sxdONeAPsDQtaAlAU,21416
+.libsarchi/libz-eb09ad1d.so.1.2.3,sha256=2uJu8RIWphORVNS2noiABa4wo041-h11BGDImiYQFvI,92080
+.libsarchi/liblz4-c29043df.so.1.7.1,sha256=CNVRXKvkdMcNrPUi8AkfwQRdY9TNau-gaxgFqRHLcJ8,52320
+.libsarchi/libarchive-59af2726.so.17,sha256=9n2Lq_ZAwU6KGp3r1JiYI9EW1_FHkLvFv4fIXDmcx0g,1054480
+archi-0.2.2.dist-info/WHEEL,sha256=Wzr7ustLd3r5KN3AVdAm7EECHYuYQiejXMdpS694wLU,112
+archi-0.2.2.dist-info/top_level.txt,sha256=yujE20SRvQoZVhLPHG9IYTjsfKDmYCnBSqdvr7ItWx0,6
+archi-0.2.2.dist-info/RECORD,,
+archi-0.2.2.dist-info/METADATA,sha256=CNWI1BJk6AWdT0kCzdY-7egIvdAfiXqwWpMM76P5Xdo,2066
