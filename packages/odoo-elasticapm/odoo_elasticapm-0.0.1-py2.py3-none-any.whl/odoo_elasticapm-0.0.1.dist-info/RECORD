@@ -1,0 +1,12 @@
+odoo_elasticapm/__init__.py,sha256=J7MAT-fGyqiGOKQPw2Ptu7GI5k1eg5uY9NAFkUNUgqs,169
+odoo_elasticapm/base.py,sha256=64QmqWHGz4z6i-7tU7VX0hkK7ZS25nJeRt6w6lhHEYM,888
+odoo_elasticapm/cli.py,sha256=OWr5yqU1ljnTvM63rXZI06XHWpcfaLavloj5LX49Zt0,340
+odoo_elasticapm/http.py,sha256=Q3JleE_WSBsWR3zizST3CoE29qVAtdHjMi75AxtK4y4,2030
+odoo_elasticapm/ir_cron.py,sha256=UzH1Quz3_lHpUPzJvlgMfSQohnrRtzR4opwvtiQaORw,2820
+odoo_elasticapm/ir_http.py,sha256=If8CNWTSLFDLWZuA7HbP5GsEOci8_Oft1lut29DqzEA,2226
+odoo_elasticapm/models.py,sha256=fnL4fjtsvdRMfJLQsn2gX5ssHVRqAKJ19u0PYHMBB8E,1869
+odoo_elasticapm-0.0.1.dist-info/METADATA,sha256=Zy6BcDjZQcowP88QssadiE7aRyCvj8ynlVlpm9i057Q,2063
+odoo_elasticapm-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+odoo_elasticapm-0.0.1.dist-info/entry_points.txt,sha256=iMTepjm_wAwrvAd91jpd7PKSjeyGeCJ0uivbCc7EL0U,80
+odoo_elasticapm-0.0.1.dist-info/top_level.txt,sha256=-HATJdjdoprlnUH4AMgk21rSaMx3kkyLQKrq3L6pwn0,16
+odoo_elasticapm-0.0.1.dist-info/RECORD,,
