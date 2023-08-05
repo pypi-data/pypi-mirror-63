@@ -1,0 +1,11 @@
+lambdachain/__init__.py,sha256=PIunT_Y1f2vWkEdIOBgVLSJIO02NbRjkWFolgyWDnMs,132
+lambdachain/builtin_hooks.py,sha256=5niDdV4ZfLus5A48TAFdJSdEQHwa-TCxeE2U-kdeFVU,3046
+lambdachain/functions.py,sha256=xHvSTExEs-Z7DI-AJ5Mvhs73blP_NxGbc6MAlVxrKWA,3504
+lambdachain/lambda_chain.py,sha256=gNTmbYfHI3Z_nCXns5dS8vh9KYdxvIueZH4LLwy6Pog,19231
+lambdachain/lambda_identifier.py,sha256=p9Iw4zvzEuypm6CpbhGfBkDHa3plGToTVaw3E4seJ_s,6162
+lambdachain/utils.py,sha256=fS3nR16ma7kKArWhaYX-VOgKbPOoSx4tY0V2wv2qJlw,670
+lambdachain-0.1.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+lambdachain-0.1.dist-info/METADATA,sha256=ZliWFBDSSt57coOwTLt351S4brgW-Lg-LR8w-oJTebo,660
+lambdachain-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lambdachain-0.1.dist-info/top_level.txt,sha256=CUEUm88FWsEdCMVOGwEFpcNtvI4f6KKViEwlcD7MeJI,12
+lambdachain-0.1.dist-info/RECORD,,
