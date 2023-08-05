@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: antimait
+Version: 0.2
+Summary: antimait is a library made of tools to ease the implementation of IoT automation systems based on devices such as Arduino and ESP.
+Home-page: https://github.com/Antimait/antimait
+Author: Gianmarco Marcello
+Author-email: g.marcello@antima.it
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
