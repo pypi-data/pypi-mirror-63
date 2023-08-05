@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/stoat/Array.py
+src/stoat/BaseStructure.py
+src/stoat/BaseTypeFactory.py
+src/stoat/CStructure.py
+src/stoat/CompoundByte.py
+src/stoat/MetaStructure.py
+src/stoat/Structure.py
+src/stoat/TypeFactory.py
+src/stoat/__init__.py
+src/stoat.egg-info/PKG-INFO
+src/stoat.egg-info/SOURCES.txt
+src/stoat.egg-info/dependency_links.txt
+src/stoat.egg-info/top_level.txt
