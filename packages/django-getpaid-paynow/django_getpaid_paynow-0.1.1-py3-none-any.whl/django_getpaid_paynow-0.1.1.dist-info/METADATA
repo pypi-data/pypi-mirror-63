@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-getpaid-paynow
+Version: 0.1.1
+Summary: Django-GetPaid plugin for mBank payNow service.
+Home-page: https://github.com/django-getpaid/django-getpaid-paynow
+License: MIT
+Author: Dominik Kozaczko
+Author-email: dominik@kozaczko.info
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: django-getpaid (>=2.0.0-rc.4,<3.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: swapper (>=1.1.2,<2.0.0)
+Project-URL: Repository, https://github.com/django-getpaid/django-getpaid-paynow
+Description-Content-Type: text/markdown
+
+# django-getpaid-paynow
+Django-getpaid plugin for mBank payNow service
+
