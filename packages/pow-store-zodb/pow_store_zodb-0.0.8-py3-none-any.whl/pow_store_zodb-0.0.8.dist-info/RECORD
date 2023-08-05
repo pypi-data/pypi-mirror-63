@@ -1,0 +1,8 @@
+pow_zodb/FileStorageZODB.py,sha256=rxLnJZupfupfWWKaiQSQokM_L6Kv7nmf7u4sGxKHAFg,3808
+pow_zodb/ZODB.py,sha256=oNbzaXhkvJb-hQpBaMB7hl-qHrmxuAsj9XaWjHRezSs,25016
+pow_zodb/__init__.py,sha256=kyhQ1mNVywbflVfdiZIkkOR8FS6lsKlRByaspbR8Oow,30
+pow_store_zodb-0.0.8.dist-info/METADATA,sha256=ZRdSh6fjxbAhYRpk5hwIXcZgNQsFirvkv_AyQ6qg8HQ,1078
+pow_store_zodb-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pow_store_zodb-0.0.8.dist-info/entry_points.txt,sha256=y78iG3Bxcprh4HudEKoEkBAcLynZw8iaV-r-wtiqMi8,116
+pow_store_zodb-0.0.8.dist-info/top_level.txt,sha256=QWc3wTmToJ39hA0sfwPerRWOYGJf3WS9PW6-PVivfvM,9
+pow_store_zodb-0.0.8.dist-info/RECORD,,
