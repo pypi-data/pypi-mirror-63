@@ -1,0 +1,16 @@
+mcrp_cgam-0.2.0.dist-info/RECORD,,
+mcrp_cgam-0.2.0.dist-info/WHEEL,sha256=eGX-MHK0v1h-Bc_uVrnvtszZoafGXw5wtwguJWqXPuc,113
+mcrp_cgam-0.2.0.dist-info/METADATA,sha256=8R8sVMSD0dOQI_UJkp23bxJ9UPHNAn3YZXdQ9_X8F7E,2195
+mcrp_cgam-0.2.0.dist-info/top_level.txt,sha256=oqsssVqCxuvqmLA9lDuFIYT_DnYEuC-LDSPki3qyd6U,29
+mcrp_cgam-0.2.0.data/scripts/cgam,sha256=Kngcsn1MToQ8eCFcCELcNyXgDxo8GNS3CT_M4jzB0GM,83
+mcrp_cgam/main.so,sha256=hHdZzTjjVdn0WF_22G9Zg0JCW49xKaL4JQiE7hokWhA,806080
+mcrp_cgam/copt.so,sha256=frGYEFTUvAsQTjQ-kS98JHwRGfQWCjqpP2xW9Ca7ot0,1096512
+mcrp_cgam/expand.so,sha256=Fy-t63eGt5BbOeyzuPLLL7zrHDru11IjW3njqySp20g,486744
+mcrp_cgam/cells.so,sha256=Ra593cJqiePMjIgsc5nU0X7pnz_i4-l5XWNSqezQdVU,441064
+mcrp_cgam/lhs.so,sha256=pyDlCFK4ewvS5vOpYGLzQgG2SwcTePzUhTQFijrSzAs,1570688
+mcrp_cgam/scsurfaces.so,sha256=IV4OjRBn-KaepVSw_FJhkRh5IKU8-h7ndIJcEZKxlIw,372272
+mcrp_cgam/transforms.so,sha256=3G6pLDhslLxxNrFwUjcZvYdGqPVqbrdcp2WYRf1_uyo,468704
+mcrp_cgam/surfaces.so,sha256=oYdBJTZWEqG2Mo8RF9U4kNowLFYdyE_JluXfidcfS9A,527512
+mcrp_cgam/another_parser.so,sha256=rzUNChl3Xg0eb4C97i5ltqg3CF0vL-xeSBOBmKqTlvk,1437096
+mcrp_cgam/__init__.py,sha256=Zd4wjF7Qm_2qBghy0gUGztfh1kVkG1bxtHOzEa_6mXc,144
+mcrp_cgam/mcnp2sc.so,sha256=dcJQUF7qVBRIPJTcqEaZKPpJ82i4SnjzYXKG8LkQhs8,814192

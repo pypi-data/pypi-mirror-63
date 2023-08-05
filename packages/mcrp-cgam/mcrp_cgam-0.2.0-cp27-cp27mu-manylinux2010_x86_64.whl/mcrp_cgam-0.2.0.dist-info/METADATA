@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: mcrp-cgam
+Version: 0.2.0
+Summary: MCNP-related packages. Cell geometry algebraic manipulation
+Home-page: https://github.com/travleev/mcnp2spaceclaim
+Author: A. Travleev
+Author-email: anton.travleev@gmail.com
+License: UNKNOWN
+Keywords: MCNP geometry algebra
+Platform: UNKNOWN
+Provides: mcrp_cgam
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: mcrp-utils
+Requires-Dist: mcrp-splitters
+
+# MCNP-related packaged: Cell geometry algebraic manipulations
+
+Description of cell geometry can be interpreted as mathematical expression
+containing addition (union) and multiplication (intersection) operations. This
+package provides functions to parse the cell geometry description into an
+algebraic expression and manipulate the latter.
+
+This is a needed part for MCNP -> CAD geometry converter, see
+https://github.com/travleev/mcnp2spaceclaim. Example MCNp input files that can
+be processed with mcrp_cgam can be found there. 
+
+To generate json file needed for MCNP -> CAD conversion, use the script provided with this package::
+
+```bash
+    >cgam input [-maxterms 100] [-writeby model]
+```
+The first command line argument, ``input`` is the name of MCNP input file. The
+other arguments are optional.
+
+An integer number following the ``-maxterms`` keyword specifies the maximal
+number of pieces that represent the cell's geometry. In current implementation
+a cell consisting of an intersection of unions is rearranged into a union of
+intersections. For some cells, the number of terms in the latter representation
+can be huge therefore cells with the number of terms exceeding the value
+specified by ``-maxterms`` are skipped.
+
+The keyword ``-writeby`` can be followed by one of the following strings:
+``model``, ``cell`` or ``part``, or their combination (written together, e.g.
+``modelcell``). When ``model`` is given, a single json file containing all
+cells is generated.  When ``cell`` is given, a separate json file is generated
+for every cell. When ``part`` is given, a separate json file is generated for
+every cell's part (the part corresponds to each term in the union
+representation of the cell geometry, see above).
+
+
+

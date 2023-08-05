@@ -1,0 +1,7 @@
+#!python
+
+from sys import argv
+from mcrp_cgam import main_entry
+
+main_entry(argv)
+
