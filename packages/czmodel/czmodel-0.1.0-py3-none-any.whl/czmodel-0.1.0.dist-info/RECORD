@@ -1,0 +1,15 @@
+czmodel/__init__.py,sha256=z7PJutWDA-BFrAGSrdFS0N2YkmyPubHwvD9uc1Z8VJE,879
+czmodel/convert.py,sha256=7Fwu8nAvoxaklO9XDg3Z2DiPP7pGzvUrhvIe4Ommg5g,5184
+czmodel/model_metadata.py,sha256=QIzvEPZGZyayzooSALmqxwRFHkWYsKVGd5fMngbmDMk,11551
+czmodel/util/__init__.py,sha256=YSpHbMMpFd2DzyXw5YfkCgxEMjO1QZfaiSTj4pv8L3o,659
+czmodel/util/argument_parsing.py,sha256=5vK2-op-PZAk2w2Pdc9VJzBkTiZzDJAIusiXnlzUsjE,1440
+czmodel/util/color_generation.py,sha256=xcEiq0_KZX3gUqdWOgjvOlpOiEpfZ9sbDY_4ni70GB8,2896
+czmodel/util/keras_to_czmodel.py,sha256=eA0xefwujAjkZtxWl5g40CyiwwteBssvzDnNaaziiXE,4687
+czmodel/util/preprocessing.py,sha256=WCvjDHXTc4wqrKHXdP8zqvZwQW1ZVKcLeMwp8WTa7Mw,3785
+czmodel-0.1.0.dist-info/LICENSE.txt,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+czmodel-0.1.0.dist-info/METADATA,sha256=n5WKL9J1DSK9L88ZaEN8ousgvvaI96XK4_ZDD8nIRwU,5627
+czmodel-0.1.0.dist-info/NOTICE.txt,sha256=CFYazfVwJl_LNPMY8nQlJPd-SPif4KoRcrJHZ4THP6M,193
+czmodel-0.1.0.dist-info/WHEEL,sha256=IWeGwTvdiaNRNtdERe0BHc5KsCqvvVfLuP8HWeQWYGw,97
+czmodel-0.1.0.dist-info/entry_points.txt,sha256=qLE1XKOWj8_018rpgY4aJK_zat8sHyeyBsCm-jUTWCQ,61
+czmodel-0.1.0.dist-info/top_level.txt,sha256=UXzDCU11ge98nm9iWG7JcE36XccEcpy5z2vcVLp5IqM,8
+czmodel-0.1.0.dist-info/RECORD,,
