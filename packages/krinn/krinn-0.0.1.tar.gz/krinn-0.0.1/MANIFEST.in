@@ -1,0 +1,3 @@
+recursive-include krinn *
+include README.md
+include LICENSE

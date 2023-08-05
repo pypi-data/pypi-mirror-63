@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+krinn/__init__.py
+krinn/amazon.py
+krinn.egg-info/PKG-INFO
+krinn.egg-info/SOURCES.txt
+krinn.egg-info/dependency_links.txt
+krinn.egg-info/requires.txt
+krinn.egg-info/top_level.txt
+krinn/__pycache__/__init__.cpython-37.pyc
+krinn/__pycache__/amazon.cpython-37.pyc
+test/test_amazon.py

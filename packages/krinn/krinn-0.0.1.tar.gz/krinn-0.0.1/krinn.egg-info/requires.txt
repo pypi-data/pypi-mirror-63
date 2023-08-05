@@ -1,0 +1,6 @@
+bs4
+requests
+user_agents
+
+[devlp]
+pytest>=3.7
