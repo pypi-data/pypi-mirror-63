@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ezprinting"
+version = "0.3.0"
+description = "Python package to easily print to a printer configured on either a CUPS server or Google Cloud Print."
+authors = ["Marcelo Bello"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mbello/ezprinting"
+homepage = "https://github.com/mbello/ezprinting"
+keywords = ['google cloud print', 'cloud print', 'cups', 'printing']
+
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+pycups = ">=1.9.74"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
