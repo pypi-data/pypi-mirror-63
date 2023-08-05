@@ -1,0 +1,13 @@
+reshape/__init__.py,sha256=oRKOqI0woSyNUNgUOj070zT_u7Ywhpaj9B3uERqQVcY,577
+reshape/__version__.py,sha256=yHTH8dVBgu29hNekCKmq8TkocpAxvi_a_vKUu65hrq0,63
+reshape/wkt.py,sha256=mEO6P85FzweIwF6xMKLZAcZge6H5tF2hruiYYooJxAU,1357
+reshape/pg/__init__.py,sha256=FGLiUfsJxakksvOGCH3-s-dKgJN30zXoEP2JHoznM4E,107
+reshape/pg/where.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_wkt.py,sha256=BkFBH2JFzgabpl-glclIFQ2PSRDXFgjeR2L9JsRDtmk,530
+test/test_data/__init__.py,sha256=M5YfK4eGmQRniVnAXaf_bBz7UHZEGokTTCH0w3b7wtY,164
+reshape_geo-0.0.1.dist-info/LICENSE,sha256=sRAU1acwueI-pw_A-McDCY6wB7uq-0fnP11oLA3jgLY,1049
+reshape_geo-0.0.1.dist-info/METADATA,sha256=zGZpi2NJbfqxgmIIn0ZRAeHPYyuwUa6DYOQPsLYFC_M,882
+reshape_geo-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+reshape_geo-0.0.1.dist-info/top_level.txt,sha256=_3NENznjOT5Ngf4Hjl-F7iU70Pt2ADPAeUiBaKH8guc,13
+reshape_geo-0.0.1.dist-info/RECORD,,
