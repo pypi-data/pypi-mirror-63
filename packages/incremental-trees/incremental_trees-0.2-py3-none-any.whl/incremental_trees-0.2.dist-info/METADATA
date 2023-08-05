@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: incremental-trees
+Version: 0.2
+Summary: Sklearn forests with partial fits
+Home-page: UNKNOWN
+Author: Gareth Jones
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dask
+Requires-Dist: dask-ml
+Requires-Dist: sklearn
+Requires-Dist: bokeh
+
+UNKNOWN
+
+
