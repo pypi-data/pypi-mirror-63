@@ -1,0 +1,6 @@
+README.md
+setup.py
+pylammpsmpi.egg-info/PKG-INFO
+pylammpsmpi.egg-info/SOURCES.txt
+pylammpsmpi.egg-info/dependency_links.txt
+pylammpsmpi.egg-info/top_level.txt
