@@ -1,0 +1,10 @@
+pyairvisual/__init__.py,sha256=8rI65rXLHfH6TfW0Vc7gS26lYUJBNIfSO1RYnf3TjOM,76
+pyairvisual/api.py,sha256=wEByvQTNgeVhrIar5US96zDfoL49zUFnau8xQ5gB3Mo,2566
+pyairvisual/client.py,sha256=N6-rhKUWBSVmOcz0hZyFaPyjR2MDD-KxuGmgEuJXSik,2701
+pyairvisual/const.py,sha256=DLz73NMbuH-gCk2ZgQISd0UGyfb7wWfoPd6zzJMCNGw,142
+pyairvisual/errors.py,sha256=NIMdEK8PKtVlKeKGUnuc0N0WqgJFKYobLhtpxqJ_92M,1548
+pyairvisual/supported.py,sha256=eDcY4dC70efd876-F3cKDHzCoC46v_Z1v2Z3W6P783s,1405
+pyairvisual-3.0.6.dist-info/LICENSE,sha256=a4_m0OxNf3KMxo56hmdSsZqBmGQOGzDRAzl6qyLllQw,1077
+pyairvisual-3.0.6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pyairvisual-3.0.6.dist-info/METADATA,sha256=YvWh2A63p81QJDfx7zcEpaMk6mZWI26Hw07YkihmC90,6443
+pyairvisual-3.0.6.dist-info/RECORD,,
