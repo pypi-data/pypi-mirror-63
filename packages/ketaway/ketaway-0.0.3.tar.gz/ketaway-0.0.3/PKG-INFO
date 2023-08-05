@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ketaway
+Version: 0.0.3
+Summary: Show My name is first library
+Home-page: https://github.com/ketaway/ketaway
+Author: Mongkolchai Worakhajee
+Author-email: ketaway@gmail.com
+License: MIT
+Download-URL: https://github.com/ketaway/ketaway/archive/0.0.3.zip
+Description: plese read in: https://github.com/ketaway/ketaway
+Keywords: ketaway,Mongkolchai
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
