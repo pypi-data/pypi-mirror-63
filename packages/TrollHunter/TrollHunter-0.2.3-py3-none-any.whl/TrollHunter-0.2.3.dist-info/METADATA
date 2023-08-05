@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: TrollHunter
+Version: 0.2.3
+Summary: TrollHunter
+Home-page: https://github.com/StanGirard/TrollHunter
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+Requires-Dist: aiodns (==2.0.0)
+Requires-Dist: aiofiles (==0.4.0)
+Requires-Dist: aiohttp (==3.6.2)
+Requires-Dist: aiohttp-socks (==0.3.4)
+Requires-Dist: amqp (==2.5.2)
+Requires-Dist: aniso8601 (==8.0.0)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: beautifulsoup4 (==4.8.2)
+Requires-Dist: billiard (==3.6.3.0)
+Requires-Dist: blinker (==1.4)
+Requires-Dist: cchardet (==2.1.5)
+Requires-Dist: celery (==4.4.1)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: cffi (==1.14.0)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: elasticsearch (==7.5.1)
+Requires-Dist: fake-useragent (==0.1.11)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: Flask-Jsonpify (==1.5.0)
+Requires-Dist: Flask-RESTful (==0.3.8)
+Requires-Dist: Flask-SQLAlchemy (==2.4.1)
+Requires-Dist: geographiclib (==1.50)
+Requires-Dist: geopy (==1.21.0)
+Requires-Dist: googletransx (==2.4.2)
+Requires-Dist: h11 (==0.9.0)
+Requires-Dist: h2 (==3.2.0)
+Requires-Dist: hpack (==3.0.0)
+Requires-Dist: hyperframe (==5.2.0)
+Requires-Dist: idna (==2.9)
+Requires-Dist: influxdb (==5.2.3)
+Requires-Dist: importlib-metadata (==1.5.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.1)
+Requires-Dist: kombu (==4.6.8)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: multidict (==4.7.5)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: priority (==1.3.0)
+Requires-Dist: psycopg2-binary (==2.8.4)
+Requires-Dist: pycares (==3.1.1)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: PySocks (==1.7.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: schedule (==0.6.0)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: soupsieve (==2.0)
+Requires-Dist: SQLAlchemy (==1.3.13)
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: typing-extensions (==3.7.4.1)
+Requires-Dist: Unidecode (==1.1.1)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: vine (==1.3.0)
+Requires-Dist: Werkzeug (==1.0.0)
+Requires-Dist: wsproto (==0.15.0)
+Requires-Dist: yarl (==1.4.2)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: rake-nltk (==1.0.4)
+
+# TrollHunter
+
+Added Python Package building
+
+## Workflow
+
+- [Github Flow](https://guides.github.com/introduction/flow/)
+- Github Projects
+
+## Cloud
+
+- [Digital Ocean](https://m.do.co/c/f9dca2b1ecc8)
+
+## Twint API
+
+
+## News Indexer
+
+Crawler and indexer
+
+
+
+
+
