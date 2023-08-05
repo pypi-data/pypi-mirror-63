@@ -1,0 +1,13 @@
+README.md
+setup.py
+tribus.c
+tribus.h
+tribusmodule.c
+sph/aes_helper.c
+sph/sph_echo.c
+sph/sph_jh.c
+sph/sph_keccak.c
+tribushashm.egg-info/PKG-INFO
+tribushashm.egg-info/SOURCES.txt
+tribushashm.egg-info/dependency_links.txt
+tribushashm.egg-info/top_level.txt
