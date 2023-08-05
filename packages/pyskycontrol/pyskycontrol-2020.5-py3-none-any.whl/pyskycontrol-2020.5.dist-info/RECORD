@@ -1,0 +1,10 @@
+pyskycontrol/__init__.py,sha256=0hdMKzOnZPGVPb8hji_2765vnLIxtFWD02XnjMJpbbc,91
+pyskycontrol/const.py,sha256=Vr9IXkurK70rcAYGVzcAS_WnYb15Nzfn5RXftYURq4Q,1965
+pyskycontrol/discover.py,sha256=QC6egJrYpg6CODr-Dt-FOoXgfTfqkHwBdXK_kCuqMRU,3331
+pyskycontrol/helper.py,sha256=vhcxwsAjswIdMC2h9lMB6K9T8vzgFwpv5CxJrPF_i5c,3594
+pyskycontrol/skydevice.py,sha256=Ut4Ix6LrYk8ig4cbGZjpQGxtTd2SAkFV11-mtH9IYNM,5967
+pyskycontrol-2020.5.dist-info/LICENSE.txt,sha256=B2eVafGlFDth4SC_chunLIYXAXney7znmS1a5UWVstg,1058
+pyskycontrol-2020.5.dist-info/METADATA,sha256=6Nd9JOMODXJBCYe20AGO2i9Rc_Vl75GDdCSjT9FaGiY,654
+pyskycontrol-2020.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyskycontrol-2020.5.dist-info/top_level.txt,sha256=D8bIgicrdN5xbFAbBItLJ_onNQ-YUjlX6VUfxs6WR14,13
+pyskycontrol-2020.5.dist-info/RECORD,,
