@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mloyalty
+Version: 0.1.0
+Summary: Python API for Mloyalty
+Home-page: https://github.com/igorexa256/mloyalty
+Author: Igor Belyansky
+Author-email: igorexa256@gmail.com
+License: MIT
+Keywords: python mloyalty api wrapper
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyjwt
+Requires-Dist: tinydb
+Requires-Dist: python-dotenv
+
+# Python API for Mloyalty
+
+## Установка
+
+Рекомендуемый способ установки с помощью менеджера пакетов Python pip*:
+
+```
+$ pip install mloyalty
+```
+
+*API содержит только часть методов, он все еще находится в стадии разработки и регулярно обновляется, не забывайте обновлять его, `pip install mloyalty --upgrade`
+
+

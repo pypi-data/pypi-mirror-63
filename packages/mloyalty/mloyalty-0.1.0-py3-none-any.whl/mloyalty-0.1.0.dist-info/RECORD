@@ -1,0 +1,11 @@
+mloyalty/__init__.py,sha256=5bGDxjP_FSif0nBN-YTdSv-QOoFR-OAsviR5Wlc7Sp0,157
+mloyalty/base.py,sha256=ai2Ui8KO7goVPYPkkshCem_aO8Jjju-YKGkT97ovt7Q,8474
+mloyalty/campaign.py,sha256=sUagemUOvIIeDH9IUUp_8nQXRHaQVs6zcrkgG7W77QM,1167
+mloyalty/cheque.py,sha256=EvbQ2YO94V5c5YTGVXdXB686exNjCmOkSncRFTN674Y,1457
+mloyalty/client.py,sha256=1x8hk2AYSMW_Zma3uw6KGYShSCtelz_2KYYQTRkIm44,4699
+mloyalty/pos.py,sha256=HOF383Rp3qNpXeTM7CCA0kRXcjY1sNAMYfaSJo8iXzU,662
+mloyalty-0.1.0.dist-info/LICENSE,sha256=YNNoacfpq3gdGiV66Dz74WP0GVvfpKbwTQ_Fvw638g8,1070
+mloyalty-0.1.0.dist-info/METADATA,sha256=Nrs1fIDjJnlLuakDWqJ_g_MER96DF_GfpRyKssKRba4,1021
+mloyalty-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mloyalty-0.1.0.dist-info/top_level.txt,sha256=YIt9CoMaFJU_1bDjknu7tGQUdMf4EsY0CdvC5xCDwfQ,9
+mloyalty-0.1.0.dist-info/RECORD,,
