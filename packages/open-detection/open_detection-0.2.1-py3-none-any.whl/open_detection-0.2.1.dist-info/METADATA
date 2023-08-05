@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: open-detection
+Version: 0.2.1
+Summary: A simple and powerful toolkit for object detection and instance segmentation.
+Home-page: https://github.com/killf/open_detection
+Author: killf
+Author-email: killf@foxmail.com
+Maintainer: killf
+Maintainer-email: killf@foxmail.com
+License: Apache2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy
+
+A simple and powerful toolkit for object detection and instance segmentation.
+
+
