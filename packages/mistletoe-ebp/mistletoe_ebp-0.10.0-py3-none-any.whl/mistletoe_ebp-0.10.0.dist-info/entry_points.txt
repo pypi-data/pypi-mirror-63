@@ -1,0 +1,4 @@
+[console_scripts]
+mistletoe = mistletoe.cli.parse:main
+mistletoe-bench = mistletoe.cli.benchmark:main
+
