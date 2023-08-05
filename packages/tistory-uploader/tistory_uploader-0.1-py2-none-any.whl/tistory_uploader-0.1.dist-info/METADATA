@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tistory-uploader
+Version: 0.1
+Summary: markdown file uploader for tistory
+Home-page: https://github.com/momentjin/tistory-uploader
+Author: momentjin
+Author-email: momentjin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/momentjin/tistory-uploader/archive/master.zip
+Keywords: tistory,markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
