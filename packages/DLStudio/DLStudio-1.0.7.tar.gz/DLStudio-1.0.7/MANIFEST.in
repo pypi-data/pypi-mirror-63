@@ -1,0 +1,23 @@
+include MANIFEST.in
+include DLStudio/DLStudio.py
+include DLStudio/__init__.py
+include setup.py
+include Makefile
+include README
+include DLStudio-1.0.7.html
+include TestDLStudio/DLStudio.py
+include TestDLStudio/TestInstanceCreation.py
+include TestDLStudio/Test.py
+include Examples/playing_with_reconfig.py
+include Examples/playing_with_sequential.py
+include Examples/playing_with_cifar10.py
+include Examples/extending_autograd.py
+include Examples/playing_with_skip_connections.py
+include Examples/object_detection_and_localization.py
+include Examples/custom_data_loading.py
+include Examples/data/PurdueShapes5-10000-train.gz
+include Examples/data/PurdueShapes5-1000-test.gz
+include Examples/data/PurdueShapes5-20-train.gz
+include Examples/data/PurdueShapes5-20-test.gz
+include Examples/data/README
+
