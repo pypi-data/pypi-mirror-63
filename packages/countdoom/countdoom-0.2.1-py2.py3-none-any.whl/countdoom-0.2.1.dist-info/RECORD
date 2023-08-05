@@ -1,0 +1,11 @@
+countdoom/__init__.py,sha256=hv981Rny88QzqUvI79xCbeI0ek1HwO9Ctu-WV1nRvqo,332
+countdoom/__main__.py,sha256=TUSCR2g8xx_GrZ4JALAcCzFzHnKoLj2k5aG7YfKM9LU,189
+countdoom/cli.py,sha256=MnYxre1YakigEwHoYLH56eCRYWW5ImV-hqa4bUSZRfk,5203
+countdoom/client.py,sha256=ahEAN5rJs_InF2mpyT3sdcyfadAG9n44NQRknwF8ZOg,10258
+countdoom-0.2.1.dist-info/AUTHORS.md,sha256=IauyruW-7flo_fXp993_6IPlh3FSkSQQNsjVsFoFxVs,1112
+countdoom-0.2.1.dist-info/LICENSE,sha256=tETmktQbPMBtOUaqq8bmNPFhkIGnYUXLCzGenJMZZwQ,1083
+countdoom-0.2.1.dist-info/METADATA,sha256=tdohRr5W6VLmFcGy_1vTsoBkQrGKGxEW2mU1oWjTfx8,20108
+countdoom-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+countdoom-0.2.1.dist-info/entry_points.txt,sha256=vBP5PyZZJXK81UHUXhQn2FJvCX4Ho57e1NRravhcWTI,49
+countdoom-0.2.1.dist-info/top_level.txt,sha256=VKlVeTtAwPJ_VoJ82qubpkIMYX2GANzvvjmMaJskW0s,10
+countdoom-0.2.1.dist-info/RECORD,,
