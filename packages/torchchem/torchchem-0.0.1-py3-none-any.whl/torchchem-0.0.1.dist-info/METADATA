@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: torchchem
+Version: 0.0.1
+Summary: PyTorch models for deep chemistry
+Home-page: https://github.com/deepchem/torchchem
+Author: torchchem contributors
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# torchchem
+[![Documentation Status](https://readthedocs.org/projects/torchchem/badge/?version=latest)](https://torchchem.readthedocs.io/en/latest/?badge=latest)
+An experimental repo for experimenting with PyTorch models
+
+

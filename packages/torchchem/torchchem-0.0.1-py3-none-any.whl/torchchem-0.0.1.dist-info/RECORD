@@ -1,0 +1,15 @@
+torchchem/__init__.py,sha256=kBKB6P5xRkllnshFtfisG1Gw6_gXY0rBoCBS-apGld8,79
+torchchem/models/__init__.py,sha256=b31bGYYTPW4KPMq6S2zwLZLwpobiZWz-llRu-Do7BCE,64
+torchchem/models/data_utils.py,sha256=dhbu8jC1VtFI-w04aywWytxIuTgkt8dhTyr2uJnPT_U,14273
+torchchem/models/neural_fp.py,sha256=LKYYi51tjnkd1USUXiaf9dCc9ZQcRT2gWrK2uLHsDBI,22864
+torchchem/models/transformer.py,sha256=bEswqkbmr632FdzsqYj7oXAiFEf-Y8m_IVKzCagg--4,14963
+torchchem/models/utils.py,sha256=A0YauFLztFGEwkJArQxn637cC9ZA0AyLOg5-lOgGNcc,1455
+torchchem/models/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchchem/models/tests/test_mat.py,sha256=zVEByjhNeIDfBPOB4oIvSBX_TstoNhRbUNTSeQ7-4tQ,265
+torchchem-0.0.1.dist-info/AUTHORS,sha256=q0mnvKGxYg7Gx61Wd3dQQ7ZcqQ5RwxmZOsQbw-USuz8,141
+torchchem-0.0.1.dist-info/LICENSE,sha256=6T7C-GnOoRU2dDk5_reUPhlQluo2PhYphiDUYiBGYx8,1047
+torchchem-0.0.1.dist-info/METADATA,sha256=B6ljfxiI_bHSdlrgzA9Wh4jR7N-ZznUsBTv3Xh8txKY,644
+torchchem-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torchchem-0.0.1.dist-info/pbr.json,sha256=jeldG71GF311Ug-kdqPOQqScenvPzsZrmh5LUXnQ8iI,47
+torchchem-0.0.1.dist-info/top_level.txt,sha256=COCxD04Mwrltc9kBYwOnvi36OctjNU5lydC3X8o6cs0,10
+torchchem-0.0.1.dist-info/RECORD,,
