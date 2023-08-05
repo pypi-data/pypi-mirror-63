@@ -1,0 +1,10 @@
+pycbr/__init__.py,sha256=8-3svmeRRGf5f9SLRDzl9soeeGG2y637sbiCbgQgAT8,3159
+pycbr/aggregate.py,sha256=p1ye7EHwTy5IjVm22Puuilk-b-6kopq3Y0pJCQ54NaM,2850
+pycbr/casebase.py,sha256=snG31DlZpcDwJ8QURK1rJU8FXhXoy1_yzAQQmy7n7Jo,3046
+pycbr/models.py,sha256=H0AS_wxIY9__2EztRXDg8JKoO38J86AaUZQuulDUsoU,6681
+pycbr/recovery.py,sha256=3l4SfTb8jt3lp2Qow0FI5r4hcIzmfvMcop0Lv3ALet8,5483
+pycbr/server.py,sha256=579ouqqWIGopQYKGuLRvuELlxun0D-MuZe6q5O1WvaA,7013
+pycbr-0.1.1.dist-info/METADATA,sha256=X3gcxkD_1x9QWI2Lify3g61_9hJgseVtUPJXVu7B23Y,1070
+pycbr-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pycbr-0.1.1.dist-info/top_level.txt,sha256=IqIcNElS1LXshuaU1XUAW2IXLQwoagn025k4ZGHJpiw,6
+pycbr-0.1.1.dist-info/RECORD,,
