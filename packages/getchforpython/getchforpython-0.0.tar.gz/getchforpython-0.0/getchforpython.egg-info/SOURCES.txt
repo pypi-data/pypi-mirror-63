@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+getchforpython/__init__.py
+getchforpython/getch.py
+getchforpython/pause.py
+getchforpython.egg-info/PKG-INFO
+getchforpython.egg-info/SOURCES.txt
+getchforpython.egg-info/dependency_links.txt
+getchforpython.egg-info/not-zip-safe
+getchforpython.egg-info/top_level.txt
