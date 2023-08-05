@@ -1,0 +1,9 @@
+README.md
+setup.py
+fairdata/__init__.py
+fairdata.egg-info/PKG-INFO
+fairdata.egg-info/SOURCES.txt
+fairdata.egg-info/dependency_links.txt
+fairdata.egg-info/not-zip-safe
+fairdata.egg-info/requires.txt
+fairdata.egg-info/top_level.txt
