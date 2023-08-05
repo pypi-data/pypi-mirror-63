@@ -1,0 +1,11 @@
+setup.py
+ipshaman/__init__.py
+ipshaman.egg-info/PKG-INFO
+ipshaman.egg-info/SOURCES.txt
+ipshaman.egg-info/dependency_links.txt
+ipshaman.egg-info/entry_points.txt
+ipshaman.egg-info/requires.txt
+ipshaman.egg-info/top_level.txt
+ipshaman/cli/__init__.py
+ipshaman/core/__init__.py
+ipshaman/core/client.py
