@@ -1,0 +1,9 @@
+README.md
+setup.py
+deeplabcut-gpu/__init__.py
+deeplabcut-gpu/version.py
+deeplabcut_gpu.egg-info/PKG-INFO
+deeplabcut_gpu.egg-info/SOURCES.txt
+deeplabcut_gpu.egg-info/dependency_links.txt
+deeplabcut_gpu.egg-info/requires.txt
+deeplabcut_gpu.egg-info/top_level.txt
