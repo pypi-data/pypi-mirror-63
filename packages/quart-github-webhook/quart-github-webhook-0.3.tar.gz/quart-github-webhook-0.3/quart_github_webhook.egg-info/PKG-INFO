@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: quart-github-webhook
+Version: 0.3
+Summary: Very simple, but powerful, microframework for writing Github webhooks in Python
+Home-page: https://github.com/go-build-it/quart-github-webhook
+Author: Jamie Bliss
+Author-email: jamie@gobuild.it
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Version Control
