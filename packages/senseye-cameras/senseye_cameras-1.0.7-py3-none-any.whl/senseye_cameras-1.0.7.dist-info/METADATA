@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: senseye-cameras
+Version: 1.0.7
+Summary: Senseye Camera Utilities
+Home-page: UNKNOWN
+Author: Senseye Inc
+License: UNKNOWN
+Project-URL: Download, https://github.com/senseyeinc/senseye-cameras/releases
+Project-URL: Source Code, https://github.com/senseyeinc/senseye-cameras
+Project-URL: Documentation, https://senseye-cameras.readthedocs.io/en/latest/
+Project-URL: Homepage, http://senseye.co/
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: ffmpeg-python
+Requires-Dist: senseye-pyueye
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+Our documentation can be found at: https://senseye-cameras.readthedocs.io/en/latest/
+
+
