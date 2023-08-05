@@ -1,0 +1,12 @@
+strcuta/__init__.py,sha256=H12sveYlxb0Gd2GA7QE8bn7RdLytzNgfiYEW5gE404w,350
+strcuta/cursor.py,sha256=CGZanMuHoTa2WXLCYDdMyxPTSa6suVNSYgkPdZz5kOQ,1685
+strcuta/frq.py,sha256=kWTnw03q2AmKBM4PkuBwftjF8ROJYAOwFW8HCfREbEc,3208
+strcuta/otoini.py,sha256=VTPcdUf22GVjG53moEqRf1vF6Wzzs2mxoLfIe9SwL2s,2066
+strcuta/prefixmap.py,sha256=2sWwGJJ7Rz6u2WoSHApeOvw1MQKH3Qn58shU2O-ZSQc,401
+strcuta/voicebank.py,sha256=d8JdU7EBAZanobxJmaTlEph7v-w3FJFdd5cCqfo3yqI,4500
+strcuta/wav.py,sha256=E30tm7Xsv5H5t7CFn2B_Iv7sXFChCF1TVKC-adY9J_E,1803
+strcuta-0.0.15.dist-info/LICENSE_1_0.txt,sha256=xIg6Lzteltrek63OXfS5Vvq9NgoAfwdJ84durCfQ4Yc,1370
+strcuta-0.0.15.dist-info/METADATA,sha256=mNDEv_09UfOLJ6a9tnJJ3vEIgYAH_huhXvaqclhKxnk,2530
+strcuta-0.0.15.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+strcuta-0.0.15.dist-info/top_level.txt,sha256=OTgEq8MwOCniEezLj5dNZT_FtzgCgHP0910C6zX470A,8
+strcuta-0.0.15.dist-info/RECORD,,
