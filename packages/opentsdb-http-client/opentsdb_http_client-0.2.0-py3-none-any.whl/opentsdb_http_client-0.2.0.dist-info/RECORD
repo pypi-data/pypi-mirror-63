@@ -1,0 +1,6 @@
+opentsdb_http_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentsdb_http_client/http_client.py,sha256=Enl6QVYtV7BvNAhGSEXrcDI2uJZ4quy8b7ier6smBvU,6191
+opentsdb_http_client-0.2.0.dist-info/METADATA,sha256=WvcTQA-Qez40YsUB0fyb4hvX-x-PUo7WBiiXalwLf4I,340
+opentsdb_http_client-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+opentsdb_http_client-0.2.0.dist-info/top_level.txt,sha256=m4S9R9GvhOD8rBIIqeTHH5zXFhw8IOBR0NIt08JQN3M,21
+opentsdb_http_client-0.2.0.dist-info/RECORD,,
