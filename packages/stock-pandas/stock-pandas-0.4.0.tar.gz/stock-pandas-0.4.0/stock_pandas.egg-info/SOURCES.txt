@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+stock_pandas/__init__.py
+stock_pandas/commands.py
+stock_pandas/common.py
+stock_pandas/dataframe.py
+stock_pandas/directive.py
+stock_pandas/operators.py
+stock_pandas.egg-info/PKG-INFO
+stock_pandas.egg-info/SOURCES.txt
+stock_pandas.egg-info/dependency_links.txt
+stock_pandas.egg-info/requires.txt
+stock_pandas.egg-info/top_level.txt
+test/test_basic.py
+test/test_directive.py
