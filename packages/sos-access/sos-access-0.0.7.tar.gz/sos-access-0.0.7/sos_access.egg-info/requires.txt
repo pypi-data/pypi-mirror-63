@@ -1,0 +1,2 @@
+marshmallow==3.4.0
+xmltodict
