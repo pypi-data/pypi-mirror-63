@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PyMODAlib.egg-info/PKG-INFO
+PyMODAlib.egg-info/SOURCES.txt
+PyMODAlib.egg-info/dependency_links.txt
+PyMODAlib.egg-info/requires.txt
+PyMODAlib.egg-info/top_level.txt
+pymodalib/__init__.py
+pymodalib/algorithms/harmonics.py
+pymodalib/implementations/python/harmonics/aaft4.py
+pymodalib/implementations/python/harmonics/harmonics.py
+pymodalib/utils/Platform.py
+pymodalib/utils/decorators.py
+pymodalib/utils/matlab_runtime.py
