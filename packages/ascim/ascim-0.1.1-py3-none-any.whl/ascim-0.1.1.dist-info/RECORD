@@ -1,0 +1,11 @@
+ascim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ascim/__test__.py,sha256=llE7AiruU9f-22ulY-XhANRpODsZX09HZHgJG_hJbxI,1254
+ascim/ascim.py,sha256=qAhA2lQE4hBiqQrE6MGnGGRtaF9gfe_UJ-B9d_VpfAc,5574
+ascim/draw.py,sha256=5Z2ia-QREZdjWupU4x_MwAvDYfzgJe6wu2r60494rAA,1483
+ascim/table.py,sha256=l-jt46j3qpExOTCE4zDDEODhY6XR2u1vaFn2LaKKQ3Y,4664
+ascim/utils.py,sha256=YrqRULX7UBHCt8DFL_oDKnSm9gWLbRw_zpkBvQv_j1c,110
+ascim-0.1.1.dist-info/LICENSE,sha256=glU63lGPMZ3IiGIMaFaW9vS5yopKMHVcqHXB1Qa_NZ0,1065
+ascim-0.1.1.dist-info/METADATA,sha256=iDN2DoDnhf29jE1u8OgQ-b5-DHfWfYPu8wcCRpmZXHU,5037
+ascim-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ascim-0.1.1.dist-info/top_level.txt,sha256=RCh6IAzeoLdTY65B7SijnwwlcCY8L1PTcFsrfc8ntMw,6
+ascim-0.1.1.dist-info/RECORD,,
