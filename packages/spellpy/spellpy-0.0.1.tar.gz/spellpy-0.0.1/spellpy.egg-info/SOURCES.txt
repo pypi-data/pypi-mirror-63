@@ -1,0 +1,11 @@
+README.md
+setup.py
+spell/__init__.py
+spell/spell.py
+spellpy.egg-info/PKG-INFO
+spellpy.egg-info/SOURCES.txt
+spellpy.egg-info/dependency_links.txt
+spellpy.egg-info/requires.txt
+spellpy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_spell.py
