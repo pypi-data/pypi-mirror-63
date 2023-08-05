@@ -1,0 +1,7 @@
+django_excel_base/__init__.py,sha256=UPFT5Tu2vrrlH7FL7HFgOYOr5FgR4JC5-FE3Wo0vBOc,115
+django_excel_base/compat.py,sha256=FgvEChScba7jrtC9IY8y9SJN5x95AlymcTCMN9AJC9k,703
+django_excel_base/excel.py,sha256=NRHGLdW7AF38n0-GhWhZDk6Y6xwysjhMURz0N-l9x9I,3512
+django_excel_base-1.0.1.dist-info/METADATA,sha256=-u7YCNQvSYnn93OkoYAmPv9YqONoaFninm-QjmLYxxI,898
+django_excel_base-1.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_excel_base-1.0.1.dist-info/top_level.txt,sha256=Ztmf43jC6C_2Y7-gYnoM81uuOK2jjPBk5qP_DURwaN4,18
+django_excel_base-1.0.1.dist-info/RECORD,,
