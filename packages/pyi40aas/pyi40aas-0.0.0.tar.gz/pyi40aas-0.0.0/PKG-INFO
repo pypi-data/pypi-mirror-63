@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: pyi40aas
+Version: 0.0.0
+Summary: Placeholder for the upcoming Python implementation of the Asset Administration Shell
+Home-page: UNKNOWN
+Author: Chair of Process Control Engineering, RWTH Aachen
+Author-email: m.thies@plt.rwth-aachen.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6

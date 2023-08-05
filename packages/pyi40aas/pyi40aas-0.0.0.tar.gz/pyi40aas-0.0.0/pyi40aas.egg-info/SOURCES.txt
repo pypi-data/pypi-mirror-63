@@ -1,0 +1,5 @@
+setup.py
+pyi40aas.egg-info/PKG-INFO
+pyi40aas.egg-info/SOURCES.txt
+pyi40aas.egg-info/dependency_links.txt
+pyi40aas.egg-info/top_level.txt
