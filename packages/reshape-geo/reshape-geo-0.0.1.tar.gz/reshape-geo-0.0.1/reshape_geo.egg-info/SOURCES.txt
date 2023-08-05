@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+reshape/__init__.py
+reshape/__version__.py
+reshape/wkt.py
+reshape/pg/__init__.py
+reshape/pg/where.py
+reshape_geo.egg-info/PKG-INFO
+reshape_geo.egg-info/SOURCES.txt
+reshape_geo.egg-info/dependency_links.txt
+reshape_geo.egg-info/requires.txt
+reshape_geo.egg-info/top_level.txt
+test/__init__.py
+test/test_wkt.py
+test/test_data/__init__.py
