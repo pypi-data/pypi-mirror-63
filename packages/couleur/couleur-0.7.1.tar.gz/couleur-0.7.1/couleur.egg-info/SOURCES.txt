@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+development.txt
+requirements.txt
+setup.cfg
+setup.py
+couleur/__init__.py
+couleur/version.py
+couleur.egg-info/PKG-INFO
+couleur.egg-info/SOURCES.txt
+couleur.egg-info/dependency_links.txt
+couleur.egg-info/top_level.txt
