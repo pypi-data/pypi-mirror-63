@@ -1,0 +1,15 @@
+dataget/__init__.py,sha256=Rj1z-jeaX-5AjNZrD2-AumgzPU2xDqIq9g365He_tsM,129
+dataget/dataset.py,sha256=dSQuAcb_zlJLxYgwg9LBM6E1yv0K9n0_bLpxAtCrlEo,1454
+dataget/kaggle.py,sha256=PSrICmsEvbRZkPMTsBsiiJv0VXjpSQv--OPRCBDX00A,1796
+dataget/toy/__init__.py,sha256=KDMw4-9IDImoWSv_GbENeXn0jJAXFp1J7xdQKZZUYd4,29
+dataget/toy/spirals.py,sha256=EaurzU6MWnMCPMUt4tmUlhWqfRXVyab-C5bD9pwNiJs,918
+dataget/utils.py,sha256=2ycga68QgaftHHLRTVUgTZ-cUoEz4tJWWtEeuIU97Y8,3048
+dataget/vision/__init__.py,sha256=Rv8X6NoM4kvYRp2ToPk152gl7ls6gRsHb2zQqu_CwvQ,134
+dataget/vision/cifar.py,sha256=MsrZvrzROQYgjwLz9oOqEPtmhvdvOW1KHbiJCu_Wab0,3230
+dataget/vision/fashion_mnist.py,sha256=bZZRhy8DAoFAUsN_xTbPSrrLSjYKqOCDdq6l0dvZFQA,1750
+dataget/vision/imagenet.py,sha256=dP38n37nbhLj6RlQ0W_1u1Wtk8fl6wUzrFABVE4Cg6g,3629
+dataget/vision/mnist.py,sha256=3JjMMEN47PPc3BewSMVx1k4VHeHol2QBnIala1Hfi88,1953
+dataget-0.4.6.dist-info/LICENSE,sha256=ZmQQhqRY7GOpg2-SbCcKB5s9QZ-ex2AS4HRXmu1uNSU,1072
+dataget-0.4.6.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dataget-0.4.6.dist-info/METADATA,sha256=X1OXljaLhG3kbrHUAyORV7Lw1qlRiHLnrD3W0Gl-u4s,3458
+dataget-0.4.6.dist-info/RECORD,,
