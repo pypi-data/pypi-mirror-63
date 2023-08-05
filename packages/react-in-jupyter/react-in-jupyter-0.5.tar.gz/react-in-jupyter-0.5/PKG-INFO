@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: react-in-jupyter
+Version: 0.5
+Summary: Use React and JSX to build cells in Jupyter Notebooks
+Home-page: https://github.com/tvogels/react-in-jupyter
+Author: Thijs Vogels
+Author-email: t.vogels@me.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
