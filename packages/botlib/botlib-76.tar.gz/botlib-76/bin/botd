@@ -1,0 +1,29 @@
+#!/usr/bin/python3 -u
+# BOTLIB - Framework to program bots.
+#
+# bin/botd (bot daemon)
+
+import os,sys ; sys.path.insert(0, os.getcwd())
+
+import lo
+import os
+import sys
+
+from lo.shl import daemon, execute, parse_cli, termreset
+from bot import k, __version__
+
+opts = [
+    ('-m', '--modules', 'store', str, "bot.rss,bot.shw,bot.irc", 'modules to load.', 'modules'),
+    ('-w', '--workdir', 'store', str, os.path.expanduser("~/.bot"), 'set working directory.', 'workdir'),
+    ('-l', '--loglevel', 'store', str, "debug", 'set loglevel.', 'level'),
+    ('-a', '--logfile', 'store', str, os.path.join(os.path.expanduser("~/.bot"), "logs", "bot.log"), 'file to log to.', 'logfile'),
+]
+
+def main():
+    parse_cli("botd", __version__, opts)
+    daemon()
+    k.start()
+    k.wait()
+    
+execute(main)
+os._exit(0)

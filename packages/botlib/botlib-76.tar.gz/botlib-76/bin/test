@@ -1,0 +1,43 @@
+#!/usr/bin/python3
+#
+# run unittests.
+
+__version__ = 1
+
+import os,sys ; sys.path.insert(0, os.getcwd())
+
+import os, time, lo, unittest
+from bot import k, starttime
+from lo.shl import execute, parse_cli
+from lo.tms import elapsed
+
+opts = [
+    ('-w', '--workdir', 'store', str, "", 'set working directory.', 'workdir'),
+    ('-m', '--modules', 'store', str, "", 'modules to load.', 'modules'),
+    ('-l', '--loglevel', 'store', str, "", 'set loglevel.', 'level'),
+    ('-v', '--verbose', 'store_true', False, 'enable verbose mode.', 'verbose')
+]
+
+resume = {}
+
+def main():
+    try:
+        shutil.rmtree("testdata")
+    except:
+        pass
+    parse_cli("test", __version__, opts)
+    lo.cfg.debug = True
+    k.walk("bot")
+    k.start()
+    lo.workdir = "testdata"
+    lo.cdir("testdata")
+    test_path = os.getcwd() + os.sep + "tests"
+    p = "test_*"
+    suite = unittest.loader.TestLoader().discover(test_path, pattern=p)
+    unittest.TextTestRunner(verbosity=3).run(suite)
+    for line in os.popen("python3 -m doctest -o ELLIPSIS tests/*.txt").readlines():
+        print(line.rstrip())
+   
+execute(main)
+print(elapsed(time.time() - starttime))
+os._exit(0)
