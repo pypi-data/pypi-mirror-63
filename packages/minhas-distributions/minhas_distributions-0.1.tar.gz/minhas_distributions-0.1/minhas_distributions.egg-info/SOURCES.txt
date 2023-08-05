@@ -1,0 +1,10 @@
+setup.py
+minhas_distributions/Binomialdistribution.py
+minhas_distributions/Gaussiandistribution.py
+minhas_distributions/Generaldistribution.py
+minhas_distributions/__init__.py
+minhas_distributions.egg-info/PKG-INFO
+minhas_distributions.egg-info/SOURCES.txt
+minhas_distributions.egg-info/dependency_links.txt
+minhas_distributions.egg-info/not-zip-safe
+minhas_distributions.egg-info/top_level.txt
