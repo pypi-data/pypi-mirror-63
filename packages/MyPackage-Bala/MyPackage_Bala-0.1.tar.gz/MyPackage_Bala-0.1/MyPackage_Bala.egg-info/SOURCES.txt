@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+MyPackage_Bala/_init_.py
+MyPackage_Bala/functions.py
+MyPackage_Bala.egg-info/PKG-INFO
+MyPackage_Bala.egg-info/SOURCES.txt
+MyPackage_Bala.egg-info/dependency_links.txt
+MyPackage_Bala.egg-info/top_level.txt
