@@ -1,0 +1,11 @@
+datasette_search_all/__init__.py,sha256=KOhu7IqJYMNKca31h8JLXx67YQqJ2abmKc0ASnQPBc0,795
+datasette_search_all/app.py,sha256=5-eXRdOIMVDGyKPux5_1Je3uOr7Sv8hLVPmWhYzgZF0,963
+datasette_search_all/utils.py,sha256=31ULu1mXwoOPqUOwsurmUgiti5mSOE1oFwJ2UuIVuyQ,479
+datasette_search_all/templates/index.html,sha256=O8ZRTvhJAZS3V59M1dcfk9REbIdAD6KbOo5owz45PKU,442
+datasette_search_all/templates/search_all.html,sha256=UXxe3x_6y0xV7nJ2aosl5Q5mXR3wqhCZEPgW7UYDzDc,3616
+datasette_search_all-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_search_all-0.1.dist-info/METADATA,sha256=dhr3mctbSJkFI3_2t1NIK2NM9kjhecwbuczBRtbjFQY,2019
+datasette_search_all-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_search_all-0.1.dist-info/entry_points.txt,sha256=zHcIsPUYft0UBuc_bRkxrAXdKmLkqJx06BPejSqjRWo,47
+datasette_search_all-0.1.dist-info/top_level.txt,sha256=bHG2cdlFzo_uqRIDZV6yWWD6MsQEPggXlqsAt-n_gAg,21
+datasette_search_all-0.1.dist-info/RECORD,,
