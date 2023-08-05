@@ -1,0 +1,12 @@
+numpy
+pyyaml
+soundfile
+scipy
+torch
+pytorch-lightning
+
+[tests]
+pytest
+
+[visualize]
+seaborn>=0.9.0
