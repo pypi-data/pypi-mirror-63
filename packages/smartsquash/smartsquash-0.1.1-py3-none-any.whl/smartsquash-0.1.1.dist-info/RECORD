@@ -1,0 +1,12 @@
+smartsquash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smartsquash/__main__.py,sha256=Ec7LU42LtzebU02WF1KeStMGX4QpApgre8Db0V9ZT3U,1438
+smartsquash/decorators.py,sha256=123zDOYfTY5ZtG5kKh8TTNCv453FB5eW4sB7w7eVy0Y,572
+smartsquash/fixup.py,sha256=kUDUvHjANrZtDz82C7MqKz5pXqc_PWiWzwETyy9mrpQ,828
+smartsquash/helpers.py,sha256=Ts9GcnLho8_OQkHMo_jdFHZWqcNxMHIA4Se2PQ3tqCE,3413
+smartsquash/sq.py,sha256=GN5a3foroupP4LJsWRK8PNsjFt51OYSUMciUnP6e0I4,1627
+smartsquash/squash.py,sha256=YdYo1NCT3k9cdDKiacW_Ul1Jzmgpra_WIT0zeMdWJAU,4361
+smartsquash-0.1.1.dist-info/entry_points.txt,sha256=Q8uTbzS0_Z9CW3T7rOWBmGR8dfSGELloZzysDpJCgck,48
+smartsquash-0.1.1.dist-info/LICENSE,sha256=hC8B4EoprcG3ogJczCGxfVc8PwA7d_ifwCAUZ29mgHA,1068
+smartsquash-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+smartsquash-0.1.1.dist-info/METADATA,sha256=00Y3QekhtB582HVt23LdODV0dqKl6aibjPIDXRAO9ww,392
+smartsquash-0.1.1.dist-info/RECORD,,
