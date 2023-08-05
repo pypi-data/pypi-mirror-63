@@ -1,0 +1,17 @@
+deepdiff/__init__.py,sha256=sEsUll2KmJpwLq4OF0UJHZM1F14ClyU0p2B0aO9P4X8,328
+deepdiff/base.py,sha256=vc2a9LZfQW1V-1Rk-KO4-_TR1UckKFWmfIwjMhu7jm4,1949
+deepdiff/deephash.py,sha256=-j-O-_bFb8Rmns9lxLcQ4zAS99KyfAcgd45obgNHAVw,13882
+deepdiff/deephash_doc.rst,sha256=VlrX3gfhAt11P4llriwKKLSpnaaWK5n43kOw1sdIicI,16396
+deepdiff/diff.py,sha256=GsCWIpDKEaxenNUqUIeMZqh8PbnnxIJPXCS4jB1pZcQ,31041
+deepdiff/diff_doc.rst,sha256=WFFYY_GqdvUZg3tMaN6BImoykTEBrKGqsstLwolfhBw,36976
+deepdiff/helper.py,sha256=7sufZxX5FT43BKU3fGw63YW_P0qQ8hLRe3245mlYdKw,6626
+deepdiff/model.py,sha256=ds3dMmyVDNRLJ-E1GAMk5e0cA50hxMFbWbtkPsUtKe0,26473
+deepdiff/search.py,sha256=hIcK67nk-SqGhfaxaqJpTL8lyObx2qztFUYg5CxcaLo,10967
+deepdiff/search_doc.rst,sha256=8oCHsAdIoghlL1HJ_k7OUTWCYs7a24-lHz6w-sEc8Jo,851
+deepdiff-4.3.1.dist-info/AUTHORS,sha256=3Wjnp0AMN6Wjw7ExZr7aJ7zgM5x080T6GFM0qi4o2ec,1269
+deepdiff-4.3.1.dist-info/LICENSE,sha256=1MxOyTSGCyLRS9TQnzfEzqpxCvvCCoxwxEDTcVRGFmw,1127
+deepdiff-4.3.1.dist-info/METADATA,sha256=rW8_AfHGgSYMbsrlIigEzbiOEpZH5e0yx38SJmZ4VrI,19678
+deepdiff-4.3.1.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+deepdiff-4.3.1.dist-info/top_level.txt,sha256=TpeU1A-wkHdVKl7w7s6XJHuZH4is5WCaGXlFGDmJSRg,9
+deepdiff-4.3.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+deepdiff-4.3.1.dist-info/RECORD,,
