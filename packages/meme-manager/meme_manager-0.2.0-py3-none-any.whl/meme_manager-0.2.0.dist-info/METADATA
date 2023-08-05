@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: meme-manager
+Version: 0.2.0
+Summary: A meme manager with web UI
+Home-page: https://github.com/valleygtc/meme-manager
+Author: gutianci
+Author-email: gutianci@qq.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/valleygtc/meme-manager/issues
+Project-URL: Source, https://github.com/valleygtc/meme-manager/
+Keywords: application web
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Desktop Environment
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: flask-sqlalchemy
+Requires-Dist: waitress
+
+# 简介
+Web UI 表情包管理器。
+
+功能：
+- 浏览图片。
+- 添加、删除图片。
+- 给图片打标签，并可以按标签搜索。
+
+# 安装：
+```
+$ pipx install meme-manager
+```
+
+验证安装成功：
+```
+$ meme-manager --help
+```
+
+# 使用：
+```bash
+# 初始化 sqlite 数据库：
+$ meme-manager initdb foo.sqlite
+
+# 运行：
+$ meme-manager run foo.sqlite
+
+# 打开浏览器，在地址栏输入：http://localhost:5000/index.html
+```
+
+# 开发：
+说明：
+后端使用 Python Flask + waitress 开发。
+前端使用 React + Antd 开发。
+
+后端：
+```bash
+$ git clone https://github.com/valleygtc/meme-manager.git
+$ cd meme-manager
+
+# create venv
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+# install meme-manager and its dependencies.
+$ pip install --editable .
+
+# run unittest
+$ python -m unittest discover
+
+# ENV
+$ cp env.sh.example env.sh
+$ vi env.sh # 填写好程序运行所需环境变量。
+$ source env.sh # 读入环境变量。
+
+# init db memes.sqlite
+$ meme-manager initdb
+
+# run on db memes.sqlite
+$ flask run
+```
+
+前端：
+
+见：https://github.com/valleygtc/meme-manager-frontend
+
+# 构建与发布：
+prerequsite：
+```
+$ pip install --user --upgrade setuptools wheel
+
+$ pipx install twine
+```
+
+build and upload to pypi:
+```bash
+# 首先要 build 前端。
+# 然后把前端 build 出来的 build/ 目录复制到 src/meme-manager 目录下，并改名为 frontend。
+
+# build
+$ python3 setup.py sdist bdist_wheel
+
+# upload to pypi
+$ twine upload dist/*
+```
+
+
