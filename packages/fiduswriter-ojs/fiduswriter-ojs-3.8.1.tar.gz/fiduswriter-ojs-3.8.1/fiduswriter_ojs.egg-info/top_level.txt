@@ -1,0 +1,4 @@
+dist
+fiduswriter
+travis
+venv
