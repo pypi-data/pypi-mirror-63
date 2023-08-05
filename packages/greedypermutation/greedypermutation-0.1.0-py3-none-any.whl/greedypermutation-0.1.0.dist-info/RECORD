@@ -1,0 +1,14 @@
+greedypermutation/__init__.py,sha256=i_nB6u4h-6wraZlwf3iteS9mSOunS6l7c7wJog6xs6s,161
+greedypermutation/clarksongreedy.py,sha256=fh3xmwM6BVnBYohMJdqtBGb3kpZcgr9ArsI_UNhaF8k,813
+greedypermutation/clustergraph.py,sha256=6Mci04xRohJvJhvs-wn9bsSkWry3mcFpuN_7AR3lNIY,5419
+greedypermutation/greedy.py,sha256=yeZJlV-_bV75U84kTXlqpR5uW1V0n4g6Bc7CckQNOpo,194
+greedypermutation/maxheap.py,sha256=RUSb6GVruaNo0M5UZNNT9D4Kkzvmgb_Qe9PJ4l0O1ck,808
+greedypermutation/metricspace.py,sha256=9xVQ_tAT-F0bKgcIGZsfWiKaAfNYCmgk_0VIL0bWn9U,475
+greedypermutation/point.py,sha256=2AO17_Uah-gknu0mQ5aNnjyCW6qifuyUvcsKQRcR9vw,1067
+greedypermutation/quadraticgreedy.py,sha256=Jz3Lhx9HNcIngf2zp89EZLOOtF4xnt4-2pffCUssWCc,1266
+greedypermutation/weightedgraph.py,sha256=FwoqXzwZl3OeyfDJFXV-imn_Xl592iqR5n5L7YqvZao,731
+greedypermutation-0.1.0.dist-info/LICENSE,sha256=bBb5Spz5vFD_ZiMhXJR4Ucqm3t13Kb1_lEuN91aNQuY,1067
+greedypermutation-0.1.0.dist-info/METADATA,sha256=ts-hLuTdEj7NSBDdjcmN1OyJIh3YCkAAq_j1HxTVLyA,668
+greedypermutation-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+greedypermutation-0.1.0.dist-info/top_level.txt,sha256=7yeu54OJyGfA1zW6oWcOBP9DMTMeKiWHqjgXbTA6wPg,18
+greedypermutation-0.1.0.dist-info/RECORD,,
