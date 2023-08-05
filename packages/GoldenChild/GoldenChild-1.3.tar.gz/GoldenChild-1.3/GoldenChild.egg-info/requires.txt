@@ -1,0 +1,5 @@
+argcomplete
+libxml2-python3
+xmltodict
+Perdy
+Argumental
