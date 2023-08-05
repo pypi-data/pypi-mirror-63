@@ -1,0 +1,10 @@
+apter/__init__.py,sha256=CeHgN1taL0h85hiKu_C2eSYTUGXCoOly6MqMAEnXXLI,21
+apter/apter.py,sha256=hTcR0Krrm3xjCrRsHeXwKYMoizLGt6rXqx1OqCYTMFg,3676
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_apter.py,sha256=NzXFMz3c2B6FpL1yn9Zt-80s8Y76OBKo8_JBkR5KQFg,6665
+apter-0.7.dist-info/.DS_Store,sha256=hmiAlKqtF0v4j-LY1jUcF7rwxP5J8r26FqhdHatNswI,6148
+apter-0.7.dist-info/LICENSE.txt,sha256=5uPaNd-moTutetiyoVzA4xYh8L2eVoh6dAHJ2e1Dap0,1065
+apter-0.7.dist-info/METADATA,sha256=4iv82dogvm1AcRUZOial2tGzVkeLoFf00wUbqLuHPUY,278
+apter-0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+apter-0.7.dist-info/top_level.txt,sha256=2qrzF5PnYcd87h_Zr5BTQtEyeHJsGL5uTkQTGDfG5q4,6
+apter-0.7.dist-info/RECORD,,
