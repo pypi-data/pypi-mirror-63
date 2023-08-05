@@ -1,0 +1,10 @@
+strcuta/__init__.py,sha256=whY3IG2klMC_Bq-Nz8zh1Faaj9Z7aTl_f_pWq8-KSK4,188
+strcuta/frq.py,sha256=0Tnud6vpE7A70Bs2eK9AhzHfFdrX4xknGm5-GbOo68I,1305
+strcuta/otoini.py,sha256=D1zR6omZR_1bGHXelaQ7OexcZxyE0q9hKkVoJFgCsfA,1815
+strcuta/prefixmap.py,sha256=2sWwGJJ7Rz6u2WoSHApeOvw1MQKH3Qn58shU2O-ZSQc,401
+strcuta/voicebank.py,sha256=ZkHEL8tODw97i435R3M7E3afdaTFYwa-WknWTQeuuzM,4771
+strcuta-0.0.8.dist-info/LICENSE_1_0.txt,sha256=vcgDpQPW3RcDAnVTa1U4Q7SRb1bTjdyRhnNowUFIm34,1518
+strcuta-0.0.8.dist-info/METADATA,sha256=V0P5HyPJ-PN4VSscDCsN5tGnM9RkTlOnfa2M2E8h5cU,1179
+strcuta-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+strcuta-0.0.8.dist-info/top_level.txt,sha256=OTgEq8MwOCniEezLj5dNZT_FtzgCgHP0910C6zX470A,8
+strcuta-0.0.8.dist-info/RECORD,,
