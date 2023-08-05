@@ -1,0 +1,14 @@
+doubledate/__init__.py,sha256=3pEcYT0ZeSGAfQnjxkdLyPdS9NtHZIEyZTpQR4w0j7A,381
+doubledate/calendar.py,sha256=rRwXRKRYWGETd_tGYWk-MzuRBokeL4ydOq96PLhE9n8,26781
+doubledate/constants.py,sha256=PPJ63TNDXpTzPEqlG-jwkmcPP3gHmqaCvGXWcsyB4MM,334
+doubledate/internals.py,sha256=qKc9zHqXZ7nffp1CgsvRHQaU1LOibQXs-pzpHbcadO0,368
+doubledate/utils.py,sha256=1OZL1LedJgtNcrwMGm4-h8iuPiUT5FCndlin_-QcpOk,25504
+gregorian/__init__.py,sha256=_QHX6Vwvn1X2iEbl56gQLF-FJNrV63h6td9SOTQA_nk,154
+gregorian/calendar.py,sha256=bjqvD-GhmPUMe7kepGHednxcYTjw2u8ql8s4oNgaC1c,21009
+gregorian/internals.py,sha256=qKc9zHqXZ7nffp1CgsvRHQaU1LOibQXs-pzpHbcadO0,368
+gregorian/utils.py,sha256=TvmlMSKZp3HoCwP1VzQ-udPPxYp0zwmX4oa3YoPV7hg,9376
+doubledate-0.0.4.dist-info/LICENCE,sha256=uF-phKTg-OT3AAI0as4EuhR2hWrkkQo6jNxppUP3xFU,1097
+doubledate-0.0.4.dist-info/METADATA,sha256=UUEJAB10kkYPKKs5D6p94EednZMcu6Waa3bICHLQbNw,1111
+doubledate-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+doubledate-0.0.4.dist-info/top_level.txt,sha256=Uj9yk7c_4WyC4TxeT5GdPuL-RxwFh5mGrrRf2hSYhlQ,11
+doubledate-0.0.4.dist-info/RECORD,,
