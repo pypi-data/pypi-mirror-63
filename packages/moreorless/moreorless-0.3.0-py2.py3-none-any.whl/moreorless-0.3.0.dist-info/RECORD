@@ -1,0 +1,14 @@
+moreorless/__init__.py,sha256=QV69VGViQh1ARFZEXOF7622iHFHq0jBkMoIMlzQGQts,801
+moreorless/click.py,sha256=lZRwP6YhJ9X1179OQ2bJUHF5bWjXKLW41RZo2ZLKuFM,1048
+moreorless/patch.py,sha256=ot_H2ig-CkqHsFW_NO29QtYSSYbfVNsGVMRB40suEQI,6049
+moreorless/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moreorless/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moreorless/tests/__main__.py,sha256=81_5bencG6M8Nh4syKkfIQrf8lMqSaSY5sp_7opp84k,166
+moreorless/tests/click.py,sha256=9v8ovjYeDvNOwWP_KYjmilE80qQVZ8LwH7UH8gBo5FY,695
+moreorless/tests/general.py,sha256=VOA1vIyF76fA24N0N23aU8XIkR5sQ01U1okfAs59wkA,1250
+moreorless/tests/patch.py,sha256=qubscuWVf7_nLvIg8CpyvJzcl7N1e4pHblYW70sAwtI,5700
+moreorless-0.3.0.dist-info/LICENSE,sha256=Ho4s2WKBzrYFrASqhzMAf7biT02EkYx0s1CIgzcVVmc,1066
+moreorless-0.3.0.dist-info/METADATA,sha256=wnBNTuwWvO1XlTLk-NjDGqiATZY5zh5XW-Vrpylghc4,1325
+moreorless-0.3.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+moreorless-0.3.0.dist-info/top_level.txt,sha256=IC950VjrmLb9D0LFCK5TzPa07qWgGBC8op9Y7QUox_Y,11
+moreorless-0.3.0.dist-info/RECORD,,
