@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: computation-graph
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: toolz
+Requires-Dist: gamla (==0.0.39)
+Requires-Dist: toposort
+
+[![Build Status](https://travis-ci.com/hyroai/computation-graph.svg?branch=master)](https://travis-ci.com/hyroai/computation-graph)
+
+A stateful non-unary function composer.
+
+`pip install computation-graph`
+
+To deploy: `python setup.py sdist bdist_wheel; twine upload dist/*; rm -rf dist/;`
+
+
