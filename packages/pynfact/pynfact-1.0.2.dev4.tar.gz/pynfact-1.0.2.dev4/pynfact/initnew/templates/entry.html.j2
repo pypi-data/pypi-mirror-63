@@ -1,0 +1,62 @@
+{% extends "base.html.j2" %}
+{% block metadescription %} ({{ entry.raw_title }}){% endblock %}
+{% block title %}{{ entry.raw_title }}{% endblock %}
+
+{% block body %}
+
+<article class="entry"
+         itemscope
+         itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="author" content="{{ entry.author }}">
+    <header>
+        <h1 class="title"
+            itemprop="headline">
+            {{ entry.title }}
+            {% if entry.private %}<span class="private">[PRIV]</span>{%- endif -%}
+        </h1>
+        {% if entry.up_date %}
+        <p class="date">
+            {% trans %}published for first time on{% endtrans %}
+            <time datetime="{{ entry.datehtml }}"
+                  itemprop="datePublished">{{ entry.date }}</time>
+            <br>
+            {% trans %}updated on{% endtrans %}
+            <time datetime="{{ entry.up_datehtml }}"
+                  itemprop="dateModified">{{ entry.up_date }}</time>
+        {% else %}
+        <p class="date">
+            {% trans %}published on{% endtrans %}
+            <time datetime="{{ entry.datehtml }}"
+                  itemprop="datePublished">{{ entry.date }}</time>
+        {% endif %}
+    </header>
+
+    <section class="entry hyphenate prettify">
+        {{ entry.content }}
+    </section>
+
+    <footer>
+        {%- if entry.tags != [''] %}
+        <p class="tags"
+           itemprop="keywords">
+            {% trans %}This entry is tagged{% endtrans %}
+            {% for tag in entry.tags|sort(case_sensitive=true) %}
+                {%- if not loop.first and not loop.last %}, {% endif -%}
+                {%- if loop.last and not loop.first %}{% trans %} and {% endtrans %}{% endif -%}
+                <a rel="tag" href="{{ base_uri }}tags/{{ slugify(tag) }}"
+                   title="{{ tag }}">{{ tag }}</a>
+            {%- endfor %};<br>
+            {% trans %}and categorized{% endtrans %}
+            <a href="{{ entry.category_uri }}" title="{{ entry.category }}">{{ entry.category }}</a>.
+        {%- endif %}
+    </footer>
+</article>
+
+{% if entry.site_comments and entry.comments and not entry.private %}
+<section id="comments">
+    <!-- Your comments script here -->
+</section>
+{% endif %}
+
+{% endblock %}
+

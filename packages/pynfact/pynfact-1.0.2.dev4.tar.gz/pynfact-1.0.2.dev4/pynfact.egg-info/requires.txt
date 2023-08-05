@@ -1,0 +1,5 @@
+feedgen>=0.9.0
+jinja2>=2.7
+markdown>=3.0.0
+pygments
+unidecode
