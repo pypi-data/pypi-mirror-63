@@ -1,0 +1,8 @@
+tidyfasta/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+tidyfasta/__main__.py,sha256=lvVtOa8xyxyKoPpM2j3mT6M3US_G2EKPX6C3jOKzc8M,558
+tidyfasta/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidyfasta/common/process.py,sha256=SczoVrPn3K1cMG_4NA57a3hE-2DfbG6O2bnJo4RR6tE,7340
+tidyfasta-1.0.0.dist-info/METADATA,sha256=oLnW5vn4U3ZM053HDYdXKxTGS2nZ0lB0seAZ3mu7xVo,1238
+tidyfasta-1.0.0.dist-info/RECORD,,
+tidyfasta-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tidyfasta-1.0.0.dist-info/top_level.txt,sha256=xPEcByxsgOfXdBDw8KgX1YZKxpVTl61UiFuhhsdVCO4,10
