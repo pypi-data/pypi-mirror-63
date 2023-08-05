@@ -1,0 +1,64 @@
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = ["poetry.masonry.api"]
+
+[tool.poetry]
+name = "picopt"
+version = "2.2.0"
+description = "A multi format lossless image optimizer that uses external tools"
+license = "GPL-2.0-only"
+authors = ["AJ Slater <aj@slater.net>"]
+readme = "README.md"
+homepage = "https://github.com/ajslater/picopt"
+documentation = "https://github.com/ajslater/picopt"
+keywords = ["image", "png", "jpg", "cbz", "cbr"]
+classifiers = [
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3"
+]
+packages = [
+    { include = "picopt" },
+    { include = "tests", format = "sdist" },
+]
+include = ["NEWS"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+rarfile = "^3.1"
+python-dateutil = "^2.8"
+Pillow = "^6 || ^7"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7"
+flake8-black = "^0.1"
+flake8-bugbear = "^20.1"
+coverage = {extras = ["toml"], version = "^5.0"}
+pep8-naming = "^0.9"
+pytest = "^5.3"
+pytest-black = "^0.3"
+pytest-cov = "^2.8"
+pytest-flake8 = "^1.0"
+pytest-isort = "^0.3"
+pytest-monkeytype = "^1.0"
+pytest-mypy = "^0.4"
+mypy = "^0.761"
+monkeytype = "^19.11"
+vulture = "^1.2"
+radon = "^4.1"
+
+[tool.poetry.scripts]
+picopt = "picopt.cli:main"
+
+[tool.coverage.run]
+source = ["picopt"]
+branch = true
+concurrency = ["multiprocessing"]
+
+[tool.coverage.html]
+directory = "test-results/coverage"
