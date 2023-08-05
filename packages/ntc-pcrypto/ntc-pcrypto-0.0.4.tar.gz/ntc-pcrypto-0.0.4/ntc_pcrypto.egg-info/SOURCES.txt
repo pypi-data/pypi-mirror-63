@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ntc_pcrypto.egg-info/PKG-INFO
+ntc_pcrypto.egg-info/SOURCES.txt
+ntc_pcrypto.egg-info/dependency_links.txt
+ntc_pcrypto.egg-info/requires.txt
+ntc_pcrypto.egg-info/top_level.txt
+sss/__init__.py
+sss/sss.py
