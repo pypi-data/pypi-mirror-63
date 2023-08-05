@@ -1,0 +1,15 @@
+README.md
+setup.py
+pysimple_log.egg-info/PKG-INFO
+pysimple_log.egg-info/SOURCES.txt
+pysimple_log.egg-info/dependency_links.txt
+pysimple_log.egg-info/not-zip-safe
+pysimple_log.egg-info/requires.txt
+pysimple_log.egg-info/top_level.txt
+simplelog/__init__.py
+simplelog/tests/__init__.py
+simplelog/tests/tasks.py
+simplelog/tests/test_basic.py
+simplelog/utils/__init__.py
+simplelog/utils/defaults.py
+simplelog/utils/logger.py
