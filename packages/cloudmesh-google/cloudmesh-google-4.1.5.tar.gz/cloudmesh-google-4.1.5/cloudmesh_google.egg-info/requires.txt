@@ -1,0 +1,8 @@
+google-cloud-storage
+gsutil
+cloudmesh-common
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-configuration
+cloudmesh-abstract
