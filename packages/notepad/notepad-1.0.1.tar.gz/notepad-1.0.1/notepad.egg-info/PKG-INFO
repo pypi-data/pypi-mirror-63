@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: notepad
+Version: 1.0.1
+Summary: A simple text editor made by tkinter.一款使用tkinter编写的文本编辑器程序。
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: 说明 Instructions:A simple text editor written in Python.It supports editing text files,binary files ,encodings and changing font size.When you edit a binary file, the contents of the file aredisplayed asescape sequences.And code highlighting is supported when editing Python code files,like IDLE.一款使用Python编写的文本编辑器, 支持编辑文本文件、二进制文件、改变字体大小。支持ansi、gbk和utf-8编码。编辑二进制文件时, 文件内容以转义序列形式显示。编辑python代码文件时, 也支持代码高亮显示, 类似IDLE。作者:七分诚意由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: notepad,text,editor,tkinter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Text Editors
