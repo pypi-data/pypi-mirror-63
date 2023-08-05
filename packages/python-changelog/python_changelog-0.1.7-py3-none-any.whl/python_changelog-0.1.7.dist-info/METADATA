@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-changelog
+Version: 0.1.7
+Summary: A module that generates changelogs with git. It uses conventional commits (https://www.conventionalcommits.org) and tags.
+Home-page: UNKNOWN
+Author: Lennart Suwe
+Author-email: lennsa999@gmx.de
+License: UNKNOWN
+Keywords: changelog conventional commit git
+Platform: UNKNOWN
+Requires-Dist: Click (==7.0)
+Requires-Dist: GitPython (==3.1.0)
+Requires-Dist: requests (==2.22.0)
+
+UNKNOWN
+
+
