@@ -1,0 +1,6 @@
+README.md
+setup.py
+jr_data_science.egg-info/PKG-INFO
+jr_data_science.egg-info/SOURCES.txt
+jr_data_science.egg-info/dependency_links.txt
+jr_data_science.egg-info/top_level.txt
