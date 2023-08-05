@@ -1,0 +1,12 @@
+scikit_ika-0.0.4.dist-info/top_level.txt,sha256=Q1O3Fi1ybDgCVhjM02P_aAFjXVFdyWSW2lHy0d622Ag,6
+scikit_ika-0.0.4.dist-info/RECORD,,
+scikit_ika-0.0.4.dist-info/METADATA,sha256=YNxO3XorJ5ZGPWMj5xaF7h7-oXATbgyeDaWeoIIB-4I,1062
+scikit_ika-0.0.4.dist-info/WHEEL,sha256=Wzr7ustLd3r5KN3AVdAm7EECHYuYQiejXMdpS694wLU,112
+skika/ensemble.cpython-37m-x86_64-linux-gnu.so,sha256=HuhMteS64cUpvu3KioirimqcLc1WSC8A80v0HxhmFTs,1246400
+skika/__init__.py,sha256=Bnf48t91kLVXm8_Lww_q996ywS-t7xbzrZz_hRT81YM,90
+skika/data/wind_sim_generator.py,sha256=VmaTHQqnYxsOHmgbOni6KkE5hoNetJJhLf352wi5O6c,22614
+skika/data/bernoulli_stream.py,sha256=3GewHOLfxdxqxNisaghVa-ftuggmUseEGWl_aJWGbUA,17137
+skika/data/stream_generator.py,sha256=I_y6V3XqKTsiFGQLDuSMYzT-2wQh9XvmP1_h1k--vfo,10094
+skika/data/reccurring_concept_stream.py,sha256=RUR0sUdilLNQZXwSsxaPWZxp_mMl2HdXfMFoOGxBj4g,27390
+skika/data/generate_dataset.py,sha256=QAhljt6Ydmu7S9hJkCUQiJ2HXoyFOs9MjWDIDpi5OK8,20567
+skika/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
