@@ -1,0 +1,12 @@
+helics/_version.py,sha256=fLnjsI08PzjKhJu-qPulN_7ObKqP88lNisJB13MrNAg,18447
+helics/__init__.py,sha256=elxeaiEheZiOnRBuCiC43yi9CFPEsy3VlVnuCJ14cy0,115
+helics/helics.py,sha256=C6CyvEnT6aHlJZBGC84hawxSVn9gY8xHE5o1trDjjnw,143526
+helics/_helics.cpython-38-darwin.so,sha256=8nIzirbrhBQ-QhxcW6-djWLCqIVPvdr77kbg8tgQvmk,355520
+helics/.dylibs/libhelicsSharedLib.2.4.1.dylib,sha256=K5BG5g1wR44Mk-s7uB0uO_RWHgXFkK4Arw1rNzVyEow,5663740
+helics/.dylibs/libzmq.5.2.2.dylib,sha256=gTATvJE6KKtv8l1EzLhbm_52TNiZhYATOodbwMWqI9M,623872
+helics-2.4.1.dist-info/RECORD,,
+helics-2.4.1.dist-info/LICENSE,sha256=vHsRG5RV8yFPSY0pfJbi3-mXctogx4jD5v1nneuA3Fg,1607
+helics-2.4.1.dist-info/WHEEL,sha256=4oqbY9JMAtgzQzyOdS8KD988cHZuV6QLukvG9aEA97U,110
+helics-2.4.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+helics-2.4.1.dist-info/top_level.txt,sha256=_zAPWrDoIMp3asQYoTN7ybNwfQUnyQTWacy4GKMryms,7
+helics-2.4.1.dist-info/METADATA,sha256=gG2KIxQkKsdWy5DKz1A_PqC1o79g1YCbiYVRf0-660k,3830
