@@ -1,0 +1,11 @@
+mope/__init__.py,sha256=vM-Cnel4iQRdmkKS1BnMzp7LV0LC64EP41tUcTolFdQ,49
+mope/__version__.py,sha256=DMy8udup0k6xydqMe7X1XlPL-gZRLYeuk1GVIe8OBQI,57
+mope/client.py,sha256=czo9c8FYdCfis6MFeybQ9nqoSjXe6fPJXNDRSsP9hmw,866
+mope/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mope/models/payments.py,sha256=-mjZpvWQdqYl0R_oX3DZHt6rq68n8wtsGkVkpToBqKE,1176
+mope/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mope/resources/shop.py,sha256=na_8VqPTnauOLWqdVnmC8v0x0nAi1TAjN3zh6Wi49Ow,1082
+python_mope-0.0.3.dist-info/METADATA,sha256=N9dTXJTlYH84FqRTXQlnFEbSCPHLDJ9LCOuDNmFpNkc,1796
+python_mope-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_mope-0.0.3.dist-info/top_level.txt,sha256=KNJibHVOvmp47d34dVOoxczy3_oafEiKZ4szVTOW6AA,5
+python_mope-0.0.3.dist-info/RECORD,,
