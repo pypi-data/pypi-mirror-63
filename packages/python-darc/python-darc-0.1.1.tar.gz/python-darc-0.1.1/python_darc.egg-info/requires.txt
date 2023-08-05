@@ -1,0 +1,8 @@
+beautifulsoup4[html5lib]
+file-magic
+python-datauri
+requests-futures
+requests[socks]
+selenium
+stem
+typing_extensions
