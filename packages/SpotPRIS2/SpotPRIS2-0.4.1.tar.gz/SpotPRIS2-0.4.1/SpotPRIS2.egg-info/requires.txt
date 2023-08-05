@@ -1,0 +1,4 @@
+PyGObject
+pydbus
+spotipy>=2.8
+appdirs

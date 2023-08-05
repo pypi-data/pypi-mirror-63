@@ -1,0 +1,16 @@
+README.md
+setup.py
+SpotPRIS2.egg-info/PKG-INFO
+SpotPRIS2.egg-info/SOURCES.txt
+SpotPRIS2.egg-info/dependency_links.txt
+SpotPRIS2.egg-info/entry_points.txt
+SpotPRIS2.egg-info/requires.txt
+SpotPRIS2.egg-info/top_level.txt
+spotpris2/BusManager.py
+spotpris2/MediaPlayer2.py
+spotpris2/__init__.py
+spotpris2/__main__.py
+spotpris2/util.py
+spotpris2/html/success.html
+spotpris2/mpris/org.mpris.MediaPlayer2.Player.xml
+spotpris2/mpris/org.mpris.MediaPlayer2.xml
