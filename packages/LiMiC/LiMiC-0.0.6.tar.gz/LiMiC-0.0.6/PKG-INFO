@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: LiMiC
+Version: 0.0.6
+Summary: Linear-infrastructure Mission Control (LiMiC)
+Home-page: https://pypi.org/project/LiMiC/
+Author: Peter Schneider-Kamp
+Author-email: petersk@imada.sdu.dk
+License: MIT License
+Description: DESCRIPTION
+        
+        LiMiC is short for Linear-infrastructure Mission Control.
+        
+        REQUIREMENTS
+        
+        Python >= 3.4
+        
+        INSTALL
+        
+        pip install limic
+        
+        RUN
+        
+        python -m limic
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
