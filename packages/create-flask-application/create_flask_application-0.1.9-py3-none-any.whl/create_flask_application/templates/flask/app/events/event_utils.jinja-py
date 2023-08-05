@@ -1,0 +1,33 @@
+{%- if sqlalchemy and socketio %}
+from ..io import socketio
+
+
+def establish_session(*args, **kwargs):
+    db_session = socketio.get_new_database_session()
+    return {"db_session": db_session}
+
+
+def dispose_session(return_or_exc):
+    if isinstance(return_or_exc, Exception):
+        socketio.close_pending_database_session(None)
+    else:
+        try:
+            db_session = return_or_exc.meta.get("db_session", None)
+        except AttributeError:
+            db_session = None
+        socketio.close_pending_database_session(db_session)
+
+}
+{%- endif %}
+
+class EventOutput(object):
+    def __new__(cls, response, meta={}):
+        """
+        It is required that ``response`` does not have ``meta`` attribute.
+        Otherwise, it will be overrided.
+        :param response: Basically any object
+        :param meta: will be placed on response.meta attribute
+        :return: reponse
+        """
+        setattr(response, "meta", meta)
+        return response

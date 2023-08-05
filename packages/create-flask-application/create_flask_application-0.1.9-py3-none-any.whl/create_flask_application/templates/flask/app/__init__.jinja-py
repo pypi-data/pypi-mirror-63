@@ -1,0 +1,50 @@
+from flask import Flask, g
+{% if sqlalchemy %}
+from sqlalchemy import create_engine
+from sqlalchemy.pool import QueuePool
+from sqlalchemy.orm import sessionmaker, scoped_session
+from sqlalchemy.exc import InvalidRequestError
+{% endif %}
+import yaml
+import os
+
+from .rest.controllers import rest
+{% if socketio %}
+from .events.controllers import *
+from .io import socketio
+{%- endif %}
+{% if mail %}
+from .mail import mail
+{%- endif %}
+{% if sqlalchemy %}
+from .models import db
+{%- endif %}
+
+
+def create_app():
+    app = Flask(__name__)
+
+    # configuration file should map to a regular dictionary.
+    # inner structures should map to default python objects, like JSON loader
+    with open(os.path.join("app", "config", os.environ.get("FLASK_CONFIG_FILENAME", "config.prod.yaml"))) as f:
+        config_dictionary = yaml.safe_load(f)
+
+    app.config.from_mapping(config_dictionary)
+
+    app.register_blueprint(rest)
+
+    {%- if sqlalchemy %}
+    # flask-sqlalchemy setup
+    db.init_app(app)
+    {% endif %}
+
+
+
+    {%- if socketio %}
+    # connect socket_io app
+    socketio.init_app(app)
+    {% endif %}
+
+    return app
+
+
