@@ -1,0 +1,6 @@
+pandas
+python-dotenv
+Click
+pyarrow
+numpy
+scikit-learn
