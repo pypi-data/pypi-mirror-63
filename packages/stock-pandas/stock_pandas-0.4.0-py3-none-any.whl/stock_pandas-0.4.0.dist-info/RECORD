@@ -1,0 +1,12 @@
+stock_pandas/__init__.py,sha256=N3sjmkvUgoY-dJ0EffB7v71jIA7jT6WXrxztFOq5oaw,84
+stock_pandas/command_presets.py,sha256=yN_mg_nham9cheoVs9VWljvvjT69aIyCffOXpIag_8s,1216
+stock_pandas/commands.py,sha256=U_A1REz2wkc3Wj3z2UyFxbrvF42Ios4vAknZFXEEg9A,7632
+stock_pandas/common.py,sha256=bf2yG-PB4W9fU_glNt0gZg18F8rwAnEj_G4h-0Ki2To,3874
+stock_pandas/dataframe.py,sha256=-9KFuVoMgMH9L-u_qJRdQAnFJRw4CPFt8MR-TweLquI,7811
+stock_pandas/directive.py,sha256=R7riE8BgZKAp3A8gneLne1fhJ50wcMI_SCTk0A6Ylyo,6339
+stock_pandas/operators.py,sha256=Xptg-WMJHz2521seFrqhAWOeGGzbnDctxMYDtvQxnKM,806
+stock_pandas-0.4.0.dist-info/LICENSE,sha256=4Q5iGL1tQVVoeVxiwC7YF2jEsUU_YdlXSSwTnlB93lQ,1070
+stock_pandas-0.4.0.dist-info/METADATA,sha256=VRk6TwImxJ8SqNnsAdENlqJLDfA1X4acVFkcCw4oe6c,9020
+stock_pandas-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stock_pandas-0.4.0.dist-info/top_level.txt,sha256=rks0ZK3CJQxOTDcmNPt74PJgKjptJ4uhA6rq5wge2tQ,13
+stock_pandas-0.4.0.dist-info/RECORD,,
