@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/abbr
+sonlp/__init__.py
+sonlp/abbrev.py
+sonlp.egg-info/PKG-INFO
+sonlp.egg-info/SOURCES.txt
+sonlp.egg-info/dependency_links.txt
+sonlp.egg-info/requires.txt
+sonlp.egg-info/top_level.txt

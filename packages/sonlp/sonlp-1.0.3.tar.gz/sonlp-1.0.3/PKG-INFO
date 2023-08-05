@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: sonlp
+Version: 1.0.3
+Summary: A simple toolkit for natural language processing
+Home-page: https://github.com/LemuriaChen/sonlp
+Author: dandanlemuria
+Author-email: 18110980003@fudan.edu.cn
+License: MIT
+Description: 
+        ## A toolkit for natural language processing
+        
+        ### Installation
+        
+        ```shell script
+        pip install sonlp
+        ```
+        
+        ### Automatic Abbreviation for Text
+        
+        #### **Usage** 
+        
+        * Method 1 (Python API)
+        
+        ```python
+        from sonlp import abbr
+        abbr.get_abbreviation(query='China Central Television')
+        abbr.get_fullname(query='CCTV')
+        ```
+        
+        * Method 2 (Command Line)
+        
+        ```shell script
+        abbr China Central Television
+        abbr -i CCTV
+        ```
+        
+        
+Keywords: abbreviation,nlp
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
