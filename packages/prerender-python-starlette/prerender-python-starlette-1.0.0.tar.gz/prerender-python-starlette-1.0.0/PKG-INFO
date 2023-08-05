@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: prerender-python-starlette
+Version: 1.0.0
+Summary: Starlette middleware for Prerender.
+Home-page: https://github.com/BeeMyDesk/prerender-python-starlette
+Author: François Voron
+Author-email: fvoron@gmail.com
