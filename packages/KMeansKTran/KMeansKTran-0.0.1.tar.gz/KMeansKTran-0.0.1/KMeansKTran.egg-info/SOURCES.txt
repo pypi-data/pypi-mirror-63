@@ -1,0 +1,8 @@
+README.md
+setup.py
+KMeansKTran/__init__.py
+KMeansKTran/kmeans.py
+KMeansKTran.egg-info/PKG-INFO
+KMeansKTran.egg-info/SOURCES.txt
+KMeansKTran.egg-info/dependency_links.txt
+KMeansKTran.egg-info/top_level.txt
