@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+okltd.egg-info/PKG-INFO
+okltd.egg-info/SOURCES.txt
+okltd.egg-info/dependency_links.txt
+okltd.egg-info/entry_points.txt
+okltd.egg-info/requires.txt
+okltd.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
