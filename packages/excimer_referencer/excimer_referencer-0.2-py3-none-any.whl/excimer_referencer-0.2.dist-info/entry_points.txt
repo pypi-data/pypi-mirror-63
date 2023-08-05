@@ -1,0 +1,3 @@
+[console_scripts]
+referencer=excimer_referencer:referencer
+
