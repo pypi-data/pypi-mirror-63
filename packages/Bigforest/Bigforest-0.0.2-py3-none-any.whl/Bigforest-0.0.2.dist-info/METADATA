@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Bigforest
+Version: 0.0.2
+Summary: Distributed node router
+Home-page: https://github.com/kensdm/forest/tree/master
+Author: kenspy
+Author-email: 381717500@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pickleshare
+Requires-Dist: pymysql
+
+# Example Package
+
+This is a Distributed node routing management package. You can use
+[Github-flavored Markdown](https://github.com/kensdm/forest/blob/master/README.md)
+to write your content.
+
