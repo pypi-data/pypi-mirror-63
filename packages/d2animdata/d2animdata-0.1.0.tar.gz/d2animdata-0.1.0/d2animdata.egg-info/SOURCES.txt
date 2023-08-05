@@ -1,0 +1,8 @@
+README.md
+d2animdata.py
+setup.py
+d2animdata.egg-info/PKG-INFO
+d2animdata.egg-info/SOURCES.txt
+d2animdata.egg-info/dependency_links.txt
+d2animdata.egg-info/entry_points.txt
+d2animdata.egg-info/top_level.txt
