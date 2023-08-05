@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: user_tools
+Version: 0.0.5
+Summary: Some commonly used modules for personal use.
+Home-page: https://github.com/Skypekey/user_tools
+Author: SkypeKey
+Author-email: enablekey@outlook.com
+License: GNU GPLv3
+Project-URL: Documentation, https://github.com/Skypekey/user_tools/wiki
+Project-URL: Source, https://github.com/Skypekey/user_tools
+Project-URL: Tracker, https://github.com/Skypekey/user_tools/issues
+Description: # user_tools
+        
+        Some commonly used modules for personal use.
+        
+        # install
+        
+        `pip install user_tools`
+        
+        # module description
+        
+        - `util_check.py` : Some checks on files or directories.
+        - `util_cmd.py` : Some functions related to command execution.
+        - `util_file.py` : Some functions related to file operations.
+        - `util_hashlib.py` : Some functions related to hash operations.
+        - `util_img.py` : Some functions related to image operations.
+        - `util_json.py` : Some functions related to json file operations.
+        - `util_time.py` : Some functions related to json time operations.
+        - `util_ua.py` : Some functions related to useragent.
+        
+        # changelog
+        
+        - 2020/03/09 : Initial completion of script writing.
+Keywords: time file json
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
