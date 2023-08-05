@@ -1,0 +1,10 @@
+requests<2.23,>=2.22
+regex<2020.2,>=2020.1
+bs4
+justext==2.2.0
+ftfy>=5.6
+pyyaml>=5.3
+get-html
+
+[showcase]
+streamlit
