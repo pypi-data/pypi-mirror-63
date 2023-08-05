@@ -1,0 +1,18 @@
+{
+  "get_nzh_payServiceBill": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 36292
+    }
+  },
+  "get_nzh_getServiceBillList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 36293
+    }
+  }
+}
