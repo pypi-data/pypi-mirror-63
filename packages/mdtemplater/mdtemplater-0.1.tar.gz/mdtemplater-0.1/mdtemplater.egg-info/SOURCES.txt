@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+mdtemplater/__init__.py
+mdtemplater/templater.py
+mdtemplater.egg-info/PKG-INFO
+mdtemplater.egg-info/SOURCES.txt
+mdtemplater.egg-info/dependency_links.txt
+mdtemplater.egg-info/entry_points.txt
+mdtemplater.egg-info/top_level.txt

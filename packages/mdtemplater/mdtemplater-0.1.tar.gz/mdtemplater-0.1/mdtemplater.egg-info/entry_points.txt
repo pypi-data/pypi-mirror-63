@@ -1,0 +1,3 @@
+[console_scripts]
+mdtemplater = mdtemplater.templater:main
+
