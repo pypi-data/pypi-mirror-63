@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: rs2wapy
+Version: 0.5.10
+Summary: Rising Storm 2: Vietnam WebAdmin Python Interface
+Home-page: https://github.com/tuokri/rs2wapy
+Author: tuokri
+Author-email: tuokri@tuta.io
+License: UNKNOWN
+Description: 
+        Provides programmable interface to Rising Storm 2: Vietnam
+        WebAdmin for building server management automation applications.
+        
+        The library uses PycURL internally to communicate with RS2
+        WebAdmin.
+        
+Keywords: automation webadmin ue3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
