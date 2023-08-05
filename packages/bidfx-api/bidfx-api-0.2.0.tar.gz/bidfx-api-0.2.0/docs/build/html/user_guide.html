@@ -1,0 +1,309 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>User Guide &#8212; BidFX API Python (0.2.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Example Programs" href="examples.html" />
+    <link rel="prev" title="About BidFX" href="about.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Example Programs"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.2.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">User Guide</a><ul>
+<li><a class="reference internal" href="#download-and-installation">Download and installation</a><ul>
+<li><a class="reference internal" href="#python-version">Python version</a></li>
+<li><a class="reference internal" href="#git-repository">Git repository</a></li>
+<li><a class="reference internal" href="#source-distribution">Source distribution</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#session-configuration">Session configuration</a></li>
+<li><a class="reference internal" href="#pricing-api">Pricing API</a><ul>
+<li><a class="reference internal" href="#building-subjects">Building subjects</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#trading-api">Trading API</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="about.html"
+                        title="previous chapter">About BidFX</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="examples.html"
+                        title="next chapter">Example Programs</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="user-guide">
+<h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="download-and-installation">
+<h2>Download and installation<a class="headerlink" href="#download-and-installation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="python-version">
+<h3>Python version<a class="headerlink" href="#python-version" title="Permalink to this headline">¶</a></h3>
+<p>BidFX Python API works with Python 3.6 and greater. To check that your
+have the right version of Python installed use the command:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>You should get some output like <code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">3.7.5</span></code>.</p>
+<p>If you do not have Python, please install the latest 3.x version from <a class="reference external" href="https://python.org">python.org</a>
+or refer to the <a class="reference external" href="http://docs.python-guide.org/en/latest/starting/installation/">Installing Python</a> section
+of the Hitchhiker’s Guide to Python.</p>
+</div>
+<div class="section" id="git-repository">
+<h3>Git repository<a class="headerlink" href="#git-repository" title="Permalink to this headline">¶</a></h3>
+<p>As part of the <em>BidFX Open Source initiative</em>,
+BidFX intend to published the source code for the Python API on the
+<a class="reference external" href="https://github.com/bidfx">BidFX Github Page</a>.
+This source will be released soon.
+When available, you will be able to clone the API with the following command.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bidfx</span><span class="o">/</span><span class="n">bidfx</span><span class="o">-</span><span class="n">api</span><span class="o">-</span><span class="n">python</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="source-distribution">
+<h3>Source distribution<a class="headerlink" href="#source-distribution" title="Permalink to this headline">¶</a></h3>
+<p>Early adopters of the API are provided with a Python source distribution.
+This is a gzipped tar file containing a versioned release of the API.
+You unpack the source distribution as follows.
+Note, you may have a different version number to the example below.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>tar -xf bidfx-api-python-0.1.0.tar.gz
+<span class="nb">cd</span> bidfx-api-python-0.1.0
+</pre></div>
+</div>
+</div>
+<div class="section" id="installation">
+<h3>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h3>
+<p>Once you have the library code unpacked you need to install it.
+The library is setup to use the <code class="docutils literal notranslate"><span class="pre">pip</span></code> package manager.
+It can be installed running <code class="docutils literal notranslate"><span class="pre">pip</span></code> from the top-level directory.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>pip install .
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="session-configuration">
+<h2>Session configuration<a class="headerlink" href="#session-configuration" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">bidfx</span></code> package contains all of the classes,
+methods and event handlers that are necessary to subscribe to pricing from
+multiple pricing services.</p>
+<p>To work with the API, the first thing you need to do is create a <code class="docutils literal notranslate"><span class="pre">Session</span></code>.
+<a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> is the core class that allows you to subscribe to prices and trade via BidFX.
+To connect to the BidFX platform the Session must first be configured.
+There are three ways to configure the Session:</p>
+<ol class="arabic simple">
+<li><p>by using a default config file located in your home directory</p></li>
+<li><p>specifying a named config file from any location</p></li>
+<li><p>creating a config in code.</p></li>
+</ol>
+<p>Details of how to configure the API can be found at <a class="reference internal" href="configuration.html"><span class="doc">API Configuration</span></a>.
+In our examples we will just use the default method to create and configure a Session as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="pricing-api">
+<h2>Pricing API<a class="headerlink" href="#pricing-api" title="Permalink to this headline">¶</a></h2>
+<p>The Pricing API interface is obtained as a property of the <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a>.
+Pricing makes use of a publish-subscribe paradigm in which clients
+register for price updates by subscribing on subjects. A <a class="reference internal" href="pricing.html#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> identifies
+a view of an individual instruments for which realtime pricing may be obtained.</p>
+<p>LPs publish streams of realtime prices against large numbers of subjects.
+The BidFX price service matches the client’s subscribed subjects against the total universe of
+published subjects and forwards on to each client only those price updates
+that match their subscriptions.</p>
+<p>Pricing uses threads to manage asynchronous communication with the price servers.
+The threads need to be started explicitly.
+Realtime data is passed back to the user-code via event-handling callback functions.
+The normal pattern for using the pricing API is:</p>
+<ol class="arabic simple">
+<li><p>configure the Session</p></li>
+<li><p>fetch the pricing API from the Session</p></li>
+<li><p>register the pricing callback functions</p></li>
+<li><p>start the pricing threads</p></li>
+<li><p>subscribe to Subjects</p></li>
+</ol>
+<p>Here is a small but complete example of a price consuming application:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+
+
+<span class="k">def</span> <span class="nf">on_price_event</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Price update to </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">subject</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">price</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">on_subscription_event</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Subscription to </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">subject</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">status</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="c1"># configure the Session</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+
+    <span class="c1"># fetch the pricing API from the Session</span>
+    <span class="n">pricing</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">pricing</span>
+
+    <span class="c1"># register the pricing callback functions</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">price_event_fn</span> <span class="o">=</span> <span class="n">on_price_event</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">subscription_event_fn</span> <span class="o">=</span> <span class="n">on_subscription_event</span>
+
+    <span class="c1"># start the pricing threads</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+    <span class="c1"># subscribe to Subjects</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">subscribe</span><span class="p">(</span><span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">liquidity_provider</span><span class="p">(</span>
+        <span class="s2">&quot;CSFX&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span><span class="s2">&quot;EURUSD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency</span><span class="p">(</span><span class="s2">&quot;EUR&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span><span class="p">(</span><span class="mi">1000000</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">())</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>After subscribing to a Subject, you will start receiving related <a class="reference internal" href="pricing.html#bidfx.PriceEvent" title="bidfx.PriceEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PriceEvent</span></code></a>
+via the registered callback function: <code class="docutils literal notranslate"><span class="pre">pricing.callbacks.price_event_fn</span></code>.
+In addition, then the status of subscriptions will be notified as <a class="reference internal" href="pricing.html#bidfx.SubscriptionEvent" title="bidfx.SubscriptionEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SubscriptionEvent</span></code></a> objects via the
+registered subscription status callback <code class="docutils literal notranslate"><span class="pre">pricing.callbacks.subscription_event_fn</span></code>.</p>
+<div class="section" id="building-subjects">
+<h3>Building subjects<a class="headerlink" href="#building-subjects" title="Permalink to this headline">¶</a></h3>
+<p>Because BidFX connects to many different liquidity providers our instrument symbology is necessarily complex.
+Each instrument that can be subscribed on is defined by a unique <a class="reference internal" href="pricing.html#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a>.
+A Subject is an immutable object that looks and behaves similar to a read-only <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a>.
+It contains many key-value string pairs called <em>Subject components</em>.
+FX price Subjects can be particularly large,
+especially when it comes to swaps and NDS which are described by many components.
+Here are a few example Subjects parsed from strings (not recommended):</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Subject</span>
+<span class="n">indi_spot</span> <span class="o">=</span> <span class="n">Subject</span><span class="o">.</span><span class="n">parse_string</span><span class="p">(</span><span class="s2">&quot;AssetClass=Fx,Exchange=OTC,Level=1,Source=Indi,Symbol=USDCAD&quot;</span><span class="p">)</span>
+<span class="n">rfs_spot</span>  <span class="o">=</span> <span class="n">Subject</span><span class="o">.</span><span class="n">parse_string</span><span class="p">(</span><span class="s2">&quot;AssetClass=Fx,BuySideAccount=GIVE_UP_ACCT,Currency=EUR,DealType=Spot,Level=1,LiquidityProvider=CSFX,Quantity=5000000.00,RequestFor=Stream,Symbol=EURUSD,Tenor=Spot,User=smartcorp_api&quot;</span><span class="p">)</span>
+<span class="n">rfq_ndf</span>   <span class="o">=</span> <span class="n">Subject</span><span class="o">.</span><span class="n">parse_string</span><span class="p">(</span><span class="s2">&quot;AssetClass=Fx,BuySideAccount=GIVE_UP_ACCT,Currency=USD,DealType=NDF,Level=1,LiquidityProvider=DBFX,Quantity=1000000.00,RequestFor=Quote,Symbol=USDKRW,Tenor=1M,User=smartcorp_api&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Subjects are case sensitive. Their components are ordered alphabetically by key.
+It is important to get the Subject syntax and component spellings right,
+otherwise the subscription will fail.
+This is non-trivial for newcomers as Subject formats vary by both asset class and deal type.</p>
+<p>To build Subjects correctly, its is best to use a <em>Subject builder</em> which provides
+method-chaining to aid syntax discovery and validation to check the result.
+The API provides a Subject builder as a property of the <a class="reference internal" href="pricing.html#bidfx.PricingAPI" title="bidfx.PricingAPI"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PricingAPI</span></code></a> interface.
+This allows you to construct to the following types of Subject:</p>
+<ul class="simple">
+<li><p>Indicative FX</p></li>
+<li><p>FX Request for Stream (RFS/ESP) - Spot, Forward, NDF</p></li>
+<li><p>FX Request for Quote (RFQ) - Spot, Forward, NDF, Swap and NDS</p></li>
+<li><p>Future</p></li>
+<li><p>Equity</p></li>
+</ul>
+<p>Below are some Subject building examples that produce the same Subjects as the parsed strings above.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="n">pricing</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span><span class="o">.</span><span class="n">pricing</span>
+<span class="n">indi_spot</span> <span class="o">=</span> <span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">indicative</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span><span class="s2">&quot;USDCAD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+
+<span class="n">rfs_spot</span>  <span class="o">=</span> <span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">liquidity_provider</span><span class="p">(</span><span class="s2">&quot;CSFX&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span>
+    <span class="s2">&quot;EURUSD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency</span><span class="p">(</span><span class="s2">&quot;EUR&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span><span class="p">(</span><span class="mi">5000000</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+
+<span class="n">rfq_ndf</span>   <span class="o">=</span> <span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">liquidity_provider</span><span class="p">(</span><span class="s2">&quot;DBFX&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span>
+    <span class="s2">&quot;USDKRW&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency</span><span class="p">(</span><span class="s2">&quot;USD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span><span class="p">(</span><span class="mi">1000000</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+
+<span class="c1"># To subscribing to pricing</span>
+<span class="n">pricing</span><span class="o">.</span><span class="n">subscribe</span><span class="p">(</span><span class="n">indicative_spot</span><span class="p">)</span>
+
+<span class="c1"># To un-subscribing from pricing</span>
+<span class="n">pricing</span><span class="o">.</span><span class="n">unsubscribe</span><span class="p">(</span><span class="n">indicative_spot</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="trading-api">
+<h2>Trading API<a class="headerlink" href="#trading-api" title="Permalink to this headline">¶</a></h2>
+<p>TODO when stable.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Example Programs"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.2.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

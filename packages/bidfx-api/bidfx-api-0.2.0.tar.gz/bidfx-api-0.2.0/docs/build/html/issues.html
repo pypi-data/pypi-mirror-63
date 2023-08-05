@@ -1,0 +1,248 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Potential issues &#8212; BidFX API Python (0.2.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="BidFX package" href="bidfx.html" />
+    <link rel="prev" title="Global Points of Presence" href="POPs.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="bidfx.html" title="BidFX package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="POPs.html" title="Global Points of Presence"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.2.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Potential issues</a><ul>
+<li><a class="reference internal" href="#on-boarding-issues">On-boarding issues</a><ul>
+<li><a class="reference internal" href="#credentials">Credentials</a></li>
+<li><a class="reference internal" href="#api-product">API product</a></li>
+<li><a class="reference internal" href="#booking-account">Booking account</a></li>
+<li><a class="reference internal" href="#relationships-and-entitlements">Relationships and entitlements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#connectivity-issues">Connectivity issues</a><ul>
+<li><a class="reference internal" href="#firewalls">Firewalls</a></li>
+<li><a class="reference internal" href="#network-devices">Network devices</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#subscription-limits">Subscription limits</a><ul>
+<li><a class="reference internal" href="#increasing-limits">Increasing limits</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#latency">Latency</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="POPs.html"
+                        title="previous chapter">Global Points of Presence</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="bidfx.html"
+                        title="next chapter">BidFX package</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="potential-issues">
+<h1>Potential issues<a class="headerlink" href="#potential-issues" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="on-boarding-issues">
+<h2>On-boarding issues<a class="headerlink" href="#on-boarding-issues" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="credentials">
+<h3>Credentials<a class="headerlink" href="#credentials" title="Permalink to this headline">¶</a></h3>
+<p>Applications need valid credentials to connect to services using the BidFX API.
+Please don’t use personal credentials for programmatic access via the API.
+BidFX on-boarding staff provide dedicated credentials for API usage.
+Credentials will differ between UAT and Production, so be sure not to mix the two.</p>
+<p>If you create a <code class="docutils literal notranslate"><span class="pre">Session</span></code> using an incorrect username or password,
+or you fail to configure credentials, then the API will issue a suitable error soon after starting.</p>
+</div>
+<div class="section" id="api-product">
+<h3>API product<a class="headerlink" href="#api-product" title="Permalink to this headline">¶</a></h3>
+<p>A valid credentials are insufficient by themselves to access resources using the API.
+The user also requires a backend <em>product assignment</em> for API access.
+Your BidFX account manager will set this up for you.
+There may be a usage charge associated with API access.</p>
+</div>
+<div class="section" id="booking-account">
+<h3>Booking account<a class="headerlink" href="#booking-account" title="Permalink to this headline">¶</a></h3>
+<p>FX subscriptions require a booking account.
+Prices, session routing and entitlements can differ from one account to another.
+If required, a separate account can be set for each subscription
+but commonly a single default account is used for all API subscriptions.
+The <em>default account</em> is configured on the API <code class="docutils literal notranslate"><span class="pre">Session</span></code> config.
+Please verify with your account manager to ensure you are providing the correct account to the API.</p>
+</div>
+<div class="section" id="relationships-and-entitlements">
+<h3>Relationships and entitlements<a class="headerlink" href="#relationships-and-entitlements" title="Permalink to this headline">¶</a></h3>
+<p>You might find that you can connect to the price service,
+receive some pricing but not get data for all subscriptions;
+perhaps some LPs or currency pairs are absent.
+This situation is most likely due to the assigned customer relationships or entitlements for the user account.
+Talk to you account manager to ensure that all of your LPs have been fully on-boarded.</p>
+</div>
+</div>
+<div class="section" id="connectivity-issues">
+<h2>Connectivity issues<a class="headerlink" href="#connectivity-issues" title="Permalink to this headline">¶</a></h2>
+<p>First time users of the API may experience connectivity issues due to firewalls,
+content filtering or network accelerator devices managed by their corporate network team.</p>
+<div class="section" id="firewalls">
+<h3>Firewalls<a class="headerlink" href="#firewalls" title="Permalink to this headline">¶</a></h3>
+<p>A firewall is in place at most organisations to provide basic network security.
+It is often necessary for API users to request their local network team to
+white-list an IP address or open a port in the firewall to the required BidFX POP.
+See <a class="reference internal" href="POPs.html"><span class="doc">Global Points of Presence</span></a> for a list of IP addresses.</p>
+<p>If you encounter network issues then it is possible to test the connectivity to BidFX using the
+<code class="docutils literal notranslate"><span class="pre">ping</span></code> and <code class="docutils literal notranslate"><span class="pre">telnet</span></code> commands as follows:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ ping ln-tunnel.uatprod.tradingscreen.com
+PING ln-tunnel.uatprod.tradingscreen.com <span class="o">(</span><span class="m">199</span>.27.86.91<span class="o">)</span>: <span class="m">56</span> data bytes
+<span class="m">64</span> bytes from <span class="m">199</span>.27.86.91: <span class="nv">icmp_seq</span><span class="o">=</span><span class="m">0</span> <span class="nv">ttl</span><span class="o">=</span><span class="m">58</span> <span class="nv">time</span><span class="o">=</span><span class="m">1</span>.175 ms
+<span class="m">64</span> bytes from <span class="m">199</span>.27.86.91: <span class="nv">icmp_seq</span><span class="o">=</span><span class="m">1</span> <span class="nv">ttl</span><span class="o">=</span><span class="m">58</span> <span class="nv">time</span><span class="o">=</span><span class="m">1</span>.076 ms
+
+$ telnet ln-tunnel.uatprod.tradingscreen.com <span class="m">443</span>
+Trying <span class="m">199</span>.27.86.91...
+Connected to ln-tunnel.uatprod.tradingscreen.com.
+Escape character is <span class="s1">&#39;^]&#39;</span>.
+</pre></div>
+</div>
+<p>Consult your network team if either command returns an error or hangs.</p>
+</div>
+<div class="section" id="network-devices">
+<h3>Network devices<a class="headerlink" href="#network-devices" title="Permalink to this headline">¶</a></h3>
+<p>Security-conscious organisations deploy sophisticated network devices to inspect packets,
+shape traffic and optimise bandwidth.
+Such devices can corrupt the message flow to BidFX and cause a protocol marshalling error,
+quickly followed by a session disconnect.</p>
+<p>Network security devices may allow the initial connection through to BidFX but
+interfere subsequently with either the price protocol or the TLS security layer.
+Packet inspection might, for example, appear to the API as a man-in-the-middle attack.
+Some packet inspection devices prevent WebSocket upgrades by filtering HTTP headers,
+either intentionally or unintentionally.</p>
+<p>The observed symptom in these cases is a read timeout or an SSL handshake error,
+received soon after establishing the connection.
+The solution to all of these issues is to request your company’s network team
+to bypass the offending device(s) for the BidFX IP addresses and ports.
+See <a class="reference internal" href="POPs.html"><span class="doc">Global Points of Presence</span></a> for a list of IP addresses and ports used by BidFX.</p>
+</div>
+</div>
+<div class="section" id="subscription-limits">
+<h2>Subscription limits<a class="headerlink" href="#subscription-limits" title="Permalink to this headline">¶</a></h2>
+<p>The BidFX Price Service limits the number of simultaneous price subscriptions that an API may make.
+We restrict subscriptions, both to protect the Price Service from excessive use and to guarantee
+a high quality of service for all users.
+The default subscription limits allow hundreds of price subscriptions and are sufficient
+and appropriate for most applications.</p>
+<div class="section" id="increasing-limits">
+<h3>Increasing limits<a class="headerlink" href="#increasing-limits" title="Permalink to this headline">¶</a></h3>
+<p>BidFX may provide a licence key that grants a larger subscription limit for demanding applications.
+The licence key is provided to the API via the <code class="docutils literal notranslate"><span class="pre">Session</span></code> config.
+To qualify for a higher subscription limit, the client will need to:</p>
+<ul class="simple">
+<li><p>have sufficient CPU capacity to consume the increased price update load,</p></li>
+<li><p>run their application physically close to the source of liquidity,</p></li>
+<li><p>have a good quality, high bandwidth network connection (ideally a data centre cross-connect to BidFX).</p></li>
+</ul>
+<p>There may be an additional service charge for an increased subscription limit.
+Ask your BidFX sales representative for price details.</p>
+</div>
+</div>
+<div class="section" id="latency">
+<h2>Latency<a class="headerlink" href="#latency" title="Permalink to this headline">¶</a></h2>
+<p>FX pricing has the potential to update very rapidly, especially at time of major news announcements.
+Too many price subscriptions can generate substantial amounts of network traffic,
+causing bandwidth saturation and heavy CPU load on the application host.
+If an overworked application becomes a <em>slow consumer</em> then it will experience excessive latency.</p>
+<p>We recommend all API users to close subscriptions that are no longer required to minimise network load.</p>
+<p>If you experience latency then there are a few remedial actions you can take:</p>
+<ul class="simple">
+<li><p>Reduce the number of open subscriptions.</p></li>
+<li><p>Increase the price publication throttle.</p></li>
+<li><p>Move your application close to your main source of liquidity.</p></li>
+<li><p>Install a dedicated network link with high capacity and QoS.</p></li>
+<li><p>Ideally cross-connect at the same data center as BidFX.</p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="bidfx.html" title="BidFX package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="POPs.html" title="Global Points of Presence"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.2.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>
