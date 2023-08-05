@@ -1,0 +1,14 @@
+devops_microsoft_sspo_etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devops_microsoft_sspo_etl/base_entity.py,sha256=PsBtUqzpg16yq5V41BX2GVZDh7a8VWPCZPgXGqqEgXA,2758
+devops_microsoft_sspo_etl/factories.py,sha256=hGFCQf9eNYgcwHyGqIDh29JCIuzI0npAp2-tLGavGpY,1127
+devops_microsoft_sspo_etl/product_backlog.py,sha256=e3lhE99O0d44CnJYwlraT-CtuJSPuTENPFfped2rke4,4248
+devops_microsoft_sspo_etl/scrum_development_task.py,sha256=0TMJ1I5qWJ2A_H9aiQz2VDb6qWIM2yas8_ZwAaBo5Pk,3078
+devops_microsoft_sspo_etl/scrum_project.py,sha256=0Xa1wLO4Dfqi83yti8hXXuc48a7ssKqxBn70ANRH-Zs,1811
+devops_microsoft_sspo_etl/scrum_project_team.py,sha256=zGCnIniC-b_dGvrL9gAX61zakLOdmHZPwC3vrSFe_3Q,7399
+devops_microsoft_sspo_etl/sprint.py,sha256=qrnRCAX0y5sx2pzJ4xrA5tQzSX_cKyvbPX-SQtETXpA,3368
+devops_microsoft_sspo_etl/team_member.py,sha256=cIl39mJXXyx1_JOObwVi_fS0WvHW58a2KBDKRDipPvY,1135
+devops_microsoft_sspo_etl/user_story.py,sha256=jwiq8RFB9ftENniPHmX-vIxFBdFvhOUf4iZvPX8vUZQ,3791
+devops_microsoft_sspo_etl-1.0.3.dist-info/METADATA,sha256=w1X4vabC-BipoDZFEuP8NKo1P2Fh_SPGNk21_BxapvU,532
+devops_microsoft_sspo_etl-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+devops_microsoft_sspo_etl-1.0.3.dist-info/top_level.txt,sha256=nleMzW6LoE--wTRGZd7gpKVJBKtr3gTkMLZcUh_TOuA,26
+devops_microsoft_sspo_etl-1.0.3.dist-info/RECORD,,
