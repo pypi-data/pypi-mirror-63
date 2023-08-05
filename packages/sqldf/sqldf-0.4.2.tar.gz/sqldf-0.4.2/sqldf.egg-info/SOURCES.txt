@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sqldf/__init__.py
+sqldf/sqldf.py
+sqldf.egg-info/PKG-INFO
+sqldf.egg-info/SOURCES.txt
+sqldf.egg-info/dependency_links.txt
+sqldf.egg-info/not-zip-safe
+sqldf.egg-info/top_level.txt
