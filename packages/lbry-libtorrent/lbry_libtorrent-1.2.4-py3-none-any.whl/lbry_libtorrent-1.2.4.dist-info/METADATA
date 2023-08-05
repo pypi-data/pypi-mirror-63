@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: lbry-libtorrent
+Version: 1.2.4
+Summary: Python bindings for libtorrent-rasterbar (lbry fork for packaging)
+Home-page: https://github.com/lbryio/libtorrent/
+Author: Arvid Norberg
+Author-email: arvid@libtorrent.org
+License: BSD
+Platform: Linux-x86_64
+
+Python bindings for libtorrent-rasterbar (lbry fork for packaging)
+
+
