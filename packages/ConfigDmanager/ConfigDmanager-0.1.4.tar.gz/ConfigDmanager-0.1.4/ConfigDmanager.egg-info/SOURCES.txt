@@ -1,0 +1,12 @@
+README.md
+setup.py
+ConfigDmanager.egg-info/PKG-INFO
+ConfigDmanager.egg-info/SOURCES.txt
+ConfigDmanager.egg-info/dependency_links.txt
+ConfigDmanager.egg-info/top_level.txt
+configDmanager/__init__.py
+configDmanager/_config.py
+configDmanager/_configmanager.py
+configDmanager/_format.py
+configDmanager/config_types.py
+configDmanager/errors.py
