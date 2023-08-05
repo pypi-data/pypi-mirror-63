@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: renishawWiRE
+Version: 0.1.0
+Summary: Reading wdf Raman spectroscopy file from Renishaw WiRE
+Home-page: https://github.com/alchem0x2A/py-wdf-reader
+Author: alchem0x2A
+Author-email: tian.tian@chem.ethz.ch
+License: MIT
+Description: # py-wdf-reader
+        A python wrapper for read-only accessing the wdf Raman spectroscopy file format created
+        by the WiRE software of Ranishaw Inc.  Renishaw Inc owns copyright of
+        the wdf file format.
+        # Basic usage
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
