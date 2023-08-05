@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gaikwad411_greet
+Version: 1.0.0
+Summary: Greets the world in old stupid way
+Home-page: https://github.com/gaikwad411/gaikwad411_greet
+Author: Sachin Gaikwad
+Author-email: gaikwad411@gmail.com
+License: MIT
+Description: # gaikwad411_greet
+        
+        python -m gaikwad411_greet
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
