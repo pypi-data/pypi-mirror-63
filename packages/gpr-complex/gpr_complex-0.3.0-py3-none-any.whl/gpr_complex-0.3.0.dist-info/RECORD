@@ -1,0 +1,11 @@
+LICENSE,sha256=lTkrHvCWmsL8UQXNU6uXfnrt-rHhEH_TRfLMVHrt6P8,1082
+gpr_complex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpr_complex/gaussian_process.py,sha256=rU2_5kG7PwacoJc_28OrUiS8hCznVjgpwwFryhF-JyE,17402
+gpr_complex/kernels.py,sha256=O-f8PFuuVnDI54RvVEfolwQwPbg4k97XD8vuLI3Z2k4,5637
+gpr_complex/model.py,sha256=oaTIzeGrwIP4lBMZo_o_i83SB2YaL0eWqRUNHCNfS24,8268
+gpr_complex/plot.py,sha256=B3IKNKVaJqCVTbexwYC_Tuz8U0XM_DzFM1cyG8AA3jQ,13029
+gpr_complex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpr_complex-0.3.0.dist-info/LICENSE,sha256=lTkrHvCWmsL8UQXNU6uXfnrt-rHhEH_TRfLMVHrt6P8,1082
+gpr_complex-0.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+gpr_complex-0.3.0.dist-info/METADATA,sha256=BnWHWuOhOOHXpl5rNOoRs4J6StObWWiD-0XwtTZ5864,1365
+gpr_complex-0.3.0.dist-info/RECORD,,
