@@ -1,0 +1,11 @@
+wdl_packager/__init__.py,sha256=DqO6JMbL6mjozOR28jGmpBM1P9jFqrTglgrsHoXNidg,1211
+wdl_packager/git.py,sha256=xCIfccvdH60TNkC2ZyxljTQnMCCg5OtMnYbRZQtgp5U,2294
+wdl_packager/utils.py,sha256=GZwD9Wk4X5ZYKqb1xcMw4G2e2XJHK4ryGeJRLD5ccW0,2685
+wdl_packager/version.py,sha256=X5SqFJlR-qIANVWZi0MvZeBR-b0ZRVBd9GaQXULkduA,1406
+wdl_packager/wdl_packager.py,sha256=2O2Gh79QtyyxX2nVk-84WdN-GIwJe1apKU8dvj6UNrQ,9062
+wdl_packager-1.0.0.dist-info/LICENSE,sha256=UzArLSUpz1GuFUVVRfLdMGw48J5yQ26b70DCZr-cAtY,1063
+wdl_packager-1.0.0.dist-info/METADATA,sha256=tNOzynU1zeK-1bc0A-FbFHhc9z9-YNI4uqdN6OiRbMU,5582
+wdl_packager-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wdl_packager-1.0.0.dist-info/entry_points.txt,sha256=UvqQadPhZ-3IZhdlwZZ7XKowMQq8OWWhY8xtO0Ed1wU,65
+wdl_packager-1.0.0.dist-info/top_level.txt,sha256=Nve8mZh3tYpb8vC_d_Xn0SDVS9QVyGmuz9Bz6UGbsKs,13
+wdl_packager-1.0.0.dist-info/RECORD,,
