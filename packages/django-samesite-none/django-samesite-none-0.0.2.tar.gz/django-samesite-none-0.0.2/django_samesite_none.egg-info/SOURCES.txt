@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+django_samesite_none/__init__.py
+django_samesite_none/middleware.py
+django_samesite_none.egg-info/PKG-INFO
+django_samesite_none.egg-info/SOURCES.txt
+django_samesite_none.egg-info/dependency_links.txt
+django_samesite_none.egg-info/not-zip-safe
+django_samesite_none.egg-info/top_level.txt
