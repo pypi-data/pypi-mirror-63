@@ -1,0 +1,9 @@
+pytransdec/__init__.py,sha256=mVz9xU-a6Cryh21ccwkPHDEXip0dmArSL8xeqkCqLdU,89
+pytransdec/communication.py,sha256=rrXrVt_F4hzEwj7kBHOrphXozmMZ4LFdKcMMjB9S_bw,11788
+pytransdec/definitions.py,sha256=OXdcygI1gFH4A9hifUcMi1GAiIjLHdSJ1YMlILO-Ofc,1039
+pytransdec/rpi_comm.py,sha256=KteD-ux2rwIAIDFXQMoIglXP5osGaKX87oxf1Wh30tI,3017
+PyTransdec-0.2.1.dist-info/LICENSE,sha256=5ZjROv-VEWDNXPmxg6NPneF7eOy1W9rdanOjI-9Ol7c,1077
+PyTransdec-0.2.1.dist-info/METADATA,sha256=qb44-IsOb6JejPFnPQFbF3tCKgN54KOCtKSJh_oZq6Y,12122
+PyTransdec-0.2.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+PyTransdec-0.2.1.dist-info/top_level.txt,sha256=Svhdtz7Hm8IQCS3J7m-lViTdQ5IIJJmPwCVaqbeJN9s,11
+PyTransdec-0.2.1.dist-info/RECORD,,
