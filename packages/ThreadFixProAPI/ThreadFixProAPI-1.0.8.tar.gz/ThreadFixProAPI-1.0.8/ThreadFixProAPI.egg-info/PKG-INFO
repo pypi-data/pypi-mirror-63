@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ThreadFixProAPI
+Version: 1.0.8
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: A python implementation of ThreadFix's API for easier use with python. Built off of original work by (c) 2018 Target Brands, Inc.
+Platform: UNKNOWN
