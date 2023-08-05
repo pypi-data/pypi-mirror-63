@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+craigapts/__init__.py
+craigapts/data.py
+craigapts/search.py
+craigapts.egg-info/PKG-INFO
+craigapts.egg-info/SOURCES.txt
+craigapts.egg-info/dependency_links.txt
+craigapts.egg-info/requires.txt
+craigapts.egg-info/top_level.txt
