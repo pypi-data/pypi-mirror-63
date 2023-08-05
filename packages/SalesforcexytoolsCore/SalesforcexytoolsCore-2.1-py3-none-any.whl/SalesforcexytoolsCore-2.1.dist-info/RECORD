@@ -1,0 +1,15 @@
+SalesforceXytoolsCore/__init__.py,sha256=bKfqOnqQ7lEwg1xgXnP6ExwLTQULGwF-30oXLMD16h4,733
+SalesforceXytoolsCore/__version__.py,sha256=yAgCbOshAmXvfRsq5l96SmJa0HRb45EsDrF2gFzGhFA,601
+SalesforceXytoolsCore/api.py,sha256=hoYVo9xFbD_ODLHhimwU1Mp-k4_g-xQbBvk9K0soJwk,32643
+SalesforceXytoolsCore/bulk.py,sha256=eFVGE4cA6z6W1JtU2Xk1b-8SpTiJkzv3D-biLLy7u84,22900
+SalesforceXytoolsCore/core.py,sha256=DYam-V8W-StU9g_GpAFXNhPfhG5lnFulU-WTfv7kojI,33048
+SalesforceXytoolsCore/login.py,sha256=MzGyTb42oQPfGncsqSmUrUzTajzxsV94pwQHOoMeLlg,7709
+SalesforceXytoolsCore/myconsole.py,sha256=BZqVCq3SslYqnB4mhKjpPJjG8bF-7BqHJ7BhyPLIt8M,220
+SalesforceXytoolsCore/soap_envelopes.py,sha256=jYWhknIeRjUz1VHcmz9X7gGFT7HmW1zCsZmmYXheyHo,11808
+SalesforceXytoolsCore/util.py,sha256=KTBbOW_4npZRLjwDrmSXINcJxI0fxDh14JBlQULMv5E,3899
+SalesforceXytoolsCore/xmltodict.py,sha256=jsflH3nhdkeO0as6UgvNopor3W0hw1oX5PMYsfZhaO4,17995
+SalesforcexytoolsCore-2.1.dist-info/LICENSE.txt,sha256=4lK2bJvSaaz3KzNQfHcklzNH_wK8_znKeDYpdKtM9-I,1701
+SalesforcexytoolsCore-2.1.dist-info/METADATA,sha256=XvqUb3cLx0xs04mrPdhPAfiCYKa38YfcmNsQFW0sB1A,6376
+SalesforcexytoolsCore-2.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+SalesforcexytoolsCore-2.1.dist-info/top_level.txt,sha256=xjpcSZ3JmL3yczaUX7lZje7y6dcYgwWl1YugVWF0_7M,22
+SalesforcexytoolsCore-2.1.dist-info/RECORD,,
