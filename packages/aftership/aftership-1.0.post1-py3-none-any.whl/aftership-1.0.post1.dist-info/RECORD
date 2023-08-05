@@ -1,0 +1,14 @@
+aftership/__init__.py,sha256=l7a2MIQ0k5PtQ1-TdpmMZnS3ixkE-7wmkaSXKBbaH7o,111
+aftership/const.py,sha256=x0frFnJ-bnLuzZEQo1scl6fhf2oDFXHWadjDf5-bK0k,108
+aftership/courier.py,sha256=UtwxkiLCRyU9x0lY5dn5LafmfZTb1ACzviWNMxrSRMA,830
+aftership/exception.py,sha256=2NJLjDtXxActE_s8FI1wuQm4cDXTl217EdRQ5HRijCA,747
+aftership/notification.py,sha256=Igo3r3WO_PwdLHWZ1KVnVsga8BMNM62B8eHmO3kGgjo,1411
+aftership/request.py,sha256=p-L_paaMye-gmVzf6c-4BM_M74-XpB6KlzfYZjdFJpE,509
+aftership/response.py,sha256=V8QeZaAQzR6X5WjXv42nH_IhhIkZ52Rq6NLIQnD2TnA,888
+aftership/tracking.py,sha256=YNmKf6_5NOVXSnleqlTX34kVxkdxcF7heYwOCsThB1o,2566
+aftership/util.py,sha256=qA3yVl46ZuF3DiqccvCZWhPE82hP9CISqokef81Yags,708
+aftership-1.0.post1.dist-info/LICENSE,sha256=ED9D1tqzZLMOAUs987ZyAIHqzk_ECVEUCHvuxLGysQc,1079
+aftership-1.0.post1.dist-info/METADATA,sha256=Eqib7stCMZ1PTYD2R1aiu8fXCKo3M4jgUeRwUkWqLlg,3486
+aftership-1.0.post1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aftership-1.0.post1.dist-info/top_level.txt,sha256=ArJXD5XfbSXcJE6rnSVRwou_6opRIfewIoJko1G_xp8,10
+aftership-1.0.post1.dist-info/RECORD,,
