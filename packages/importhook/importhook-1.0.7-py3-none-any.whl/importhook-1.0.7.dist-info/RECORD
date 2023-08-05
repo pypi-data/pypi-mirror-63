@@ -1,0 +1,12 @@
+importhook/__init__.py,sha256=62IG9_Nj-sWf78VGpYU56anzmJ13m_bPSopn8UI29pw,4113
+importhook/finder.py,sha256=HZ2erwReHtaEJ3qm9WjJitESSedLB76uWD0c3bM3upQ,1978
+importhook/loader.py,sha256=XzxWhbERYzLtfEikT3SspG3aGEhgXBtHDgL9eFswu8M,3183
+importhook/logger.py,sha256=6fYah2ETgr4kwqG-HzJTBETv4b94txsuAwTttPUaN-s,82
+importhook/meta_paths.py,sha256=kkC1f4JLeXFye7niL-C-ss04f3IPaZnA2hbOs2iCTrU,427
+importhook/registry.py,sha256=k2D37uWSInYlIGtMQ4iV44cxhjdSJWU1eiDd2NH7aYU,1587
+importhook/utils.py,sha256=nABDMRnBgrtRp5zJ8GDRYOsQqY4muKPTqeItDX6W-LI,177
+importhook-1.0.7.dist-info/LICENSE,sha256=bsFMEKShUMJ7z7_hgCEsjnSITrTbViH4VF8IT9A4--4,1070
+importhook-1.0.7.dist-info/METADATA,sha256=2l-Lo1LUYBRr2bvhzPmHpaQlaxWgtbhw7FylA8hS0Js,3174
+importhook-1.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+importhook-1.0.7.dist-info/top_level.txt,sha256=soU8thsJvJsE0GNKIfmYiw5JyZj8xDFJcesK6iqWTqg,11
+importhook-1.0.7.dist-info/RECORD,,
