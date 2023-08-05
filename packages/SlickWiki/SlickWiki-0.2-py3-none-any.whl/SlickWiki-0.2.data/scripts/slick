@@ -1,0 +1,90 @@
+#!python
+
+import os
+import argparse
+import json
+import codecs
+
+from slickwiki.wikiapp import WikiApp
+from slickwiki.templates import *
+
+def do_init(path):
+    with codecs.open(os.path.join(path, "css"), "w", "utf-8") as f:
+        f.write(templates["css"])
+
+    with codecs.open(os.path.join(path, "wrapper.html"), "w", "utf-8") as f:
+        f.write(templates["wrapper"])
+
+    with codecs.open(os.path.join(path, "not_found_msg.html"), "w", "utf-8") as f:
+        f.write(templates["not_found_msg"])
+
+    with codecs.open(os.path.join(path, "editing_msg.html"), "w", "utf-8") as f:
+        f.write(templates["editing_msg"])
+
+    with codecs.open(os.path.join(path,
+                                  "index.md"),
+                     "w",
+                     "utf-8") as f:
+        f.write(init_index)
+
+    with codecs.open(os.path.join(path,
+                                  "cfg.json"),
+                     "w",
+                     "utf-8") as f:
+        f.write(default_config)
+
+    os.mkdir(os.path.join(path, "static"))
+    
+    with open(os.path.join(path, "static", "favicon.ico"),
+              "wb") as f:
+        f.write(bytes.fromhex(favicon))
+
+
+def load_templates(path):
+    for key in template_files.keys():
+
+        fn = os.path.join(path,
+                          template_files[key])
+        
+        if os.path.exists(fn):
+            templates[key] = codecs.open(fn, "r", "utf-8").read()
+
+def load_config(path, port):
+    cfg_fn = os.path.join(path, "cfg.json")
+
+    if os.path.exists(cfg_fn):
+        cfg = json.load(codecs.open(cfg_fn, "r", "utf-8"))
+    else:
+        cfg = json.loads(default_config)
+
+    if port:
+        cfg["portNumber"] = port
+
+    return cfg
+        
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("PATH",
+                        type=str,
+                        help="Path to wiki file directory")
+    parser.add_argument("-i",
+                        "--init",
+                        action="store_true",
+                        help="Initialize new wiki at PATH")
+    parser.add_argument("-p",
+                        "--port",
+                        type=int,
+                        help="Serve wiki on localhost:PORT (overrides configuration file, if any)",
+                        default=None)
+
+    args = parser.parse_args()
+
+    load_templates(args.PATH)
+    cfg = load_config(args.PATH, args.port)
+    
+    if args.init:
+        do_init(args.PATH)
+    else:
+        app = WikiApp(args.PATH, cfg, templates)
+        app.run()
