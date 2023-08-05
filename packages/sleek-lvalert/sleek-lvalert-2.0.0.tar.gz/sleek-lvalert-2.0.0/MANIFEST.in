@@ -1,0 +1,4 @@
+graft docs
+include *requirements.txt
+include versioneer.py
+include sleek_lvalert/_version.py
