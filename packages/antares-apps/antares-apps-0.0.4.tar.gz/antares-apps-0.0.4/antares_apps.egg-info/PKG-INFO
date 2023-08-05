@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: antares-apps
+Version: 0.0.4
+Summary: Antares Apps Module
+Home-page: http://antares.surfertank.com/
+Author: Leonardo Javier Belén
+Author-email: leobelen@gmail.com
+License: DUAL
+Download-URL: https://bitbucket.org/leobelen/antares-apps/get/0.0.4.tar.gz
+Description: Some text to add to the readme
+Keywords: management,infrastructure
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
