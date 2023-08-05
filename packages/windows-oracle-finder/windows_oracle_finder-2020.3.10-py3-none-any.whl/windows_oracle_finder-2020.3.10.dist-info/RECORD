@@ -1,0 +1,12 @@
+find_oracle/__init__.py,sha256=9UAVYogDKj-R0kwcRivR6puwnzr_DzOwT601LFTvqIo,182
+find_oracle/__main__.py,sha256=VpW-fxkwM0J6Mt5Ic72zItetefq7LfkgznFDqSkJBls,631
+find_oracle/cache.py,sha256=VqUZIhJ_PPUDAiHBbTIRkD0Jn-R6Y2mzcKRNgAX1Czk,2759
+find_oracle/client.py,sha256=SLPjQwKEhK4tBX7Tgl0sIAedxXjinx_wlXhzR8200kM,3208
+find_oracle/enviroment.py,sha256=ER1q17tYAsfsxt89UpOV4lZ27s34YihuMh4Fmf1uy6I,1207
+find_oracle/finder.py,sha256=PsmUlaQugjOhZ7IXIyQ3sNl4p3-DgFKn3Q3UaEzVQD0,2086
+windows_oracle_finder-2020.3.10.dist-info/LICENSE,sha256=Cog7XQOaqd80Cu1BZyNvIcLbEp03i1EFt8zd22ANXqA,1096
+windows_oracle_finder-2020.3.10.dist-info/METADATA,sha256=1ql13nP9Cp0sMM-boRB-zKy0meUhW2qzd4rsuCkjFAU,2445
+windows_oracle_finder-2020.3.10.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+windows_oracle_finder-2020.3.10.dist-info/entry_points.txt,sha256=TBG1z60aadhtcJwX6prCtiEhtOZ9sWERA-mbFfLrG08,54
+windows_oracle_finder-2020.3.10.dist-info/top_level.txt,sha256=srx2_YLUnDaNpemhi-NdVxuWoeopZfeOQDqy0mhB55Q,12
+windows_oracle_finder-2020.3.10.dist-info/RECORD,,
