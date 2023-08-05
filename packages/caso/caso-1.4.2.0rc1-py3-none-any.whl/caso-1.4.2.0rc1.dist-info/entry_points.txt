@@ -1,0 +1,15 @@
+[caso.extractors]
+ceilometer = caso.extract.ceilometer:CeilometerExtractor
+nova = caso.extract.nova:OpenStackExtractor
+
+[caso.messenger]
+logstash = caso.messenger.logstash:LogstashMessenger
+noop = caso.messenger.noop:NoopMessenger
+ssm = caso.messenger.ssm:SsmMessenger
+
+[console_scripts]
+caso-extract = caso.cmd.extract:main
+
+[oslo.config.opts]
+caso = caso.opts:list_opts
+
