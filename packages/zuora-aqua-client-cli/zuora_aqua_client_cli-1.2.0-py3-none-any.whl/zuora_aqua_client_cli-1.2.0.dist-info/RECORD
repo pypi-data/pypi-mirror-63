@@ -1,0 +1,9 @@
+zuora_aqua_client_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zuora_aqua_client_cli/api.py,sha256=xg8cheQ8sGcXVv1MNJpN2dBA_8gc3Nk097znBqiu0GY,3851
+zuora_aqua_client_cli/cli.py,sha256=7iZqt1U3yb49ObegnyVf6mrJkt0J5a9W6_65G2PCe_w,9295
+zuora_aqua_client_cli/consts.py,sha256=Wo2n5bOXrzAxoV5luY6GB90PmIwGHvOvnBQ3iAahv5Q,1231
+zuora_aqua_client_cli-1.2.0.dist-info/entry_points.txt,sha256=eotc7b15bQ0fVHdWJrykPdHSTVE35fRVM-PBHbz17vI,54
+zuora_aqua_client_cli-1.2.0.dist-info/LICENSE,sha256=pr_1gGAh3Ngjs9X3CMR7Zn17HLqUg4mqlZl7Hd-4YDk,1067
+zuora_aqua_client_cli-1.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+zuora_aqua_client_cli-1.2.0.dist-info/METADATA,sha256=K2TdPT4RHIJpWR2n5c5SHfRGLh7wBQTVqb5NyDemuG8,4307
+zuora_aqua_client_cli-1.2.0.dist-info/RECORD,,
