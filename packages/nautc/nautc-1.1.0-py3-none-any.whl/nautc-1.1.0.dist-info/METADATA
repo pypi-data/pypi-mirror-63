@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nautc
+Version: 1.1.0
+Summary: Convert plain text (letters, sometimes numbers, sometimes punctuation) to obscure but cool characters.
+Author: Nasy
+Author-email: nasyxx+python@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: wisepy2 (>=1.1.1,<2.0.0)
