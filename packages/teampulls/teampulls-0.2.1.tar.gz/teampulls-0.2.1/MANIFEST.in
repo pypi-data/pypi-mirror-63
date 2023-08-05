@@ -1,0 +1,2 @@
+include *.txt *.md *.toml
+prune examples/sample?/build
