@@ -1,0 +1,3 @@
+[console_scripts]
+qp = quippy.quippy:main
+
