@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: santodigital-request-full
+Version: 1.0.3
+Summary: Http request library for paginated response api
+Home-page: https://bitbucket.org/rodrigoag/santodigital-request-full
+Author: Rodrigo Gonçalves
+Author-email: rodrigo@santodigital.com.br
+License: UNKNOWN
+Description: ## Lib para executar chamadas em APIs com paginação, trazendo todos os registros de forma única
+        
+        ### Procedimento para upload no Pypi
+        
+        #### Pré requisitos Instalar pacotes python
+        
+        python3 -m pip install –user –upgrade setuptools wheel
+        
+        python3 -m pip install –user –upgrade twine
+        
+        #### Upload no Pypi
+        
+        Na pasta onde tem o setup.py
+        
+        python3 setup.py sdist bdist_wheel
+        
+        python3 -m twine upload dist/*
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
