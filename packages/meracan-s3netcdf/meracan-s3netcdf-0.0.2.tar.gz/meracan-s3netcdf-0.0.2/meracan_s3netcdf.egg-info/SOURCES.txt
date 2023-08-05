@@ -1,0 +1,17 @@
+README.md
+setup.py
+meracan_s3netcdf.egg-info/PKG-INFO
+meracan_s3netcdf.egg-info/SOURCES.txt
+meracan_s3netcdf.egg-info/dependency_links.txt
+meracan_s3netcdf.egg-info/requires.txt
+meracan_s3netcdf.egg-info/top_level.txt
+s3netcdf/__init__.py
+s3netcdf/cache.py
+s3netcdf/netcdf2d.py
+s3netcdf/netcdf2dGroup.py
+s3netcdf/netcdf2d_func.py
+s3netcdf/s3client.py
+test/test_netcdf2d1.py
+test/test_netcdf2d2.py
+test/test_netcdf2d3.py
+test/test_netcdf2d_func.py
