@@ -1,0 +1,6 @@
+numpy>=1.17
+tqdm<5,>=4.32
+pybind11>=2.4
+
+[openmdao]
+openmdao<4,>=2.10

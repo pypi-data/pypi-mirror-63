@@ -1,0 +1,11 @@
+include pyproject.toml
+
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE.txt
+
+# Include the headers
+graft src/hv/include
+graft src/sorting/include
