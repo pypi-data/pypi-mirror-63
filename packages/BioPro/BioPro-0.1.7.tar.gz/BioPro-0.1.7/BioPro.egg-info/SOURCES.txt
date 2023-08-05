@@ -1,0 +1,16 @@
+README.md
+setup.py
+BioPro.egg-info/PKG-INFO
+BioPro.egg-info/SOURCES.txt
+BioPro.egg-info/dependency_links.txt
+BioPro.egg-info/entry_points.txt
+BioPro.egg-info/top_level.txt
+Team3/__init__.py
+Team3/__main__.py
+Team3/cutadapt.py
+Team3/getGeneList.py
+Team3/go_analysis.py
+Team3/pras.py
+Team3/pureclip.py
+Team3/samtools.py
+Team3/star.py
