@@ -1,0 +1,8 @@
+toml
+PyGithub
+certifi
+gitpython
+requests
+Click
+tqdm
+paramiko
