@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spyfor
+Version: 0.0.2
+Summary: Stata Regression Formatter
+Home-page: https://github.com/jj48642/spyfor
+Author: James J Anderson
+Author-email: jj48642@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: xlsxwriter
+
+# spyfor
+
+
