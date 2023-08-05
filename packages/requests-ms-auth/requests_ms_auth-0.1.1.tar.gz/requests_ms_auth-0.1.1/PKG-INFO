@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: requests_ms_auth
+Version: 0.1.1
+Summary: Python requests session for microsoft with support for oauth2, adal and msal
+Home-page: https://github.com/equinor/requests_ms_auth
+Author: Lennart Rolland
+Author-email: lennartrolland@gmail.com
+License: AGPL-3.0
+Download-URL: https://github.com/equinor/requests_ms_auth/dist/requests_ms_auth-0.1.1.tar.gz
+Description: # Python Requests for OAuth2 + MSAL / ADAL
+        
+        ## About
+        
+        This project provides a simple [Requests](https://requests.readthedocs.io/en/master/) compatible session that you can use to authenticate with Microsoft using he following:
+        * Azure Active Directory Authentication Library ([ADAL](https://adal-python.readthedocs.io/en/latest))
+        * Microsoft Authentication Library([MSAL](https://msal-python.readthedocs.io/en/latest)).
+        
+        The package is available on [PyPi](https://pypi.org/project/requests-ms-auth/) and the code is available on [github](https://github.com/equinor/requests_ms_auth).
+        
+        Especially this project can be used to gain easy access to services from [Equinor API gateway]( https://api.equinor.com/ ):
+        
+        | Service | Example code |
+        |---------|-----------|
+        | [Gordo](https://github.com/equinor/gordo) | [gordo_example.py](https://github.com/equinor/requests_ms_auth/blob/master/examples/gordo_example.py) |
+        | [Time Series API](https://github.com/equinor/OmniaPlant/tree/master/Omnia%20Timeseries%20API) | [time_series_api_example.py](https://github.com/equinor/requests_ms_auth/blob/master/examples/time_series_api_example.py) |
+        
+        ## How to use
+        
+        ### 1. Install the package
+        
+        ```bash
+        # Use pip to install the package
+        python3 -m pip install --upgrade requests_ms_auth
+        ```
+        
+        ### 2. Import the class:
+        
+        ```python
+        # Import the session class into your code
+        from requests_ms_auth import MsRequestsSession:
+        ```
+        
+        ### 3. Prepare credentials
+        
+        ```python
+        # Prepare your credentials in a dict (or load it from yaml/json etc).
+        auth_config = {
+        
+            # The Azure resource ID  [required]
+            resource: "12345678-1234-1234-1234-123456789abc",
+        
+            # The Azure tenant ID  [required]
+            tenant: "12345678-1234-1234-1234-123456789abc",
+        
+            # The client ID  [required]
+            client_id: "12345678-1234-1234-1234-123456789abc",
+        
+            # The client secret  [required]
+            client_secret: "this is a very secret secret key",
+        
+            ## Optional arguments
+        
+            # Select ADAL over MSAL [optional]
+            # NOTE: MSAL is default and preferred
+            do_adal: False,
+        
+            # An endpoint that should return 200 when auth works [optional]
+            verification_url: "https://your.service.example.com/your/api/verify_endpoint",
+        
+            # A json element name that should be in the top level of response body for verification_url [optional]
+            verification_element: "data",
+        }
+        ```
+        
+        ### 4. Instanciate a session from the class and use it:
+        
+        ```python
+        # Instanciate the class with authentication dict as parameters
+        session = MsRequestsSession(auth_config)
+        
+        # Use the session as you would use any other Requests session
+        res = session.get( "https://your.service.example.com/your/api/useful_thingy")
+        ```
+        
+        ### 5. Profit!
+        
+        The session should automatically fetch a token on startup and when the last token expires. It will also verify itself in the constructor using the optional `verification_url` if specified, allowing you to terminate early on failure.
+        
+        ## Implementation details
+        
+        * The library uses `pip-compile` with `requirements.in` to manage and pin requirements. Requirements for test are maintained in a separate `test_rquirements.in`.
+        
+        * The library uses a Makefile to manage building, packaging and uploading of versions, as well as many short-cuts for running tests, compiling requirements and more. To get a menu simply invoke it with out target like this:
+        
+        ```bash
+        # Invoke the makefile without targets to see a menu of available targets
+        make
+        ```
+        
+        * The library is built and tested by github actions.
+        
+        * The package is prepared and uploaded to PyPi by github actions.
+        
+        * The library defaults to **MSAL** and can be told to use **ADAL** as an option.
+        
+        * To supply OAuth2 compatability the library depends on
+          * [Requests](https://requests.readthedocs.io/en/master/)
+          * [Requests-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) 
+        
+        ## License
+        
+        Please see [LICENSE](https://github.com/equinor/requests_ms_auth/blob/master/LICENSE) file for details. requests_ms_auth is licensed under GNU AFFERO GENERAL PUBLIC LICENSE and has G-Faps.
+        
+        ## History
+        
+        This project grew from the needs of the [latigo](https://github.com/equinor/latigo) project.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown

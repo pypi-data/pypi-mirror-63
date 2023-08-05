@@ -1,0 +1,78 @@
+name: requests_ms_auth
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  TWINE_TOKEN: ${{secrets.TWINE_TOKEN}}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python-version: [3.7, 3.8, 3.6]
+        exclude:
+         - os: macos-latest
+           python-version: 3.8
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: List environment info
+      run: |
+        python -c "import sys; print(sys.version)"
+        make info
+    - name: Prepare environment
+      run: |
+        make prep
+    - name: Ensure code quality
+      run: |
+        make code-quality
+    - name: Test code
+      run: |
+        make setup test
+  upload:
+    needs: [test]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: List environment info
+      run: |
+        python -c "import sys; print(sys.version)"
+        make info
+    - name: Prepare environment
+      run: |
+        make prep
+    - name: Ensure code quality
+      run: |
+        make code-quality
+    - name: Build code
+      run: |
+        make build
+    - name: Package for PyPi
+      run: |
+        make pack
+    - name: Push version to PyPi
+      run: |
+        make push
