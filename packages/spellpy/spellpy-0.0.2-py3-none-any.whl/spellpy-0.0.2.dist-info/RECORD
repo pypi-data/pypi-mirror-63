@@ -1,0 +1,11 @@
+spell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spell/spell.py,sha256=q0sANf9tqn7KUu35TxxSbT-oVDWM3Rxa0fUFmXHrGZc,16662
+spellpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spellpy/spellpy.py,sha256=q0sANf9tqn7KUu35TxxSbT-oVDWM3Rxa0fUFmXHrGZc,16662
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_spell.py,sha256=v2ALc3BkAgKmK9uOFi6CyH4iGDDUMFK3s-ZjCvmwvrk,3312
+spellpy-0.0.2.dist-info/LICENSE,sha256=I2Nvxjyo3DM_S3te0veuvfYe_MWhgwV72EB_OQTnUkI,1051
+spellpy-0.0.2.dist-info/METADATA,sha256=VyhJwDgp4tT8rd4xFgShK6EmhDlTZGtnv8DLDzldMzA,3590
+spellpy-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spellpy-0.0.2.dist-info/top_level.txt,sha256=EAZaJVep0hVPb2JNuVC7dvsmFlkEizqLSQODHLoI6es,14
+spellpy-0.0.2.dist-info/RECORD,,
