@@ -1,0 +1,10 @@
+README.md
+setup.py
+easylogcli/__init__.py
+easylogcli/config.py
+easylogcli/easylog.py
+easylogcli/util.py
+easylogcli.egg-info/PKG-INFO
+easylogcli.egg-info/SOURCES.txt
+easylogcli.egg-info/dependency_links.txt
+easylogcli.egg-info/top_level.txt
