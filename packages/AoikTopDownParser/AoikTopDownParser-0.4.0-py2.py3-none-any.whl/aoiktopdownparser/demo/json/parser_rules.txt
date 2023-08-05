@@ -1,0 +1,118 @@
+doc:
+    expr
+    `ctx.res = expr.res`
+    end
+
+
+end: '$'
+
+
+comma: ','
+
+
+colon: ':'
+
+
+bracket_start: r'\['
+
+
+bracket_end: r'\]'
+
+
+brace_start: r'\{'
+
+
+brace_end: r'\}'
+
+
+null:
+    'null(?![a-zA-Z0-9_])'
+    `ctx.res = None`
+
+
+boolean:
+    '(true|false)(?![a-zA-Z0-9_])'
+    `ctx.res = True if (boolean.res.match_obj.group() == 'true') else False`
+
+
+number:
+    r"""
+([-+])?         # Sign
+(?=\d|[.]\d)    # Next is an integer part or a fraction part
+(\d*)           # Integer part
+([.]\d*)?       # Fraction part
+(e[-+]?\d+)?    # Exponent part
+""" @(flags='re.VERBOSE | re.IGNORECASE')
+    `ctx.res = eval(number.res.match_obj.group())`
+
+
+string:
+    r'(")((?:[^\\]|\\.)*?)(\1)'
+    `ctx.res = eval(string.res.match_obj.group())`
+
+
+literal:
+    null
+    `ctx.res = null.res`
+    |
+    boolean
+    `ctx.res = boolean.res`
+    |
+    number
+    `ctx.res = number.res`
+    |
+    string
+    `ctx.res = string.res`
+
+
+expr:
+    literal
+    `ctx.res = literal.res`
+    |
+    list_def
+    `ctx.res = list_def.res`
+    |
+    dict_def
+    `ctx.res = dict_def.res`
+
+
+list_def:
+    `ctx.res = []`
+    bracket_start
+    (
+        bracket_end
+        |
+        expr
+        `ctx.res.append(expr.res)`
+        (
+            comma
+            expr
+            `ctx.res.append(expr.res)`
+        )*
+        bracket_end
+    )
+
+
+dict_def:
+    `dict_items = []`
+    brace_start
+    (
+        brace_end
+        |
+        dict_item
+        `dict_items.append(dict_item.res)`
+        (
+            comma
+            dict_item
+            `dict_items.append(dict_item.res)`
+        )*
+        brace_end
+    )
+    `ctx.res = dict(dict_items)`
+
+
+dict_item:
+    string
+    colon
+    expr
+    `ctx.res = (string.res, expr.res)`
