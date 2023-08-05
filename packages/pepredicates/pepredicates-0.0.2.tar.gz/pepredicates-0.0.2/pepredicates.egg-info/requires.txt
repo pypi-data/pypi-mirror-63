@@ -1,0 +1,4 @@
+astropy>=4.0
+numpy
+matplotlib
+seaborn
