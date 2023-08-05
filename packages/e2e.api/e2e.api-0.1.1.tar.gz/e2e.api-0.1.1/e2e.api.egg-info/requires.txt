@@ -1,0 +1,11 @@
+requests>=2.1.0
+
+[:python_version < "3.5"]
+typing
+
+[dev]
+tox
+pytest
+requests_mock
+responses
+setuptools>="40.1.0"
