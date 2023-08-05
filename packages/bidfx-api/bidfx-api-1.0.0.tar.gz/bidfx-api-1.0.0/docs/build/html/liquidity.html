@@ -1,0 +1,149 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>FX liquidity &#8212; BidFX API Python (1.0.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="User Guide" href="user_guide.html" />
+    <link rel="prev" title="About BidFX" href="about.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="user_guide.html" title="User Guide"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (1.0.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">FX liquidity</a><ul>
+<li><a class="reference internal" href="#last-look">Last look</a></li>
+<li><a class="reference internal" href="#binary-protocols">Binary protocols</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="about.html"
+                        title="previous chapter">About BidFX</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="user_guide.html"
+                        title="next chapter">User Guide</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fx-liquidity">
+<h1>FX liquidity<a class="headerlink" href="#fx-liquidity" title="Permalink to this headline">¶</a></h1>
+<p>BidFX are connected to all the major tier-1 banks and FX liquidity providers (LP).
+LPs publish tradable FX price/quotes into the BidFX platform using the FIX protocol.
+The quotes from LPs are firm prices with an associated <em>price-ID</em> that needs
+to be attached to any order placed against the quote.
+The BidFX platform consumes billions for FIX messages per day.
+We provision high-bandwidth, cross-connect circuits in the main global data centres for this purpose.
+BidFX connect to banks where they host their price engines, in particular in:</p>
+<ul class="simple">
+<li><p>London (LD4),</p></li>
+<li><p>New York (NY4) and</p></li>
+<li><p>Tokyo (TY3).</p></li>
+</ul>
+<div class="section" id="last-look">
+<h2>Last look<a class="headerlink" href="#last-look" title="Permalink to this headline">¶</a></h2>
+<p>FX quotes are short-lived and LPs reserve the right of <strong>last look</strong>.
+A quote usually is good for no more than a few hundred milliseconds.
+Network latency between the client application and the LP is therefore
+a significant consideration if we want to avoid order rejections.</p>
+<p>If clients intend to trade directly against price-IDs, then it is recommended
+that they run their application very close to the source of liquidity
+and cross-connect within the same data centre.
+Alternatively, clients may route their orders to the BidFX <em>Strategy Server</em>
+which is located close to LPs to minimise both rejections and slippage.</p>
+</div>
+<div class="section" id="binary-protocols">
+<h2>Binary protocols<a class="headerlink" href="#binary-protocols" title="Permalink to this headline">¶</a></h2>
+<p>The BidFX Python API implements two binary protocols that are optimised
+to deliver realtime quotes from LPs directly to into a client’s application with minimal latency.
+The binary delivery mechanism is more efficient than the FIX protocol used by most banks to publish prices.
+Furthermore, using the <em>publish and subscribe</em> paradigm, BidFX servers
+publish only those quotes that are subscribed to, thus saving significantly in network traffic.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="user_guide.html" title="User Guide"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (1.0.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

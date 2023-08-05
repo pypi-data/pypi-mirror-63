@@ -1,0 +1,146 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>About BidFX &#8212; BidFX API Python (1.0.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FX liquidity" href="liquidity.html" />
+    <link rel="prev" title="BidFX Public API for Python" href="index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="liquidity.html" title="FX liquidity"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="BidFX Public API for Python"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (1.0.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">About BidFX</a><ul>
+<li><a class="reference internal" href="#bidfx-apis">BidFX APIs</a></li>
+<li><a class="reference internal" href="#python-api">Python API</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">BidFX Public API for Python</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="liquidity.html"
+                        title="next chapter">FX liquidity</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="about-bidfx">
+<h1>About BidFX<a class="headerlink" href="#about-bidfx" title="Permalink to this headline">¶</a></h1>
+<p>BidFX is the market-leading provider of electronic trading solutions for the global foreign exchange marketplace.
+BidFX has addressed the challenges of the FX market by introducing a complete suite of negotiation protocols
+– which include: auto-routing, streaming, request-for-quote, voice,
+algo-trading and best execution – via a cloud-based SaaS trading platform.
+BidFX offer clients access to a cutting edge, broker-neutral,
+Execution Management System (EMS) backed by a hub to all major bank’s
+algo suites. You can read about all BidFX products on the main
+<a class="reference external" href="https://www.bidfx.com">BidFX Website</a>.</p>
+<div class="section" id="bidfx-apis">
+<h2>BidFX APIs<a class="headerlink" href="#bidfx-apis" title="Permalink to this headline">¶</a></h2>
+<p>BidFX clients access the trading platform via a dedicated User Interface (UI)
+either on their desktop PC, web browser or mobile device.</p>
+<p>Public APIs provide a secondary means of accessing the trading platform that can either supplement
+the UI or replace it entirely in some use cases, including: systematic trading, OMS integration and market intelligence.
+BidFX place significant emphasis on API support and therefore
+provide a suite of APIs for different high-level programming languages and common protocols.</p>
+<p>You can read about the complete BidFX API range, and their different capabilities, at
+<a class="reference external" href="https://www.bidfx.com/apis">BidFX API Overview</a>.</p>
+</div>
+<div class="section" id="python-api">
+<h2>Python API<a class="headerlink" href="#python-api" title="Permalink to this headline">¶</a></h2>
+<p>This document describes the <em>BidFX Public API for Python</em>.
+The Python API is written pure Python and is compatible with <code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">3.6</span></code> and above.
+All of the code examples below are presented in Python.</p>
+<p>We use the nomenclature <em>Public</em> to indicated that
+this API is designed and maintained for public use by BidFX clients.
+Being Public implies a degree of support, API stability and future
+compatibility appropriate to client usage.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="liquidity.html" title="FX liquidity"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="BidFX Public API for Python"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (1.0.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>
