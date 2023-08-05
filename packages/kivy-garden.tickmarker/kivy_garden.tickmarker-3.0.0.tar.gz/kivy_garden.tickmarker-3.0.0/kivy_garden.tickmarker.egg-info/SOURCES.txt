@@ -1,0 +1,11 @@
+README.md
+setup.py
+kivy_garden.tickmarker.egg-info/PKG-INFO
+kivy_garden.tickmarker.egg-info/SOURCES.txt
+kivy_garden.tickmarker.egg-info/dependency_links.txt
+kivy_garden.tickmarker.egg-info/requires.txt
+kivy_garden.tickmarker.egg-info/top_level.txt
+kivy_garden/tickmarker/__init__.py
+kivy_garden/tickmarker/_version.py
+kivy_garden/tickmarker/ticks.pyx
+kivy_garden/tickmarker/tests/test_import.py
