@@ -1,0 +1,19 @@
+tpDcc-libs-python
+tpDcc-core
+Qt.py
+aenum
+scandir
+pathlib2
+pysvg
+
+[:python_version <= "3.4"]
+PySide
+
+[:python_version > "3.4"]
+PySide2
+
+[dev]
+wheel
+
+[test]
+pytest
