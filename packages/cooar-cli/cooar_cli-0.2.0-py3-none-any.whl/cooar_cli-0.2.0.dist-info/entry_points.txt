@@ -1,0 +1,3 @@
+[console_scripts]
+cooar=cooar_cli:cli
+
