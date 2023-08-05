@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: sciplotlib
+Version: 0.0.2
+Summary: Custom functions to improve the look of matplotlib plots for scientific visualisation.
+Home-page: https://github.com/Timothysit/sciplotlib
+Author: Timothy Sit
+Author-email: sitpakhang@gmail.com
+License: UNKNOWN
+Description: # sciplotlib
+        
+        
+        ## sciplotlib is just a set of simple functions and stylesheets for more professional looking plots 
+        
+        ![nature review style shading scatter](./figures/nature-review-style-shading.svg)
+        
+        There are two main properties that make plots in papers look the way they do: 
+        
+         1. default style properties such as typeface, color scheme, 
+         2. specific choices in terms of the placement of tick marks, or additional elements that are added to the plot such as shading or shadows 
+        
+        sciplotlib aims to make (1) easier by providing stylesheets that aims to mimic the style properties found in scientific papers: 
+        
+        ```python
+        import matplotlib.pyplot as plt
+        import numpy as np
+        from sciplotlib import style as spstyle
+        
+        def make_plot(ax):
+        
+        	num_categories = 10
+        	num_points = 10
+        	for category in num_categories:
+        		x = np.random.normal(size=num_points)
+        		y = np.radnom.normal(size=num_points)
+        		ax.scatter(x, y)
+        
+        	return ax 
+        	
+        
+        
+        
+        ```
+         
+        
+        
+        ## Installation 
+        
+        Simply do 
+        
+        `pip install sciplotlib`
+        
+        
+        ## Acknowledgments
+        
+        sciplotlib is built on top of matplotlib. To cite matplotlib in your publications, cite:
+        
+        J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, 2007
+        
+        Other projects that is also built on the idea of providing stylesheets / wrappers for scientific plots include: 
+        
+         - https://github.com/garrettj403/SciencePlots
+         
+        Color palettes of scientific papers are obtained from the wonderful `ggsci` library:
+        
+        https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html
+        
+        ## Contributing 
+        
+        Do contact me if you are interested in adding new functions or templates to this repository.
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

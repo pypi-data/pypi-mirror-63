@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+./variables
+sciplotlib/__init__.py
+sciplotlib/__main__.py
+sciplotlib/polish.py
+sciplotlib/style.py
+sciplotlib.egg-info/PKG-INFO
+sciplotlib.egg-info/SOURCES.txt
+sciplotlib.egg-info/dependency_links.txt
+sciplotlib.egg-info/requires.txt
+sciplotlib.egg-info/top_level.txt
+sciplotlib/main/myclass.py
+sciplotlib/main/parser.py
