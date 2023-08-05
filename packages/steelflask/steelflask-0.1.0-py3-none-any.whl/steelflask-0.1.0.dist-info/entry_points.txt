@@ -1,0 +1,3 @@
+[console_scripts]
+steelflask = steelflask.cli:steelflask
+

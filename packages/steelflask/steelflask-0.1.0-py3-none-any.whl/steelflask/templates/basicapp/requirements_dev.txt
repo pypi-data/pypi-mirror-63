@@ -1,0 +1,6 @@
+autopep8==1.4.4
+flake8==3.7.8
+pytest==5.2.1
+pytest-cov==2.8.1
+snapshottest==0.5.1
+wheel==0.34.2

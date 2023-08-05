@@ -1,0 +1,9 @@
+APPLICATION_ROOT = '/${app_name}'
+SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://localhost:5432/${app_name}'
+SQLALCHEMY_ECHO = False
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+AUTH_TOKEN_NAME = '${app_name.upper()}_SESSION_TOKEN'
+XSRF_HEADER_NAME = '${app_name.upper()}_XSRF_ID'
+JWT_SECRET_KEY = '40Xq9Ko3U2iJv8YBH2snkZ3PZw53zyJ4ukAOkfyRYftDj7QxhaD0OcTCx'
+JWT_ALGO = 'HS256'
+ITEM_PER_PAGE = 30
