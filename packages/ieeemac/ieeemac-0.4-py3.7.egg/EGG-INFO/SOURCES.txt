@@ -1,0 +1,7 @@
+README.md
+setup.py
+ieeemac.egg-info/PKG-INFO
+ieeemac.egg-info/SOURCES.txt
+ieeemac.egg-info/dependency_links.txt
+ieeemac.egg-info/entry_points.txt
+ieeemac.egg-info/top_level.txt
