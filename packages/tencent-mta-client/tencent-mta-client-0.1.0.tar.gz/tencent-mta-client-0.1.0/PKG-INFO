@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: tencent-mta-client
+Version: 0.1.0
+Summary: tencent mta client is python sdk encapsulate for tencent mta api
+Home-page: https://github.com/jamesqin-cn/tencent-mta-client
+Author: jamesqin
+Author-email: jamesqin@vip.qq.com
+License: MIT
+Description: # Tencent MTA Client
+        
+        ## What is Tencent MTA Client?
+        腾讯移动数据分析平台（[MTA](https://mta.qq.com/mta/ctr_index/opd)）的python SDK
+        
+        ## Programming Language
+        - python 2.7
+        - python 3.7
+        
+        ## Installation
+        ```
+        pip install tencent-mta-client 
+        ```
+        
+        ## Quick Start
+        ```
+        class Test_MtaClient(unittest.TestCase):
+            def setUp(self):
+                self._mta = MtaClient("<your_api_id>", "<your_app_key>")
+        
+            def test_GetUserActiveData(self):
+                data = self._mta.GetUserActiveData('2020-03-01', '2020-03-07')
+                print(data)
+        
+            def test_GetUserBasicData(self):
+                data = self._mta.GetUserBasicData('2020-03-01', '2020-03-07')
+                print(data)
+        ```
+        
+        
+        ## Functions List
+        - 应用基本指标
+        - 应用基本指标
+        - Other（按需封装，欢迎pull request or mail to me）
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
