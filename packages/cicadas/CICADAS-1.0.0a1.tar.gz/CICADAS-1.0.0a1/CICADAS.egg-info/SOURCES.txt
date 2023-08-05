@@ -1,0 +1,6 @@
+README.md
+setup.py
+CICADAS.egg-info/PKG-INFO
+CICADAS.egg-info/SOURCES.txt
+CICADAS.egg-info/dependency_links.txt
+CICADAS.egg-info/top_level.txt
