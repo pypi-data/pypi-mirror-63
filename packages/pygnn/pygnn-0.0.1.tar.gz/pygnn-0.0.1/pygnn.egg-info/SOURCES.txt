@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pygnn/VERSION.txt
+pygnn/__init__.py
+pygnn/__main__.py
+pygnn.egg-info/PKG-INFO
+pygnn.egg-info/SOURCES.txt
+pygnn.egg-info/dependency_links.txt
+pygnn.egg-info/requires.txt
+pygnn.egg-info/top_level.txt
+pygnn.egg-info/zip-safe
