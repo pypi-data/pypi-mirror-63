@@ -1,0 +1,3 @@
+[console_scripts]
+wdl-packager = wdl_packager.wdl_packager:main
+

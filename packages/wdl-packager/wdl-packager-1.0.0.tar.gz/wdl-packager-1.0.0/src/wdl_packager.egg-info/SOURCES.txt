@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/wdl_packager/__init__.py
+src/wdl_packager/git.py
+src/wdl_packager/utils.py
+src/wdl_packager/version.py
+src/wdl_packager/wdl_packager.py
+src/wdl_packager.egg-info/PKG-INFO
+src/wdl_packager.egg-info/SOURCES.txt
+src/wdl_packager.egg-info/dependency_links.txt
+src/wdl_packager.egg-info/entry_points.txt
+src/wdl_packager.egg-info/not-zip-safe
+src/wdl_packager.egg-info/requires.txt
+src/wdl_packager.egg-info/top_level.txt
