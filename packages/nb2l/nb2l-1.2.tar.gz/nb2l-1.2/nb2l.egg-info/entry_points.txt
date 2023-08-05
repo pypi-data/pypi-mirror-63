@@ -1,0 +1,3 @@
+[console_scripts]
+nb2l = nb2l:main
+

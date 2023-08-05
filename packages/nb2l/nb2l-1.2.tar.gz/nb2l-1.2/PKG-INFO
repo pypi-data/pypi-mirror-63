@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: nb2l
+Version: 1.2
+Summary: Convert numbers to literal French text.
+Home-page: https://github.com/flashcode/nb2l
+Author: Sébastien Helleu
+Author-email: flashcode@flashtux.org
+License: GPL3
+Description: 
+        Nb2l converts numbers to literal French text.
+        
+        Example::
+        
+            $ nb2l 0 -15 123456 6824718
+            zéro
+            moins quinze
+            cent vingt-trois mille quatre cent cinquante-six
+            six millions huit cent vingt-quatre mille sept cent dix-huit
+        
+Keywords: number literal french
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
