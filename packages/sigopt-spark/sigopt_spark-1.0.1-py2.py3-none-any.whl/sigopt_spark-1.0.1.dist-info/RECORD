@@ -1,0 +1,6 @@
+sigopt_spark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sigopt_spark/estimator.py,sha256=TFf7rzwjGitTvep1AA0yhs0ctKXu3n9isqKa2pahbwg,6369
+sigopt_spark-1.0.1.dist-info/METADATA,sha256=yiL-3M19UM8j3_k7gEVbaV1LQlpTATBAZTgmhfFmEoM,608
+sigopt_spark-1.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+sigopt_spark-1.0.1.dist-info/top_level.txt,sha256=OJKFiMPX-f1MHXjBBiQ9HITY43jjo14XWmiDNYAFvFA,13
+sigopt_spark-1.0.1.dist-info/RECORD,,
