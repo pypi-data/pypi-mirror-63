@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Troika_TB.egg-info/PKG-INFO
+Troika_TB.egg-info/SOURCES.txt
+Troika_TB.egg-info/dependency_links.txt
+Troika_TB.egg-info/entry_points.txt
+Troika_TB.egg-info/not-zip-safe
+Troika_TB.egg-info/requires.txt
+Troika_TB.egg-info/top_level.txt
+troika_tb/RunTroika.py
+troika_tb/__init__.py
+troika_tb/troika_tb.py
+troika_tb/versions.py
