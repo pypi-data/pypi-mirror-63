@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: piexin
+Version: 0.1
+Summary: phpipam export to ansible inventory ini file
+Home-page: http://github.com/aufbaubank/piexin
+Author: Daniel Henneberg
+Author-email: daniel.henneberg@aufbaubank.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
