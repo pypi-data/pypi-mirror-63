@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+DINCAE/__init__.py
+DINCAE.egg-info/PKG-INFO
+DINCAE.egg-info/SOURCES.txt
+DINCAE.egg-info/dependency_links.txt
+DINCAE.egg-info/requires.txt
+DINCAE.egg-info/top_level.txt
+test/test_DINCAE_SST.py

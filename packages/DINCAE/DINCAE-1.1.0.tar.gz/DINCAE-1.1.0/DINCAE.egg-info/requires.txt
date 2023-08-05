@@ -1,0 +1,8 @@
+netCDF4>=1.4.2
+numpy>=1.15.4
+tensorflow==1.15.2
+
+[test]
+pytest-cov
+codecov
+pytest
