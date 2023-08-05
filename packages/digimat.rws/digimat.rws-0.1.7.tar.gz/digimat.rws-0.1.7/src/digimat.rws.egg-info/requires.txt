@@ -1,0 +1,7 @@
+digimat.gapi
+xlwt
+Pillow
+six
+pyotp
+requests
+setuptools
