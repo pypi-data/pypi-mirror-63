@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: vk-audio
+Version: 6.0
+Summary: audio vk Library
+Home-page: https://vk.com/imartemy
+Author: Ivan
+Author-email: imartemy1524@gmail.com
+License: MIT
+Keywords: vk,audio,vkaudio,music,vkmusic
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: vk-api
+Requires-Dist: datetime
+
+# VK-AUDIO
+
+### Установка
+
+Чтобы установить Vk-audio нужно иметь [python](https://python.org/) 3.4+.
+Установка происходит так:
+
+```sh
+$ pip install vk-audio
+```
+
+### Использование
+####  Авторизация:
+##
+```python
+audio_obj = audio(login='login',password='password')
+```
+##### или
+##
+```python
+vk = vk_api.VkApi(login='login',password='password')
+vk.auth()
+audio_obj = audio(vk)
+```
+####           Дальнейшие действия:
+получение аудио:
+```python
+map_audio_object = audio_obj.get()        #<- map объект
+for i in map_audio_object:
+    print(i.title,i.artist,i.image,i.duration,i.owner_id,i.full_id,i.image)
+```
+получение аудио ввиде list'a:
+```python
+list_audio_object = audio_obj.get(need_list=True,owner_id=1234567,offset=10)    #<- list
+print(list_audio_object[0].title,list_audio_object[10].artist)
+```
+Редактирование/удаление/восстановление аудио
+```python
+list_audio_object = audio_obj.get(need_list=True)                               #<- list
+list_audio_object[3].edit(title="Новое название",artist="Новый артист!")
+list_audio_object[3].delete()
+list_audio_object[3].restore()
+```
+
