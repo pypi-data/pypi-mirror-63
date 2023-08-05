@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: not-tf-opt
+Version: 0.0.1
+Summary: A package that provides a nicer interface to various TF 2.0 optimizers.
+Home-page: https://github.com/gergely-flamich/not-tf-opt
+Author: Gergely Flamich
+Author-email: flamich.gergely@gmail.com
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.org/gergely-flamich/not-tf-opt.svg?branch=master)](https://travis-ci.org/gergely-flamich/not-tf-opt) 
+        [![Coverage Status](https://coveralls.io/repos/github/gergely-flamich/not-tf-opt/badge.svg?branch=master)](https://coveralls.io/github/gergely-flamich/not-tf-opt?branch=master)
+        # not-tf-opt
+        I Can't Believe It's Not Tensorflow Optimize!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
