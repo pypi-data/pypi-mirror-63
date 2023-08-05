@@ -1,0 +1,3 @@
+[console_scripts]
+livesplit-normalize = livesplit_id_normalizer.cli:start
+

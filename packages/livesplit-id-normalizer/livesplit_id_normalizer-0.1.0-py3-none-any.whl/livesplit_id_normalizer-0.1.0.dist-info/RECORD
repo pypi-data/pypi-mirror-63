@@ -1,0 +1,13 @@
+livesplit_id_normalizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+livesplit_id_normalizer/cli.py,sha256=Lw_9oYu47nqGHxpUUrVatYcA2pxG6XGa-NMvN-hDceo,579
+livesplit_id_normalizer/normalizer.py,sha256=EC9rRu_wZWo0rwo532VPpbjyvLnxkcfzJrdq_ItwODc,1146
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=XLJ-7PC3OuBY_XuzhKzjw1Ry499RuASbrlHJCbAlAsk,299
+tests/test_normalizer.py,sha256=zGIpaH-41n3PKbCJV_q9UmYPi_DXk-MLoJGN4FtozKo,905
+livesplit_id_normalizer-0.1.0.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+livesplit_id_normalizer-0.1.0.dist-info/METADATA,sha256=TdxYDjgGveOnCpAQ8AT-ezoX29ExGhidunj-fpGz_2E,601
+livesplit_id_normalizer-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+livesplit_id_normalizer-0.1.0.dist-info/entry_points.txt,sha256=mcbknh2Xo0FgXBij_HX1-CclDlFfQxw16wg-k45qgnY,75
+livesplit_id_normalizer-0.1.0.dist-info/top_level.txt,sha256=TmA59EFT039Ft33KffUdsHJaiFod9NifauvTLh5EZNw,30
+livesplit_id_normalizer-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+livesplit_id_normalizer-0.1.0.dist-info/RECORD,,
