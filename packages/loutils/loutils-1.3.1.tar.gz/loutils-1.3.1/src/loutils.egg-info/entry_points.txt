@@ -1,0 +1,4 @@
+[console_scripts]
+doc2pdf = loutils.__main__:doc2pdf
+doc2print = loutils.__main__:doc2print
+
