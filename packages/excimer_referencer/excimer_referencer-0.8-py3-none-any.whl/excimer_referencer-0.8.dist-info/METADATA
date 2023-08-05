@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: excimer_referencer
+Version: 0.8
+Summary: A package to reference .jpeg, .bmp. and .png images using .xml metadata produced by an Excimer laser ablation system.
+Home-page: https://github.com/rbavery/excimer_referencer
+License: UNKNOWN
+Author: Ryan Avery
+Author-email: ravery@ucsb.edu
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Requires-Dist: numpy
+Requires-Dist: affine
+Requires-Dist: GDAL
+Requires-Dist: fire
