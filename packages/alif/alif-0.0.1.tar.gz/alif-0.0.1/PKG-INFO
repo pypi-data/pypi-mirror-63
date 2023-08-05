@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: alif
+Version: 0.0.1
+Summary: virus Corona
+Home-page: https://www.facebook.com/alif.make
+Author: alifprabda
+Author-email: alif@gmail.com
+License: MIT
+Download-URL: https://drive.google.com/file/d/1gXF6Iem1UA25gxV5tNenLGeF7awgBd3J/view?usp=sharing
+Description: hello uncleengineer
+Keywords: a,alif,l,UncleEngineer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
