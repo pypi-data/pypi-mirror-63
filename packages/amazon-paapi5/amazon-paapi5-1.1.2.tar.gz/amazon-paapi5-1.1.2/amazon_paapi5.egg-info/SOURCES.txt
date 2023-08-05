@@ -1,0 +1,12 @@
+README.md
+setup.py
+amazon/__init__.py
+amazon/constant.py
+amazon/entities.py
+amazon/exception.py
+amazon/paapi.py
+amazon_paapi5.egg-info/PKG-INFO
+amazon_paapi5.egg-info/SOURCES.txt
+amazon_paapi5.egg-info/dependency_links.txt
+amazon_paapi5.egg-info/requires.txt
+amazon_paapi5.egg-info/top_level.txt
