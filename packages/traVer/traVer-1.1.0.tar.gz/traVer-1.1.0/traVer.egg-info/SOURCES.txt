@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+traVer/__init__.py
+traVer/versioning.py
+traVer.egg-info/PKG-INFO
+traVer.egg-info/SOURCES.txt
+traVer.egg-info/dependency_links.txt
+traVer.egg-info/top_level.txt
