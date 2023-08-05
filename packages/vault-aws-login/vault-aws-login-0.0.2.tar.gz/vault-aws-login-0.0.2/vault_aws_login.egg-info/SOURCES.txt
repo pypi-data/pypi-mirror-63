@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/aws_credentials_merge
+bin/vault-aws-login
+config/config
+config/credentials.hcl
+config/credentials.tpl
+vault_aws_login.egg-info/PKG-INFO
+vault_aws_login.egg-info/SOURCES.txt
+vault_aws_login.egg-info/dependency_links.txt
+vault_aws_login.egg-info/top_level.txt
