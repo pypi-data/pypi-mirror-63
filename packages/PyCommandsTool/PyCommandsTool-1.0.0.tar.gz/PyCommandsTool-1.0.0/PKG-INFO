@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PyCommandsTool
+Version: 1.0.0
+Summary: A simple and easy-to-use module that streamlines the whole user-input side of your script!
+Home-page: https://github.com/HavenSelph/PyCommands
+Author: Haven Selph
+Author-email: havenselph@gmail.com
+License: UNKNOWN
+Description: # PyCommands
+        A simple and easy-to-use module that streamlines the whole user-input side of your script!
+        
+        ### Key Features
+        - Allows functions to be linked to a custom command and alias. 
+        - Parses user input and allows the passing of function arguments `<command> arg1 arg2 "arg 3"`.
+        - Custom error messages for missing parameters and commands that don't exist.
+        
+        ### Installing
+        - WIP
+        
+        ### Links
+        - [Documentation](https://pycommands.readthedocs.io/en/latest/)
+        - Latest Repl.it Discussion *not yet made...*
+        
+        ### Example
+        - WIP
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
