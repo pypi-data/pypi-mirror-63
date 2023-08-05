@@ -1,0 +1,9 @@
+[console_scripts]
+__pkginfo__ = yeonji.__pkginfo__:main
+borgsize = yeonji.borgsize:main
+flacco = yeonji.flacco:main
+me2dlc = yeonji.me2dlc:main
+pypi = yeonji.pypi:main
+ytd = yeonji.ytd:main
+ytdlj = yeonji.ytdlj:main
+
