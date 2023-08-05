@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+enclosed/__init__.py
+enclosed/_version.py
+enclosed/parser.py
+enclosed/test_parser_fail.py
+enclosed/test_parser_success.py
+enclosed.egg-info/PKG-INFO
+enclosed.egg-info/SOURCES.txt
+enclosed.egg-info/dependency_links.txt
+enclosed.egg-info/entry_points.txt
+enclosed.egg-info/not-zip-safe
+enclosed.egg-info/top_level.txt
