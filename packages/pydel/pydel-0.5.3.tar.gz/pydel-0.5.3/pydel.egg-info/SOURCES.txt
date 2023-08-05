@@ -1,0 +1,17 @@
+README.md
+setup.py
+pydel/__init__.py
+pydel/clip.py
+pydel/color.py
+pydel/condition.py
+pydel/instrument.py
+pydel/note.py
+pydel/oscillator.py
+pydel/params.py
+pydel/project.py
+pydel/util.py
+pydel.egg-info/PKG-INFO
+pydel.egg-info/SOURCES.txt
+pydel.egg-info/dependency_links.txt
+pydel.egg-info/requires.txt
+pydel.egg-info/top_level.txt
