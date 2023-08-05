@@ -1,0 +1,9 @@
+README.md
+setup.py
+pychance/__init__.py
+pychance/pychance_class.py
+pychance.egg-info/PKG-INFO
+pychance.egg-info/SOURCES.txt
+pychance.egg-info/dependency_links.txt
+pychance.egg-info/not-zip-safe
+pychance.egg-info/top_level.txt
