@@ -1,0 +1,12 @@
+responsum/__init__.py,sha256=TcvOjRQ9ltMFALi50Bpd_U-7dedXhD_0cxsaOlttW4A,207
+responsum/_version.py,sha256=BoylU8dRhDUt9_fITmp8BXElM9FpZogvPmQrLckA9d4,497
+responsum/response.py,sha256=93UfcL9THj2O-fVni_0lI6TvS3NCOneCpl53Tg24AII,27250
+responsum/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+responsum/utils/file_utils.py,sha256=8tCniYMIPXRADnAhbtqKMPy8DgWT7vEXaGYzt_RHE-A,1827
+responsum/utils/fits_file.py,sha256=6dFN06fOgwwDgJv9HrnBdJPsXu7GKMbcyzaxQRakUFw,8032
+responsum/utils/package_data.py,sha256=Tv1O7XEeY4myWhr-TUMe49V4cHRVOtdTgThB-scbkzw,333
+responsum-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+responsum-0.1.3.dist-info/METADATA,sha256=xaGFwm3UfRPnKglMf_k8arWu8scv2tuof4znY3n5gKc,1302
+responsum-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+responsum-0.1.3.dist-info/top_level.txt,sha256=bCVFXxyXRqKTyDIhRRIUDFioX7yQii9gwEPj4AO5g14,10
+responsum-0.1.3.dist-info/RECORD,,
