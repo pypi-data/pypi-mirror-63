@@ -1,0 +1,13 @@
+requests
+tqdm
+numpy
+scikit-learn
+matplotlib
+biopython
+pyparsing
+prody
+
+[docs]
+sphinx>=1.4
+sphinx_theme
+sphinx_rtd_theme
