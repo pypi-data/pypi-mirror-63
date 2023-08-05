@@ -1,0 +1,15 @@
+ceramic/IdData.py,sha256=dQXU3B2N9j0ULIDciW3n8uvovfEtIvZ32iG5jhkbAmo,102
+ceramic/Mosaic.py,sha256=DZKPMO6FVLZLsZMU825rdhYWnSX9YE7VajZh_wQ92Qg,5466
+ceramic/Tile.py,sha256=ixgNyUrShCRsNPzQmudo7HZbidPQ-e4wt9xk0KZV2mg,1486
+ceramic/TrainingTestXy.py,sha256=cIS0IYzTEzxq-RgnLd24ayCptpQ4HiSIerxq1SFOFik,2605
+ceramic/TransformedModel.py,sha256=UPKUdFiqyIQbSfmg1-wcJOSirZBUiHvXcxG-00EI_58,699
+ceramic/ValidationXy.py,sha256=-jtfuGVhsTX9keu3A6uAA1TogUBVXMGSSgM1DQfUhK8,12283
+ceramic/Xy.py,sha256=qWh4RgU2Tn8Uu-i1fiXrBuwltZcJ_DdeqVYluxNrbn4,4058
+ceramic/XyRegression.py,sha256=ZCkrs0SuneY3qIFrvlH-ZN8szHLXvGLoW6ku2_Vq7dE,2664
+ceramic/__init__.py,sha256=qdzzbzDM-wKJbGO8EuVv-RoV3AEhqLqsm-XvgkSRDic,195
+ceramic/get_cross_validation_by_group.py,sha256=Kxv0KBO4CSwYt6f3CdyJs8rpJTdRhC3QV_Z1T97lGxI,2686
+ceramic/validate_fold.py,sha256=NCUd53TIN_PhG5nos5Hxg5Un328YIbpPD8Zt2cE7Lyk,997
+ceramic-2020.3.9.dist-info/METADATA,sha256=uLLLCs0OfQzMq-heK78IHcGMv73IUWDB3ni8QuH3vG8,1029
+ceramic-2020.3.9.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+ceramic-2020.3.9.dist-info/top_level.txt,sha256=Dd-BpBLTo2IdGi8UC60Sl1VkMA0yjsA8DjBl0s462Dk,8
+ceramic-2020.3.9.dist-info/RECORD,,
