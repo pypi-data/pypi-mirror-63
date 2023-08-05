@@ -1,0 +1,6 @@
+
+[motor]
+motor~=2.0.0
+
+[pymongo]
+pymongo~=3.10.1
