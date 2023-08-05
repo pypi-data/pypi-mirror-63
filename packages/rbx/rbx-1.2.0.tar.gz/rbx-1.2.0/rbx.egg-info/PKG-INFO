@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rbx
+Version: 1.2.0
+Summary: A collection of common tools for the Scoota Platform services
+Home-page: http://scoota.com/
+Author: The Scoota Engineering Team
+Author-email: engineering@scoota.com
+License: Apache 2.0
+Description: # Scoota Platform Utilities
+        
+        The **Scoota Platform Utilities** library provides a suite of common high-level Python utilities.
+        
+        ![Python Version](https://img.shields.io/pypi/pyversions/rbx.svg)
+        
+        ## Installation
+        
+        Install this library in a virtualenv using pip.
+        
+        ```
+        pip install rbx[storage]
+        ```
+        
+        # Development
+        
+        To contribute to this project, install and run `tox`:
+        
+        ```
+        pip install -r tests/setup.txt
+        tox
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: storage
+Provides-Extra: tests
