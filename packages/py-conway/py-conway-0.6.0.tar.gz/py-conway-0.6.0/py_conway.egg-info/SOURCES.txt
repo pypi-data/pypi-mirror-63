@@ -1,0 +1,10 @@
+README.md
+setup.py
+py_conway/__init__.py
+py_conway/game.py
+py_conway/helpers.py
+py_conway/threaded_game.py
+py_conway.egg-info/PKG-INFO
+py_conway.egg-info/SOURCES.txt
+py_conway.egg-info/dependency_links.txt
+py_conway.egg-info/top_level.txt
