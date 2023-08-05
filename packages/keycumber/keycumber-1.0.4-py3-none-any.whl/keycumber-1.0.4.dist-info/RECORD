@@ -1,0 +1,9 @@
+keycumber/__init__.py,sha256=cwlO3TEbtPPzthCTbeaUBAcv9oeCgPWakcuvA_FR62U,5236
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_keycumber.py,sha256=q044btiArpZ_Zy95eShFAr9-PJ_wG6ADVoS9r8Ac7_s,3141
+keycumber-1.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+keycumber-1.0.4.dist-info/METADATA,sha256=3j96_yW6wRrCBhG_k08FpOw9RdUsmG7CXq2qYWHMQy4,3387
+keycumber-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+keycumber-1.0.4.dist-info/entry_points.txt,sha256=yiBFbfFXq9xBaa9cp3Jd2RyjodhdqQF2LUtyfBYQADo,63
+keycumber-1.0.4.dist-info/top_level.txt,sha256=VymnCucA9YX1mLtzbX_IQLycSzBgcjdmOCi80QlENQI,16
+keycumber-1.0.4.dist-info/RECORD,,
