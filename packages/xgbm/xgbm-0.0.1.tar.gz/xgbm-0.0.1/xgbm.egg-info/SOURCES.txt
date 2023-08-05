@@ -1,0 +1,9 @@
+README.md
+setup.py
+xgbm/__init__.py
+xgbm.egg-info/PKG-INFO
+xgbm.egg-info/SOURCES.txt
+xgbm.egg-info/dependency_links.txt
+xgbm.egg-info/not-zip-safe
+xgbm.egg-info/requires.txt
+xgbm.egg-info/top_level.txt
