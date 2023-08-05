@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: lgblkb-navigation
+Version: 0.1.14
+Summary: Tools to navigate easier)
+Author: lgblkb
+Author-email: dbakhtiyarov@nu.edu.kz
+Requires-Python: >=3.6.9,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dynaconf (>=2.2.2,<3.0.0)
+Requires-Dist: geoalchemy2 (>=0.6.3,<0.7.0)
+Requires-Dist: geojson (>=2.5.0,<3.0.0)
+Requires-Dist: lgblkb-tools (>=1.1.7,<2.0.0)
+Requires-Dist: matplotlib (>=3.1.3,<4.0.0)
+Requires-Dist: more-itertools (>=8.2.0,<9.0.0)
+Requires-Dist: networkx (>=2.4,<3.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: ortools (>=7.5.7466,<8.0.0)
+Requires-Dist: pandas (<1.0.0)
+Requires-Dist: pillow (>=7.0.0,<8.0.0)
+Requires-Dist: pyyaml (>=5.3,<6.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: ruamel.yaml (>=0.16.10,<0.17.0)
+Requires-Dist: scikit-learn (>=0.22.1,<0.23.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: shapely (>=1.7.0,<2.0.0)
+Requires-Dist: sortedcontainers (>=2.1.0,<3.0.0)
+Requires-Dist: visilibity (>=1.0.10,<2.0.0)
+Requires-Dist: visvalingamwyatt (>=0.1.2,<0.2.0)
+Requires-Dist: wheel (>=0.34.2,<0.35.0)
