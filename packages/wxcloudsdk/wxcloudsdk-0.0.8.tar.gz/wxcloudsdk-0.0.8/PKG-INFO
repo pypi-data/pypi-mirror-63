@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: wxcloudsdk
+Version: 0.0.8
+Summary: Wechat miniprogram http api tools
+Home-page: UNKNOWN
+Author: typingcat
+Author-email: liuchunyao0321@gmail.com
+License: MIT License
+Description: This package is maintained by Typing Cat<liuchunyao0321@gmail.com>.
+        
+        This package is useful for WeChat miniprogram development, especially cloud apis.
+        
+        ## API usage
+        
+        `pip install wxcloudsdk`
+        
+        demo.py
+        ```
+        from wxcloudsdk import file_manager
+        
+        file_manager.upload_file(a, b, c...)
+        ```
+        
+        ### get_md5: (title)
+        Return a md5 code by passing in a string. Useful for creating file names with strings instead of Chinese names.
+        
+        ### upload_file: (token, env_id, cloud_path, cloud_dir, local_path)
+        Upload a file to the specified path on wx cloud storage.
+        
+        ### rebuild: (file_path, env_id, token, collection_name)
+        Refresh a collection by removing and rebuilding. **NOTICE** that you must upload the data file to the cloud storage first. The file path must be a cloud file path, not local.
+        
+        ### Modify api urls by assignment when WeChat team update them
+        Default:
+        ```
+        UPLOAD_API = "https://api.weixin.qq.com/tcb/uploadfile"
+        COLLECTION_DELETE_API = "https://api.weixin.qq.com/tcb/databasecollectiondelete"
+        COLLECTION_ADD_API = "https://api.weixin.qq.com/tcb/databasecollectionadd"
+        COLLECTION_MIGRATE_API = "https://api.weixin.qq.com/tcb/databasemigrateimport"
+        ```
+Keywords: wechat miniprogram http sdk api
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
