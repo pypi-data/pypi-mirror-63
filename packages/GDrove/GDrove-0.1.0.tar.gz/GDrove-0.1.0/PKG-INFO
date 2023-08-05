@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: GDrove
+Version: 0.1.0
+Summary: A tool allowing you to copy, upload, and download GDrive folders.
+Home-page: https://github.com/Spazzlo/gdrove
+Author: Spazzlo
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
