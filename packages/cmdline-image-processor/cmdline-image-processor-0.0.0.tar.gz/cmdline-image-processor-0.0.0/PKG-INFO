@@ -1,0 +1,61 @@
+Metadata-Version: 1.1
+Name: cmdline-image-processor
+Version: 0.0.0
+Summary: Python command line application which analyses images
+Home-page: https://github.com/webdevAlina1107/ImageAnalysis
+Author: Fugol Alina, Taran Anatoly
+Author-email: webdevAlina@gmail.com
+License: MIT
+Download-URL: https://github.com/webdevAlina1107/ImageAnalysis/archive/0.0.1.tar.gz
+Description: Utility features
+        ================
+        
+        Import
+        ------
+        
+        Note that to import file it follow naming convention to provide meta
+        information about file
+        
+        File name pattern := TBD
+        
+        -  Import picture
+        -  Import set of pictures
+        -  Import with caching statistical data
+        
+        Export
+        ------
+        
+        -  Export images on a certain timeline by id
+        -  Export all data into folder
+        -  Export image statistics into excel file
+        
+        Processing
+        ----------
+        
+        -  Calculate all statistical data and print it to screen
+        -  Caching calculations into database
+        
+        Visualization
+        -------------
+        
+        -  Histogram to visualize cloudiness of images on a timeline
+        -  Histogram to visualize image bits occurences of an image
+        -  Diagram to visualize multiple datasets statistical data
+        
+        View database
+        -------------
+        
+        -  Print out all database records onto screen
+        -  View head N records
+        -  Filter images by multiple ids
+        -  Filter images by date
+        
+        
+Keywords: IMAGE PROCESSING,CMD,UTILITY,RASTER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
