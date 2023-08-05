@@ -1,0 +1,10 @@
+click
+aiohttp
+aioconsole
+sanic
+toml
+pynacl
+terminaltables
+ordered-set
+python-dateutil
+fuzzywuzzy[speedup]
