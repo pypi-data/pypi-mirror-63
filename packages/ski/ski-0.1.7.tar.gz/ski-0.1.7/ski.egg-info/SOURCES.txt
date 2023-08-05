@@ -1,0 +1,9 @@
+README.md
+setup.py
+ski/__init__.py
+ski/ski.py
+ski.egg-info/PKG-INFO
+ski.egg-info/SOURCES.txt
+ski.egg-info/dependency_links.txt
+ski.egg-info/requires.txt
+ski.egg-info/top_level.txt
