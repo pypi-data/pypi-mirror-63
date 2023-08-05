@@ -1,0 +1,4 @@
+[console_scripts]
+findtext = pyfindfiles.__main__:findtext
+findvid = pyfindfiles.__main__:findvid
+
