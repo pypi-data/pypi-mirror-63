@@ -1,0 +1,10 @@
+lucidity
+artellapipe
+tpDcc-libs-nameit
+tpDcc-tools-nameit
+
+[dev]
+wheel
+
+[test]
+pytest
