@@ -1,0 +1,14 @@
+# ontology
+recursive-include wc_onto *.obo
+
+# description
+README.rst
+
+# configuration
+recursive-include wc_onto/config *.cfg
+
+# license
+include LICENSE
+
+# requirements
+include requirements.txt

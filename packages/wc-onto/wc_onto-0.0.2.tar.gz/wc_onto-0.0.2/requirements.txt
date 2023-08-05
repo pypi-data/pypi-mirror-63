@@ -1,0 +1,5 @@
+configobj
+pronto >= 1
+requests
+setuptools
+wc_utils
