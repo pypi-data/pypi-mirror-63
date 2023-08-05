@@ -1,0 +1,15 @@
+model_field_meta/__init__.py,sha256=-as3KywKJIRUo5mcxlQ6O6MTOmUBZtECj7fl6WTGY7M,200
+model_field_meta/fields.py,sha256=wHOCzdVDvELCUCOxTqQ7OnLyKui-yGx89EoyVuBnoe4,1771
+model_field_meta/mixins.py,sha256=WMp3lwC7XYWqtBLMkOwjUZQkypaQUw_wEDW7CbbiOwY,326
+model_field_meta/wrapper.py,sha256=D927y6AzLReg6P6hhzDU0xdWTp1EddebwVS09v43_iU,1045
+tests/__init__.py,sha256=GIwZYmKH7LEm1C8AiQDOHxGy0m1qcSME8bJ5nLwcR9c,219
+tests/models.py,sha256=egHftPc0XVZHpqoNkXCgyDMBKmLl4lyQO3VYZVuatqQ,338
+tests/settings.py,sha256=gavy_9C9wH5iWqJP-oQA6WrYz7-3Z1ZP2RIzUKKeauE,273
+tests/test_fields.py,sha256=xcPNcUuj5KygtzBWicBJRB45sdHc8vtIiOGRKSf1sck,872
+tests/test_migration.py,sha256=twWliB-puIUP9mnCzfQZt9R7F31C-QahciYQPKFvLLY,556
+tests/test_mixins.py,sha256=xDm5Ce1sWDXEAWw-e_blv5MfUxT-S3JVOVPp6jwfbDQ,1134
+django_model_field_meta-0.6.dist-info/LICENSE,sha256=YjI_XBROXgWSpH0L-jYUqPLrWgPNnyqj8pK5E7TACmw,1067
+django_model_field_meta-0.6.dist-info/METADATA,sha256=nalNfeF4nQ7rdmWCy-ZCKaHX2RvCyOtgG2jRDUKl8Ks,2605
+django_model_field_meta-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_model_field_meta-0.6.dist-info/top_level.txt,sha256=g-MKeJZv7Ae07hyQXPnUkHuHMGvOKCi98UVpHbvMwWg,23
+django_model_field_meta-0.6.dist-info/RECORD,,
