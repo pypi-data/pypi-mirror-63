@@ -1,0 +1,15 @@
+README.md
+setup.py
+mope/__init__.py
+mope/__version__.py
+mope/client.py
+mope/models/__init__.py
+mope/models/payments.py
+mope/resources/__init__.py
+mope/resources/shop.py
+python_mope.egg-info/PKG-INFO
+python_mope.egg-info/SOURCES.txt
+python_mope.egg-info/dependency_links.txt
+python_mope.egg-info/not-zip-safe
+python_mope.egg-info/requires.txt
+python_mope.egg-info/top_level.txt
