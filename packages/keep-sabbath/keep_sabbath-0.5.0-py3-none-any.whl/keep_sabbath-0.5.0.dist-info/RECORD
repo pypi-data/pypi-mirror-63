@@ -1,0 +1,14 @@
+keep_sabbath/__init__.py,sha256=77bgEhApUrbpfT63j6lU9mUrFYxV2Ah9jmnIVeX066Q,54
+keep_sabbath/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+keep_sabbath/apps.py,sha256=OPoCGkjFdhtikn9StWGxRSTqEMYj_uJGRIVwU5TSXMM,102
+keep_sabbath/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+keep_sabbath/sabbath.py,sha256=LJdOWzXU7puHxLJapvboZ04mci9QjvOB4okseASCyx4,4513
+keep_sabbath/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+keep_sabbath/urls.py,sha256=aVUVmmvOfLay0IVgggd5Yw6vpXnOPQftxSlNz_jZ5OU,179
+keep_sabbath/views.py,sha256=fUzyvI87gMwBRoGtNspGZJXKRfsEW0ysPxInD23B5vw,335
+keep_sabbath/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keep_sabbath-0.5.0.dist-info/LICENSE,sha256=T5h0a68ASHZBhWPh-e8D7wHql7YOBA06M7pIYbjzVOk,1518
+keep_sabbath-0.5.0.dist-info/METADATA,sha256=mbFF7nETuG9x2sb8gRNA8xjxdKG32Q6y3U3d5ynYKNU,3174
+keep_sabbath-0.5.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+keep_sabbath-0.5.0.dist-info/top_level.txt,sha256=roRvE63mbjokYUDnqW9oLLSphpUfXV1X_nnx_BwvjgU,13
+keep_sabbath-0.5.0.dist-info/RECORD,,
