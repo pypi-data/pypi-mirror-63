@@ -1,0 +1,48 @@
+# strange
+Online time series analysis
+
+[![pypi](https://badgen.net/pypi/v/strange)](https://pypi.org/project/strange/)
+[![build](https://github.com/MinRegret/strange/workflows/build/badge.svg)](https://github.com/danielsuo/strange/actions)
+[![coverage](https://badgen.net/codecov/c/github/danielsuo/strange)](https://codecov.io/github/danielsuo/strange)
+[![Documentation Status](https://readthedocs.org/projects/strange/badge/?version=latest)](https://strange.readthedocs.io/en/latest/?badge=latest)
+[![doc coverage](https://raw.githubusercontent.com/MinRegret/strange/master/.github/badges/docstring_coverage.svg?sanitize=true)](https://readthedocs.org/projects/strange/)
+[![tests](https://img.shields.io/azure-devops/tests/MinRegret/strange/1?compact_message)](https://dev.azure.com/danielsuo/strange/_build?definitionId=1&_a=summary)
+[![smells](https://sonarcloud.io/api/project_badges/measure?project=danielsuo_strange&metric=code_smells)](https://sonarcloud.io/dashboard?id=danielsuo_strange)
+
+## Setting up a development environment
+[Insert typical language about using some python environment]. Within that
+environment, run the following:
+
+```python
+# Install editable version of code
+pip install -e .
+
+# Install testing dependencies
+pip install -e .[dev]
+
+# Install pre-commit hooks
+pre-commit install
+```
+
+## Contributing
+We use the `pre-commit` tools to automatically lint (and fix, where possible)
+for Python warnings, errors, and style. This runs automatically on `git commit`
+and will either pass with no issue, make changes to files, and / or ask you to
+make fixes. If the tests don't pass, the commit fails (a good thing! Keeps
+history clean).
+
+### Testing
+We also use `pytest`, which we encourage you to run before contributing (`pytest
+-n auto` for parallelized testing).
+
+### Documentation
+To update the doc coverage badge, run
+```bash
+docstring-coverage -b .github/badges/docstring_coverage.svg .
+```
+
+### Versioning
+To update the version, run
+```bash
+bumpversion [major|minor|patch]
+```
