@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: RoleMiner
+Version: 0.1.0
+Summary: Utilities for Role Based Access Control
+Home-page: https://github.com/jbonifield3/django-whoshere
+Author: James Bonifield
+Author-email: jameslbonifield@gmail.io
+License: MIT
+Description: # roleminer
+        Python Implementation RoleMiner and Optimal Boolean Matrix Decomposition algorithms for implementing Role Based Access Control
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
