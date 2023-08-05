@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pythonbook20200311/__init__.py
+pythonbook20200311.egg-info/PKG-INFO
+pythonbook20200311.egg-info/SOURCES.txt
+pythonbook20200311.egg-info/dependency_links.txt
+pythonbook20200311.egg-info/requires.txt
+pythonbook20200311.egg-info/top_level.txt
+pythonbook20200311/data/data_file
