@@ -1,0 +1,8 @@
+pykka
+gevent
+pandas
+numpy
+ortools
+plotly
+jupyter
+matplotlib
