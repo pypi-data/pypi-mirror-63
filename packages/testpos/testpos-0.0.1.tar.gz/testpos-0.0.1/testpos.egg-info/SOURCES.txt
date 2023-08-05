@@ -1,0 +1,8 @@
+README.md
+setup.py
+testpos.egg-info/PKG-INFO
+testpos.egg-info/SOURCES.txt
+testpos.egg-info/dependency_links.txt
+testpos.egg-info/entry_points.txt
+testpos.egg-info/requires.txt
+testpos.egg-info/top_level.txt
