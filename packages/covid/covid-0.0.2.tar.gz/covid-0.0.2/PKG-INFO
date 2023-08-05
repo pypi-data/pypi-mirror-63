@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: covid
+Version: 0.0.2
+Summary: Python SDK to get information regarding the novel corona virus provided by Johns Hopkins university
+Home-page: https://ahmednafies.github.io/covid/
+Author: Ahmed Nafies
+Author-email: ahmed.nafies@gmail.com
+License: MIT
+Project-URL: Documentation, https://ahmednafies.github.io/covid/
+Project-URL: Source, https://github.com/ahmednafies/covid
+Description: # Covid
+        
+        ## How to install
+        
+            pip install covid
+        
+        ## Dependencies
+        
+        ## How to use
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
