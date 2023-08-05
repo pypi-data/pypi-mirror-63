@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "lgblkb_navigation"
+version = "0.1.14"
+description = "Tools to navigate easier)"
+authors = ["lgblkb <dbakhtiyarov@nu.edu.kz>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+wheel = "^0.34.2"
+lgblkb-tools = "^1.1.7"
+visilibity = "^1.0.10"
+requests = "^2.23.0"
+pillow = "^7.0.0"
+geoalchemy2 = "^0.6.3"
+geojson = "^2.5.0"
+matplotlib = "^3.1.3"
+more-itertools = "^8.2.0"
+networkx = "^2.4"
+numpy = "^1.18.1"
+ortools = "^7.5.7466"
+pandas = "<1.0.0"
+scipy = "^1.4.1"
+shapely = "^1.7.0"
+scikit-learn = "^0.22.1"
+sortedcontainers = "^2.1.0"
+visvalingamwyatt = "^0.1.2"
+#simplification = "^0.4.4"
+dynaconf = "^2.2.2"
+"ruamel.yaml" = "^0.16.10"
+pyyaml = "^5.3"
+
+[tool.poetry.dev-dependencies]
+gitchangelog = "^3.0.4"
+bumpversion = "^0.5.3"
+setuptools = "^45.2.0"
+wheel = "^0.34.2"
+twine = "^3.1.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
