@@ -1,0 +1,8 @@
+setup.py
+sigopt_spark/__init__.py
+sigopt_spark/estimator.py
+sigopt_spark.egg-info/PKG-INFO
+sigopt_spark.egg-info/SOURCES.txt
+sigopt_spark.egg-info/dependency_links.txt
+sigopt_spark.egg-info/requires.txt
+sigopt_spark.egg-info/top_level.txt
