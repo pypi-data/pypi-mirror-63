@@ -1,0 +1,10 @@
+syncnote/__init__.py,sha256=gDlfbVy5mIriQtvoe6niTI6T8tYGg1DhzQ8OIncX83o,217
+syncnote/get_version.py,sha256=oBcj39Nma7UpoetDHg-cCxArVebcIRM-1LanuIOOnmY,362
+syncnote/mynote.py,sha256=NnxazqJhpLnoqGGnSszBLhaSPpYjA0jz8W-QolwVaSk,7330
+syncnote/sync.py,sha256=4e5laArIMqfADpLeU9GTfGq4qCKn-B9Y9qFt84E3u04,8966
+syncnote/version.py,sha256=YJfT7KF3y57E5L8tou4sfpw7mkArbUfjwiGLINihUGI,29
+syncnote-0.1.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+syncnote-0.1.0.1.dist-info/METADATA,sha256=JIZYtLqO27HfQVgdFOYQNe9YoefHjk9Mh4MhGEXYY9Q,1498
+syncnote-0.1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+syncnote-0.1.0.1.dist-info/top_level.txt,sha256=JcazP01G9YrzTtVFaAiZ8_kDcW9wubq7sxpEyh3GEGM,9
+syncnote-0.1.0.1.dist-info/RECORD,,
