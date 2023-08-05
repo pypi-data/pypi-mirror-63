@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: roblopy
+Version: 1.0.0
+Summary: Roblox API built in Python
+Home-page: https://github.com/jackprogramsjp/Roblopy
+Author: Jack Murrow
+Author-email: jack.murrow122005@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Roblox,Roblox Python,Roblox Api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
