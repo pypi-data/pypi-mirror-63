@@ -1,0 +1,12 @@
+text_studio/__init__.py,sha256=VPYGI_VpLjhs-Bhi621hePMzaRn5ObnaqtlDSR0Raio,185
+text_studio/action.py,sha256=-6CAuHYfPZAyQRgqY_IKtKtUwJopxhQQIdCX6mnO380,2469
+text_studio/annotator.py,sha256=GRnUXadXup3amrtQWnDmGMXya4uciodTgyl2CMtrQfI,2450
+text_studio/data_loader.py,sha256=su_hzjvA5RvquQWLpkdeO5FvKsNPZ4lP1n9ormNKFTA,2070
+text_studio/dataset.py,sha256=cOfJIoBx9LTj0YzCm2MqepEi1D3Zh01YbWWzyVAoXXs,2575
+text_studio/model.py,sha256=i0QpT8HLRfO8CDoWzlpZVtZOrnAhzf6XHctqde9hyx0,1148
+text_studio/pipeline.py,sha256=Zmo0s00fX-IcklueNAggHYDTD-4KVyzRSSbJnqJuCLw,3164
+text_studio-0.0.1a0.dist-info/LICENSE,sha256=20tJEMLMSu3lBTfQRWSKNiJdCn7m5znzz-bjb3j3S0s,1068
+text_studio-0.0.1a0.dist-info/METADATA,sha256=pRGC8NrUUUFg4jWmXbI5ujnqizIp396VxD2oYJarhaY,6153
+text_studio-0.0.1a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+text_studio-0.0.1a0.dist-info/top_level.txt,sha256=jp04ybOMQe9zPNVA2unc_3CEPdskzG9CvidVtWwWzV0,12
+text_studio-0.0.1a0.dist-info/RECORD,,
