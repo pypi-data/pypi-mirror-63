@@ -1,0 +1,3 @@
+[sceptre.resolvers]
+secretsmanager = resolver.secretsmanager:SecretsManagerResolver
+
