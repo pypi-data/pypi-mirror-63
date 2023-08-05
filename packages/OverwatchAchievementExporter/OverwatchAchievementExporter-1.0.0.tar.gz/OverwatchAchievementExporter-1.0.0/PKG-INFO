@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: OverwatchAchievementExporter
+Version: 1.0.0
+Summary: Python API to fetch a player's Overwatch achievements
+Home-page: https://github.com/saitho/galaxy_overwatch_achievement_exporter
+Author: Mario Lubenka
+Author-email: mario.lubenka@googlemail.com
+License: apache-2.0
+Download-URL: https://github.com/saitho/galaxy_overwatch_achievement_exporter/archive/v1.0.0-1.tar.gz
+Description: UNKNOWN
+Keywords: Overwatch,achievements
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
