@@ -1,0 +1,8 @@
+quixote_docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quixote_docker/docker_argument_parser.py,sha256=h4c0oZ4x3iXTS_GNuD9j3NLzu6P3fFQ4jwvt0eqW6vc,5144
+quixote_docker/docker_utils.py,sha256=NJBikkrz96ekuZEaftZgwpxxaGUAYILUNl9XIHdyrn8,477
+quixote_docker/parse_shell.py,sha256=HHQ9EW4ebJ_NCemiOkaJ4R4QkbG_FXnBqv5FtXDKe9c,954
+etna_quixote_docker-0.0.1.dist-info/METADATA,sha256=BIH0Yxbi7y0JL-FT_6wMg6y6NGT6zqKc8A_tRVLnfx4,522
+etna_quixote_docker-0.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+etna_quixote_docker-0.0.1.dist-info/top_level.txt,sha256=1mKVN9ZdrJSWL_uhRj8zW5gRs351h21jPyYrfBTULXI,15
+etna_quixote_docker-0.0.1.dist-info/RECORD,,
