@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hydraml
+Version: 0.0.1
+Summary: HydraML package to be used in machine learning project
+Home-page: https://github.com/agusgun/ReSearch
+Author: HydraML Team
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+# HydraML Python Package
+
+
