@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xrdfit
+Version: 0.1
+Summary: Automated fitting of XRD peaks using Pseudo-Voight fits
+Home-page: UNKNOWN
+Author: Peter Crowther
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: dill
+Requires-Dist: tqdm
+Requires-Dist: lmfit
+Requires-Dist: jupyter
+Provides-Extra: documentation_compilation
+Requires-Dist: sphinx ; extra == 'documentation_compilation'
+
+UNKNOWN
+
+
