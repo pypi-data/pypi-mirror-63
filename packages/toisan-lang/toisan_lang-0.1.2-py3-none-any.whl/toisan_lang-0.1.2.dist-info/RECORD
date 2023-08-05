@@ -1,0 +1,11 @@
+toisan_lang/__init__.py,sha256=AWWhY5_odmvlpiMUf-ZMjrSn3EnZb8XIZMUUHM7je4Y,661
+toisan_lang/__main__.py,sha256=4Ezo8tjN4t85JFowUgzO4ZB5HvPNBpnpCTsk5pEa8hY,931
+toisan_lang/compiler.py,sha256=5vkgZXHkUtrSCcd3KrvtHsC44F99K5Gc4mV0kupy8uM,1705
+toisan_lang/grammar.py,sha256=EiX4m2TfWcH3TfD3LC8bAWZeQaoP4KAV5CJPtu5504w,3016
+toisan_lang/keyword.py,sha256=vDMYzuLG2mrphcyQwn7JvHUUZAsV8FLf97MpiQy5mYA,1096
+toisan_lang/node.py,sha256=7eLPEcMnXrn0iCvnYLxT5xPXpGdZHNh-m_O7PyW6vII,5713
+toisan_lang-0.1.2.dist-info/LICENSE,sha256=NfoA_myUwv5a6f13_SeIUQgdOZHxP9nrD82IDDa560E,1087
+toisan_lang-0.1.2.dist-info/METADATA,sha256=F_CwZi4334zezyvAXDyfh6zfm3URBAaAD79MtlIyP4M,3314
+toisan_lang-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+toisan_lang-0.1.2.dist-info/top_level.txt,sha256=C6EaLkm5Ja2lkr8xvFIMoVVkSz1J9wUwKuOrHlZzH-E,12
+toisan_lang-0.1.2.dist-info/RECORD,,
