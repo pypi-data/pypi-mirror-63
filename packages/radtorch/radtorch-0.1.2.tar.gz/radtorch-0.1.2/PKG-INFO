@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: radtorch
+Version: 0.1.2
+Summary: RADTorch, The Radiology Machine Learning Tool Kit
+Home-page: https://radtorch.github.io/radtorch/
+Author: Mohamed Elbanan, MD
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
