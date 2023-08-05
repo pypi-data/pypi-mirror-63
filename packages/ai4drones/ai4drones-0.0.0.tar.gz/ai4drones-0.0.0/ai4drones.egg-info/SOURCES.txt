@@ -1,0 +1,5 @@
+setup.py
+ai4drones.egg-info/PKG-INFO
+ai4drones.egg-info/SOURCES.txt
+ai4drones.egg-info/dependency_links.txt
+ai4drones.egg-info/top_level.txt
