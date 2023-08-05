@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: event-notifier
+Version: 0.1
+Summary: Allows to notify one or many subscribers about something that just happened
+Home-page: https://github.com/vitalij555/event-notifier
+Author: Vitalij Gotovskij
+Author-email: vitalij@cdeveloper.eu
+License: MIT
+Download-URL: https://github.com/vitalij555/event-notifier/archive/v_01.tar.gz
+Keywords: EVENT,NOTIFY,SUBSCRIBE,OBSERVER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+UNKNOWN
+
+
