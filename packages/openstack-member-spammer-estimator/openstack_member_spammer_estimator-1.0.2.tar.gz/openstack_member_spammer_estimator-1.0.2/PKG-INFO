@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: openstack_member_spammer_estimator
+Version: 1.0.2
+Summary: Member Spam detector
+Home-page: https://github.com/OpenStackWeb/openstack_member_spammer_estimator
+Author: Sebastian Marcet
+Author-email: smarcet@gmail.com
+License: UNKNOWN
+Description: # OpenStack Member Spammer Detector
+        
+        
+        ## Dependencies 
+        
+        ````bas
+        $ sudo apt update
+        $ sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools python3-venv 
+        libmysqlclient-dev
+        ````
+        
+        
+        ## Virtual Env
+        
+        ````bash
+        $ python3.6 -m venv env
+        
+        $ source env/bin/activate
+        
+        $ pip install -r requirements.txt
+        
+        ```` 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
