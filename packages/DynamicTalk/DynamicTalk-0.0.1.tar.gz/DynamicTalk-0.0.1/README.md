@@ -1,0 +1,56 @@
+# dynamictalk
+
+A package for converting python dictionaries into XML for Netsuite.
+
+## __init__()
+
+This package requires passing in a NetSuite object from the netsuite package: https://pypi.org/project/netsuite/
+
+```
+from netsuite.client import NetSuite
+from dynamictalk import DynamicTalk
+
+conn = NetSuite({config})
+dt = DynamicTalk(conn)
+```
+
+## view()
+
+Input the API name of the object you want to see and this method will compile the structure of the object, sub objects and all of their custom field lists and return it.
+
+```
+from netsuite.client import NetSuite
+from dynamictalk import DynamicTalk
+
+conn = NetSuite({config})
+dt = DynamicTalk(conn)
+
+print(dt.view(SalesOrder))
+```
+
+## build()
+
+Input the data you want converted in dictionary form and the API name of the object the data is for and this method will convert the input data into the appropriate XML structures. The keys in the data must correspond exactly to the Netsuite field API names including case sensitivity.
+
+For reference fields make sure the value is the internal Id of what you want to reference.
+
+The custom field list should be input as a dictionary instead of a list with key value pairs corresponding to the API name of the custom field and the value, or internal Id to be set in that custom field.
+
+```
+from netsuite.client import NetSuite
+from dynamictalk import DynamicTalk
+
+conn = NetSuite({config})
+dt = DynamicTalk(conn)
+
+order = {'externalId': 456343,
+         'entityId': 436634,
+         'subsidiary': 5,
+         'customFieldList':{
+             'custbody_custom1': 'example'
+            }
+         }
+
+xml_order = dt.build(order, 'SalesOrder')
+conn.add(xml_order)
+```

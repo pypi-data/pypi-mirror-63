@@ -1,0 +1,12 @@
+README.md
+setup.py
+DynamicTalk.egg-info/PKG-INFO
+DynamicTalk.egg-info/SOURCES.txt
+DynamicTalk.egg-info/dependency_links.txt
+DynamicTalk.egg-info/requires.txt
+DynamicTalk.egg-info/top_level.txt
+dynamictalk/__init__.py
+dynamictalk/app.py
+dynamictalk/sub_types.py
+dynamictalk/types.py
+dynamictalk/util.py
