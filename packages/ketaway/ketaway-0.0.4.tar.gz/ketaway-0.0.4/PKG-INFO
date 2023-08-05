@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: ketaway
+Version: 0.0.4
+Summary: A small example package
+Home-page: https://github.com/ketaway/ketaway
+Author: Mongkolchai Worakhajee
+Author-email: ketaway@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ketaway/ketaway/archive/0.0.4.zip
+Description: # Ketaway Library (ketaway)
+        
+        สวัสดครับ ไลบรารี่นี้ใช้สำหรับฝึกสร้างไลบรารี่เป็นของตัวเอง ความสามารถคือ
+        
+          - แสดงชื่อภาษาอังกฤษ 
+          - แสดงชื่อภาษาไทย
+        
+        ### วิธีติดตั้งแสนง่าย
+        เราจะติดตั้งผ่านเจ้า pip
+        
+        ```sh
+        pip install ketaway
+        ```
+        
+        ง่ายไหมล่ะ
+        
+        วิธีใช้ก็ง่ายมาก
+        - เปิด Python แล้วพิพม์ตามนี้เลย
+        
+        ```sh
+        from ketaway import Ketaway
+        
+        mylib = Ketaway()
+        print(help(mylib.WhoIAm))
+        print(mylib)
+        print(mylib.name)
+        print(mylib.lastname)
+        print(mylib.nickname)
+        
+        mylib.WhoIAm()
+        print(mylib.email)
+        
+        ```
+        
+        ### Visit
+        
+        แวะเข้าไปเยี่ยมชมกันได้ 
+        
+        | เนื้อหา | ลิ้งค์ |
+        | ------ | ------ |
+        | github |https://github.com/ketaway |
+        | Facebook  | https://www.facebook.com/ketaway |
+        | ------ | ------ |
+        | สร้างไฟล์ README  | https://dillinger.io/ |
+        
+        
+Keywords: ketaway,Mongkolchai
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
