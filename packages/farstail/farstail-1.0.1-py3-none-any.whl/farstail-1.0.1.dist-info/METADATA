@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: farstail
+Version: 1.0.1
+Summary: Persian Natural Language Inference DataSet
+Home-page: https://github.com/m-azari/FarsTail
+Author: mohammad azari jafari
+Author-email: azari.jafari.m@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Persian
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# FarsTail
+This package is for loading FarsTail Persian Natural Language Inference (NLI) and Question Answering (QA) dataset.
+
+## install
+```ruby
+pip install farstail
+```
+
+## using
+```ruby
+from farstail.datasets import farstail
+(p_train, h_train, l_train), (p_dev, h_dev, l_dev), (p_test, h_test, l_test) = farstail.load_data()
+```
+Downloading data ...  
+333973/333973 [==============================] - 13s 38us/step
+
+```ruby
+farstail_word_index = farstail.get_word_index()
+```
+Downloading data ...  
+421737/421737 [==============================] - 18s 42us/step
+
+
