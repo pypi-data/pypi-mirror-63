@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gpiod
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/hhk7734/python3-gpiod
+Author: Hyeonki Hong
+Author-email: hhk7734@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/hhk7734/python3-gpiod.git
+Description: python3-gpiod (0.2.0) unstable; urgency=medium
+        
+          * Add chip, line_request, line, line_event class
+        
+         -- Hyeonki Hong <hhk7734@gmail.com>  Wed, 11 Mar 2020 13:28:45 +0900
+        
+        python3-gpiod (0.1.0) unstable; urgency=medium
+        
+          * Add initial setup files
+        
+         -- Hyeonki Hong <hhk7734@gmail.com>  Tue, 10 Mar 2020 15:40:13 +0900
+        
+Keywords: GPIO,gpiod
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Description-Content-Type: text/markdown
