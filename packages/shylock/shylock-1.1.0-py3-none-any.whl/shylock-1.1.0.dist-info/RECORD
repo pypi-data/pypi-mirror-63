@@ -1,0 +1,13 @@
+shylock/__init__.py,sha256=T9dlv9G3CfCigPcT5Rz2m1RlQN18E1Wl_FOUfjRsz9k,282
+shylock/exceptions.py,sha256=wf6FpK6n5Xctn6r67YU7gXptIh_i1wpCvbLUMj-3sqU,46
+shylock/lock.py,sha256=yRD2co9VEL3MCULwcg6o6TXsH4HIw_f-Zkw19YnbMMc,2190
+shylock/manager.py,sha256=Vgm0VwhV4hiUTJ3NHiVqgj2Fz8ZZCclKW1ocY-O7KqI,406
+shylock/aio/lock.py,sha256=jmqYp0ir1rTSQ3IrDpiDvIoJq_Lt_QFLRodbiUZ_Q34,2270
+shylock/backends/__init__.py,sha256=wp24h1qizoCnn4580rQuzUXHGuwODsPsN3Jqu-OmWiw,557
+shylock/backends/motorasyncio.py,sha256=H-2VLIYt9qT56knEhYXDeKUWJVoK0K52VuCQtqxNg5M,5147
+shylock/backends/pymongo.py,sha256=6OR0xc4wq4HpYantNYTG8eNjygHG49aEVFQ57BkLoqQ,4862
+shylock-1.1.0.dist-info/LICENSE,sha256=r_rxQvxfzcdvKLH5mhceYQwNBxP0bnZio1LEjNil9yM,1532
+shylock-1.1.0.dist-info/METADATA,sha256=NRFsbVXOixt6hdw4rnwab1yRMxs0aPenOvqQK29_mJA,5874
+shylock-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+shylock-1.1.0.dist-info/top_level.txt,sha256=ETnZMKE0xcy0qeZW2uVkKXI-pxjcXcYB--kbV101YTs,8
+shylock-1.1.0.dist-info/RECORD,,
