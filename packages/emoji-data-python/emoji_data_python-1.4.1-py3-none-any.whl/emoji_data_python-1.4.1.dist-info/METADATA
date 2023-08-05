@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: emoji-data-python
+Version: 1.4.1
+Summary: Python emoji toolkit
+Home-page: https://github.com/alexmick/emoji-data-python/
+Author: Alexander Micklewright
+License: UNKNOWN
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+
+Full documentation available on https://emoji-data-python.readthedocs.io/en/latest/
+
+
