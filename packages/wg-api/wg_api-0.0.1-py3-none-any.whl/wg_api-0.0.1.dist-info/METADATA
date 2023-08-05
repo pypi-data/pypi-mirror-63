@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: wg-api
+Version: 0.0.1
+Summary: wargaming api package
+Home-page: https://github.com/encrypted-pig/in_dev_wg
+Author: Encoded_pig
+Author-email: takonok.3000@ya.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+**wg_api** вЂ“ Python РјРѕРґСѓР»СЊ РґР»СЏ СѓРґРѕР±РЅРѕР№ СЂР°Р±РѕС‚С‹ СЃ Wargaming API.
+
+*Р”РѕСЃС‚СѓРїРЅС‹ РјРµС‚РѕРґС‹ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ API РёРіСЂС‹ WOT Blitz.*
+
+* [Wargaming Developer Room](https://developers.wargaming.net/)
+
+```python
+import wg_api
+
+#id РІР°С€РµРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ РјРѕР¶РЅРѕ РїРѕСЃРјРѕС‚СЂРµС‚СЊ Р·РґРµСЃСЊ https://developers.wargaming.net/applications
+app = wg_api.WOTBlitz("228053609b02258f94c78c79bd6c3971")
+print(app.get_player_info_by_name("player12345"))
+```
+
+РЈСЃС‚Р°РЅРѕРІРєР°
+------------
+    $ python -m pip install wg_api
+
+__РЎРїРёСЃРѕРє РґРѕСЃС‚СѓРїРЅС‹С… РјРµС‚РѕРґРѕРІ РјРµС‚РѕРґРѕРІ:__
+- get_player_id_by_name(name: str, language: str = 'ru') -> int
+- search_players(search: str, language: str = "ru", limit: int = 100, type: str = "startswith") -> list
+- get_player_name_by_id(account_id: int, language: str = "ru") -> str
+- get_player_info_by_id(account_id: int, language: str = "ru") -> dict
+- get_player_info_by_name(name: str, language: str = "ru") -> dict
+- get_player_achievements_by_id(account_id: int, language: str = "ru") -> dict
+- get_player_achievements_by_name(name: str, language: str = "ru") -> dict
+- get_player_max_series_by_id(account_id: int, language: str = "ru") -> dict
+- get_player_max_series_by_name(name: str, language: str = "ru") -> dict
+- get_clan_id_by_name(clan_name: str, language: str = "ru") -> int
+- get_clan_info_by_id(clan_id: int, language: str = "ru") -> dict
+- get_clan_info_by_name(clan_name: str, language: str = "ru")
+- get_tanks_list() -> dict
+
