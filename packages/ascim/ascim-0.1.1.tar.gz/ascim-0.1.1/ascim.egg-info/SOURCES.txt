@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+ascim/__init__.py
+ascim/__test__.py
+ascim/ascim.py
+ascim/draw.py
+ascim/table.py
+ascim/utils.py
+ascim.egg-info/PKG-INFO
+ascim.egg-info/SOURCES.txt
+ascim.egg-info/dependency_links.txt
+ascim.egg-info/top_level.txt
