@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+queryset_serializer/__init__.py
+queryset_serializer.egg-info/PKG-INFO
+queryset_serializer.egg-info/SOURCES.txt
+queryset_serializer.egg-info/dependency_links.txt
+queryset_serializer.egg-info/requires.txt
+queryset_serializer.egg-info/top_level.txt
+queryset_serializer/db/__init__.py
+queryset_serializer/db/models/__init__.py
+queryset_serializer/serializers/__init__.py
+queryset_serializer/serializers/model/__init__.py
