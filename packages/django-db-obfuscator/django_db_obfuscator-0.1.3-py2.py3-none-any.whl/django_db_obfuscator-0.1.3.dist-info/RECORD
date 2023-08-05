@@ -1,0 +1,10 @@
+obfuscator/__init__.py,sha256=Zp8z4068nMhm7Q2I6R3Go54NjxaFGbSz_kpDYTLD_u4,189
+obfuscator/cli.py,sha256=1BFM05cdtQ6_DbPBmEwYVbl1aYhc7VkCuJWslnFeKqQ,408
+obfuscator/obfuscator.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+django_db_obfuscator-0.1.3.dist-info/AUTHORS.rst,sha256=aeZF_Oxn0Iy7bgUUCEOQQFNMZRzpP_oOnFcL6_J7WKs,148
+django_db_obfuscator-0.1.3.dist-info/LICENSE,sha256=XS2pv9kTBLhr9AHy90hgcnnLR0CGtFTIABVszAPWrT4,1070
+django_db_obfuscator-0.1.3.dist-info/METADATA,sha256=SHfEttsP7tj96kQl3fIby7RlHWe2O6U5nM7gjEa7gQg,1659
+django_db_obfuscator-0.1.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_db_obfuscator-0.1.3.dist-info/entry_points.txt,sha256=4lmigh_T4tY9EdH3ZcMURv7_T-lljPfxOiQptTbo0EY,52
+django_db_obfuscator-0.1.3.dist-info/top_level.txt,sha256=otQdgba6fdJflbaWhRFybJMO9Lqw-DfZjzx9hqYiYM0,11
+django_db_obfuscator-0.1.3.dist-info/RECORD,,
