@@ -1,0 +1,15 @@
+0.0.3
+-----
+
+* Bug: Fixed end-of-frame for driving LEDs
+
+0.0.2
+-----
+
+* Bug: Fixed order of LEDs for Keybow Mini
+* Overhauled packaging to use setup.cfg
+
+0.0.1
+-----
+
+* Initial Release
