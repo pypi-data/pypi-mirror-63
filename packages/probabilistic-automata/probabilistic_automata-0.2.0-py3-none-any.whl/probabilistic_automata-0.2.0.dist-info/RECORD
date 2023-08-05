@@ -1,0 +1,8 @@
+probabilistic_automata/__init__.py,sha256=wWOhAi-IDukjwQOi6B__Q0rVH78CdAXo-0wD9sxrH3U,269
+probabilistic_automata/distributions.py,sha256=BPcCG7WUHKMYso6jQ6wEMPTE9p_LGL8QADqcjzRGlhc,2130
+probabilistic_automata/pa.py,sha256=qS53GbMIa55_8ItDuP1od90TduDqQtuJ-J3U8suK8Oo,7478
+probabilistic_automata/utils.py,sha256=dUHtGbgnBMoqVl4SZG2uR36H2So3pxbTRqxIouylOMc,3332
+probabilistic_automata-0.2.0.dist-info/LICENSE,sha256=jEKY2ty3xNTu8AWYGVOoJCqCwJoap-EzVMycErqZLyA,1082
+probabilistic_automata-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+probabilistic_automata-0.2.0.dist-info/METADATA,sha256=RzFt6rebyajs6n3AKVRByefSLX_wI7PWqp2OM3zC1J4,5819
+probabilistic_automata-0.2.0.dist-info/RECORD,,
