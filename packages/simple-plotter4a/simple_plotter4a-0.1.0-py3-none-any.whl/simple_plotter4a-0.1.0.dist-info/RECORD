@@ -1,0 +1,16 @@
+simple_plotter4a/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+simple_plotter4a/_version.py,sha256=eWhNOqUf58YDWo2ab3dGpz1RJXUjjijjailRMDCg5y8,18470
+simple_plotter4a/main.py,sha256=d1afE8O8uY6fE70LkUf_fW7vCWNoZSaT3edg2CDOI88,46509
+simple_plotter4a/data/attributions_android_0.1.0.txt,sha256=EsCYis9oS2-8oczzB835A5D0IttnWceyE_ljZJHjuSM,3163
+simple_plotter4a/data/attributions_python_0.1.0.txt,sha256=1x6-O-W53ka3yAPvjjBLjNei1IaptoquWxNADV8cS6Q,684
+simple_plotter4a/data/icon.png,sha256=9t4c5zDCvljJ3VZr6X9yRt9b5wy9E25XCYS38ftTCIU,21048
+simple_plotter4a/data/icon.svg,sha256=IpZtXYqV645naAQ07T2H3XirftpAehmyvFqSEw1gx8U,13009
+simple_plotter4a/data/presplash.png,sha256=OJFY5tiVSsGVnkatDW3PdvWGs_AEgz3SQsIudHv4iV0,26591
+simple_plotter4a/data/presplash.svg,sha256=JI2CM3zP7ziQEiEdQ8Q-gidE-IeTOYOrX_mBd0R1rVc,14648
+simple_plotter4a-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+simple_plotter4a-0.1.0.dist-info/METADATA,sha256=eUAJwp3dT8jMgzL8dq7T47Qqcx9iQOx5-L7eYBcySSc,5227
+simple_plotter4a-0.1.0.dist-info/NOTICE,sha256=ePpFIKX567MV6YOPjse38s5iLYpC4IakCnGRCp1i3KA,705
+simple_plotter4a-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+simple_plotter4a-0.1.0.dist-info/entry_points.txt,sha256=ShiAcqO7tu5hMyanhkq6K2rAmN3BKxUwvesHb3C75Ak,194
+simple_plotter4a-0.1.0.dist-info/top_level.txt,sha256=KN4lnLwKpzqvZgg2UIMT7ucl-EVcsQvC233ztQy9ZXg,17
+simple_plotter4a-0.1.0.dist-info/RECORD,,

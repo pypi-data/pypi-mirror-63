@@ -1,0 +1,4 @@
+[gui_scripts]
+simple-plotter-kivy-garden-graph = simple_plotter4a.main:start_garden_graph [kivy-garden-graph]
+simple-plotter-kivy-matplotlib = simple_plotter4a.main:start_mpl [kivy-matplotlib]
+
