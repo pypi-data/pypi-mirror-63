@@ -1,0 +1,52 @@
+language: python
+os:
+  - linux
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+    
+env:
+  global:
+    - TEST=-v
+  jobs:
+    - DOCUTILS=0.16
+
+jobs:
+  include:
+    - python: 3.5
+    - python: 3.6
+    - python: 3.7
+      dist: xenial
+    - python: 3.8
+      dist: xenial
+    - python: pypy3
+
+install:
+  - pip install -U pip
+  - pip install docutils==$DOCUTILS
+  - pip install -r requirements.txt
+  - pip install -e .
+
+script:
+  - make -C demo html SPHINXOPTS="-D html_theme=sphinx_adc_theme"
+
+deploy:
+  - provider: pages
+    cleanup: false
+    token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+    local_dir: demo/build/html/
+    on:
+      branch: master
+      python: 3.6
+  - provider: pypi
+    username: $PYPI_USER
+    password: $PYPI_PASS
+    cleanup: false
+    distributions: "sdist bdist_wheel"
+    on:
+      tags: true
+      python: 3.7
+      branch: master
+
+
