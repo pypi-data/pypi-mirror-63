@@ -1,0 +1,6 @@
+httpx==0.12.*
+
+[testing]
+pyjwt==1.*
+pytest_httpx==0.2.*
+pytest-cov==2.*
