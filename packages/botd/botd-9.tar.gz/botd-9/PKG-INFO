@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: botd
+Version: 9
+Summary: BOTD is a IRC channel daemon serving 24/7 in the background.. no copyright. no LICENSE.
+Home-page: https://bitbucket.org/botd/botd
+Author: Bart Thate
+Author-email: bthate@dds.nl
+License: Public Domain
+Description: 
+        R E A D M E
+        ###########
+        
+        
+        BOTD is a library you can use to program bots. no copyright. no LICENSE.
+        
+        
+        I N S T A L L
+        
+        
+        download the tarball from pypi, https://pypi.org/project/botd/#files
+        
+        if you want to have BOTD started at boot, you need to have the tarball and run:
+        
+        ::
+        
+         > sudo bin/install
+        
+        this will install an botd service in /etc/systemd/system
+        
+        
+        you can also download with pip3 and install globally.
+        
+        ::
+        
+         > sudo pip3 install botd --upgrade --force-reinstall
+        
+        
+        
+        U S A G E
+        
+        
+        ::
+        
+         > sudo botd localhost \#dunkbots botje
+         > sudo botctl <cmd>
+        
+        logfiles can be found in /var/log/botd.
+        
+        
+        C O N F I G U R A T I O N
+        
+        
+        use botctl to edit on the system installed botd service:
+        
+        ::
+        
+         > sudo botctl cfg krn modules bot.rss,bot.udp
+         > sudo botctl cfg irc server localhost
+         > sudo botctl cfg irc channel #dunkbots
+         > sudo botctl cfg irc nick botje
+         > sudo botctl rss https://news.ycombinator.com/rss
+        
+        use the -w option if you want to use a different work directory then /var/lib/botd.
+        
+        
+        R S S
+        
+        
+        add an url:
+        
+        ::
+        
+         > sudo botctl rss https://news.ycombinator.com/rss
+         ok 1
+        
+         run the rss command to see what urls are registered:
+        
+         > sudo botctl rss
+         0 https://news.ycombinator.com/rss
+        
+         the fetch command can be used to poll the added feeds:
+        
+         > sudo botctl fetch
+         fetched 0
+        
+        
+        U D P
+        
+        
+        using udp to relay text into a channel, start the bot with -m bot.udp and use
+        the botudp program to send text via the bot to the channel on the irc server:
+        
+        ::
+        
+         > tail -f /var/log/botd/botd.log | botudp 
+        
+        
+        you can contact me on IRC/freenode/#dunkbots.
+        
+        | Bart Thate (bthate@dds.nl, thatebart@gmail.com)
+        | botfather on #dunkbots irc.freenode.net
+            
+            
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Public Domain
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
