@@ -1,0 +1,76 @@
+#!python
+
+from aws_jupyter.check_cluster import main_check_cluster
+from aws_jupyter.create_cluster import main_create_cluster
+from aws_jupyter.diagnose import main_diagnose
+from aws_jupyter.run_cluster import main_run_cluster, run_cluster
+from aws_jupyter.retrieve_files import main_retrieve_files
+from aws_jupyter.send_configs import main_send_configs
+from aws_jupyter.set_config import main_set_config
+from aws_jupyter.ssh_headnode import main_ssh_headnode
+from aws_jupyter.terminate_cluster import main_terminate_cluster
+import argparse
+import sys
+
+
+class AwsJupyter:
+    def __init__(self):
+        parser = argparse.ArgumentParser(
+            description="Launch Jupyter on AWS",
+            usage="aws-jupyter <task> [<args>]\nRun with -h to see supported tasks",
+        )
+        parser.add_argument(
+            "task",
+            help="Task to perform, should be one of 'config', 'create', 'check', 'terminate', \
+                'run', 'ssh', 'retrieve', 'send-configs', 'diagnose'")
+        config = parser.parse_args(sys.argv[1:2])
+        task = config.task.replace('_', '-')
+        if not hasattr(self, task):
+            print("Error: Cannot reconize the task type '{}'.".format(config["task"]))
+            parser.print_help()
+            exit(1)
+        # use dispatch pattern to invoke method with same name
+        getattr(self, task)()
+
+    def config(self):
+        main_set_config()
+
+    def create(self):
+        main_create_cluster()
+
+    def check(self):
+        (config, status) = main_check_cluster()
+        if status is None:
+            ready, total = 0, 0
+        else:
+            ready, total = status
+        if ready > 0 and ready == total:
+            print("Cluster is running (yet might still being initialized). \
+                   I will try to start Jupyter notebook now.")
+            config["files"] = ["./neighbors.txt"]
+            config["script"] = "./scripts/install-jupyter-tmsn.sh"
+            config["output"] = True
+            run_cluster(config)
+        elif total > 0:
+            print("Cluster is not ready. Please check again later.")
+
+    def diagnose(self):
+        main_diagnose()
+
+    def terminate(self):
+        main_terminate_cluster()
+
+    def run(self):
+        main_run_cluster()
+
+    def send_configs(self):
+        main_send_configs()
+
+    def ssh(self):
+        main_ssh_headnode()
+
+    def retrieve(self):
+        main_retrieve_files()
+
+if __name__ == '__main__':
+    AwsJupyter()
