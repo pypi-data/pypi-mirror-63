@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+twetch2py/__init__.py
+twetch2py/twetch.py
+twetch2py.egg-info/PKG-INFO
+twetch2py.egg-info/SOURCES.txt
+twetch2py.egg-info/dependency_links.txt
+twetch2py.egg-info/top_level.txt

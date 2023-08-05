@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: twetch2py
+Version: 0.0.3
+Summary: A class-based implementation of the Twetch SDK for Python
+Home-page: https://gitlab.com/cyphergato/twetch2py
+Author: Cyphergato, LLC
+Author-email: cyphergato@protonmail.com
+License: MIT
+Download-URL: https://gitlab.com/cyphergato/twetch2py/-/archive/master/twetch2py-master.tar.gz
+Description: # Twetch2py
+        A class-based library for using the [Twetch SDK](https://www.npmjs.com/package/@twetch/sdk) with Python.
+        
+        ## Installation
+        1. Install the Twetch SDK in CLI mode:
+        ```
+        npm install -g @twetch/sdk
+        ```
+        2. Initialize the Twetch SDK from the command line:
+        ```
+        twetch init
+        ```
+        3. Authenticate your signing address on the [Twetch developer page](https://twetch.app/developer)
+        4. `import` this repo into your project
+        
+        ## Usage
+        Once instantiated, Twetch objects have the following attributes:
+        1. `content`: A string for text-based posts. Accepts @ and branch URLs.
+        2. `media`: Filename for rich media (like images). Relative paths will be converted to absolute before publishing.
+        3. `reply_tx`: A transaction ID of a post to reply to.
+        4. `like_tx`: A transaction ID of a post to like.
+        5. `published_url`: Successful posts and likes will set the URL of your Twetch to this attribute.
+        
+        The library can also fetch the following information about your Twetch SDK install:
+        1. `get_balance()`: Returns your signing address balance in BSV.
+        2. `get_address()`: Returns the signing address of your Twetch SDK BSV wallet.
+        
+        ## Examples
+        ```
+        # Make a text post
+        my_twetch = Twetch(content="Hello from Python!")
+        my_twetch.publish()
+        
+        # Branch a post
+        my_branch = Twetch(content="https://twetch.app/t/b9ca41ea6e7302016ab039babe19548f74feccdbd2addbc1c50b3e49907e6ef4")
+        my_branch.publish()
+        
+        # Quote a post
+        my_quote = Twetch(content="This is a quote branch! https://twetch.app/t/b9ca41ea6e7302016ab039babe19548f74feccdbd2addbc1c50b3e49907e6ef4")
+        my_quote.publish()
+        
+        # Post an image
+        my_image_twetch = Twetch(content="Image from Python!", media="images/myimage.jpg")
+        my_image_twetch.publish()
+        
+        # Reply to a post
+        my_reply = Twetch(content="Hello fellow Twetcher!", reply_tx="b9ca41ea6e7302016ab039babe19548f74feccdbd2addbc1c50b3e49907e6ef4")
+        my_reply.publish()
+        
+        # Reply to a post w/image and text
+        my_reply = Twetch(content="Hello with image!", media="images/myimage.jpg", reply_tx="b9ca41ea6e7302016ab039babe19548f74feccdbd2addbc1c50b3e49907e6ef4")
+        my_reply.publish()
+        
+        # Like a post
+        my_like = Twetch(like_tx="b9ca41ea6e7302016ab039babe19548f74feccdbd2addbc1c50b3e49907e6ef4")
+        my_like.like_twetch()
+        
+        # Print your active signing address
+        twetch_object = Twetch()
+        print(twetch_object.get_address())
+        
+        # Print the balance of your signing wallet
+        twetch_object = Twetch()
+        print(twetch_object.get_address())
+        ```
+Keywords: bitcoin,twetch,sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
