@@ -1,0 +1,3 @@
+psutil
+pymongo
+hoplite>=15.0.0.dev11
