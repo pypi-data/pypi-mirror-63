@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+qoaladep/__init__.py
+qoaladep.egg-info/PKG-INFO
+qoaladep.egg-info/SOURCES.txt
+qoaladep.egg-info/dependency_links.txt
+qoaladep.egg-info/top_level.txt
+qoaladep/aws/__init__.py
+qoaladep/gcp/__init__.py
+qoaladep/gcp/ml_engine/__init__.py
+qoaladep/gcp/ml_engine/deploy_model.py
+qoaladep/gcp/ml_engine/predict_model.py
+qoaladep/gcp/ml_engine/train_model.py
