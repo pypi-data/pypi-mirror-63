@@ -1,0 +1,3 @@
+[console_scripts]
+lime-comb=lime_comb.main:run
+
