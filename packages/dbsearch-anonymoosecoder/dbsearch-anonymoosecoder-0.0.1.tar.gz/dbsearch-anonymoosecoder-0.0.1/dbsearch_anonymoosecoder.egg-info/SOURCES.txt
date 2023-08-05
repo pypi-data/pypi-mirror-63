@@ -1,0 +1,7 @@
+README.md
+setup.py
+dbsearch/__init__.py
+dbsearch_anonymoosecoder.egg-info/PKG-INFO
+dbsearch_anonymoosecoder.egg-info/SOURCES.txt
+dbsearch_anonymoosecoder.egg-info/dependency_links.txt
+dbsearch_anonymoosecoder.egg-info/top_level.txt
