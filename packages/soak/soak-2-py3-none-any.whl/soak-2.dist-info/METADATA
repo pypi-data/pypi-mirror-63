@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: soak
+Version: 2
+Summary: Process aridity templates en masse, with secrets decryption
+Home-page: https://github.com/combatopera/soak
+Author: Andrzej Cichocki
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aridity
+Requires-Dist: lagoon
+Requires-Dist: PyYAML
+
+# soak
+[![Build Status](https://travis-ci.org/combatopera/soak.svg?branch=master)](https://travis-ci.org/combatopera/soak)
+
+
