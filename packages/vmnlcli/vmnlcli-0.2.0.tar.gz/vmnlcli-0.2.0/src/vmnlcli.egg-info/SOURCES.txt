@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+src/vmnlcli/__init__.py
+src/vmnlcli.egg-info/PKG-INFO
+src/vmnlcli.egg-info/SOURCES.txt
+src/vmnlcli.egg-info/dependency_links.txt
+src/vmnlcli.egg-info/entry_points.txt
+src/vmnlcli.egg-info/requires.txt
+src/vmnlcli.egg-info/top_level.txt
