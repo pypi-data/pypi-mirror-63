@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rpa_public_package
+Version: 1.0.1
+Summary: 引用RPA公共包
+Home-page: https://github.com/youqi6588/RPA
+Author: qi.you
+Author-email: youqi6588@126.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
