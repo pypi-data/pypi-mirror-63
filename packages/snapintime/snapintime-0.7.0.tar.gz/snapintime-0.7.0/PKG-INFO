@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: snapintime
+Version: 0.7.0
+Summary: A program for creating, culling, and remote backup of btrfs snapshots
+Home-page: https://github.com/djotaku/Snap-in-Time
+Author: Eric Mesa
+Author-email: eric@ericmesa.com
+License: GPLv3
+Description: A better description will arrive soon. For now, this is alpha software.
+Keywords: btrfs
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
