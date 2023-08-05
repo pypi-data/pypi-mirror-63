@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Bulkren
+Version: 1.0.6
+Summary: Bulkren can reduce your finger pains, just rename files in bulk
+Home-page: https://github.com/Dev-Akash/Bulkren
+Author: Akash Srivastava
+Author-email: sriakash.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/Dev-Akash/Bulkren/archive/v1.0.6.tar.gz
+Description: UNKNOWN
+Keywords: rename files,bulk rename,rename,rename files in bulk,bulk,rename,files,all,.pdf,.txt,.jpg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
