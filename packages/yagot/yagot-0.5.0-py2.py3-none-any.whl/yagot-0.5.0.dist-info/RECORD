@@ -1,0 +1,13 @@
+yagot/__init__.py,sha256=v-vN9lHlH5F2iBLoJWlBHJ3elIynKeZ5bzwzsSSTmCw,976
+yagot/_decorators.py,sha256=znz8IMql5mn4RGDgvmcYHWwMOQqiGbFPvuWVghEytNk,2933
+yagot/_garbagetracker.py,sha256=xXp3rKouT7-qeO5-u2jBB6aEI4WQ8TwA1Fr68U4IAfk,10991
+yagot/_version.py,sha256=RyM1QPEKxmu1N_FApSq9FPmpdqKUoYyM6NBEILbTu8E,324
+yagot_pytest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yagot_pytest/plugin.py,sha256=qbAeZyQ36BpV2U38FEG_iyqnGlZVQjjIitI8lOGPQwA,5109
+yagot-0.5.0.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+yagot-0.5.0.dist-info/METADATA,sha256=gSfmJ3sDsYha_DNEkNPW0P__wgwU2rBKR3vd2TBgwtU,13229
+yagot-0.5.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+yagot-0.5.0.dist-info/entry_points.txt,sha256=hMeadVdPpzI8WuAjxV0CvWZQ4FH4Zzif-R0ol5ZjW00,40
+yagot-0.5.0.dist-info/top_level.txt,sha256=mlxNx9y5M5yvC7LwBoysUQft5HDP3MDlhUeT_yerymk,19
+yagot-0.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+yagot-0.5.0.dist-info/RECORD,,
