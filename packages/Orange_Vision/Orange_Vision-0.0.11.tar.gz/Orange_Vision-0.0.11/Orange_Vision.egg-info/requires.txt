@@ -1,0 +1,7 @@
+Pillow>=4.0.0
+edgetpu
+littleutils
+numpy>=1.12.1
+protobuf>=3.0.0
+pygobject>=3.22.0
+requests

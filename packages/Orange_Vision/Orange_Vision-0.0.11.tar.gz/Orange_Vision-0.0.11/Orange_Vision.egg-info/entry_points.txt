@@ -1,0 +1,6 @@
+[console_scripts]
+orange_classify = Orange_Vision.classify:main
+orange_classify_server = Orange_Vision.classify_server:main
+orange_detect = Orange_Vision.detect:main
+orange_detect_server = Orange_Vision.detect_server:main
+
