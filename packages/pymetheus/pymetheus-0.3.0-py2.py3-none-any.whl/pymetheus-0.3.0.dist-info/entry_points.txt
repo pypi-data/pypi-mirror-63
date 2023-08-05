@@ -1,0 +1,3 @@
+[console_scripts]
+pymetheus = pymetheus.cli:main
+
