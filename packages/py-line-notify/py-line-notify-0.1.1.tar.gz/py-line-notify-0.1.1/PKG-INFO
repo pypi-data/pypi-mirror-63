@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-line-notify
+Version: 0.1.1
+Summary: Simple package for Line Notify
+Home-page: https://github.com/kittinan/py-line-notify
+Author: Kittinan Srithaworn
+License: MIT
+Project-URL: Bug Reports, https://github.com/kittinan/py-line-notify/issues
+Project-URL: Source, https://github.com/kittinan/py-line-notify
+Description: # py-line-notify
+Keywords: Line Notify
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

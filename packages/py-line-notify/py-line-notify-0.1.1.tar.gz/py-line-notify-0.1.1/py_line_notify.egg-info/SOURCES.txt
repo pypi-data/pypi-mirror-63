@@ -1,0 +1,8 @@
+README.md
+setup.py
+linenotify/__init__.py
+py_line_notify.egg-info/PKG-INFO
+py_line_notify.egg-info/SOURCES.txt
+py_line_notify.egg-info/dependency_links.txt
+py_line_notify.egg-info/requires.txt
+py_line_notify.egg-info/top_level.txt
