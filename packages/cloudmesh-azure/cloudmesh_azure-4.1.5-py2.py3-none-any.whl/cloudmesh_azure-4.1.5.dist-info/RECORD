@@ -1,0 +1,14 @@
+cloudmesh_azure-4.1.5-py3.8-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/azure/__init__.py,sha256=qS8J8t46rh5Pooly4LFiytlNKBi6uu8JcNs0Kft_kUI,21
+cloudmesh/azure/__version__.py,sha256=NCvyM26mBZdswQZM_m62HjMqHYX6GGiH8H7FDkhnSuo,17
+cloudmesh/azure/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/azure/command/azure.py,sha256=DNybcvog7OoqBmAn5YzV4LJ9xcYmx4UxQkKU1xZhCb8,1253
+cloudmesh/azure/compute/Provider.py,sha256=Ifn4xv4-167ZrGRQ3Pe9ZUmWMxzyk0vdwUeAA7Q_FiQ,57963
+cloudmesh/azure/compute/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/azure/compute/test.py,sha256=aPDBhQ7Jtxy-5fBGKgnkI7IQwf7AsX5WRbv5ApQaMuc,1295
+cloudmesh_azure-4.1.5.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_azure-4.1.5.dist-info/METADATA,sha256=rSi0PsHyFiAtZoLmjmH-buE8Ho6LTDUf2UlCzs3RdPg,1481
+cloudmesh_azure-4.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_azure-4.1.5.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_azure-4.1.5.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_azure-4.1.5.dist-info/RECORD,,
