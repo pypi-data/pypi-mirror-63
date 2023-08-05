@@ -1,0 +1,12 @@
+avanza/__init__.py,sha256=4evjPIXofsYnq6CwhJhBe7YoUiUIAkOog4jIiDKYoWw,97
+avanza/_version.py,sha256=YQY-i8MemQTvHljd9BqOGgeJEu3FrzurE3TEKDwAax4,22
+avanza/base.py,sha256=GyL-0MaYiDm9NmNCauYsrMd_iOqYYHsNwhR_YEzk9eY,2247
+avanza/chartdata.py,sha256=iK8oUKmfYqxcgDg4_6vwkbsONVYpi0yE_bJFuHuxg_M,1346
+avanza/collection.py,sha256=My0N3jDbRFQXilBuhvT68-rN0uDo6mBt9Oa9glMeqNo,3652
+avanza/constants.py,sha256=zFPHQxzUchOPNwjviIP1q2WGho5MWksn6fOa4tfBmDo,2596
+avanza/ticker.py,sha256=Ed2trETHoPzTU2MwWmKbvhVxW1ekJn44FhkacH2awNM,4672
+Avanza-0.0.8.dist-info/LICENSE,sha256=UHbDQp0iCH-MvWW2_1VFQ9p3O816s8-vll9WkMP8keY,1064
+Avanza-0.0.8.dist-info/METADATA,sha256=fSOqa4JkS08TXLN4ihkvzQdXeZOf9Xcw2hMr6ZJEbpY,2335
+Avanza-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Avanza-0.0.8.dist-info/top_level.txt,sha256=4Sxe4l1ohC6D4OwzO5FC4r_cP1xkGKsFHS4IOrXnOeE,7
+Avanza-0.0.8.dist-info/RECORD,,
