@@ -1,0 +1,10 @@
+screen.py,sha256=58h1pvu5TM6LO-0C_m963rzIzfLbrJ48YGmbLWuyABs,2451
+lagoon/__init__.py,sha256=zqOejI9KNsan6nA1MHB5ptzESoqegs7wtvHTReFCsCc,3276
+lagoon/binary.py,sha256=vpvrhM46WH2F0DCPTQ6PAtCK0CVFP8luqh6PY011lLg,691
+lagoon/test_lagoon.py,sha256=ozYNlSEjZeT3rrxaIIDuU-fShzYQpp7G3DEgwkIW9Ag,3359
+lagoon-5.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+lagoon-5.dist-info/METADATA,sha256=-CprR-mEhpYc_k_26ZfzJUlf9YXCzK0a6AWIw-X5VLU,376
+lagoon-5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lagoon-5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+lagoon-5.dist-info/top_level.txt,sha256=dwYDHz3IGY69cOGrxwOZmPnGjV4LWZlKTVQ3WmOS7-s,14
+lagoon-5.dist-info/RECORD,,
