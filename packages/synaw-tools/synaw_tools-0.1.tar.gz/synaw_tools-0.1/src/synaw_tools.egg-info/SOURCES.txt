@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+extra/etc/bash_completion.d/synaw_tool
+src/synaw_tools/__init__.py
+src/synaw_tools/cli.py
+src/synaw_tools/template.py
+src/synaw_tools/util.py
+src/synaw_tools/var.py
+src/synaw_tools.egg-info/PKG-INFO
+src/synaw_tools.egg-info/SOURCES.txt
+src/synaw_tools.egg-info/dependency_links.txt
+src/synaw_tools.egg-info/entry_points.txt
+src/synaw_tools.egg-info/not-zip-safe
+src/synaw_tools.egg-info/requires.txt
+src/synaw_tools.egg-info/top_level.txt
