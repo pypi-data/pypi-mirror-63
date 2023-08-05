@@ -1,0 +1,13 @@
+mnrva/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mnrva/elastic.py,sha256=mdZLs_-J7FASL76YO9zqfsRTYDhxFpGFnZV_TloL_2A,1137
+mnrva/engines.py,sha256=_6ehHu-4VpbNmTJspHUVdsIt8eRzuHSLs5f02-cL284,3940
+mnrva/fs.py,sha256=rIxJL8OzyDO_oBzo1XzlwrCD-JdVl5q1sPIevnR8k-w,1330
+mnrva/mail.py,sha256=PaADWCHKXe70eswHKXFldTETytKGkbQHbRiztGMstsQ,911
+mnrva/scraping.py,sha256=9tgsf7_cjI7djAt-nup-7BNV9h_anfrEGwpesoJkTdQ,2762
+mnrva/slack.py,sha256=0AkIF9AX0R1m0zeswjR2FwpbjU8mzLyx5y0d_L0iCGE,367
+mnrva/utils.py,sha256=BKvqIZN-kpuH2E7f2bYCIC5jx7b6sYG7W29AUZxhwrU,1234
+mnrva-0.0.1.dist-info/LICENSE,sha256=l8iqiPvEty33Vr21vFI8Uh93YtZytwt_E99i8LI80js,1079
+mnrva-0.0.1.dist-info/METADATA,sha256=vVAtnRrcTdD5jqnsStb7iMf2qy6Iccvg3Uewz5eJW4Q,628
+mnrva-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mnrva-0.0.1.dist-info/top_level.txt,sha256=Md54iA98BwSvmoILTjIcLvAiR8zjiEcu8tFitkh2N-A,6
+mnrva-0.0.1.dist-info/RECORD,,
