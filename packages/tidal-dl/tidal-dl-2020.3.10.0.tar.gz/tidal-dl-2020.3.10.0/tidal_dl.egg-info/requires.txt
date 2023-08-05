@@ -1,0 +1,5 @@
+aigpy>=2020.2.28.0
+requests
+ffmpeg
+pycryptodome
+pydub
