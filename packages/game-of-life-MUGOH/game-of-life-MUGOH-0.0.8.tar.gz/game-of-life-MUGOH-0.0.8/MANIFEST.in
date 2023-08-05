@@ -1,0 +1,4 @@
+
+include game_of_life/.data/*
+
+recursive-include data *
