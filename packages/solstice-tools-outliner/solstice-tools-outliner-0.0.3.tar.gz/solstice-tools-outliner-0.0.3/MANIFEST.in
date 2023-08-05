@@ -1,0 +1,2 @@
+include solstice/tools/outliner/__logging__.ini
+include solstice/tools/outliner/resources/icons/color/*.*

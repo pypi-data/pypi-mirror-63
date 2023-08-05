@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: solstice-tools-outliner
+Version: 0.0.3
+Summary: Tool to manage assets in DCC scenes for Solstice
+Home-page: https://github.com/Solstice-Short-Film/solstice-tools-outliner
+Author: Tomas Poveda
+Author-email: tpovedatd@gmail.com
+License: MIT
+Description: artellapipe-tools-outliner
+        ============================================================
+        
+        Tool to manage assets in DCC scenes for Solstice
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test
