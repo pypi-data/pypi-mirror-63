@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rdisq
+Version: 0.0.8
+Summary: Super minimal workload distribution framework over redis queues
+Home-page: https://github.com/smackware/rdisq
+Author: Lital Natan
+Author-email: litaln@gmail.com
+License: MIT
+Description: Please see README.md
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
