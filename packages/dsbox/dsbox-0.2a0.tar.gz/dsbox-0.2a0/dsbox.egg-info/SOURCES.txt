@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dsbox/__init__.py
+dsbox/dalibs.py
+dsbox.egg-info/PKG-INFO
+dsbox.egg-info/SOURCES.txt
+dsbox.egg-info/dependency_links.txt
+dsbox.egg-info/requires.txt
+dsbox.egg-info/top_level.txt

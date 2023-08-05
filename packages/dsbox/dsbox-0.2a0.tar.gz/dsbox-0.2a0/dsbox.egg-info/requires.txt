@@ -1,0 +1,7 @@
+scipy
+numpy
+math
+pandas
+matplotlib
+seaborn
+pandas_profiler
