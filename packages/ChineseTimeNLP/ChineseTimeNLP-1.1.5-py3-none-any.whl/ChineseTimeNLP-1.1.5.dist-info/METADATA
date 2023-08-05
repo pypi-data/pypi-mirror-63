@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ChineseTimeNLP
+Version: 1.1.5
+Summary: ...
+Home-page: UNKNOWN
+Author: BuddingLab
+Author-email: lengthmin@gmail.com
+License: MIT Licence
+Keywords: time,nlp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: regex (>=2017)
+Requires-Dist: arrow (>=0.15.2)
+
+...
+
+
