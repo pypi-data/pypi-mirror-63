@@ -1,0 +1,11 @@
+fmi_weather_client/__init__.py,sha256=jIhMvgPr9E4Z03bvpqFgl3sSq2uqC7LADKcVkhzFMsw,3886
+fmi_weather_client/errors.py,sha256=paf8RAIO4VKBeE61Ixt-UC-lkPFR8D_p01R1xpd10mQ,555
+fmi_weather_client/http.py,sha256=e5iRjRQ8iulKIXoe9hx2mqOgmCgwD7kPnvaZa0OXoPM,4790
+fmi_weather_client/models.py,sha256=OTzKUZr88qUmvuNh2ozwztC1yQ4hhaI9Okjf019nX_g,2044
+fmi_weather_client/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmi_weather_client/parsers/forecast.py,sha256=ThpgAx-5mIuAeFKkFPrxXMMMk388mYow-HjrZEK9hHE,6559
+fmi_weather_client-0.0.13.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+fmi_weather_client-0.0.13.dist-info/METADATA,sha256=2kFitTIRyEVKNBA6ujIwc78FrqEtmmCT5trD1hZTC-Q,4428
+fmi_weather_client-0.0.13.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+fmi_weather_client-0.0.13.dist-info/top_level.txt,sha256=ICcZNXGVKQniA6hryB1IQMzECns2mZ3wLtQTeJ-XOAI,19
+fmi_weather_client-0.0.13.dist-info/RECORD,,
