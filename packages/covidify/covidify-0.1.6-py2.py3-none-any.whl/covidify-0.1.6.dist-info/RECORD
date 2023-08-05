@@ -1,0 +1,13 @@
+covidify/README.md,sha256=PwvaaDrm2hnAiHj3EUuFU7u4bQ9ZL-uJuhUAf4HE1sA,300
+covidify/__init__.py,sha256=s3ACyjEvx7nvj7NSTusUqiN2fwxRpEvXk0he4C1_xBw,339
+covidify/cli.py,sha256=h6SbTsZiNU_VGhxRjphil1q0KPrrUoiaeKrzrfqMNV8,1890
+covidify/config.py,sha256=Ah8eBSojPF-qgk67wrDfGgY22Q4RBaUneMR7l8X_a4s,300
+covidify/data_exploration.py,sha256=dlkjGGSo41H4mV8CsZVji6jz15KbjIsKtNXxzc4P4i0,5832
+covidify/data_prep.py,sha256=smfa9mqXjpvY_ZCk8LBhcDexnH-Xt4gb9uwJAGJdyBM,9724
+covidify/pipeline.sh,sha256=aaj_oveYEYYFLLsS5IJS8RHA4rOWP6JGtMdjAON6ikY,524
+covidify-0.1.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+covidify-0.1.6.dist-info/METADATA,sha256=0ca7TuqtjWS0tokW8VyFhBVv_EJA1aeRLrN2YDhsKiU,5127
+covidify-0.1.6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+covidify-0.1.6.dist-info/entry_points.txt,sha256=lWe1QtSiWG_zhrzHzFm_m6XRfFqsPKs_b7z_j9iHj7M,47
+covidify-0.1.6.dist-info/top_level.txt,sha256=V0hsEo9zvqz9JAwQuyi8DvhQ1AADO5d1OVQlCMJRhPg,9
+covidify-0.1.6.dist-info/RECORD,,
