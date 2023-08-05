@@ -1,0 +1,17 @@
+include MANIFEST.in
+include license.txt
+include tox.ini
+include setup.py
+recursive-include simpleparse/stt COPYRIGHT LICENSE *.html 
+recursive-include simpleparse/stt/Doc *.html 
+recursive-include simpleparse/stt/TextTools/mxTextTools *.c *.h
+
+recursive-include doc *.html
+recursive-include doc *.css
+recursive-include tests *.py
+
+global-exclude *.so
+global-exclude *.pyc
+prune examples/html.py
+prune examples/py*
+prune examples/rtf*
