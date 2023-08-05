@@ -1,0 +1,11 @@
+screen.py,sha256=58h1pvu5TM6LO-0C_m963rzIzfLbrJ48YGmbLWuyABs,2451
+lagoon/__init__.py,sha256=m0fNnSwAXCVoUZ4TmfuxuPFBAaW9egdkjMCimbg13T8,744
+lagoon/binary.py,sha256=vpvrhM46WH2F0DCPTQ6PAtCK0CVFP8luqh6PY011lLg,691
+lagoon/program.py,sha256=RM2Bl4oEzGqS9LSxBD0bhRpCmuVlG3GUvaoeF1zbcWA,4252
+lagoon/test_lagoon.py,sha256=xGeqOIqZE7qXFlb7wBzLvTwrc9gVgnoV2aRycBtneYc,6422
+lagoon-7.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+lagoon-7.dist-info/METADATA,sha256=i9z5Zx14z7b7VJVkcBgxp06-FQUfOHpYdAhXVZED6SQ,376
+lagoon-7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lagoon-7.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+lagoon-7.dist-info/top_level.txt,sha256=dwYDHz3IGY69cOGrxwOZmPnGjV4LWZlKTVQ3WmOS7-s,14
+lagoon-7.dist-info/RECORD,,
