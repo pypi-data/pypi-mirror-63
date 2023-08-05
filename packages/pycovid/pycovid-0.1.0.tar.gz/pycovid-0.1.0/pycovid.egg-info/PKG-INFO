@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pycovid
+Version: 0.1.0
+Summary: Useful tool to access Rami Krispin Novel Corona Dataset
+Home-page: https://sudharshan-ashok.github.io
+Author: Sudharshan Ashok
+Author-email: sudharshan93@gmail.com
+License: MIT
+Download-URL: https://sudharshan-ashok.github.io
+Description: PyCOVID Package
+        
+        Usage
+        -----
+        
+        getCovidCases() : Get the Rami Krispin Coronavirus Dataset in the original format
+        getCovidCasesWide(): Wide format - with columns for Confirmed, Death and Recovered Cases
+        plotCountries(): Plot the country aggregates on world map using Plotly
+        getIntervalData(): Time re-indexed dataset
+        
+        Installation
+        ------------
+        
+        pip install pycovid
+        
+        Requirements
+        ^^^^^^^^^^^^
+        Pandas, Numpy and Plotly
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        PyCOVID was written by Sudharshan Ashok <sudharshan93@gmail.com>
+        
+Keywords: Coronavirus,COVID
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
