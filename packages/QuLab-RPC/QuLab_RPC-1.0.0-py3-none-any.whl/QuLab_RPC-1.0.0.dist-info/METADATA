@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: QuLab-RPC
+Version: 1.0.0
+Summary: RPC for QuLab
+Home-page: https://github.com/feihoo87/QuLab_RPC
+Author: feihoo87
+Author-email: feihoo87@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/feihoo87/QuLab_RPC/issues
+Project-URL: Source, https://github.com/feihoo87/QuLab_RPC/
+Keywords: rpc qulab
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: msgpack (>=1.0.0)
+Requires-Dist: numpy (>=1.13.3)
+Requires-Dist: pyzmq (>=18.0.1)
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: sphinxcontrib-zopeext ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=4.4.0) ; extra == 'test'
+Requires-Dist: pytest-asyncio (>=0.10.0) ; extra == 'test'
+
+# Qulab_RPC
+RPC for Qulab
+
+
