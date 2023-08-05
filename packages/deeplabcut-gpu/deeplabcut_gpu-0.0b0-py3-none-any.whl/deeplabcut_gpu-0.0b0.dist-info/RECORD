@@ -1,0 +1,6 @@
+deeplabcut-gpu/__init__.py,sha256=RpLsrdvMGI2Em9VUl9Q1Q9WAnm_voYwhsrdWLzAHDu8,180
+deeplabcut-gpu/version.py,sha256=xM0dDAvNf7FHkQ1gAEbpIjJt0KuEvKxVXXHANcadewc,216
+deeplabcut_gpu-0.0b0.dist-info/METADATA,sha256=Gi7ebZkMYVYiG9sVcas5pQ61rWJM7k5QMfKzI9_7SaQ,493
+deeplabcut_gpu-0.0b0.dist-info/RECORD,,
+deeplabcut_gpu-0.0b0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+deeplabcut_gpu-0.0b0.dist-info/top_level.txt,sha256=UBK5iAtqiafB4CZtfMHSw3IpFtNx6MtZ9BoEupgRXVY,15
