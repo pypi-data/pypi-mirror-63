@@ -1,0 +1,13 @@
+README.md
+setup.py
+text_studio/__init__.py
+text_studio/action.py
+text_studio/annotator.py
+text_studio/data_loader.py
+text_studio/dataset.py
+text_studio/model.py
+text_studio/pipeline.py
+text_studio.egg-info/PKG-INFO
+text_studio.egg-info/SOURCES.txt
+text_studio.egg-info/dependency_links.txt
+text_studio.egg-info/top_level.txt
