@@ -1,0 +1,7 @@
+NativDebugging
+NativDebugging/File
+NativDebugging/Linux
+NativDebugging/MemoryDump
+NativDebugging/Patterns
+NativDebugging/Unix
+NativDebugging/Win32
