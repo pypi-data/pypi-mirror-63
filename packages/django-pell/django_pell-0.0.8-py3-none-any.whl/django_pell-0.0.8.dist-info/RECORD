@@ -1,0 +1,13 @@
+django_pell/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+django_pell/apps.py,sha256=oPmvdflx6qXiqa89mk7JzgvR4iQ5ze-wL3DKes0bGpY,96
+django_pell/fields.py,sha256=thob2sGpVURAZQ-Q_qxWQSRDBAwSaYz15nkOArAgSY0,195
+django_pell/widgets.py,sha256=bFZjBMfSbx-8Cl743P1U__2yTQzxKgs3-v9bq7X2lLY,1948
+django_pell/static/django_pell/css/pell.min.css,sha256=Ld2o3-6zr33AQFbMa5nmnjrvJ-OgdEqYa72WW3LJcto,398
+django_pell/static/django_pell/js/pell.min.js,sha256=4MPHeF2wFDMM9rzwTsz5Q8wfveOTZt7mtPmXeOlhmn0,3397
+django_pell/templates/django_pell/pell.html,sha256=OxyyaCQW8lzuLpaNeWMTaPGATRWsO2t3cnzz8_FyCnM,375
+django_pell/templates/django_pell/widget.js,sha256=bD6y2hPRWbAF5RXjULGh5dwLSP2RT9SGHJMOopakNVA,813
+django_pell-0.0.8.dist-info/LICENSE,sha256=ZGwoxTurf41cZE3YdOxON3mKRJSwdfi_hGhBNQcIvj0,1078
+django_pell-0.0.8.dist-info/METADATA,sha256=C0juY-gBX8E0iEnutzy00BFaB117sn2XnLzMfOdPp2Y,2228
+django_pell-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_pell-0.0.8.dist-info/top_level.txt,sha256=-Dva3yw8OaqdWihEP_zu_8OAH9Su28ixkfZ30dE48f8,12
+django_pell-0.0.8.dist-info/RECORD,,
