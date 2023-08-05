@@ -1,0 +1,8 @@
+fxq/gcp/__init__.py,sha256=jJZqaKkkBklszVGu179QO3RSNfpjYzySZBP3AOjw_84,1315
+fxq/gcp/cloud_func.py,sha256=W32Xo327FCeE7K7iX3sjSTI5V6l6S5YYOdJacUKAoGI,1260
+fxq/gcp/datastore.py,sha256=Cw3cBOP7CUnyyMMDoy09T3EKYcrp2nhZCLlkx6tUU_c,2124
+fxq/gcp/pub_sub.py,sha256=0pj6mJW6Wan3kLgh8h6ldqhwbI22W9iSEUezFIDCVdk,1341
+fxq_gcp_commons-1.1.0.dist-info/METADATA,sha256=uBzn1E9T7dykCitk2dS4hqxCiOhGWtzUaL4JgPpsIFw,2426
+fxq_gcp_commons-1.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fxq_gcp_commons-1.1.0.dist-info/top_level.txt,sha256=-cTqxdMhP0plhGHHKhc9KIsl1Hq5TFFLIXg5PzTKENk,4
+fxq_gcp_commons-1.1.0.dist-info/RECORD,,
