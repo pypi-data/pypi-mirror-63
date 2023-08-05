@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: encoder_decoder
+Version: 0.1.7
+Summary: Functions to encode and decode commonly used data formats to support transmission of data over the web.
+Home-page: https://github.com/UMass-Rescue/encoder_decoder
+Author: Jagath Jai Kumar, Prasanna Lakkur Subramanyam
+Author-email: prasanna.lakkur@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

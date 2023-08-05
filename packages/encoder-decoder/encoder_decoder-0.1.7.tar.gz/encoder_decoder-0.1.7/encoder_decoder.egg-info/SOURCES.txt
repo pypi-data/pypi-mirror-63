@@ -1,0 +1,12 @@
+README.md
+setup.py
+encoder_decoder/__init__.py
+encoder_decoder/default_config.py
+encoder_decoder/dtypes_encode_decode.py
+encoder_decoder/dtypes_extract_wrap.py
+encoder_decoder.egg-info/PKG-INFO
+encoder_decoder.egg-info/SOURCES.txt
+encoder_decoder.egg-info/dependency_links.txt
+encoder_decoder.egg-info/not-zip-safe
+encoder_decoder.egg-info/requires.txt
+encoder_decoder.egg-info/top_level.txt
