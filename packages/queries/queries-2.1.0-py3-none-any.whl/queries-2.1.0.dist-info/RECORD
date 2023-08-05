@@ -1,0 +1,12 @@
+queries/__init__.py,sha256=jnklN0XVLp6Bw7XYE3VRrx4pcm9lYR6cmtoS-rvD-oQ,1822
+queries/pool.py,sha256=MC3i0-GINC7_D8jrdZ2xhj0H6dEkiGqOWVZOePo6ZKM,22022
+queries/results.py,sha256=Tk1-vNeDKfxfMok_FcsoHvITAwHWmz4w6KOwSvfAPFc,3382
+queries/session.py,sha256=bX_UVgwlWFn1W6MdU9q0rZvTho8lVo8yjGwlqwuMH4c,12757
+queries/tornado_session.py,sha256=1Awn4Ym-hGtkh6eZHHD_SI9eSc9qaYzmloEWW6Kpteg,18833
+queries/utils.py,sha256=tSGdO-tczKZRrje7jHSuL2tJs9Yh4tviiitiwPy7Gb8,4217
+queries-2.1.0.dist-info/LICENSE,sha256=VUhpeRvmiUloWY0-rU6lALCVhzEy9eDh47H6YhPa8Cw,1493
+queries-2.1.0.dist-info/METADATA,sha256=3-EBkfmzb8rTYSsnE6Smp9sJ9uc0jXKNHpaFQVsH1cQ,7829
+queries-2.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+queries-2.1.0.dist-info/top_level.txt,sha256=z__pMYjhidTUhhQtUKBBJ4nwm5QJ8S29TpqyQwC7hK4,8
+queries-2.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+queries-2.1.0.dist-info/RECORD,,
