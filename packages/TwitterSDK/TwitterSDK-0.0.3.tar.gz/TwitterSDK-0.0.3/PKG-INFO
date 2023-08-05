@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: TwitterSDK
+Version: 0.0.3
+Summary: A Twitter SDK to help API consume.
+Home-page: https://github.com/user/jessescn
+Author: Jessé Souza
+Author-email: jesse.neto@ccc.ufcg.edu.br
+License: MIT
+Download-URL: https://github.com/jessescn/TwitterSDK/archive/0.0.3.zip
+Description: UNKNOWN
+Keywords: Twitter,API,Python,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
