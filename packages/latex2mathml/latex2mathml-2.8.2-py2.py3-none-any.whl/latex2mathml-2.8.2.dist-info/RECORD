@@ -1,0 +1,13 @@
+latex2mathml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latex2mathml/aggregator.py,sha256=J4ixOdHyEzVrMTPPaY0HBTBuSV00vDIhK8auUYvSAOQ,7452
+latex2mathml/commands.py,sha256=s_GmNYg3f5GXsFNhg2I2Mez8mXJnCfUteHoWGyDTO1k,1290
+latex2mathml/converter.py,sha256=aZ5Gkr2pZEV3reIaEahR55D6LAjk1icEXVpupjWeWrE,7714
+latex2mathml/exceptions.py,sha256=P-o_nBFTYmv9Cq4WwlfdtEA_QqSdwyqP9V5L1no9UiM,369
+latex2mathml/symbols_parser.py,sha256=WSgcS5usIRSiW24sN9SDvpJ7Q52-fCeTnnZstwEri-U,1259
+latex2mathml/tokenizer.py,sha256=jlfFYhDLqdseo24RMwRS1zBWEi-COf1xI2Y-CnuFwZ0,3833
+latex2mathml/unimathsymbols.txt,sha256=2zmZ9q4g3VqZ2odTCZfMFYNG_d2I8fOYHs3XowcULig,215899
+latex2mathml-2.8.2.dist-info/LICENSE,sha256=fdaOhxqpgEKjGHrmGQhh79_jLvs-08n850ftIOIsSRs,1087
+latex2mathml-2.8.2.dist-info/METADATA,sha256=oG8gxgcFSW0Q_QmkXVYoTfJRW1ImntK5-07E5JQVPGM,15027
+latex2mathml-2.8.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+latex2mathml-2.8.2.dist-info/top_level.txt,sha256=ouBmVbSkX5XtaAcC4eBjFwBM9e-7nBq5_A_Bgqb7q10,13
+latex2mathml-2.8.2.dist-info/RECORD,,
