@@ -1,0 +1,12 @@
+pyromorphite/__init__.py,sha256=e49AFP4okfhcG61CP9ekzfm-DoGRit5vPsRGCrvo7sI,472
+pyromorphite/__version__.py,sha256=zPg_x_KdlW8W6yu3-0bp8nHS65OCnKhEzvhCxyGgYuY,897
+pyromorphite/bag.py,sha256=cAqwmQRU_Wqqnx_hxD813foHa_oL8d2nX8XL6a73DNs,8640
+pyromorphite/dfgraph.py,sha256=ENRXwy72YnypCQORHZYDN2CcefNA3S_sLW6EZDNVQcc,2628
+pyromorphite/io.py,sha256=MwEFI6jtuAk-TqgZYIEq1JIoMgGELKiMOT4aa00JEXY,7853
+pyromorphite/skeleton.py,sha256=9JTY3uweTpmiX45TG4wKtH00IZ4SXTUJCVymAhsFzzc,7292
+pyromorphite/utils.py,sha256=fF5a_ilrpj71eUHAxgdVgVDTvbLZRKwJr4vTxAKw3Yc,1391
+pyromorphite-0.0.3.dist-info/LICENSE,sha256=rnIa908GXY7T81-OdP3ewooD_Y5odVXC21DtdBFKqXs,1517
+pyromorphite-0.0.3.dist-info/METADATA,sha256=UiaDCBvh4b6R5wFd5it8GleLvi_Lw9fg_oT-fQbdMug,3466
+pyromorphite-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyromorphite-0.0.3.dist-info/top_level.txt,sha256=rcuveUKrrEzpQt9XWi-QKF1_R8WRv-A9mM-RDD9jS58,13
+pyromorphite-0.0.3.dist-info/RECORD,,
