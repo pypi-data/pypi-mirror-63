@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: mlshell
+Version: 0.0.1
+Summary: Shell around Ml libraries.
+Home-page: https://github.com/nizaevka/mlshell
+Author: nizaevka
+Author-email: nizaevka@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://mlshell.readthedocs.io/
+Project-URL: Source, https://github.com/nizaevka/mlshell
+Project-URL: Tracker, https://github.com/nizaevka/mlshell/issues
+Keywords: ml sklearn
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.1)
+Requires-Dist: editorconfig (==0.12.2)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipython (==7.12.0)
+Requires-Dist: jedi (==0.16.0)
+Requires-Dist: joblib (==0.14.1)
+Requires-Dist: jsbeautifier (==1.10.3)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: lightgbm (==2.3.1)
+Requires-Dist: llvmlite (==0.31.0)
+Requires-Dist: matplotlib (==3.1.3)
+Requires-Dist: numba (==0.48.0)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: parso (==0.6.1)
+Requires-Dist: patsy (==0.5.1)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==3.0.3)
+Requires-Dist: pygments (==2.5.2)
+Requires-Dist: pyparsing (==2.4.6)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: scikit-learn (==0.22.1)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: seaborn (==0.10.0)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: statsmodels (==0.11.1)
+Requires-Dist: tabulate (==0.8.6)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: wcwidth (==0.1.8)
+Requires-Dist: line-profiler (==3.0.2)
+Requires-Dist: memory-profiler (==0.57.0)
+Requires-Dist: xgboost (==1.0.2)
+Requires-Dist: colorama (==0.4.3) ; sys_platform == "win32"
+Provides-Extra: dev
+Requires-Dist: pytest (==5.3.5) ; extra == 'dev'
+Requires-Dist: sphinx (==2.4.3) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+ALPHA UNDERCONSTRUCTED
+<div align="center">
+
+[![Mlshell logo](pictures/mlshell_logo.PNG?raw=true)](https://github.com/nizaevka/mlshell)
+
+**Unified ML framework**
+
+[![Build Status](https://travis-ci.org/nizaevka/mlshell.svg?branch=master)](https://travis-ci.org/nizaevka/mlshell)
+[![PyPi version](https://img.shields.io/pypi/v/mlshell.svg)](https://pypi.org/project/mlshell/)
+[![PyPI Status](https://pepy.tech/badge/mlshell)](https://pepy.tech/project/mlshell)
+[![Docs](https://readthedocs.org/projects/mlshell/badge/?version=latest)](https://mlshell.readthedocs.io/en/latest/)
+[![Telegram](https://img.shields.io/badge/channel-on%20telegram-blue)](https://t.me/nizaevka)
+
+</div>
+
+**MLshell** is a framework for ML research and development:
+- Fast and simple pipeline prototyping and parameters tuning.
+- Unified ml pipeline.
+- Stable CV scheme.
+- Production ready.
+- One conf file rule all.
+- Simple result analyse.
+- Unified plots.
+- Common EDA techniques.
+- Pure python.
+
+[![Workflow](docs/source/_static/images/workflow.JPG?raw=true)]()
+
+For details, please refer to
+ [Concepts](https://mlshell.readthedocs.io/en/latest/Concepts.html>).
+
+--
+
+## Installation
+
+#### PyPi [![PyPi version](https://img.shields.io/pypi/v/mlshell.svg)](https://pypi.org/project/mlshell/) [![PyPI Status](https://pepy.tech/badge/mlshell)](https://pepy.tech/project/mlshell)
+
+```bash
+pip install -U mlshell
+```
+
+<details>
+<summary>Specific versions with additional requirements</summary>
+<p>
+
+```bash
+pip install catalyst[dev]        # installs dependencies for development
+```
+</p>
+</details>
+
+#### Docker [![Docker Pulls](https://img.shields.io/docker/pulls/nizaevka/mlshell)](https://hub.docker.com/r/nizaevka/mlshell/tags)
+
+```bash
+docker run -it nizaevka/mlshell
+```
+
+MLshell is compatible with: Python 3.6+.
+
+
+## Getting started
+
+```python
+import mlshell
+```
+see Docs for details ;)
+
+## Docs and examples
+An overview and API documentation can be found here
+[![Docs](https://readthedocs.org/projects/mlshell/badge/?version=latest)](https://readthedocs.org/mlshell/en/latest/?badge=latest)
+
+Check **[examples folder](examples)** of the repository:
+- For regression example please follow [Allstate claims severity](examples/regression).
+- For classification example please follow [IEEE-CIS Fraud Detection](examples/classification).
+
+## Contribution guide
+
+We appreciate all contributions.
+If you are planning to contribute back bug-fixes,
+please do so without any further discussion.
+If you plan to contribute new features, utility functions or extensions,
+please first open an issue and discuss the feature with us.
+
+- Please see the [contribution guide](CONTRIBUTING.md) for more information.
+- By participating in this project, you agree to abide by its [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+This project is licensed under the Apache License, Version 2.0 see the [LICENSE](LICENSE) file for details
+[![License](https://img.shields.io/github/license/nizaevka/mlshell.svg)](LICENSE)
+
