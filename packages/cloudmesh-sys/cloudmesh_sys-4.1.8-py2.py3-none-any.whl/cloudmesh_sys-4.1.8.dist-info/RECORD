@@ -1,0 +1,12 @@
+cloudmesh_sys-4.1.8-py3.8-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/sys/__init__.py,sha256=bGxmGdVFYZv8PuDr0UJqlJERNOk4M3KKkt8Tk_zl-Vw,50
+cloudmesh/sys/__version__.py,sha256=yYu49SSR-pOYUgM8ZWsj_hpV8Jh3z8CUa8PCOJ4HmU0,18
+cloudmesh/sys/manage.py,sha256=uZG6TnvRcvTuis-pHnwgQ6S68oOJ1SVXhgJao2V7GZ8,6162
+cloudmesh/sys/command/__init__.py,sha256=p_to_lYt0LxUMr-P0ApogjLk6vxzt3VYgQV_8c83Eag,36
+cloudmesh/sys/command/sys.py,sha256=IN7jEoQAu4agKjOIcTwmPypOm6QQo9xDDSMQv4GEU9E,3536
+cloudmesh_sys-4.1.8.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_sys-4.1.8.dist-info/METADATA,sha256=qRkw232M0wPr19xORJp3CoM9lBi_-BvQNWJ4ItJ2V1E,1057
+cloudmesh_sys-4.1.8.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_sys-4.1.8.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_sys-4.1.8.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_sys-4.1.8.dist-info/RECORD,,
