@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+qpubsub/__init__.py
+qpubsub/qonfigs.py
+qpubsub/qpubsub.py
+qpubsub/version.py
+qpubsub.egg-info/PKG-INFO
+qpubsub.egg-info/SOURCES.txt
+qpubsub.egg-info/dependency_links.txt
+qpubsub.egg-info/requires.txt
+qpubsub.egg-info/top_level.txt
