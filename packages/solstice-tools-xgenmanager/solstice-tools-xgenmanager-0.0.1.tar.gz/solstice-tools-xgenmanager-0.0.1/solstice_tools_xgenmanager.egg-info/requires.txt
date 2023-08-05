@@ -1,0 +1,10 @@
+Qt.py
+tpDccLib
+artellapipe
+artellapipe-libs-artella
+
+[dev]
+wheel
+
+[test]
+pytest
