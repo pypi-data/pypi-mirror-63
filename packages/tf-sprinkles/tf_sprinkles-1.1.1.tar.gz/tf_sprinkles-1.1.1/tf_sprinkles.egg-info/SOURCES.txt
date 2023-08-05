@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+test/test_spinkles.py
+tf_sprinkles/__init__.py
+tf_sprinkles/_version.py
+tf_sprinkles/sprinkles.py
+tf_sprinkles.egg-info/PKG-INFO
+tf_sprinkles.egg-info/SOURCES.txt
+tf_sprinkles.egg-info/dependency_links.txt
+tf_sprinkles.egg-info/requires.txt
+tf_sprinkles.egg-info/top_level.txt
