@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+protectedbookmarks-mf/__init__.py
+protectedbookmarks_mf.egg-info/PKG-INFO
+protectedbookmarks_mf.egg-info/SOURCES.txt
+protectedbookmarks_mf.egg-info/dependency_links.txt
+protectedbookmarks_mf.egg-info/top_level.txt

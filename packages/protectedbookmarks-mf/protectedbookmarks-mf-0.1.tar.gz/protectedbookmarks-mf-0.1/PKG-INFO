@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: protectedbookmarks-mf
+Version: 0.1
+Summary: A utility to save your bookmarks in your own pc, with password and encryptation.
+Home-page: https://github.com/RDCH106/mypackage
+Author: Matias Fanger
+Author-email: matiasfanger@outlook.com
+License: GNU
+Download-URL: https://github.com/RDCH106/parallel_foreach_submodule/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: bookmarks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
