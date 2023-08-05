@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qualityforward
+Version: 1.0
+Summary: Python library for QualityForward API
+Home-page: https://cloud.veriserve.co.jp/
+Author: Atsushi Nakatsugawa
+Author-email: atsushi@moongift.jp
+License: UNKNOWN
+Description: This is python library for QualityForward API. QualityForward is cloud based test management service.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
