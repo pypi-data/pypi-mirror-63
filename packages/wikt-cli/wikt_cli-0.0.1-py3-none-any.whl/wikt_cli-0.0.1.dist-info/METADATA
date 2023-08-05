@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wikt-cli
+Version: 0.0.1
+Summary: An English Wiktionary frontend for CLI.
+Home-page: UNKNOWN
+Author: fakefred
+Author-email: fakefred@protonmail.ch
+License: MIT
+Project-URL: LiberaPay, https://liberapay.com/fakefred/donate
+Keywords: wiktionary dictionary cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Requires-Dist: wiktionaryparser
+
+UNKNOWN
+
+
