@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: code-timer
+Version: 1.1.1
+Summary: Custom timer for your Python coding pleasure
+Home-page: https://github.com/StephenGemin/code_timer
+Author: Stephen Gemin
+Author-email: s.gemin88@gmail.com
+License: MIT License
+Download-URL: https://github.com/StephenGemin/code_timer/archive/1.1.1.tar.gz
+Description: # code_timer
+        Simple python timer to use for single lines of code, or entire functions/classes
+        
+        [![Latest version](https://img.shields.io/pypi/v/code_timer.svg)](https://pypi.org/project/code_timer/)
+        [![Python versions](https://img.shields.io/pypi/pyversions/code_timer.svg)](https://pypi.org/project/code_timer/)
+        [![CircleCI](https://circleci.com/gh/StephenGemin/code_timer.svg?style=shield)](https:https://app.circleci.com/pipelines/github/StephenGemin/code_timer)
+        
+        # New Features!
+        
+          - codetimer logger allowing you to set the streaming level or hide the logging entirely
+          - Ability to use `code_timer.Timer` as a class, context manager, decorator
+          - Ability to use separate `code_timer.timer` decorator
+        
+        
+        ## Basic Usage
+        
+        You can use `code_timer.Timer` in several different ways:
+        
+        1. As a **class**:
+        
+            ```python
+            t = Timer(name="class")
+            t.start()
+            # Do something
+            t.stop()
+            ```
+        
+        2. As a **context manager**:
+        
+            ```python
+            with Timer(name="context manager"):
+                # Do something
+            ```
+        
+        3. As a **decorator**:
+        
+            ```python
+            @Timer(name="decorator")
+            def stuff():
+                # Do something
+            ```
+            
+        You can also use the function defined decorator `code_timer.timer`.
+        
+        1. Without braces
+        
+            ```python
+            @timer
+            def your_func():
+                # Do something
+            ```
+            
+        2. With braces
+         
+            ```python
+            @timer(name="my_timer")
+            def your_func():
+                # Do something
+            ```
+        
+Keywords: decorator,decorators,code timer,timing,code timing,context manager,profiling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
