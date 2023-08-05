@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: wibblywobbly
+Version: 0.1
+Summary: Python library to create equivalence dictionaries between a set of texts and a catalog using FuzzyWuzzy. 
+Home-page: UNKNOWN
+Author: ME Martinez-Sanchez
+Author-email: mar.esther23@gmail.com
+License: MIT
+Download-URL: https://github.com/mar-esther23/WibblyWobbly/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: fuzzy matching,catalog,data cleaning,fuzzywuzzy
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
