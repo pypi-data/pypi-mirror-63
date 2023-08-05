@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: Flask-DJ
+Version: 0.1.1
+Summary: Django (mvc) structure for your Flask project.
+Home-page: https://github.com/AlexandrovRoman/Flask-DJ
+Author: Alexandrov Roman
+Author-email: flask-dj.feedback@yandex.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/AlexandrovRoman/Flask-DJ
+Project-URL: Docs, https://flask-dj.readthedocs.io/en/latest/
+Description: # Flask-DJ
+         
+         Since the flask has no strict project architecture, <br>
+         it is easy for beginners to get confused when creating an application.<br>
+         This library was created to help everyone who wants to create a small application.<br>
+         
+         ## Quick start
+         ### Install:
+         pip install Flask-DJ
+         ### Start app:
+        
+         ```python
+        from Flask_DJ import ProjectConstructor
+        from os import getcwd
+        
+        your_project_name = 'app'
+        ProjectConstructor(your_project_name, getcwd()).startproject()
+        ```
+         ### New app:
+         
+           ```shell script
+         python manage.py startapp {app_name}
+        ```
+        
+        ### Start server:
+        
+        ```shell script
+         python manage.py runserver
+        ```
+         
+         ## Useful links:
+         pypi: https://pypi.org/project/Flask-DJ/<br>
+         full docs: https://flask-dj.readthedocs.io/en/latest/
+        
+Keywords: mvc django flask structure
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
