@@ -1,0 +1,12 @@
+pytorch_lightning_applications/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+pytorch_lightning_applications/_nbdev.py,sha256=WPEX1n4RcydWYoJO5vBASiVtDgK6UZxpsHmq8TuXqh8,489
+pytorch_lightning_applications/core.py,sha256=QXGu2CsJFUjWoZkCKVjhV97zcYUIOT_N54mt53EALng,199
+pytorch_lightning_applications/experimental.py,sha256=F2KZkyuBqjnl0XDu7uO0B9KkOs4go-OUpaZUO_eyBEQ,207
+pytorch_lightning_applications/template.py,sha256=50TFR5t1NpYd0S9ooC7PnKdHV491K0UfivfRozQRNCw,271
+pytorch_lightning_applications/utils.py,sha256=e0twG9fatZtCRY8MctU5yFmp9KGoJ7ADLEWxkSjIQ4w,200
+pytorch_applications-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytorch_applications-0.0.2.dist-info/METADATA,sha256=BzW5ZaT-tGGjgbvZtC7Ofz08JCCoYlPtGMsSvH3FAr8,1461
+pytorch_applications-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytorch_applications-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pytorch_applications-0.0.2.dist-info/top_level.txt,sha256=yHT9073IHgKh72Fey-qsZ9OiXQJC1J4DeyHqBmcJFwM,31
+pytorch_applications-0.0.2.dist-info/RECORD,,
