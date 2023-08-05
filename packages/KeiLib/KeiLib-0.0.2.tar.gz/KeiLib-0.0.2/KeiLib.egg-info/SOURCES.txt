@@ -1,0 +1,13 @@
+README.md
+setup.py
+KeiLib/__init__.py
+KeiLib/args.py
+KeiLib/config.py
+KeiLib/wrapper.py
+KeiLib.egg-info/PKG-INFO
+KeiLib.egg-info/SOURCES.txt
+KeiLib.egg-info/dependency_links.txt
+KeiLib.egg-info/top_level.txt
+KeiLib/users_manager/__init__.py
+KeiLib/users_manager/campus_users.py
+KeiLib/users_manager/student_details.py
