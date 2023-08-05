@@ -1,0 +1,9 @@
+include __init__.py
+include requirements.txt
+include cloudmesh/__init__.py
+include cloudmesh/cmsd/etc/Dockerfile
+include cloudmesh/cmsd/etc/init.sh
+recursive-include cloudmesh Dockerfile
+recursive-include cloudmesh init.sh
+exclude .gitignore
+exclude .gitreview
