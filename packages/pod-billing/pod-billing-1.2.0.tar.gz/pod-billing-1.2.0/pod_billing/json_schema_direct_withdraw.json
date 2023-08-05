@@ -1,0 +1,157 @@
+{
+  "defineDirectWithdraw": {
+    "type": "object",
+    "properties": {
+      "username": {
+        "type": "string",
+        "title": "نام کاربری",
+        "description": "نام کاربری دریافتی مبتنی بر حساب مبدا اعلام شده"
+      },
+      "privateKey": {
+        "type": "string"
+      },
+      "depositNumber": {
+        "type": "string"
+      },
+      "onDemand": {
+        "type": "boolean"
+      },
+      "minAmount": {
+        "type": "number"
+      },
+      "maxAmount": {
+        "type": "number"
+      },
+      "wallet": {
+        "type": "string"
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "username",
+      "privateKey",
+      "depositNumber",
+      "onDemand",
+      "minAmount",
+      "maxAmount",
+      "wallet"
+    ]
+  },
+  "directWithdrawList": {
+    "type": "object",
+    "properties": {
+      "wallet": {
+        "type": "string"
+      },
+      "offset": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "size": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "offset",
+      "size"
+    ]
+  },
+  "updateDirectWithdraw": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "username": {
+        "type": "string"
+      },
+      "privateKey": {
+        "type": "string"
+      },
+      "depositNumber": {
+        "type": "string"
+      },
+      "onDemand": {
+        "type": "boolean"
+      },
+      "minAmount": {
+        "type": "number"
+      },
+      "maxAmount": {
+        "type": "number"
+      },
+      "wallet": {
+        "type": "string"
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "id",
+      "username",
+      "privateKey",
+      "depositNumber",
+      "onDemand",
+      "minAmount",
+      "maxAmount",
+      "wallet"
+    ]
+  },
+  "revokeDirectWithdraw": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "id"
+    ]
+  }
+}

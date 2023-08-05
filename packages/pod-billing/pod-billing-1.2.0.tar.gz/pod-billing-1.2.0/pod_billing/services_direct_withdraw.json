@@ -1,0 +1,38 @@
+{
+  "post_nzh_biz_defineDirectWithdraw": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29982,
+      "sandbox": 39368
+    }
+  },
+  "post_nzh_biz_directWithdrawList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29983,
+      "sandbox": 39369
+    }
+  },
+  "post_nzh_biz_updateDirectWithdraw": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29984,
+      "sandbox": 39370
+    }
+  },
+  "post_nzh_biz_revokeDirectWithdraw": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29985,
+      "sandbox": 39371
+    }
+  }
+}
