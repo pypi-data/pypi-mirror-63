@@ -1,0 +1,8 @@
+cython
+numpy
+pandas
+matplotlib
+pystan
+fbprophet
+redis
+red-panda
