@@ -1,0 +1,11 @@
+enclosed/__init__.py,sha256=kmhQeC3o6XGocgsgBk1BrlrwIFE4aDraorirIyyhVHg,140
+enclosed/_version.py,sha256=F4B9Fe8mAUu2s8mI-1nsBvkUE42dtWZe_qN5nEBzTMs,18474
+enclosed/parser.py,sha256=Ao06J3aQpShKHX-LZQTrZ1j00HzfRaKKGYnndI4gPyE,1942
+enclosed/test_parser_fail.py,sha256=hAgrBplnuVRWsqMRTzpvLNF6cyxIl8LWVrAgJPyCjOg,509
+enclosed/test_parser_success.py,sha256=gKKLC-doTZqjQQG0g7oeNDUV0arOCEtY6R4CsqzQON8,1154
+enclosed-0.0.1.dist-info/LICENSE,sha256=d32mQobgSguVXO7hS4yE31whTljnXUC4DLzlmSoXOCs,1072
+enclosed-0.0.1.dist-info/METADATA,sha256=GVa51Fa_sD_ubOaYQ1Tj0AGbrrISzJQzTqikjgUF15c,695
+enclosed-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+enclosed-0.0.1.dist-info/entry_points.txt,sha256=jyR_SyMP7u7SprkOjYFtTkY1e6qGVcm9F0KZ9E5VhTE,53
+enclosed-0.0.1.dist-info/top_level.txt,sha256=tfp60r1m1El-BD3ZNAOMuuF_hTqNv7_v8B-HAalhTzY,9
+enclosed-0.0.1.dist-info/RECORD,,
