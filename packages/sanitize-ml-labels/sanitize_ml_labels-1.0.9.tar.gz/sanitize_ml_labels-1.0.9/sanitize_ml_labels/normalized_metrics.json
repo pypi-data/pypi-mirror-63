@@ -1,0 +1,8 @@
+[
+    "Accuracy",
+    "AUROC",
+    "AUPRC",
+    "Precision",
+    "Recall",
+    "Categorical accuracy"
+]
