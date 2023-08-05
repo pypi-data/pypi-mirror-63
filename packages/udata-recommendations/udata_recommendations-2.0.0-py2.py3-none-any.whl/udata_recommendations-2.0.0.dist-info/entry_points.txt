@@ -1,0 +1,6 @@
+[udata.commands]
+recommendations = udata_recommendations.commands:recommendations
+
+[udata.views]
+recommendations = udata_recommendations.views
+
