@@ -1,0 +1,9 @@
+gubbe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gubbe/gubbe.py,sha256=Cdpuf-Ub2x9dpWcEKoPpA978vc-R1hvxJNFuyOO5Yiw,1834
+gubbe/version.py,sha256=Ke519DER4LFEsic3QtKFTT17Bu-TIhEBlrdj5urKydI,833
+gubbe-0.0.0.dev0.dist-info/LICENSE,sha256=eWl-54ptNfSseKc77kk4rGKYUIZ9ZvCC1oXEj0y6tnk,1070
+gubbe-0.0.0.dev0.dist-info/METADATA,sha256=8KzmNagiqsOc1lpRTOb22LAjmhee-STSnDh039dbP8M,874
+gubbe-0.0.0.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gubbe-0.0.0.dev0.dist-info/entry_points.txt,sha256=PfzzfRcReEtCHJ2dMYf-E8jNo7Tm7qy8cWqmRLvTDrA,44
+gubbe-0.0.0.dev0.dist-info/top_level.txt,sha256=TZ8DMgeuO4XGbTGKCs33fv796iE-udF-cHkATJeokNI,6
+gubbe-0.0.0.dev0.dist-info/RECORD,,
