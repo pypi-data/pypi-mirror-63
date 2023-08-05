@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: foggleio
+Version: 1.6
+Summary: Continuous deployment has never been easy but with the help of Foggle.io you can be one step closer
+Home-page: http://foggle.io/
+Author: Barend Erasmus
+Author-email: hirebarend@gmail.com
+License: MIT
+Description: # foggle-io
+        
+        Continuous deployment has never been easy but with the help of Foggle.io you can be one step closer
+        
+        ## Installing
+        
+        Using npm:
+        
+        ```bash
+        $ pip install foggleio
+        ```
+        
+        ## Usage
+        
+        ```python
+        import foggleio
+        
+        foggleio.enabled('<--TENANT-ID-->', '<--FEATURE-TOGGLE-KEY-->', '<--ENVIRONMENT-->', 'my-consumer')
+        ```
+        
+        ## License
+        
+        [MIT](LICENSE)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
