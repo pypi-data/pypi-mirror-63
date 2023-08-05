@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ml_applications.egg-info/PKG-INFO
+ml_applications.egg-info/SOURCES.txt
+ml_applications.egg-info/dependency_links.txt
+ml_applications.egg-info/entry_points.txt
+ml_applications.egg-info/not-zip-safe
+ml_applications.egg-info/top_level.txt
