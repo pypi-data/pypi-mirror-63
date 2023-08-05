@@ -1,0 +1,11 @@
+ssu_timetable/__init__.py,sha256=SZYxdkXzYoOOopNviikVBOoAeeXyZnTAwe02yCBd7vo,182
+ssu_timetable/browser.py,sha256=1NY4X-YuftgaWW2-SNUaQlNm8U8wqqmV9bIrrkRohYk,2613
+ssu_timetable/config.py,sha256=aZrbNzBlRGFRdn2PQf47zuj5dQlKSIvYxdOtisBGlG8,125
+ssu_timetable/event_generator.py,sha256=KPkUsZhrOqijoii8VIpoP4IRFVhXXKvDqpoxTsfuIZs,3013
+ssu_timetable/parser.py,sha256=sKlRaXEUWqmkqXI_HfxIZhYzn1uI1YtAcJ13eetUSnY,10343
+ssu_timetable/sanitizer.py,sha256=KcpY7BL4IAIJ_6dNltafIzVmtpCEnzhHJ-9UPA0UXD4,1255
+ssu_timetable-0.0.1.dist-info/LICENSE,sha256=_xwRWagv7qjf5am3rkf3NSpopj-VzMEauxC0DXvmDHw,1066
+ssu_timetable-0.0.1.dist-info/METADATA,sha256=vGfqqSuHnwH_mzz5GUkzGS_1tKcDtdAcKcvCUm5eHGQ,1189
+ssu_timetable-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ssu_timetable-0.0.1.dist-info/top_level.txt,sha256=h3yPVwxkkAARvTdm34pUdXen8NZD4hDNNtVoDXSqcuM,14
+ssu_timetable-0.0.1.dist-info/RECORD,,
