@@ -1,0 +1,9 @@
+README.md
+setup.py
+pandasvault/__init__.py
+pandasvault.egg-info/PKG-INFO
+pandasvault.egg-info/SOURCES.txt
+pandasvault.egg-info/dependency_links.txt
+pandasvault.egg-info/not-zip-safe
+pandasvault.egg-info/requires.txt
+pandasvault.egg-info/top_level.txt
