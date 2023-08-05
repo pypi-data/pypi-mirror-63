@@ -1,0 +1,10 @@
+matplotlib
+pandas
+numpy
+simpy
+scipy
+sphinx_rtd_theme
+
+[testing]
+pytest
+pytest-cov
