@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bing-commerce-search
+Version: 1.0.0
+Summary: Microsoft Bing for Commerce ingestion SDK for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python
+Author: Microsoft Corporation
+Author-email: opencommerce@microsoft.com
+Maintainer: Microsoft
+Maintainer-email: opencommerce@microsoft.com
+License: MIT License
+Description: 
+        # Bing for Commerce Search Python SDK
+        
+        This contains the generated SDKs that can help developers integrate with Bing for Commerce search APIs.
+        
+        For help, or more details about the project, please refer to:
+        
+        * [Bing for Commerce Python SDK github repository](https://github.com/microsoft/bing-commerce-sdk-for-python)
+        * [Bing for Commerce central repository](https://github.com/microsoft/bing-commerce)
+        * [Bing for Commerce API Documentation](https://commerce.bing.com/docs/product-search/)
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
