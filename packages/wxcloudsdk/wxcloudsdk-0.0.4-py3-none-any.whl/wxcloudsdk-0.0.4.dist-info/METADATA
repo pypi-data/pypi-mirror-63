@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wxcloudsdk
+Version: 0.0.4
+Summary: Wechat miniprogram http api tools
+Home-page: UNKNOWN
+Author: typingcat
+Author-email: liuchunyao0321@gmail.com
+License: MIT License
+Keywords: wechat miniprogram http sdk api
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+README.md
+
+
