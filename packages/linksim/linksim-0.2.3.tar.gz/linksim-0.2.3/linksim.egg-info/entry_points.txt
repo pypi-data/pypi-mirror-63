@@ -1,0 +1,3 @@
+[console_scripts]
+linksim = linksim_src.cmd:main
+
