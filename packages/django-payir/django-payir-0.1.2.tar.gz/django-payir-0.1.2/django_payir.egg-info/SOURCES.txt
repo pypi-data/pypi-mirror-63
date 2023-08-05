@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_payir.egg-info/PKG-INFO
+django_payir.egg-info/SOURCES.txt
+django_payir.egg-info/dependency_links.txt
+django_payir.egg-info/requires.txt
+django_payir.egg-info/top_level.txt
+payir/__init__.py
+payir/admin.py
+payir/apps.py
+payir/exceptions.py
+payir/models.py
+payir/locale/fa_IR/LC_MESSAGES/django.mo
