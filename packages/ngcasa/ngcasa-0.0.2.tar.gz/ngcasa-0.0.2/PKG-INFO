@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ngcasa
+Version: 0.0.2
+Summary: Next Generation CASA
+Home-page: https://github.com/casangi/ngcasa
+Author: National Radio Astronomy Observatory
+Author-email: casa-feedback@nrao.edu
+License: Apache-2.0
+Description: # ngCASA
+        next generation CASA based on CNGI infrastructure
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
