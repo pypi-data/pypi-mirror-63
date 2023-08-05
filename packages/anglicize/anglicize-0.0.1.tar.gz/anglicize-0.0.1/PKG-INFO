@@ -1,0 +1,139 @@
+Metadata-Version: 1.2
+Name: anglicize
+Version: 0.0.1
+Summary: A simple package to help sort non-English names.
+Home-page: https://github.com/rciorba/python-anglicize
+Author: Radu Ciorba
+Author-email: radu@devrandom.ro
+License: BSD-2-Clause
+Project-URL: Issue Tracker, https://github.com/rciorba/python-anglicize/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        A simple package to help sort non-English names.
+        
+        * Free software: BSD 2-Clause License
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install anglicize
+        
+        You can also install the in-development version with::
+        
+            pip install https://github.com/rciorba/python-anglicize/archive/master.zip
+        
+        
+        Documentation
+        =============
+        
+        This library provides one function, which takes a string and substitutes characters.
+        
+        To use::
+        
+            # call the function directly:
+            anglicize("Łukasz") == "Lukasz"
+        
+            # or use it to sort a list:
+            sorted(["Luke", "Łukasz", "Zan"], key=anglicize) == ["Luke", "Łukasz", "Zan"]
+        
+            # there we go, that's much better than this:
+            sorted(["Ana", "Łukasz", "Zack"]) == ["Ana"", "Zack", "Łukasz]
+        
+        Rationale
+        =========
+        
+        The purpose of this library is to help you sort non-English names writen in latin-based alphabets.
+        
+        Different languages have wildly different rules for sorting, for example ``Å`` comes after ``Z`` in
+        Finnish but after ``A`` in Norwegian. The approach taken here is to treat visually similar letters
+        the same, so basically ``ÅÄĂÂ`` (and others) should all become ``A``.
+        
+        Handling letters that have little similarity to A-Z
+        ===================================================
+        
+        The German ß is the main issue here. I chose to handle it like an S, mostly because it's different
+        enough from B (the most similar visually) and because it's well known as a version of S to most
+        Europeans.
+        
+        Languages covered
+        =================
+        
+        - Albanian
+        - Azerbaijani
+        - Bosnian
+        - Bulgarian transliteration
+        - Croatian
+        - Dutch
+        - Estonian
+        - Finnish
+        - French
+        - Gagauz
+        - German
+        - Hungarian
+        - Icelandic
+        - Latvian
+        - Lithuanian
+        - Luxembourgish
+        - Montenegrin
+        - Norwegian
+        - Polish
+        - Portuguese
+        - Romanian
+        - Serbian
+        - Spanish
+        - Swedish
+        - Tatar
+        - Turkish
+        - Turkmen
+        
+        
+        Contributing
+        ============
+        
+        Do you know a language written in a latin alphabet and want to check it's correctly handled? Have a
+        look in ``tests/test_anglicize.py``. If the language is there please check all "special" letters are
+        handled. This list has been mostly compiled off of Wikipedia, so I would not be surprised to hear about.
+        
+        You can either make the changes and submit a PR or just create an issue mentioning
+        - language
+        - characters which need handling
+        
+        Development
+        ===========
+        
+        To run tests for all python environments run::
+        
+            tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2020-03-07)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
