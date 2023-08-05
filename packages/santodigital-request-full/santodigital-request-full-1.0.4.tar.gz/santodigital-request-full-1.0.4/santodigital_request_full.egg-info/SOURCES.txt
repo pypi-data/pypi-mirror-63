@@ -1,0 +1,9 @@
+setup.py
+santodigital_request_full/__init__.py
+santodigital_request_full/conftest.py
+santodigital_request_full.egg-info/PKG-INFO
+santodigital_request_full.egg-info/SOURCES.txt
+santodigital_request_full.egg-info/dependency_links.txt
+santodigital_request_full.egg-info/top_level.txt
+santodigital_request_full/validator/UrlValidator.py
+santodigital_request_full/validator/__init__.py
