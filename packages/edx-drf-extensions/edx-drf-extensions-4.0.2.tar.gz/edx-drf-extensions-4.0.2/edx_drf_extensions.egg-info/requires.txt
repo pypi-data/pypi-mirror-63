@@ -1,0 +1,12 @@
+djangorestframework>=3.2.0
+six
+django-waffle
+python-dateutil>=2.0
+pyjwkest
+Django>=1.11
+requests>=2.7.0
+semantic_version
+edx-django-utils
+drf-jwt
+edx-opaque-keys
+rest-condition>=1.0.3
