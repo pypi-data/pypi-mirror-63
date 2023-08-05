@@ -1,0 +1,11 @@
+amazon_kinesis_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amazon_kinesis_utils/baikonur_logging.py,sha256=V7GTamdMArJxGHMuAqfKPjGODvLSTifQ5IsZZF5Riwg,3471
+amazon_kinesis_utils/kinesis.py,sha256=zLBe8AJRgq0fOOUc7ioHO8VEEr2XeMb6Y_F_O2x5Ixk,7618
+amazon_kinesis_utils/misc.py,sha256=4Ut7Q7vlYI1tm1dYTgj6Z9BvD1ml8ZP_DNHVYskyk7Y,1223
+amazon_kinesis_utils/s3.py,sha256=WEm6pHk8-0FNGwg5ZfIasW_gjxHK34b88pu-NGVcn2Y,858
+amazon_kinesis_utils-0.1.7.dist-info/LICENSE,sha256=83_w6qZ81TjS-sDlho5BK9F5c9MmHsj_foEW3GnqtpU,1073
+amazon_kinesis_utils-0.1.7.dist-info/METADATA,sha256=YHXrdZNmhnVIv7dqeQcCYE_oJJg2gl2WiJ1DvavFYNU,2956
+amazon_kinesis_utils-0.1.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+amazon_kinesis_utils-0.1.7.dist-info/top_level.txt,sha256=4uPmQGL64bqaXSvqpbkouB28YI-1YYq_PS8W8U83uks,21
+amazon_kinesis_utils-0.1.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+amazon_kinesis_utils-0.1.7.dist-info/RECORD,,
