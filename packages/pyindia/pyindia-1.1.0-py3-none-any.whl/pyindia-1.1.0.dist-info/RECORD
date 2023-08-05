@@ -1,0 +1,15 @@
+india/__init__.py,sha256=Y3ipmbVGh_axHQOuTaEGbWoq8_Lb7CRU4tK9RStpVGM,295
+india/cities.py,sha256=wDSLeO49OqsJBgHOYHi_4xkIcZkMeA4h85se5FfCBGM,3463
+india/config.py,sha256=yBUGdGSbT8R7bT94Kx4PCWSTmUMN8GPrpaIYxpXCUvg,1817
+india/states.py,sha256=8UhPgHNnfbpHyhUYVdZeUEa26P14vfAW6_iig7vS2us,4984
+india/towns.py,sha256=HjKRXSA4WcLaCyNJyqVaEZoPT_9UoXFbPsBx22RtP7M,901
+india/utils.py,sha256=PpEodytI4iAOBD7PurIz949LmF5hxS1iPI0D_97dUhI,536
+india/data/cities.csv,sha256=GMSRsleraID5UIBmxIs03yV5PlX3TAv6_Y__WMl7Y_g,50867
+india/data/states.csv,sha256=-96feA5l6oU0Nlxi7mDJD9YiUltzauAB-7B49bzqyaQ,1282
+india/data/towns.csv,sha256=PGxWyQF9Ov9_z_SFkF6H8zsaZAV7GV9n7Vh-4BG6uWA,536793
+india/data/ut.csv,sha256=fjV2Gasn60fWDwnJdMG-fk_POvIm2bkv1GVxIemfk4U,318
+pyindia-1.1.0.dist-info/LICENSE,sha256=zEf5wABf_gfkbJijLCuy-cXA9ss3rXPMC8nfTXMcn0g,1070
+pyindia-1.1.0.dist-info/METADATA,sha256=5tKzKyA_2l_3cJNAloyB6L17aYxHQf_mkJqqeu_U0Jc,2336
+pyindia-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyindia-1.1.0.dist-info/top_level.txt,sha256=eaPwNOfQaA7cgZL3nZmj91V-S6Y7DjevTzATnXQzJ24,6
+pyindia-1.1.0.dist-info/RECORD,,
