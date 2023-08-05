@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sciplotlib
+Version: 0.0.1
+Summary: Custom functions to improve the look of matplotlib plots for scientific visualisation.
+Home-page: https://github.com/Timothysit
+Author: Timothy Sit
+Author-email: sitpakhang@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
