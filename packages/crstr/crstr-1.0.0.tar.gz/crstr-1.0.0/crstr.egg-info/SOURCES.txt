@@ -1,0 +1,8 @@
+README.md
+setup.py
+crstr/__init__.py
+crstr/__main__.py
+crstr.egg-info/PKG-INFO
+crstr.egg-info/SOURCES.txt
+crstr.egg-info/dependency_links.txt
+crstr.egg-info/top_level.txt

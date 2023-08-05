@@ -1,0 +1,62 @@
+# crstr
+shell wrapper for [rstr](https://pypi.org/project/rstr/)
+
+## installation
+```
+pip install crstr
+```
+
+## usage
+### Simple usage
+Gennerate a string of random length between 1-255
+```
+python -m crstr -c <--CHARSET-->
+# e.g. 
+# python -m crstr -c 'abcdefg'
+```
+### Advanced usage
+The extra options are actually pre-defined charsets
+```
+python -m crstr [-h] [--version] [-l strlength]
+                [-B | -x | -X | -o | -b | -d | -a | -A | --lower-case | -w | --lower-word | --upper-word | -c charset]
+                [-v | -p | -r regex]
+
+  -l strlength, --length strlength
+                        The length of the output string
+  -B, --64, --base64    use base64 charset
+  -x, --16, --hexadecimal
+                        use lower-case hexadecimal charset
+  -X, --16U, --HEXADECIMAL
+                        use upper-case hexadecimal charset
+  -o, --8, --octal      use octal charset
+  -b, --2, --binary     use binary charset
+  -d, --10, --decimal   use decimal charset
+  -a, --alpha           use alphabet (both upper-case & lower-case) charset
+  -A, --ALPHA           use upper-case alphabet charset
+  --lower-case          use lower-case alphabet charset
+  -w, --word            use word charset (alphabet & number)
+  --lower-word          use lower-case word charset
+  --upper-word          use upper-case word charset
+  -c charset, --charset charset
+                        use customized charset
+  -v, --variable        generate python variable-name-allowed string
+  -p, --package         generate common package-name-styled string
+  -r regex, --regex regex
+                        use customized regex
+```
+You can give this command an alias to simplify the it:   
+Add the following line to you bashrc  
+> Usually `~/.bashrc` (current user) or `/etc/bashrc` (global); if you use Git 
+For Windows, it's `/etc/bash.bashrc`
+```
+alias crstr='python -m crstr'
+```
+Then you can use the command
+```
+crstr [options]
+```
+
+## CAUTIONS
+1. An error would occur when attempting to generate a random string longer than 
+101 characters using regex, this is a known bug of `rstr` which is the core 
+library of this program
