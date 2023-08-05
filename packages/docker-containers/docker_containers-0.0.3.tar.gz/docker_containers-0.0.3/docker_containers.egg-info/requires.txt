@@ -1,0 +1,5 @@
+pytest
+crayons<1,>=0.3.0
+blindspin<3,>=2.0.1
+docker<5,>=4.2.0
+asyncpg<1,>=0.19.0
