@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pmdatapipelineslight
+Version: 0.0.2
+Summary: Lightweight version of data pipeline library for Polaris Media
+Home-page: UNKNOWN
+Author: Jørgen Frøland
+Author-email: jorgen.froland@polarismedia.no
+License: UNKNOWN
+Description: # Polaris Media Data Pipeline Library
+        
+        This is a light weight library for Polaris Media. Does not require libraries for converting to Parquet, and will not be able to work with Parquet files.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
