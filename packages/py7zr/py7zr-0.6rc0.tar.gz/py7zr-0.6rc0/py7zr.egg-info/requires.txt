@@ -1,0 +1,22 @@
+texttable
+pycryptodome
+
+[:python_version < "3.6"]
+contextlib2>=0.6.0
+pathlib2>=2.2.0
+
+[:sys_platform == "win32"]
+pywin32
+
+[dev]
+pytest
+pytest-benchmark
+pytest-cov
+pytest-timeout
+pytest-remotedata
+pyannotate
+flake8
+twine
+coverage[toml]==5.0.1
+codecov
+coveralls
