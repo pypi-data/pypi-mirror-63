@@ -1,0 +1,16 @@
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    margin-top: 25px;
+}
+
+table tbody tr:hover {
+    background-color: rgba(133, 135, 150, 0.1);
+    cursor: default;
+}
+
+.selected {
+    background-color: rgba(78, 115, 223, 0.25);
+}
+
+table tbody .selected:hover {
+    background-color: rgba(78, 115, 223, 0.25);
+}

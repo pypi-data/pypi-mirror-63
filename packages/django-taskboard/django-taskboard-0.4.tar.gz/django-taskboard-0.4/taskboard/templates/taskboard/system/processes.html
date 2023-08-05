@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  {% load static %}
+  {% include 'taskboard/head.html' %}
+  <body id="page-top">
+    <div id="wrapper">
+      {% include 'taskboard/sidebar.html' %}
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+          {% include 'taskboard/topbar.html' %}
+          <div class="container-fluid">
+            <div class="card shadow mb-4" id="table">
+              <div class="card-body">
+                <a class="btn btn-primary btn-icon-split float-right" data-toggle="modal" data-target="#startProcessModal" style="cursor: pointer; color: #F8F9FA;">
+                  <span class="icon text-white-50">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                  <span class="text">New process</span>
+                </a>
+
+                <div class="table">
+                  <table class="table table-bordered nowrap" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>PID</th>
+                        <th>Username</th>
+                        <th>Executable</th>
+                        <th>CPU</th>
+                        <th>Memory</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% include 'taskboard/footer.html' %}
+      </div>
+    </div>
+
+    {% include 'taskboard/system/modal-start-process.html' %}
+    {% include 'taskboard/system/modal-stop-process.html' %}
+    {% include 'taskboard/modal-logout.html' %}
+    {% include 'taskboard/scripts.html' %}
+    <script src="{% static 'taskboard/js/processes/datatable.js' %}"></script>
+    <script src="{% static 'taskboard/js/processes/modal-start-process.js' %}"></script>
+    <script src="{% static 'taskboard/js/processes/modal-stop-process.js' %}"></script>
+  </body>
+</html>

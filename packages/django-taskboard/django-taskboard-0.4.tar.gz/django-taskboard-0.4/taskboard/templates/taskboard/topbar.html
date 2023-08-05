@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+  <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+    <i class="fa fa-bars"></i>
+  </button>
+  <div class="dropdown ml-2">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+      &nbsp;&nbsp;Refresh every&nbsp;&nbsp;
+    </button>
+    <div class="dropdown-menu animated--fade-in">
+      <a class="dropdown-item" id="refresh_1" style="cursor: pointer;" onclick="select_refresh('{{ header }}', 1)">1 second</a>
+      <a class="dropdown-item" id="refresh_5" style="cursor: pointer;" onclick="select_refresh('{{ header }}', 5)">5 seconds</a>
+      <a class="dropdown-item" id="refresh_30" style="cursor: pointer;" onclick="select_refresh('{{ header }}', 30)">30 seconds</a>
+      <a class="dropdown-item" id="refresh_60" style="cursor: pointer;" onclick="select_refresh('{{ header }}', 60)">1 minute</a>
+      <a class="dropdown-item" id="refresh_300" style="cursor: pointer;" onclick="select_refresh('{{ header }}', 300)">5 minutes</a>
+    </div>
+  </div>
+  <h1 class="h3 mt-2 ml-auto text-gray-800">{{ header }}</h1>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown no-arrow">
+      <a class="nav-link dropdown-toggle" id="userDropdown" role="button" data-toggle="dropdown" style="cursor: pointer;">
+        <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ request.session.name }}</span>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+        <a class="dropdown-item" data-toggle="modal" data-target="#logoutModal" style="cursor: pointer;">
+          <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+          Logout
+        </a>
+      </div>
+    </li>
+  </ul>
+</nav>
