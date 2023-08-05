@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: devops-microsoft-client-etl
+Version: 3.0.2
+Summary: Responsible for sending commands to Seon DevOps microsoft job
+Home-page: https://gitlab.com/integration_seon/libs/application/clockify
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: rabbitmqX
+
+# Goal
+It is reponsible for sending commands to Devops Microsoft Job ETL
+
+## Installation
+To install devops_microsoft_client_etl, run this command in your terminal:
+```
+pip install devops_microsoft_client_etl
+```
+## Usage
+To use devops_microsoft_client_etl in a Python project:
+
+```python
+from pprint import pprint
+from devops_microsoft_client_etl.factory.factory import Factory
+from devops_microsoft_client_etl.factory.service_enum import Service
+
+project_service = Factory.create(Service.ScrumProject)
+team_project_service = Factory.create(Service.ProjectTeam)
+team_member_service = Factory.create(Service.TeamMember)
+sprint_service = Factory.create(Service.Sprint)
+user_story_service = Factory.create(Service.UserStory)
+task_service = Factory.create(Service.ScrumDevelopmentTask)
+product_backlog_sprint_backlog_service = Factory.create(Service.Product_backlog)
+
+
+data = {'organization_id': 'organization_seon_uuid', 
+                "tfs_key": 'user_tfs_key', 
+                "tfs_url": 'url_devops,
+                "application": 'application_seon_uuid'} 
+
+
+pprint ("Buscando o projeto")
+projects = project_service.integrate(organization,data)
+pprint ("enviando os dados - Team Project")
+teams = team_project_service.integrate(organization,data)
+pprint ("enviando os dados - Team Member Project")
+team_member_service.integrate(organization,data)
+
+pprint ("enviando os dados - Sprint")
+sprint_service.integrate(organization,data)
+
+pprint ("enviando as user_story")
+user_story_service.integrate(organization,data)
+
+pprint ("enviando as task")
+task_service.integrate(organization,data)
+
+pprint ("enviando os dados - Product Backlog")
+product_backlog_sprint_backlog_service.integrate(organization,data)
+
+```
+
+
+
