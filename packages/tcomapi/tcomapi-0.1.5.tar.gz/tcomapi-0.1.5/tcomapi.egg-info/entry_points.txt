@@ -1,0 +1,4 @@
+[console_scripts]
+kgd = kgd.__main__:main
+sgov = sgov.__main__:main
+
