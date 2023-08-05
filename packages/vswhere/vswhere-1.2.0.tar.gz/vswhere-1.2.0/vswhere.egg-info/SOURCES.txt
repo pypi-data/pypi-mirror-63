@@ -1,0 +1,8 @@
+README.md
+setup.py
+vswhere/__init__.py
+vswhere.egg-info/PKG-INFO
+vswhere.egg-info/SOURCES.txt
+vswhere.egg-info/dependency_links.txt
+vswhere.egg-info/not-zip-safe
+vswhere.egg-info/top_level.txt
