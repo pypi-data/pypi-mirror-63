@@ -1,0 +1,13 @@
+setup.py
+src/pytest_pyq/__init__.py
+src/pytest_pyq/conftest.py
+src/pytest_pyq/test_pytest_pyq.py
+src/pytest_pyq/test_pytest_pyq_module.py
+src/pytest_pyq/test_pytest_pyq_session_a.py
+src/pytest_pyq/test_pytest_pyq_session_b.py
+src/pytest_pyq.egg-info/PKG-INFO
+src/pytest_pyq.egg-info/SOURCES.txt
+src/pytest_pyq.egg-info/dependency_links.txt
+src/pytest_pyq.egg-info/entry_points.txt
+src/pytest_pyq.egg-info/top_level.txt
+src/pytest_pyq.egg-info/zip-safe
