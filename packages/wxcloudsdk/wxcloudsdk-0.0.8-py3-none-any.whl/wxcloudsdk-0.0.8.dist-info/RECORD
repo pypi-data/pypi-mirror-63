@@ -1,0 +1,11 @@
+main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main/file_manager.py,sha256=gv0TzqUAj_V_R4Eo6ufe45oab3fadGRoEA-kgU7DP24,1930
+wxcloudsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wxcloudsdk/file_manager.py,sha256=MLlP0gnvU4NV3hof87tbOn8QTAfep01SRJm0aZ7SpUA,2440
+wxcloudsdk/__pycache__/__init__.cpython-37.pyc,sha256=ikNWTkZJpgYfRtwejZdiUSAlhJZOYazvjmaGnu2BI3k,142
+wxcloudsdk/__pycache__/file_manager.cpython-37.pyc,sha256=gqmv1X8pVUct9fFWCMKF4xS7HZUOrl0Hu7tt7Z7871o,2447
+wxcloudsdk-0.0.8.dist-info/LICENSE,sha256=G0aFQnK5IcPqjFq3LSLxS_n-hS4YUhPSPkPnjdQOz2k,1079
+wxcloudsdk-0.0.8.dist-info/METADATA,sha256=EqT3UdGOJs6OWo8Nk73vql5zOPBiJYsPfh2PC12EBaE,1486
+wxcloudsdk-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wxcloudsdk-0.0.8.dist-info/top_level.txt,sha256=BESjC276pGHIcZ1X6IScXr3Ly8l3fmwxx4WFNh_0C6U,11
+wxcloudsdk-0.0.8.dist-info/RECORD,,
