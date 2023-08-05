@@ -1,0 +1,8 @@
+pytest_opentmi/OpenTmiReport.py,sha256=KbTw7exyM2HYuR4zl5oL1yOVphYlBEfHQLsFXXo6CsI,9548
+pytest_opentmi/__init__.py,sha256=LS2YmDdauFK9Lihk_1OTl2_-LPZnUpAuh6iaPkY9amA,342
+pytest_opentmi/plugin.py,sha256=YgpXsarHqe87nCC6acZJ3WH1WBQx04gCCFBZ4yQ77FE,1738
+pytest_opentmi-0.1.2.dist-info/LICENSE,sha256=s10CbMesqdWFmgLrh933o4aiTJhoOGUb0fKD-U4AMyc,1056
+pytest_opentmi-0.1.2.dist-info/METADATA,sha256=QOfa8jUnyXDWX38EsScpYgYLAgpwVORvuH_7e95TBcU,2758
+pytest_opentmi-0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pytest_opentmi-0.1.2.dist-info/top_level.txt,sha256=8-6o2CeVo9Q96dMtqVyeeU5iKPNRGxdN8m2ymXekq-E,15
+pytest_opentmi-0.1.2.dist-info/RECORD,,
