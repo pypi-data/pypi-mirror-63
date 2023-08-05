@@ -1,0 +1,49 @@
+[![Build Status](https://travis-ci.com/landier/waky.svg?branch=master)](https://travis-ci.com/landier/waky)
+
+# Waky
+Waky is a web application to manage Wake-On-Lan supporting devices
+
+## Requirements
+* Python 3
+* Bower
+
+# Local dev
+```
+docker run -it --rm -v $PWD:/workspace -w /workspace ubuntu /bin/bash
+tox -e dev
+WAKY_CONF=waky.conf
+env/bin/waky
+```
+
+# Testing
+```
+tox
+```
+
+# Deploy using Docker
+## Build
+```
+docker build -f docker/Dockerfile -t waky .
+```
+
+## Run
+```
+docker run -it --rm -p 8888:8888 waky:latest
+```
+
+## Release
+```
+bumpversion minor
+```
+
+# To do
+* Web server
+* Wake up feature
+* Healthcheck feature
+* Suspend feature
+* Telegram integration
+* PyPI publishing
+
+# Resources
+* [favicon.io](https://favicon.io/favicon-generator/?t=W&ff=Righteous&fs=180&fc=%23000&b=rounded&bc=transparent)
+* [Righteous font](https://fonts.google.com/specimen/Righteous)
