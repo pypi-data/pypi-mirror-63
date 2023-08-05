@@ -1,0 +1,17 @@
+pydiogment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydiogment/auga.py,sha256=zAWEbaZTwdK_HFXD4SCMmFw2dxsHcggqQ-A3xmIUjqw,3904
+pydiogment/augf.py,sha256=ejOrnEp99DUU52MiZeicelXhjZEQ7F1wfnddbvQEnIk,3404
+pydiogment/augt.py,sha256=W3urDEMcfO7-_vNQCWwpJ-7FX39-u23Za2S_bNCOTjQ,7047
+pydiogment/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydiogment/utils/filters.py,sha256=QtN9j6SJXBQiTMsdfw0-8hhMkpR-w6QiaHvrm-9ccRg,2898
+pydiogment/utils/io.py,sha256=GjIBzc9L6Q1yyOpHKsiuGfWORifKS4VJXq-WluurwK4,1205
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auga.py,sha256=8d8dsBJhzOL_al-NswFWsXWbVGHVSwf-LnIGXg9L14o,2164
+tests/test_augf.py,sha256=BRF5SckcHGyczF2y-Lt0VLwgAsBj7zjftAcosqciyhU,2311
+tests/test_augt.py,sha256=RO_lTQUVz-3FXVSgDg5wBYT9Cmu_mctky1XiPCGkaKU,3049
+tests/test_utils.py,sha256=Gm8IBABEwakfp3_1mvDJLCn8zvL3TpVaryWPFxubWcU,1412
+pydiogment-0.1.0.dist-info/LICENSE,sha256=MwSvDGxaV2RR1WXKKN8TbTTq_OYNWmRmXH4zG4Xk4C4,1518
+pydiogment-0.1.0.dist-info/METADATA,sha256=35Y9_aB06RyfS9M4kKHUXNu5m4iK07ja4tLjEzE8BJ0,5171
+pydiogment-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pydiogment-0.1.0.dist-info/top_level.txt,sha256=bm5u909ocihJWB-ncPcLIb-I1ztjAlecBrvHtST_xkU,17
+pydiogment-0.1.0.dist-info/RECORD,,
