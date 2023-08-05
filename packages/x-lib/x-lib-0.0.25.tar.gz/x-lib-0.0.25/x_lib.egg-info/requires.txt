@@ -1,0 +1,13 @@
+consulate
+Flask
+Flask-SQLAlchemy
+Flask-Caching
+dnspython
+kafka-python
+jinja2
+
+[test]
+mock
+six
+coverage
+pytest
