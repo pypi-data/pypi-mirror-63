@@ -1,0 +1,10 @@
+buildpipe/__init__.py,sha256=XnStEyLgmuwTwHQhbkOqf9eVm3ZUTc6qOY0aeC-nDhw,93
+buildpipe/__main__.py,sha256=xh6tjJkVzUm2dcZmaaKDMcZk2hIDqKJKTZso2th9UVQ,639
+buildpipe/pipeline.py,sha256=5VQA1CZTc-v4eg8ayM-giWOQ6AHA9AeV7UBX5v8BA8w,9977
+buildpipe/schema.json,sha256=8nTkUpl33vpA9gCs2Nt1l0F0qERk7qYi38-rs5_0AQY,5112
+buildpipe-0.6.0.dist-info/LICENSE,sha256=NTS0OKnoavMPFupBjSMqL-b9YQuk3DZAv8DvE47KeqQ,1066
+buildpipe-0.6.0.dist-info/METADATA,sha256=DBWj_3_waY0Jf0HbqN80ucZGlbIPArdYxgT6DgkVQ94,7430
+buildpipe-0.6.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+buildpipe-0.6.0.dist-info/entry_points.txt,sha256=_bPqTKZevNCzWCPNayUSk59BpwxJih3-7ReqUXHJEB8,55
+buildpipe-0.6.0.dist-info/top_level.txt,sha256=hGp_v8snCmSYg5jMjG6lbRuqHjvshmmWjsHQMwO9doE,10
+buildpipe-0.6.0.dist-info/RECORD,,
