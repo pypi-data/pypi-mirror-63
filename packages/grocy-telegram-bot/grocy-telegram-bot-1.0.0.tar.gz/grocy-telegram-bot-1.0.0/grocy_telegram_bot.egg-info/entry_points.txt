@@ -1,0 +1,3 @@
+[console_scripts]
+grocy-telegram-bot = grocy_telegram_bot.main:main
+
