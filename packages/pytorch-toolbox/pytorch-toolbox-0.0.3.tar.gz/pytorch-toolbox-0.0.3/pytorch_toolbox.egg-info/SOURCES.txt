@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+pytorch_toolbox.egg-info/PKG-INFO
+pytorch_toolbox.egg-info/SOURCES.txt
+pytorch_toolbox.egg-info/dependency_links.txt
+pytorch_toolbox.egg-info/entry_points.txt
+pytorch_toolbox.egg-info/not-zip-safe
+pytorch_toolbox.egg-info/top_level.txt
