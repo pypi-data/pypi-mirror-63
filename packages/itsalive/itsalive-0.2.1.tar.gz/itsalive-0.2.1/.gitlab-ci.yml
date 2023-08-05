@@ -1,0 +1,13 @@
+image: python:3.7
+
+run:
+  variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  cache:
+    paths:
+      - .cache/pip
+      - .cache/pre-commit
+  before_script:
+    - pip install -U pre-commit mypy
+  script:
+    - pre-commit run -a --hook-stage=manual
