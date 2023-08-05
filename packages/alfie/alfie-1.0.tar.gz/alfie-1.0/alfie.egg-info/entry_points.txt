@@ -1,0 +1,3 @@
+[console_scripts]
+alfie = alfie.alf:main
+
