@@ -1,0 +1,4 @@
+bs4
+readability-lxml
+telegram_util>=0.0.20
+hanziconv>=0.3.2
