@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datacol
+Version: 1.0.2
+Summary: Localized, file-based database module.
+Home-page: https://github.com/EKHolmes/DataCol/
+Author: Erik Holmes
+Author-email: zv.eevee6718@gmail.com
+License: MIT
+Description: DataCol: An extremely lightweight, localized database module. 
+        Visit the github (https://github.com/EKHolmes/DataCol) for more information.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
