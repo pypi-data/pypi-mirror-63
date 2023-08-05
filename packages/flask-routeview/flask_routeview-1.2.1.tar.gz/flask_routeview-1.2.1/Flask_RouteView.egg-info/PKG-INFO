@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: flask-routeview
+Version: 1.2.1
+Summary: A RouteView class which register itself
+Home-page: UNKNOWN
+Author: Tiphaine LAURENT
+Author-email: tip.lau@hotmail.fr
+License: MIT
+Description: # Flask RouteView
+        
+        ## Usage
+        
+        ```
+        # __init__.py
+        
+        # Create your Flask application
+        from flask import Flask, request
+        app = Flask(__name__)
+        
+        # Register your Flask application in Flask_RouteView
+        import flask_routeview
+        flask_routeview.set_app(app)
+        
+        # Import your views to enable them
+        from FlaskWebProject.views import IndexView, ...
+        ```
+        
+        ```py
+        # views.py
+        
+        class MyView(RouteView):
+        
+            route = "/url"
+            name = "MyView"
+        
+            def get(*args, **kwargs):
+                pass
+        ```
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
