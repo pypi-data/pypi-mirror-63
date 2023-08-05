@@ -1,0 +1,7 @@
+setup.py
+rpa_public_package/__init__.py
+rpa_public_package/rpa_public_package.py
+rpa_public_package.egg-info/PKG-INFO
+rpa_public_package.egg-info/SOURCES.txt
+rpa_public_package.egg-info/dependency_links.txt
+rpa_public_package.egg-info/top_level.txt
