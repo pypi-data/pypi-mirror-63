@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+slackerade/VERSION
+slackerade/__init__.py
+slackerade.egg-info/PKG-INFO
+slackerade.egg-info/SOURCES.txt
+slackerade.egg-info/dependency_links.txt
+slackerade.egg-info/entry_points.txt
+slackerade.egg-info/requires.txt
+slackerade.egg-info/top_level.txt

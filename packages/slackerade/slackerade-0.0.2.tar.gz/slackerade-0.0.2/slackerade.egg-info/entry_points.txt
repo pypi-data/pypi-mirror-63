@@ -1,0 +1,3 @@
+[console_scripts]
+slackerade = slackerade:slackerade_cli
+

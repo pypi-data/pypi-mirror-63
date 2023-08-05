@@ -1,0 +1,39 @@
+Metadata-Version: 1.2
+Name: slackerade
+Version: 0.0.2
+Summary: Masquerade yourself as a fictitious user on slack
+Home-page: https://github.com/KraYmer/slackerade
+Author: Fabrice Laporte
+Author-email: kraymer@gmail.com
+License: MIT
+Description: slackerade
+        ==========
+        
+        Masquerade yourself as fictitious user on slack
+        
+        Usage
+        -----
+        
+        ::
+        
+            ./slackerade.py https://hooks.slack.com/services/CHANNEL/URL/HASH
+            USERNAME MSG EMOJI_NAME
+            
+        Note: to have access to the channel *Webhook Url* you must first activate slack *Incoming Webhook* feature as explained `here <https://api.slack.com/messaging/webhooks#posting_with_webhooks>`_.
+        
+        Example
+        -------
+        
+        ``./slackerade.py https://hooks.slack.com/services/<censured> "The Joker"  "That's the joke" ":thats_the_joke:"``
+        
+        gives :
+        
+        .. figure:: https://github.com/Kraymer/public/raw/master/slackerade/slackerade_demo.png
+           :alt:
+        
+Keywords: Masquerade yourself as a fictitious user on slack
+Platform: ALL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.5.0
