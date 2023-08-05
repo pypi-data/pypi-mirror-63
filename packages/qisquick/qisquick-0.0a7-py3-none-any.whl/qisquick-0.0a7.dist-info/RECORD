@@ -1,0 +1,15 @@
+qisquick/__init__.py,sha256=_Vvp-mXmVqGaGzNLh2HYkXsfs2lJBmolq5XvEMvC9no,184
+qisquick/circuits.py,sha256=OrzP9wPGhZhZmputZqn57P59YSQNuryDgWIYyvZwuaU,23598
+qisquick/dbconfig.py,sha256=onDlKWUg222mN0lN0gfO7sfFvv2sRdK4flaoLN2LnaE,13634
+qisquick/qis_logger.py,sha256=cqxgg092r_O8EJ5Xy9ySo-VaFfdkNM5czrwnCQkhCbU,2133
+qisquick/run_experiment.py,sha256=lMhURvo4NfJ25iJzDqGlJs2M7_rzXBZawXdF4aAe218,16947
+qisquick/statblock.py,sha256=8o-Y7AroPBG-W38TJDkQUFmywcJfF_kpZjx881svSkw,1625
+qisquick/tools.py,sha256=vUDTbRytDI42X7omTQFTKmCww6qhXWaznY6E01tQCWY,1441
+qisquick/transpilertools.py,sha256=ctLJN16WiC3Y8rh5iJvo5p4SUz8WIodM_8Y-Y4vYIic,6881
+qisquick-0.0a7.data/data/qisquick_documentation/README.md,sha256=-zkztxc47JuMyPaIxXzn64JBj8CjL4CIL_U1Gx7y9oU,7723
+qisquick-0.0a7.data/data/qisquick_documentation/qisquick_documentation.pdf,sha256=OhcSwGNBuqvpUBiaf5oPZRg_Vj4c9c5jsLyelDtNdd8,78248
+qisquick-0.0a7.dist-info/LICENSE.md,sha256=h-kxyFcbJnImnUzji6X3UfkLpmtFjVRucioIfW7U67U,1182
+qisquick-0.0a7.dist-info/METADATA,sha256=rL_TBLF_h1xDXuMHXfSAuyb47nDD_SZi5eSgwU0urhQ,8347
+qisquick-0.0a7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+qisquick-0.0a7.dist-info/top_level.txt,sha256=OkJHDthTJFt_IXwTSOWeWFN6hfxuhwfn_A05eq_ynPk,9
+qisquick-0.0a7.dist-info/RECORD,,
