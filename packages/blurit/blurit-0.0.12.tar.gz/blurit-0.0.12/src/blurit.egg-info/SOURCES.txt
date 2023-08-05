@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/blurit.py
+src/blurit.egg-info/PKG-INFO
+src/blurit.egg-info/SOURCES.txt
+src/blurit.egg-info/dependency_links.txt
+src/blurit.egg-info/requires.txt
+src/blurit.egg-info/top_level.txt

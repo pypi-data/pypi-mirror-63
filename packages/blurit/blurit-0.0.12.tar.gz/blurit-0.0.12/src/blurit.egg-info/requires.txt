@@ -1,0 +1,6 @@
+opencv-python~=4.1.2
+numpy~=1.17.2
+dlib~=19.19.0
+
+[dev]
+pytest>=3.7
