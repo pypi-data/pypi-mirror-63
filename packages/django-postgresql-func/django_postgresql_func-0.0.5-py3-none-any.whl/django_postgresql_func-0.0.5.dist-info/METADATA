@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: django-postgresql-func
+Version: 0.0.5
+Summary: PostgreSQL Functions and Operators for Django. Full support for classic Django SQL functions
+Home-page: https://github.com/lampofearth/django-postgresql-func
+Author: lampofearth
+Author-email: lampofearth@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://py-orm.com/chapter/django-postgresql-func
+Project-URL: Source, https://github.com/lampofearth/django-postgresql-func/
+Project-URL: Tracker, https://github.com/lampofearth/django-postgresql-func/issues/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: django (>=2.0.0)
+
+
+*Stay tuned for library updates and new releases on our site.* `py-orm.com/chapter/django-postgresql-func <https://py-orm.com/chapter/django-postgresql-func>`_.
+
+=====================================================================================================================
+django-postgresql-func: PostgreSQL Functions and Operators for Django. Full support for classic Django SQL functions
+=====================================================================================================================
+
+-------------------
+Installing
+-------------------
+
+You can install or upgrade django-postgresql-func with:
+
+.. code:: shell
+
+    $ pip install django-postgresql-func --upgrade
+
+Or you can install from source with:
+
+.. code:: shell
+
+    $ git clone https://github.com/lampofearth/django-postgresql-func --recursive
+    $ cd django-postgresql-func
+    $ python setup.py install
+
+
+-------------------
+Examples
+-------------------
+
+``django-postgresql-func``'s examples lives at `py-orm.com/chapter/django-postgresql-func <https://py-orm.com/chapter/django-postgresql-func>`_.
+
+-------------------
+License
+-------------------
+
+You may copy, distribute and modify the software provided that modifications
+are described and licensed for free under `LGPL-3 <https://www.gnu.org/licenses/lgpl-3.0.html>`_.
+Derivatives works (including modifications or anything statically linked to the library)
+can only be redistributed under LGPL-3, but applications that use the library don't have to be.
+
+
