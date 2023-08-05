@@ -1,0 +1,16 @@
+pdiffcopy/__init__.py,sha256=DdsOHjCuK2rORCcPIKoFjT77pBfRGYonWy7-yIIONiI,727
+pdiffcopy/__main__.py,sha256=ZiahCRBJtpS4V4TIvmmndAdQoLhAAGHIhHcNVw2Py2I,372
+pdiffcopy/cli.py,sha256=ojhOzfSLYidS-590-Plp7_uwcQPImOlJHvAgZi7iniI,5431
+pdiffcopy/client.py,sha256=j6C15M_3s9SrggMeblAY08zbaJjVF_2-A60LBJfU-ZY,18648
+pdiffcopy/exceptions.py,sha256=k-tOQ73I03jfwAv8EPVwVKsOhTK9OPpDVBI1KxFD-wQ,1177
+pdiffcopy/hashing.py,sha256=825w2uvvc7zlaHLKip53NfFyTzAwAQ8TisPrFk1swN4,1319
+pdiffcopy/mp.py,sha256=VXC9HH45D5121iZlV253Tivd2kEEW6Syqmzoku7Ruc8,9273
+pdiffcopy/operations.py,sha256=gnPhulkVMtfD_n3VTKHz5SNlXnY1atiMuYoJQyfGYPE,2999
+pdiffcopy/server.py,sha256=Hyd9F4vzyCgekVZCracNR6V_C7fgzIta7j-GRzYhjeo,4712
+pdiffcopy/tests.py,sha256=RV6jbClxmZxXLQe__6EHujUPvQ1h159aTqUc_knpA5U,13350
+pdiffcopy-1.0.dist-info/LICENSE.txt,sha256=C-9P-xhVtlVwME8gGMbUTkurl71d-HFuzXgAAU1xcmc,1056
+pdiffcopy-1.0.dist-info/METADATA,sha256=o-7YGja8dhErFChsMwIot1Q3acfjcqOTG0gbSBOaCQQ,15194
+pdiffcopy-1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pdiffcopy-1.0.dist-info/entry_points.txt,sha256=VDwZiWVppfkg4PZsi3JADr64VFom4Qv46awo9n3NobQ,50
+pdiffcopy-1.0.dist-info/top_level.txt,sha256=OAfHATvIiqYIsBuSLtJC6jwjfqSkM_9oyN0_JD4nM-E,10
+pdiffcopy-1.0.dist-info/RECORD,,
