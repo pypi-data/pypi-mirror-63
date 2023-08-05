@@ -1,0 +1,67 @@
+Metadata-Version: 1.2
+Name: databricks-api-utils
+Version: 0.1.1
+Summary: Helper functions for working with databricks-api
+Home-page: https://github.com/sam-harvey/databricks_api_utils
+Author: Sam Harvey
+Author-email: samuel.robert.harvey@gmail.com
+License: MIT license
+Description: ========================
+        Databricks API Utilities
+        ========================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/databricks_api_utils.svg
+                :target: https://pypi.python.org/pypi/databricks_api_utils
+        
+        .. image:: https://img.shields.io/travis/sam-harvey/databricks_api_utils.svg
+                :target: https://travis-ci.org/sam-harvey/databricks_api_utils
+        
+        .. image:: https://readthedocs.org/projects/databricks-api-utils/badge/?version=latest
+                :target: https://databricks-api-utils.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Helper functions for working with the Databricks API
+        
+        
+        * Free software: MIT license
+        * Documentation: https://databricks-api-utils.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Import/Export a folder of files to/from Databricks in source format. Rather than only being able to import/export in binary DBC format.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-11-05)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: databricks_api_utils
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
