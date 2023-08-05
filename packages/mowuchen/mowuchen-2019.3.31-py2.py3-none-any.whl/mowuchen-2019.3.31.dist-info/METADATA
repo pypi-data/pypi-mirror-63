@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mowuchen
+Version: 2019.3.31
+Summary: A demo for python packaging.
+Home-page: https://github.com/RongSong1993/zhiyundemo
+Author: mowuchen
+Author-email: tzb000555111@126.com
+License: MIT
+Keywords: demo
+Platform: UNKNOWN
+
+# mowuchen
+
+This project provides a demo for packaging and distributing python application.
+
+
