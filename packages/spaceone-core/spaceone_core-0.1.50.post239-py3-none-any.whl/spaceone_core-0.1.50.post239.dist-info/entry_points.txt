@@ -1,0 +1,4 @@
+[console_scripts]
+server = spaceone.core.server:main
+test-tool = spaceone.core.unittest.run_tests:main
+
