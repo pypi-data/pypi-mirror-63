@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: corona-info
+Version: 1.0.11
+Summary: Get faassst information about the corona outbreak, because who likes to google?
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: tabulate
+
+# Corona Info
+
+A quick and easy way to get the latest coronavirus news without having to dig
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install corona-info
+```
+
+## Usage
+
+Note: None of these functions return, they simply print
+
+```python
+import corona_info as ci
+
+#Get fast numbers:
+ci.get_stats()
+
+#Get breakdown by country:
+ci.get_table()
+
+#Get a latest (n) bullets of news; default is 15:
+ci.get_news(5)
+
+#Get advice on how to stay safe:
+ci.get_advice()
+```
+
+

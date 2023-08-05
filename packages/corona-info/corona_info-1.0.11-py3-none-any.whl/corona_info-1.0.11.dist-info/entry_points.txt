@@ -1,0 +1,7 @@
+[console_scripts]
+corona-advice = src.command_line:advice
+corona-help = src.command_line:help
+corona-news = src.command_line:news
+corona-stats = src.command_line:stats
+corona-table = src.command_line:table
+
