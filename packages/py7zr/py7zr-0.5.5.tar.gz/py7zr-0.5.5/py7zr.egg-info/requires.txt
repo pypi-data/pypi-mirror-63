@@ -1,0 +1,10 @@
+texttable
+
+[:python_version < "3.6"]
+pathlib2>=2.2.0
+
+[dev]
+pytest
+pytest-benchmark
+pytest-timeout
+flake8
