@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+psmtemplate/__init__.py
+psmtemplate/psmtemplate.py
+psmtemplate.egg-info/PKG-INFO
+psmtemplate.egg-info/SOURCES.txt
+psmtemplate.egg-info/dependency_links.txt
+psmtemplate.egg-info/not-zip-safe
+psmtemplate.egg-info/requires.txt
+psmtemplate.egg-info/top_level.txt
+psmtemplate/static/ARIAL.ttf
+psmtemplate/static/PSM Logo.jpg
+psmtemplate/static/__init__.py
+psmtemplate/static/matplotlibrc
