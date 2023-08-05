@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cicadas
+Version: 1.0.0a2
+Summary: Self-constructing commutative diagrams
+Home-page: https://github.com/pribanacek/cicadas
+Author: Jakub Priban
+Author-email: jp775@cam.ac.uk
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pribanacek/cicadas/issues
+Project-URL: Source, https://github.com/pribanacek/cicadas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
