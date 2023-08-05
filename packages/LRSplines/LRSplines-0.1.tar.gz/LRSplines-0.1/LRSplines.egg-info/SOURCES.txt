@@ -1,0 +1,15 @@
+README.rst
+lrsplines.cpp
+setup.py
+LRSplines.egg-info/PKG-INFO
+LRSplines.egg-info/SOURCES.txt
+LRSplines.egg-info/dependency_links.txt
+LRSplines.egg-info/requires.txt
+LRSplines.egg-info/top_level.txt
+lrspline/__init__.py
+lrspline/raw.cpp
+submodules/LRSplines/src/Basisfunction.cpp
+submodules/LRSplines/src/Element.cpp
+submodules/LRSplines/src/LRSpline.cpp
+submodules/LRSplines/src/LRSplineSurface.cpp
+submodules/LRSplines/src/Meshline.cpp
