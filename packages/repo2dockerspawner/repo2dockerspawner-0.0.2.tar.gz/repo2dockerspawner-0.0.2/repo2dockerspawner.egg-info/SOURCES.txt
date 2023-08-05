@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+repo2dockerspawner/__init__.py
+repo2dockerspawner/_version.py
+repo2dockerspawner/repo2dockerspawner.py
+repo2dockerspawner.egg-info/PKG-INFO
+repo2dockerspawner.egg-info/SOURCES.txt
+repo2dockerspawner.egg-info/dependency_links.txt
+repo2dockerspawner.egg-info/entry_points.txt
+repo2dockerspawner.egg-info/requires.txt
+repo2dockerspawner.egg-info/top_level.txt

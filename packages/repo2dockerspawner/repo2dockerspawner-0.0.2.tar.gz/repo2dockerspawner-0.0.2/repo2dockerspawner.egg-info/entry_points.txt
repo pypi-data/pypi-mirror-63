@@ -1,0 +1,3 @@
+[jupyterhub.spawners]
+docker = repo2dockerspawner:Repo2DockerSpawner
+
