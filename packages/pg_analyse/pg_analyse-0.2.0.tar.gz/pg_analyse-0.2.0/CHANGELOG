@@ -1,0 +1,12 @@
+pg_analyse changelog
+====================
+
+
+v0.2.0 [2020-03-11]
+-------------------
++ Added support to pass arguments to inspections.
+
+
+v0.1.0 [2020-03-10]
+-------------------
++ Basic functionality.
