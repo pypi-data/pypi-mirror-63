@@ -1,0 +1,9 @@
+yahoo_quote_download/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+yahoo_quote_download/downloader.py,sha256=cWHgl0EG3nKKC0ZsMmxN2JoH4WPfsbBbHevk4GERYjs,7717
+yahoo_quote_download/validater.py,sha256=1s_e24gf2uWblaEFragKjvsr5bvhn7rZceuCRSVZ-6c,2458
+yahoo_quote_download/yqd.py,sha256=1Vgr8zBwnlkVKT0plwqxVpLpex3pULhREZ5nNWrW700,3774
+yahoo_quote_download-0.3.1.dist-info/METADATA,sha256=H657pElcl_gAwZ_xEAyPg3YqekWlgudvFUWeVfUNMTM,2793
+yahoo_quote_download-0.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+yahoo_quote_download-0.3.1.dist-info/entry_points.txt,sha256=NlqBEjhMSiQOI5YuqQsuimAnYE-N3XeGGPmR13CotGE,69
+yahoo_quote_download-0.3.1.dist-info/top_level.txt,sha256=ZEG0woUtWuBOXVBjLHRJw00TveAzcmJBfeajxld1OzM,21
+yahoo_quote_download-0.3.1.dist-info/RECORD,,
