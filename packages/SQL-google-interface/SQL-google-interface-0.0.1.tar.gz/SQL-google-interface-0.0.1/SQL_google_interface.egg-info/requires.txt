@@ -1,0 +1,4 @@
+pyodbc
+pandas
+backoff
+google-api-python-client
