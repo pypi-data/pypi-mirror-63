@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: devops-microsoft-client-real-time
+Version: 3.0.2
+Summary: Responsible for sending commands to Seon DevOps microsoft Real Time job
+Home-page: UNKNOWN
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: rabbitmqX
+
+# Goal
+It is reponsible for sending command to Devops Microsoft Real Time Job
+
+## Installation
+To install devops_microsoft_client_real_time, run this command in your terminal:
+```
+pip install devops_microsoft_client_real_time
+```
+
+## Usage
+To use devops_microsoft_client_real_time in a Python project:
+
+```python
+from pprint import pprint
+from devops_microsoft_client_real_time.factory.factory import Factory
+from devops_microsoft_client_real_time.factory.service_enum import Service
+
+project_service = Factory.create(Service.ScrumProject)
+team_project_service = Factory.create(Service.ProjectTeam)
+team_member_service = Factory.create(Service.TeamMember)
+sprint_service = Factory.create(Service.Sprint)
+user_story_service = Factory.create(Service.UserStory)
+task_service = Factory.create(Service.ScrumDevelopmentTask)
+product_backlog_sprint_backlog_service = Factory.create(Service.Product_backlog)
+
+
+organization = "Organization UUID SEON"
+tfs_key = ""
+tfs_url = ""
+application = "Application UUID SEON"
+
+pprint ("enviando os dados - Project")
+
+content_task = {
+    'createdDate': '2019-11-29T21:11:46.8222058Z',
+    'eventType': 'workitem.created',
+    'id': '69',
+    'resource': {'fields':{'System.WorkItemType': 'Task'}}, 
+    'resourceContainers': 
+        {
+            'account': {'baseUrl': 'https://dev.azure.com/paulossjunior/','id': '16ad67c1-3286-44bb-a0bb-d8ef245f21d2'},
+            'collection': {'baseUrl': 'https://dev.azure.com/paulossjunior/','id': '31d31367-7618-485a-a500-f2dcb12e14ec'},
+            'project': {'baseUrl': 'https://dev.azure.com/paulossjunior/','id': '0cfe9a70-c6ce-45b0-a898-d3594fc6a08a'}
+        }
+
+    }
+
+data = {'organization_id': organization, 
+                "tfs_key": tfs_key, 
+                "tfs_url": tfs_url,
+                "application": application, 
+                "content": content_task
+        }  
+
+pprint ("enviando as task")
+task_service.integrate(organization,data)
+```
+
