@@ -1,0 +1,14 @@
+mathlibtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathlibtools/auth_github.py,sha256=s1ugACSDbKgjZHNV3YWFY6MBK6i81hN-ZQTopvWY2go,1118
+mathlibtools/delayed_interrupt.py,sha256=5gEXtlOs4bmNLVMUUuXHHsfGbt8L7sKzWvUPEVZ_pl8,1242
+mathlibtools/fetching.py,sha256=6J9iUkvQqzWVar55s0qOnA23kEeqw3l0MM2t0yPCXIw,1953
+mathlibtools/leanproject.py,sha256=K0eDEP7A61pX2BfhBFMakDfDD8qmE47Osj63_pWTbfU,9370
+mathlibtools/lib.py,sha256=rm4FIXWuLfMHrDyAJozS8iJ0RyB_aTxUvRAbWtKzbIY,19349
+mathlibtools/post-checkout,sha256=citWl56g0z9000jWVipLEzqciuF7oXI2yM-hoKhbDGU,439
+mathlibtools/post-commit,sha256=tcuBQIkcSx5YuzIbUY_0P9IedZp1GcOQyCOTagMv01w,464
+mathlibtools-0.0.3.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+mathlibtools-0.0.3.dist-info/METADATA,sha256=LDr8rwVjhHQkFFM3FJa9MRpk7D9uGpSmOcEd5mBet1g,8305
+mathlibtools-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mathlibtools-0.0.3.dist-info/entry_points.txt,sha256=gxNQeZtNDovRkvjduYF0UxVFOHMT1THzPJ9yEglA2GM,62
+mathlibtools-0.0.3.dist-info/top_level.txt,sha256=brGGC9pxR_sK99cJQWnT5p8mM3IPag8Zin40phD4X2k,13
+mathlibtools-0.0.3.dist-info/RECORD,,
