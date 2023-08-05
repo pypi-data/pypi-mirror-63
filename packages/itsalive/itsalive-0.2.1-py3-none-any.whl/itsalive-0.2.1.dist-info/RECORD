@@ -1,0 +1,9 @@
+itsalive/__init__.py,sha256=oD-dprQuz-Vm7FVe_o9wydEJMho7GpzP7_T42SlGal4,110
+itsalive/cli.py,sha256=Mx5N0hQUEDvgPGZU_QZrhQx2BWa8sGd6PT6YutggniY,14659
+itsalive/presenter_view.py,sha256=IaF4raiPzskz9GuCJlnIKPV2M25BWGnDl_k5_jMNpH0,5912
+itsalive/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+itsalive-0.2.1.dist-info/entry_points.txt,sha256=EBTouK_RBCDb9wpNZzKryhv68akAhjBp-YSbRzm4_uQ,46
+itsalive-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+itsalive-0.2.1.dist-info/WHEEL,sha256=SLCfUNBbL7PC57twVLj91R0hVFn-3rJvGID7fVEf8QA,81
+itsalive-0.2.1.dist-info/METADATA,sha256=oLBIgFEd4vGiCZxEL6YoUGcWQ6Zk5unKU9FED9ns_yk,3840
+itsalive-0.2.1.dist-info/RECORD,,
