@@ -1,0 +1,14 @@
+prosecode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prosecode/chunk.py,sha256=VCpITAer151aY5B37uoW6ZE1dnSC3X1UPE-dBMSH5bQ,2919
+prosecode/chunk_extension.py,sha256=WUnwObnyw0xIIOJhcIFwr-V_AqbZUX1W6uS71bOl_Do,3632
+prosecode/cli.py,sha256=dCoiBQyzueHofw1T1juS8yCscFnySvunxU0q0yC_WC4,2209
+prosecode/displaymath_extension.py,sha256=GTmpd0dJh7jrRsAxivfFsACoxchS_onsG4md2Sci2Y4,1347
+prosecode/htmltolatexparser.py,sha256=DWBHeWsPs1quluwJ3Ui7cYcbH1xEVRybtPzsiM44ziQ,2808
+prosecode/tangle.py,sha256=fPSivRDU6MwEk7Qv3Cambo_Pbfa_bd8SfYV7E0rUujs,1266
+prosecode/weave.py,sha256=quVAunXxlr0ArBisxKReAcYdPmdlGAgAMBXgUcH8bHM,1096
+prosecode-0.1.0.dist-info/LICENSE,sha256=bBb5Spz5vFD_ZiMhXJR4Ucqm3t13Kb1_lEuN91aNQuY,1067
+prosecode-0.1.0.dist-info/METADATA,sha256=SSDaoHBuhmQAnFCqSvzTsozM5m9T9RHyydSaj-GooaY,1812
+prosecode-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+prosecode-0.1.0.dist-info/entry_points.txt,sha256=4C1T-AXtKDzBt8sriQRBJCeLJxwHJX5nCnnb1Yr6Qws,67
+prosecode-0.1.0.dist-info/top_level.txt,sha256=dVYN4Hnn82p7jzQku8VNpJv0X5pakS-cH8wrAluFT4s,10
+prosecode-0.1.0.dist-info/RECORD,,
