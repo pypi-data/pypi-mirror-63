@@ -1,0 +1,14 @@
+query_diet/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+query_diet/analyzer.py,sha256=wVG_DtW8uF-vp8udBWBAbnY-NjajYt5nkET3MBRfUwc,2920
+query_diet/comment.py,sha256=7p0uanUJlGgrJ633LzRJc81i9I432p4_oIzBXEWn3_E,1984
+query_diet/context.py,sha256=a1qcdr-TH_dKjkiI4onQMlmsjhe0Q-6Hm3OzUcFOrh0,1239
+query_diet/core.py,sha256=8w4ve6UlsENKNA4aP1TiGvmp6LTfCWbtZIRBjX5hq9w,2548
+query_diet/defaults.py,sha256=8mWWKElvwXTpm68KirjSzWN4wmbZe0wXzWJiu0l15AU,487
+query_diet/middleware.py,sha256=b1YdC_0-rI533BItuxdDklAL9VuVYfLPW93JBDl5h34,563
+query_diet/monkey.py,sha256=OarR8qf1szMBb3HezUWRfC5flC-JMSKqpRMi1pSTt9M,3432
+query_diet/scoped.py,sha256=QpeJ6kYtqLrBgNLZqJqk89LYJdvQ3Y2anVjEXM1Prkw,831
+query_diet/utils.py,sha256=SDbyNJGMAHW0kSpKs_e4TrhjM8MtIUcO8IzfeVw0Esc,1230
+query_diet-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+query_diet-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+query_diet-0.1.1.dist-info/METADATA,sha256=Qb-_DS8JcjLfICnpH7_ABgo_uN2cARUZ55_O9FmFGwE,399
+query_diet-0.1.1.dist-info/RECORD,,
