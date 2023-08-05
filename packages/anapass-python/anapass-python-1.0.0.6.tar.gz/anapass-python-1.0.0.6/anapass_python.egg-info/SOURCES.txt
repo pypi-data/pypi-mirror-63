@@ -1,0 +1,16 @@
+AnapassTComm.dll
+AnapassTComm32.dll
+AnapassTModule.dll
+AnapassTModule32.dll
+AnapassTParser.dll
+AnapassTParser32.dll
+README.md
+setup.py
+Anapass/TModule.py
+Anapass/__init__.py
+Anapass/Example/ReadChipID.py
+Anapass/Example/__init__.py
+anapass_python.egg-info/PKG-INFO
+anapass_python.egg-info/SOURCES.txt
+anapass_python.egg-info/dependency_links.txt
+anapass_python.egg-info/top_level.txt
