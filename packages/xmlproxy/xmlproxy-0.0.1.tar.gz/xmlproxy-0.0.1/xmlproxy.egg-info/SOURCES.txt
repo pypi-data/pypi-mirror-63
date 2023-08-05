@@ -1,0 +1,8 @@
+README.md
+setup.py
+xmlproxy/__init__.py
+xmlproxy.egg-info/PKG-INFO
+xmlproxy.egg-info/SOURCES.txt
+xmlproxy.egg-info/dependency_links.txt
+xmlproxy.egg-info/not-zip-safe
+xmlproxy.egg-info/top_level.txt
