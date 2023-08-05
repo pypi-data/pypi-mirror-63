@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+{% load static %}
+{% include 'taskboard/head.html' %}
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    {% include 'taskboard/sidebar.html' %}
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        {% include 'taskboard/topbar.html' %}
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+        </div>
+      </div>
+
+    {% include 'taskboard/footer.html' %}
+    </div>
+  </div>
+
+  {% include 'taskboard/modal-logout.html' %}
+  {% include 'taskboard/scripts.html' %}
+</body>
+
+</html>
