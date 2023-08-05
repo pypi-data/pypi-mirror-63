@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: notelate
+Version: 0.0.1
+Summary: generate jupyter notebook/lab template via command line
+Home-page: https://github.com/punisuke/notelate
+Author: punisuke
+Author-email: punisuke-@outlook.jp
+Maintainer: punisuke
+Maintainer-email: punisuke-@outlook.jp
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: License :: OSI Approved :: MIT License
