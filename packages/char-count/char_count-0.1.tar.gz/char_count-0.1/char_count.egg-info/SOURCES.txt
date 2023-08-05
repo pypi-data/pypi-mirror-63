@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+char_count/__init__.py
+char_count.egg-info/PKG-INFO
+char_count.egg-info/SOURCES.txt
+char_count.egg-info/dependency_links.txt
+char_count.egg-info/not-zip-safe
+char_count.egg-info/top_level.txt
