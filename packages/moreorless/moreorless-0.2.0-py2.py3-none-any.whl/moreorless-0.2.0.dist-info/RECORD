@@ -1,0 +1,12 @@
+moreorless/__init__.py,sha256=QV69VGViQh1ARFZEXOF7622iHFHq0jBkMoIMlzQGQts,801
+moreorless/patch.py,sha256=dY5Baiy3sKsWQadfwEBSRyDmWnZh4CQ-xrF3uVKoWxE,6048
+moreorless/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moreorless/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moreorless/tests/__main__.py,sha256=DPMrP3LxLb_Z4X8boxQAkWgMVtx8G3NVHaleSQf8tqk,123
+moreorless/tests/general.py,sha256=VOA1vIyF76fA24N0N23aU8XIkR5sQ01U1okfAs59wkA,1250
+moreorless/tests/patch.py,sha256=upnxlfExb4HJ-P_PI6szXOEdAU1VVf0QkGmOFE33Yy0,4859
+moreorless-0.2.0.dist-info/LICENSE,sha256=Ho4s2WKBzrYFrASqhzMAf7biT02EkYx0s1CIgzcVVmc,1066
+moreorless-0.2.0.dist-info/METADATA,sha256=wp6L2pIk3X20hzujig5xigDgJMkUrHe_5kweqXqQNYg,1119
+moreorless-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+moreorless-0.2.0.dist-info/top_level.txt,sha256=IC950VjrmLb9D0LFCK5TzPa07qWgGBC8op9Y7QUox_Y,11
+moreorless-0.2.0.dist-info/RECORD,,
