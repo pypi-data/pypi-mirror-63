@@ -1,0 +1,10 @@
+The software should be usable by reading the docstrings. If you think that
+certain features are missing or you found a bug, don't hesitate to ask me
+via mail!
+
+Supported Python versions currently are 2.7 and >= 3.5.
+
+Installation should be easy using setup.py. I recommend running the test suite
+by invoking "python test.py" from the source tree to spot problems early.
+
+Helmut Grohne <helmut@subdivi.de>
