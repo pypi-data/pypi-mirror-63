@@ -1,0 +1,2 @@
+evento>=1.0.2
+websockets>=8.1
