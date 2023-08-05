@@ -1,0 +1,12 @@
+pyexodus/RELEASE-VERSION,sha256=LSRU7w7etGKmzosl04eqp03wgJPVzqBCihDOVVEMYyY,6
+pyexodus/__init__.py,sha256=B5FZvHJTrkv0oV9hmgGtTCa6aapAWga0GNHImloEAH4,284
+pyexodus/core.py,sha256=S_WF4Vmks2rDJ7Mzaa2VsO3Y_ru9BuEpOJhD4cjebC8,34840
+pyexodus/version.py,sha256=emEaX2g4xJe_cuWb20_GWeZ-QOhi1tC6MG8dNi144GY,3765
+pyexodus/tests/__init__.py,sha256=j-gcNgXM4oyn0o9qCPZHmQRO_HKsepfPnIB6xhtte-0,141
+pyexodus/tests/test_reading_exodus.py,sha256=GNOpXaEeqmIDcdtYADfTdBTcVBiIToyFfpvy5vDmr8E,20051
+pyexodus/tests/test_writing_exodus.py,sha256=zJ67xydFpjLg_T9M5wUDMK1DUPpa_gdE8BCvjoFDNt0,62290
+pyexodus-0.1.3.dist-info/LICENSE.txt,sha256=26Im8F6DIM0pDGo7B2A9qcELBbRCDSO0B8m_lrg6rm4,1086
+pyexodus-0.1.3.dist-info/METADATA,sha256=CCFEXVPgJN4x-iNnH8m9eD7UOCoztsOkfrmuEa4bO0c,981
+pyexodus-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyexodus-0.1.3.dist-info/top_level.txt,sha256=hkbn0e6ER6P_FT-cdPKUlC_2soXp-2bKO1kHT-c9uBg,9
+pyexodus-0.1.3.dist-info/RECORD,,
