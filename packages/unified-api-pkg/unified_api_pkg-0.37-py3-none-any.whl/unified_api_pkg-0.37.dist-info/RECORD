@@ -1,0 +1,12 @@
+unified_api_pkg/Octopus.py,sha256=IQ8xQ5N7ObEgovWj-iw1AxXf3gdhpFq_vLOSpNJ_55E,12838
+unified_api_pkg/OctopusUtils.py,sha256=Jf6TQlMSucvwHwPBypdNeUYZ1DWGL-LSjJSzf7Azyho,19665
+unified_api_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unified_api_pkg/generalUtils.py,sha256=J4t6yDzWOiyM57-6DT9ZIpXfp1B2q7QC2z8PU8JdJI8,3272
+unified_api_pkg/qrcode.py,sha256=edp6aZT1MV7Q4f78_Yj4uYoW26xSCcgu9HEK1Wy4ZpQ,1867
+unified_api_pkg/terminal.py,sha256=OTlPw-hdboKzOO-E4IVKasEa3SGEhVcVBLRB7dJlY_I,8467
+unified_api_pkg/terminalUtils.py,sha256=3kHvs2gEjI1a7lLYNsEvEisqSbczK8U6j9sj8gXcHyk,20857
+unified_api_pkg/unifiedAPI.py,sha256=zDRNAjWL91gdUVPJ0EHs6BldTYflasZbhIu7R3Z_vDA,5090
+unified_api_pkg-0.37.dist-info/METADATA,sha256=eoGO24kuy54EdMXY03FHn7ufq8DAbw1hxTvzGmPMGzU,413
+unified_api_pkg-0.37.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+unified_api_pkg-0.37.dist-info/top_level.txt,sha256=Vw0QZVtjAlWYsUHwUyPDUL9cIWpYWR-ZRy30EhQtY_4,16
+unified_api_pkg-0.37.dist-info/RECORD,,
