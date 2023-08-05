@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pydval
+Version: 0.0.2
+Summary: Python Data Validator
+Home-page: https://github.com/ICWR-TECH/Pydval
+Author: Afrizal F.A
+Author-email: afrizal.fadillah46@gmail.com
+License: MIT
+Download-URL: https://github.com/ICWR-TECH/Pydval/raw/master/pydval-0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: pydval
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
