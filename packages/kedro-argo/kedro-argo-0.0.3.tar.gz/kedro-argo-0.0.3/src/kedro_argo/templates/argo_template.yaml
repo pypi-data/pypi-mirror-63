@@ -1,0 +1,28 @@
+#@ load("@ytt:data", "data")
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: argokedro-
+spec:
+  entrypoint: dag
+  templates:
+  - name: kedro
+    inputs:
+      parameters:
+      - name: kedro_node
+    container:
+      image: #@ data.values.image
+      command: [sh, -c]
+      args: ["kedro run -n {{inputs.parameters.kedro_node}}"]
+  - name: dag
+    dag:
+      tasks:
+      #@ for/end step in data.values.steps:
+      - name: #@ step.name
+        template: kedro
+        dependencies: #@ step.dep
+        arguments:
+          parameters:
+          - name: kedro_node
+            value: #@ step.name
