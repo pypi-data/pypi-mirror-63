@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tf_sprinkles
+Version: 1.0.1
+Summary: A fast and efficient implimentation of progressive sprinkles augmentation.
+Home-page: https://github.com/Engineero/tf_sprinkles
+Author: Engineero
+Author-email: engineerolabs@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://engineero.github.io/tf_sprinkles
+Project-URL: Source, https://github.com/Engineero/tf_sprinkles
+Project-URL: Tracker, https://github.com/Engineero/tf_sprinkles/issues
+Description: # tf_sprinkles
+        Sprinkles augmentation implemented in TensorFlow
+        
+        Based on Less Wright's Medium article, [Progessive Sprinkles: a New Data Augmentation for CNNs][0]. See also his [post on fast.ai][1].
+        
+        [0]: https://medium.com/@lessw/progressive-sprinkles-a-new-data-augmentation-for-cnns-and-helps-achieve-new-98-nih-malaria-6056965f671a
+        [1]: https://forums.fast.ai/t/progressive-sprinkles-cutout-variation-my-new-data-augmentation-98-on-nih-malaria-dataset/50454
+        
+Keywords: augmentation sprinkles tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
