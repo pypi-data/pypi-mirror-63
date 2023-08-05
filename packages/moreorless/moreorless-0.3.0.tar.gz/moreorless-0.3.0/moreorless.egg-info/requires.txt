@@ -1,0 +1,7 @@
+parameterized
+click
+volatile
+parameterized
+
+[:python_version < "3.7"]
+dataclasses
