@@ -1,0 +1,13 @@
+artext/__init__.py,sha256=onI-_F7gz4oVkc1RQ7FaLvOj9-zMveNCrjcQ44iORqk,247
+artext/__main__.py,sha256=ldktlOzYuR0ZngBvCWhJPDFlTK2daAZ7nxPg01qURn0,1020
+artext/artext.py,sha256=41U5gmSgGULIysL2zThqZQA0uP4syresRwwW4Z7aL9Y,11770
+artext/config.py,sha256=KBkoUNjQzvFtagfsyPBOXAoNOVmZvjMEght5-mCkduU,1458
+artext/inflect.py,sha256=Dx5NtMVE-zI6lMgbQozEaNF2tQqaNjeDvK-mp2S3qd4,101512
+artext/utils.py,sha256=_Jg1j01FcY647en2b_J3qkQnZH99qHc0znvBz1HWPPs,1556
+artext/word_level.py,sha256=8FROKrt8AD2KNwGmstWXLYKDpSz9By5udEGc0sYFQG8,4485
+artext-0.2.9.dist-info/LICENSE,sha256=ySRBUc2EOoFGRT7WSRZWpugZkBj0Nnt-1aoBUqv3AAc,1054
+artext-0.2.9.dist-info/METADATA,sha256=rdzwXBJWtg5YKT6pobU7OFdIsRQzmgPIJoVlyPkRI6o,12651
+artext-0.2.9.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+artext-0.2.9.dist-info/entry_points.txt,sha256=fmT2Vc0QWbwP1jOXZIULH2f8oF-IoXakrrqtbsiUCPw,49
+artext-0.2.9.dist-info/top_level.txt,sha256=-5TAfk6iKEHlsUuE3WyfcCCbmollHOoF6ZGerT2WNh8,7
+artext-0.2.9.dist-info/RECORD,,
