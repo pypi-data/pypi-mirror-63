@@ -1,0 +1,13 @@
+biopython
+celery
+ete3
+matplotlib
+natsort
+numpy
+nwalign3
+pandas
+paramiko
+pymongo
+pytest
+scikit-bio
+seaborn
