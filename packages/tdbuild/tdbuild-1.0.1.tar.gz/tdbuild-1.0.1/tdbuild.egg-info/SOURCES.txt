@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+tdbuild/__init__.py
+tdbuild/__version__.py
+tdbuild/tdbuild.py
+tdbuild/tdfile.template
+tdbuild.egg-info/PKG-INFO
+tdbuild.egg-info/SOURCES.txt
+tdbuild.egg-info/dependency_links.txt
+tdbuild.egg-info/entry_points.txt
+tdbuild.egg-info/requires.txt
+tdbuild.egg-info/top_level.txt
