@@ -1,0 +1,3 @@
+[console_scripts]
+port-linker = core.run_link:main
+
