@@ -1,0 +1,11 @@
+myimage/__init__.py,sha256=de2WwyRAoeEtTKvxW8zTzi69aiz_mylwP6LTXBb3sPk,340
+myimage/common.py,sha256=auNJZPJ9YaT2HF532pntPCfSq2h3_en7EosbqSlt2Ms,687
+myimage/settings.py,sha256=MQrsQB9uQOdt0adPQ7Ft3mfrEL2yaGTj3O9zDXiXNKg,393
+myimage/settings_sample.py,sha256=zEnOibg930IhIMi8Nbd18a1dH_aCNia5BDMMJk0R-5w,412
+myimage/upload/__init__.py,sha256=goBzdAPN7uFsVJEIVRMGjEc3UsakHM2fuIch6zSsBI8,206
+myimage/upload/qiniuyun.py,sha256=aoloQrWHRkHQa9I9EJIu5uC_SYz-O7r9tllqDS1oDEI,2160
+myimage/upload/sm_ms.py,sha256=I9XI03lQrtbmbweVDNMaQH7T04-tsa61vilFLq9fwGE,921
+myimage-0.0.6.dist-info/METADATA,sha256=1BABrYHeV6_CMyJR1it2j1A7c5mx_qSC8lD4rcYMNzM,2146
+myimage-0.0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+myimage-0.0.6.dist-info/top_level.txt,sha256=y0DPIQT31tbn3Wb6MgCO4071z9Cua5M-LVLXpEN_T10,8
+myimage-0.0.6.dist-info/RECORD,,
