@@ -1,0 +1,10 @@
+matplotlib
+iminuit
+scipy
+numpy
+pandas
+pyod
+sklearn
+xgboost
+catboost
+lightgbm
