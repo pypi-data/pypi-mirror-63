@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+kube_cli/__init__.py
+kube_cli/__main__.py
+kube_cli/main.py
+kube_cli.egg-info/PKG-INFO
+kube_cli.egg-info/SOURCES.txt
+kube_cli.egg-info/dependency_links.txt
+kube_cli.egg-info/entry_points.txt
+kube_cli.egg-info/top_level.txt
