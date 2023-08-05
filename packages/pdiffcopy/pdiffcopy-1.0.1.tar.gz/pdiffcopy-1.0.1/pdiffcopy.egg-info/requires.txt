@@ -1,0 +1,11 @@
+coloredlogs>=10.0
+humanfriendly>=8.1
+property-manager>=3.0
+six>=1.12.0
+
+[client]
+requests>=2.22.0
+
+[server]
+flask>=1.0.3
+gunicorn>=19.9.0
