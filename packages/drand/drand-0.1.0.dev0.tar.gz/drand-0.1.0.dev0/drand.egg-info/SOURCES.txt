@@ -1,0 +1,8 @@
+README.rst
+setup.py
+drand/__init__.py
+drand.egg-info/PKG-INFO
+drand.egg-info/SOURCES.txt
+drand.egg-info/dependency_links.txt
+drand.egg-info/not-zip-safe
+drand.egg-info/top_level.txt
