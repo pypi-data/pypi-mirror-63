@@ -1,0 +1,11 @@
+pytextdist/__init__.py,sha256=Wuap4IA9F6dUTMZQ6xpnOwKpFmFGTqhwAkssordEKb4,974
+pytextdist/edit_distance.py,sha256=src5tkHd5-ImPdg1VRQFxndUwaN4jBqpI69Ii4a5wFk,19786
+pytextdist/input_validator.py,sha256=eWbaP8wY6gxzsxag7lPz6p15PDpXwfcXRAEUMtBfpNM,921
+pytextdist/levenshtein.py,sha256=HHBIB4z0i0PevvZxgZDvhaOpdxk71PswEslA99Jykjg,1358
+pytextdist/preprocessing.py,sha256=hIXM1XAXSwDvRlVS3aS8-K6BsH1GKsr4y2JKuxve0sE,3492
+pytextdist/vector_similarity.py,sha256=owhXW42FUt9PLQBHElpkwlELJUUyRPLtJ3QV6_wRZzk,6221
+pytextdist-0.1.4.dist-info/LICENSE,sha256=nRRaF5Pc8yYDhBGV-GKsR-spzHhbGpmsP8yVKD8YP3k,1065
+pytextdist-0.1.4.dist-info/METADATA,sha256=PKzx8tRrYbkz9Do2OiGxYej0jLIS-NTks7eznMTzpb8,10710
+pytextdist-0.1.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pytextdist-0.1.4.dist-info/top_level.txt,sha256=4K_HdOwuLB02oSu52EHxwpGtpUXBG7BYWXL6G1YbbBI,11
+pytextdist-0.1.4.dist-info/RECORD,,
