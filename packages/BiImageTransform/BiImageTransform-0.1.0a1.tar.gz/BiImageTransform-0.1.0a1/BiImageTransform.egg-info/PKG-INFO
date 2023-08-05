@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: BiImageTransform
+Version: 0.1.0a1
+Summary: PyTorch Transform for color image and grayscale mask
+Home-page: https://github.com/aoirint/BiImageTransform
+Author: aoirint
+Author-email: aoirint@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
