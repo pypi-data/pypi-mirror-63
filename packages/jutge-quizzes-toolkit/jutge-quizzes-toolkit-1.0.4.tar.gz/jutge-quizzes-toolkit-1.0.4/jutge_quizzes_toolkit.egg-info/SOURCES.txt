@@ -1,0 +1,10 @@
+README.md
+setup.py
+jutge_quizzes_toolkit.egg-info/PKG-INFO
+jutge_quizzes_toolkit.egg-info/SOURCES.txt
+jutge_quizzes_toolkit.egg-info/dependency_links.txt
+jutge_quizzes_toolkit.egg-info/entry_points.txt
+jutge_quizzes_toolkit.egg-info/not-zip-safe
+jutge_quizzes_toolkit.egg-info/requires.txt
+jutge_quizzes_toolkit.egg-info/top_level.txt
+src/__init__.py
