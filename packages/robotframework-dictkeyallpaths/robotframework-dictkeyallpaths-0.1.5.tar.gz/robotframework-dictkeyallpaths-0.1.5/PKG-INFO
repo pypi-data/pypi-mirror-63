@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: robotframework-dictkeyallpaths
+Version: 0.1.5
+Summary: This is a function for robotframework that gets the keys of all values ​​in the dictionary.
+Home-page: https://github.com/yoochar/readme-robotframework-dictallpaths.git
+Author: Yoochar
+Author-email: yoochar@gmail.com
+License: MIT
+Description: Find more details at URL:https://github.com/yoochar/readme-robotframework-dictallpaths.git
+Keywords: robot,robotframework,dictionary,path,key,jsonpath,dictpath,getallpath,getallkey,automation,api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
