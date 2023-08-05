@@ -1,0 +1,12 @@
+cloudmesh_test-4.1.7-py3.8-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/test/CloudmeshTest.py,sha256=R4sBq8MS98tGmS047hIM-rynuyDdoerwRYaYAiejXMU,9075
+cloudmesh/test/__init__.py,sha256=405MEUrX4X7z1JW5Skb4Cjvh6VgVPDEB4ouL5J6WRng,22
+cloudmesh/test/__version__.py,sha256=GuktkJ9v0ExjbI66LkUcrWOhzIac-tJu8lMXsOUwxwM,18
+cloudmesh/test/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/test/command/test.py,sha256=EBEifpnFMuKhom7vtFxRXtnKlqhtI7LjLfJloImlKsw,2806
+cloudmesh_test-4.1.7.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_test-4.1.7.dist-info/METADATA,sha256=JlHTjKnbEZexKlPzszfD4rruLVFEmDoQHUawsBwpuns,1501
+cloudmesh_test-4.1.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_test-4.1.7.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_test-4.1.7.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_test-4.1.7.dist-info/RECORD,,
