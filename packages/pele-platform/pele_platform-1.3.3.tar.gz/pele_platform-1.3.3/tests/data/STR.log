@@ -1,0 +1,554 @@
+2020-03-06 18:53:26,644:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:27,701:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:53:29,204:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:29,204:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:53:29,204:INFO:Setting metrics
+2020-03-06 18:53:29,204:INFO:Metrics set
+
+
+2020-03-06 18:53:29,204:INFO:Creating template for residue STR
+2020-03-06 18:53:32,296:INFO:Template strz created
+
+
+2020-03-06 18:53:32,296:INFO:Generating exploration box
+2020-03-06 18:53:32,297:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:53:32,297:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:53:32,297:INFO:Implicit solvent set
+
+
+2020-03-06 18:53:32,297:INFO:Running Simulation
+2020-03-06 18:53:32,301:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:53:32,307:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:33,337:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:53:34,780:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:34,780:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_1/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:53:34,780:INFO:Setting metrics
+2020-03-06 18:53:34,780:INFO:Metrics set
+
+
+2020-03-06 18:53:34,780:INFO:Creating template for residue STR
+2020-03-06 18:53:37,751:INFO:Template strz created
+
+
+2020-03-06 18:53:37,751:INFO:Generating exploration box
+2020-03-06 18:53:37,751:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:53:37,752:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:53:37,752:INFO:Implicit solvent set
+
+
+2020-03-06 18:53:37,752:INFO:Running Simulation
+2020-03-06 18:53:37,753:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:53:37,763:INFO:System: IK1; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:38,814:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/out_in/1_3ZON_complex.pdb
+2020-03-06 18:53:38,958:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:39,961:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:53:41,354:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:41,355:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_2/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:53:41,355:INFO:Setting metrics
+2020-03-06 18:53:41,355:INFO:Metrics set
+
+
+2020-03-06 18:53:41,355:INFO:Creating template for residue STR
+2020-03-06 18:53:44,435:INFO:Template strz created
+
+
+2020-03-06 18:53:44,436:INFO:Generating exploration box
+2020-03-06 18:53:44,436:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:53:44,436:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:53:44,436:INFO:Implicit solvent set
+
+
+2020-03-06 18:53:44,437:INFO:Running Simulation
+2020-03-06 18:53:44,438:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:53:44,444:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:45,457:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:53:46,959:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:46,959:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_3/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:53:46,959:INFO:Setting metrics
+2020-03-06 18:53:46,959:INFO:Metrics set
+
+
+2020-03-06 18:53:46,959:INFO:Creating template for residue STR
+2020-03-06 18:53:49,930:INFO:Template strz created
+
+
+2020-03-06 18:53:49,930:INFO:Generating exploration box
+2020-03-06 18:53:49,931:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:53:49,931:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:53:49,931:INFO:Implicit solvent set
+
+
+2020-03-06 18:53:49,931:INFO:Running Simulation
+2020-03-06 18:53:49,932:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:53:49,940:INFO:System: HOH; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:49,940:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/water/water_processed.pdb
+2020-03-06 18:53:51,890:INFO:
+	**Missing residues found [['SB4', 401, 'J']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:51,890:INFO:Complex /home/dsoler/repos/pele_platform/tests/HOH_Pele/water_processed_processed.pdb prepared
+
+
+2020-03-06 18:53:51,890:INFO:Setting metrics
+2020-03-06 18:53:51,890:INFO:Metrics set
+
+
+2020-03-06 18:53:51,890:INFO:Creating template for residue SB4
+2020-03-06 18:53:55,788:INFO:Template SB4z created
+
+
+2020-03-06 18:53:55,789:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:53:55,789:INFO:Implicit solvent set
+
+
+2020-03-06 18:53:55,789:INFO:Running Simulation
+2020-03-06 18:53:55,791:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:53:55,799:INFO:System: SB4; Platform Functionality: Adaptive
+
+
+2020-03-06 18:53:56,854:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/water/water_processed.pdb
+2020-03-06 18:53:58,795:INFO:
+	**Missing residues found [['SB4', 401, 'J']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:53:58,795:INFO:Complex /home/dsoler/repos/pele_platform/tests/SB4_Pele/water_processed_processed.pdb prepared
+
+
+2020-03-06 18:53:58,795:INFO:Setting metrics
+2020-03-06 18:53:58,795:INFO:Metrics set
+
+
+2020-03-06 18:53:58,796:INFO:Creating template for residue SB4
+2020-03-06 18:54:01,853:INFO:Template sb4z created
+
+
+2020-03-06 18:54:01,853:INFO:Generating exploration box
+2020-03-06 18:54:01,855:INFO:Box [21.065, -22.435, 29.498] generated
+
+
+2020-03-06 18:54:01,856:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:54:01,856:INFO:Implicit solvent set
+
+
+2020-03-06 18:54:01,856:INFO:Running Simulation
+2020-03-06 18:54:01,857:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:54:01,864:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2020-03-06 18:54:02,887:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/bias/complex.pdb
+2020-03-06 18:54:04,438:INFO:
+	**Missing residues found [['LIG', 275, 'L']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:54:04,438:INFO:Complex /home/dsoler/repos/pele_platform/tests/LIG_Pele_2/complex_processed.pdb prepared
+
+
+2020-03-06 18:54:04,438:INFO:Setting metrics
+2020-03-06 18:54:04,439:INFO:Metrics set
+
+
+2020-03-06 18:54:04,439:INFO:Creating template for residue LIG
+2020-03-06 18:54:07,224:INFO:Template ligz created
+
+
+2020-03-06 18:54:07,225:INFO:Generating exploration box
+2020-03-06 18:54:07,225:INFO:Box [54.975, 37.306, 47.526] generated
+
+
+2020-03-06 18:54:07,225:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:54:07,225:INFO:Implicit solvent set
+
+
+2020-03-06 18:54:07,225:INFO:Running Simulation
+2020-03-06 18:54:07,228:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:54:07,233:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:54:08,268:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:54:09,646:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:54:09,646:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_4/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:54:09,646:INFO:Setting metrics
+2020-03-06 18:54:09,647:INFO:Metrics set
+
+
+2020-03-06 18:54:09,647:INFO:Creating template for residue STR
+2020-03-06 18:54:12,709:INFO:Template strz created
+
+
+2020-03-06 18:54:12,710:INFO:Generating exploration box
+2020-03-06 18:54:12,710:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:54:12,710:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:54:12,711:INFO:Implicit solvent set
+
+
+2020-03-06 18:54:12,711:INFO:Running Simulation
+2020-03-06 18:54:12,712:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:54:12,720:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:54:13,762:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:54:15,222:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:54:15,222:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_5/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:54:15,222:INFO:Setting metrics
+2020-03-06 18:54:15,223:INFO:Metrics set
+
+
+2020-03-06 18:54:15,223:INFO:Creating template for residue STR
+2020-03-06 18:54:18,270:INFO:Template strz created
+
+
+2020-03-06 18:54:18,271:INFO:Generating exploration box
+2020-03-06 18:54:18,271:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:54:18,272:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:54:18,272:INFO:Implicit solvent set
+
+
+2020-03-06 18:54:18,272:INFO:Running Simulation
+2020-03-06 18:54:50,248:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:54:52,240:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:54:53,270:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:54:54,655:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:54:54,655:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_6/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:54:54,655:INFO:Setting metrics
+2020-03-06 18:54:54,656:INFO:Metrics set
+
+
+2020-03-06 18:54:54,656:INFO:Creating template for residue STR
+2020-03-06 18:54:57,724:INFO:Template strz created
+
+
+2020-03-06 18:54:57,725:INFO:Generating exploration box
+2020-03-06 18:54:57,725:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:54:57,726:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:54:57,726:INFO:Implicit solvent set
+
+
+2020-03-06 18:54:57,726:INFO:Running Simulation
+2020-03-06 18:55:29,539:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:55:31,672:INFO:System: IK1; Platform Functionality: Adaptive
+
+
+2020-03-06 18:55:32,742:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/out_in/1_3ZON_complex.pdb
+2020-03-06 18:55:32,887:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:55:33,898:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:55:35,434:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:55:35,435:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_7/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:55:35,435:INFO:Setting metrics
+2020-03-06 18:55:35,435:INFO:Metrics set
+
+
+2020-03-06 18:55:35,436:INFO:Creating template for residue STR
+2020-03-06 18:55:38,491:INFO:Template strz created
+
+
+2020-03-06 18:55:38,491:INFO:Generating exploration box
+2020-03-06 18:55:38,492:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:55:38,492:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:55:38,492:INFO:Implicit solvent set
+
+
+2020-03-06 18:55:38,493:INFO:Running Simulation
+2020-03-06 18:56:10,895:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:56:13,060:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:56:14,073:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:56:15,513:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:56:15,513:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_8/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:56:15,514:INFO:Setting metrics
+2020-03-06 18:56:15,514:INFO:Metrics set
+
+
+2020-03-06 18:56:15,514:INFO:Creating template for residue STR
+2020-03-06 18:56:18,444:INFO:Template strz created
+
+
+2020-03-06 18:56:18,445:INFO:Generating exploration box
+2020-03-06 18:56:18,445:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:56:18,445:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:56:18,446:INFO:Implicit solvent set
+
+
+2020-03-06 18:56:18,446:INFO:Running Simulation
+2020-03-06 18:56:50,913:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:56:52,310:INFO:System: HOH; Platform Functionality: Adaptive
+
+
+2020-03-06 18:56:52,311:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/water/water_processed.pdb
+2020-03-06 18:56:54,424:INFO:
+	**Missing residues found [['SB4', 401, 'J']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:56:54,424:INFO:Complex /home/dsoler/repos/pele_platform/tests/HOH_Pele_1/water_processed_processed.pdb prepared
+
+
+2020-03-06 18:56:54,425:INFO:Setting metrics
+2020-03-06 18:56:54,425:INFO:Metrics set
+
+
+2020-03-06 18:56:54,425:INFO:Creating template for residue SB4
+2020-03-06 18:56:58,468:INFO:Template SB4z created
+
+
+2020-03-06 18:56:58,469:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:56:58,470:INFO:Implicit solvent set
+
+
+2020-03-06 18:56:58,470:INFO:Running Simulation
+2020-03-06 18:57:28,002:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:57:28,048:INFO:System: HOH; Platform Functionality: Adaptive
+
+
+2020-03-06 18:57:28,048:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/water/water_processed.pdb
+2020-03-06 18:57:29,990:INFO:
+	**Missing residues found [['SB4', 401, 'J']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:57:29,990:INFO:Complex /home/dsoler/repos/pele_platform/tests/HOH_Pele_2/water_processed_processed.pdb prepared
+
+
+2020-03-06 18:57:29,990:INFO:Setting metrics
+2020-03-06 18:57:29,991:INFO:Metrics set
+
+
+2020-03-06 18:57:29,991:INFO:Creating template for residue SB4
+2020-03-06 18:57:34,010:INFO:Template SB4z created
+
+
+2020-03-06 18:57:34,011:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:57:34,011:INFO:Implicit solvent set
+
+
+2020-03-06 18:57:34,012:INFO:Running Simulation
+2020-03-06 18:58:04,524:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:58:04,566:INFO:System: SB4; Platform Functionality: Adaptive
+
+
+2020-03-06 18:58:05,587:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/water/water_processed.pdb
+2020-03-06 18:58:07,667:INFO:
+	**Missing residues found [['SB4', 401, 'J']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:58:07,668:INFO:Complex /home/dsoler/repos/pele_platform/tests/SB4_Pele_1/water_processed_processed.pdb prepared
+
+
+2020-03-06 18:58:07,668:INFO:Setting metrics
+2020-03-06 18:58:07,668:INFO:Metrics set
+
+
+2020-03-06 18:58:07,670:INFO:Creating template for residue SB4
+2020-03-06 18:58:10,613:INFO:Template sb4z created
+
+
+2020-03-06 18:58:10,615:INFO:Generating exploration box
+2020-03-06 18:58:10,616:INFO:Box [21.065, -22.435, 29.498] generated
+
+
+2020-03-06 18:58:10,616:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:58:10,617:INFO:Implicit solvent set
+
+
+2020-03-06 18:58:10,617:INFO:Running Simulation
+2020-03-06 18:58:55,459:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:58:57,009:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2020-03-06 18:58:58,000:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/bias/complex.pdb
+2020-03-06 18:58:59,614:INFO:
+	**Missing residues found [['LIG', 275, 'L']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:58:59,614:INFO:Complex /home/dsoler/repos/pele_platform/tests/LIG_Pele_3/complex_processed.pdb prepared
+
+
+2020-03-06 18:58:59,614:INFO:Setting metrics
+2020-03-06 18:58:59,614:INFO:Metrics set
+
+
+2020-03-06 18:58:59,615:INFO:Creating template for residue LIG
+2020-03-06 18:59:02,415:INFO:Template ligz created
+
+
+2020-03-06 18:59:02,418:INFO:Generating exploration box
+2020-03-06 18:59:02,419:INFO:Box [54.975, 37.306, 47.526] generated
+
+
+2020-03-06 18:59:02,419:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:59:02,420:INFO:Implicit solvent set
+
+
+2020-03-06 18:59:02,420:INFO:Running Simulation
+2020-03-06 18:59:33,915:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:59:40,543:INFO:Simulation run succesfully (:
+
+
+2020-03-06 18:59:42,008:INFO:System: STR; Platform Functionality: Adaptive
+
+
+2020-03-06 18:59:43,063:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_1A28_xray_-_minimized.pdb
+2020-03-06 18:59:44,527:INFO:
+	**Missing residues found [['STR', 1, 'Z']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 18:59:44,529:INFO:Complex /home/dsoler/repos/pele_platform/tests/STR_Pele_9/PR_1A28_xray_-_minimized_processed.pdb prepared
+
+
+2020-03-06 18:59:44,529:INFO:Setting metrics
+2020-03-06 18:59:44,529:INFO:Metrics set
+
+
+2020-03-06 18:59:44,530:INFO:Creating template for residue STR
+2020-03-06 18:59:47,534:INFO:Template strz created
+
+
+2020-03-06 18:59:47,535:INFO:Generating exploration box
+2020-03-06 18:59:47,536:INFO:Box [-20.332, 59.897, 2.823] generated
+
+
+2020-03-06 18:59:47,536:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 18:59:47,536:INFO:Implicit solvent set
+
+
+2020-03-06 18:59:47,537:INFO:Running Simulation
+2020-03-06 19:00:18,846:INFO:Simulation run succesfully (:
+
+
+2020-03-06 19:00:21,069:INFO:System: AS4; Platform Functionality: Adaptive
+
+
+2020-03-06 19:00:22,071:INFO:Prepare complex /home/dsoler/repos/pele_platform/pele_platform/Examples/Msm/PR_AS4.pdb
+2020-03-06 19:00:23,580:INFO:
+	**Missing residues found [['AS4', 1, 'L']]
+	**Gaps found {}
+	**Metals found {}
+2020-03-06 19:00:23,580:INFO:Complex /home/dsoler/repos/pele_platform/tests/AS4_Pele/PR_AS4_processed.pdb prepared
+
+
+2020-03-06 19:00:23,580:INFO:Setting metrics
+2020-03-06 19:00:23,583:INFO:Metrics set
+
+
+2020-03-06 19:00:23,583:INFO:Creating template for residue AS4
+2020-03-06 19:00:26,738:INFO:Template as4z created
+
+
+2020-03-06 19:00:26,739:INFO:Generating exploration box
+2020-03-06 19:00:26,739:INFO:Box [-20.66, 59.868, 2.848] generated
+
+
+2020-03-06 19:00:26,740:INFO:Setting implicit solvent: VDGBNP
+2020-03-06 19:00:26,740:INFO:Implicit solvent set
+
+
+2020-03-06 19:00:26,740:INFO:Running Simulation
