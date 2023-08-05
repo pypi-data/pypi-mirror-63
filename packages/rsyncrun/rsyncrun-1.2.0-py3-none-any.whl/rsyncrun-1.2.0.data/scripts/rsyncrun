@@ -1,0 +1,6 @@
+#!python
+
+import sys
+from rsyncrun import RsyncRun
+
+RsyncRun(sys.argv).run()

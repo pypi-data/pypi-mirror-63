@@ -1,0 +1,13 @@
+rsyncrun/__init__.py,sha256=4os4vjmUjZJjL6gIvoVNV2GqWXPAsD5DxZS2x7_DY1k,79
+rsyncrun/compatible.py,sha256=L-jg2XCNKXmMPmQLJLzym3J3W5RJWUx5BsdvZtd3oRM,783
+rsyncrun/installer.py,sha256=PwhMbX6ooIlP00P8BxdKgas6xhdbEa3ubQkOGdzHk3k,1043
+rsyncrun/json_conf_template.py,sha256=qPpooIqg6ElPL3U3-DHIIGu6FG1Sb9HW3s39SmvmKOc,1633
+rsyncrun/rsync_run.py,sha256=I16Wgcx7j-z3MSi1j8olOWu3oKxCeRFdAKoASwNqwGU,4563
+rsyncrun/shell.py,sha256=whNixwNxeJiH00w9gDq5jHM4wL7U0P9ipEcOKkR1Bao,1138
+rsyncrun/steps.py,sha256=Q_RQNJ265IWlROVW_oO5RH6a_Ltfk6TmKVFrpUnD70I,3923
+rsyncrun-1.2.0.data/scripts/rsyncrun,sha256=HNOvnsgMX3ad9oyBmhlCUoOVLWPFfpaLCQZsMcZD1TA,77
+rsyncrun-1.2.0.dist-info/LICENSE,sha256=bJkMllHARQeP28_ChlvGw7fijEq5gYatPLdg5TUC9DY,1093
+rsyncrun-1.2.0.dist-info/METADATA,sha256=BVS2setDovCHxL7FDuaPqeRcisgKHG-erQDL2K5fwCc,1733
+rsyncrun-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rsyncrun-1.2.0.dist-info/top_level.txt,sha256=9JOeTdhl0vrFkmmx1XSPWAshBIQw3x_ijVjjCavNRNA,9
+rsyncrun-1.2.0.dist-info/RECORD,,
