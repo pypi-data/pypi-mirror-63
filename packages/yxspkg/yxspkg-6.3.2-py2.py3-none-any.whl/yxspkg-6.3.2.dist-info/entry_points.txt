@@ -1,0 +1,10 @@
+[console_scripts]
+dog-cat = yxspkg.dog_cat.dog_cat:main
+fafa-excel = yxspkg.fafa_excel:main
+songzigif = yxspkg.songzgif.gif:main
+songziviewer = yxspkg.songziviewer:main
+yxspkg-m3u8 = yxspkg.m3u8:main
+yxspkg-md5 = yxspkg.md5:main
+yxspkg-pip = yxspkg.pip:main
+yxspkg-server = yxpskg.server:main
+
