@@ -1,0 +1,3 @@
+include LICENSE
+include psmtemplate/static/*
+exclude psmtemplate/test/*
