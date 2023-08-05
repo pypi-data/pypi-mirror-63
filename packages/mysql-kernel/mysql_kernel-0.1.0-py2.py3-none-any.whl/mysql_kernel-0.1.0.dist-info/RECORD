@@ -1,0 +1,9 @@
+mysql_kernel/__init__.py,sha256=5eB-pBvJhT4cs4AkFW2fJacCQPcsu2zmy95ArDVKzvY,93
+mysql_kernel/__main__.py,sha256=O_j-T5glEi-FtliAtRE34SelUNGvMb95baFJMd6N3lQ,132
+mysql_kernel/install.py,sha256=q8S6x7JPElVm_2NI7Yj5nM3xzAA90Dme7L9IF2miU_U,4292
+mysql_kernel/kernel.py,sha256=CB05ozy4xv7mKOBExa1le-R_i2QAfptD9TJt902Tf08,2224
+mysql_kernel-0.1.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mysql_kernel-0.1.0.dist-info/METADATA,sha256=ilvJ5nnYiP8dNO1sRnG1EDMXAGPlh1b6tCyqxHXCYLA,1414
+mysql_kernel-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+mysql_kernel-0.1.0.dist-info/top_level.txt,sha256=gIuV_axm1YGcQKyEUU_EqIWk-oR6glUj2tBI7tuXG1Y,13
+mysql_kernel-0.1.0.dist-info/RECORD,,

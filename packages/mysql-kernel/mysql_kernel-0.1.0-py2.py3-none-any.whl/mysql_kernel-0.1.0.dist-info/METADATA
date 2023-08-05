@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: mysql-kernel
+Version: 0.1.0
+Summary: A mysql kernel for Jupyter.
+Home-page: https://github.com/Hourout/Mysql_kernel
+Author: JinQing Lee
+Author-email: hourout@163.com
+License: Apache License Version 2.0
+Keywords: jupyter_kernel,mysql_kernel
+Platform: UNKNOWN
+Classifier: Framework :: IPython
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Shells
+Description-Content-Type: text/markdown
+Requires-Dist: pymysql
+Requires-Dist: sqlalchemy
+Requires-Dist: pandas
+Requires-Dist: jupyter
+
+# Mysql_kernel
+Jupyter Kernel for Mysql
+
+## Install
+
+```
+pip3 install mysql_kernel
+```
+
+Add kernel to your jupyter:
+
+```
+python3 -m mysql_kernel.install
+```
+
+ALL DONE! 🎉🎉🎉
+
+## Using
+
+```
+jupyter notebook
+```
+![](image/mysql1.png)
+
+### step1: you should set mysql host and port
+
+### step2: write your mysql code
+![](image/mysql2.png)
+
+## Quote 
+kernel logo
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Antu_mysql-workbench.svg/1024px-Antu_mysql-workbench.svg.png" width = "32" height = "32" />
+
+
