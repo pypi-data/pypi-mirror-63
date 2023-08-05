@@ -1,0 +1,19 @@
+python3-gpiod (0.3.0) unstable; urgency=medium
+
+  * Add open, reset function
+  * Add LICENSE
+  * Create README.md
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Wed, 11 Mar 2020 18:58:14 +0900
+
+python3-gpiod (0.2.0) unstable; urgency=medium
+
+  * Add chip, line_request, line, line_event class
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Wed, 11 Mar 2020 13:28:45 +0900
+
+python3-gpiod (0.1.0) unstable; urgency=medium
+
+  * Add initial setup files
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Tue, 10 Mar 2020 15:40:13 +0900
