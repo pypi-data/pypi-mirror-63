@@ -1,0 +1,8 @@
+setup.py
+BitSet.egg-info/PKG-INFO
+BitSet.egg-info/SOURCES.txt
+BitSet.egg-info/dependency_links.txt
+BitSet.egg-info/not-zip-safe
+BitSet.egg-info/top_level.txt
+bitset/__init__.py
+bitset/bitset.py
