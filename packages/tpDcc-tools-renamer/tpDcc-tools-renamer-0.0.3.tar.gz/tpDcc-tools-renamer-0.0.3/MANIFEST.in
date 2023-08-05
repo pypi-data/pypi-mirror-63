@@ -1,0 +1,3 @@
+include tpDcc/tools/renamer/__logging__.ini
+include tpDcc/tools/renamer/resources/icons/default/*.*
+include tpDcc/tools/renamer/resources/icons/color/*.*
