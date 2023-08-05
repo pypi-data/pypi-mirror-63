@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "jsomark"
+version = "0.2.2"
+description = "json to xml composing and parsing convention."
+authors = ["Knowark"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/knowark/jsomark"
+repository = "https://github.com/knowark/jsomark"
+keywords = ["json", "xml"]
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+lxml = "^4.5.0"
+pytest = "^5.3.5"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.8.1"
+bump2version = "0.5.11"
+codecov = "^2.0.16"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
