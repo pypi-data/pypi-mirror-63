@@ -1,0 +1,9 @@
+README.md
+setup.py
+pbirest/__init__.py
+pbirest/core.py
+pbirest.egg-info/PKG-INFO
+pbirest.egg-info/SOURCES.txt
+pbirest.egg-info/dependency_links.txt
+pbirest.egg-info/requires.txt
+pbirest.egg-info/top_level.txt
