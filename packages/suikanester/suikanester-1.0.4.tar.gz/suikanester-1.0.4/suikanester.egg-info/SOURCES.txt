@@ -1,0 +1,6 @@
+setup.py
+suikanester.py
+suikanester.egg-info/PKG-INFO
+suikanester.egg-info/SOURCES.txt
+suikanester.egg-info/dependency_links.txt
+suikanester.egg-info/top_level.txt
