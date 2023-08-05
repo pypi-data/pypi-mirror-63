@@ -1,0 +1,211 @@
+Metadata-Version: 2.1
+Name: stock-pandas
+Version: 0.3.0
+Summary: The wrapper of `pandas.DataFrame` with stock statistics and indicators support.
+Home-page: https://github.com/kaelzhang/stock-pandas
+Author: Kael Zhang
+Author-email: i+pypi@kael.me
+License: MIT
+Description: [![](https://travis-ci.org/kaelzhang/stock-pandas.svg?branch=master)](https://travis-ci.org/kaelzhang/stock-pandas)
+        [![](https://codecov.io/gh/kaelzhang/stock-pandas/branch/master/graph/badge.svg)](https://codecov.io/gh/kaelzhang/stock-pandas)
+        [![](https://img.shields.io/pypi/v/stock-pandas.svg)](https://pypi.org/project/stock-pandas/)
+        [![](https://img.shields.io/pypi/l/stock-pandas.svg)](https://github.com/kaelzhang/stock-pandas)
+        
+        # stock-pandas
+        
+        A wrapper and a subtle class of `pandas.DataFrame` which supports:
+        - stock statistics
+        - all kinds of stock indicators
+        
+        `stock-pandas` makes automatical trading much easier. `stock-pandas` requires Python >= **3.6**
+        
+        With the help of `stock-pandas` and mplfinance, we could easily draw something like:
+        
+        ![](boll.png)
+        
+        The code example is available at [here](https://github.com/kaelzhang/stock-pandas/blob/master/example/bollinger_bands.ipynb).
+        
+        ## Install
+        
+        ```sh
+        pip install stock-pandas
+        ```
+        
+        ## Usage
+        
+        ```py
+        from stock_pandas import StockDataFrame
+        ```
+        
+        We also have some examples with annotations in the [`example`](https://github.com/kaelzhang/stock-pandas/tree/master/example) directory, you could use [JupyterLab](https://jupyter.org/) or Jupyter notebook to play with them.
+        
+        ### StockDataFrame
+        
+        `StockDataFrame` inherits from `pandas.DataFrame`, so if you are familiar with `pandas.DataFrame`, you are already ready to use `stock-pandas`
+        
+        ```py
+        import pandas as pd
+        stock = StockDataFrame(pd.read_csv('stock.csv'))
+        ```
+        
+        As we know, we could use `[]`, which called **pandas indexing** (a.k.a. `__getitem__` in python) to select out lower-dimensional slices. In addition to indexing with `colname` (column name of the `DataFrame`), we could also do indexing by `directive`s.
+        
+        ```py
+        stock[directive]
+        
+        stock[[directive0, directive1]]
+        ```
+        
+        We have an example to show the most basic indexing using `[directive]`
+        
+        ```py
+        stock = StockDataFrame({
+            'open' : ...,
+            'high' : ...,
+            'low'  : ...,
+            'close': [5, 6, 7, 8, 9]
+        })
+        
+        stock['ma:2']
+        
+        # 0    NaN
+        # 1    5.5
+        # 2    6.5
+        # 3    7.5
+        # 4    8.5
+        # Name: ma:2,close, dtype: float64
+        ```
+        
+        Which prints the 2-period simple moving average on column `"close"`.
+        
+        #### stock.calc(directive: str, create_column: bool=False) -> Series
+        
+        Calculates series according to the directive.
+        
+        ```py
+        stock['ma:2']
+        # is equivalent to:
+        stock.calc('ma:2', create_column=True)
+        ```
+        
+        ```py
+        # This will only calculate without creating a new column in the dataframe
+        stock.calc('ma:20')
+        ```
+        
+        #### stock.alias(alias: str, name: str) -> None
+        
+        Defines column alias or directive alias
+        
+        - **alias** `str` the alias name
+        - **name** `str` the name of an existing column or the directive string
+        
+        ```py
+        # Some plot library such as `mplfinance` requires a column named capitalized `Open`,
+        # but it is ok, we could create an alias.
+        stock.alias('Open', 'open')
+        
+        stock.alias('buy_point', 'kdj.j < 0')
+        ```
+        
+        ## Syntax of `directive`
+        
+        ```ebnf
+        column_name := command_name | command_name operator expression
+        operator := '/' | '\' | '<' | '<=' | '==' | '>=' | '>' | '><'
+        expression := float | command_name
+        command_name := indicator | indicator : arguments
+        indicator := alphabets | alphabets.alphabets
+        arguments := string | arguments , string
+        ```
+        
+        #### `directive` Example
+        
+        Here lists several use cases of column names
+        
+        ```py
+        # The 20-day(default) moving average
+        #   which is the mid band of bollinger bands
+        stock['boll']
+        
+        # kdjj less than 0
+        stock['kdj.j < 0']
+        
+        # 9-day kdjk cross up 3-day kdjd
+        stock['kdj.k:9 / kdj.d:3']
+        
+        # 5-day simple moving average
+        stock['ma:5']
+        
+        # 10-day simple moving average on open prices
+        stock['ma:10,open']
+        ```
+        
+        ## Built-in Commands
+        
+        ### `ma`, simple moving averages
+        
+        ### `macd`
+        
+        ```py
+        # macd
+        stock['macd']
+        stock['macd.dif']
+        
+        # macd signal band, which is a shortcut for stock['macd.signal']
+        stock['macd.s']
+        stock['macd.signal']
+        stock['macd.dea']
+        
+        # macd histogram band, which is equivalent to stock['macd.h']
+        stock['macd.histogram']
+        stock['macd.h']
+        stock['macd.macd']
+        ```
+        
+        ### `boll`, bollinger bands
+        
+        ```py
+        # boll
+        stock['boll']
+        
+        # bollinger upper band, a shortcut for stock['boll.upper']
+        stock['boll.u']
+        stock['boll.upper]
+        
+        # bollinger lower band, which is equivalent to stock['boll.l']
+        stock['boll.lower']
+        stock['boll.l']
+        ```
+        
+        ## Operators
+        
+        - **`/`**:
+        - **`\`**:
+        - **`<`**:
+        - **`<=`**:
+        - **`==`**:
+        - **`>=`**:
+        - **`>`**:
+        - **`><`**:
+        
+        ****
+        
+        ## Advanced Sections
+        
+Keywords: pandas pandas-dataframe stock stat indicators macd
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
