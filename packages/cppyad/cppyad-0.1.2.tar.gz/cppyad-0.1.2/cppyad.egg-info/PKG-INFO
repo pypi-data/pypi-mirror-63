@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: cppyad
+Version: 0.1.2
+Summary: Python bindings to Coin-OR CppAD
+Home-page: UNKNOWN
+Author: Francesco Ceccon
+Author-email: francesco@ceccon.me
+License: Apache 2.0
+Description: cppyad: Python bindings for CppAD
+        =================================
+        
+        |GHAction|
+        
+        .. |GHAction| image:: https://github.com/fracek/cppyad_private/workflows/Python%20package/badge.svg
+        
+        Changelog
+        =========
+        
+        0.1.0
+        -----
+        
+        * Initial release
+Platform: UNKNOWN
