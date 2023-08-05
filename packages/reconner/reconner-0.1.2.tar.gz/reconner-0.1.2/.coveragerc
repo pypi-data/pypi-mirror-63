@@ -1,0 +1,6 @@
+[run]
+
+source =
+    recon
+    
+parallel = True
