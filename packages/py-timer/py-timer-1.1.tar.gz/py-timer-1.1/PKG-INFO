@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: py-timer
+Version: 1.1
+Summary: A simple python timer module.一个简单的Python计时器模块,其中包含Timer类。
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: A simple python timer module.一个简单的Python计时器模块,其中包含Timer类。  注:由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: timer,performance analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
