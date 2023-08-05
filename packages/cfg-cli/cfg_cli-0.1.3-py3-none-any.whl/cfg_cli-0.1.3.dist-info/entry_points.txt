@@ -1,0 +1,3 @@
+[console_scripts]
+cfg-cli=src.cfg-cli:main
+
