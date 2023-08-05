@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+practical_ml.egg-info/PKG-INFO
+practical_ml.egg-info/SOURCES.txt
+practical_ml.egg-info/dependency_links.txt
+practical_ml.egg-info/entry_points.txt
+practical_ml.egg-info/not-zip-safe
+practical_ml.egg-info/top_level.txt
