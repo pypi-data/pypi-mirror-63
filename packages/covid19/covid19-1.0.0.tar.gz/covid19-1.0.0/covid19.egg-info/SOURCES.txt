@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+covid19/__init__.py
+covid19/main.py
+covid19.egg-info/PKG-INFO
+covid19.egg-info/SOURCES.txt
+covid19.egg-info/dependency_links.txt
+covid19.egg-info/requires.txt
+covid19.egg-info/top_level.txt

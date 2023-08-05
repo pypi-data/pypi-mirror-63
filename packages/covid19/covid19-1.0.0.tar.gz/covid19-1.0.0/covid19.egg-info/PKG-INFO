@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: covid19
+Version: 1.0.0
+Summary: A powerfull , flexible and modern python module that keeps track of Covid19 infections worldwide or by country name
+Home-page: https://github.com/Jakeisbored/covid19
+Author: Jake
+Author-email: jstyle07072004@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
