@@ -1,0 +1,3 @@
+[console_scripts]
+wm-win-tool = wm_win_tool:main
+
