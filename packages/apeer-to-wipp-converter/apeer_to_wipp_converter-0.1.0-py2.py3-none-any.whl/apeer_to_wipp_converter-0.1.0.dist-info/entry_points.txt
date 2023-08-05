@@ -1,0 +1,3 @@
+[console_scripts]
+a2w = apeer_to_wipp_converter.cli:main
+
