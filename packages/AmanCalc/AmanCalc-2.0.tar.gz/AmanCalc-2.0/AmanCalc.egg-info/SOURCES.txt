@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+AmanCalc/__init__.py
+AmanCalc.egg-info/PKG-INFO
+AmanCalc.egg-info/SOURCES.txt
+AmanCalc.egg-info/dependency_links.txt
+AmanCalc.egg-info/top_level.txt
