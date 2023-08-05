@@ -1,0 +1,14 @@
+LICENSE,sha256=ZSn4T11JcZdIqsT1HpCFaqnJj7Em8uTNG9Wi3GgPBQM,1070
+comcrawl/__init__.py,sha256=vuF-oDWaXAYfUE51pvZjgigu-aHCrTXaAc15n9KA7LQ,204
+comcrawl/core/__init__.py,sha256=V8BYSTRZ7eyPcmLr6TVlAWltai0UXQfPIiShSPdOtDY,96
+comcrawl/core/index_client.py,sha256=OzH3t-UuAO2s9YbeFapvODfnNgMah7OGTHCS2iV6CAs,2105
+comcrawl/types.py,sha256=SCtJ8IBVEtzGPvQva5jzEdAsg9QK0XdBaeW7fyDLhF8,214
+comcrawl/utils/__init__.py,sha256=BwHvpvQQOXqv-N6UjDae3TSh51yGgOlWm1Aq21cKxLI,261
+comcrawl/utils/download.py,sha256=O5WBueFNVK7UNVnqC-iJ-nRVUAEQtBGfSNl7GvyrQgk,2333
+comcrawl/utils/initialization.py,sha256=IHAiKs9LbgC6eyHHurG_dLgJqD0TrnExf-dZadUYYJk,623
+comcrawl/utils/multithreading.py,sha256=9WCwj4YpKCwxOVBkoh-FMz-9WucHS4q2XaXlzjnrru8,1803
+comcrawl/utils/search.py,sha256=fAsTQQQk3FOjU66l-5Wkc9T3GtOylfqCU0wMK9g7lpg,1918
+comcrawl-1.0.1.dist-info/LICENSE,sha256=ZSn4T11JcZdIqsT1HpCFaqnJj7Em8uTNG9Wi3GgPBQM,1070
+comcrawl-1.0.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+comcrawl-1.0.1.dist-info/METADATA,sha256=i59Xk-gDyrIukSzAcjsC7qgYhqBxRVKcixpJHVtU-bM,5401
+comcrawl-1.0.1.dist-info/RECORD,,
