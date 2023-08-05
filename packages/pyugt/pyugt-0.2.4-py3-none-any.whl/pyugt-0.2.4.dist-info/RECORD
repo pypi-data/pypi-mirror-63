@@ -1,0 +1,15 @@
+LICENSE,sha256=nW979wbKspd78sk79prLAHFl1UkK4HLJft9asy6FjTs,1078
+MANIFEST.in,sha256=fSTmhDnpH7fi54YAwqRoj0S1ktzbV0eoH0SeK0OmzKM,80
+README.md,sha256=EN9d9c0kCMwK2PI2v3koYuqRqVexdNFZsd7Re7yUo6M,5643
+config.ini,sha256=YrwVqhUumJcKr3j0Hk1qvIVFX5VzwCneY3Mqjn_ThZA,299
+config_example.ini,sha256=J8DLGFMLY699ArrBeQkyQn7N_vr29IzpAyNHMh0EYV4,1480
+pyugt.py,sha256=16alATIfYw_hwa7sc8H6mloHSPI45CSsN7uJKUMUCYM,12078
+pyugt.egg-info/PKG-INFO,sha256=YNisU6AgraqW85DzmUvqPbzdp0Dh_2rKsJr4YO8ZZcM,7163
+pyugt.egg-info/SOURCES.txt,sha256=Tz_YEB87022pjCAAp69UV-PXqmgxQ6vTfsAxOM3Bw58,193
+pyugt.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyugt.egg-info/top_level.txt,sha256=p_tMneLaW14iiqZ5zGiYc8rszSLamWdQT_YHCZvSC5U,7
+pyugt-0.2.4.dist-info/LICENSE,sha256=nW979wbKspd78sk79prLAHFl1UkK4HLJft9asy6FjTs,1078
+pyugt-0.2.4.dist-info/METADATA,sha256=xkf2kXnZmzEwpk3fwSh8z_IC14O3-0QqJ9CMEeRR7fA,6506
+pyugt-0.2.4.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pyugt-0.2.4.dist-info/top_level.txt,sha256=p_tMneLaW14iiqZ5zGiYc8rszSLamWdQT_YHCZvSC5U,7
+pyugt-0.2.4.dist-info/RECORD,,
