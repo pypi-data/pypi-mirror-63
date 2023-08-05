@@ -1,0 +1,10 @@
+README.md
+setup.py
+wesutils/__init__.py
+wesutils/agents.py
+wesutils/utils.py
+wesutils.egg-info/PKG-INFO
+wesutils.egg-info/SOURCES.txt
+wesutils.egg-info/dependency_links.txt
+wesutils.egg-info/requires.txt
+wesutils.egg-info/top_level.txt
