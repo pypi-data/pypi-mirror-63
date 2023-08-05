@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: eha
+Version: 0.4
+Summary: A High Availability service framework based on etcd.
+Home-page: https://github.com/matrixji/eha
+Author: Ji Bin
+Author-email: matrixji@live.com
+License: MIT
+Description: eha is a framework for build High Availability application based etcd.
+Platform: linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
