@@ -1,0 +1,12 @@
+diff -u kiwisolver/kiwi/kiwi.h kiwisolver_patched/kiwi/kiwi.h
+--- kiwisolver/kiwi/kiwi.h	2020-02-27 14:35:37.271075550 +0100
++++ kiwisolver_patched/kiwi/kiwi.h	2020-02-27 14:37:53.013932895 +0100
+@@ -17,3 +17,8 @@
+ #include "term.h"
+ #include "variable.h"
+ #include "version.h"
++
++//fix for buildozer as described in https://github.com/kivy/buildozer/issues/1003
++#define pyobject_cast( o ) ( reinterpret_cast<PyObject*>( o ) )
++#define void_cast( o ) ( reinterpret_cast<void*>( o ) )
++#define pytype_cast( o ) ( reinterpret_cast<PyTypeObject*>( o ) )

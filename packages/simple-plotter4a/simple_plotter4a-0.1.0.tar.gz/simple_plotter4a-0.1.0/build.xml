@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This fiel shall not be used in the fdroid build process, but for building debug APK... -->
+<project name="simple-plotter4a" default="debug" basedir=".">
+  <description>
+    simple example build file
+  </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="simple_plotter4a"/>
+  <property name="build" location="bin"/>
+  <property name="debug_build" value="false"/>
+
+  <target name="init" depends="clean">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <mkdir dir="${build}"/>
+    <!-- Create the version file based on versioneer/git tag -->
+    <exec executable="python">
+      <arg value="create_version_files.py"/>
+    </exec>
+    <exec executable="python">
+      <arg value="Licenses/create_attributions.py"/>
+    </exec>
+  </target>
+
+  <target name="release" depends="init"
+        description="run buildozer to compile the APK">
+    <!-- Compile the Java code from ${src} into ${build} -->
+    <exec executable="buildozer">
+      <arg line="android release"/>
+    </exec>
+  </target>
+
+  <target name="debug" depends="init"
+          description="run buildozer to create a debug APK">
+    <exec executable="buildozer">
+      <arg line="android debug deploy run logcat"/>
+    </exec>
+  </target>
+
+  <target name="clean"
+        description="clean up">
+    <!-- Delete the ${build} directory tree and clean-up version files -->
+    <delete dir="${build}"/>
+    <delete file="${src}/version.txt"/>
+    <delete file="${src}/version.py"/>
+  </target>
+
+  <target name="clean-all" depends="clean"
+          description="Cleans everything including .buildozer files">
+    <exec executable="buildozer">
+      <arg line="appclean"/>
+    </exec>
+  </target>
+
+</project>

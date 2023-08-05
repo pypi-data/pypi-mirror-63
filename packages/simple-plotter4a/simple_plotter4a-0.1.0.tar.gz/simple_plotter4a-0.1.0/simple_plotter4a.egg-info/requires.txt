@@ -1,0 +1,12 @@
+simple-plotter>=0.3
+kivy>=1.11
+
+[all]
+matplotlib>=2
+kivy-garden.graph>=0.4
+
+[kivy-garden-graph]
+kivy-garden.graph>=0.4
+
+[kivy-matplotlib]
+matplotlib>=2

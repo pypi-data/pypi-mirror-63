@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this file is only required for fdroid build server automation.
+The versionName must match the git-tag for the release and versionCode must match the APK version code!
+kivy/buildozer assigns first version code to 721101 - does not seem to be changeable.
+The final app properties are defined in buildozer.spec.
+TODO: Rethink information handling - maybe write a script to patch buildozer.spec based on AndroidManifest.xml data.-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.gitlab.thecker.simple_plotter4a"
+      android:versionCode="721100"
+      android:versionName="0.1.0">
+    <application android:label="simple-plotter4a">
+    </application>
+</manifest>

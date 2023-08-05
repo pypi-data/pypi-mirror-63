@@ -1,0 +1,11 @@
+simple_plotter4a is a graphical calculator/plotting tool for 2D functional line graphs.
+Being built upon the NumPy library it provides access to a large set of scientific functions.
+
+Its main features include:
+
+* writing equations in python/NumPy syntax
+* definition of constants
+* plotting of curve sets
+* configuration of graph display settings
+* saving and loading projects
+* exporting to python code

@@ -1,0 +1,107 @@
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)
+
+python3 3.7.1
+Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 Python Software Foundation; All Rights Reserved
+https://www.python.org/
+
+kivy 1.11.1
+Copyright (c) 2010-2019 Kivy Team and other contributors
+https://kivy.org
+
+numpy 1.16.4
+Copyright © 2005-2019, NumPy Developers. All rights reserved.
+https://numpy.org/
+
+versioneer 0.18
+https://github.com/warner/python-versioneer
+
+jsonpickle 1.3
+Copyright (C) 2008 John Paulett (john -at- paulett.org) Copyright (C) 2009-2018 David Aguilar (davvid -at- gmail.com), All rights reserved
+https://jsonpickle.github.io/
+
+jinja2 2.11.1
+Copyright 2007 Pallets
+https://jinja.palletsprojects.com
+
+markupsafe 1.1.1
+Copyright 2010 Pallets
+https://palletsprojects.com/p/markupsafe/
+
+setuptools_scm 3.5.0
+Ronny Pfannschmidt
+https://github.com/pypa/setuptools_scm/
+
+kivy-garden.graph 0.4.0
+Copyright (c) 2019- Kivy Team and other contributors
+https://github.com/kivy-garden/graph
+
+matplotlib 3.1.3
+Copyright (c) 2012-2020 Matplotlib Development Team; All Rights Reserved
+https://matplotlib.org/
+
+libffi 3.3-rc0
+Copyright (c) 1996-2014  Anthony Green, Red Hat, Inc and others.
+https://sourceware.org/libffi/
+
+OpenSSL 1.1.1
+Copyright (c) 1998-2018 The OpenSSL Project.  All rights reserved. / Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com), All rights reserved.
+http://www.openssl.org/
+
+SDL2_image 2.0.4
+Copyright (C) 1997-2018 Sam Lantinga <slouken@libsdl.org>
+https://www.libsdl.org/projects/SDL_image/
+
+SDL2_mixer 2.0.4
+Copyright (C) 1997-2018 Sam Lantinga <slouken@libsdl.org>
+https://www.libsdl.org/projects/SDL_mixer/
+
+SDL2_ttf 2.0.14
+Copyright (C) 1997-2016 Sam Lantinga <slouken@libsdl.org>
+https://www.libsdl.org/projects/SDL_ttf/
+
+SDL2 2.0.9
+Copyright (C) 1997-2018 Sam Lantinga <slouken@libsdl.org>
+https://www.libsdl.org/index.php
+
+sqlite3-amalgamation 3150100
+https://www.sqlite.org/index.html
+
+setuptools 40.9.0
+Copyright (C) 2016 Jason R Coombs <jaraco@jaraco.com>
+https://github.com/pypa/setuptools
+
+six 1.10.0
+Copyright (c) 2010-2015 Benjamin Peterson
+http://pypi.python.org/pypi/six/
+
+pyjnius 1.2.1.dev0
+Copyright (c) 2010-2017 Kivy Team and other contributors
+https://github.com/kivy/pyjnius
+
+python-for-android 2019.10.06
+Copyright (c) 2010-2017 Kivy Team and other contributors
+https://python-for-android.readthedocs.io/en/latest/
+
+hidapi
+Copyright (c) 2010, Alan Ott, Signal 11 Software, All rights reserved.
+part of SDL2 2.0.9 source code
+
+docutils
+http://docutils.sourceforge.net/
+
+pygments
+Copyright (c) 2006-2017 by the respective authors (see AUTHORS file). All rights reserved.
+https://pygments.org/
+
+glew
+Copyright (C) 2008-2016, Nigel Stewart <nigels[]users sourceforge net>
+Copyright (C) 2002-2008, Milan Ikits <milan ikits[]ieee org>
+Copyright (C) 2002-2008, Marcelo E. Magallon <mmagallo[]debian org>
+Copyright (C) 2002, Lev Povalahev
+All rights reserved.
+http://glew.sourceforge.net/
+
+simple-plotter 0.3.1
+Copyright (C) 2019-2020  Thies Hecker
+https://simple-plotter.readthedocs.io/en/latest/
+
