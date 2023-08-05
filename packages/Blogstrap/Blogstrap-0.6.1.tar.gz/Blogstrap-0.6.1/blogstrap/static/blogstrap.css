@@ -1,0 +1,34 @@
+body {
+    visibility: hidden;
+}
+nav {
+    background-color: #534b52;
+}
+.blogstrap {
+    margin: 1rem;
+}
+.blogstrap h1 {
+    padding-bottom: 2rem;
+}
+.blogstrap h2 {
+    padding-bottom: 1rem;
+}
+.blogstrap h3 {
+    color: #474448;
+    /* font-weight: bold; */
+    font-size: 24px;
+}
+.blogstrap p {
+    padding-bottom: 1rem;
+}
+.blogstrap pre {
+    background-color: #e0ddcf;
+    color: #534b52;
+    border: 1px;
+    padding: 1em;
+}
+
+/* support for html5 elements in non-html5 browsers */
+article, aside, footer, header, nav, section {
+  display: block;
+}
