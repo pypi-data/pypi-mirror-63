@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gensvm
+Version: 0.2.5
+Summary: Generalized Multiclass Support Vector Machines
+Home-page: https://github.com/GjjvdBurg/PyGenSVM
+Author: Gertjan van den Burg
+Author-email: gertjanvandenburg@gmail.com
+License: GPLv2
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: Sphinx (==1.6.5); extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3); extra == 'dev'
+Requires-Dist: m2r; extra == 'dev'
+Requires-Dist: Cython; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx (==1.6.5); extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3); extra == 'docs'
+Requires-Dist: m2r; extra == 'docs'
+Provides-Extra: tests
+
+text/markdown
+
+
