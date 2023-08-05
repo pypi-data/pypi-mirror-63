@@ -1,0 +1,15 @@
+dns_cache/__init__.py,sha256=-ibd3ZtpHqArT_v1z09H6pF-pDh_9GtMSoR1en6FoSw,1980
+dns_cache/disk_dict.py,sha256=rn8BhvhYJurepGxryRLHKjJKUN7robzTM3-tkucIuhY,991
+dns_cache/diskcache.py,sha256=it7R4w4G1VTZXnOo9ZmYoFcN3jTMZ4SUaEv7OvenK0k,576
+dns_cache/expiration.py,sha256=lE4w35JwN-oDFa44vQkRz-0OBtsBuBmG9KR4y3LnXEo,1621
+dns_cache/key_transform.py,sha256=UfxRor7zSQPoZEOkOXu-F2twABfYAvHiJKu52KxyPhE,1905
+dns_cache/pickle.py,sha256=d76nT5yFVJ_StaAHsCmlkPCxK4DXg8lZHvCuOzBAB-E,2594
+dns_cache/resolver.py,sha256=h1BMXy9Fq1x1kotagsxEPVIYTkgXILcKINjFZdvWJxA,3103
+dns_cache/sqlitedict.py,sha256=xIc95UXsj-yFPJQ7e5Um2Q8e3DJBDKLTlBUGrW2-pUg,1010
+dns_cache/stash.py,sha256=9GHUYMXsDP334a5EJ-6c3XyTYb8WFoHb0_Fs8cgzloI,1563
+dns_cache-0.2.0.dist-info/LICENSE,sha256=zrP9p3U2CAgUv2VSdGmVZfu_kiXaWZKPbn-WNW7lxSA,1072
+dns_cache-0.2.0.dist-info/METADATA,sha256=nmG9xSQR2RhzZoTKiVdUkWmFFjl6MYMLUnFrCF9Fz1g,1088
+dns_cache-0.2.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+dns_cache-0.2.0.dist-info/top_level.txt,sha256=qaS3FFgN53RjOVhrX1dEVZnt-gJthXJZxm5qtNt5K84,10
+dns_cache-0.2.0.dist-info/version.txt,sha256=kR_AxIywxwYB21d1qb7xt0DcTMn5tGOJufBWP-frlNc,5
+dns_cache-0.2.0.dist-info/RECORD,,
