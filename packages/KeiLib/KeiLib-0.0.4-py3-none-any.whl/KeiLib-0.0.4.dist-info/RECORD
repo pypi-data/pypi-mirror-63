@@ -1,0 +1,12 @@
+KeiLib/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+KeiLib/args.py,sha256=XvdsyjV5wKvYXgT0-ss4NQzKMvB5W2TbztAKXgqJUco,4431
+KeiLib/config.py,sha256=UllAM1b4RTUyW65tzqFfWXX_-ZjFqiMo_h9N63xxrHQ,400
+KeiLib/wrapper.py,sha256=bwLCD_-blNbxmSLJao2ShzK-nkaHTb3MiAdWeNgw2Os,11875
+KeiLib/users_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KeiLib/users_manager/campus_users.py,sha256=hyoKR0c7iKCo-K8Rjz0byg1QT8Spm9bal3JUIKRblBs,1030
+KeiLib/users_manager/student_details.py,sha256=UGwUIBk54YKGcgBmafas4xOKSqV27tLZa9fV9Um7yOs,721
+KeiLib-0.0.4.dist-info/LICENSE,sha256=CXdzb7Slow_dZMLpMVreVBPt7cb6Woeft1HoBhHcw6c,35133
+KeiLib-0.0.4.dist-info/METADATA,sha256=RS0TCzi1c53BuglvmG7KR37GNxyL1jI4keqcANUiGcc,458
+KeiLib-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+KeiLib-0.0.4.dist-info/top_level.txt,sha256=-uLMYgKD9OnSjKLZJkPfnFvznFYlyFiXFl6YlfQhnNM,7
+KeiLib-0.0.4.dist-info/RECORD,,
