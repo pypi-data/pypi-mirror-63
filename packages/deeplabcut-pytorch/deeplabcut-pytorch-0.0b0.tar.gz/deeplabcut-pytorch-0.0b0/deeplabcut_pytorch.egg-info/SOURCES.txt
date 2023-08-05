@@ -1,0 +1,9 @@
+README.md
+setup.py
+deeplabcut-pytorch/__init__.py
+deeplabcut-pytorch/version.py
+deeplabcut_pytorch.egg-info/PKG-INFO
+deeplabcut_pytorch.egg-info/SOURCES.txt
+deeplabcut_pytorch.egg-info/dependency_links.txt
+deeplabcut_pytorch.egg-info/requires.txt
+deeplabcut_pytorch.egg-info/top_level.txt
