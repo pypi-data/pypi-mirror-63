@@ -1,0 +1,14 @@
+README.md
+setup.py
+open_detection/__init__.py
+open_detection/anchor.py
+open_detection.egg-info/PKG-INFO
+open_detection.egg-info/SOURCES.txt
+open_detection.egg-info/dependency_links.txt
+open_detection.egg-info/requires.txt
+open_detection.egg-info/top_level.txt
+open_detection/dataset/__init__.py
+open_detection/dataset/coco.py
+open_detection/dataset/parallel.py
+test/test_anchor.py
+test/test_coco.py
