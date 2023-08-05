@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+supercache/__init__.py
+supercache/fingerprint.py
+supercache/utils.py
+supercache.egg-info/PKG-INFO
+supercache.egg-info/SOURCES.txt
+supercache.egg-info/dependency_links.txt
+supercache.egg-info/top_level.txt
