@@ -1,0 +1,8 @@
+README.md
+setup.py
+RoleMiner/functions.py
+RoleMiner.egg-info/PKG-INFO
+RoleMiner.egg-info/SOURCES.txt
+RoleMiner.egg-info/dependency_links.txt
+RoleMiner.egg-info/requires.txt
+RoleMiner.egg-info/top_level.txt
