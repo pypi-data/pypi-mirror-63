@@ -1,0 +1,760 @@
+Metadata-Version: 2.1
+Name: doug
+Version: 0.0.3
+Summary: Document image aUGmentation.
+Home-page: UNKNOWN
+Author: YuanGan Zhou, Zhen Qi, Nanxin Ning
+Author-email: zqi@che300.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.11.1)
+Requires-Dist: opencv-python (>=3.4.2)
+
+# 文档的自然风格增强包
+# DouG: Document image auGmentation.
+
+* 小角度旋转（±45°以内）  
+Small angle rotate (within 45 degrees)  
+[`doug.small_angle_rotate(data: dict, angle: int or tuple, prob=0.5, use_bbox=False):`](#1)
+
+* 横向纵向光照渐变加权   
+Horizontal and vertical light gradient weighting      
+[`horizontal_light_gradient(image: np.ndarray, prob=0.5, light_scale=None, space_type=LIGHT_LINEAR):`](#2)  
+[`vertical_light_gradient(image: np.ndarray, prob=0.5, light_scale=None, space_type=LIGHT_LINEAR):`](#3)
+
+* 图像区域复制粘贴   
+Copy a image patch then paste on current one under mask  
+[`copy_paste_under(data:dict, prob=0.5, cover_position=COPY_INTER, fit_method=FIT_NORMAL, image_source=None, bg_mask=0, size_ratio=(5.0 / 32, 27.0 / 32)):`](#4)
+
+* 删除标签中的某一类或若干类
+Delete one or several labels  
+[`delete_one_class(imgs, class_num=None, bg_mask=0, prob=1.0, fill_type=DELETED_FILL_MEAN):`](#5)  
+[`delete_classes(data: dict, class_num=None, bg_mask=0, prob=1.0, fill_type=DELETED_FILL_MEAN):`](#6)
+
+* 某一类或若干类目标放大
+Zoom in one or serval class in labels, with edges slightly extended.
+[`zoom_one_class(imgs, bg_mask=0, prob=1.0, class_num=None, padding=None, constant_size=False):`](#7)  
+[`zoom_classes(imgs, bg_mask=0, prob=1.0, class_num=None, padding=None, constant_size=False):`](#8)
+
+* 图像添加水印  
+Add watermark to the current image.  
+[`add_watermark(image: np.ndarray,  watermark:str or numpy.array or tuple or list of str, watermark_position=WATERMARK_RANDOM_ANCHOR, fit_method=FIT_PASTE, prob=1.0, size_ratio=(1 / 8, 1 / 2), thresh=None):`](#9)
+
+* 模拟移动设备拍照轻微抖动，造成图像的模糊效果  
+Simulate a blurry photo taken by a hand shake and return a new image  
+[`tremor_image(image: np.ndarray, x=None, y=None):`](#10)
+
+* 夜间拍照闪光灯效果(局部高亮)
+Simulation to generate a night flash effect on an image(Local highlighting)  
+[`generate_noisy(image: np.ndarray, noise_typ: str):`](#11)
+
+* 夜间拍摄图像黑暗系噪点风格  
+Simulates the effect of night noise when taking photos with mobile devices at night
+[`doug.night_noise_transform(image, init_delta=12):`](#12)  
+
+* hsv颜色增强  
+Given a numpy ndarray image, change it's HSV color space with fraction.  
+[`hsv_transform(image, fraction=0.50):`](#13)
+
+* 添加目标上方的遮挡
+Generate occlusion by fit another image patch onto current one
+[`occlusion_paste_above(data:dict, prob=0.5, cover_position=OCCLUSION_EDGDE, fit_method=FIT_NORMAL, image_source=None, bg_mask=0, size_ratio=(1.0 / 32, 5.0 / 32)):`](#14)
+
+* 修正图像标签中的噪声
+Fix mask pixel contamination caused by image compression or cv2/PIL interpolation.  
+[`fix_jpgmask(mask: np.ndarray, class_list=None, bg_mask=0, delete_thresh=None):`](#15)
+
+* 图像变形算法 
+
+<h2 id="1">small_angle_rotate(imgs, angle, prob=0.5, use_bbox=False):</h2>
+
+    """
+    Rotate the given image as well as labels(mask or keypoints) with
+    a fixed or random small angle (within 45°). Auto generating new
+    bounding boxes based on mask and keypoints is supported.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    angle : int or tuple of int
+        Randomly rotate target by angle (int angle) or within
+        [angle[0], angle[1]] (tuple angle).
+    prob : float, optional
+        Probability of this augmentation.
+    bg_mask : int or float, optional
+        Background pixel value in mask. Only used when rotating mask and
+        use_bbox is True.
+    use_bbox : bool, optional
+        If True, adding a new 'bbox' key in data as the bounding box
+        of rotated mask or keypoint coordinates.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+        if use_bbox is True, the dict contains 2 extra values:
+        "bbox": bounding box
+        "bbox_index": bounding box index corresponding to labels' class
+
+    Notes
+    -----
+    To avoid coordinates disorder and generating too much space, the
+    angle should be in range of [-45, 45]. Above or below the range
+    will be clipped.
+    This function supports converting rotated mask to bounding box by
+    separating class from mask images and finding connected components.
+    The procedure may miss small objects and split obscured instances.
+    Using keypoints to generate new bounding boxes is highly recommended.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> keypoints = np.array([[100, 100, 100, 200, 200, 200, 200, 100]])
+    >>> imgs = {"image":image, "mask":mask, "keypoints":keypoints}
+    >>> imgs_after = doug.small_angle_rotate(imgs, (-10, 15), 0.8, True)
+    """
+<h2 id="2">horizontal_light_gradient(image: np.ndarray, prob=0.5, light_scale=None, space_type=LIGHT_LINEAR):</h2>  
+
+    """
+    Add a horizontal light gradient to the given image.  
+
+    Parameters
+    ----------
+    image : numpy.ndarray,
+        Image to be modified.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY.
+    prob : float, optional
+        Probability of this augmentation.
+    light_scale : int or float or tuple of int or tuple of float or None, optional
+        Light gradient range.
+        If the type is int, the range will be calculated by light_scale
+        and -1*light_scale. If tuple, the range will be calculated by
+        light_scale[0] and light_scale[1]. If None, this function will
+        randomly choose an int value related to the mean value of image
+        pixels, then calculate the range.
+    space_type : int, optional
+        :parameter from doug.core.DouG
+        If doug.LIGHT_LINEAR, the gradient range will be
+        [-light_scale, light_scale].
+        If doug.LIGHT_LOG, the gradient range will be
+        [log(1/light_scale), log(light_scale)].
+
+    Returns
+    -------
+    image : numpy.ndarray
+        Image after this modification.
+
+    Notes
+    -----
+    LIGHT_LINEAR and LIGHT_LOG generate different kinds of light gradient.
+    The former one is more smooth while another is more sharp at one end.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> imgs_after = doug.horizontal_light_gradient(image, 0.8, 0.1, doug.LIGHT_LOG)
+	"""
+<h2 id="3">vertical_light_gradient(image: np.ndarray, prob=0.5, light_scale=None, space_type=LIGHT_LINEAR):</h2>  
+
+    """
+    Add a vertical light gradient to the given image.
+
+    Parameters
+    ----------
+    image : numpy.ndarray,
+        Image to be modified.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY.
+    prob : float, optional
+        Probability of this augmentation.
+    light_scale : int or float or tuple of int or tuple of float or None, optional
+        Light gradient range.
+        If the type is int or float, the range will be calculated by
+        light_scale and -1*light_scale. If tuple, the range will be
+        calculated by light_scale[0] and light_scale[1]. If None, this
+        function will randomly choose an int value related to the mean
+        value of image pixels, then calculate the range.
+    space_type : int, optional
+        :parameter from doug.core.DouG
+        If doug.LIGHT_LINEAR, the gradient range will be
+        [-light_scale, light_scale].
+        If doug.LIGHT_LOG, the gradient range will be
+        [log(1/light_scale), log(light_scale)].
+
+    Returns
+    -------
+    image : numpy.ndarray
+        Image after this modification.
+
+    Notes
+    -----
+    LIGHT_LINEAR and LIGHT_LOG generate different kinds of light gradient.
+    The former one is more smooth while another is more sharp at one end.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> imgs_after = doug.vertical_light_gradient(image, 0.8, (-100,50), doug.LIGHT_LINEAR)
+    """  
+<h2 id="4">copy_paste_under(data:dict, prob=0.5, cover_position=COPY_INTER, fit_method=FIT_NORMAL, image_source=None, bg_mask=0, size_ratio=(5.0 / 32, 27.0 / 32)):</h2>  
+
+    """
+    Randomly copy an image patch from the original image or another given one,
+    then paste it on the original image. Support PNG alpha channel.
+    ATTENTION: The patch pixels will be slightly adjusted and when the patch
+    comes across the label, it will always be pasted UNDER.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    prob : float, optional
+        Probability of this augmentation.
+    cover_position: int, optional
+        Occlusion position. See from doug.core.DouG, there are 4 settings:
+        doug.COPY_INTER: the patch must intersect the mask area,
+        doug.COPY_MASK_EDGE: the patch must intersect the mask edge,
+        doug.COPY_IMAGE_EDGE: the patch must intersect the image edge,
+        doug.COPY_RANDOM: whole image random cover.
+    fit_method: int, optional
+        Image fitting algorithm. See from doug.core.DouG, there are 5 options:
+        doug.FIT_PASTE: just paste, no special move,
+        doug.FIT_NORMAL: using opencv seamlessClone: cv2.NORMAL_CLONE,
+        doug.FIT_MIX: using opencv seamlessClone: cv2.MIXED_CLONE,
+        doug.FIT_MONO: using opencv seamlessClone: cv2.MONOCHROME_TRANSFER,
+        doug.FIT_RANDOM: randomly choose from above.
+    image_source : None or str or numpy.array or tuple or list of str, optional
+        Another image source. The parameter could be a numpy.array image, a
+        string image path, a list of image paths or a string image folder
+        path that ended by '*.extension'. If None, copy from the origin.
+    bg_mask : int or float, optional
+        Background pixel value in mask.
+    size_ratio: tuple of float, optional
+        The minimum and maximum size ratio of the copied patch's longest size to 
+        the original image.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+
+    Notes
+    -----
+    This function is used to generate more background texture feature in one
+    image, and man-made edge feature if cover_target is True.
+    If there are multiple labels on one image, the region would be a
+    common area generated by minimum and maximum coordinates of the
+    labels.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> data = {"image":image, "mask":mask}
+    >>> data_after = doug.copy_paste_under(data, 0.5, image_source='./*.jpg',fit_method=doug.FIT_MIX,)
+    """
+<h2 id="5">delete_one_class(data, class_num=None, bg_mask=0, prob=1.0, fill_type=DELETED_FILL_MEAN):</h2>  
+
+    """
+    Delete one class in labels, then fill the region using certain methods.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    class_num : None or int or tuple or list, optional
+        The class to be deleted. It could be an integer class number, a
+        tuple or list to be randomly chosen from or None to randomly choose
+        from all classes beside background.
+    bg_mask : int or float, optional
+        Background pixel value in mask
+    prob : float, optional
+        Probability of this augmentation.
+    fill_type : str or int, optional
+        The deleted area fill-in method or value. It could be 2 string
+        value: doug.DELETED_FILL_MEAN: fill the area with its mean value,
+        doug.DELETED_FILL_RANDOM: fill with random gaussian noise or a
+        fixed integer value to fill with.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+
+    Notes
+    -----
+    Pay attention to the background color.
+    Let us know if there are more fill-in methods.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> keypoints = np.array([[100, 100, 100, 200, 200, 200, 200, 100]])
+    >>> imgs = {"image":image, "mask":mask, "keypoints":keypoints}
+    >>> imgs_after = doug.delete_one_class(imgs, [1,], 0, 0.8, random.choice([doug.DELETED_FILL_RANDOM,doug.DELETED_FILL_MEAN]))
+    """
+<h2 id="6">delete_classes(data: dict, class_num=None, bg_mask=0, prob=1.0, fill_type=DELETED_FILL_MEAN):</h2>  
+
+    """
+      Delete several classes in labels, then fill the regions using certain methods.
+
+      Parameters
+      ----------
+      data : dict of str, numpy.ndarray
+          {"image": image, "mask": mask/None, "keypoints": points/None}
+          Image and labels(mask or keypoints) to be rotated.
+          The shape of image can be (height, width, chanel) if data format
+          is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+          label array with shape of (height, width). Keypoints contain
+          points of polygon labels with shape of (n_labels, n_coordinates).
+          Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+      class_num : int or tuple or list or None, optional
+          The classes to be deleted. It could be an integer class count, a
+          tuple or list of classes to be deleted or None to randomly choose
+          random classes beside background.
+      bg_mask : int or float, optional
+          Background pixel value in mask.        
+      prob : float, optional
+          Probability of this augmentation.
+      fill_type : str or int, optional
+          The deleted area fill-in method or value. It could be 2 string 
+          value: doug.DELETED_FILL_MEAN: fill the area with its mean value,
+          doug.DELETED_FILL_RANDOM: fill with random gaussian noise or a
+          fixed integer value to fill with.
+
+      Returns
+      -------
+      data : dict of str, numpy.ndarray
+          {"image": image, "mask": mask/None, "keypoints": points/None}
+          Image and labels after this modification.
+
+      Notes
+      -----
+      Pay attention to the background color.
+      Let us know if there are more fill-in methods.
+
+      Examples
+      --------
+      >>> import doug
+      >>> import cv2
+      >>> image = cv2.imread('img.jpg')
+      >>> mask = cv2.imread('img_mask.jpg')
+      >>> keypoints = np.array([[100, 100, 100, 200, 200, 200, 200, 100]])
+      >>> imgs = {"image":image, "mask":mask, "keypoints":keypoints}
+      >>> imgs_after = doug.delete_classes(imgs, [1,2], 0, 0.8, random.choice([doug.DELETED_FILL_RANDOM,doug.DELETED_FILL_MEAN]))
+      """
+<h2 id="7">zoom_one_class(data, bg_mask=0, prob=1.0, class_num=None, padding=None, constant_size=False):</h2>
+
+    """
+    Zoom in one class in labels, with edges slightly extended.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    bg_mask : int or float, optional
+        Background pixel value in mask
+    prob : float, optional
+        Probability of this augmentation.
+    class_num : None or int or tuple or list, optional
+        The class to be zoomed in. It could be an integer class number, a
+        tuple or list to be randomly chosen from or None to randomly choose
+        from all classes beside background.
+    padding : None or int or tuple or list, optional
+        Padding value after zooming.
+    constant_size : bool, optional
+        Whether resize the zoomed region to the original image size.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+
+    Notes
+    -----
+    Pay attention to the background color.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> keypoints = np.array([[100, 100, 100, 200, 200, 200, 200, 100]])
+    >>> imgs = {"image":image, "mask":mask, "keypoints":keypoints}
+    >>> imgs_after = doug.zoom_one_class(imgs, 1, 0, 0.8, 10, False)
+    """
+
+<h2 id="8">zoom_classes(data, bg_mask=0, prob=1.0, class_num=None, padding=None, constant_size=False):</h2>
+
+    """
+    Zoom in several classes in labels, with edges slightly extended.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    bg_mask : int or float, optional
+        Background pixel value in mask
+    prob : float, optional
+        Probability of this augmentation.
+    class_num : None or int or tuple or list, optional
+        The classes to be zoomed in. It could be an integer class count, a
+        tuple or list of classes to be zoomed in or None to randomly choose
+        random classes beside background.
+    padding : None or int or tuple or list, optional
+        Padding value after zooming.
+    constant_size : bool, optional
+        Whether resize the zoomed region to the original image size.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+
+    Notes
+    -----
+    Pay attention to the background color.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> keypoints = np.array([[100, 100, 100, 200, 200, 200, 200, 100]])
+    >>> imgs = {"image":image, "mask":mask, "keypoints":keypoints}
+    >>> imgs_after = doug.zoom_classes(imgs, 2, 0, 0.8, 10, False)
+    """
+<h2 id="9">add_watermark(image,  watermark, watermark_position=WATERMARK_RANDOM_ANCHOR, fit_method=FIT_PASTE, prob=1.0, size_ratio=(1 / 8, 1 / 2), thresh=None):</h2>
+
+    """
+    Add watermark to the current image. Support PNG alpha channel.
+
+    Parameters
+    ----------
+    image : numpy.ndarray,
+        Image to be modified.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY.
+    watermark : str or numpy.array or tuple or list of str
+        Watermark image source. The parameter could be a numpy.array image,
+        a string image path, a list of image paths or a string image folder
+        path that ended by '*.extension'.
+    prob : float, optional
+        Probability of this augmentation.
+    watermark_position : int, optional
+        Watermark watermark_positionition. See from doug.core.DouG, there are 7 anchors:
+        doug.WATERMARK_UPLEFT,
+        doug.WATERMARK_UP,
+        doug.WATERMARK_UPRIGHT,
+        doug.WATERMARK_CENTER,
+        doug.WATERMARK_DOWNLEFT,
+        doug.WATERMARK_DOWN,
+        doug.WATERMARK_DOWNRIGHT,
+        1 random anchor: doug.WATERMARK_RANDOM_ANCHOR,
+        1 random watermark_positionition:doug.WATERMARK_RANDOM_ALL.
+    fit_method: int, optional
+        Image fitting algorithm. See from doug.core.DouG, there are 5 options:
+        doug.FIT_PASTE: just paste, no special move,
+        doug.FIT_NORMAL: using opencv seamlessClone: cv2.NORMAL_CLONE,
+        doug.FIT_MIX: using opencv seamlessClone: cv2.MIXED_CLONE,
+        doug.FIT_MONO: using opencv seamlessClone: cv2.MONOCHROME_TRANSFER,
+        doug.FIT_RANDOM: randomly choose from above.
+    size_ratio : tuple, optional
+        The minimum and maximum size ratio of the watermark to the original
+        image.
+    thresh : int or float or None, optional
+        Watermark threshold, regions in watermark image will be transparent
+        if their pixel value are smaller than this threshold .
+
+    Returns
+    -------
+    image : numpy.ndarray
+        Image after this modification.
+
+    Notes
+    -----
+    If both alpha channel and thresh are found, this function will calculate
+    transparent mask matrix by thresh.
+    Be advised that the thresh parameter only provides a minimum pixel value
+    threshold, only pixels have smaller values will be considered transparent.
+    Using PNG images with alpha channel is a more flexible approach.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> imgs_after = doug.add_watermark(image, './watermark.png', 0.8, doug.WATERMARK_UP, doug.FIT_NORMAL)
+    """
+
+<h2 id="10">tremor_image(image, x=None, y=None):</h2>
+
+    """
+    Simulate a blurry photo taken by a hand shake and return a new image.
+
+    Parameters
+    ----------
+    image: numpy.ndarray.
+    The shape of image can be (height, width, chanel) if data format
+    is RGB/RGBA or (height, width) if GRAY.
+    You have better use open_cv to read image.
+    x: int
+    The pixels that you want to move on x-axis
+    y: int
+    The pixels that you want to move on y-axis
+
+    Returns
+    -------
+    new: numpy.ndarray
+        Processed image
+
+    Notes
+    ------
+        If you don't give a x value and an y value, this function will
+        automatically choose an x value and a y value.
+        Boundary blur cannot avoid, but it doesn't have a great impact
+        on recognition. Only a few pixels are not close to the real image.
+        If you have better methods, please contact us
+
+    Examples
+    ---------
+        >>> import cv2
+        >>> import doug
+        >>> image = cv2.imread('filename')
+        >>> new = doug.tremor_image(image, x=1, y=1)
+<h2 id="11">generate_noisy(image: np.ndarray, noise_typ: str):</h2>
+
+    """Add noise data to the image
+    reference to:
+    https://stackoverflow.com/questions/22937589/how-to-add-noise-gaussian-salt-and-pepper-etc-to-image-in-python-with-opencv#
+
+    Arguments:
+        image {np.ndarray} -- Input image data. Will be converted to float.
+        noise_typ {str} -- gauss, poisson, s&p, speckle
+            'gauss'     Gaussian-distributed additive noise.
+            'poisson'   Poisson-distributed noise generated from the data.
+            's&p'       Replaces random pixels with 0 or 1.
+            'speckle'   Multiplicative noise using out = image + n*image,where
+                        n is uniform noise with specified mean & variance.
+    """
+
+<h2 id="12">doug.night_noise_transform(image, init_delta=12):</h2>
+
+    """
+    Simulates the effect of night noise when taking photos with mobile devices at night
+
+    Parameters
+    ----------
+    image : numpy.ndarray,
+        Input Image array which data format should be (H,W,C).
+
+    init_delta : int,
+        The factor that controls brightness enhancement.
+
+    Returns
+    -------
+    image : numpy.ndarray,
+        Transformed image array.
+
+    Notes
+    -----
+    Image array data format should be (H,W,C),and C=3
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('demo.jpg')
+    >>> image = doug.night_noise_transform(image, init_delta=12)
+    """
+<h2 id="13">hsv_transform(image, fraction=0.50):</h2>
+
+    """
+    Given a numpy ndarray image, change it's HSV color space with fraction.
+
+    Parameters
+    ----------
+    image : numpy.ndarray,
+        Input Image array which data format should be (H,W,C).
+
+    fraction : float,
+        Control the weight used in HSV transformation (default: {0.50}).
+
+    Returns
+    -------
+    image : numpy.ndarray,
+        Transformed image array.
+
+    Notes
+    -----
+    Image array data format should be (H,W,C),and C=3
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('demo.jpg')
+    >>> image = doug.image(image, fraction=0.8)
+    """
+<h2 id="14">`doug.occlusion_paste_above(data:dict, prob=0.5, cover_position=OCCLUSION_EDGDE, fit_method=FIT_NORMAL, image_source=None, bg_mask=0, size_ratio=(1.0 / 32, 5.0 / 32)):`(image, init_delta=12):</h2>
+
+    """
+    Randomly copy an image patch from the original image or another given one,
+    then paste it on the original image. Support PNG alpha channel.
+    ATTENTION: The patch pixels will be slightly adjusted and when the patch
+    comes across the label, it will always be pasted ABOVE.
+
+    Parameters
+    ----------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels(mask or keypoints) to be rotated.
+        The shape of image can be (height, width, chanel) if data format
+        is RGB/RGBA or (height, width) if GRAY. Mask is a pixel-level
+        label array with shape of (height, width). Keypoints contain
+        points of polygon labels with shape of (n_labels, n_coordinates).
+        Coordinates should be in order of [x1, y1, x2, y2 ...], clockwise.
+    prob : float, optional
+        Probability of this augmentation.
+    cover_position: int, optional
+        Occlusion position. See from doug.core.DouG, there are 3 settings:
+        doug.OCCLUSION_INTER: the patch must intersect the mask area,
+        doug.OCCLUSION_EDGDE: the patch must intersect the mask edge,
+        doug.OCCLUSION_RANDOM: whole image random cover.
+    fit_method: int, optional
+        Image fitting algorithm. See from doug.core.DouG, there are 5 options:
+        doug.FIT_PASTE: just paste, no special move,
+        doug.FIT_NORMAL: using opencv seamlessClone: cv2.NORMAL_CLONE,
+        doug.FIT_MIX: using opencv seamlessClone: cv2.MIXED_CLONE,
+        doug.FIT_MONO: using opencv seamlessClone: cv2.MONOCHROME_TRANSFER,
+        doug.FIT_RANDOM: randomly choose from above.
+    image_source : None or str or numpy.array or tuple or list of str, optional
+        Another image source. The parameter could be a numpy.array image, a
+        string image path, a list of image paths or a string image folder
+        path that ended by '*.extension'. If None, copy from the origin.
+    bg_mask : int or float, optional
+        Background pixel value in mask.
+    size_ratio: tuple of float, optional
+        The minimum and maximum size ratio of the copied patch's longest size to 
+        the original image.
+
+    Returns
+    -------
+    data : dict of str, numpy.ndarray
+        {"image": image, "mask": mask/None, "keypoints": points/None}
+        Image and labels after this modification.
+
+    Notes
+    -----
+    This function is used to generate synthetic occlusion influence.
+    If there are multiple labels on one image, the region would be a
+    common area generated by minimum and maximum coordinates of the
+    labels.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> image = cv2.imread('img.jpg')
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> data = {"image":image, "mask":mask}
+    >>> data_after = doug.occlusion_paste_above(data,0.5, image_source='./*.jpg',cover_position=doug.OCCLUSION_EDGDE)
+    """
+<h2 id="15">doug.fix_jpgmask(mask, class_list=None, bg_mask=0, delete_thresh=None):</h2>
+
+    """
+    Fix mask pixel contamination caused by image compression or cv2/PIL
+    interpolation.
+
+    Parameters
+    ----------
+    mask : dict of str, numpy.ndarray
+        Mask to be fixed.
+        The mask should be a (height, width) grayscale image and every pixel
+        value indicates certain class.
+    class_list : tuple or list or None, optional
+        Legitimate class numbers in mask. Any excepting value in mask will
+        be deleted
+    bg_mask : int or float, optional
+        Background pixel value in mask.
+    delete_thresh: float or None, optional
+        Minimum pixel count (width * delete_thresh * height * delete_thresh)
+        to be regarded as noise.
+
+    Returns
+    -------
+    mask : numpy.ndarray,
+        Mask after this modification.
+
+    Notes
+    -----
+    This function is used to fix pixel contamination in mask, specifically
+    deleting redundant dots and lines, and deleting unexpected pixel value.
+
+    Examples
+    --------
+    >>> import doug
+    >>> import cv2
+    >>> mask = cv2.imread('img_mask.jpg')
+    >>> mask_after = doug.occlusion_paste_above(mask, [1,2], 0, None)
+    """
+
+
