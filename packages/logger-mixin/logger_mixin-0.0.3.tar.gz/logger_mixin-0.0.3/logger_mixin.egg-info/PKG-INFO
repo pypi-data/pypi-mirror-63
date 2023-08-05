@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: logger-mixin
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://gitlab.com/ds-mpca/logger-mixin
+Author: Daniel Sullivan
+Author-email: daniel.sullivan@state.mn.us
+License: Lesser General Public License V3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
