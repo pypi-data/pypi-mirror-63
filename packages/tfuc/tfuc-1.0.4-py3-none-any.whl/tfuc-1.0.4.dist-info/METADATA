@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tfuc
+Version: 1.0.4
+Summary: some useful tools
+Home-page: https://github.com/gitduk/tfuc.git
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: fake-useragent
+Requires-Dist: openpyxl
+Requires-Dist: sqlalchemy
+Requires-Dist: selenium
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# tools
+### downloader 
+### logger
+### ...
+
+
