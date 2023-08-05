@@ -1,0 +1,14 @@
+[Unit]
+Description=FHmonitor - read and store active power readings.
+# Don't start the service until the network is up and running
+After=network.target
+
+[Service]
+Type=simple
+ExecStart = /home/pi/projects/FHmonitor_project/FHmonitor/systemd/run_FHmonitor_main.sh
+Restart=on-failure
+User=pi
+
+[Install]
+# Components of this application should be started at boot time
+WantedBy=multi-user.target
