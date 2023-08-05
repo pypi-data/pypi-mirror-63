@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: santodigital-request-full
+Version: 1.0.5
+Summary: Http request library for paginated response api
+Home-page: https://bitbucket.org/santodigital/santodigital-request-full
+Author: Rodrigo Gonçalves
+Author-email: rodrigo@santodigital.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Objetivo
+Lib para executar chamadas em APIs com paginação, trazendo todos os registros de forma única.
+
+Esta lib não possui métodos para realização dos passos de autenticação e do fluxo de oauth. Ela espera que a aplicação chamadora execute estes passos e informe qual o tipo de autenticação utilizada e o token / session gerado na chamada desta lib
+
+# Utilização
+
+## Requisitos
+
+Instalar a lib pyjwt:
+
+`pip install -U pyjwt`
+
+## Tipos de Autenticação Possíveis
+
+- OAuth1:
+    Exemplos disponíveis no arquivo examples/oauth1_api_request_until_bool.py e oauth1_api_request_until_total.py
+
+    a. Executar o comando abaixo para gerar as chaves pública e privada:
+    b. Guardar a chave pública (oauth.pem) em uma das pastas do projeto
+    c. Obter o client ID e client secret no provedor da API. Ex Jira:
+    d. Na classe que irá solicitar a autenticação na API, executar os passos para autenticação OAuth1. Consultar a documentação da API que será chamada para obter a forma correta de autenticação.
+
+    Segue exemplo de autenticação OAuth1 com a API do jira:
+
+```python
+    import os
+    import requests
+    from requests_oauthlib import OAuth1
+    from santodigital_request_full import RequestFull
+
+    # Autenticação
+    path = os.path.dirname(os.path.abspath(__file__));
+    rsa_private_key = None
+
+    with open(path + '/oauth.pem', 'r') as key_cert_file:
+        rsa_private_key = key_cert_file.read()
+
+    oauth = OAuth1(client_key = 'oauth-consumer',
+            rsa_key = rsa_private_key,
+            signature_method='RSA-SHA1',
+            resource_owner_key='******************************',
+            resource_owner_secret='******************************'
+        )
+
+    session = requests.Session()
+    session.auth = oauth
+    session.headers.update({'X-Atlassian-Token': 'nocheck'})
+```
+    d. Preparar os parâmetros de consulta da API:
+
+```python
+# Preparação dos parâmetros da requisição
+    url = 'https://santodigital.atlassian.net/rest/agile/latest/board'
+    auth = {
+        'type': 'OAuth',
+        'session': session
+    }
+
+    # Tipos de paginação:
+    # 1 - Executa a api utilizando como controle uma flag (boolean)
+    # 2 - Executa a api utilizando como controle variáveis de totais
+    # 3 - Executa a api utilizando como controle o número da página pesquisada e a quantidade de itens por página
+    paginate_type = 2
+    object_name = 'values'
+    params = {
+        'init': 'startAt',
+        'pageSize': 'maxResults',
+        'pageSizeNum': 100,
+        'total': 'total'
+    }
+```
+
+    e. Executar a chamada da lib santodigitial_request_full:
+
+```python
+# Execução da requisição
+    res = RequestFull().execute(url, paginate_type, auth, object_name, params)
+```
+
+- OAUth2:
+    Exemplo disponível no arquivo examples/oauth2_api_request.py
+
+    a. Obter a url de obtenção do token, o client ID e client secret no provedor da API.
+    b. Na classe que irá solicitar a autenticação na API, executar os passos para autenticação OAuth2. Consultar a documentação da API que será chamada para obter a forma correta de autenticação.
+
+    Segue exemplo de autenticação OAuth1 com a API do bitbucket:
+
+```python
+# Autenticação
+    client_id='**********************'
+    client_secret = '**********************'
+    token_url = 'https://bitbucket.org/site/oauth2/access_token'
+    client = BackendApplicationClient(client_id=client_id)
+    oauth = OAuth2Session(client=client)
+    token = oauth.fetch_token(token_url=token_url, client_id=client_id, client_secret=client_secret)
+```
+
+    c. Preparar os parâmetros de consulta da API:
+
+```python
+# Preparação dos parâmetros da requisição
+    url = 'https://api.bitbucket.org/2.0/repositories/santodigital'
+    auth = {
+        'type': 'OAuth2',
+        'token': token["access_token"]
+    }
+
+    # Tipos de paginação:
+    # 1 - Executa a api utilizando como controle uma flag (boolean)
+    # 2 - Executa a api utilizando como controle variáveis de totais
+    # 3 - Executa a api utilizando como controle o número da página pesquisada e a quantidade de itens por página
+    paginate_type = 3
+    object_name = 'values'
+    params = {
+        'pageField': 'page',
+        'pageLenField': 'pagelen'
+    }
+```
+
+    d. Executar a chamada da lib santodigitial_request_full:
+
+```python
+# Execução da requisição
+    res = RequestFull().execute(url, paginate_type, auth, object_name, params)
+```
+
