@@ -1,0 +1,3 @@
+[console_scripts]
+goldenmask=goldenmask.cli:goldenmask
+
