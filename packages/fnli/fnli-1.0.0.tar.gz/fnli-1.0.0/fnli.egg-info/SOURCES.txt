@@ -1,0 +1,14 @@
+README.md
+setup.py
+fnli/__init__.py
+fnli.egg-info/PKG-INFO
+fnli.egg-info/SOURCES.txt
+fnli.egg-info/dependency_links.txt
+fnli.egg-info/top_level.txt
+fnli/datasets/__init__.py
+fnli/datasets/fnli.py
+fnli/preprocessing/__init__.py
+fnli/preprocessing/sequence.py
+fnli/utils/__init__.py
+fnli/utils/data_utils.py
+fnli/utils/generic_utils.py
