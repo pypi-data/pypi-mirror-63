@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+responsum/__init__.py
+responsum/_version.py
+responsum/response.py
+responsum.egg-info/PKG-INFO
+responsum.egg-info/SOURCES.txt
+responsum.egg-info/dependency_links.txt
+responsum.egg-info/requires.txt
+responsum.egg-info/top_level.txt
+responsum/utils/__init__.py
+responsum/utils/file_utils.py
+responsum/utils/fits_file.py
+responsum/utils/package_data.py
