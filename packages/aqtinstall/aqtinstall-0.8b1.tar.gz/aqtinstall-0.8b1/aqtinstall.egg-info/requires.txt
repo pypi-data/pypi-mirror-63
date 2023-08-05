@@ -1,0 +1,14 @@
+requests
+wheel
+py7zr<0.7,>=0.5.3
+packaging
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+pytest
+pytest-pep8
+pytest-remotedata
+pytest-cov
+flake8
