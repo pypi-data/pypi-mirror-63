@@ -1,0 +1,15 @@
+helics_apps/__init__.py,sha256=KHATREFZMlrjbJVesoe93SQIAQQodjzqJTHdCTizcCc,780
+helics_apps/_version.py,sha256=vO0QzIPiI_OQr_K_OXxvWJ2xK8-hXZ-525yl6DaT37E,519
+helics_apps/data/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helics_apps/data/bin/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helics_apps/data/bin/helics_app.exe,sha256=NNLNaHyCg3fusVwomK4oMShrXqoA528KswlhkKR1_Lk,2682368
+helics_apps/data/bin/helics_broker.exe,sha256=hZCsGamIxno_H9wFXR6nX_KrQH5c9TD9gGDqOLKleyM,2168832
+helics_apps/data/bin/helics_broker_server.exe,sha256=HfeLNy86dyi74OzeXnsMbphrCzvuMy6Vw7Edfbwl3hM,2192896
+helics_apps/data/bin/helics_player.exe,sha256=7ZoHJkvLORZm6TdGVqOwVZPBCwQYmdoBwTqs8fQ9KUQ,2537472
+helics_apps/data/bin/helics_recorder.exe,sha256=8XeFmF5RRaYclfDYzu0CwHg2rooU5fhPFQWGwWhb36w,2513920
+helics_apps-2.4.1.dist-info/LICENSE,sha256=jC3wdbhtSyGlQOTy5a2hPKzz6atyr9NzAb_m8Gyj6HI,1621
+helics_apps-2.4.1.dist-info/METADATA,sha256=ChBV4eKK7Es3ggtTZtqRt4Bf5wu9yQ1_SAeKt0JOkvo,2890
+helics_apps-2.4.1.dist-info/WHEEL,sha256=smYyRL-TKMdltSuDmiWVm3HCZQf_KTeKfm0oHcWzAtw,120
+helics_apps-2.4.1.dist-info/entry_points.txt,sha256=ykM1xwDWxRA3VQCOzbbNAa8XNuutKVhIK-5TJXJq8Tg,241
+helics_apps-2.4.1.dist-info/top_level.txt,sha256=fRCbdgdEucg8-8MmDKB5QCt81jDpxy5RXY8PdELrb0M,12
+helics_apps-2.4.1.dist-info/RECORD,,
