@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: better-logging
+Version: 0.1.0
+Summary: Simple UI for Logback Postgres DBAppender
+Author: B7W
+Author-email: b7w@isudo.ru
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: arrow (>=0.15.5,<0.16.0)
+Requires-Dist: asyncpg (>=0.20.1,<0.21.0)
