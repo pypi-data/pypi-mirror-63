@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: swem
+Version: 0.0.1
+Summary: A portable document embedding using SWEM.
+Home-page: https://github.com/yutayamazaki/SWEM-Python
+Author: Yuta Yamazaki
+Author-email: yu.yamazakii@gmail.com
+Maintainer: Yuta Yamazaki
+Maintainer-email: yu.yamazakii@gmail.com
+License: MIT
+Description: # SWEM
+        Implementation of SWEM(Simple Word-Embedding-based Models)  
+        [Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms (ACL 2018)](https://arxiv.org/abs/1805.09843)
+        
+        Details are available [here(Japanese)](https://scrapbox.io/whey-memo/SWEM(Simple_Word-Embedding-Based_Models)).
+        
+        ## Example
+        
+        ```python example.py
+        from gensim.models.word2vec import Word2Vec
+        
+        from swem import SWEM
+        
+        if __name__ == '__main__':
+            model = Word2Vec.load('wiki_mecab-ipadic-neologd.model')
+        
+            swem = SWEM(model)
+        
+            doc = '僕の名前はバナナです。'
+        
+        
+            for method in ['max', 'average', 'concat']:
+                print(swem.infer_vector(doc, method=method).shape)
+        ```
+        
+        Results  
+        ```shell
+        (200,)
+        (200,)
+        (400,)
+        ```
+Keywords: swem nlp python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
