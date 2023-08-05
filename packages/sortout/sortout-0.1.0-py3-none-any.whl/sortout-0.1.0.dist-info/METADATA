@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sortout
+Version: 0.1.0
+Summary: An integrative library that contains tools for using various types of sorting algorithms to work together.
+Home-page: https://github.com/yogesh-aggarwal/sortout
+Author: Yogesh Aggarwal
+Author-email: developeryogeshgit@gmail.com
+License: AGPL 3.0
+Download-URL: https://github.com/yogesh-aggarwal/sortout/blob/master/dist/sortout-0.1.0.tar.gz
+Keywords: SORTING,MULTIPLE SORTS,ALGORITHMS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# sortout sorting helper
+
+**An integrative library that contains tools for using various types of sorting algorithms to work together.**
+
+It is a library that provides tools for sorting arrays with all types of algorithms present. It **aims** to help the developer ring to use multiple algorithms at the same time to get faster output instead they use a sigle one.
+
+By using this library the developer will be able to increase its program effieciency and performance.
+Hope the community will like it 👍.
+
