@@ -1,0 +1,10 @@
+loader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loader/__main__.py,sha256=wig7MstTwwb_-BUA30yYr65wS36ngJ2MlyMmBbJJVw4,49
+loader/cli.py,sha256=Thxdx3O76U6hyQFb92tXPV3dCxG9Cz6U5cm-7oCChJY,1262
+loader/download.py,sha256=DS8dbWLejCw1jKpwRKM25uHGRVFbAtcuo4O1i-RS2JY,3213
+YouTube_Loader-0.3.dist-info/LICENSE,sha256=FL3-XOwP69UQxyO09CQVZ6vbrB6fZrx2Kq8HoBMXzPY,1065
+YouTube_Loader-0.3.dist-info/METADATA,sha256=t3OIN0Ks0iI-0DmJulTQnW53VThyvi_IHZxAFO52q5Y,688
+YouTube_Loader-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+YouTube_Loader-0.3.dist-info/entry_points.txt,sha256=Z9ZuPTdtra3vYjzw7MnExfsXm2hPs407BQYSMCrFxQE,47
+YouTube_Loader-0.3.dist-info/top_level.txt,sha256=L6sy4cmyVj3gEq2IWUSompHpWumfcuQgE2pbPFc2Hwk,7
+YouTube_Loader-0.3.dist-info/RECORD,,

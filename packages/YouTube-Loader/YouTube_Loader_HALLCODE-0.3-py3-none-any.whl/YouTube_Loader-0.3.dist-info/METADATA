@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: YouTube-Loader
+Version: 0.3
+Summary: Download tool for multiple YouTube videos.
+Home-page: https://github.com/hallcode/yt-loader
+Author: Alex Hall
+Author-email: alexhall93@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Requires-Dist: click
+Requires-Dist: clint
+Requires-Dist: pytube3
+
+UNKNOWN
+
+
