@@ -1,0 +1,9 @@
+cloudformation_dynamodb_export/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudformation_dynamodb_export/cfn2ddb.py,sha256=O12gca-VIcMWfUALS1_aG5vSNQElCWLyrSFlfATemiI,1588
+cloudformation_dynamodb_export/cfn_parser.py,sha256=rEyxrGEljb01rYIH5qZMeZGKOdxv8ny-smkm-gqyb2E,2089
+cloudformation_dynamodb_export-0.2.3.dist-info/LICENSE,sha256=9urLBT9GnR7KiNripqUv_1Fkm3Ys0i380xD1Ty9Iah4,1070
+cloudformation_dynamodb_export-0.2.3.dist-info/METADATA,sha256=EhfS8kfTiQIkgAmyEPRTxa49XiF2DaSbPMRMK7-tHh0,1145
+cloudformation_dynamodb_export-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloudformation_dynamodb_export-0.2.3.dist-info/entry_points.txt,sha256=lkFIVnNapZhkAq7FtjCTDHxR6_Ec9_pv_zxUboOmEW8,81
+cloudformation_dynamodb_export-0.2.3.dist-info/top_level.txt,sha256=WBTFC9rRCJk4ZaCfrJW6e2bI6faBG77fhzsd-lMwwXY,31
+cloudformation_dynamodb_export-0.2.3.dist-info/RECORD,,

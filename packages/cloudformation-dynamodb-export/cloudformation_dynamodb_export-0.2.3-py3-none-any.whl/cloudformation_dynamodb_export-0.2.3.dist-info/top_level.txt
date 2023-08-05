@@ -1,0 +1,1 @@
+cloudformation_dynamodb_export
