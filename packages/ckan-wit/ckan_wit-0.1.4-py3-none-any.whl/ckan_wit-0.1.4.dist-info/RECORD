@@ -1,0 +1,12 @@
+ckan_wit/__init__.py,sha256=JTc9ZrtocyLA-YGYG9DTypMc_lEXVxgvD9hYYwexGy4,204
+ckan_wit/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckan_wit/src/ckan_opendata_portals_uris.txt,sha256=0go8X_7_w5hh6EuwEsqxDcmiOFU2zdk5FoY45O4fQgA,521
+ckan_wit/src/proxies.py,sha256=LaHW-FMDVolTKOfeNwD2u_liUdVybXazXSjiWg2AZaI,672
+ckan_wit/src/test_wit.py,sha256=aXNO7lCEvWjVm49Yfm5OjLBs3VNU0apxiygABBD91GI,1295
+ckan_wit/src/uris.py,sha256=pBp07FuXbh-T5-atZtxbvxRRrHe995NPMow6NqpOz5g,1314
+ckan_wit/src/wit_main.py,sha256=wuhe1eUPOuSRi1o3rPSoNhafbS1jih3F2c7HM07Z7RA,13399
+ckan_wit-0.1.4.dist-info/LICENSE.rst,sha256=CAMUmlOBf6JLRBww--Ws6kbEPUyQCAL-WJyZeb4_IfI,1110
+ckan_wit-0.1.4.dist-info/METADATA,sha256=wzNQ2SLlPNdQ_zNTAKzfSMlYGVcuT5drIj1eLVZkN5o,2899
+ckan_wit-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ckan_wit-0.1.4.dist-info/top_level.txt,sha256=bVz4hHq-Vx4Ag-ty3XQS5L0mBEomJjlUM7hRJGKXdS8,9
+ckan_wit-0.1.4.dist-info/RECORD,,
