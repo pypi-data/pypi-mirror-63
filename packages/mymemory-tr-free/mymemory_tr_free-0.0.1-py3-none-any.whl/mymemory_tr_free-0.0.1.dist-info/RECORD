@@ -1,0 +1,10 @@
+mymemory_tr/__init__.py,sha256=kQBkMKVhlvKjXS9EgWCNgzSfPKxL5EQAw6RY7aOOn6M,147
+mymemory_tr/mymemory_tr.py,sha256=PuhvJeOw_CF2luEWfCploMIzw91GcquE4JLNqRVIQ8E,9907
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mymemory_tr.py,sha256=0rqaEiOIKFu-kINVi-hbVRsDPlfrB8s8sG-CbJZZpQc,137
+tests/test_sanity.py,sha256=Krix3IXe6Kjbf73oMUIYjwJ2TGhbLMRD4OPhb8w55T4,189
+mymemory_tr_free-0.0.1.dist-info/LICENSE,sha256=bbHPUVqWKddgoeO4Cl0-S4Y60O7vbLX51GSgBTnpDww,1064
+mymemory_tr_free-0.0.1.dist-info/METADATA,sha256=MCdUV9K2jq32cdAVxAeex2k-bOrTkHJC8Lqi5mZ6Bpw,1876
+mymemory_tr_free-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mymemory_tr_free-0.0.1.dist-info/top_level.txt,sha256=wOzvwK831GqIfTfU_Upvd-qUjbDAE2wHNI95IBOMqFw,18
+mymemory_tr_free-0.0.1.dist-info/RECORD,,
