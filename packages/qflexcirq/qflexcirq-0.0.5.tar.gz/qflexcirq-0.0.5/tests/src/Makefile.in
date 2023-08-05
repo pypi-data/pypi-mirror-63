@@ -1,0 +1,35 @@
+TARGETS = $(shell find . -name '*_test.cpp')
+TARGETS := $(TARGETS:%.cpp=%.x)
+
+SRC_DIR = ../../src
+GTEST_DIR = $(CURDIR)/googletest/googletest
+GMOCK_DIR = $(CURDIR)/googletest/googlemock
+
+OBJS1 = $(OBJS)
+
+TESTFLAGS = -I$(GTEST_DIR)/include -L$(GTEST_DIR) -I$(GMOCK_DIR)/include -L$(GMOCK_DIR) -I$(SRC_DIR)
+
+.PHONY: all
+all: $(TARGETS)
+
+.PHONE: run-all
+run-all: all
+	for exe in $(TARGETS); do if ! ./$$exe; then exit 1; fi; done
+
+%.o:
+	$(MAKE) -C $(SRC_DIR) $@
+
+$(GTEST_DIR)/make/gtest-all.o:
+	$(MAKE) -C $(GTEST_DIR)/make gtest-all.o
+
+$(GMOCK_DIR)/make/gmock-all.o:
+	$(MAKE) -C $(GMOCK_DIR)/make gmock-all.o
+
+%.x: %.cpp $(OBJS1) $(GMOCK_DIR)/make/gmock-all.o $(GTEST_DIR)/make/gtest-all.o
+	$(CXX) -o ./$@ $< $(OBJS1:%=$(SRC_DIR)/%) $(TESTFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(GMOCK_DIR)/make/gmock-all.o $(GTEST_DIR)/make/gtest-all.o $(LDFLAGS) $(LIBS)
+
+.PHONY: clean
+clean:
+	-rm -f ./*.x ./*.a ./*.so ./*.mod $(OBJS1)
+	-$(MAKE) -C $(GMOCK_DIR)/make clean
+	-$(MAKE) -C $(GTEST_DIR)/make clean
