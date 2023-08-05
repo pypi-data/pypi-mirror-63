@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+co_sa.egg-info/PKG-INFO
+co_sa.egg-info/SOURCES.txt
+co_sa.egg-info/dependency_links.txt
+co_sa.egg-info/not-zip-safe
+co_sa.egg-info/requires.txt
+co_sa.egg-info/top_level.txt
+cosa/Image.py
+cosa/__init__.py
+cosa/transform.py
