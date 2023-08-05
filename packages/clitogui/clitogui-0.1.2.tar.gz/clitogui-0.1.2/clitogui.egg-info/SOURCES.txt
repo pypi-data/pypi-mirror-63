@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+clitogui/__init__.py
+clitogui/argument_extractor.py
+clitogui/clitogui.py
+clitogui/gui.py
+clitogui/image_viewer.py
+clitogui/interactive_gui.py
+clitogui.egg-info/PKG-INFO
+clitogui.egg-info/SOURCES.txt
+clitogui.egg-info/dependency_links.txt
+clitogui.egg-info/not-zip-safe
+clitogui.egg-info/requires.txt
+clitogui.egg-info/top_level.txt
