@@ -1,0 +1,7 @@
+README.md
+setup.py
+Newmode/__init__.py
+newmode.egg-info/PKG-INFO
+newmode.egg-info/SOURCES.txt
+newmode.egg-info/dependency_links.txt
+newmode.egg-info/top_level.txt
