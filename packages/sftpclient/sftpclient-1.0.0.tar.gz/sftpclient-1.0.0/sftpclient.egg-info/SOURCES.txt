@@ -1,0 +1,9 @@
+README.md
+setup.py
+sftpclient/__init__.py
+sftpclient.egg-info/PKG-INFO
+sftpclient.egg-info/SOURCES.txt
+sftpclient.egg-info/dependency_links.txt
+sftpclient.egg-info/not-zip-safe
+sftpclient.egg-info/requires.txt
+sftpclient.egg-info/top_level.txt
