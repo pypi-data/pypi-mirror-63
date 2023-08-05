@@ -1,0 +1,11 @@
+helics/__init__.py,sha256=ebx_uxczNfai2dX3k1yYJgkON61q9XXgtGbR1V3ZlbI,120
+helics/_helics.pyd,sha256=vRg7enw-aE7NDrWPrJihCc71o0IVFvbxt_4acCSsrhQ,358400
+helics/_version.py,sha256=tQ-SA_h8cQ7cNPJ3rkYNTKe82LWKbhib2-PWDglpcqg,18967
+helics/helics.py,sha256=0X27IGTyXPrgdPmXyjpRwirRuR4VMdcX0eka931eR5g,134910
+helics/helicsSharedLib.dll,sha256=kfGr1bbEuHn_1VPdVhB2pFC2DlvmKg187GIUqdZZEq8,3232256
+helics-2.4.1.dist-info/LICENSE,sha256=jC3wdbhtSyGlQOTy5a2hPKzz6atyr9NzAb_m8Gyj6HI,1621
+helics-2.4.1.dist-info/METADATA,sha256=hVl5hwn_G8Jcnq6WS8Np7jVY053cUFnb4JyZqZgsmVs,3907
+helics-2.4.1.dist-info/WHEEL,sha256=Yt_rpa18HI_NXs5dEYG1uWuZ-4QRLVJrN8TSetG3BOI,106
+helics-2.4.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+helics-2.4.1.dist-info/top_level.txt,sha256=_zAPWrDoIMp3asQYoTN7ybNwfQUnyQTWacy4GKMryms,7
+helics-2.4.1.dist-info/RECORD,,
