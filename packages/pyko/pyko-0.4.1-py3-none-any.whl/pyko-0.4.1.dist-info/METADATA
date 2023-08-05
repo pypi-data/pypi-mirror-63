@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyko
+Version: 0.4.1
+Summary: Korean Text Processor
+Home-page: https://github.com/codebasic/pyko
+Author: Lee Seongjoo
+Author-email: seongjoo@codebasic.io
+License: UNKNOWN
+Keywords: natural language processing text korean
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: Korean
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Dist: nltk
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+
+UNKNOWN
+
+
