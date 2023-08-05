@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: custodian-streetcred-id
+Version: 0.0.1
+Summary: Our custodian API
+Home-page: https://github.com/streetcred-id/
+Author: Streetcred ID
+Author-email: tech@streetcred.id
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Streetcred ID Custodian API 
+Welcome to our API. Learn more at https://docs.streetcred.id
+
