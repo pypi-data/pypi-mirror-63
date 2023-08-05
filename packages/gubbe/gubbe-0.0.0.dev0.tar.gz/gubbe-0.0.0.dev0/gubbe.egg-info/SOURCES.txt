@@ -1,0 +1,11 @@
+README.md
+setup.py
+gubbe/__init__.py
+gubbe/gubbe.py
+gubbe/version.py
+gubbe.egg-info/PKG-INFO
+gubbe.egg-info/SOURCES.txt
+gubbe.egg-info/dependency_links.txt
+gubbe.egg-info/entry_points.txt
+gubbe.egg-info/requires.txt
+gubbe.egg-info/top_level.txt
