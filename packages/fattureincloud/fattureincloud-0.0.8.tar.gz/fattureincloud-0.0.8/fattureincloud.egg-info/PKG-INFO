@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: fattureincloud
+Version: 0.0.8
+Summary: Fatture In Cloud API SDK
+Home-page: https://github.com/fedetorre/python-fattureincloud
+Author: Federico Torresan
+Author-email: federico.torresan@quentral.com
+License: LGPLv3
+Description: # Python SDK for FattureInCloud API
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
