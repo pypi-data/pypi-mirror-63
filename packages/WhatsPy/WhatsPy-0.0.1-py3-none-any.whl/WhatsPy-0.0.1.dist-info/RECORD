@@ -1,0 +1,9 @@
+WhatsPy-0.0.1.data/scripts/whatspy,sha256=PDIi_3yuifd-KCXjsqF2SI0L4nbAOZb3yVBpqyg4tEU,39
+WhatsPy-0.0.1.data/scripts/whatspy.sh,sha256=PDIi_3yuifd-KCXjsqF2SI0L4nbAOZb3yVBpqyg4tEU,39
+whatspy/__init__.py,sha256=VRgYdN0KF659VzZEawpBuSBuJIrR_P2nquRO6VKmZ-I,26
+whatspy/chrome.py,sha256=BsBqwinwkzmJ3kw8qJQ3zIOPQ6kOItRKzr3bEEZzlhg,2975
+whatspy/main.py,sha256=KuC_q5s9DreaPpQ6pbvkF4-mCzQILwqWexgOcQcVhsQ,2030
+WhatsPy-0.0.1.dist-info/METADATA,sha256=YrPdg9Y9YBlX25U115SGrrGu4Vj7EtT-DSjFlbYkS3I,1569
+WhatsPy-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+WhatsPy-0.0.1.dist-info/top_level.txt,sha256=_sAX4hGS3wP9q_3nwuyPHBXE3YhuVprkPHHxdaZ2pWU,8
+WhatsPy-0.0.1.dist-info/RECORD,,
