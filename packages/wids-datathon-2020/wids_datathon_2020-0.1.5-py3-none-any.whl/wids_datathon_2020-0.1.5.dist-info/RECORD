@@ -1,0 +1,21 @@
+wids_datathon_2020/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wids_datathon_2020/inference.py,sha256=qIHYJnn4wBqvZSGOQelK59hELAafYsaPyvy22Gxp7-8,2473
+wids_datathon_2020/learn.py,sha256=inUv0ty-JiJIDLFAYFYOOot2xAQoyQGnx3sUsvizeSQ,2121
+wids_datathon_2020/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wids_datathon_2020/data/encode_dataset.py,sha256=Ta2loHF-6J5jNROxwMR2dxkB-Aofsb-1g4A3YuRBe2Y,5408
+wids_datathon_2020/data/make_dataset.py,sha256=YiX-8Ja5LI3Q0-2G4GXTD5RmmMIZNrsO2M6cifPjxTE,6255
+wids_datathon_2020/data/stratify_dataset.py,sha256=qZIjcAy_9Xe_E-slJeLAwZrve5KrsRU1vmhmlGM9_S0,3234
+wids_datathon_2020/data/unzip_dataset.py,sha256=aftw1Bd3avyrmtAcG6by3W83cKdxRgqgBcQyHMXT5rM,1270
+wids_datathon_2020/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wids_datathon_2020/features/build_features copy.py,sha256=UZE9sC-yQbLfTOopQQVmpHhPsqtW5hN9Z0ClhL0U-NA,25385
+wids_datathon_2020/features/build_features.py,sha256=BZIffxqp54qtpKPE7xUvXVQ1iBlNTVFxAr24EQaKlKg,36952
+wids_datathon_2020/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wids_datathon_2020/models/predict_model.py,sha256=8wWz5aTRFtDmsZQbC6K1MS8z_PYx8VbxM-S4-NkAbQU,2525
+wids_datathon_2020/models/train_model.py,sha256=wmLa6qsHPoiIehvr3JqmPNG0ZUjriukHTfF3EgOiCKQ,9921
+wids_datathon_2020/visualization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wids_datathon_2020/visualization/visualize.py,sha256=OYfgkP8mByGMURrgb0WPU89B1JKS4Cma7boSToPMtPo,4752
+wids_datathon_2020-0.1.5.dist-info/LICENSE,sha256=2IfjvyldKRllEXe0tdfg6L0abd7UN2L9PSfttLjK2tg,1078
+wids_datathon_2020-0.1.5.dist-info/METADATA,sha256=l7GW6t29dpR1L-5fDt8QgCBTMyDvwh-KfW9syPxg3yU,5571
+wids_datathon_2020-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wids_datathon_2020-0.1.5.dist-info/top_level.txt,sha256=rrIzQbE-8BEfWo12-RGMesC2bxvnT7QV5ioELAHUiII,19
+wids_datathon_2020-0.1.5.dist-info/RECORD,,
