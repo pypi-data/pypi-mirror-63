@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: port-linker
+Version: 1.0.7
+Summary: Link serial ports and tcp sockets together
+Home-page: https://github.com/JakeHillHub/port-linker
+Author: Jake Hill
+Author-email: jakehillgithub@gmail.net
+License: UNKNOWN
+Keywords: Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Requires-Dist: pydux
+Requires-Dist: funcy
+
+# Port Linker
+Use this to link any combination of tcp sockets and serial ports together
+
+# Requirements
+pyserial
+funcy
+pydux
+
+# Usage (Install)
+1. `pip install port-linker`
+2. `port-linker <configuration.json> [--wait <seconds>]`
+
+# Usage (Git clone)
+`python -m core.run_link config.json [--wait <seconds>]`
+
+
