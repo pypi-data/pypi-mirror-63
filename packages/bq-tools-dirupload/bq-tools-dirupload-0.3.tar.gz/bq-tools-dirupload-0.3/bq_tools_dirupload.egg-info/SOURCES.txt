@@ -1,0 +1,15 @@
+README.md
+README.rst
+setup.cfg
+setup.py
+bq/__init__.py
+bq/tools/__init__.py
+bq/tools/pool.py
+bq/tools/uploaddirp.py
+bq_tools_dirupload.egg-info/PKG-INFO
+bq_tools_dirupload.egg-info/SOURCES.txt
+bq_tools_dirupload.egg-info/dependency_links.txt
+bq_tools_dirupload.egg-info/entry_points.txt
+bq_tools_dirupload.egg-info/not-zip-safe
+bq_tools_dirupload.egg-info/requires.txt
+bq_tools_dirupload.egg-info/top_level.txt

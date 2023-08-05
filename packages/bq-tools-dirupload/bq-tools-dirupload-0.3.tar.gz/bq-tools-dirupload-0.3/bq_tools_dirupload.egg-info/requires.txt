@@ -1,0 +1,3 @@
+bisque-api
+future
+configparser
