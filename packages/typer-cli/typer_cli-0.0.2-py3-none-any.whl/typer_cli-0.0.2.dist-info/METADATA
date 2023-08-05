@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: typer-cli
+Version: 0.0.2
+Summary: 
+Author: Sebastián Ramírez
+Author-email: tiangolo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click-completion (>=0.5.2,<0.6.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: importlib_metadata (>=1.5,<2.0)
+Requires-Dist: typer (>=0.0.8,<0.0.9)
+Description-Content-Type: text/markdown
+
+# Typer CLI
+
+Easily run your **Typer** applications without installing them, using **Typer CLI**.
+
+⚠️ **WARNING**: If you are building a CLI package you probably need [**Typer**](https://typer.tiangolo.com/), the library itself. This, **Typer CLI**, is a CLI application that simplifies running simple **Typer** applications, it is not the library itself.
+
+## Description
+
+**Typer** is a library for building CLIs (Command Line Interface applications).
+
+**Typer CLI** is a CLI application that simplifies running simple programs created with **Typer**.
+
+The main feature it does is provide completion for your own programs built with **Typer** without you having to install them locally as a package.
+
+It's probably most useful if you have a small custom Python script using **Typer** that is part of some project, for some small tasks, and it's not complex/important enough to build a whole CLI package for it (something to be installed with `pip`).
+
+In that case, you can install **Typer CLI**, and run your program with `typer`, and it will provide completion for your script.
+
+## Usage
+
+Install **Typer CLI**:
+
+```console
+$ python -m pip install typer-cli
+```
+
+That creates a `typer` command.
+
+You can then install completion for it:
+
+```console
+$ typer --install-completion
+```
+
+Then, let's say you have a script that uses **Typer** in `my_custom_script.py`:
+
+```Python
+import typer
+
+app = typer.Typer()
+
+
+@app.command()
+def hello(name: str = None):
+    if name:
+        typer.echo(f"Hello {name}")
+    else:
+        typer.echo("Hello World!")
+
+
+@app.command()
+def bye(name: str = None):
+    if name:
+        typer.echo(f"Bye {name}")
+    else:
+        typer.echo("Goodbye!")
+
+
+if __name__ == "__main__":
+    app()
+```
+
+Then you could call it with normal Python:
+
+```console
+$ python my_custom_script.py hello
+
+Hello World!
+
+$ python my_custom_script.py hello --name Camila
+
+Hello Camila!
+
+$ python my_custom_script.py bye --name Camila
+
+Bye Camila
+```
+
+But you won't get completion in your terminal for any of the subcommands or options, like `hello`, `bye`, and `--name`.
+
+Here's where **Typer CLI** is useful. You can also run it with the `typer` command you get after installing `typer-cli`:
+
+```console
+$ typer my_custom_script.py run hello
+
+Hello World!
+
+$ typer my_custom_script.py run hello --name Camila
+
+Hello Camila!
+
+$ typer my_custom_script.py run bye --name Camila
+
+Bye Camila
+```
+
+Instead of typing `python`, you type `typer`, and after the name of the file you add a `run` (that will be autocompleted with when you hit <kbd>TAB</kbd>) and it will give you completion for all the commands and options when you hit <kbd>TAB</kbd>.
+
+## If main
+
+Because **Typer CLI** won't use the block with:
+
+```Python
+if __name__ == "__main__":
+    app()
+```
+
+You can also remove it if you are calling that script only with **Typer CLI** (using the `typer` command).
+
