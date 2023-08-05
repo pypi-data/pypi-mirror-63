@@ -1,0 +1,12 @@
+README.rst
+setup.py
+cppyad/__init__.py
+cppyad/__version__.py
+cppyad/_core.py
+cppyad/pyomo.py
+cppyad.egg-info/PKG-INFO
+cppyad.egg-info/SOURCES.txt
+cppyad.egg-info/dependency_links.txt
+cppyad.egg-info/requires.txt
+cppyad.egg-info/top_level.txt
+src/module.cpp
