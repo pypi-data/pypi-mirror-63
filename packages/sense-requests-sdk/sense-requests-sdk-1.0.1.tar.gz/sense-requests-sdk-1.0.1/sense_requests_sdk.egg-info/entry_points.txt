@@ -1,0 +1,3 @@
+[console_scripts]
+sense_requests = sense_requests:main
+
