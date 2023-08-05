@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+html_jparser/__init__.py
+html_jparser/core.py
+html_jparser.egg-info/PKG-INFO
+html_jparser.egg-info/SOURCES.txt
+html_jparser.egg-info/dependency_links.txt
+html_jparser.egg-info/not-zip-safe
+html_jparser.egg-info/requires.txt
+html_jparser.egg-info/top_level.txt
