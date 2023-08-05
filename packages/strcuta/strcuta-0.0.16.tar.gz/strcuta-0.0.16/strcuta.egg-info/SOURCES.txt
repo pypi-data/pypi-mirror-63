@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+strcuta/__init__.py
+strcuta/cursor.py
+strcuta/frq.py
+strcuta/otoini.py
+strcuta/prefixmap.py
+strcuta/voicebank.py
+strcuta/wav.py
+strcuta.egg-info/PKG-INFO
+strcuta.egg-info/SOURCES.txt
+strcuta.egg-info/dependency_links.txt
+strcuta.egg-info/requires.txt
+strcuta.egg-info/top_level.txt
