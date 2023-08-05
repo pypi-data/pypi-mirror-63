@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: msbench
+Version: 1.0.8
+Summary: Benchmarking tool for marketstore
+Home-page: UNKNOWN
+Author: Daito Akimura
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pymarketstore
+Requires-Dist: argparse
+
+UNKNOWN
+
+

@@ -1,0 +1,13 @@
+msbench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msbench/app.py,sha256=BDlN8w5mlLtJLC-WB-8vdIv0hWUh4u6hVLNzNVPUdrA,5164
+msbench/client.py,sha256=s919YstfmrFXUSULBQ0JSm_GsgD0QTcfJtaS_oZinn0,3717
+msbench/limit.py,sha256=oHLLbEWSqSQpQndQtyWBRLwqN4_QbW5OqyTgyyGFjOk,384
+msbench/limit_from_start.py,sha256=2UZZbN8AcLSo4U6DYFobSoo6zUeeuenzo7tFxmk0qW4,560
+msbench/time_range.py,sha256=MbLYn_OfMEIS2uS0ZatuqzbRQdpSwy-uYiDdijXK4WY,1493
+msbench/timeframe.py,sha256=ZwaR55tQOzqVIrp4_jXF5QIrQZU6juvnHw-QUWHiep4,421
+msbench-1.0.8.dist-info/LICENSE,sha256=biCUjyyA9tMS_IsrLxid2bIHrMfFdmaYYURclg7DftM,1065
+msbench-1.0.8.dist-info/METADATA,sha256=B6VtsUD7KBA1VdUZOooQ_iS-w_2QOlUqU6GtMBN1igU,256
+msbench-1.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+msbench-1.0.8.dist-info/entry_points.txt,sha256=CAuJQKPzd1gerBc1op9Vv6GAxjUVg3lhugpZrhxa7n4,46
+msbench-1.0.8.dist-info/top_level.txt,sha256=lnWogWoE0HbIdHi_nPWTyJ8-L6zenulsPEvWb6uFTBU,8
+msbench-1.0.8.dist-info/RECORD,,
