@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: feishu-bot
+Version: 0.0.2
+Summary: SDK for interacting with Feishu(previously Lark)
+Home-page: https://github.com/yuanfeiz/feishu-bot
+Author: Yuanefi Zhu
+Author-email: abovemoon@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: tenacity
+Requires-Dist: cachetools
+Requires-Dist: asyncache
+
+# Feishu Bot
+## Install
+```
+pip install feishu_bot
+```
+## Getting Started
+```
+from feishu_bot import FeishuBot
+
+bot = FeishuBot('your_app_id', 'your_app_secret')
+await bot.send_text('test')
+```
+## Features
+- Automatically token management
+- Cache embeded
+
