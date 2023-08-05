@@ -1,0 +1,9 @@
+pymongo
+flask
+requests
+pyyaml
+kafka-python
+pillow
+dataclasses-json
+inflection
+dataclasses
