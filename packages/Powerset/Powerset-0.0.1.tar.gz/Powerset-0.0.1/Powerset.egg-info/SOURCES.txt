@@ -1,0 +1,7 @@
+README.md
+setup.py
+Powerset/__init__.py
+Powerset.egg-info/PKG-INFO
+Powerset.egg-info/SOURCES.txt
+Powerset.egg-info/dependency_links.txt
+Powerset.egg-info/top_level.txt
