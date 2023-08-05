@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: prova
+Version: 0.1
+Summary: this is a trial
+Home-page: https://github.com/Carlo-Parodi/prova.git
+Author: Carlo Parodi
+Author-email: carlo.parodi91@gmail.com
+License: MIT
+Download-URL: https://github.com/Carlo-Parodi/prova.git
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
