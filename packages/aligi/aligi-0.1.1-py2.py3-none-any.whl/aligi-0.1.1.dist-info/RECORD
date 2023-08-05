@@ -1,0 +1,10 @@
+aligi/__init__.py,sha256=xFyXNUqA5cgkzut0ynhjyizMt5u54TJfEbPHMoO1zho,23
+aligi/__version__.py,sha256=yHk3T-HNO9fagGX3saQC-xp4lU0Z65sc27IPGbMkNHo,63
+aligi/core.py,sha256=1RQNGEiPOf6PQ0EMWuj0oEunvi4fQGeqU_A9WwgwOkc,1233
+aligi/types.py,sha256=BvFw112jqD5ptNXJjaarKeyfyTDlhuLE5Dp2IeFVj4I,2236
+aligi/wsgi.py,sha256=DowixtBDgy5QWrWQ__4IuxfpRSaboclptRYFNl2I3Tg,3234
+aligi-0.1.1.dist-info/LICENSE,sha256=FWKmOdeuq0-as6Ji4MlsWTspqZtVAx_R7IOU7m3Xdyc,1078
+aligi-0.1.1.dist-info/METADATA,sha256=6pnJaErYFv22tf1KfqtC4BaZY3KBiUS9CDLyFKx6A1g,1487
+aligi-0.1.1.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+aligi-0.1.1.dist-info/top_level.txt,sha256=RXyPgs3NfgfuwznueQRhZQMtXQtZBVML-ASbygPs0Hc,6
+aligi-0.1.1.dist-info/RECORD,,
