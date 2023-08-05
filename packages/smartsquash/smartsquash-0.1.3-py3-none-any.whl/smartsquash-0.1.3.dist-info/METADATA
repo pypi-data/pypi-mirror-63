@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: smartsquash
+Version: 0.1.3
+Summary: Makes daily git workflows easier, automates rebases or fixups.
+Home-page: https://github.com/max-wittig/smartsquash
+License: MIT
+Keywords: git,developers,squash,rebase
+Author: Max Wittig
+Author-email: max.wittig95@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Dist: gitpython (>=3.0.5,<4.0.0)
+Requires-Dist: loguru (>=0.4.1,<0.5.0)
+Project-URL: Repository, https://github.com/max-wittig/smartsquash
+Description-Content-Type: text/markdown
+
+# smartsquash
+
+Makes daily git workflows easier, automates rebases or fixups.
+
+### build
+
+```sh
+poetry install --no-dev --no-root
+poetry build
+```
+
+### installation
+
+```sh
+pip3 install dist/smartsquash-0.1.0-py3-none-any.whl
+```
+
+### usage
+
+```sh
+usage: sq [-h] [--target-branch TARGET_BRANCH] [--repo REPO] [--dry] [-s]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --target-branch TARGET_BRANCH
+                        Specify branch to target. Default is 'master'
+  --repo REPO           Specify repo to modify. Uses pwd by default
+  --dry                 Run dry
+  -s, --squash          Squash similar commits on your feature branch
+```
+
+### run tests
+
+```sh
+poetry run coverage run --source . -m pytest  
+poetry run coverage report
+```
+
