@@ -1,0 +1,3 @@
+[console_scripts]
+canaa-model = create_models.main:main
+
