@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bplz
+Version: 0.0.19
+Summary: http://www.giseden.xyz/?p=324
+Home-page: https://github.com/tom110/bplz
+Author: tom
+Author-email: tomyeying@gmail.com
+License: UNKNOWN
+Description: # BPLZ
+        * Develop for GISEden community,for download the resource of gis resource or software.
+        * http://www.giseden.xyz/?p=324
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

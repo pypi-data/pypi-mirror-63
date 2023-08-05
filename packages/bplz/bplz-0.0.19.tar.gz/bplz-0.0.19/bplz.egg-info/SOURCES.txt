@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+bplz/__init__.py
+bplz/__main__.py
+bplz/bplz.py
+bplz/geckodriver.exe
+bplz.egg-info/PKG-INFO
+bplz.egg-info/SOURCES.txt
+bplz.egg-info/dependency_links.txt
+bplz.egg-info/entry_points.txt
+bplz.egg-info/requires.txt
+bplz.egg-info/top_level.txt
