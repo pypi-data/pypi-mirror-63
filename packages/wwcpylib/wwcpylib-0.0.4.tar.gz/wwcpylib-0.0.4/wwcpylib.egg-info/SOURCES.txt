@@ -1,0 +1,8 @@
+README.md
+setup.py
+wwcpylib/__init__.py
+wwcpylib/util.py
+wwcpylib.egg-info/PKG-INFO
+wwcpylib.egg-info/SOURCES.txt
+wwcpylib.egg-info/dependency_links.txt
+wwcpylib.egg-info/top_level.txt
