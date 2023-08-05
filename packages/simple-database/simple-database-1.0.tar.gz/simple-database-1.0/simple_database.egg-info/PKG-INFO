@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: simple-database
+Version: 1.0
+Summary: A simple database module that made by module shelve.
+Home-page: UNKNOWN
+Author: qfcy
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: A simple database module that made by module shelve.  注:由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: database,data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Database
