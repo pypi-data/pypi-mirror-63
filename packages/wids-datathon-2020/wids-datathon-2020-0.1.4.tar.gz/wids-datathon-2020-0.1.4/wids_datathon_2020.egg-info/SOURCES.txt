@@ -1,0 +1,23 @@
+README.md
+setup.py
+wids_datathon_2020/__init__.py
+wids_datathon_2020/inference.py
+wids_datathon_2020/learn.py
+wids_datathon_2020.egg-info/PKG-INFO
+wids_datathon_2020.egg-info/SOURCES.txt
+wids_datathon_2020.egg-info/dependency_links.txt
+wids_datathon_2020.egg-info/requires.txt
+wids_datathon_2020.egg-info/top_level.txt
+wids_datathon_2020/data/__init__.py
+wids_datathon_2020/data/encode_dataset.py
+wids_datathon_2020/data/make_dataset.py
+wids_datathon_2020/data/stratify_dataset.py
+wids_datathon_2020/data/unzip_dataset.py
+wids_datathon_2020/features/__init__.py
+wids_datathon_2020/features/build_features copy.py
+wids_datathon_2020/features/build_features.py
+wids_datathon_2020/models/__init__.py
+wids_datathon_2020/models/predict_model.py
+wids_datathon_2020/models/train_model.py
+wids_datathon_2020/visualization/__init__.py
+wids_datathon_2020/visualization/visualize.py
