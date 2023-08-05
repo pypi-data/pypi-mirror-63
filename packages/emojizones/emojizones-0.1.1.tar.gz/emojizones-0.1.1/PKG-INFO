@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: emojizones
+Version: 0.1.1
+Summary: A helper library to convert dates between timezone using emojiis
+Home-page: https://github.com/EmilStenstrom/emojizones/
+Author: Emil Stenström
+Author-email: em@kth.se
+License: UNKNOWN
+Description: # Emojizones
+        **Emojizones** helps you convert one datetime in one time zone to another, using the emojiis you are used to from your iPhone. Never have time zone conversion been this easy!
+        
+        ## Installation
+        
+        ```bash
+        pip install emojizones
+        ```
+        
+        ## Example usage
+        
+        ```python
+        from emojizones import convert
+        from datetime import datetime
+        
+        # Here we have a naive datetime without a time zone
+        from_time = datetime(2020, 3, 7, 0, 0, 0)
+        
+        # Now we use the emojizones.convert-method
+        to_time = convert(
+            from_time,
+            "🗻",  # Mount Fuji, Japan --> Asia/Tokyo
+            "🗽"   # Statue of Libery, New York --> America/New_York
+        )
+        print(to_time)
+        # 2020-03-06 10:00:00
+        ```
+        
+Keywords: emojizones,conll,conll-u,parser,nlp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
