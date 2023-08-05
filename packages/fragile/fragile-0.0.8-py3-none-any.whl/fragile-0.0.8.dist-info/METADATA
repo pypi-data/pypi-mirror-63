@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fragile
+Version: 0.0.8
+Summary: Framework for developing FractalAI based algorithms.
+Home-page: https://github.com/Guillemdb/fragile
+Author: Guillem Duran Ballester
+Author-email: guillem.db@gmail.com
+License: AGPLv3.0
+Download-URL: https://github.com/Guillemdb/fragile
+Keywords: reinforcement learning,artificial intelligence,monte carlo,planning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: atari-py (==0.1.1)
+
+UNKNOWN
+
+
