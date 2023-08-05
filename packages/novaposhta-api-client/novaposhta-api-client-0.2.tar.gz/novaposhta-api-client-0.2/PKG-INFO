@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: novaposhta-api-client
+Version: 0.2
+Summary: Python client for Nova Poshta company's API
+Home-page: https://github.com/last-partizan/novaposhta-api-client
+Author: semolex, fork by partizan
+Author-email: serg.partizan+novaposhta@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Console
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
