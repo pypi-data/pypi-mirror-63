@@ -1,0 +1,1 @@
+A package for interpreting genomes. Use cases include finding 'ori' (origin of replication), DnaA boxes, and most frequent k-mers. 

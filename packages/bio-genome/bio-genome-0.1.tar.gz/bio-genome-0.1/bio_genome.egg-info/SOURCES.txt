@@ -1,0 +1,12 @@
+README.md
+setup.py
+bio_genome.egg-info/PKG-INFO
+bio_genome.egg-info/SOURCES.txt
+bio_genome.egg-info/dependency_links.txt
+bio_genome.egg-info/not-zip-safe
+bio_genome.egg-info/top_level.txt
+genome/__init__.py
+genome/genome.py
+genome/main.py
+genome/pattern_count.py
+genome/skew.py
