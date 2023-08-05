@@ -1,0 +1,2 @@
+aws_credentials_merge
+vault_aws_login

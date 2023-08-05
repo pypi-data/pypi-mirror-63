@@ -1,0 +1,12 @@
+aws_credentials_merge/__init__.py,sha256=dgaawnkcMywVcEeS68TE03VY1J7kgc1qyq7lGJSPE2U,699
+vault_aws_login/__init__.py,sha256=-VPALpXH_W01F3pVSmEASGbffi_-duVYg5mLwv7yAQ0,242
+vault_aws_login/consul_template.py,sha256=vGF2wClOxmAm_oY1JDQYdaMwOxwFoYxYRMai7_dldl0,373
+vault_aws_login/context.py,sha256=QjxlxraU4ejNZcO_9_JCOazoIJ-dcS7dECNB9EfcpX0,2631
+vault_aws_login/vault.py,sha256=Oi57OySACrYvT5cm-E_KpY5MlKoIvpAb7ZkdA0lML-U,763
+vault_aws_login-0.0.4.data/scripts/aws_credentials_merge,sha256=ga34KxaaUlpxD2kXIvAiBRI-NesrIdHvGVZzEJ-7WhA,388
+vault_aws_login-0.0.4.data/scripts/vault-aws-login,sha256=MT30X33RavqsWjgc-EbHv0z6vaHhUvjycfW7FDkNFnA,1474
+vault_aws_login-0.0.4.dist-info/LICENSE,sha256=EHs42eoVG_l5_nJI6tbFmmQEydINqTTqp0cCLcz3qbs,1062
+vault_aws_login-0.0.4.dist-info/METADATA,sha256=YKhscQh03KZfkWhQAN9w7v5hnwayS6yskDMiSoeG4JA,5233
+vault_aws_login-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+vault_aws_login-0.0.4.dist-info/top_level.txt,sha256=BPwdEptDxLtL02F87FTPJl6yvflrCy7eLCZ19bGUwb8,38
+vault_aws_login-0.0.4.dist-info/RECORD,,
