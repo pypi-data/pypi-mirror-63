@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gbm-drm-gen
+Version: 0.2.0
+Summary: A DRM generator for the Fermi GBM detectors
+Home-page: https://github.com/mpe-grb/gbm_drm_gen
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: responsum
+Requires-Dist: gbmgeometry
+
+
+[![Build Status](https://travis-ci.org/grburgess/gbm_drm_gen.svg?branch=master)](https://travis-ci.org/grburgess/gbm_drm_gen)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2590555.svg)](https://doi.org/10.5281/zenodo.2590555)
+
+# GBM Response Generator
+
+A fast, python based response generator for the Fermi-GBM. A 3ML plugin is also provided that allows for one to locate GRBs with any of the GBM spectral data. 
+
+If you find this code useful or use it please cite the following works:
+
+[Burgess et al 2018](https://academic.oup.com/mnras/article/476/2/1427/4670828)
+
+[https://arxiv.org/abs/1902.01082](https://arxiv.org/abs/1902.01082)
+
+
+## Install
+
+
+
