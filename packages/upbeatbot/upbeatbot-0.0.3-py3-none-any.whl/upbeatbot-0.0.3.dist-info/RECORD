@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_upbeatbot.py,sha256=gogtkuyzLY-FVZxPq8t0TjINyoj0LYag9rP8xY26MAY,2654
+upbeatbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upbeatbot/main.py,sha256=kef3T_X2KPGG3NGeRCtf4RuF5qal5wqj7_kXY4JKy_I,2996
+upbeatbot/settings.py,sha256=3glX6RcO2ynauaZ_qZOVgMxGJoSkYEZPT-raixePJ6M,564
+upbeatbot/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upbeatbot/libs/api_mock.py,sha256=_8g1wOSfU62id8qvI4qQQQpVRmTshvWK7AUM2fkyK2E,2524
+upbeatbot/libs/upbeatbot.py,sha256=rU5lXzOYPfZK8QtFEY7rPRtN8FWA1q_lrrtKkaG7JtE,4829
+upbeatbot-0.0.3.dist-info/LICENSE,sha256=pZXexHlJSNT4Cch0kXPO-HMnstD9iLuew58phYJJTUw,1067
+upbeatbot-0.0.3.dist-info/METADATA,sha256=WVWWYgjcrx5rpTp4Kp7JgZE6W4dGE9WV_eu3LfdLpJI,2266
+upbeatbot-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+upbeatbot-0.0.3.dist-info/top_level.txt,sha256=dPUJPKmh0fCN64EbUoFL-bbWjnXNQXQHZsp19lv2JSk,16
+upbeatbot-0.0.3.dist-info/RECORD,,
