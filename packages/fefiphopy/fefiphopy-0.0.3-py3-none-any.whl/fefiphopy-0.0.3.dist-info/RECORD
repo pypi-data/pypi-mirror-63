@@ -1,0 +1,11 @@
+fefiphopy/__init__.py,sha256=wwQiFk59QpNdKqGHqrLdcvJ3tBaRCKDSwTJWgLRzcl8,384
+fefiphopy/_baseline_correction.py,sha256=FslWmNBLAcxe7El0m_NYuMHRefNrDQznsSSRtCG1Rdk,2539
+fefiphopy/_get_data.py,sha256=EuiJuEbPsQexAXEmUqN-yM3t7GrlHWucIMl3qA8ymnQ,1295
+fefiphopy/_methods.py,sha256=yZRyHfK5vlz8agBXa3daalAtXUNuaTtDvS8d2Bw5yEU,6439
+fefiphopy/_smooth.py,sha256=thN-TAbh_pRrhrCegBQuR1XcZZefbUe0TpUlL5_LNmE,1965
+fefiphopy/_steps.py,sha256=ojNFZAe-mJ8tQtLm5AorvueVtvbkBtqvIS3623Biap8,1051
+fefiphopy-0.0.3.dist-info/LICENSE,sha256=8w3NrD9n0PEM0Ro_gZRrjZoLGhLCDfNSyL-NdRQ7yx4,1066
+fefiphopy-0.0.3.dist-info/METADATA,sha256=EONaLmiRNWnaxkNWzZctXCiXKPQsgR9WnHVkRxn5CZA,745
+fefiphopy-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fefiphopy-0.0.3.dist-info/top_level.txt,sha256=PoWcoZ53b_YmF7y75a1PZ6_Dsculk2JDcYNCSL_9Ako,10
+fefiphopy-0.0.3.dist-info/RECORD,,
