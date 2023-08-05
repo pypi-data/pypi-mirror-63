@@ -1,0 +1,19 @@
+[aiida.calculations]
+crystal.parallel = aiida_crystal_dft.calculations.parallel:CrystalParallelCalculation
+crystal.properties = aiida_crystal_dft.calculations.properties:PropertiesCalculation
+crystal.serial = aiida_crystal_dft.calculations.serial:CrystalSerialCalculation
+
+[aiida.cmdline.data]
+crystal = aiida_crystal_dft.cli.basis:basis_set
+
+[aiida.data]
+crystal.basis = aiida_crystal_dft.data.basis:CrystalBasisData
+crystal.basis_family = aiida_crystal_dft.data.basis_family:CrystalBasisFamilyData
+
+[aiida.parsers]
+crystal = aiida_crystal_dft.parsers.cry_pycrystal:CrystalParser
+crystal.properties = aiida_crystal_dft.parsers.properties:PropertiesParser
+
+[aiida.workflows]
+crystal.base = aiida_crystal_dft.workflows.base:BaseCrystalWorkChain
+

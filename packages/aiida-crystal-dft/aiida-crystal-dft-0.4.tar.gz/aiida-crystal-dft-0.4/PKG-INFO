@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aiida-crystal-dft
+Version: 0.4
+Summary: Yet another AiiDA plugin for CRYSTAL code, mainly intended for use with the cloud infrastructures (currently, MPDS)
+Home-page: https://github.com/tilde-lab/aiida-crystal-dft
+Author: Andrey Sobolev, based on aiida-crystal17 plugin by Chris Sewell
+Author-email: as@tilde.pro
+License: MIT
+Description: # aiida-crystal-dft
+        
+        This is an AiiDA plugin for running the [CRYSTAL](http://www.crystal.unito.it) code, spin-off from the `aiida-crystal17` plugin by Chris Sewell.
+        
+        ## Installation
+        
+        As of now, the development version can be installed:
+        ```shell
+        >> git clone aiida-crystal-dft
+        >> pip install -e aiida-crystal-dft
+        ```
+        
+        ## Usage
+        
+        The plugin can be used as any other AiiDA plugin.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AiiDA
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown
+Provides-Extra: pre-commit
+Provides-Extra: docs
+Provides-Extra: testing

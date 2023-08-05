@@ -1,0 +1,79 @@
+{
+    "name": "aiida-crystal-dft",
+    "author": "Andrey Sobolev, based on aiida-crystal17 plugin by Chris Sewell",
+    "author_email": "as@tilde.pro",
+    "description": "Yet another AiiDA plugin for CRYSTAL code, mainly intended for use with the cloud infrastructures (currently, MPDS)",
+    "url": "https://github.com/tilde-lab/aiida-crystal-dft",
+    "license": "MIT",
+    "classifiers": [
+        "Development Status :: 3 - Alpha",
+        "Framework :: AiiDA",
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Science/Research",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Chemistry",
+        "Topic :: Scientific/Engineering :: Physics",
+        "Topic :: Scientific/Engineering :: Information Analysis"
+    ],
+    "entry_points": {
+        "aiida.data": [
+            "crystal.basis = aiida_crystal_dft.data.basis:CrystalBasisData",
+            "crystal.basis_family = aiida_crystal_dft.data.basis_family:CrystalBasisFamilyData"
+        ],
+        "aiida.calculations": [
+            "crystal.serial = aiida_crystal_dft.calculations.serial:CrystalSerialCalculation",
+            "crystal.parallel = aiida_crystal_dft.calculations.parallel:CrystalParallelCalculation",
+            "crystal.properties = aiida_crystal_dft.calculations.properties:PropertiesCalculation"
+        ],
+        "aiida.parsers": [
+            "crystal = aiida_crystal_dft.parsers.cry_pycrystal:CrystalParser",
+            "crystal.properties = aiida_crystal_dft.parsers.properties:PropertiesParser"
+
+        ],
+        "aiida.workflows": [
+            "crystal.base = aiida_crystal_dft.workflows.base:BaseCrystalWorkChain"
+        ],
+        "aiida.cmdline.data": [
+            "crystal = aiida_crystal_dft.cli.basis:basis_set"
+        ]
+    },
+    "include_package_data": true,
+    "setup_requires": ["reentry"],
+    "reentry_register": true,
+    "install_requires": [
+        "aiida-core>=1.0",
+        "pycrystal @ git+https://github.com/tilde-lab/pycrystal.git",
+        "packaging",
+        "seekpath",
+        "mpds_client",
+        "tzlocal==2.0.0b1",
+        "pyparsing > 2.3.1"
+    ],
+    "extras_require": {
+        "testing": [
+            "mock==2.0.0",
+            "pgtest==1.1.0",
+            "sqlalchemy-diff==0.1.3",
+            "pytest==3.6.3",
+            "wheel>=0.31",
+            "coverage",
+            "pytest-cov",
+            "pytest-timeout"
+        ],
+        "pre-commit": [
+            "pre-commit==1.10.5",
+            "yapf==0.22.0",
+            "prospector==1.1.2",
+            "pylint==1.8.4"
+        ],
+        "docs": [
+            "sphinx"
+        ]
+    }
+}
