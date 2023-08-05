@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+efitness_sniper/app.py
+efitness_sniper/efitness.py
+efitness_sniper.egg-info/PKG-INFO
+efitness_sniper.egg-info/SOURCES.txt
+efitness_sniper.egg-info/dependency_links.txt
+efitness_sniper.egg-info/entry_points.txt
+efitness_sniper.egg-info/requires.txt
+efitness_sniper.egg-info/top_level.txt

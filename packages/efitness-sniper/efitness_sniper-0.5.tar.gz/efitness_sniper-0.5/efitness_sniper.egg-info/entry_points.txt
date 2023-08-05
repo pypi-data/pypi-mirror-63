@@ -1,0 +1,3 @@
+[console_scripts]
+efitness = efitness_sniper.app:main
+
