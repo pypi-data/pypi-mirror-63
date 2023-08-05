@@ -1,0 +1,10 @@
+README.md
+setup.py
+quippy-cli/quippy.py
+quippy_cli.egg-info/PKG-INFO
+quippy_cli.egg-info/SOURCES.txt
+quippy_cli.egg-info/dependency_links.txt
+quippy_cli.egg-info/entry_points.txt
+quippy_cli.egg-info/not-zip-safe
+quippy_cli.egg-info/requires.txt
+quippy_cli.egg-info/top_level.txt
