@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: logger_mixin
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Daniel Sullivan
+Author-email: daniel.sullivan@state.mn.us
+License: Lesser General Public License V3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
