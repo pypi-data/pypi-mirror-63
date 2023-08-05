@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_php_tokenizer/PHPSupport.py
+jk_php_tokenizer/PHPTokenizer.py
+jk_php_tokenizer/__init__.py
+jk_php_tokenizer.egg-info/PKG-INFO
+jk_php_tokenizer.egg-info/SOURCES.txt
+jk_php_tokenizer.egg-info/dependency_links.txt
+jk_php_tokenizer.egg-info/not-zip-safe
+jk_php_tokenizer.egg-info/requires.txt
+jk_php_tokenizer.egg-info/top_level.txt
