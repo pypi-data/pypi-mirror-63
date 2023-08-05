@@ -1,0 +1,48 @@
+QWidget {
+	background-color: #cccccc;
+	margin:0px;
+}
+
+QLabel {
+	font-size: 50%;
+	background: transparent;
+	margin: 2px 5px;
+	qproperty-alignment: 'AlignBottom | AlignLeft';
+}
+
+.key {
+	background-color: #eeeeee;
+	border: 1px solid black;
+	font-size: _OSKB_FONTSIZE_px;
+	margin: _OSKB_MARGIN_px;
+	border-radius: _OSKB_RADIUS_px;
+}
+
+.spacer {
+	background-color: #cccccc;
+	border: 2px dotted white;
+	margin: _OSKB_MARGIN_px 0px;
+	border-radius: _OSKB_RADIUS_px;
+}
+
+.emptyrow {
+	background-color: #cccccc;
+	border: 2px dotted #aaaaaa;
+	margin: _OSKB_MARGIN_px 0px;
+	border-radius: _OSKB_RADIUS_px;
+}
+
+.key:pressed, .key.pseudomodifier, .key.held {
+	background-color: #999999;
+}
+
+.view .key.pseudomodifier, .key.locked {
+	background-color: #cc9999;
+}
+
+
+/* Below are used by oskbedit */
+
+.key.selected, .spacer.selected, .emptyrow.selected {
+	background-color: #77bbff !important;
+}
