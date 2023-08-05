@@ -1,0 +1,11 @@
+embrace/__init__.py,sha256=JZXuqhKXC58zMmQXKYHcfwJP7jJ7yAVxQv4gh8chhXs,672
+embrace/exceptions.py,sha256=xJCBzek8tnG8uTluTOHtw8zHvbVoRwiZsghvo_kfJcw,1820
+embrace/module.py,sha256=xc7O5_R4DKSwMAe2gGKbdTXcrugfPBBUiLeZXIkHf94,6865
+embrace/parsing.py,sha256=wJ6QUA-nYln8-b1eyemoJPTViANUNsCs4Nhy3KKGfkY,7018
+embrace/query.py,sha256=G4NaR47WGlcfZFuTr2fdH15kuYyXMXAK2AMcDF018G4,6309
+embrace-1.2.0.dist-info/DESCRIPTION.rst,sha256=KNTLGmZI7gUocxstw7JT7TuXxrc6E-kVcEXCutp5JOk,6723
+embrace-1.2.0.dist-info/METADATA,sha256=jN3WKbH1Vk78u44RUZ1cMagywr-YUn7uJ2FqdGuujW4,7441
+embrace-1.2.0.dist-info/RECORD,,
+embrace-1.2.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+embrace-1.2.0.dist-info/metadata.json,sha256=QJ2E5N6HpdMxgaOkWtOWcrLQBZPkhbLgqOkpevghf68,907
+embrace-1.2.0.dist-info/top_level.txt,sha256=qiWOeTftFsBIwQXc9i_FxJDiWIcJFxUHOgws27MFVas,8
