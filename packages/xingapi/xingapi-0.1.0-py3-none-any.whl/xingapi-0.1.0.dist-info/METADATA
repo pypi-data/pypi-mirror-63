@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: xingapi
+Version: 0.1.0
+Summary: python version of xingapi
+Home-page: https://github.com/jeakwon/xingapi
+Author: Jea Kwon
+Author-email: onlytojay@gmail.com
+License: UNKNOWN
+Keywords: xingapi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+# xingapi
+xingapi for python users
+
+## 인스톨 방법
+```
+pip install xingapi
+```
+
+## 이베스트 xingAPI 가이드
+[이베스트 xingAPI 가이드(링크)](http://www.ebestsec.co.kr/apiguide/guide.jsp?cno=200)
+
+## xingAPI 사용법 예시1
+```python
+import xingapi as xa
+
+# 로그인
+session = xa.Session()
+session.login(id='yourid', pwd='password',cert='certpass')
+
+# 주식마스터조회API용
+query = xa.Query("t9945")
+output = query(gubun=1) # kospi : 1 kosdaq : 2
+
+# 저장을 원할 시 
+for k, v in output.items():
+    v.to_csv(f'{k}.csv')
+```
+
+## xingAPI 사용법 예시2
+```python
+import xingapi as xa
+
+# 로그인
+session = xa.Session()
+session.login(id='yourid', pwd='password',cert='certpass')
+
+# 관리/불성실/투자유의조회
+query = xa.Query("t9945")
+output = query(gubun=0, jongchk=1) #jongchk 1: 관리 2: 불성실공시 3: 투자유의 4: 투자환기
+
+# 저장을 원할 시 
+for k, v in output.items():
+    v.to_csv(f'{k}.csv', encoding='euc-kr', index=False) # microsoft excel 에서 열고 싶을때.
+    v.to_csv(f'{k}.csv', encoding='utf-8', index=False) # pandas 에서 열고 싶을때.
+
+```
+바뀐 부분은 가운데 query부분만
+
+설명) 연속조회는 무조건 연속조회가 된다
+
+
