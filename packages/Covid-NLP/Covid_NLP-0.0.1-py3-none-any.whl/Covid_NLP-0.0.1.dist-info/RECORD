@@ -1,0 +1,11 @@
+covid_nlp/__init__.py,sha256=_9_I8Yt-MQbhZgRurcroZHq78tv0Q5lHP4HZ42qxoFg,61
+covid_nlp/constant.py,sha256=2iS0hTxqv18HPd_yYnCKlnrniDg4uccIaPwsGGci200,1740
+covid_nlp/covid_nlp.py,sha256=y5DJZP8xLPjS78kpWaajvCW_cyBW9pT38TQDBiFFDJc,2807
+covid_nlp/data.csv,sha256=t3v64v11g_uzX9BzJYxuRmhnpXNc3XKt8FNdR-E7HHA,13778
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_number.py,sha256=k8pjcIK-2-WjMLQyjJsiH1oOzQn6teH9tMvs0TWrkTY,355
+Covid_NLP-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+Covid_NLP-0.0.1.dist-info/METADATA,sha256=lSFCmwChjF1yKyzPhyOfxsgDr3l5AwWgLOwmLd8xidU,719
+Covid_NLP-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Covid_NLP-0.0.1.dist-info/top_level.txt,sha256=-G9lEKG4EnTF2aRXs_9FYQbA1m_V4KX6Nm6u_PnNQcQ,16
+Covid_NLP-0.0.1.dist-info/RECORD,,
