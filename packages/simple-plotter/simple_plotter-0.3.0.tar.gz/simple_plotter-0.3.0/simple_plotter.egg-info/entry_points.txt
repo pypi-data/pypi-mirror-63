@@ -1,0 +1,4 @@
+[gui_scripts]
+simple-plotter = simple_plotter.gui:main [qt-matplotlib]
+simple-plotter-Qt-matplotlib = simple_plotter.gui:main [qt-matplotlib]
+

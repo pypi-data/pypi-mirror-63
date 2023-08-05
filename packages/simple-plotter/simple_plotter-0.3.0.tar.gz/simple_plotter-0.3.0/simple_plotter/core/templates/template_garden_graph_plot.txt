@@ -1,0 +1,32 @@
+
+y = f({{ var_name }}{%- if set_const_name %}, {{ set_const_name }}[0]{%- endif %}
+{%- for const in constants -%}, {{ const.get('Const. name') }}{%- endfor -%})
+
+# plot setup
+graph = kv_graph.AnnotatedLinePlot(xlabel="{{ var_name }}{% if var_unit %} [{{ var_unit }}]{% endif %}",
+    ylabel="{{ func_name }}{% if func_unit %} [{{ func_unit }}]{% endif %}",
+    y_grid_label=True, x_grid_label=True, padding=5,
+    x_grid={{ grid }}, y_grid= {{ grid }}, xlog={{ x_log }}, ylog={{ y_log }},
+    {% if y_min %}, ymin=float({{ y_min }}){% endif %}
+    {%- if y_max %}, ymax=float({{ y_max }}){%- endif %}
+    {%- if plot_title %}title="{{ plot_title }}"
+    {%- else %}title="{{ func_name }}({{ var_name }})={{ equation }}
+    {%- for const in constants %}, {{ const.get('Const. name') }} = {{ const.get('Value') }}
+    {%- if const.get('Unit') %} [{{const.get('Unit')}}]{% endif %}
+    {%- endfor -%}"{%- endif %}
+)
+
+{%- if set_const_name %}
+for set_const in {{ set_const_name }}:
+{%- if not swap_xy %}
+    results = f({{ var_name }}, set_const
+{%- for const in constants -%}, {{ const.get('Const. name') }}{%- endfor -%})
+    graph.plot({{ var_name }}, results, label="{{ set_const_name }}="+str(set_const)
+{%- if set_const_unit %}+" [{{ set_const_unit }}]"{% endif %})
+{% endif %}
+{% else %}
+{% if not swap_xy %}
+graph.plot(x, y)
+{% endif %}
+{% endif %}
+

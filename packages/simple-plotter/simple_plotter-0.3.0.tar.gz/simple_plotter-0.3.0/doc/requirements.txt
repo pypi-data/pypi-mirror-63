@@ -1,0 +1,4 @@
+PyYAML
+PyQt5==5.9
+kivy
+kivy-garden.graph
