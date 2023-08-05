@@ -1,0 +1,15 @@
+README.rst
+setup.py
+core/__init__.py
+core/digits/__init__.py
+core/digits/mathematical_functions.py
+core/text/__init__.py
+core/text/convert.py
+core/text/regexp.py
+core/text/string_functions.py
+core/text/substr.py
+django_postgresql_func.egg-info/PKG-INFO
+django_postgresql_func.egg-info/SOURCES.txt
+django_postgresql_func.egg-info/dependency_links.txt
+django_postgresql_func.egg-info/requires.txt
+django_postgresql_func.egg-info/top_level.txt
