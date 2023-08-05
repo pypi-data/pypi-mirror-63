@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pycbr
+Version: 0.1.1
+Summary: Package to implement Case-Based Reasoning systems
+Home-page: https://github.com/dih5/pycbr
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Provides-Extra: test

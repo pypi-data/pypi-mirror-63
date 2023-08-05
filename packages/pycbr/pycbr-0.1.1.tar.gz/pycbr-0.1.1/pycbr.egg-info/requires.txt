@@ -1,0 +1,17 @@
+numpy
+pandas
+scikit-learn
+flask
+flask-restplus
+flask-cors
+coloredlogs
+pyyaml
+werkzeug<1.0
+
+[docs]
+nbsphinx
+sphinx-rtd-theme
+IPython
+
+[test]
+pytest
