@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/wechaty_puppet_hostie/__init__.py
+src/wechaty_puppet_hostie/puppet_hostie.py
+src/wechaty_puppet_hostie.egg-info/PKG-INFO
+src/wechaty_puppet_hostie.egg-info/SOURCES.txt
+src/wechaty_puppet_hostie.egg-info/dependency_links.txt
+src/wechaty_puppet_hostie.egg-info/top_level.txt
