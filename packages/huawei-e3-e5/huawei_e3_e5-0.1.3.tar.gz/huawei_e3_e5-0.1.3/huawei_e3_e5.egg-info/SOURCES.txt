@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+huawei_e3_e5/__init__.py
+huawei_e3_e5/datastructures.py
+huawei_e3_e5/huawei_exxxx.py
+huawei_e3_e5/modem.py
+huawei_e3_e5.egg-info/PKG-INFO
+huawei_e3_e5.egg-info/SOURCES.txt
+huawei_e3_e5.egg-info/dependency_links.txt
+huawei_e3_e5.egg-info/requires.txt
+huawei_e3_e5.egg-info/top_level.txt
