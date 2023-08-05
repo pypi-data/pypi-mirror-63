@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fec-to-sqlite=fec_to_sqlite.cli:cli
+    

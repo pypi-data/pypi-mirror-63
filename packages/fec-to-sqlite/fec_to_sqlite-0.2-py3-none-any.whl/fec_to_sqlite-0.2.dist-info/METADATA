@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fec-to-sqlite
+Version: 0.2
+Summary: Save FEC campaign finance data to a SQLite database
+Home-page: https://github.com/dogsheep/fec-to-sqlite
+Author: Simon Willison
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: fecfile
+Requires-Dist: tqdm
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# fec-to-sqlite
+
+[![PyPI](https://img.shields.io/pypi/v/fec-to-sqlite.svg)](https://pypi.org/project/fec-to-sqlite/)
+[![CircleCI](https://circleci.com/gh/simonw/fec-to-sqlite.svg?style=svg)](https://circleci.com/gh/simonw/fec-to-sqlite)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/fec-to-sqlite/blob/master/LICENSE)
+
+Create a SQLite database using FEC campaign contributions data.
+
+This tool builds on [fecfile](https://github.com/esonderegger/) by Evan Sonderegger.
+
+## How to install
+
+    $ pip install fec-to-sqlite
+
+## Usage
+
+    $ fec-to-sqlite filings filings.db 1146148
+
+This fetches the filing with ID `1146148` and stores it in tables in a SQLite database called `filings.db`. It will create any tables it needs.
+
+You can pass more than one filing ID, separated by spaces.
+
+
