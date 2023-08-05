@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: cqrcode
+Version: 0.1
+Summary: Generate a QR code that can adapt to the cylinder
+Home-page: UNKNOWN
+Author: jiaming
+Author-email: 837357785@qq.com
+License: UNKNOWN
+Description: # V 0.1
+        这是一个生成柱体二维码的程序，最终生成的二维码将在 static 目录下。
+        
+        1. 目前能够生成的柱体二维码信息？
+        
+           1. 260x260（2.6cm x 2.6 cm），Version 10，最大数据量 184B。
+           2. 仅支持二维码编码样式Ⅱ，即部分特殊字符，大写英语字母以及数字编码。
+        
+        2. 为什么使用当前二维码模板？
+           1. 符合柱体二维码的实际情况。在有限的有效识别面积上使用中间白线作为定位，两边图案作为辅助定位。
+           2. 吸纳了二维码不同版本之中定位图案的位置和数量的特定，保留了alignment pattern图案供以后拓展使用。
+        
+        3. 现有的方法有？
+           1. 缩小现有二维码尺寸。—— 对识别设备要求高。
+           2. 延展现有二维码。—— 性能提高较弱。
+           3. 使用特殊样式的条形码。—— 信息量介于二者之间。
+        
+        4. 创新点？
+           1. 极大改善了目前二维码贴附于柱面识别效果差的情况。
+           2. 综合现有方法，效果最优。
+        
+        5. 不足的地方？
+           1.  二维码可容纳的数据量缩减了近一半。
+           2.  最大有效数据量为 184 字节，还并没有添加纠错码，实际应用数据量要更小。
+           3.  二维码的识别算法，生成算法将不兼容现有的算法。
+Keywords: cylinder qrcode
+Platform: UNKNOWN
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities

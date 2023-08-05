@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+src/cylinder_qrcode/cqrcode.egg-info/PKG-INFO
+src/cylinder_qrcode/cqrcode.egg-info/SOURCES.txt
+src/cylinder_qrcode/cqrcode.egg-info/dependency_links.txt
+src/cylinder_qrcode/cqrcode.egg-info/not-zip-safe
+src/cylinder_qrcode/cqrcode.egg-info/requires.txt
+src/cylinder_qrcode/cqrcode.egg-info/top_level.txt
+src/cylinder_qrcode/app/__init__.py
+src/cylinder_qrcode/app/cylinder_qrcode.py
+src/cylinder_qrcode/app/randomStr.py
+src/cylinder_qrcode/app/run.py
+src/cylinder_qrcode/cqrcode.egg-info/SOURCES.txt
+src/cylinder_qrcode/static/二维码数据模板.png
+src/cylinder_qrcode/static/二维码识别掩码.png
+src/cylinder_qrcode/static/二维码识别模板.png

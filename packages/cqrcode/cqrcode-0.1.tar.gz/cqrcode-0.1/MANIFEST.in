@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include src/cylinder_qrcode/static *
+recursive-include src/cylinder_qrcode/view *
