@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crackcluster
+Version: 0.0.2
+Summary: A joint demo on why classes are great, and how to make something pip installable
+Home-page: https://github.com/wildjames/crackcluster
+Author: James Wild
+Author-email: jwild2@sheffield.ac.uk
+License: UNKNOWN
+Description: # Crack Cluster
+        
+        This is a demo package - explicitly for fiddling!
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
