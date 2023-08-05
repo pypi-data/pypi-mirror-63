@@ -1,0 +1,16 @@
+cibuildwheel/__init__.py,sha256=U3f_Jgr3zpgiYG2kLcvcT05TQsVzN9Kktg_f3Q9OZFA,22
+cibuildwheel/__main__.py,sha256=_B3CQ-W3q7ON4eNYNaG5ZdnIpNosxk_l89fx5M9IfZM,13135
+cibuildwheel/bashlex_eval.py,sha256=roiKcLNhDB_9IotY9CK5gW0oTJ-MqqumyMQJLPt6Lqg,2124
+cibuildwheel/environment.py,sha256=Vp8Z_d__Oe60-hch1CE6MhXC5_BlV4dqs8XjJ5U3y80,2501
+cibuildwheel/linux.py,sha256=1HNSXF-uy3b2fikgMkJuZGUfn7qxuX3vb2-L_nCZaSI,12294
+cibuildwheel/macos.py,sha256=NKOqdndBHeIIxzQm8kRj2rqGfCOHrmFnQVKTDcrAglg,11683
+cibuildwheel/util.py,sha256=ZxwJi7yB_YkurnJZcnXJfgHk-63yqSglM6gF9sSanmc,2042
+cibuildwheel/windows.py,sha256=oDXfIS6vola3tcHwKEM6Gkr825EBg8f_tMW9-3bxzL0,10464
+cibuildwheel/resources/appveyor_run_with_env.cmd,sha256=z7aDFEuqcHl5KmoLGo8TKDd0IMPYG4R7B9J2KsgjPwg,3365
+cibuildwheel/resources/pypy3.6.patch,sha256=cBTgibYsOUFOUQ2nzPx1NRGY7E1BZIW6_MWq25W7eyA,347
+cibuildwheel-1.2.0.dist-info/LICENSE,sha256=zvQcbfLJP8cWhaONts5u_sssa66_-jYnca7OrrXSfeA,1374
+cibuildwheel-1.2.0.dist-info/METADATA,sha256=vIjzyj7vKn4uh5VYPRbtLenyGRMKYNqEImJ3a1SOUz8,18306
+cibuildwheel-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cibuildwheel-1.2.0.dist-info/entry_points.txt,sha256=YW5Ql4RCzAZAa9xgm4_5I5NdW77TClgYmq__sA9J7BE,61
+cibuildwheel-1.2.0.dist-info/top_level.txt,sha256=Q0L-Jpq6oHas-lW5WjakidV5345wQm9ib8Aj84d00Sg,13
+cibuildwheel-1.2.0.dist-info/RECORD,,
