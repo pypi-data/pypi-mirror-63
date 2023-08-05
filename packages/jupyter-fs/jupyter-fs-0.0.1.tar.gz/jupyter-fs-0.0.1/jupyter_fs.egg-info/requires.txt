@@ -1,0 +1,16 @@
+fs>=2.4.11
+jupyterlab>=1.0.0
+notebook>=5.7.0
+
+[dev]
+fs>=2.4.11
+jupyterlab>=1.0.0
+notebook>=5.7.0
+autopep8
+bump2version
+codecov
+flake8
+mock
+pylint
+pytest
+pytest-cov
