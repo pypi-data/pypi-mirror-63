@@ -1,0 +1,24 @@
+{# -*- coding: utf-8 -*- #}
+% extends "forms/user_tab.html"
+
+% load exfiltry
+% load exsyntax
+
+
+%% all
+    %with show_title_bar=1 title='Nowi klienci'
+        {{ block.super }}
+
+
+%% user_header
+    th...Logo
+    th...Logo płatnika
+    th...Nazwa
+
+
+%% user_row
+    tr
+        td... {{object.logo}}
+        td align=right... {{object.logop}}
+        td align=right... {{object.name}}
+

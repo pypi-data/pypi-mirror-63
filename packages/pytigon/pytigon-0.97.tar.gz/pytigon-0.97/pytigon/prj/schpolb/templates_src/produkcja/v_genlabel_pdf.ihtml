@@ -1,0 +1,192 @@
+{# -*- coding: utf-8 -*- #}
+%extends "base_pdf.html"
+
+%load exfiltry
+%load exsyntax
+
+%% css
+    style type=text/css{:}
+        body:
+            font-family:sans-serif
+            font-size:50%
+            padding:5
+
+        table:
+            border:0
+            vertical-align:top
+            padding:1
+            cellspacing: 3
+
+        th:
+            cellpadding:3
+            font-weight:bold
+            border: 0
+
+        td:
+            vertical-align:top
+            padding:1
+            cellpadding:1
+            cellspacing:1
+            border: 1
+
+        strong,b:
+            font-weight:bold
+
+        p:
+            cellpadding:2
+            border:0
+            width:100%
+
+        ul:
+            border:0
+
+        li:
+            cellpadding:5
+            width:95%-60
+
+        ul li:
+            font-style: italic
+
+        em:
+            font-style: italic
+
+        b:
+            font-weight: bold
+
+        h1:
+            font-size:300%
+            font-weight:bold
+            cellpadding:12 2 12 2
+
+        h2:
+            font-size:240%
+            font-weight:bold
+            cellpadding:10 2 50 2
+
+        h3:
+            font-size:190%
+            font-weight: bold
+            cellpadding:8 2 8 2
+            width: 100%
+            align: center
+
+        h4:
+            font-size:150%
+            font-weight: bold
+            cellpadding:6 2 6 2
+
+        h5:
+            font-size:120%
+            font-weight: bold
+            cellpadding:4 2 4 2
+
+        h6:
+            font-size:100%
+            font-weight: bold
+            cellpadding:2 2 2 2
+            
+        i:
+            font-style:italic
+
+        table.noborder tr td:
+            border: 0
+            cellspacing: 0
+            cellpadding: 0
+            
+        table tr td.noborder:
+            border:0
+
+        table tr td table:
+            padding:1
+            cellspacing: 1
+
+
+%% page_setup
+    page
+        %% page_header
+        %% page_footer
+
+
+%% content 
+
+    table width=100%,,,class=tab_body
+        tr
+            td width=33%...Logo
+            td width=33%...www.polbruk.pl
+            td...CE10
+    table width=100%,,,class=tab_body
+        tr
+            td
+                .<b>„Polbruk” S.A  80-299 Gdańsk, ul. Nowy Świat 16c </b><br/>
+                .Zakład Produkcyjny(91) 04-458 Warszawa, ul. Chełmżyńska 249 <br/>
+                .kod typu wyrobu: <b>Betonowa kostka brukowa Polbruk B,D,I </b><br/>
+                .Numer Deklaracji Właściwości Użytkowych: <b>01/00/91/16 </b><br/>
+                .Specyfikacja techniczna: <b>PN-EN 1338:2005 oraz PN-EN 1338:2005/AC:2007 </b><br/>
+        tr
+            td
+                .Zamierzone zastosowanie : Pokrycia nawierzchni zewnętrznych i wewnętrznych <br/>
+                .Emisja azbestu: Nie zawiera azbestu <br/>
+                .Wytrzymałość na rozciąganie przy rozłupywaniu (MPa): Zgodna(3,6MPa) <br/>
+                .Odporność na poślizg/poślizgnięcie: Zadowalająca <br/>
+                .Współczynnik przewodności cieplnej: 1,2 [W/(mK)] <br/>               
+                .Odporność na działanie ognia zewnętrznego: NPD <br/>                           
+                .Trwałość: Zadowalająca <br/>
+                .Reakcja na ogień: A1 <br/>                           
+    
+    br
+    p...INFORMACJE DODATKOWE NIETOWARZYSZĄCE OZNAKOWANIU CE
+    
+    table width=100%,,,class=tab_body                
+        tr
+            td
+                h...Pozostałe właściwości użytkowe
+                table class=noborder
+                    tr 
+                        td
+                        td...Klasa
+                        td...Oznaczenie
+                    tr
+                        td...Odporność na warunki atmosferyczne – nasiąkliwość
+                        td...2
+                        td...B
+                    tr
+                        td...Odporność na warunki atmosferyczne – mrozoodporność
+                        td...3
+                        td...D
+                    tr
+                        td...Odporność na ścieranie
+                        td...4
+                        td...I
+        tr
+            td
+                .Zastosowanie: Wykonywanie nawierzchni zewnętrznych i wewnętrznych dla ruchu pieszego i kołowego. Tam gdzie deklarowane właściwości są wystarczające.<br/>
+                .Wyrób wbudowywać nie wcześniej niż 7 dni od daty produkcji.<br/>
+                .Deklarowane cechy wyrób osiąga po upływie 28 dni od daty produkcji.<br/>
+                .Zachować spoiny (fugi) o minimalnej szerokości 3-5mm, również dla wyrobów bez fazy i odstępników.<br/>
+                .Ewentualny biały nalot na wyrobach tzw. Wykwity wapienne zgodne z w/w normą nie są wadą wyrobu. Ustępują w trakcie eksploatacji.<br/>
+                .Wyroby nie zawierają substancji niebezpiecznych w rozumieniu Rozporządzenia WE nr 1907/2006 PE i Rady z dnia 18 grudnia 2006<br/>
+                .DWU, poradnik brukarski, i inne informacje na stronie internetowej: www.polbruk.pl<br/>
+        
+    table width=100%,,,class=tab_body
+        tr
+            td colspan=5
+                .Informacja o wyrobie: <br/>
+                b...Prostokąt z fazą 6 cm, kolor: latte <br/>
+                b...tekstura: melanż,  powierzchnia: płaska, <br/>
+        tr
+            td...Data produkcji:
+            td colspan=2
+                b...2017.01.01
+            td...Zmiana pakująca:
+            td
+                b...I
+        tr 
+            td width=25%...Ilość w opakowaniu:
+            td width=15%
+                b...10.8
+            td width=15%
+                b...m2
+            td...Numer linii produkcyjnej:
+            td width=15%
+                b...92
+    

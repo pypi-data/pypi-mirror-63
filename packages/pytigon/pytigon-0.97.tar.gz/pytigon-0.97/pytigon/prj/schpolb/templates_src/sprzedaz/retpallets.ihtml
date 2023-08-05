@@ -1,0 +1,56 @@
+{# -*- coding: utf-8 -*- #}
+%extends "form.html"
+
+%load exfiltry
+%load exsyntax
+
+%% pythoncode
+    script language=python
+        def signal_from_child(self, child, signal):
+            if signal=='set_bitmap_list':
+                bitmaps = {
+                }
+                child.set_bitmaps(bitmaps)
+
+        def filter_url(self, target, href):
+            return href
+
+%% all
+    %with table_type='datatable':
+        {{ block.super }}
+
+%% scroll
+
+%% list_content_actions
+    % new_row "Zgłoszenie zwrotu"
+
+%% list_row_header
+    th...Logo
+    th...Logo płatnika
+    th...Numer faktury
+    th...Ilość
+    th...Magazyn
+    th...Już w magazynie
+    th...Rok zwrotu
+    th...Uzasadnienie
+    th...Status
+    
+
+%% list_row
+    td...{{object.parent.logo}}
+    td...{{object.doc_number}}
+    td...{{object.amount}}
+    td...{{object.warehouse}}
+    td...{{object.in_stock}}
+    td...{{object.year}}
+    td...{{object.description}}
+    td...{{object.status}}
+
+%% list_row_actions
+    % row_actions:
+        .edit
+        .delete
+
+%% row_edit
+    % form:
+            "parent", "doc_number", "amount", "warehouse", "in_stock", "year", "description"

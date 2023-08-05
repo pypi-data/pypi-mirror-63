@@ -1,0 +1,57 @@
+{# -*- coding: utf-8 -*- #}
+% extends "form.html"
+
+% load exfiltry
+% load exsyntax
+
+
+%% all
+    % if status:
+        % if status == 'start':
+            %if OK:
+                .OK
+            %else:
+                {{message}}
+        % if status == 'end':
+            %if OK:
+                .OK
+            %else:
+                {{message}}
+        % if status == 'etap':
+            %if OK:
+                .OK
+            %else:
+                {{message}}
+    % else:
+        %with form_width=800 form_height=600 show_title_bar=1 title='Generowanie premii'
+            {{ block.super }}
+
+%% form_content
+    div class=inline-form-body
+        {{ form.non_field_errors }}
+        % inline_form:
+        
+    button type=submit,,,value=_(Refresh),,,class=btn btn-fab btn-raised btn-info ladda-button refresh-button,,,data-style=slide-left,,,title=_(Refresh),,,onclick=return produkcja_premie_click(this)
+        span class=fa fa-refresh
+
+%% list_content_body
+    % if config:
+        div id=produkcja_div
+            ul id=produkcja_ul_0,,,class=list-group            
+                li class=list-group-item
+                        i class=fa fa-lg fa-caret-right
+                        .Inicjowanie - przesyłanie plików na serwer
+                        span
+            ul id=produkcja_ul,,,class=list-group            
+                % for pos in config:            
+                    li href={{pos.nr_oddz}},,,class=list-group-item
+                        i class=fa fa-lg fa-caret-right
+                        .Generowanie i wysyłanie pliku dla oddziału: {{pos.nazwa}}
+                        span
+            ul id=produkcja_ul_1000,,,class=list-group            
+                li class=list-group-item
+                    i class=fa fa-lg fa-caret-right
+                    .Finalizowanie - usuwanie plików tymczasowych z serwera
+                    span
+        br
+        br

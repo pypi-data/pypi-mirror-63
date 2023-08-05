@@ -1,0 +1,376 @@
+[0128/213251.968567:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=zygote --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/213251.987249:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/213251.987370:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: no-proxy-server
+
+[0128/213251.987401:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+
+[0128/213251.987432:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+
+[0128/213251.987463:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAAICAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US
+
+[0128/213251.997923:INFO:x11.cpp(30)] [Browser process] Install X11 error handlers
+
+[0128/213253.022521:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+
+[0128/213253.023339:INFO:cef_log.cpp(8)] [Browser process] navigateUrl: data:text/html;base64,ICAgCiAgICA8c3R5bGU+CiAgICAgICAgLmNlbnRlcmVkIHsKICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgbGVmdDogNTAlOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7CiAgICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxwIGNsYXNzPSJjZW50ZXJlZCI+TG9hZGluZyAuLi48L2ltZz4K
+
+[0128/213253.023411:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+
+[0128/213253.046085:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+
+[0128/213253.046603:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=23A07F201DBAB7A26BF3975022932C90 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/213253.081346:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/213253.081772:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/213253.081903:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/213253.082105:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+
+[0128/213253.082155:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 106954753
+
+[0128/213253.082523:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+
+[0128/213253.127180:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+
+[0128/213253.129857:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/213253.130063:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/213253.138616:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+
+[0128/213253.138686:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+
+[0128/213253.138758:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+
+[0128/213253.144933:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/213253.221643:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=B1C05A968563AD368A76F526D76B19B6 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/213255.987581:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/213255.995894:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=3
+
+[0128/213256.006073:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
+
+[0128/213301.751281:INFO:CONSOLE(196)] "Refused to set unsafe header "Content-length"", source: http://127.0.0.1:8000/static/sch/schXMLHttpRequest.js (196)
+[0128/213306.423167:INFO:CONSOLE(4)] "Upgrading", source: http://127.0.0.1:8000/static/sch/db.js (4)
+[0128/213306.423297:ERROR:quota_settings.cc(109)] Unable to compute QuotaSettings.
+[0128/213306.433759:WARNING:quota_manager.cc(1632)] No storage quota provided in QuotaSettings.
+[0128/213318.135859:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+
+[0128/213318.136042:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+
+[0128/213318.136111:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#3]
+
+[0128/213318.136170:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+
+[0128/213318.150218:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+
+[0128/213318.187413:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/213318.188009:ERROR:gles2_cmd_decoder.cc(4553)]   GLES2DecoderImpl: Context lost during MakeCurrent.
+[0128/213318.189974:WARNING:x11_util.cc(1362)] X error received: serial 508, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/213318.190459:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/213318.198188:WARNING:x11_util.cc(1362)] X error received: serial 541, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/213318.198502:WARNING:x11_util.cc(1362)] X error received: serial 544, error_code 3 (BadWindow (invalid Window parameter)), request_code 4, minor_code 0 (X_DestroyWindow)
+[0128/213318.402928:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+
+[0128/220136.878836:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=zygote --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220136.896567:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220136.896706:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: no-proxy-server
+
+[0128/220136.896757:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+
+[0128/220136.896799:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+
+[0128/220136.896840:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAAICAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US
+
+[0128/220136.912018:INFO:x11.cpp(30)] [Browser process] Install X11 error handlers
+
+[0128/220138.152018:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+
+[0128/220138.152840:INFO:cef_log.cpp(8)] [Browser process] navigateUrl: data:text/html;base64,ICAgCiAgICA8c3R5bGU+CiAgICAgICAgLmNlbnRlcmVkIHsKICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgbGVmdDogNTAlOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7CiAgICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxwIGNsYXNzPSJjZW50ZXJlZCI+TG9hZGluZyAuLi48L2ltZz4K
+
+[0128/220138.152969:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+
+[0128/220138.168430:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+
+[0128/220138.168857:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=182146B7B4C1500F7720D06C67C76170 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220138.197440:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220138.197729:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220138.197799:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220138.201165:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+
+[0128/220138.201203:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 106954753
+
+[0128/220138.201563:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+
+[0128/220138.253443:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+
+[0128/220138.257749:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220138.257933:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220138.265056:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220138.265909:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+
+[0128/220138.265958:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+
+[0128/220138.265992:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+
+[0128/220138.343977:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=008629B805EB8B2C69FCDCE8F6492BEF --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220144.751484:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+
+[0128/220144.751749:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+
+[0128/220144.751872:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+
+[0128/220144.767490:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+
+[0128/220144.818376:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220144.819093:ERROR:gles2_cmd_decoder.cc(4553)]   GLES2DecoderImpl: Context lost during MakeCurrent.
+[0128/220144.823304:WARNING:x11_util.cc(1362)] X error received: serial 410, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220144.823945:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220144.839856:WARNING:x11_util.cc(1362)] X error received: serial 443, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220144.840341:WARNING:x11_util.cc(1362)] X error received: serial 446, error_code 3 (BadWindow (invalid Window parameter)), request_code 4, minor_code 0 (X_DestroyWindow)
+[0128/220145.044416:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+
+[0128/220228.304428:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=zygote --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220228.322640:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220228.322766:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: no-proxy-server
+
+[0128/220228.322799:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+
+[0128/220228.322831:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+
+[0128/220228.322861:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAAICAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US
+
+[0128/220228.333196:INFO:x11.cpp(30)] [Browser process] Install X11 error handlers
+
+[0128/220229.723169:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+
+[0128/220229.723844:INFO:cef_log.cpp(8)] [Browser process] navigateUrl: data:text/html;base64,ICAgCiAgICA8c3R5bGU+CiAgICAgICAgLmNlbnRlcmVkIHsKICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgbGVmdDogNTAlOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7CiAgICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxwIGNsYXNzPSJjZW50ZXJlZCI+TG9hZGluZyAuLi48L2ltZz4K
+
+[0128/220229.723901:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+
+[0128/220229.743465:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+
+[0128/220229.743861:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=6AA86185EF226BA519133B093F5CAC77 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220229.788367:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220229.788850:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220229.789015:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220229.789482:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+
+[0128/220229.789534:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 106954753
+
+[0128/220229.789930:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+
+[0128/220229.838362:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+
+[0128/220229.844144:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220229.844319:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220229.848790:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+
+[0128/220229.848897:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+
+[0128/220229.848970:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+
+[0128/220229.852190:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220229.928867:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=C24C16BABB9FEAC5409A7ABA467521FB --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220233.731333:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220233.735938:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=3
+
+[0128/220233.741253:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
+
+[0128/220339.151323:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+
+[0128/220339.151617:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+
+[0128/220339.151762:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#3]
+
+[0128/220339.151851:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+
+[0128/220339.165661:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+
+[0128/220339.199707:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220339.200262:ERROR:gles2_cmd_decoder.cc(4553)]   GLES2DecoderImpl: Context lost during MakeCurrent.
+[0128/220339.204915:WARNING:x11_util.cc(1362)] X error received: serial 412, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220339.205471:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220339.217080:WARNING:x11_util.cc(1362)] X error received: serial 445, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220339.217402:WARNING:x11_util.cc(1362)] X error received: serial 448, error_code 3 (BadWindow (invalid Window parameter)), request_code 4, minor_code 0 (X_DestroyWindow)
+[0128/220339.421721:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+
+[0128/220408.976453:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=zygote --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220408.994818:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220408.994983:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: no-proxy-server
+
+[0128/220408.995030:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+
+[0128/220408.995066:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+
+[0128/220408.995116:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAAICAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US
+
+[0128/220409.005618:INFO:x11.cpp(30)] [Browser process] Install X11 error handlers
+
+[0128/220410.102134:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+
+[0128/220410.102938:INFO:cef_log.cpp(8)] [Browser process] navigateUrl: data:text/html;base64,ICAgCiAgICA8c3R5bGU+CiAgICAgICAgLmNlbnRlcmVkIHsKICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgbGVmdDogNTAlOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7CiAgICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxwIGNsYXNzPSJjZW50ZXJlZCI+TG9hZGluZyAuLi48L2ltZz4K
+
+[0128/220410.103013:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+
+[0128/220410.125240:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+
+[0128/220410.125823:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=7CA1FA7FA19D2AA56D03460234E68DB5 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220410.127940:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220410.128200:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220410.128270:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220410.128461:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+
+[0128/220410.128495:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 106954753
+
+[0128/220410.128755:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+
+[0128/220410.216759:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+
+[0128/220410.220471:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220410.220667:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220410.227078:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+
+[0128/220410.227154:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+
+[0128/220410.227209:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+
+[0128/220410.240979:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220410.304503:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=1BEB7AC6BF70223A6913606B85E9D5CA --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220413.527376:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220413.532044:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=3
+
+[0128/220413.544267:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
+
+[0128/220452.444801:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+
+[0128/220452.445123:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+
+[0128/220452.446890:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#3]
+
+[0128/220452.446955:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+
+[0128/220452.458889:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+
+[0128/220452.474085:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220452.474989:ERROR:gles2_cmd_decoder.cc(4553)]   GLES2DecoderImpl: Context lost during MakeCurrent.
+[0128/220452.477430:WARNING:x11_util.cc(1362)] X error received: serial 412, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220452.478211:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220452.493026:WARNING:x11_util.cc(1362)] X error received: serial 445, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220452.493304:WARNING:x11_util.cc(1362)] X error received: serial 448, error_code 3 (BadWindow (invalid Window parameter)), request_code 4, minor_code 0 (X_DestroyWindow)
+[0128/220452.697468:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+
+[0128/220509.804501:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=zygote --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220509.822602:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220509.822718:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: no-proxy-server
+
+[0128/220509.822759:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+
+[0128/220509.822785:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+
+[0128/220509.822819:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=gpu-process --no-sandbox --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAAICAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --lang=en-US
+
+[0128/220509.840248:INFO:x11.cpp(30)] [Browser process] Install X11 error handlers
+
+[0128/220510.945057:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+
+[0128/220510.945867:INFO:cef_log.cpp(8)] [Browser process] navigateUrl: data:text/html;base64,ICAgCiAgICA8c3R5bGU+CiAgICAgICAgLmNlbnRlcmVkIHsKICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgbGVmdDogNTAlOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7CiAgICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxwIGNsYXNzPSJjZW50ZXJlZCI+TG9hZGluZyAuLi48L2ltZz4K
+
+[0128/220510.945941:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+
+[0128/220510.968579:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+
+[0128/220510.969028:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=6C17A6425CB8EE001A0F694E4F28E03D --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220511.009136:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220511.009500:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220511.009591:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+
+[0128/220511.009832:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+
+[0128/220511.009878:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 106954753
+
+[0128/220511.010175:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+
+[0128/220511.055771:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+
+[0128/220511.058106:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220511.058271:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220511.060301:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+
+[0128/220511.060559:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+
+[0128/220511.060637:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+
+[0128/220511.075905:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+
+[0128/220511.148037:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: /usr/local/lib/python3.7/dist-packages/cefpython3/subprocess --type=renderer --no-sandbox --service-pipe-token=B57FE97E0478CD3019CFA09C10F11C79 --lang=en-US --locales-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3/locales --log-file=/home/sch/prj/pytigon/pytigon/prj/schsetup/debug.log --log-severity=info --resources-dir-path=/usr/local/lib/python3.7/dist-packages/cefpython3 --no-proxy-server=1 --disable-web-security=1 --disable-gpu-shader-disk-cache
+
+[0128/220514.211874:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+
+[0128/220514.217592:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=3
+
+[0128/220514.217859:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
+
+[0128/220535.827923:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+
+[0128/220535.828191:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+
+[0128/220535.828294:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#3]
+
+[0128/220535.828382:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+
+[0128/220535.841884:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+
+[0128/220535.857481:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220535.858098:ERROR:gles2_cmd_decoder.cc(4553)]   GLES2DecoderImpl: Context lost during MakeCurrent.
+[0128/220535.862278:WARNING:x11_util.cc(1362)] X error received: serial 410, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220535.862650:ERROR:gl_context_glx.cc(227)] Couldn't make context current with X drawable.
+[0128/220535.875511:WARNING:x11_util.cc(1362)] X error received: serial 443, error_code 182 (GLXBadWindow), request_code 154, minor_code 26 (X_GLXMakeContextCurrent)
+[0128/220535.875769:WARNING:x11_util.cc(1362)] X error received: serial 446, error_code 3 (BadWindow (invalid Window parameter)), request_code 4, minor_code 0 (X_DestroyWindow)
+[0128/220536.079924:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+
