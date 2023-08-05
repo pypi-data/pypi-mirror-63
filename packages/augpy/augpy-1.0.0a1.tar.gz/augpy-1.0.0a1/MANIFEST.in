@@ -1,0 +1,3 @@
+recursive-include augpy *.py *.pyi *.h *.hpp *.c *.cpp *.cu *.cuh *.txt LICENSE* COPYING* README*
+recursive-include test *
+include LICENSE *requirements.txt

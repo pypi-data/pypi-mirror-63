@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: augpy
+Version: 1.0.0a1
+Summary: Lightweight CUDA tensor functions with a focus on image data augmentation.
+Home-page: UNKNOWN
+Author: Joachim Folz
+Author-email: joachim.folz@dfki.de
+License: MIT
+Project-URL: Documentation, https://gitlab.com/jfolz/augpy/blob/master/README.rst
+Project-URL: Source, https://gitlab.com/jfolz/augpy
+Project-URL: Tracker, https://gitlab.com/jfolz/augpy/issues
+Description: augpy
+        =====
+        
+        augpy is a lightweight library with minimal dependencies that
+        provides CUDA tensor functions with a focus on image data
+        augmentation.
+        It uses the `dlpack <https://github.com/dmlc/dlpack>`_
+        standard to export tensors to other libraries, such as
+        Pytorch, with zero copying.
+        
+        
+        
+        Building
+        --------
+        
+        Make sure you have the following installed.
+        
+        - Compiler with C++14 support (e.g. GCC 5)
+        - Cuda 10 or higher
+        - Cmake 3.13 or higher
+        - setuptools>=44.0.0
+        - wheel>=0.34.0
+        - pybind11>=2.4.3
+        - numpy>=1.15.0
+        
+        Now simply run ``setup.py`` as normal to build the wheel and install with pip.
+        
+        ::
+        
+            python setup.py bdist_wheel
+        
+        
+        
+        Usage
+        -----
+        
+        TODO
+        
+        
+        
+        Changelog
+        ---------
+        
+        1.0.0a1
+        ~~~~~~~
+        
+        - WIP
+        
+Keywords: CUDA tensor math data augmentation image affine warp transform gaussian blur gamma correction
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst; charset=UTF-8
