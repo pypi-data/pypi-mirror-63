@@ -1,0 +1,13 @@
+qtcurate/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qtcurate/__version__.py,sha256=v_R05GyxIsOdoYl699l_5QGis_e2WGflCwyCeNqSSzg,281
+qtcurate/config.py,sha256=sMBZj7pWpNDlA3DvX6wTXSTSaE4pVo049hk8ayPaLqI,44
+qtcurate/dataprocess.py,sha256=wV2QMBN4Y7Hv2ei7QIKHH0PG0qqLje3TsIaEy8ikWlA,20312
+qtcurate/dictionaries.py,sha256=2OCdGdcjH-ZVIEjxUrvmfkPdXDi3aF7q8LTXq3is3hw,7624
+qtcurate/exceptions.py,sha256=YOkKJMjH-_7SSxV9MJRJfAshqxghaYS0ATLPVUyDuRE,409
+qtcurate/qtdict.py,sha256=Evbu2ZEgF3XoVxbYMu3YCzfLH3isPlJ6B1Kwy4enbW4,7620
+qtcurate/tagging.py,sha256=k3lmh8jMNdVbfT3OGB4cwzT7661W-XRDZNsXvlOon14,15652
+qtcurate-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qtcurate-1.3.0.dist-info/METADATA,sha256=qiOzOuHp8a6Z9nnbmkEpMfXP0PQThA9kXLbZY6wqbEQ,14139
+qtcurate-1.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qtcurate-1.3.0.dist-info/top_level.txt,sha256=zIE_V0Dy7AzT3ORDPhiZuN-xt5lfFpxtWQEgbtvjO8c,9
+qtcurate-1.3.0.dist-info/RECORD,,
