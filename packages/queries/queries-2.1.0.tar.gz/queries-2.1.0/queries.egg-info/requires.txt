@@ -1,0 +1,4 @@
+psycopg2<2.9,>=2.5.1
+
+[tornado]
+tornado<6
