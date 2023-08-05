@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        odoo-elasticapm=odoo_elasticapm.cli:main
+    
