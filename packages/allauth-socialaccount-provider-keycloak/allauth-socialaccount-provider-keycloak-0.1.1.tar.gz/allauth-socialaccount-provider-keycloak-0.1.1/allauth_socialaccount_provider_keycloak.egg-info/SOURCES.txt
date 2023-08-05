@@ -1,0 +1,12 @@
+README.md
+setup.py
+allauth_socialaccount_provider_keycloak/__init__.py
+allauth_socialaccount_provider_keycloak/apps.py
+allauth_socialaccount_provider_keycloak/provider.py
+allauth_socialaccount_provider_keycloak/tests.py
+allauth_socialaccount_provider_keycloak/urls.py
+allauth_socialaccount_provider_keycloak/views.py
+allauth_socialaccount_provider_keycloak.egg-info/PKG-INFO
+allauth_socialaccount_provider_keycloak.egg-info/SOURCES.txt
+allauth_socialaccount_provider_keycloak.egg-info/dependency_links.txt
+allauth_socialaccount_provider_keycloak.egg-info/top_level.txt
