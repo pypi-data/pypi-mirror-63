@@ -1,0 +1,7 @@
+six
+schematics<3,>=2
+sphinx
+
+[test]
+pytest
+pytest-mock
