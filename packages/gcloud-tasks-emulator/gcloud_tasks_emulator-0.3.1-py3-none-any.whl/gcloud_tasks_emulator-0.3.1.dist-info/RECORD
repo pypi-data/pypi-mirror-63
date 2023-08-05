@@ -1,0 +1,9 @@
+gcloud_tasks_emulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcloud_tasks_emulator/server.py,sha256=-nlCGc_Yv5EawEBH5-2sxcUTMH5ERf-3VN0XLIYzmD8,12138
+gcloud_tasks_emulator/tests.py,sha256=jeQp7y5xytWxZtxkCp47107VVgoON2bq1NrjqzgWHxA,9325
+gcloud_tasks_emulator-0.3.1.data/scripts/gcloud-tasks-emulator,sha256=H8S3CkGTx7RPIIy-6JmvN8oeVCI_Ff_Vvn5fnxsuuRs,1653
+gcloud_tasks_emulator-0.3.1.dist-info/LICENCE.md,sha256=niQNA6818xPov7kLQbqNbg_uRebV7-hslFp5k7rb0kI,1589
+gcloud_tasks_emulator-0.3.1.dist-info/METADATA,sha256=fxVXIKNG-TAVNysMX9-1HCuLCMtdTsurduQ2vZ5s3AM,1899
+gcloud_tasks_emulator-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gcloud_tasks_emulator-0.3.1.dist-info/top_level.txt,sha256=6OVR67PG3ZdQwGKu7MpXow-HCb07ABooH-mF472_LK0,22
+gcloud_tasks_emulator-0.3.1.dist-info/RECORD,,
