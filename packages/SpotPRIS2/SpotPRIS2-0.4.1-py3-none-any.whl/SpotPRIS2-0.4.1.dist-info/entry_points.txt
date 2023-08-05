@@ -1,0 +1,3 @@
+[console_scripts]
+spotpris2 = spotpris2.__main__:main
+
