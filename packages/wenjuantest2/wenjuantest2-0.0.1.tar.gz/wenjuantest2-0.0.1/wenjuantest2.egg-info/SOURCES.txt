@@ -1,0 +1,10 @@
+README.md
+setup.py
+wenjuanpro/__init__.py
+wenjuanpro/print_str.py
+wenjuantest2/__init__.py
+wenjuantest2/print_str.py
+wenjuantest2.egg-info/PKG-INFO
+wenjuantest2.egg-info/SOURCES.txt
+wenjuantest2.egg-info/dependency_links.txt
+wenjuantest2.egg-info/top_level.txt
