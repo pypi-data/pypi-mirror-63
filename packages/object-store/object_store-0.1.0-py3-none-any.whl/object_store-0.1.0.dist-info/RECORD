@@ -1,0 +1,14 @@
+object_store/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+object_store/aws_s3.py,sha256=QL1VZA4F5orVk0juI-4pYj1ODUF1O91wJhck8b6NrJA,791
+object_store/azure.py,sha256=rsZ5h0V6ghDnvq7gDgQrrEY6t1H3CU7v8B4o0y3M-4c,905
+object_store/min_io.py,sha256=i5DQLAYml8oIi0A1FDwT8TVfitzfXsgeumO-WFR1tj4,1056
+object_store/object_storage.py,sha256=ZgHh14DiUcmqUBEyExpVWlSpPqKGaIZcQod5G57BM1I,294
+object_store/object_storage_creator.py,sha256=cCsaKo6cNiqFm7hehpitzFNH0PZ-EJhnNpmoPMeYkEg,1335
+object_store/object_storage_type.py,sha256=SZY3Ue42EmB7eV1WwUICiUiL4N3GBDwziBeqJguGklI,139
+object_store/version.py,sha256=r_SIMIHc9z6UHqWx7MGMnu3yUCK1modp6qPB256ioD4,116
+object_store-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+object_store-0.1.0.dist-info/METADATA,sha256=aQl6l4B0Z1be-Pn6EStKYk0WQQyoIJCdAehf_SDj7D8,8729
+object_store-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+object_store-0.1.0.dist-info/top_level.txt,sha256=RPsN6074RrZ70NNJAdfrgbBVWryJWxXhrBN9R-yJ7AQ,13
+object_store-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+object_store-0.1.0.dist-info/RECORD,,
