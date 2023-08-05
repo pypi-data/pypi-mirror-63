@@ -1,0 +1,10 @@
+README.md
+setup.py
+tasq/__init__.py
+tasq/tasq.py
+tasq.egg-info/PKG-INFO
+tasq.egg-info/SOURCES.txt
+tasq.egg-info/dependency_links.txt
+tasq.egg-info/entry_points.txt
+tasq.egg-info/requires.txt
+tasq.egg-info/top_level.txt
