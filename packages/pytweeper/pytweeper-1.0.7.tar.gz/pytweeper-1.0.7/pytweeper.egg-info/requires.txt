@@ -1,0 +1,4 @@
+tweepy
+requests
+requests_oauthlib
+progress
