@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: radtorch
+Version: 0.1.2
+Summary: RADTorch, The Radiology Machine Learning Tool Kit
+Home-page: https://radtorch.github.io/radtorch/
+Author: Mohamed Elbanan, MD
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pydicom
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+Requires-Dist: efficientnet-pytorch
+Requires-Dist: pathlib
+
+UNKNOWN
+
+
