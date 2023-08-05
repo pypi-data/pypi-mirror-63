@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ausgrid-outages
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/troykelly/python-ausgrid-outages
+Author: Troy Kelly
+Author-email: troy@troykelly.com
+License: UNKNOWN
+Download-URL: https://github.com/troykelly/python-ausgrid-outages/archive/0.0.1.zip
+Project-URL: Bug Reports, https://github.com/troykelly/python-ausgrid-outages/issues
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: pip (>=8.0.3)
+
+UNKNOWN
+
+
