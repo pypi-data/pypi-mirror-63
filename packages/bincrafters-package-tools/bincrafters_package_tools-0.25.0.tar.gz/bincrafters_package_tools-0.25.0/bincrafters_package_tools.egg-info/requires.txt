@@ -1,0 +1,6 @@
+conan_package_tools>=0.31.1
+PyYAML<6.0,>=3.11
+
+[test]
+pytest>=3.3.2
+pytest_cov>=2.5.1
