@@ -1,0 +1,2 @@
+include artellapipe/tools/renamer/__logging__.ini
+include artellapipe/tools/renamer/resources/icons/color/*.*
