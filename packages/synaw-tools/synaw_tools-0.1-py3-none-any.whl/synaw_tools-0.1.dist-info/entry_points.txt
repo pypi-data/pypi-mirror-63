@@ -1,0 +1,4 @@
+[console_scripts]
+st = synaw_tools.cli:main
+synaw-tools = synaw_tools.cli:main
+

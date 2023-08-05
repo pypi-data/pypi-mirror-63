@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: synaw-tools
+Version: 0.1
+Summary: synaw_tools: A collection of Python tools for SYNAW.
+Home-page: https://gitlab.com/synaw/synaw_tools
+Author: Simon Studer
+Author-email: mail@studer.si
+License: Apache License Version 2.0
+Project-URL: Source, https://gitlab.com/synaw/synaw_tools
+Project-URL: Tracker, https://gitlab.com/synaw/synaw_tools/issues
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: jinja2
+Requires-Dist: pyyaml
+
+SYNAW Tools
+===========
+
+A collection of Python tools for [SYNAW](https://gitlab.com/synaw/synaw).
+
+
