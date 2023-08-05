@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: celestial-tools
+Version: 0.0.7
+Summary: A collection of tools for updating embedded software images
+Home-page: https://github.com/pseudodesign/celestial
+Author: PseudoDesign
+Author-email: info@pseudo.design
+License: UNKNOWN
+Description: # celestial_tools
+        [![CircleCI](https://circleci.com/gh/PseudoDesign/celestial_tools.svg?style=svg)](https://circleci.com/gh/PseudoDesign/celestial_tools)
+        [![codecov](https://codecov.io/gh/PseudoDesign/celestial_tools/branch/master/graph/badge.svg)](https://codecov.io/gh/PseudoDesign/celestial_tools)
+        [![Documentation Status](https://readthedocs.org/projects/celestial-tools/badge/?version=latest)](https://celestial-tools.readthedocs.io/en/latest/?badge=latest)
+        
+        
+        See the above links for documentation.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: docs

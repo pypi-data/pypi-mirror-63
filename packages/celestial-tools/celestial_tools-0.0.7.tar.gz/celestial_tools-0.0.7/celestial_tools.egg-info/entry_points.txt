@@ -1,0 +1,3 @@
+[console_scripts]
+celestial_dual_rootfs_update = celestial_tools.client.dual_rootfs_update_cmdline:dual_rootfs_update_cmdline
+
