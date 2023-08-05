@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gogokit/__init__.py
+gogokit/clients.py
+gogokit/config.py
+gogokit/exceptions.py
+gogokit/hal.py
+gogokit/http_client.py
+gogokit/oauth.py
+gogokit/resources.py
+gogokit.egg-info/PKG-INFO
+gogokit.egg-info/SOURCES.txt
+gogokit.egg-info/dependency_links.txt
+gogokit.egg-info/requires.txt
+gogokit.egg-info/top_level.txt
