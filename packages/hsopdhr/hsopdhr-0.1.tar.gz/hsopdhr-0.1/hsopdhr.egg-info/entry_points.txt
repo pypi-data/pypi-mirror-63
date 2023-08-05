@@ -1,0 +1,3 @@
+[console_scripts]
+hsopdhr = dhrpackage.__main__:main
+

@@ -1,0 +1,16 @@
+setup.py
+dhrpackage/__init__.py
+dhrpackage/__main__.py
+dhrpackage/global_vars.py
+dhrpackage/hsop_services.py
+dhrpackage/hsop_version.py
+dhrpackage/ibe_details.py
+dhrpackage/log_exception.py
+dhrpackage/logging_monitoring_details.py
+dhrpackage/vmware_details.py
+hsopdhr.egg-info/PKG-INFO
+hsopdhr.egg-info/SOURCES.txt
+hsopdhr.egg-info/dependency_links.txt
+hsopdhr.egg-info/entry_points.txt
+hsopdhr.egg-info/not-zip-safe
+hsopdhr.egg-info/top_level.txt
