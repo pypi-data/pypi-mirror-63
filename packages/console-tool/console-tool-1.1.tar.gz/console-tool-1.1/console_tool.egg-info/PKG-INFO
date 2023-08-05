@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: console-tool
+Version: 1.1
+Summary: 提供创建命令行程序工具的模块,包含Cosole类。
+A module for creatig commad lie programs.
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: 由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: terminal,command-line,console
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Topic :: Terminals
