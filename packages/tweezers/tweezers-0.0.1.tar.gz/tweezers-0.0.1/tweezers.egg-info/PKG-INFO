@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: tweezers
+Version: 0.0.1
+Summary: A lightweight library for scraping Twitter data.
+Home-page: https://github.com/toby-p/tweezers
+Author: Toby Petty
+Author-email: tobypetty@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: api,twitter,data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6

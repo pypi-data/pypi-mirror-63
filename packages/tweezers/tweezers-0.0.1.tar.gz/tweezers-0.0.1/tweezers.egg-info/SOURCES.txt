@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs/README.txt
+docs/Tweezers.ipynb
+tweezers/__init__.py
+tweezers/auth.py
+tweezers/search.py
+tweezers.egg-info/PKG-INFO
+tweezers.egg-info/SOURCES.txt
+tweezers.egg-info/dependency_links.txt
+tweezers.egg-info/requires.txt
+tweezers.egg-info/top_level.txt
