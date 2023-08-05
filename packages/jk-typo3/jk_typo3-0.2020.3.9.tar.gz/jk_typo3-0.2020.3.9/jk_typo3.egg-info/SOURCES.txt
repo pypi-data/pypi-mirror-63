@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_typo3/TokenStream.py
+jk_typo3/Typo3ConfigurationFileParser.py
+jk_typo3/Typo3InstallationMgr.py
+jk_typo3/Typo3LocalConfigurationFile.py
+jk_typo3/__init__.py
+jk_typo3.egg-info/PKG-INFO
+jk_typo3.egg-info/SOURCES.txt
+jk_typo3.egg-info/dependency_links.txt
+jk_typo3.egg-info/not-zip-safe
+jk_typo3.egg-info/requires.txt
+jk_typo3.egg-info/top_level.txt
