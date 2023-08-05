@@ -1,0 +1,24 @@
+version: 2.1
+
+orbs:
+  ghpr: narrativescience/ghpr@0.0.5
+
+jobs:
+  publish:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout
+      - run: pip install flit
+      - run: flit build
+      - run: flit publish
+
+workflows:
+  publish:
+    jobs:
+      - publish:
+          filters:
+            tags:
+              only: /v[0-9]+(\.[0-9]+)*/
+            branches:
+              ignore: /.*/
