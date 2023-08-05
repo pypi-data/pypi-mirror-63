@@ -1,0 +1,8 @@
+dotmap
+python-vagrant
+GitPython
+spython
+click
+pyhcl
+pyyaml
+docker
