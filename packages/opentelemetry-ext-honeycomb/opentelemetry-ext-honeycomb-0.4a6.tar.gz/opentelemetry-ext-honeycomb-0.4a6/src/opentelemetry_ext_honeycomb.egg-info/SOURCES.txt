@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/opentelemetry/ext/honeycomb/__init__.py
+src/opentelemetry/ext/honeycomb/version.py
+src/opentelemetry_ext_honeycomb.egg-info/PKG-INFO
+src/opentelemetry_ext_honeycomb.egg-info/SOURCES.txt
+src/opentelemetry_ext_honeycomb.egg-info/dependency_links.txt
+src/opentelemetry_ext_honeycomb.egg-info/requires.txt
+src/opentelemetry_ext_honeycomb.egg-info/top_level.txt
