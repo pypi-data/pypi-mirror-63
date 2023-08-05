@@ -1,0 +1,13 @@
+README.md
+setup.py
+ssu_timetable/__init__.py
+ssu_timetable/browser.py
+ssu_timetable/config.py
+ssu_timetable/event_generator.py
+ssu_timetable/parser.py
+ssu_timetable/sanitizer.py
+ssu_timetable.egg-info/PKG-INFO
+ssu_timetable.egg-info/SOURCES.txt
+ssu_timetable.egg-info/dependency_links.txt
+ssu_timetable.egg-info/requires.txt
+ssu_timetable.egg-info/top_level.txt
