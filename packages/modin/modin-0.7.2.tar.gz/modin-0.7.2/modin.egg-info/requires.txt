@@ -1,0 +1,14 @@
+pandas==1.0.1
+packaging
+
+[all]
+dask>=2.1.0
+distributed>=2.3.2
+ray==0.8.0
+
+[dask]
+dask>=2.1.0
+distributed>=2.3.2
+
+[ray]
+ray==0.8.0
