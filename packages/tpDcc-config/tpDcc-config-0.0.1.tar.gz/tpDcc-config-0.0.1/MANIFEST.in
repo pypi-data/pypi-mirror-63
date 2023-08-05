@@ -1,0 +1,4 @@
+include tpDcc/config/development/*.yml
+include tpDcc/config/development/maya/*.yml
+include tpDcc/config/production/*.yml
+include tpDcc/config/production/maya/*.yml
