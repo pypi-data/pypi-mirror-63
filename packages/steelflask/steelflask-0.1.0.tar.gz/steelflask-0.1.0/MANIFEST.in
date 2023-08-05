@@ -1,0 +1,2 @@
+recursive-include steelflask/templates *
+recursive-exclude tests *
