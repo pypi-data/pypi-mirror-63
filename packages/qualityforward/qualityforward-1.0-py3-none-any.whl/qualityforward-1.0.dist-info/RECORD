@@ -1,0 +1,17 @@
+qualityforward/Map.py,sha256=SrodFf37uCvMfSfQ1oG5UWpHpIOfBkzTXW4ZnH_GKos,922
+qualityforward/Project.py,sha256=W77SJY7D-d-iGUVR-1pPEfB1CNywWFXHBd7FhZrgnis,417
+qualityforward/QualityForward.py,sha256=QWhwXAF-CIUSopLm1qU2IkpHAv14ktktJfcHoL4krp4,2116
+qualityforward/Tenant.py,sha256=WwIFeQCP4RM7i-MwAzC1zfP4MfzekUFa-GGUrsvq_yI,306
+qualityforward/TestCycle.py,sha256=sFwtQeotDUDgmJotSWyMn9s0cM11fMu343t_jvogemk,884
+qualityforward/TestPhase.py,sha256=M516s0LCgIeSm-7Sljlr2p2WMWSOxQ3VgGqhkSa7eUs,1724
+qualityforward/TestResult.py,sha256=j726RNuq0awXhA2H4x624wX2dxAmGPU3GR_oQ_F5JbA,485
+qualityforward/TestSuite.py,sha256=0ZQsODX6Z--cteuHb3wDL0lWKC-nO-Xk_NwijKqbsMk,752
+qualityforward/TestSuiteAssignment.py,sha256=FRHe7R4YMzIfUc6RE2rB1W9piOCzBBP4vuISUkb5fEg,776
+qualityforward/TestSuiteVersion.py,sha256=V5wM3T_zjwX06guFGQ0e4aQhMWCdI9AFWNzObl73rpM,512
+qualityforward/User.py,sha256=iTgkEjpSmfVjoMC4hduI9suVuQlLYfm4_awIcMf7b3M,304
+qualityforward/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qualityforward-1.0.dist-info/LICENSE,sha256=ZwfsYcxK39_LRw9RxqLYdigVMyOtT3hCY4L0W-Ew47I,1092
+qualityforward-1.0.dist-info/METADATA,sha256=jFr1tLTXjwIP-To98gI_drOh0qLYRMz8FuveZNoHeFA,535
+qualityforward-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qualityforward-1.0.dist-info/top_level.txt,sha256=qWc90LlnzM_BdoHBjGj8xWmUcr3aC1VCY0d9O47c-sc,15
+qualityforward-1.0.dist-info/RECORD,,
