@@ -1,0 +1,7 @@
+include random_publication_test/random_publication_test.min.js
+include random_publication_test/random_publication_test.min.js.map
+include random_publication_test/metadata.json
+include random_publication_test/package-info.json
+include README.md
+include LICENSE
+include package.json
