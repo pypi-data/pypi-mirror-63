@@ -1,0 +1,6 @@
+gym
+numpy
+matplotlib
+copy
+random
+math
