@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+apparatus.egg-info/PKG-INFO
+apparatus.egg-info/SOURCES.txt
+apparatus.egg-info/dependency_links.txt
+apparatus.egg-info/top_level.txt
+docs/source/description.rst
+src/apparatus/__init__.py
