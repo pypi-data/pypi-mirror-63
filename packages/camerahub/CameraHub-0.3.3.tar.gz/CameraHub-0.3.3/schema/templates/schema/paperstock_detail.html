@@ -1,0 +1,30 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>Manufacturer</td>
+    <td>{% if object.manufacturer is not None %}<a href="{% url 'manufacturer-detail' object.manufacturer.id %}">{{ object.manufacturer }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Resin coated</td>
+    <td>{{ object.resin_coated }}</td>
+  </tr>
+  <tr>
+    <td>Tonable</td>
+    <td>{{ object.tonable }}</td>
+  </tr>
+  <tr>
+    <td>Colour</td>
+    <td>{{ object.colour }}</td>
+  </tr>
+  <tr>
+    <td>Finish</td>
+    <td>{{ object.finish }}</td>
+  </tr>
+</table>
+{% endblock %}
