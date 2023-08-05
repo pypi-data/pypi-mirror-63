@@ -1,0 +1,9 @@
+mlboard_client/__init__.py,sha256=Ul4mSvp6xtlJlrvn67331tThmgRN5Pfri6neEfIKGFs,2324
+mlboard_client/encoders.py,sha256=cqsaT8uhxHTGIY9wXZprRnT4mFFAGgIVGId1DOpldTk,274
+mlboard_client/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlboard_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlboard_client/writers.py,sha256=EPN3R7XXptq6cZyfFXxcl9qqjvPuYIFIPpz4LTT0mHg,2312
+mlboard_client-0.0.11.dist-info/METADATA,sha256=dXCRZ47lRMsmk8O51Cf7QYt5wP1wOYCPRO8-k94LsxM,546
+mlboard_client-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mlboard_client-0.0.11.dist-info/top_level.txt,sha256=QHh2L_V8cSbgy-TcKs8rUM6DzRHYvAE3heJaEjvRvZ0,15
+mlboard_client-0.0.11.dist-info/RECORD,,
