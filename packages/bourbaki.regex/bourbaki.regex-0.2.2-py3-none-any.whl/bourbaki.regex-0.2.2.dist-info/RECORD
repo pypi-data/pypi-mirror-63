@@ -1,0 +1,10 @@
+bourbaki/__init__.py,sha256=q3JNmHn0CMPtEqkMR40lkjKQzuWUtT39xIFUYJ-MKIE,56
+bourbaki/regex/__init__.py,sha256=CFXjJnBKP70U2d3trvZk318QtZq-yppRe-aZYYN3aUk,449
+bourbaki/regex/base.py,sha256=GKpCv7Lo3Un4S1CQ0hAP5LLf8CiMcbv5PXPtUkkS__4,43846
+bourbaki/regex/utils.py,sha256=Szp2QOAAHjCNj1LPWomXkP8OEft__GmgBw3JX9-aHkA,7844
+bourbaki.regex-0.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bourbaki.regex-0.2.2.dist-info/METADATA,sha256=6R0McoNwtFgGo0WRAfpKUR5zpNxfuhtvBmRvHG6eHPk,10679
+bourbaki.regex-0.2.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bourbaki.regex-0.2.2.dist-info/top_level.txt,sha256=hUYN1Oyh08ktgMThmnx1_42EyYdVtnW52rznzi3wCTY,9
+bourbaki.regex-0.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bourbaki.regex-0.2.2.dist-info/RECORD,,
