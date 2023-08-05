@@ -1,0 +1,1 @@
+allauth_socialaccount_provider_keycloak
