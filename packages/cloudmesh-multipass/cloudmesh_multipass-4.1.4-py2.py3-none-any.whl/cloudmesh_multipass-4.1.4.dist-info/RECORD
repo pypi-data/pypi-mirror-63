@@ -1,0 +1,13 @@
+cloudmesh_multipass-4.1.4-py3.8-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/multipass/Deploy.py,sha256=E0CKjXfcQtJ36WFh__9a6lh0z7dwO4PvbdvD03HIuVM,2515
+cloudmesh/multipass/Provider.py,sha256=bvb4XQ3V4WvdczzOIUXWAxyY1pYcZaQ3upLeLX4VSgw,29746
+cloudmesh/multipass/__init__.py,sha256=IkOm9kUWkmddTSYLAV1fuR7dYTOg6qyotixTZhR8NmE,22
+cloudmesh/multipass/__version__.py,sha256=VwaopEhiLNWXUKp63HcYbbWUyZEm4juKfpFM6lyu4GI,18
+cloudmesh/multipass/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/multipass/command/multipass.py,sha256=_A1TQRz9MOwCP7kQMsCUKEYHx3BaDOPd3D_qawDCYcI,12796
+cloudmesh_multipass-4.1.4.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_multipass-4.1.4.dist-info/METADATA,sha256=-2lLgpXXj15mcMq8mQ9SaiyVXMSRnOS0IPDncsnlcgY,1661
+cloudmesh_multipass-4.1.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_multipass-4.1.4.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_multipass-4.1.4.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_multipass-4.1.4.dist-info/RECORD,,
