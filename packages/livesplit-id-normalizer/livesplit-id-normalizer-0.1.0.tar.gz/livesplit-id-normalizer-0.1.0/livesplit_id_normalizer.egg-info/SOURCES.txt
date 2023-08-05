@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements_dev.txt
+setup.py
+livesplit_id_normalizer/__init__.py
+livesplit_id_normalizer/cli.py
+livesplit_id_normalizer/normalizer.py
+livesplit_id_normalizer.egg-info/PKG-INFO
+livesplit_id_normalizer.egg-info/SOURCES.txt
+livesplit_id_normalizer.egg-info/dependency_links.txt
+livesplit_id_normalizer.egg-info/entry_points.txt
+livesplit_id_normalizer.egg-info/top_level.txt
+livesplit_id_normalizer.egg-info/zip-safe

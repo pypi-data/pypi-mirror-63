@@ -1,0 +1,7 @@
+.
+wheel
+twine
+pytest
+pytest-cov
+pytest-black
+pytest-flake8

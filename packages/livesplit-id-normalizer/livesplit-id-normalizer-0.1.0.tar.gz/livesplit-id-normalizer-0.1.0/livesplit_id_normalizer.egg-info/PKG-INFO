@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: livesplit-id-normalizer
+Version: 0.1.0
+Summary: Livesplit split file ids can get out of whack upon manual edit, normalize to start from 1
+Home-page: UNKNOWN
+Author: Jon Robison
+Author-email: narfman0@gmail.com
+License: LICENSE
+Description: UNKNOWN
+Keywords: livesplit-id-normalizer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
