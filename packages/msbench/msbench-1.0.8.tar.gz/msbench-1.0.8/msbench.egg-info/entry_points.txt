@@ -1,0 +1,3 @@
+[console_scripts]
+msbench = msbench.app:main
+
