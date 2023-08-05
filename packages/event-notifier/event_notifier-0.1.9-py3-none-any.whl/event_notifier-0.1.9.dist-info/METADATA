@@ -1,0 +1,284 @@
+Metadata-Version: 2.1
+Name: event-notifier
+Version: 0.1.9
+Summary: Event notifier with many subscribers support
+Home-page: https://github.com/vitalij555/event-notifier
+Author: Vitalij Gotovskij
+Author-email: vitalij@cdeveloper.eu
+License: MIT
+Keywords: EVENT,NOTIFY,SUBSCRIBE,OBSERVER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+![Upload Python Package](https://github.com/vitalij555/event-notifier/workflows/Upload%20Python%20Package/badge.svg)
+
+# event-notifier
+
+Library providing event registration and routing infrastructure.
+
+## Contents
+
+- [Background](#background)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Constructor](#constructor)
+- [API Overview](#api-overview)
+- [Tests](#tests)
+- [License](#license)
+- [Contributing](#contributing)
+
+## Background
+
+This is event notifier (sometimes known as emitter or dispatcher) allowing to notify one or many subscribers with an event that just happen.
+Allows to use variable number of arguments. 
+
+It is thread-safe. This means you can freely rise events from one thread while registering new receivers in another thread.
+
+Any python object inheriting from or containing notifier can act as event sender and callable object can act as event receiver.
+
+## Installation
+
+```
+pip install -U event-notifier
+```
+
+## Usage
+
+```python
+from EventNotifier import Notifier
+
+
+class FileWatchDog():
+	def onOpen(self, fileName, openMode):
+		print(f"File {fileName} opened with {openMode} mode")
+
+
+	def onClose(self, fileName):
+		print(f"File {fileName} closed")
+
+
+watchDog = FileWatchDog()	
+
+
+notifier = Notifier(["onCreate", "onOpen", "onModify", "onClose", "onDelete"])
+
+notifier.subscribe("onOpen",  watchDog.onOpen)
+notifier.subscribe("onClose", watchDog.onClose)
+
+notifier.fireEvent("onOpen", openMode="w+", fileName="test_file.txt")  # order of named parameters is not important
+notifier.fireEvent("onClose", fileName="test_file.txt")
+```
+Will produce:
+```console
+$ python test.py
+File test_file.txt opened with w+ mode
+File test_file.txt closed
+```
+
+## Constructor
+
+```python
+Notifier(eventNames, logger=None)
+```
+
+**Parameters**
+
+- `eventNames` - `list of any` - mandatory, provides list of all supported events. Values provided here can be used for raising events later.
+ Values provided in this list can be of any type.
+- `logger` - `object` - optional, logger supporting standard logging methods (info, warning error, etc..), default: `None`. 
+If None is provided, then internal logger outputting warnings and errors to console will be created.
+
+
+**Example**
+
+Any object can be used as event name. Example below illustrates that:
+
+```python
+class Box:
+    def __init__(self, name):
+        self.name = name
+
+a = Box("name_BoxA")
+b = Box("name_BoxB")
+
+
+notifier = Notifier(["onCreate", 5, 22.58, "onDelete", a, b])
+
+notifier.subscribe("onCreate", onCreateCallback)
+notifier.subscribe(5, on5Callback)
+notifier.subscribe(22.58, onFloatCallback)
+notifier.subscribe(a, onBoxACallback)
+notifier.subscribe(b, onBoxBCallback)
+
+
+notifier.fireEvent(5, "event: ! 5 !")  # on5Callback will be called with "event: ! 5 !" as parameter
+notifier.fireEvent(22.58, "event: ! 22.58 !")    # onFloatCallback will be called with "event: ! 22.58 !" as parameter
+notifier.fireEvent(b, "event: Box b")   # onBoxBCallback will be called with "event: Box b" as parameter
+```
+
+
+## API Overview
+
+### subscribe(eventName, subscriber)
+
+**Description**
+
+Adds callable subscribers interested in some particular event. 
+
+**Parameters**
+
+- `eventName` - `any` - mandatory, specifies event, subscriber will be interested in.
+- `subscriber` - `any` - mandatory, callable subscriber (function, class method or class with \_\_call\_\_ implemented)
+
+
+### subscribeToAll(subscriber):
+
+**Description**
+
+Method allows to register one callable for all events supported by notifier.
+
+**Parameters**
+
+- `subscriber` - `callable` - mandatory, will be called when event rises.
+
+**Example**
+
+```python
+
+```
+
+```console
+
+```
+
+### getSupportedEvents():
+
+**Description**
+
+Returns all supported events as a list.
+
+**Example**
+
+```python
+from EventNotifier import Notifier
+
+notifier = Notifier(["onCreate", "onOpen", "onModify", "onClose", "onDelete"])
+print(notifier.getSupportedEvents())
+```
+will output:
+```console
+['onCreate', 'onOpen', 'onModify', 'onClose', 'onDelete']
+```
+
+### fireEvent(eventName, *args, **kwargs)
+
+**Description**
+
+Rises specific event registered during initialization.
+
+**Parameters**
+
+- `eventName` - `any` - mandatory, provides list of all supported events. Values provided here later can be used for raising events  
+- `*args` - `list` - optional, all simple parameters we want to pass to our subscribers (param1, param2, param3...).
+- `**kwargs` - `dictionary` - optional, all named parameters we want to pass (param1=value1, param2=value2, param3=value3) 
+
+**Example**
+
+```python
+
+```
+
+```console
+
+```
+
+### removeSubscribersByEventName(eventName)
+
+**Description**
+
+**Parameters**
+
+
+
+**Example**
+
+```python
+
+```
+
+```console
+
+```
+
+### removeAllSubscribers()
+
+**Description**
+
+
+**Example**
+
+```python
+
+```
+
+```console
+
+```
+
+
+
+## Tests
+
+[PyTest][pytest] is used for tests. Python 2 is not supported.
+
+**Install PyTest**
+
+```sh
+$ pip install pytest
+```
+
+**Run tests**
+
+```sh
+$ pytest test/*
+```
+
+[pytest]: http://pytest.org/
+
+**Check test coverage**
+
+In order to generate test coverage report install pytest-cov:
+
+```sh
+$ pip install pytest-cov
+```
+
+Then inside test subdirectory call: 
+
+```sh
+pytest --cov=../EventNotifier --cov-report=html
+```
+
+## License
+
+License
+Copyright (C) 2020 Vitalij Gotovskij
+
+event-notifier binaries and source code can be used according to the MIT License
+
+
+## Contribute
+TBD
+
+
