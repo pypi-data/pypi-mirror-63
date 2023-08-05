@@ -1,0 +1,8 @@
+README.md
+setup.py
+ssh-connect/__init__.py
+ssh-connect/__main__.py
+ssh_connect.egg-info/PKG-INFO
+ssh_connect.egg-info/SOURCES.txt
+ssh_connect.egg-info/dependency_links.txt
+ssh_connect.egg-info/top_level.txt
