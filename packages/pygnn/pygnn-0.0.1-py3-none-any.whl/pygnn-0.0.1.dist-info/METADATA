@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pygnn
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Andrew chang
+Author-email: aychang995@gmail.com
+License: UNKNOWN
+Keywords: Graph Neural Network,Machine Learning,ML,Geometric,GNN,torch,pytorch,Deep Learning
+Platform: UNKNOWN
+Requires-Dist: black
+Requires-Dist: click
+Requires-Dist: dgl-cu101
+Requires-Dist: flake8
+Requires-Dist: jupyter
+Requires-Dist: jupyterlab
+
+UNKNOWN
+
+
