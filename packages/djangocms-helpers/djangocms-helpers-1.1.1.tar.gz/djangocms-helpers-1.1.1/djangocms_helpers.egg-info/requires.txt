@@ -1,0 +1,4 @@
+django<3,>=2.2
+django-cms<4.0,>=3.7
+django-fieldsignals>=0.4.0
+django-meta
