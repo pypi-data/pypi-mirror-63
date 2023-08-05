@@ -1,0 +1,11 @@
+gwx_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core/utils/extractor.py,sha256=uF490V4J6NmBzqBQOzZgI5WFAup4Y5yryAMG9hNpBk4,1218
+gwx_core/utils/response.py,sha256=PUEjXsSAtSNf5rczxwzbtvsDCfgTx4XWYmCqtw96e2w,3124
+tests/UtilsTestCase.py,sha256=M0Q48t0crCCJ18BeuiOh3tDhqKwNoxqwvpm9j0vxDV4,1385
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core-0.0.1.dist-info/LICENSE,sha256=hpP6iunZI-2CiX7j5kbsSTP7RKjYXtwUclunwPG5kGs,1080
+gwx_core-0.0.1.dist-info/METADATA,sha256=0BisklICOgajRJisVip2JyOqLNj2uO21GYtIFyBe4WE,1073
+gwx_core-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gwx_core-0.0.1.dist-info/top_level.txt,sha256=RZwDkuOKwTFrL_uuzuRzKa9OJx3DJP6Ay1BsilFtLEI,15
+gwx_core-0.0.1.dist-info/RECORD,,
