@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: kanchit
+Version: 0.0.3
+Summary: Show kanchit Name Jaaa
+Home-page: https://web.facebook.com/kawasaki.kobayachi
+Author: kanchit kulnoy
+Author-email: mr.kk0000@gmail.com
+License: MIT
+Download-URL: https://web.facebook.com/kawasaki.kobayachi
+Description: plese read in: 
+Keywords: KANCHIT,THAILAND,UncleEngineer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
