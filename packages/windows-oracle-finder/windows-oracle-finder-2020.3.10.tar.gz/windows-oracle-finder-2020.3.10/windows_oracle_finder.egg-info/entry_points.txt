@@ -1,0 +1,3 @@
+[console_scripts]
+find_oracle = find_oracle:__main__
+

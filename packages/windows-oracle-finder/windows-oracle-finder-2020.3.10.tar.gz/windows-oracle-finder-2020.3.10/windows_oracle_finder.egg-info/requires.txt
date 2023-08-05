@@ -1,0 +1,3 @@
+pefile
+logzero
+pywin32
