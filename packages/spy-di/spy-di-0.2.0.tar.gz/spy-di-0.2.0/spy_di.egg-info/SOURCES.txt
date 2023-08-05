@@ -1,0 +1,10 @@
+README.md
+setup.py
+spy_di.egg-info/PKG-INFO
+spy_di.egg-info/SOURCES.txt
+spy_di.egg-info/dependency_links.txt
+spy_di.egg-info/top_level.txt
+spydi/__init__.py
+spydi/context.py
+spydi/factory.py
+spydi/instance_holder.py
