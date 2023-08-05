@@ -1,0 +1,7 @@
+setup.py
+datacol/__init__.py
+datacol/__main__.py
+datacol.egg-info/PKG-INFO
+datacol.egg-info/SOURCES.txt
+datacol.egg-info/dependency_links.txt
+datacol.egg-info/top_level.txt
