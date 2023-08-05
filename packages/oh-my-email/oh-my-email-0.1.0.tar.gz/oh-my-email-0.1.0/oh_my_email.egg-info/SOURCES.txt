@@ -1,0 +1,12 @@
+README.md
+setup.py
+oh_my_email/__init__.py
+oh_my_email/exception.py
+oh_my_email/ome.py
+oh_my_email/utils.py
+oh_my_email/vo.py
+oh_my_email.egg-info/PKG-INFO
+oh_my_email.egg-info/SOURCES.txt
+oh_my_email.egg-info/dependency_links.txt
+oh_my_email.egg-info/requires.txt
+oh_my_email.egg-info/top_level.txt
