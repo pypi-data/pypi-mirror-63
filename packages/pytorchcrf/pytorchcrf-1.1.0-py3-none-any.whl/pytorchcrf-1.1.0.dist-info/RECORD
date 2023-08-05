@@ -1,0 +1,7 @@
+pytorchcrf/__init__.py,sha256=iCLhoKnFemm5bEGESTRAOm5yYm_64QElnK3sIVeS7z8,76
+pytorchcrf/pytorch_crf.py,sha256=DhKoI4PqUqxaCeQLZawcdnL1_wWC4dbyI3GnXkGaQtw,20485
+pytorchcrf-1.1.0.dist-info/LICENSE,sha256=w59evejqI0WNKMVk2KvR51fuFNJDhOJJf3I3vj0kAXQ,1078
+pytorchcrf-1.1.0.dist-info/METADATA,sha256=YGXJ_C7a7TUECXt7Vpuk7PmM5opeFF3huaRQW0icARg,1955
+pytorchcrf-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytorchcrf-1.1.0.dist-info/top_level.txt,sha256=5HUmQBCWV8vVl2IexMh6l3okalQO-NQB_vI_aOovQZU,11
+pytorchcrf-1.1.0.dist-info/RECORD,,
