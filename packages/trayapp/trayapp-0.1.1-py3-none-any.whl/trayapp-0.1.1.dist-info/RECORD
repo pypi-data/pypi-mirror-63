@@ -1,0 +1,11 @@
+trayapp/__init__.py,sha256=BHHEb95fBAdiTYvgq4v8Wjn_ITW7vISmKDX6lxPNQGc,353
+trayapp/tray_app.py,sha256=78dw0RRrg8VHKvXKHMIGhha42CNnjqVbjU0t5UQWn3U,4025
+trayapp/tray_menu.py,sha256=WM6TIzT_gWLZvPX2QoprPALjTYwYl0tOU6yQ_9szMhQ,1692
+trayapp/items/__init__.py,sha256=1ec4T7PvvQQnAenuH0p1Qh3dtQKt4OSuvDJMzis3Ono,441
+trayapp/items/radiobutton.py,sha256=Mg13t-mo1yAhQoHHVjHwlBpLIHOFrgTuM7j1Gi2iM6A,1652
+trayapp/items/submenu.py,sha256=_yrIRtz3ijnAFV_jcTWw6EkSbaE0416-tfZPsRCJdrI,855
+trayapp-0.1.1.dist-info/LICENSE,sha256=YLaNKOFw2_9ULntIGmRPT02Pk88qswebwDvElG0S_48,1091
+trayapp-0.1.1.dist-info/METADATA,sha256=9xw2T-UzjuVYrcZEERH-gtkTnn52obiSdeqhrpkLfL8,3861
+trayapp-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+trayapp-0.1.1.dist-info/top_level.txt,sha256=AcX2zXNvrJ9veCJNohX9p18cvsaVJ3l237AZdbZz2so,8
+trayapp-0.1.1.dist-info/RECORD,,
