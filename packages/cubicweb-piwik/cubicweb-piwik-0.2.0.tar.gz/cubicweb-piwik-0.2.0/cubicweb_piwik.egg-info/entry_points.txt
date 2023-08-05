@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+piwik = cubicweb_piwik
+

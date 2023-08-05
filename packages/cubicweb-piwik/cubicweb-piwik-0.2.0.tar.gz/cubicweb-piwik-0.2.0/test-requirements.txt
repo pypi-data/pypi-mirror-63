@@ -1,0 +1,4 @@
+cubicweb-blog
+cubicweb-event
+cubicweb-card
+
