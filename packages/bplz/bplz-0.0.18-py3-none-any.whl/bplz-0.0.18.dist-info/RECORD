@@ -1,0 +1,10 @@
+bplz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bplz/__main__.py,sha256=a60t3lTAj0dnvPjbmceHs1yXmk6jRKRbL7dbqdD-7FI,72
+bplz/bplz.py,sha256=z5rphUYZr2cbgoHhbgBuMxnoAjlK-q2g0jSqYyk7Bt4,17005
+bplz/geckodriver.exe,sha256=JVydNXHIaEEhP0mybRdqatRAvoxyDjwtkiYHat9PYD0,3566280
+bplz-0.0.18.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+bplz-0.0.18.dist-info/METADATA,sha256=1AQ67XC0SeQzoOu89ZSJDazoypzvRy_xezw7l2lPowA,614
+bplz-0.0.18.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bplz-0.0.18.dist-info/entry_points.txt,sha256=OmnUMzHd06YUK9XNgLd3xmdku0YCgqsUlghjqfNaEpA,40
+bplz-0.0.18.dist-info/top_level.txt,sha256=kIybYx-BAVdRz4d47hsFGpCN1gQo-15fh1yuO74fNkE,5
+bplz-0.0.18.dist-info/RECORD,,
