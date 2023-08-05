@@ -1,0 +1,10 @@
+classeval/__init__.py,sha256=TS4mJp_Z47xhYELPMMqQlvJhn5ApfycDFup9uII6e10,874
+classeval/classeval.py,sha256=VlAW42hg21hjMurzd2GJc5E7Hlhqc3jP5lwwPlRcwtg,14636
+classeval/confmatrix.py,sha256=TLbsklZHsPuDy18BWT45Wflp11vMmxpH4Le0W9c0T6k,3891
+classeval/examples.py,sha256=NHGrSrx05F-iFKFMqvZFRhfHghOVWeqcA-yJfU38KBY,754
+classeval/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classeval-0.1.0.dist-info/LICENSE,sha256=tNyUBByDd0Klrrkdc7Vy9SvSaRBlutCsO-qhLat2VPk,1122
+classeval-0.1.0.dist-info/METADATA,sha256=DD4uAZauHJ-bHdGHhnfWEPpOPCtxgSHhFNv3H2DXk74,3090
+classeval-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+classeval-0.1.0.dist-info/top_level.txt,sha256=yihj2-ohTX_lIDTqWyE8qNYjzNhqmQQeqsJm6-5hZjM,10
+classeval-0.1.0.dist-info/RECORD,,
