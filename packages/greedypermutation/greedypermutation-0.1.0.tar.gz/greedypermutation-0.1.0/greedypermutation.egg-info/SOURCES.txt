@@ -1,0 +1,16 @@
+README.md
+setup.py
+greedypermutation/__init__.py
+greedypermutation/clarksongreedy.py
+greedypermutation/clustergraph.py
+greedypermutation/greedy.py
+greedypermutation/maxheap.py
+greedypermutation/metricspace.py
+greedypermutation/point.py
+greedypermutation/quadraticgreedy.py
+greedypermutation/weightedgraph.py
+greedypermutation.egg-info/PKG-INFO
+greedypermutation.egg-info/SOURCES.txt
+greedypermutation.egg-info/dependency_links.txt
+greedypermutation.egg-info/requires.txt
+greedypermutation.egg-info/top_level.txt
