@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: adblock-decoder
+Version: 1.0.1
+Summary: A set of tool for the decoding and conversion of AdBlock and Filter Lists.
+Home-page: https://github.com/PyFunceble/adblock-decoder
+Author: funilrys
+Author-email: contact@funilrys.com
+License: MIT
+Description: UNKNOWN
+Keywords: PyFunceble,AdBlock,Filter,list,decoder
+Platform: any
+Classifier: Environment :: Console
+Classifier: Topic :: Internet
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6, <4
