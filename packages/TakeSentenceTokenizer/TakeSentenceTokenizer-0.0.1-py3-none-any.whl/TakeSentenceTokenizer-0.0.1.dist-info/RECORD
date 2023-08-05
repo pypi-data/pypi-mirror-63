@@ -1,0 +1,9 @@
+SentenceTokenizer/__init__.py,sha256=uXyzJs2041DZYI42duFrg4M-_4eiYCETduWTodUYVvY,40
+SentenceTokenizer/tokenizer.py,sha256=iJmSQktPHpqQU4h3Hur4Jgp_kdWmaFd8V6BlA_X6Zc0,6013
+SentenceTokenizer/dictionaries/Titan_v2_dict_without_accentuation.json,sha256=wR9it9B0dlrSa6EgkRKC3Npr9jki_AuZ-J_IVDgtI7s,527431
+SentenceTokenizer/dictionaries/all_portuguese_words.txt,sha256=2U7CdrskhHWrD3288yykZOHJXATXBzWL-c0o-IG6Bps,917841
+SentenceTokenizer/dictionaries/correction_dict.json,sha256=CwnpLi95xLJeRqdXw7QSn_qdlMQAt0hym3UlDc_5B78,1422
+TakeSentenceTokenizer-0.0.1.dist-info/METADATA,sha256=3zJXN4N9NMaq9rWBCf8WXX4yRoIr9Yj7dPFadpaUyQM,1205
+TakeSentenceTokenizer-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+TakeSentenceTokenizer-0.0.1.dist-info/top_level.txt,sha256=gPBMGOAnDHd-n7DS3AMdG4Ci6evJ5DWKyl0vgGaSQSg,18
+TakeSentenceTokenizer-0.0.1.dist-info/RECORD,,
