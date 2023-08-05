@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: graphly
+Version: 1.0.4
+Summary: A small library for studying graphs
+Home-page: https://github.com/devinitive-team/graphly
+Author: devinitive
+Author-email: devinitive@placeholder.com
+License: UNKNOWN
+Description: <img src="./logo/graphly_logo.png">
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
