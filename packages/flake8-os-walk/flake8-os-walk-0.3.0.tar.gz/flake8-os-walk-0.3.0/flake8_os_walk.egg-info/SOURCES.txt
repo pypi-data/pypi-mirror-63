@@ -1,0 +1,8 @@
+README.md
+setup.py
+flake8_os_walk.egg-info/PKG-INFO
+flake8_os_walk.egg-info/SOURCES.txt
+flake8_os_walk.egg-info/dependency_links.txt
+flake8_os_walk.egg-info/entry_points.txt
+flake8_os_walk.egg-info/requires.txt
+flake8_os_walk.egg-info/top_level.txt

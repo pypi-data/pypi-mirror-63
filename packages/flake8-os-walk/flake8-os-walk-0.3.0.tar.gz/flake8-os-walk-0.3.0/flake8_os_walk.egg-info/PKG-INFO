@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flake8-os-walk
+Version: 0.3.0
+Summary: Flake8 plugin which usage of os.walk().
+Home-page: https://github.com/asherf/flake8-os-walk
+Author: Asher Foa
+Author-email: asher@asherfoa.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/asherf/flake8-os-walk/issues
+Project-URL: Source Code, https://github.com/asherf/flake8-os-walk
+Description: # flake8-os-walk
+        
+        Checks for uses of os.walk() without passing the onerror param.
+        
+        ## Why
+        
+        The [os.walk()](https://docs.python.org/3/library/os.html#os.walk) function has a [major-gotcha](https://blog.toolchain.com/os-walk-has-a-major-gotcha/) which means it will silently fail (yield nothing) if the path passed to it is invalid (doesn't exits).
+        
+        Also, this is an excuse for me to write my first flake8 plugin.
+        
+Keywords: flake8
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Framework :: Flake8
+Description-Content-Type: text/markdown
