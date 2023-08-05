@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyhat
+Version: 0.0.1
+Classifier: Programming Language :: Python
+Summary: Modern Python for locked-down RHEL
+Keywords: python redhat
+Home-Page: https://www.github.com/David-OConnor/pyhat
+Author: David O'Connor <david.alan.oconnor@gmail.com>
+Author-Email: David O'Connor <david.alan.oconnor@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+This package simply wraps Python 3.8 in a wheel, allowing you to install it 
+on Red Hat, Centos, Fedora etc that normally only have old versions of Python.
+May be able to work around IT protocols that block downloading and installing
+software.
+
+Installation and use:
+
+```bash
+pip install pyhat
+
+pyhat  # or pyhat myscript.py
+```
