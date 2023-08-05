@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+eiputil/__init__.py
+eiputil/__main__.py
+eiputil/eiputil.py
+eiputil.egg-info/PKG-INFO
+eiputil.egg-info/SOURCES.txt
+eiputil.egg-info/dependency_links.txt
+eiputil.egg-info/entry_points.txt
+eiputil.egg-info/requires.txt
+eiputil.egg-info/top_level.txt

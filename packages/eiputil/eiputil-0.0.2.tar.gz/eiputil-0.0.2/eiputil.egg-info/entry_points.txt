@@ -1,0 +1,3 @@
+[console_scripts]
+eiputil = eiputil.__main__:main
+
