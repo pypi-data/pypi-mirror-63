@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+gaikwad411_greet/__init__.py
+gaikwad411_greet/__main__.py
+gaikwad411_greet/config.cfg
+gaikwad411_greet/utils.py
+gaikwad411_greet.egg-info/PKG-INFO
+gaikwad411_greet.egg-info/SOURCES.txt
+gaikwad411_greet.egg-info/dependency_links.txt
+gaikwad411_greet.egg-info/entry_points.txt
+gaikwad411_greet.egg-info/top_level.txt
