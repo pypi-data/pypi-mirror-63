@@ -1,0 +1,8 @@
+README.md
+setup.py
+clump/__init__.py
+clump/model.py
+clump.egg-info/PKG-INFO
+clump.egg-info/SOURCES.txt
+clump.egg-info/dependency_links.txt
+clump.egg-info/top_level.txt
