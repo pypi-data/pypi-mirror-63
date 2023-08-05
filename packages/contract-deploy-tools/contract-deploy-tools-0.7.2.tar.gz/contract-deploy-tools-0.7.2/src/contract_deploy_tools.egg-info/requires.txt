@@ -1,0 +1,15 @@
+py-solc
+web3<5.2,>=5.0.0
+eth-tester[py-evm]
+eth-utils
+eth-keyfile
+click
+
+[dev]
+flake8
+mypy
+pytest
+setuptools_scm
+pip>=18.1
+black
+pre-commit
