@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xrdfit
+Version: 0.1
+Summary: Automated fitting of XRD peaks using Pseudo-Voight fits
+Home-page: UNKNOWN
+Author: Peter Crowther
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: documentation_compilation
