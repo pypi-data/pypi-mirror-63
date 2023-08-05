@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Covid-NLP
+Version: 0.0.1
+Summary: Covid-19 Chatbot engine to decode question and reply with context
+Home-page: https://github.com/nullphantom/covid-19-chatbot-engine
+Author: Ilham Bintang
+Author-email: ilham@keyreply.com
+License: Apache License, Version 2.0
+Description: Covid-19 Chatbot engine to decode question and reply with context
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,11 @@
+README.md
+setup.py
+Covid_NLP.egg-info/PKG-INFO
+Covid_NLP.egg-info/SOURCES.txt
+Covid_NLP.egg-info/dependency_links.txt
+Covid_NLP.egg-info/top_level.txt
+covid_nlp/__init__.py
+covid_nlp/constant.py
+covid_nlp/covid_nlp.py
+tests/__init__.py
+tests/test_number.py
