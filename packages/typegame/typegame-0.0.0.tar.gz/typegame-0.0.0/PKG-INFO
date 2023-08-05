@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: typegame
+Version: 0.0.0
+Summary: Educational quiz app
+Home-page: https://github.com/endremborza/typegame
+Author: Endre Márk Borza
+License: MIT
+Description: # Typegame
+        
+        a small dash app for creating quizes for programming education
+        
+        ### install
+        `pip install typegame`
+        
+        or
+        
+        `pip install git+https://github.com/endremborza/typegame.git`
+        
+        for latest version
+        
+        ### use
+        
+        run with 
+        
+        ```
+        python -m typegame \
+            --host=0.0.0.0 \
+            --port=6999 \
+            --quiz-path=./quizes \
+            --answer-path=./answers
+        ```
+        
+        (all parameters are optional, these are the defaults)
+        
+        optional parameters:
+        - `--value-game`: asks for values, not just type of last line
+Keywords: education;quiz;dash
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
