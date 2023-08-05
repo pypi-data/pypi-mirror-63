@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: ipshaman
+Version: 0.0.4
+Summary: ipshaman cli
+Home-page: https://github.com/vesche/ipshaman
+Author: Austin Jackson
+Author-email: vesche@protonmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Requires-Python: >=3
