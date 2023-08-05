@@ -1,0 +1,11 @@
+macros/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+macros/context.py,sha256=1CO-1bXYPW5qrxzRrQp4dI_YYJNR-FUs2r8toRivHrU,8807
+macros/macros_info.md,sha256=1f6jDlgTmpTunmaCcHiWoJjUOcN3H6ZiRS0ItBNDm9k,1268
+macros/plugin.py,sha256=GlcszISEOpGvDFGoZqK9cxZVZzFQlNwQtoll8dj4Hxw,14768
+macros/util.py,sha256=8nqKiYm8iCh-3xiEn1pLW7FpfzBZqNhrkgz-lgV2L6c,1997
+mkdocs_macros_plugin-0.4.4.dist-info/LICENSE.md,sha256=b_aX_OQM2cEbtKZWg_ZuY4O9JYt8BLl2zhzb3NQhBao,1079
+mkdocs_macros_plugin-0.4.4.dist-info/METADATA,sha256=ezD9aJwC_Hykrv7n_nm-z0TGY_vh-HokqjI5bP7_VB4,32447
+mkdocs_macros_plugin-0.4.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mkdocs_macros_plugin-0.4.4.dist-info/entry_points.txt,sha256=kfd-6B5hidUP22oVN7vLXQC8M9rgQKNpZq5N5-0g9tE,54
+mkdocs_macros_plugin-0.4.4.dist-info/top_level.txt,sha256=n9ln3ABZBJH8MmSSR9L2OC9kaQTqTCYK-wmi1ni8MuY,7
+mkdocs_macros_plugin-0.4.4.dist-info/RECORD,,
