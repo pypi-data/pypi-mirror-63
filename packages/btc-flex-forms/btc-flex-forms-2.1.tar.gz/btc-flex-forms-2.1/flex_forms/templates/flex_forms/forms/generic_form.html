@@ -1,0 +1,12 @@
+{% load flex_forms %}
+
+<form {{ html_params|safe }}>
+    {% block csrf_protect %}
+        {% if form.html_params|check_form_method %}
+            {% csrf_token %}
+        {% endif %}
+    {% endblock %}
+    {% block form_obj %}
+        {% include 'flex_forms/forms/generic_form_body.html' with form=form only %}
+    {% endblock %}
+</form>
