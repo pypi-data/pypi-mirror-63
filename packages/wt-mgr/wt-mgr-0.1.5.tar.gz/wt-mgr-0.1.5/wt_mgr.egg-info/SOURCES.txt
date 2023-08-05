@@ -1,0 +1,16 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+wt_mgr/__init__.py
+wt_mgr/constants.py
+wt_mgr/wt_mgr.py
+wt_mgr.egg-info/PKG-INFO
+wt_mgr.egg-info/SOURCES.txt
+wt_mgr.egg-info/dependency_links.txt
+wt_mgr.egg-info/entry_points.txt
+wt_mgr.egg-info/requires.txt
+wt_mgr.egg-info/top_level.txt
