@@ -1,0 +1,9 @@
+{% load static i18n  %} 
+{% for tool in activity_tools %}
+    <div>
+        {% autoescape off %}
+            {{ tool  }}
+        {% endautoescape %}
+    </div>
+{% endfor %}
+

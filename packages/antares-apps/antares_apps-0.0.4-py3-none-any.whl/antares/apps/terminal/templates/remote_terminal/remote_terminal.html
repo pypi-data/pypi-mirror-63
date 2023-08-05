@@ -1,0 +1,37 @@
+{% extends "base_layout.html" %} 
+{% load static i18n %} 
+{% block content %} 
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="antares_terminal"></div>
+        </div>
+    </div>
+</div>
+    
+<script type="text/javascript">
+	var antaresTerminalLinks = { 
+          terminal_call: "{% url 'antares.apps.terminal:terminal_ajax_call' %}", 
+   };
+   
+    $(document).ready(function() { 
+        display_terminal_panel();
+    });
+</script>
+
+
+{% endblock %} 
+
+{% block javascript %} 
+	<script type="text/javascript" src="{% static "jquery.terminal/js/jquery.terminal.js" %}"></script>
+	<script type="text/javascript" src="{% static "jquery.terminal/js/jquery.mousewheel-min.js" %}"></script>
+    <script type="text/javascript" src="{% static "angular-terminal/angular-terminal.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/terminal_panel.js" %}"></script>
+{% endblock javascript %} 
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static "jquery.terminal/css/jquery.terminal.css" %}">
+{% endblock stylesheets %} 
+
+{% block ng_app_name %}{% endblock ng_app_name %}
