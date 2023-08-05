@@ -1,0 +1,9 @@
+imgaug>=0.2.7
+validators>=0.12.4
+nms>=0.1.6
+pandas
+numpy
+scipy
+scikit-learn
+tqdm
+efficientnet
