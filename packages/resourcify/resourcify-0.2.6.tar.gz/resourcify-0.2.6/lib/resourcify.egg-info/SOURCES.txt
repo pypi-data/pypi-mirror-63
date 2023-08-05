@@ -1,0 +1,10 @@
+README.rst
+setup.py
+lib/resourcify/__init__.py
+lib/resourcify/client.py
+lib/resourcify/resource.py
+lib/resourcify.egg-info/PKG-INFO
+lib/resourcify.egg-info/SOURCES.txt
+lib/resourcify.egg-info/dependency_links.txt
+lib/resourcify.egg-info/requires.txt
+lib/resourcify.egg-info/top_level.txt
