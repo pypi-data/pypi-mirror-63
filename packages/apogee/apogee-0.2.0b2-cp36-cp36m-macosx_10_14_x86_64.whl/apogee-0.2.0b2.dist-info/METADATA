@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: apogee
+Version: 0.2.0b2
+Summary: Apogee
+Home-page: UNKNOWN
+Author: Mark Douthwaite
+Author-email: mark.douthwaite@peak.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: jupyter
+Requires-Dist: networkx
+Requires-Dist: scipy
+Requires-Dist: pyyaml
+Requires-Dist: Cython
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+
+UNKNOWN
+
+
