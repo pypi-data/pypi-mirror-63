@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jbs-utils
+Version: 0.0.2
+Summary: Utilities for working with the JBS data
+Home-page: https://github.com/TechnionTDK/jbs
+Author: Technion Data and Knowledge Lab (TD&K)
+Author-email: omishali@cs.technion.ac.il
+License: UNKNOWN
+Description: # Utilities for the JBS project
+        This project contains a bunch of utilities to work with the JBS rdf data...
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
