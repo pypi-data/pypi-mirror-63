@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pynb-sim
+Version: 0.1.3
+Summary: Widgets & tools for large scale simulations inside of Python jupyter notebooks
+Home-page: https://github.com/Helveg/pynb-sim
+Author: Robin De Schepper
+Author-email: robingilbert.deschepper@unipv.it
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+# pynb-sim
+Widgets &amp; tools for large scale simulations inside of Python jupyter notebooks
+
+## Usage
+
+pynbsim can be used in any Python Jupyter notebook. Add a cell to your notebook with the
+following code:
+
+```python
+import sys
+pip_output = !{sys.executable} -m pip install pynb-sim
+import pynbsim; pynbsim.widget()
+```
+
+
