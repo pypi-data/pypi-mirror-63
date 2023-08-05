@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: remo
+Version: 0.3.10.56
+Summary: Remo annotation tool
+Home-page: https://remo.ai
+Author: Rediscovery.io
+Author-email: hello@remo.ai
+License: Creative Commons Attribution-NoDerivatives 4.0 International Public License (CC BY-ND 4.0)
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Requires-Dist: django (==2.2.11)
+Requires-Dist: django-allauth (==0.41.0)
+Requires-Dist: django-environ (==0.4.5)
+Requires-Dist: django-filter (==2.2.0)
+Requires-Dist: django-jsonfield (==1.4.0)
+Requires-Dist: django-querysetsequence (==0.12)
+Requires-Dist: django-rest-auth (==0.9.5)
+Requires-Dist: djangorestframework (==3.11.0)
+Requires-Dist: djangorestframework-csv (==2.1.0)
+Requires-Dist: drf-nested-routers (==0.91)
+Requires-Dist: filetype (==1.0.5)
+Requires-Dist: ijson (==2.6.1)
+Requires-Dist: psutil (==5.6.7)
+Requires-Dist: pyvips (==2.1.8)
+Requires-Dist: remo-sdk (>=0.0.15)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: sendgrid (==6.0.5)
+Requires-Dist: waitress (==1.4.3)
+Requires-Dist: whitenoise (==5.0.1)
+
+UNKNOWN
+
+

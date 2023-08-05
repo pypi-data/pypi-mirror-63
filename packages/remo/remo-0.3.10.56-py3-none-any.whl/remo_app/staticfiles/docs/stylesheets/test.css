@@ -1,0 +1,54 @@
+
+img[alt=small_logo] { width: 100px; }
+
+img[alt=medium_logo] { width: 300px; }
+
+img[alt=medium_width_pic] { width: 350px; }
+
+ /* Custom styles to override MkDocs defaults and enhance theme */
+
+ /* Unordered list <ul> symbols:
+  * - level 2 is hollow circle
+  * - level 3 is filled square
+  * - ul default is filled disc (bullet)
+  */
+article ul ul {
+         list-style-type:  circle !important;
+ }
+
+article ul ul ul {
+         list-style-type:  square !important;
+ }
+
+
+details.abstract {
+  font-size: 0.7rem;
+}
+
+
+h1, h2, h3, h4, h5, h6, legend {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+h2{
+  margin-top:40px !important;
+  margin-bottom:15px !important;
+}
+
+
+p2 {
+    display: block;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1.2em !important;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
