@@ -1,0 +1,3 @@
+[console_scripts]
+trial_project = trial_project.cli:main
+
