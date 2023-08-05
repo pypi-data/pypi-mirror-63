@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>visaplan.plone.ajaxnavigation</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="visaplan-plone-ajaxnavigation">
+<h1 class="title">visaplan.plone.ajaxnavigation</h1>
+
+<p>This package adds AJAX navigation to a Plone site, using jQuery.</p>
+<div class="section" id="tl-dr">
+<h1>TL;DR:</h1>
+<p>There are two Javascript resources added to the registry:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">++resource++visaplan.plone.ajaxnavigation/ajaxnavigation.js</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">++resource++visaplan.plone.ajaxnavigation/init-default.js</span></tt></li>
+</ul>
+<p>If those are loaded by a Plone page, AjaxNav is activated using a simple
+standard configuration.</p>
+</div>
+<div class="section" id="overview">
+<h1>Overview</h1>
+<p>The general idea is:</p>
+<ul>
+<li><p class="first">Catch the <tt class="docutils literal">click</tt> event for every <tt class="docutils literal">a</tt> element on the page.</p>
+</li>
+<li><p class="first">Do some client-side calcuations to determine whether AJAX loading should be
+tried and which URL(s) to use.</p>
+<p>Don't use AJAX
+(and instead immediately return <em>true</em> to perform the standard click processing)
+in the following cases:</p>
+<ul class="simple">
+<li>The link target is outside the current site (another hostname is given).</li>
+<li>The anchor features special attributes
+(CSS classes or <tt class="docutils literal"><span class="pre">data-*</span></tt> attributes)
+which indicate special handling, e.g. opening a lightbox.</li>
+<li>A view name is given which is blacklisted by id (e.g. <tt class="docutils literal">edit</tt>),
+prefix (e.g. <tt class="docutils literal">manage_</tt>) or suffix (e.g. <tt class="docutils literal">_edit</tt>).</li>
+</ul>
+</li>
+<li><p class="first">If that check concludes, &quot;let's load the target via AJAX&quot;,
+it will look for certain elements on the page and try to update them:</p>
+<ul class="simple">
+<li><tt class="docutils literal">content</tt> (and e.g. breadcrumbs, if configured)</li>
+</ul>
+<p>It will also set the page url and title accordingly
+(from the <tt class="docutils literal">&#64;url</tt> and <tt class="docutils literal">&#64;title</tt> keys of the JSON reply, respectively),
+allowing for the browser history.</p>
+</li>
+<li><p class="first">If the AJAX view was tried (up to two <tt class="docutils literal"><span class="pre">.../&#64;&#64;ajax-nav</span></tt> URLs) but failed,
+the default click handling will be performed.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="configuration">
+<h1>Configuration</h1>
+<div class="section" id="javascript-configuration">
+<h2>Javascript configuration</h2>
+<p>The <tt class="docutils literal">AjaxNav</tt> Javascript object has an <tt class="docutils literal">init</tt> method which is called when
+the document is ready.
+It expects a <tt class="docutils literal">key</tt> argument which is <tt class="docutils literal">default</tt> by default;
+if will then load the configuration from the server by calling the
+<tt class="docutils literal"><span class="pre">&#64;&#64;ajaxnav-options-default</span></tt> view.
+This view returns a JSON-encoded dictionary; see <a class="reference internal" href="#configuration-keys">Configuration keys</a>.</p>
+<p>Thus, for customization you have two options:</p>
+<ol class="arabic simple">
+<li>Override the <tt class="docutils literal"><span class="pre">ajaxnav-options-default</span></tt> view to match your page layout for
+normal pages</li>
+<li>Add special views, e.g. an <tt class="docutils literal"><span class="pre">ajaxnav-options-presentation</span></tt> view which
+returns the options to be used by &quot;presentation mode&quot; pages which omit the
+usual site navigation links and use <tt class="docutils literal"><span class="pre">AjaxNav.init('presentation')</span></tt> instead
+of <tt class="docutils literal"><span class="pre">AjaxNav.init('default')</span></tt>.</li>
+</ol>
+<p>The <tt class="docutils literal"><span class="pre">ajaxnav-options-*</span></tt> views are expected to be implemented for portal
+objects and perhaps other navigation roots only.</p>
+</div>
+<div class="section" id="content-types">
+<h2>Content types</h2>
+<p>Your content types can be customized by providing the following views:</p>
+<div class="section" id="ajax-nav">
+<h3>ajax-nav</h3>
+<p>Returns the data necessary to display the requested object via AJAX as a
+JSON-encoded dictionary; see the <a class="reference internal" href="#data-keys">Data keys</a>.</p>
+<p>AjaxNav will send the following information to <tt class="docutils literal"><span class="pre">&#64;&#64;ajax-nav</span></tt> views:</p>
+<ul class="simple">
+<li>The non-AJAX <tt class="docutils literal">href</tt> value, as <tt class="docutils literal">_given_url</tt></li>
+<li>The raw <tt class="docutils literal">class</tt> attribute (if any), as <tt class="docutils literal">_class</tt></li>
+<li>The HTML5 <tt class="docutils literal"><span class="pre">data-*</span></tt> attributes (if any), with <tt class="docutils literal">data-</tt> prefixes.</li>
+</ul>
+<p>The default implementation of the <tt class="docutils literal"><span class="pre">&#64;&#64;ajax-nav</span></tt> view is <tt class="docutils literal">Zope.public</tt>;
+it checks whether the object is viewable to the current user and uses
+one of the following views to fill the <tt class="docutils literal">content</tt> key of the JSON reply:</p>
+<ul class="simple">
+<li><tt class="docutils literal">&#64;&#64;embed</tt></li>
+<li><tt class="docutils literal">&#64;&#64;please_login</tt></li>
+<li><tt class="docutils literal">&#64;&#64;insufficient_rights</tt></li>
+</ul>
+</div>
+<div class="section" id="embed">
+<h3>embed</h3>
+<p>Returns the &quot;contents&quot; of the requested object as needed to embed it,
+including the <tt class="docutils literal"><span class="pre">h[1-6]</span></tt> HTML headline element if desired,
+but perhaps excluding e.g. breadcrumbs.</p>
+</div>
+</div>
+<div class="section" id="ajax-data">
+<h2>AJAX data</h2>
+</div>
+<div class="section" id="configuration-keys">
+<h2>Configuration keys</h2>
+<p>These are the keys understood by the <tt class="docutils literal">AjaxNav.init</tt> function.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="8%" />
+<col width="29%" />
+<col width="38%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Key</th>
+<th class="head">Type</th>
+<th class="head">Default</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>whitelist</td>
+<td>list</td>
+<td>[<tt class="docutils literal">body</tt>]</td>
+<td>CSS selectors of elements
+which contain <tt class="docutils literal">a</tt> elements
+for the event delegation to be
+applied</td>
+</tr>
+<tr><td>blacklist</td>
+<td>list</td>
+<td><em>(empty)</em></td>
+<td>CSS selectors for elements
+from which the event delegation
+be removed</td>
+</tr>
+<tr><td>nested_blacklist</td>
+<td>boolean</td>
+<td><em>false</em></td>
+<td>Regard the blacklist selectors
+&quot;below&quot; the whitelist selectors
+and undelegate immediately
+(experimental)</td>
+</tr>
+<tr><td>view_ids</td>
+<td>list</td>
+<td>[<tt class="docutils literal">view</tt>,
+<tt class="docutils literal">edit</tt>,
+<tt class="docutils literal">base_edit</tt>]</td>
+<td>For target url parsing:
+recognized as view names even
+when not prefixed by <tt class="docutils literal">&#64;&#64;</tt></td>
+</tr>
+<tr><td>view_prefixes</td>
+<td>list</td>
+<td>[<tt class="docutils literal">manage_</tt>]</td>
+<td>For target url parsing:
+e.g. <tt class="docutils literal">manage_</tt> does very likely
+start a view name
+rather than an object.</td>
+</tr>
+<tr><td>view_suffixes</td>
+<td>list</td>
+<td>[<tt class="docutils literal">_view</tt>]</td>
+<td>For target url parsing:
+e.g. <tt class="docutils literal">_view</tt> does very likely
+end a view name
+rather than an object.</td>
+</tr>
+<tr><td>blacklist_view_ids</td>
+<td>list</td>
+<td>[<tt class="docutils literal">edit</tt>, <tt class="docutils literal">base_edit</tt>]</td>
+<td>View ids to suppress AJAX loading</td>
+</tr>
+<tr><td>blacklist_view_prefixes</td>
+<td>list</td>
+<td>[<tt class="docutils literal">manage_</tt>]</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>blacklist_view_suffixes</td>
+<td>list</td>
+<td>[<tt class="docutils literal">_edit</tt>]</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>selectors</td>
+<td>object</td>
+<td>{<tt class="docutils literal">content</tt>:
+<tt class="docutils literal"><span class="pre">#region-content,#content</span></tt>}</td>
+<td><p class="first">Maps <a class="reference internal" href="#data-keys">Data keys</a> to CSS
+selectors.  This value doesn't
+contain any specifications for
+<tt class="docutils literal">&#64;</tt>-prefixed keys
+(<tt class="docutils literal">&#64;url</tt>, <tt class="docutils literal">&#64;title</tt>, <tt class="docutils literal">&#64;ok</tt>)
+since those don't apply to
+the page text but have
+special hard-coded meanings.</p>
+<p class="last">The values are strings; however,
+since jQuery allows multiple
+selectors in the string, separated by
+comma, we do so as well and process
+them in order (e.g., fill
+<tt class="docutils literal"><span class="pre">#region-content</span></tt>, if present, and
+otherwise <tt class="docutils literal">#region</tt>).</p>
+</td>
+</tr>
+<tr><td>scrollto_default_selector</td>
+<td>string</td>
+<td><em>null</em></td>
+<td>Default for the <tt class="docutils literal">&#64;scrollto</tt> key</td>
+</tr>
+<tr><td>scrollto_default_deltay</td>
+<td>int</td>
+<td>0</td>
+<td>Default vertical offset for
+<tt class="docutils literal">&#64;scrollto</tt></td>
+</tr>
+<tr><td>scrollto_auto_key</td>
+<td>string</td>
+<td><tt class="docutils literal">content</tt></td>
+<td>Default key for <tt class="docutils literal">&#64;auto</tt>:
+if <tt class="docutils literal">&#64;scrollto</tt> is <tt class="docutils literal">&#64;auto</tt>, use
+the <tt class="docutils literal">selectors</tt> mapped to
+the <tt class="docutils literal">content</tt> AJAX data
+key by default</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="data-keys">
+<h2>Data keys</h2>
+<p>These are the keys which are expected in the JSON reply from requests to
+<tt class="docutils literal">&#64;&#64;ajaxnav</tt>.</p>
+<p><strong>Please note:</strong> the processing of the <tt class="docutils literal">&#64;ok</tt> key might still change!
+You are welcome to contribute to a solid and stable processing concept.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="14%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Key</th>
+<th class="head">Type</th>
+<th class="head">Description, remarks</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>content</td>
+<td>HTML text</td>
+<td>The &quot;meat&quot;.
+This key is &quot;special&quot; only in one regard:
+It is expected to exist.
+What happens for replies lacking this key
+is currently undefined.</td>
+</tr>
+<tr><td>&#64;title</td>
+<td>string</td>
+<td>Used to set the title after filling in the <tt class="docutils literal">content</tt>.</td>
+</tr>
+<tr><td>&#64;url</td>
+<td>absolute URL</td>
+<td>Used for history support; usually the &quot;deep link URL&quot;
+of the AJAX-loaded page as it would be needed to be given
+when approaching the page from outside.</td>
+</tr>
+<tr><td>&#64;noajax</td>
+<td>boolean</td>
+<td><p class="first">Specify <em>True</em> to load the requeste page conventionally.</p>
+<p class="last">There will be no history processing, but you might want to
+insert some placeholder like &quot;loading; please wait&quot; using
+the <tt class="docutils literal">content</tt> key. (<strong>Note:</strong> this is not yet
+guaranteed to work.)</p>
+</td>
+</tr>
+<tr><td>&#64;ok</td>
+<td>boolean</td>
+<td><p class="first">Specify <em>False</em> to suppress the <tt class="docutils literal">&#64;url</tt> and <tt class="docutils literal">&#64;title</tt>
+processing even after successfully inserting HTML text.</p>
+<p class="last">Is used e.g. for restricted objects the current user
+is not allowed to view; in such cases  a login form (or,
+íf already logged in, an error message) is shown instead.</p>
+</td>
+</tr>
+<tr><td>&#64;scrollto</td>
+<td>string</td>
+<td><p class="first">A CSS selector as a scroll target for the
+<a class="reference external" href="https://api.jquery.com/scrollTop/#scrollTop2">jQuery scrollTop function</a>; default: <em>none</em>.</p>
+<p>When loading new content by clicking on a hyperlink
+somewhere down the page, the contents could be loaded
+unnoticed. To prevent this, we scroll up or, if a
+<tt class="docutils literal">&#64;scrollto</tt> value is given, to that element.</p>
+<p>If <tt class="docutils literal">&#64;auto</tt>, the <tt class="docutils literal">selector</tt> mapped to
+the <tt class="docutils literal">scrollto_auto_key</tt> is used (see above).</p>
+<p>Use with care; it might not work as expected
+for multiple CSS selectors (separated by comma).</p>
+<p class="last">If <em>none</em>, the plain-Javascript method <tt class="docutils literal">window.scrollTo</tt>
+is used.</p>
+</td>
+</tr>
+<tr><td>&#64;prefered-selectors</td>
+<td>dict of
+lists</td>
+<td><p class="first">Used to redirect the <tt class="docutils literal">content</tt> (and other data keys)
+to other, prefered selectors, if they are available.</p>
+<p class="last">Can be used to test new selectors.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Other keys can be used if they are configured in the <tt class="docutils literal">selectors</tt>
+configuration value;
+e.g., if your <tt class="docutils literal">&#64;&#64;embed</tt> views don't provide breadcrumbs,
+you might configure the <tt class="docutils literal">breadcrumbs</tt> value
+to fill the <tt class="docutils literal">#breadcrumbs</tt> element.</p>
+<p>Please use &quot;proper words&quot; for now, avoiding punctuation, whitespace and the
+like.  You never know whether those gain some meaning of a sort in the future.</p>
+<p>Special keys start with <tt class="docutils literal">&#64;</tt> and are disallowed unless explicitly documented.</p>
+</div>
+</div>
+<div class="section" id="strategies">
+<h1>Strategies</h1>
+<div class="section" id="keep-low-the-number-of-requests">
+<h2>Keep low the number of requests</h2>
+<p>AjaxNav tries to keep the number of requests to the necessary number, as low as
+possible.</p>
+<p>Thus, there is one request to load the configuration,
+and preferably exactly one (but not more than two) TTW requests for each page.</p>
+<p>All required data for the newly loaded pages is returned in a single JSON
+reply.</p>
+</div>
+<div class="section" id="view-name-detection">
+<h2>View name detection</h2>
+<p>AjaxNav tries to detect the view name components in the given target urls
+to avoid sending invalid requests; it will try to replace it by <tt class="docutils literal"><span class="pre">&#64;&#64;ajax-nav</span></tt>.
+This is expected to return JSON data.</p>
+<p>For <tt class="docutils literal"><span class="pre">.../name/</span></tt> urls, <tt class="docutils literal">name</tt> is assumed to specify the object, and
+<tt class="docutils literal"><span class="pre">&#64;&#64;ajax-nav</span></tt> will simply be appended to form the url.</p>
+<p>If <tt class="docutils literal">&#64;&#64;</tt> is found (but not followed by a later <tt class="docutils literal">/</tt>), it will be considered
+to be followed by the view name, which will be replaced by <tt class="docutils literal"><span class="pre">ajax-nav</span></tt>.</p>
+<p>For cases where the view name cannot be found by these simple rules,
+the <tt class="docutils literal">view_*</tt> keys from the <a class="reference internal" href="#configuration-keys">Configuration keys</a> are used;
+if all else fails, the final slash-devided path chunk is first considered
+the object name, and if this fails, the (replaced) view name.</p>
+<p>The original <cite>href</cite> URL of the clicked <cite>a</cite> element is forwarded to the
+<tt class="docutils literal"><span class="pre">&#64;&#64;ajax-nav</span></tt> view  in the <cite>_given_url</cite> request variable.</p>
+</div>
+</div>
+<div class="section" id="dependencies">
+<h1>Dependencies</h1>
+<div class="section" id="plone">
+<h2>Plone</h2>
+<p>This package is written with Plone 4.3 in mind, as the writer of these lines is
+currently still on Plone 4.3.</p>
+<p>It is quite likely that it will work with earlier versions as well
+(provided you use a supported JQuery version).
+JQuery is usually integrated using <a class="reference external" href="https://pypi.org">plone.app.jquery</a>.</p>
+<p>With Plone 5, the handling of Javascript resources changes, so some changes
+are expected to be necessary; e.g., to establish <a class="reference external" href="https://requirejs.org/">RequireJS</a> support.
+Help with this is appreciated.</p>
+<p>For <a class="reference external" href="https://volto.kitconcept.com/">Volto</a> sites, the whole jQuery-based handling might be obsolete because
+of the use of <a class="reference external" href="https://reactjs.org/">React.js</a>.</p>
+</div>
+<div class="section" id="javascript">
+<h2>Javascript</h2>
+<p>The <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/API/URL/URL">URL()</a> constructor is used for URL parsing.
+It is <a class="reference external" href="https://caniuse.com/#search=URL">currently supported</a> by all major current browsers except IE 11 and
+Opera Mini.</p>
+<p>If an unsupported browser is used (or Javascript switched off), the standard
+non-AJAX navigation is expected to work happily.</p>
+<div class="section" id="jquery">
+<h3>JQuery</h3>
+<p>The jQuery functions <a class="reference external" href="https://api.jquery.com/on/">on</a> and <a class="reference external" href="https://api.jquery.com/off/">off</a> are used
+to delegate resp. undelegate the <tt class="docutils literal">click</tt> event.
+These have been added to jQuery in version 1.7 and are meant to replace
+<a class="reference external" href="https://api.jquery.com/bind/">bind</a> / <a class="reference external" href="https://api.jquery.com/unbind/">unbind</a>, <a class="reference external" href="https://api.jquery.com/delegate/">delegate</a> / <a class="reference external" href="https://api.jquery.com/undelegate/">undelegate</a> as well as the <a class="reference external" href="https://api.jquery.com/live/">live</a> / <a class="reference external" href="https://api.jquery.com/die/">die</a> methods.
+Plone 4.3.* specifies 1.7.2*, so this looks like a safe choice.</p>
+<p>The <a class="reference external" href="https://api.jquery.com/live/">live</a> / <a class="reference external" href="https://api.jquery.com/die/">die</a> methods are deprecated since jQuery 1.7
+but still exist in version 1.8.
+With <tt class="docutils literal">live</tt> event handling in place,
+it is possible that the delegated events simply won't fire.</p>
+<p>You'll want to get rid of <tt class="docutils literal"><span class="pre">.live(...)</span></tt> method calls anyway if you still have
+any.</p>
+<p>The <a class="reference external" href="https://api.jquery.com/scrollTop/#scrollTop2">jQuery scrollTop function</a> was added in version 1.2.6.</p>
+</div>
+<div class="section" id="web-workers">
+<h3>Web Workers</h3>
+<p>We intend to use HTML5 &quot;<a class="reference external" href="https://html.spec.whatwg.org/multipage/workers.html#workers">web workers</a>&quot; to optimize performance.
+These should be safe to use at the time of this writing;
+see <a class="reference external" href="https://caniuse.com/#search=web%20workers">Can I use web workers?</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

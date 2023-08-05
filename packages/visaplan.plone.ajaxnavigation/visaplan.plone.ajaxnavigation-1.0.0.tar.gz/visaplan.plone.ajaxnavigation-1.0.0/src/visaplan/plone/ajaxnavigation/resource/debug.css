@@ -1,0 +1,31 @@
+/*
+ * nach ID: dotted;
+ * nach Klasse: dashed;
+ * nur "content": lime;
+ * *mit* content: red;
+ * sonstiges:
+   * Breadcrumbs: blue;
+ */
+
+.area-content {
+    border: 3px dashed red;
+}
+
+/*
+ * bogus selector; not used neither in scripts nor in stylesheets!
+ */
+#area-content {
+    border: 3px dotted red;
+}
+
+#content {
+    border: 3px dotted lime;
+}
+
+.content {
+    border: 3px dashed lime;
+}
+
+#crumbs {
+    border: 3px dotted blue;
+}

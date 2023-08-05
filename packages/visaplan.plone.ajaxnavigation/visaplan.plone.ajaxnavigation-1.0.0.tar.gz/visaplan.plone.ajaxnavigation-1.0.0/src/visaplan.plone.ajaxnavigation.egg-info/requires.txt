@@ -1,0 +1,13 @@
+setuptools
+six
+simplejson
+visaplan.js.urlsplit
+plone.api
+Products.GenericSetup>=1.8.2
+plone.app.dexterity
+visaplan.plone.tools>=1.1.6
+
+[test]
+plone.app.testing
+plone.testing
+plone.app.robotframework
