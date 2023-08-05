@@ -1,0 +1,15 @@
+__pycache__/
+bin/
+dist/
+build/
+simple_plotter.egg-info/
+doc/build/
+.idea/
+.buildozer/
+.pytest_cache/
+.eggs/
+*.csv
+*.ods
+.coverage
+htmlcov/
+old_roadmap.rst

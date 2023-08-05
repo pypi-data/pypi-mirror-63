@@ -1,0 +1,27 @@
+image: continuumio/miniconda3
+
+test:
+  stage: test
+  script:
+  - conda config --add channels conda-forge
+  - conda install --file requirements.txt
+  - pip install kivy-garden.graph
+  - apt-get update -qy
+  - apt-get install xvfb -y
+  - xvfb-run -a pytest --cov-report html --cov-report term --cov=simple_plotter/core tests/
+  artifacts:
+    paths:
+      - htmlcov/
+
+pages:
+  stage: deploy
+  dependencies:
+    - test
+  script:
+    - mv htmlcov/ public/
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
+  only:
+    - master
