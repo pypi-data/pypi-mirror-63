@@ -1,0 +1,11 @@
+CHANGES.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fingerprint/__init__.py
+fingerprint/fingerprint.py
+fingerprint.egg-info/PKG-INFO
+fingerprint.egg-info/SOURCES.txt
+fingerprint.egg-info/dependency_links.txt
+fingerprint.egg-info/top_level.txt
