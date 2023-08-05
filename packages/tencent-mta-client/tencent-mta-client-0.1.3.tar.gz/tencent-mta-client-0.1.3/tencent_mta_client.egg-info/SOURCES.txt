@@ -1,0 +1,10 @@
+README.md
+setup.py
+tencent/__init__.py
+tencent/mta/__init__.py
+tencent/mta/client/__init__.py
+tencent_mta_client.egg-info/PKG-INFO
+tencent_mta_client.egg-info/SOURCES.txt
+tencent_mta_client.egg-info/dependency_links.txt
+tencent_mta_client.egg-info/requires.txt
+tencent_mta_client.egg-info/top_level.txt
