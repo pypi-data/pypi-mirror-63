@@ -1,0 +1,21 @@
+language: python
+
+cache: pip
+
+sudo: required
+
+python:
+    - "3.6"
+    - "3.6-dev"
+    - "3.8"
+    - "3.8-dev"
+
+install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -y -qq jq moreutils
+    - pip3 install jsonschema
+    - pip3 install git+https://github.com/MISP/PyTaxonomies.git
+
+script:
+    - ./validate_all.sh
+      #    - pytaxonomies -l MANIFEST.json -a
