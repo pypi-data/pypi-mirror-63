@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+prospectpredictor/PredictorByDistance.py
+prospectpredictor/__init__.py
+prospectpredictor/prepShapes.py
+prospectpredictor/rasterTemplate.py
+prospectpredictor/utils.py
+prospectpredictor.egg-info/PKG-INFO
+prospectpredictor.egg-info/SOURCES.txt
+prospectpredictor.egg-info/dependency_links.txt
+prospectpredictor.egg-info/not-zip-safe
+prospectpredictor.egg-info/requires.txt
+prospectpredictor.egg-info/top_level.txt

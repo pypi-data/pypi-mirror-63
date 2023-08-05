@@ -1,0 +1,4 @@
+geopandas
+rasterio
+descartes
+matplotlib
