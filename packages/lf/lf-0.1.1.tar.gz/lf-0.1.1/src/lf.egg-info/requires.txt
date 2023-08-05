@@ -1,0 +1,10 @@
+scipy
+numpy
+sklearn
+geographiclib
+pandas
+pysolar
+matplotlib
+
+[dev]
+twine
