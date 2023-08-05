@@ -1,0 +1,11 @@
+sterm/__init__.py,sha256=-3mj6AP74DHvRG4S-cH4Nv8-4ldZDD1n2oUyYGbPQ8Q,49
+sterm/cli.py,sha256=vgaXWyEg2uG8KCqq11dIOxiham6CVnK7ytPTD7UDQDI,8221
+sterm/terminal.py,sha256=ZtKUNiSk-SsX4qKoGTgESYlUXu1JUJyT79Cja_SPGto,5695
+sterm/uart.py,sha256=91ZzEo_nxKhRUL1ojWLzz_xDVso6unApQsaY64oml8U,8487
+sterm-6.0.1.data/data/man/man1/sterm.1,sha256=z4P5L2cqySCf-Xa2OCVYVd6fyIfXyxJ0jHmD4Xk4UEs,3511
+sterm-6.0.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sterm-6.0.1.dist-info/METADATA,sha256=g4YDtWifVRFxTYJR4LVmZZwTBGS4CVlWB3ZGEBJCOkA,6670
+sterm-6.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sterm-6.0.1.dist-info/entry_points.txt,sha256=V0keFaakZwwze6ldXeblgz1zf0OICYTi0xqKGsgsxC0,42
+sterm-6.0.1.dist-info/top_level.txt,sha256=s-pQBhUwP7NCGLZNMbgsmbK9XsjyYOOdFw7qK14bRyY,6
+sterm-6.0.1.dist-info/RECORD,,
