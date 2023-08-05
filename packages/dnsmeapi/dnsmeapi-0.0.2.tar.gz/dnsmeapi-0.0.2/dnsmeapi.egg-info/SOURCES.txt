@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dnsmeapi/__init__.py
+dnsmeapi.egg-info/PKG-INFO
+dnsmeapi.egg-info/SOURCES.txt
+dnsmeapi.egg-info/dependency_links.txt
+dnsmeapi.egg-info/requires.txt
+dnsmeapi.egg-info/top_level.txt
