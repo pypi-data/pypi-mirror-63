@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/food/__init__.py
+src/food/datasets/__init__.py
+src/food/datasets/cifar100.py
+src/food/datasets/tiny_imagenet.py
+src/food/ood/__init__.py
+src/food/ood/angle_softmax.py
+src/food_python.egg-info/PKG-INFO
+src/food_python.egg-info/SOURCES.txt
+src/food_python.egg-info/dependency_links.txt
+src/food_python.egg-info/top_level.txt
