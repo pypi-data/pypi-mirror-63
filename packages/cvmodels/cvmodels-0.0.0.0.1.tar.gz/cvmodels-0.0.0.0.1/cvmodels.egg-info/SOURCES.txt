@@ -1,0 +1,8 @@
+README.md
+setup.py
+cvmodels/__init__.py
+cvmodels/cvmodels.py
+cvmodels.egg-info/PKG-INFO
+cvmodels.egg-info/SOURCES.txt
+cvmodels.egg-info/dependency_links.txt
+cvmodels.egg-info/top_level.txt
