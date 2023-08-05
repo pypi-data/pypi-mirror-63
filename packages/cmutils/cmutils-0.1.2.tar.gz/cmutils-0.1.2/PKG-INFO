@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: cmutils
+Version: 0.1.2
+Summary: common utils like read/write file, log
+Home-page: https://github.com/bearfly1990/PowerScript/tree/master/Python3/mylib/cmutils
+Author: Chen, Xiong
+Author-email: bearfly1990@163.com
+License: MIT
+Description: ===================
+        cmutils
+        ===================
+         
+        ----------------
+        Introduction
+        ----------------
+        
+        1. io.py
+            class for deal with path/file
+        
+        2. log.py
+            class for process bar in console and log
+        
+        3. system.py
+            
+        4. ...
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
