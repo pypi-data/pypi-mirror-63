@@ -1,0 +1,13 @@
+websocks/__init__.py,sha256=2LiooW1jgV8n7moGG9YM5ol1DS5A6NlGUXYo_IlcR6Y,110
+websocks/client.py,sha256=wW18NPMQSocKwoLp-XaGJ_86YyJ2wIE7xSWe8cXOUVI,9209
+websocks/commands.py,sha256=sbOvUuU9ijtOrDTwmo2FDCdu2NlVnbYj51t9vYiIDi4,2700
+websocks/gfwlist.txt,sha256=ypEP726zAU8cMzYEYWIjJzeDnMImZKJwUzlNr4cTj4s,140459
+websocks/rule.py,sha256=ao6PGbaC7bb9Z7C25ru0rzWX-njkSKElkCiiG-iAkgs,5614
+websocks/server.py,sha256=vu8D7_y0sEbov6MbZjX4_MdKt2AVyzAhbJKaTdn2ZBI,5199
+websocks/types.py,sha256=_x63sfT49vpnbX7dZ4WBVO6JjDLgWzUlaLK8PNIqg_A,472
+websocks/utils.py,sha256=LQMz77JNa_u_oA_L7EDm4oA8fZWm8icliHEbWNoGue0,1808
+websocks/whitelist.txt,sha256=U9vFz4k4W-TfCu04Xn3fEdM8WtorvGb1CjQSE4RLe7M,144277
+websocks-0.2.7.dist-info/entry_points.txt,sha256=ZxYtVvOhx9s7m9hFkGLnUD9lLyayTZ44OwzFbKffXqY,51
+websocks-0.2.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+websocks-0.2.7.dist-info/METADATA,sha256=V9P1TlqQVnLnJUxrqjo7qT3MhxP071Kym_cEowocNHQ,1823
+websocks-0.2.7.dist-info/RECORD,,
