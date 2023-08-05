@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pyker
+Version: 0.0.1
+Summary: Simple poker game in pure python
+Home-page: https://github.com/zodiacfireworks/pyker
+Author: Martin Vuelta
+Author-email: Martin Vuelta <zodiacfireworks@softbutterfly.io>
+License: UNKNOWN
+Download-URL: https://github.com/zodiacfireworks/pyker/archive/0.0.1.tar.gz
+Description: [![Python Versions](https://img.shields.io/pypi/pyversions/pyker.svg?color=3776AB&logo=python&logoColor=white)](https://www.python.org/)
+        [![PyPI Version](https://img.shields.io/pypi/v/pyker.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/pyker/)
+        [![PyPI Downloads](https://img.shields.io/pypi/dm/pyker.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/pyker/)
+        
+        [![Build Status](https://travis-ci.org/zodiacfireworks/pyker.svg?branch=master)](https://travis-ci.org/zodiacfireworks/pyker)
+        [![codecov](https://codecov.io/gh/zodiacfireworks/pyker/branch/master/graph/badge.svg)](https://codecov.io/gh/zodiacfireworks/pyker)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1787644ed8524433b9466f74d24b44d2)](https://www.codacy.com/gh/zodiacfireworks/pyker?utm_source=github.com&utm_medium=referral&utm_content=zodiacfireworks/pyker&utm_campaign=Badge_Grade)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/1787644ed8524433b9466f74d24b44d2)](https://www.codacy.com/gh/zodiacfireworks/pyker?utm_source=github.com&utm_medium=referral&utm_content=zodiacfireworks/pyker&utm_campaign=Badge_Coverage)
+        [![Requirements Status](https://requires.io/github/zodiacfireworks/pyker/requirements.svg?branch=master)](https://requires.io/github/zodiacfireworks/pyker/requirements/?branch=master)
+        
+        [![Stars](https://img.shields.io/github/stars/zodiacfireworks/pyker?logo=github)](https://github.com/zodiacfireworks/pyker/)
+        [![License](https://img.shields.io/pypi/l/pyker.svg?color=blue)](https://github.com/zodiacfireworks/pyker/blob/master/LICENSE.txt)
+        
+        # Pyker
+        
+        Simple pker game in pure python
+        
+        ## what to do with this library?
+        
+        For now I just implmented an algorithm for ranking poker hands based on the description given here
+        
+        > http://nsayer.blogspot.com/2007/07/algorithm-for-evaluating-poker-hands.html
+        
+        Please check `samples/Comparsion.ipynb` to se how it works
+        
+        ## How to test
+        
+        ### Requirements
+        
+        To test you need `poetry` and `pyenv` with `python 3.7` and `python 3.8`, then follow the comands
+        
+        ```
+        git clone https://github.com/zodiacfireworks/pyker.git
+        cd pyker
+        poetry install
+        poetry run tox
+        ```
+        
+        And thats all!
+        
+Keywords: Poker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
