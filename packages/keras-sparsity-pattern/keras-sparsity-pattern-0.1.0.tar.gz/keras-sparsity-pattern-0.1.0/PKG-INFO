@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: keras-sparsity-pattern
+Version: 0.1.0
+Summary: sparsity patterns for tensorflow.sparse
+Home-page: http://github.com/ulf1/keras-sparsity-pattern
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: MIT
+Description: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ulf1/keras-sparsity-pattern/master?urlpath=lab)
+        
+        # keras-sparsity-pattern
+        Tensorflow2/Keras wrapper for `sparsity-pattern` package.
+        
+        ## Installation
+        The `keras-sparsity-pattern` [git repo](http://github.com/ulf1/keras-sparsity-pattern) is available as [PyPi package](https://pypi.org/project/keras-sparsity-pattern)
+        
+        ```
+        pip install keras-sparsity-pattern
+        pip install git+ssh://git@github.com/ulf1/keras-sparsity-pattern.git
+        ```
+        
+        
+        ## Usage
+        The `block`-diagonal pattern for tensorflow
+        
+        ```
+        import keras_sparsity_pattern
+        import tensorflow as tf
+        
+        n_rows, n_cols = 10, 12
+        mat_pattern = keras_sparsity_pattern.get('block', min(n_rows, n_cols), block_sizes=[3, 1, 2])
+        mat_values = range(1, len(mat_pattern)+1)
+        
+        mat = tf.sparse.SparseTensor(
+            dense_shape=(n_rows, n_cols),
+            indices=mat_pattern,
+            values=mat_values)
+        
+        print(tf.sparse.to_dense(mat))
+        ```
+        
+        Please, check the [howto.ipynb of the sparsity-pattern package](https://github.com/ulf1/sparsity-pattern/blob/master/examples/howto.ipynb) for more sparsity patterns. 
+        The `.get` method works exactly the same.
+        
+        
+        ## Appendix
+        
+        ### Install a virtual environment
+        
+        ```
+        python3.6 -m venv .venv
+        source .venv/bin/activate
+        pip3 install --upgrade pip
+        pip3 install -r requirements.txt
+        ```
+        
+        (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
+        
+        ### Python commands
+        
+        * Jupyter for the examples: `jupyter lab`
+        * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
+        * Run Unit Tests: `pytest`
+        * Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
+        
+        ### Clean up 
+        
+        ```
+        find . -type f -name "*.pyc" | xargs rm
+        find . -type d -name "__pycache__" | xargs rm -r
+        rm -r .pytest_cache
+        rm -r .venv
+        ```
+        
+        
+        ### Support
+        Please [open an issue](https://github.com/ulf1/keras-sparsity-pattern/issues/new) for support.
+        
+        
+        ### Contributing
+        Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/ulf1/keras-sparsity-pattern/compare/).
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
