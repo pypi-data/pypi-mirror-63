@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: O_NLP_Preprocessor-Emeka_Onyebuchi
+Version: 0.0.2
+Summary: A python package that has various libraries for processing NLP text. While just specifying the pandas column, it automatically removes stopwords, tokenizes it, stems it and lemmatizes it
+Home-page: https://github.com/Emeka-darthvader/O-NLP-Preprocessor
+Author: Emeka Onyebuchi
+Author-email: chybyke.emeka@gmail.com
+License: UNKNOWN
+Description: #O-NLP-Preprocessor#
+        
+        This python package  has various libraries for processing NLP text. 
+        
+        While just specifying the pandas column, it automatically removes stopwords, tokenizes it, stems it and lemmatizes it
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
