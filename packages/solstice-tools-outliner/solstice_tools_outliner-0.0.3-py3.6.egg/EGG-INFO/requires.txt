@@ -1,0 +1,8 @@
+artellapipe
+artellapipe-tools-outliner
+
+[dev]
+wheel
+
+[test]
+pytest
