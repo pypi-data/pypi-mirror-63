@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+rawls/__init__.py
+rawls/converter.py
+rawls/merger.py
+rawls.egg-info/PKG-INFO
+rawls.egg-info/SOURCES.txt
+rawls.egg-info/dependency_links.txt
+rawls.egg-info/not-zip-safe
+rawls.egg-info/requires.txt
+rawls.egg-info/top_level.txt
