@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+fastlangid/__init__.py
+fastlangid/langid.py
+fastlangid.egg-info/PKG-INFO
+fastlangid.egg-info/SOURCES.txt
+fastlangid.egg-info/dependency_links.txt
+fastlangid.egg-info/requires.txt
+fastlangid.egg-info/top_level.txt
