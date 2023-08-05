@@ -1,0 +1,6 @@
+Click
+tabulate
+pandas
+requests
+bs4
+lxml
