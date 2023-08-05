@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: immo-tools-lib
+Version: 0.1.1
+Summary: calcul des couts de credit immobilier
+Home-page: https://github.com/thomas-marquis/immo-tools-lib
+License: MIT
+Author: thomas.marquis.dev
+Author-email: thomas.marquis314@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Project-URL: Repository, https://github.com/thomas-marquis/immo-tools-lib
+Description-Content-Type: text/markdown
+
+# immo-tools
+
+## tests
+
+lancer les tests :
+
+````shell script
+pytest
+````
+
+avec le coverage :
+
+````shell script
+pytest --cov
+````
+
+lancer les tests avec nox : (attention, c'est super long !):
+
+````shell scripts
+nox -r
+````
+
+Permet de lancer les tests sur plusieurs versions de python et de manière isollée.
+Nox crée son propre environnement virtuel et y install les dépendances.
+L'option ``-r`` permet déviter de recréer tout l'environnement virtuel à chaque fois.
+
+## build & publish
+
+build :
+
+````shell script
+poetry build
+````
+
+
+publish sur pypi :
+
+````shell script
+poetry publish --build
+````
+
+
