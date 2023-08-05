@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: karmen
+Version: 0.5
+Summary: A centralized microservices framework for declarative applications
+Home-page: https://github.com/jrcichra/karmen
+Author: Justin Cichra
+Author-email: jrcichra@yahoo.com
+License: MIT
+Download-URL: https://github.com/jrcichra/karmen/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Docker,Message,Queue
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
