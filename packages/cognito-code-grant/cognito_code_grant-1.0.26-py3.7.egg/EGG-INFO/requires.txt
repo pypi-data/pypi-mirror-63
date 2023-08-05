@@ -1,0 +1,6 @@
+Django>=1.11
+djangorestframework>=3.0
+requests
+python-jose
+cryptography
+boto3
