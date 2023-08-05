@@ -1,0 +1,10 @@
+README.md
+setup.py
+autoschematics/__init__.py
+autoschematics/automodel.py
+autoschematics/automodel_test.py
+sphinx_autoschematics.egg-info/PKG-INFO
+sphinx_autoschematics.egg-info/SOURCES.txt
+sphinx_autoschematics.egg-info/dependency_links.txt
+sphinx_autoschematics.egg-info/requires.txt
+sphinx_autoschematics.egg-info/top_level.txt
