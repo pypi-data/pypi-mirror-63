@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: bookleter
+Version: 0.2.0
+Summary: turns pdfs into a6 sized foldable booklets
+Home-page: https://github.com/reinenichts/bookleter
+Author: Mohsen Barzegar
+Author-email: mohsennbarzegar@gmail.com
+License: MIT
+Download-URL: https://github.com/reinenichts/bookleter/archive/gui.tar.gz
+Description: UNKNOWN
+Keywords: book,booklet,pdf
+Platform: UNKNOWN
