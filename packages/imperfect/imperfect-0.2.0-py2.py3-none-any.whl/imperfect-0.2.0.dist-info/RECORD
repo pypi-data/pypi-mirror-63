@@ -1,0 +1,15 @@
+imperfect/__init__.py,sha256=xrlrRI38ViFtwqWdle21qCWrhqdQ95kZV4i6CLl2PLg,7926
+imperfect/__version__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+imperfect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imperfect/types.py,sha256=0vzx2QS6uXVClrTeP09LbQB6nEmnserioFHznvANQZ0,5135
+imperfect/verify.py,sha256=LTIPxICTOmkP92hOiaWIxV0ZeTRwZ-c0pdH2z6PtiHY,1274
+imperfect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imperfect/tests/__main__.py,sha256=Nk18MTJ8KcjG_Drq-BMZxH8nGxrvp3ZWyyuLz34Jr4s,133
+imperfect/tests/editing.py,sha256=CNjzl2yAC4yh8Qnh_eRvltFXsXvQPxrbAmanuhJc6aw,2290
+imperfect/tests/imperfect.py,sha256=t_jnMHhCDnZNJpLCrEsivF_cxCuNxR0tekVqh2y4wEs,6031
+imperfect/tests/imperfect_hypothesis.py,sha256=CtWh3UPQQse3ggKawL1bnWz1hHuhA0bUfaukTjflSuM,5062
+imperfect-0.2.0.dist-info/LICENSE,sha256=X5b-JdwjpfezIb_1mEPHzsdxo8Ewl6chUDQUdRsBI3I,1066
+imperfect-0.2.0.dist-info/METADATA,sha256=_-udXW-RLllpvMNzEsSV8jGEol3vkh0lagJzzMVQaT8,4895
+imperfect-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+imperfect-0.2.0.dist-info/top_level.txt,sha256=6DvnmNuUgkxz15cu2EzXywFA1OwcbtM5A9N1gDAwvW0,10
+imperfect-0.2.0.dist-info/RECORD,,
