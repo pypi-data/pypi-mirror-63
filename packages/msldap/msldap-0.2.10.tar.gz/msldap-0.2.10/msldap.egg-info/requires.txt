@@ -1,0 +1,8 @@
+asn1crypto
+aiocmd
+asciitree
+asysocks
+winacl>=0.0.2
+
+[:platform_system == "Windows"]
+winsspi
