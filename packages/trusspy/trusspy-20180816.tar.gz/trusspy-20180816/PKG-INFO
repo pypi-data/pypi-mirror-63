@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: trusspy
+Version: 20180816
+Summary: Truss Solver for Python
+Home-page: https://github.com/adtzlr/trusspy
+Author: Andreas Dutzler
+Author-email: a.dutzler@gmail.com
+License: GNU GPLv3
+Description: Truss Solver for Python
+Platform: UNKNOWN
+Description-Content-Type: text/plain
