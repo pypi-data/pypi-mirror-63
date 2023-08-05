@@ -1,0 +1,3 @@
+[console_scripts]
+adbc=adbc.cli:main
+
