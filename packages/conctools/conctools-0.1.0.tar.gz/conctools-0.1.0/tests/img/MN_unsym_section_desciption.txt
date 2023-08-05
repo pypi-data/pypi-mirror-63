@@ -1,0 +1,11 @@
+A section with unsymmetrical reinforcement will have a pure tension point
+with a moment != 0kNm. 
+Suppose the top reinforcement in a standard rectangular beam has a lower area
+than the bottom reinforcement. When all rebars yield in the pure tension case,
+the force in the bottom reinforcement will be larger, causing a net moment.
+
+In the corresponding pure compression case, the concrete will generate a net
+moment that counteract the rebar moment. This is caused by the plastic
+centroid being located away from the centroid of the concrete alone.
+The plastic centroid is the point at which a pure compressive force has its
+line of action.
