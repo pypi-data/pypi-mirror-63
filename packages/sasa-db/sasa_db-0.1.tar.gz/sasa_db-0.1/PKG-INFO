@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: sasa_db
+Version: 0.1
+Summary: Utility to convert Excel tables to a sqlite database and access the data
+Home-page: https://github.com/TimLucaTuran/meta-material-database
+Author: Tim Luca Turan
+Author-email: timturan@web.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

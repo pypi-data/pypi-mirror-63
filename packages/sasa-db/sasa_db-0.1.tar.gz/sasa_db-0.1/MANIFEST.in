@@ -1,0 +1,2 @@
+include sasa_db/data/*
+recursive-exclude sasa_db/data/smats/*
