@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+MyST_NB.egg-info/PKG-INFO
+MyST_NB.egg-info/SOURCES.txt
+MyST_NB.egg-info/dependency_links.txt
+MyST_NB.egg-info/entry_points.txt
+MyST_NB.egg-info/requires.txt
+MyST_NB.egg-info/top_level.txt
+MyST_NB.egg-info/zip-safe
+myst_nb/__init__.py
+myst_nb/parser.py
+myst_nb/transform.py
+myst_nb/_static/mystnb.css
