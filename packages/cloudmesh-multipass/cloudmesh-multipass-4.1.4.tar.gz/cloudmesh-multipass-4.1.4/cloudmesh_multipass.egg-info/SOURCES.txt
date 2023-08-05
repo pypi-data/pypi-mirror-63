@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+cloudmesh/__init__.py
+cloudmesh/multipass/Deploy.py
+cloudmesh/multipass/Provider.py
+cloudmesh/multipass/__init__.py
+cloudmesh/multipass/__version__.py
+cloudmesh/multipass/command/__init__.py
+cloudmesh/multipass/command/multipass.py
+cloudmesh_multipass.egg-info/PKG-INFO
+cloudmesh_multipass.egg-info/SOURCES.txt
+cloudmesh_multipass.egg-info/dependency_links.txt
+cloudmesh_multipass.egg-info/namespace_packages.txt
+cloudmesh_multipass.egg-info/not-zip-safe
+cloudmesh_multipass.egg-info/requires.txt
+cloudmesh_multipass.egg-info/top_level.txt
