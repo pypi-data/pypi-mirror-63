@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: octopus-python-client
+Version: 0.0.1
+Summary: Python script to manage Octopus deploy servers through the Octopus Restful APIs
+Home-page: https://github.com/tableau/octopus-python-client
+Author: Tony Li
+Author-email: tonybest@gmail.com
+License: UNKNOWN
+Description: # octopus-python-client
+        Python script to manage Octopus deploy servers through the Octopus Restful APIs
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
