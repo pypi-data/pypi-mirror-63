@@ -1,0 +1,27 @@
+## cli ##
+CLI_HELP: |
+    Welcome to the F5 command line interface.
+VERBOSE_HELP: 'Enables verbose mode'
+LIST_DEFAULTS_HELP: 'List default settings.'
+SET_DEFAULTS_HELP: 'Configure default settings.'
+OUTPUT_FORMAT_HELP: 'Specify output format.'
+ALLOW_TELEMETRY_HELP: 'Enable/disable telemetry.'
+SSL_WARNINGS: 'Disable SSL warnings'
+### f5 bigip ###
+BIGIP_HELP: Manage BIG-IP
+BIGIP_DISCOVER_HELP: Discover BIG-IP's with a specific key/value tag
+BIGIP_EXTENSION_HELP: Configure extension packages and services
+BIGIP_EXTENSION_PACKAGE_HELP: Install, uninstall, upgrade and verify extension packages
+BIGIP_EXTENSION_SERVICE_HELP: Create, delete and verify extension services
+### f5 cloud-services ###
+CLOUD_SERVICES_HELP: Manage F5 Cloud Services
+CLOUD_SERVICES_DNS_HELP: Create, update, and delete DNS records
+CLOUD_SERVICES_SUBSCRIPTION_HELP: Update or show F5 Cloud Services subscription information
+### f5 account auth ###
+CONFIG_HELP: Configure CLI authentication and configuration
+AUTH_HELP: Manage F5 BIG-IP or F5 Cloud Services authentication
+CONFIGURE_AUTH_HELP: Create a BIG-IP or F5 Cloud Services authentication account
+UPDATE_AUTH_HELP: Update a BIG-IP or F5 Cloud Services authentication account
+DELETE_AUTH_HELP: Delete a BIG-IP or F5 Cloud Services authentication account
+LIST_AUTH_HELP: List all configured authentication accounts
+LOGIN_HELP: Login to BIG-IP, F5 Cloud Services, etc.
