@@ -1,0 +1,8 @@
+README.md
+setup.py
+speed_profiler/__init__.py
+speed_profiler/speed_profiler.py
+speed_profiler.egg-info/PKG-INFO
+speed_profiler.egg-info/SOURCES.txt
+speed_profiler.egg-info/dependency_links.txt
+speed_profiler.egg-info/top_level.txt
