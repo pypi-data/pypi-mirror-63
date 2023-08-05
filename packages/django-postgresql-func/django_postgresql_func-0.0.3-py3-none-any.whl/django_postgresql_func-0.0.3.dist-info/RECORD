@@ -1,0 +1,13 @@
+core/__init__.py,sha256=9QWJVmBKVg4zNJ1IL39Ghet9BZIyktyY8fJX0OllwXU,42
+core/digits/__init__.py,sha256=IvYg7JQDd7vlcd0zyXLahlbAKC5RrAZmQkYYylbLIp4,37
+core/digits/mathematical_functions.py,sha256=taNIImSaeC3Rr7wqIak-zcf_Fb5vWQzzDAP34jDrr-A,2038
+core/text/__init__.py,sha256=4zdqtrpivDOmI2L8ukQtajgilTjgmEqGZY8H3-JQKT4,109
+core/text/convert.py,sha256=lPOVy__o-LlzJjGTtkhsLD7-ikFIk8C1UoYMHnGeiig,3025
+core/text/regexp.py,sha256=ipoJNwUwxoP-OQjW7GF-LmrCmc-indMfh01ekzMjTFY,1659
+core/text/string_functions.py,sha256=QeBRuBk06RGbEXrmQuyyP8VvCVKdyNDb4jQk-1cm20Q,8168
+core/text/substr.py,sha256=GmVl0Oy65hFLOsWoC0DCg5CFS2dd1pyHt3p4HuYUr50,663
+django_postgresql_func-0.0.3.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+django_postgresql_func-0.0.3.dist-info/METADATA,sha256=jS2ToozaBP8tC5IsohmUtF87rEiJ-sFtpiTHp_jTCQI,2397
+django_postgresql_func-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_postgresql_func-0.0.3.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+django_postgresql_func-0.0.3.dist-info/RECORD,,
