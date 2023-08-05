@@ -1,0 +1,11 @@
+README.md
+setup.py
+qstats/__init__.py
+qstats/qstats.py
+qstats/utils.py
+qstats.egg-info/PKG-INFO
+qstats.egg-info/SOURCES.txt
+qstats.egg-info/dependency_links.txt
+qstats.egg-info/requires.txt
+qstats.egg-info/top_level.txt
+scripts/QSTAT
