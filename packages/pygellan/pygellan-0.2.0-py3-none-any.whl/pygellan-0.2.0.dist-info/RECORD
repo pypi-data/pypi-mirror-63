@@ -1,0 +1,8 @@
+pygellan/__init__.py,sha256=hDNHCXYTgIXbXoBeOSqjjuLeyTEMLovU8HC3k2FhnFE,17
+pygellan/acquire.py,sha256=Ig-PQauJN4IpFQslYVrLrrK5d8Jslyj5r6dIxTHSJec,14877
+pygellan/magellan_data.py,sha256=kY6p10EZFkhDumHbxbcb_1KFTcf_1Oc821GDWZOjaOM,28082
+pygellan-0.2.0.dist-info/LICENSE,sha256=V50EYQbl4ABOWm6x_H2_V7DlrnwJ2UFS_GOY4zJHwog,1521
+pygellan-0.2.0.dist-info/METADATA,sha256=CoqGkwriLnCp8nMNSto6kuEU_We5LAYyQMWE3j-bcUo,4460
+pygellan-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pygellan-0.2.0.dist-info/top_level.txt,sha256=PcZtGtjaopk_dlqRQLjf72Jb7a8396snn34LYvfnbQQ,9
+pygellan-0.2.0.dist-info/RECORD,,
