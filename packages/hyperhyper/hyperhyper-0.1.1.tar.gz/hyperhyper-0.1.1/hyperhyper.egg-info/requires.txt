@@ -1,0 +1,10 @@
+dataset==1.*
+tqdm
+gensim==3.*
+
+[:python_version < "3.7"]
+importlib_resources
+
+[full]
+spacy==2.*
+scikit-learn
