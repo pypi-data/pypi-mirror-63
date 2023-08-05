@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Malibu-lambda-2
+Version: 0.0.1
+Summary: Incomedata package for lambda school Ds Unit 3
+Home-page: https://github.com/Moly-malibu/paquetepy.git
+Author: Monica Bustamante
+Author-email: lilianalambda@gmail.com
+License: MIT
+Description: # paquetepy
+        create packet python
+        
+Keywords: Income
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
