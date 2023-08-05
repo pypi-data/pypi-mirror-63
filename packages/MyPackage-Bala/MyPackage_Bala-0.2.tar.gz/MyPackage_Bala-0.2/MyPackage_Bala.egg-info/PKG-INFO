@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MyPackage-Bala
+Version: 0.2
+Summary: A Trading utility package
+Home-page: https://github.com/balaseenivasan/PythonPackage
+Author: Bala
+Author-email: balamca08@gmail.com
+License: UNKNOWN
+Description: # MyPackage_Bala
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
