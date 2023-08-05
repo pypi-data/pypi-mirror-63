@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: Orange_Vision
+Version: 0.0.6
+Summary: FRC Orange Vision API
+Home-page: UNKNOWN
+Author: Danny Dasilva
+Author-email: dannydasilva.solutions@gmail.com
+License: Apache 2
+Description: 
+        __version__ = '0.0.6'
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5.3
