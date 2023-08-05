@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+common_services/__init__.py
+common_services/create_log_message.py
+common_services.egg-info/PKG-INFO
+common_services.egg-info/SOURCES.txt
+common_services.egg-info/dependency_links.txt
+common_services.egg-info/top_level.txt
