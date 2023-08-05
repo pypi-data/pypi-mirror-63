@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-hello-world=poetry_hello_world.main:main
+
