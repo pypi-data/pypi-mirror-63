@@ -1,0 +1,6 @@
+numpy
+astropy
+scipy
+h5py
+responsum
+gbmgeometry
