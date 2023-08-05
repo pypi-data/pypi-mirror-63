@@ -1,0 +1,9 @@
+spydi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spydi/context.py,sha256=mqdDvo9X-c51tbx1Y1jW_RZBTdeLsfc3KqBzMNEHZYQ,2135
+spydi/factory.py,sha256=dvi4cdH9cYsEZxkPEEw--AddxHIvUHDFueyTlnrn1r0,6402
+spydi/instance_holder.py,sha256=Z-3shskIZRiAT2Fl9RtimFPK2KI_BWeEcJYUFQxlUOc,805
+spy_di-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+spy_di-0.2.0.dist-info/METADATA,sha256=B-Jz_FciXcFyHH30fVqIJ1eY8qrpboPy0Lg_w4A12-U,1950
+spy_di-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spy_di-0.2.0.dist-info/top_level.txt,sha256=FxEWFM58wUGm6snyb2K9pA1osOqlV1jW7bTCvfDpe18,6
+spy_di-0.2.0.dist-info/RECORD,,
