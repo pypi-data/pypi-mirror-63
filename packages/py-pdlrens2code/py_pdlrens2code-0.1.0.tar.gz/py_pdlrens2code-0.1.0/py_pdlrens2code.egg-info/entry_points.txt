@@ -1,0 +1,3 @@
+[console_scripts]
+py_pdlrens2code = py_pdlrens2code.cli:main
+
