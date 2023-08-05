@@ -1,0 +1,3 @@
+[console_scripts]
+corn = corn.scripts:start
+
