@@ -1,0 +1,11 @@
+numpy
+scipy
+python-igraph
+
+[docs]
+nbsphinx
+sphinx-rtd-theme
+IPython
+
+[test]
+pytest
