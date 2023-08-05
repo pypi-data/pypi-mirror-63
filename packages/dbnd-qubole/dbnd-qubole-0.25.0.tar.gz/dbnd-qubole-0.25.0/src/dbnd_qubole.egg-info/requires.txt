@@ -1,0 +1,6 @@
+dbnd==0.25.0
+dbnd-airflow==0.25.0
+dbnd-spark==0.25.0
+qds-sdk==1.13.2
+
+[tests]
