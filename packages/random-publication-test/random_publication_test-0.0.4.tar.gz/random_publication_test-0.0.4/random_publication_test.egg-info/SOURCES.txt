@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+random_publication_test/RandomPublicationTest.py
+random_publication_test/__init__.py
+random_publication_test/_imports_.py
+random_publication_test/metadata.json
+random_publication_test/package-info.json
+random_publication_test/random_publication_test.min.js
+random_publication_test/random_publication_test.min.js.map
+random_publication_test.egg-info/PKG-INFO
+random_publication_test.egg-info/SOURCES.txt
+random_publication_test.egg-info/dependency_links.txt
+random_publication_test.egg-info/top_level.txt
