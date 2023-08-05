@@ -1,0 +1,16 @@
+pypager/__init__.py,sha256=ZUKkzHMsFlNJPepBbrYNQ7PvmpgMXtfX39zVQvkhOVY,64
+pypager/filters.py,sha256=Mx2CAE5R8BBBqHoKBzGNHCZxrqR5m9frV0HysOpb04E,541
+pypager/help.py,sha256=BUCyG4ppm5rJfVRKCrgt_8m4XZKFVRD5kIhjmJ9OrIU,2811
+pypager/key_bindings.py,sha256=vVqRCTSHOjk61cIsFXtM5HqJ8EnJL7FHzgZ2uw-uaVw,9818
+pypager/layout.py,sha256=bX8fdeCBcwYw20wt-xfbq5gIdlYtGJh15FHJLxjuidk,9866
+pypager/pager.py,sha256=n-f1GwdYNsZsseHD7TY8njU_K_zQRgHF-JuIY-9V5e8,11040
+pypager/source.py,sha256=9-_ExfElVOfcSYS_i8Y2JfJx-qGCcDhXhD8QkR3htBY,12766
+pypager/style.py,sha256=LNB71qRqUxqNHrGFIVEtIS5wxEqc-B4IOvUiWPgRvhk,1020
+pypager/entry_points/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypager/entry_points/run_pypager.py,sha256=UEunHERM0wInAvUErxK_Hn-rW79A0ryOf5h4VDPPOpo,1409
+pypager-3.0.0.dist-info/LICENSE,sha256=u7PfgkmkLRrLRRg1hEL0N07Xa7opjY7yqLXisN7IJoE,1493
+pypager-3.0.0.dist-info/METADATA,sha256=g3SECDZ814BhokUUe5G-omK9YHz_VeOPW6s9cBVAjoA,2311
+pypager-3.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pypager-3.0.0.dist-info/entry_points.txt,sha256=PHHAGMHFcTi9OlJl67HMdJlTEg69DKczzVAZmuWITYw,66
+pypager-3.0.0.dist-info/top_level.txt,sha256=FGigABBkjWW80sJvjxx3pvFStBJ1SdJNCLvSq36NGyo,8
+pypager-3.0.0.dist-info/RECORD,,
