@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: veloxchem
+Version: 1.0rc1.post1
+Summary: VeloxChem: an electronic structure code
+Home-page: http://veloxchem.org/
+Author: VeloxChem developers
+Author-email: info@veloxchem.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
