@@ -1,0 +1,10 @@
+- project:
+    templates:
+      - openstack-python-jobs
+      - openstack-python35-jobs
+    check:
+      jobs:
+        - monasca-tempest-python-influxdb:
+            voting: false
+        - monasca-tempest-java-influxdb:
+            voting: false
