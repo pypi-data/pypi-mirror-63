@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: huawei-e3-e5
+Version: 0.1.4
+Summary: API For huawei LAN/WAN LTE Modems
+Home-page: https://github.com/afer92/huawei_e3_e5
+Author: Alain Ferraro
+Author-email: afer92@free.fr
+License: LGPL-3.0 
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: dicttoxml
+Requires-Dist: huawei-lte-api
+Requires-Dist: requests
+Requires-Dist: xmltodict
+
+# huawei_e3_e5
+Tool to manage huawei hilink modems (E3 and E5 series)
+
+
+## Features
+
+- [x] Get modem status
+- [ ] Change sim settings
+- [x] Get SMS messages
+- [x] Send SMS messages
+- [x] Modem reboot
+- [x] Dump all modem infos
+
+## Usage example
+
+```python
+>>> from huawei_e3_e5.huawei_exxxx import HuaweiModem as HuaweiModem
+>>> gsm = HuaweiModem(user='admin', password='SECRET') # E5xxxx
+>>> gsm = HuaweiModem() # E3xxx
+>>> gsm
+<HuaweiModem None (None)>
+DeviceName     : E5577Cs-321
+imei           : 8..............
+imsi           : 2..............
+iccid          : 8..................
+msisdn         : +33.........
+SerialNumber   : D...............
+softwareVersion: 21.333.63.00.1217
+hardwareVersion: CL1E5573SM11
+MacAddress1    : 88:00:00:00:00:00
+WebUIVersion   : 17.100.20.06.1217
+ProductFamily  : LTE
+classify       : mobile-wifi
+supportmode    : LTE|WCDMA|GSM
+workmode       : LTE
+
+>>> gsm.device_signal
+{
+    'pci': '69',
+    'sc': None,
+    'cell_id': '105428049',
+    'rsrq': '-10dB',
+    'rsrp': '-104dBm',
+    'rssi': None,
+    'sinr': '-3dB',
+    'rscp': None,
+    'ecio': None,
+    'psatt': '1',
+    'mode': '7',
+    'lte_bandwidth': None,
+    'lte_bandinfo': None
+}
+
+>>> gsm.send_sms(numbers, message)
+
+>>> gsm.control_reboot()
+```
+
+
