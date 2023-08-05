@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: pydel
+Version: 0.5.0
+Summary: Parser for Synthstrom Audible Deluge song files
+Home-page: https://github.com/dcower/pydel
+Author: Dillon Cower
+Author-email: UNKNOWN
+License: MIT
+Description: # pydel
+        
+        Python module for parsing [Synthstrom Audible Deluge](https://synthstrom.com/product/deluge/) song files.
+        
+        ## Usage
+        
+        1. Clone or download the repository.
+        
+        2. Install [pip](https://pip.pypa.io/en/stable/installing/).
+        
+        3. Install pydel:
+        ```
+        pip install pydel
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
