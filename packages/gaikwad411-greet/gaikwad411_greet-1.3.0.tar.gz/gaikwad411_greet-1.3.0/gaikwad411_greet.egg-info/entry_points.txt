@@ -1,0 +1,3 @@
+[console_scripts]
+gaikwad411_greet = gaikwad411_greet.__main__:main
+
