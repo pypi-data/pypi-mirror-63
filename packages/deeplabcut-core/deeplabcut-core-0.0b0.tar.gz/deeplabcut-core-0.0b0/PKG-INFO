@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: deeplabcut-core
+Version: 0.0b0
+Summary: abc
+Home-page: https://github.com/DeepLabCut/deeplabcut-core
+Author: A. & M. Mathis Labs
+Author-email: alexander@deeplabcut.org
+License: UNKNOWN
+Description: # DeepLabCut-core
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

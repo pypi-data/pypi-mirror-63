@@ -1,0 +1,9 @@
+README.md
+setup.py
+deeplabcut-core/__init__.py
+deeplabcut-core/version.py
+deeplabcut_core.egg-info/PKG-INFO
+deeplabcut_core.egg-info/SOURCES.txt
+deeplabcut_core.egg-info/dependency_links.txt
+deeplabcut_core.egg-info/requires.txt
+deeplabcut_core.egg-info/top_level.txt
