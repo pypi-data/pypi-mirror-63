@@ -1,0 +1,11 @@
+tact/__init__.py,sha256=uooJbES7NPhsHcT5JNbtsqWJSOqCI1VtN0kL-giuUxo,19
+tact/cli_add_taxa.py,sha256=JB9fFsoEYJ9snNVbnwnCPTLbvMkKvQrrBRSOMAnlXNs,24266
+tact/cli_check_trees.py,sha256=CnKwpj6CKyESscg9PzL32VKxL4NXcOcuzZFEOWs6QWw,4515
+tact/cli_taxonomy.py,sha256=sPwEeCNBXt0SCTzQ5k5sHvxVUJcgKLvRP253UBApMRs,3004
+tact/fastmrca.py,sha256=lgEwfQh4FBug8uuPCmKVQ9Fx48vMXl0JI08hvFmSIfs,987
+tact/lib.py,sha256=GvJCu1ssbMU4AMju-MQb_kr9FiBv8O66bJ5qumbLjG0,11733
+tact-0.2.4.dist-info/entry_points.txt,sha256=14Yja8zRq7wfiImt2okGerMg6RRBqdOdsROQ7YCnSWY,150
+tact-0.2.4.dist-info/LICENSE,sha256=qw-Agwp3_8Bd6JuF_vCuRsa0RfJnpoQQbqJYUEpUhfI,1059
+tact-0.2.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+tact-0.2.4.dist-info/METADATA,sha256=6KkqGR3WAtNeFgr2j7LOCtbK5LMeW0viS_fBp1-aRCU,5522
+tact-0.2.4.dist-info/RECORD,,
