@@ -1,0 +1,9 @@
+py_conway/__init__.py,sha256=b4bsD5CkpMXPlvJRUX4sHZg9iEWjixJRHWsTnASNI9I,81
+py_conway/game.py,sha256=BCDqm0BRB2qvnC5Xdx17bn9pz4MrNs3lfw7xque_EI8,8758
+py_conway/helpers.py,sha256=0XkBbZlTSaR9jRnCqRrCn5yrWNtKua_24u--Kyu0lr4,281
+py_conway/threaded_game.py,sha256=hq3PkTzIVwarzsgCxODCiuioOXWFHdDqFnNtzSbgsWE,2211
+py_conway-0.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_conway-0.6.0.dist-info/METADATA,sha256=Yj251GpkB1tpP0m-HOTLq7RT7C2iTn9tm4O_wY9K1v4,4654
+py_conway-0.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_conway-0.6.0.dist-info/top_level.txt,sha256=s7IajNZbeM5xTkheDpZyw0jdO65aTEFpw2N6I5rpgSk,10
+py_conway-0.6.0.dist-info/RECORD,,
