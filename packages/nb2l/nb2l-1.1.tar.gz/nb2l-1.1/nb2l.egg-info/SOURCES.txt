@@ -1,0 +1,9 @@
+setup.py
+nb2l/__init__.py
+nb2l/nb2l.py
+nb2l/test_nb2l.py
+nb2l.egg-info/PKG-INFO
+nb2l.egg-info/SOURCES.txt
+nb2l.egg-info/dependency_links.txt
+nb2l.egg-info/entry_points.txt
+nb2l.egg-info/top_level.txt
