@@ -1,0 +1,5 @@
+Pillow
+asyncio
+numpy
+requests
+websockets
