@@ -1,0 +1,15 @@
+Stata_Table_Formatter/Format_Regression_Output.py,sha256=jUSHQ1hu77kf9NXr9qiTfbl7hmwP04XzZvftdFi7kq0,10238
+Stata_Table_Formatter/Reg_Obj.py,sha256=UncV7A_zrqy2HmT0GM6oG4-ERsbrNMTbD3fsYMtrg94,1350
+Stata_Table_Formatter/Stata_Reg_Obj.py,sha256=_SlEPINJN3gPL0Iip_bAIV46KtxGTywLQOn7b3LnXwE,1655
+Stata_Table_Formatter/__init__.py,sha256=WQik6ZF2KV7GbVhoyadTbFDK9YFs1m3Fkrd_aRsqgvs,205
+Stata_Table_Formatter/workbook.py,sha256=fAvYrfFM_xDJCb5a_Q8Nwo9_HihcddQ3jPepPrWWYlk,2419
+spyfor/Format_Regression_Output.py,sha256=NnrlwI5-HxpLFuHsJ50JewAm9Udbm5KOZlc_rDXNgM8,14530
+spyfor/Reg_Obj.py,sha256=UncV7A_zrqy2HmT0GM6oG4-ERsbrNMTbD3fsYMtrg94,1350
+spyfor/Stata_Reg_Obj.py,sha256=wO7prrs9oCGPQvFp4CrgHftw2o_k5RfziMzKfwqIbKY,3329
+spyfor/__init__.py,sha256=WQik6ZF2KV7GbVhoyadTbFDK9YFs1m3Fkrd_aRsqgvs,205
+spyfor/workbook.py,sha256=DZV4BpGcDSY8mTvJKZTA5whnsqC6LJagDHdc40PDda8,3073
+spyfor-0.0.4.dist-info/LICENSE,sha256=NOi_Ny4i80hCG4x9YJIew3FGAKlIa0DDfYAx76BSDPU,1085
+spyfor-0.0.4.dist-info/METADATA,sha256=Rfxmugc8qkfQRnu_4NA7bXGwvTki1vpO-ODD2GQ69kI,1049
+spyfor-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+spyfor-0.0.4.dist-info/top_level.txt,sha256=nft_LZ5evbSAI0VdWmD0honZtpRkwMkKRfCrUydd3uA,7
+spyfor-0.0.4.dist-info/RECORD,,
