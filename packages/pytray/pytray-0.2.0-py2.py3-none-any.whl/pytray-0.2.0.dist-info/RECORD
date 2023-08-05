@@ -1,0 +1,10 @@
+pytray/__init__.py,sha256=NKwBAy32RJP-vEREvEuFBKTyMQ9Wi6_jP5oHLrp8Vq0,165
+pytray/aiothreads.py,sha256=t2QaSymi55TsLQPCR8MTDT7fDt2PoB8JCiHXhxO_rR0,9762
+pytray/futures.py,sha256=u-2BCmdqzHCixwcZ4xnPWq3zfi2NQyID5-TItNCHx2s,634
+pytray/tree.py,sha256=0fNu1xXrs8ngC3IKqmjkIzDfCL18zPg4sgalSnjAAbI,2510
+pytray/version.py,sha256=5tpBnlU8G24ANpP0_GcOn0YzFTZoXfqC0fk2anKagGY,50
+pytray/weakdict.py,sha256=PlOhvTNqoaHg78OuUO1355RV5vvKImdreILx1FSvGl8,1926
+pytray-0.2.0.dist-info/METADATA,sha256=Sv5mGFQHaKbbYgxshpeYmn5g8evqixkzGYX-8ECY9nU,1607
+pytray-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pytray-0.2.0.dist-info/top_level.txt,sha256=HsZQsfjIXmJcNV6VmVTTJE2mg1z_g48mxGHpSCv9nl0,7
+pytray-0.2.0.dist-info/RECORD,,
