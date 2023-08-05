@@ -1,0 +1,12 @@
+# Python packages required on Travis CI.
+
+# Pull in the requirements for code style checks,
+# the test suite and installation requirements.
+--requirement=requirements-checks.txt
+--requirement=requirements-client.txt
+--requirement=requirements-server.txt
+--requirement=requirements-tests.txt
+--requirement=requirements.txt
+
+# Prepare to submit coverage data.
+coveralls
