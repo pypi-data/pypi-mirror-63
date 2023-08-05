@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+memory_tr_free.egg-info/PKG-INFO
+memory_tr_free.egg-info/SOURCES.txt
+memory_tr_free.egg-info/dependency_links.txt
+memory_tr_free.egg-info/requires.txt
+memory_tr_free.egg-info/top_level.txt
+mymemory_tr/__init__.py
+mymemory_tr/mymemory_tr.py
+tests/__init__.py
+tests/test_mymemory_tr.py
+tests/test_sanity.py
