@@ -1,0 +1,9 @@
+README.md
+setup.py
+mypdftools/__init__.py
+mypdftools/pdf2image.py
+mypdftools/pdf2text.py
+mypdftools.egg-info/PKG-INFO
+mypdftools.egg-info/SOURCES.txt
+mypdftools.egg-info/dependency_links.txt
+mypdftools.egg-info/top_level.txt
