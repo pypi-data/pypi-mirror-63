@@ -1,0 +1,10 @@
+leangle/__init__.py,sha256=uoWPnZODB8SVX_4ERUa9T4lfZcgz2uTmYu4iS3hHRVg,128
+leangle/chalice_patches.py,sha256=UIwP-8CKe6WybbePQ-mmHGg2pKYzpFf-TQiQ74yWvt8,1840
+leangle/describe.py,sha256=qNFPq4VeS7X1i27IQFUYYNlIyQrmBAkA-gOtzeD2f_E,1901
+leangle/leangle.py,sha256=GAmEs6dbhMwIFE3MzX7485yR7TQAa-0Mk8HUUAzFlQ0,663
+leangle-0.0.11.dist-info/DESCRIPTION.rst,sha256=r9YStR7GbW0pPWql52r5dZK3wt1WiWxYQUKYXR4PD-4,2121
+leangle-0.0.11.dist-info/METADATA,sha256=oe5xOHiIdrv3oDVLR7zel-HTmTGVFBrSTuSIahxAHyY,2592
+leangle-0.0.11.dist-info/RECORD,,
+leangle-0.0.11.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+leangle-0.0.11.dist-info/metadata.json,sha256=hHRoQAfqVZOTgElJfX3DAfVIrGa4v-DwGxPj_f31mmI,651
+leangle-0.0.11.dist-info/top_level.txt,sha256=BESYmT6KuOmngdzUiwQZVlq9tvdARhTJpT4aarEHKRA,8
