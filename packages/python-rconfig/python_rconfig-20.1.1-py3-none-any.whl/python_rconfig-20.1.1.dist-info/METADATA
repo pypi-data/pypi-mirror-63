@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: python-rconfig
+Version: 20.1.1
+Summary: Helps get configuration from consul server
+Home-page: https://github.com/ArtemAngelchev/python-rconfig
+License: MIT
+Keywords: configurations,settings,consul,env,python,environment-variables,configuration-managment
+Author: Artem Angelchev
+Author-email: artangelchev@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Provides-Extra: cli
+Requires-Dist: click (>=7.0,<8.0); extra == "cli"
+Requires-Dist: python-consul (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/ArtemAngelchev/python-rconfig
+Description-Content-Type: text/x-rst
+
+rconfig
+=======
+
+  .. image:: https://travis-ci.org/ArtemAngelchev/python-rconfig.svg?branch=master
+      :target: https://travis-ci.org/ArtemAngelchev/python-rconfig
+
+  .. image:: https://coveralls.io/repos/github/ArtemAngelchev/python-rconfig/badge.svg?branch=master
+      :target: https://coveralls.io/github/ArtemAngelchev/python-rconfig?branch=master
+
+  .. image:: https://badge.fury.io/py/python-rconfig.svg
+      :target: https://badge.fury.io/py/python-rconfig
+
+  .. image:: http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
+
+
+  ``rconfig`` helps you get configs of your application from a Consul server.
+
+
+Installation
+------------
+
+  Install the latest version with:
+
+  ::
+
+    pip install -U python-rconfig
+
+
+  For command-line support, use the CLI option during installation:
+
+  ::
+
+    pip install -U "python-rconfig[cli]"
+
+
+Usage
+-----
+
+  First off all ``rconfig`` expects that you have the following key structure
+  on the consul server:
+
+  ::
+
+    <root-key>
+        |____<common-config-key>
+        |          |
+        |          |___<some-env-key>
+        |          |           |_____<key-value>
+        |          |           |_____<key-value>
+        |          |
+        |          |___<another-env-key>
+        |                      |_____<key-value>
+        |                      |_____<key-value>
+        |____<app-config-key>
+                   |
+                   |___<some-env-key>
+                   |           |_____<key-value>
+                   |           |_____<key-value>
+                   |
+                   |___<another-env-key>
+                               |_____<key-value>
+                               |_____<key-value>
+
+
+  Here root key stands for the name of the project when some have multiple
+  applications that grouped under some kind of common purpose (often when talk
+  about microservices).
+  Under common configuration key, you should store configurations that common
+  to all your applications in the project, in this case, it's much easier to
+  change the config in one place than go to multiple.
+
