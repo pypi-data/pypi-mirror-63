@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nested-dictionaries
+Version: 0.0.1
+Summary: Nested Dictionaries
+Home-page: https://github.com/LiNuXaDDiKt/python_nested_dictionaries
+Author: Robert Poirier
+Author-email: linuxaddikt@robsarea.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# Nested Dictionaries
+
+Simple module to help with the creation of nested dictionaries with an arbitrary number of levels.
+
+## Installation
+
+```
+pip install nested-dictionaries
+```
+
+## Usage
+
+```
+from nested_dictionaries import NestedDictionaries
+my_dict = NestedDictionaries()
+my_dict[key1][key2][key...] = 'value'
+```
+
+## License
+
+Released under the MIT licence.
+
+
