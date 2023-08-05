@@ -1,0 +1,12 @@
+README.md
+setup.py
+aiohttp_jwtplus/__init__.py
+aiohttp_jwtplus/middleware.py
+aiohttp_jwtplus/secrets.py
+aiohttp_jwtplus/test_behav.py
+aiohttp_jwtplus/utils.py
+aiohttp_jwtplus.egg-info/PKG-INFO
+aiohttp_jwtplus.egg-info/SOURCES.txt
+aiohttp_jwtplus.egg-info/dependency_links.txt
+aiohttp_jwtplus.egg-info/requires.txt
+aiohttp_jwtplus.egg-info/top_level.txt
