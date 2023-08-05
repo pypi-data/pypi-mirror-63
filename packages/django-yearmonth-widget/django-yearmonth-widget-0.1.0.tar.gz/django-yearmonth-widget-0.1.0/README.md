@@ -1,0 +1,67 @@
+# django-yearmonth-widget
+
+We only care about year and month for DateField, and always set to day to 1, it's a Django Widget allow you select the year and month.
+
+## Install
+
+```shell
+pip install django-yearmonth-widget
+```
+
+## Usage
+
+**pro/settings.py**
+
+```python
+INSTALLED_APPS = [
+    ...
+    'django_static_jquery3',
+    'django_yearmonth_widget',
+    ...
+]
+```
+
+**app/admin.py**
+
+```python
+from django.contrib import admin
+from django import forms
+from django_yearmonth_widget.widgets import DjangoYearMonthWidget
+from .models import Book
+
+
+class BookForm(forms.ModelForm):
+    class Meta:
+        model = Book
+        exclude = []
+        widgets = {
+            "published_yearmonth": DjangoYearMonthWidget(),
+        }
+
+class BookAdmin(admin.ModelAdmin):
+    form = BookForm
+    list_display = ["name", "published_time"]
+
+admin.site.register(Book, BookAdmin)
+```
+
+**Note:**
+
+1. Create a ModelForm, and set new widget for the field.
+
+## DjangoYearMonthWidget Init parameters
+
+- years: list of year numbers. Default to None.
+    - If years provided, parameters prev_years and next_years are ignored.
+- prev_years: int, default to 10.
+- next_years: int, default to 0.
+    - Use prev_years, next_years to set the year range based on today's year.
+    - prev_years means the begining year is now.year - prev_years. If today's year is 2020 and the prev_years=10, so that the final years is start at 2010.
+    - next_years means the ending year is now.year + next_years. If today's year is 2020 and the next_years=10, so that the final years is end at 2030.
+- day_value: int, default to 1.
+
+## Releases
+
+### v0.1.0 2020/03/10
+
+- First release.
