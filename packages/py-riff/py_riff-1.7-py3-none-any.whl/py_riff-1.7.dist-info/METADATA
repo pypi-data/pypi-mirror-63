@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py-riff
+Version: 1.7
+Summary: An encoding only implementation of the RIFF
+Home-page: https://github.com/tryamid/py_riff
+Author: Shantanu Biswas
+Author-email: bsantanu381@gmail.com
+License: ISC
+Platform: UNKNOWN
+Requires-Python: >=3.5
+
+UNKNOWN
+
+
