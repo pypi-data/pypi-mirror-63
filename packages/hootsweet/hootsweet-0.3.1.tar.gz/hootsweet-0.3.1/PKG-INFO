@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: hootsweet
+Version: 0.3.1
+Summary: A python library for the HootSuite REST API.
+Keywords: hootsuite,api,social
+Author: Ciaran McCormick
+Author-email: ciaran@ciaranmccormick.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: cherrypy (>=18.5.0,<19.0.0)
+Requires-Dist: requests (>=2.23,<3.0)
+Requires-Dist: requests_oauthlib (>=1.3.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+## HootSweet
+
+A python API for the HootSuite REST API.
+
+### Installation
+
+```shell
+pip install hootsweet
+```
+
+### Usage
+
+```python
+from hootsweet import HootSweet
+
+client_id = "Your-HootSuite-Client-ID"
+client_secret = "Your-HootSuite-Client-Secret"
+redirect_uri = "http://redirect.uri/"
+
+def handle_refresh(token):
+    # callback function to save token to a database or file
+    save_token_to_db(token)
+
+client = HootSweet(client_id, client_secret, redirect_uri=redirect_uri, refresh_cb=handle_refresh)
+
+# Step 1 get authorization url from HootSuite
+url, state = client.authorization_url()
+
+# Step 2 go to url above and get OAuth2 code
+token = client.fetch_token(code)
+
+# client.token now contains your authentication token
+# Step 3 (optional) refresh token periodically, this automatically calls handle_refresh
+token = client.refresh_token()
+
+# retrieve data from https://platform.hootsuite.com/v1/me
+me = client.get_me()
+
+# retrieve authenticated members organizations https://platform.hootsuite.com/v1/me/organizations
+organizations = client.get_me_organizations()
+```
+
