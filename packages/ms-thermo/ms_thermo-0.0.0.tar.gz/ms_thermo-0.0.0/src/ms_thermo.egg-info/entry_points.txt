@@ -1,0 +1,6 @@
+[console_scripts]
+fresh_gas = ms_thermo.cli:fresh_gas_cli
+tadia_cantera = ms_thermo.cli:tadia_cantera_cli
+tadia_table = ms_thermo.cli:tadia_table_cli
+yk_from_phi = ms_thermo.cli:yk_from_phi_cli
+
