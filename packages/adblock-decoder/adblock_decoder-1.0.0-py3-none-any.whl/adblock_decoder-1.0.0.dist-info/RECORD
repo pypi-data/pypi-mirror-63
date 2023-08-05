@@ -1,0 +1,14 @@
+adblock_decoder/__init__.py,sha256=gAAeK7pt_1z9Iclnewb1SA4B-lZwhY2ZUrCZqIOvcxw,3087
+adblock_decoder/cli.py,sha256=dYsaM6cGUSEPte5CuPxG8uHy0qqNA466jAxHVHtEF5Q,5717
+adblock_decoder/exceptions.py,sha256=0eAiXZt8FRJnSko8-rO7N8-JCSphxqae_sXCuHRreA0,3485
+adblock_decoder/core/__init__.py,sha256=ySGSvrJp-l39ondWocmH7VU0NazfniHJLQqTa-Myy6g,3181
+adblock_decoder/core/adblock2hosts.py,sha256=qVO_b0GACPmWTSlcWdNqHxgUgcHCRQHfo1nfkw3xaTM,3811
+adblock_decoder/core/adblock2plain.py,sha256=PtnUZ0j06Qb75yPhm7QWAWtcmkQkLPt8dpeNLM-Ojx8,3700
+adblock_decoder/core/base.py,sha256=Jkn3pNze2jS15L9m8WYPGCa2qSsAufnbqtupRDUJ7rQ,4048
+adblock_decoder/core/io_base.py,sha256=bavKAa4SMTebVWlNzuMCXOzncMacJcw6T_tX59MQy4k,3927
+adblock_decoder-1.0.0.dist-info/LICENSE,sha256=IAGJITVn_TwJldcUWY21kLZab3cQgQ7Mx04ZncmL5nc,1101
+adblock_decoder-1.0.0.dist-info/METADATA,sha256=vihYmd0LYV1b_suqk5-VZTyygh-QdAhaatXHYkFG9Ug,862
+adblock_decoder-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+adblock_decoder-1.0.0.dist-info/entry_points.txt,sha256=Rm8yomN7VFPB8Rirhn31iIhF8DBm1xb3F70jwbRfNg0,118
+adblock_decoder-1.0.0.dist-info/top_level.txt,sha256=4xjxC8k6BqcfxpI9YfjgV3XLXBaMm4FYpUi2e40SFxw,16
+adblock_decoder-1.0.0.dist-info/RECORD,,
