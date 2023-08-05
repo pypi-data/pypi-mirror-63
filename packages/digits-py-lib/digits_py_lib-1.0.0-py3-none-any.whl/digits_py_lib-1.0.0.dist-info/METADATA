@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: digits-py-lib
+Version: 1.0.0
+Summary: export ten first numbers
+Home-page: https://github.com/thomas-marquis/digits-py-lib
+License: MIT
+Author: thomas-marquis
+Author-email: thomas.marquis314@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/thomas-marquis/digits-py-lib
+Description-Content-Type: text/markdown
+
+# digits py lib
+
+A useful library !
+
+## installation
+
+````shell script
+pip install digits-py-lib
+````
+
+## usage
+
+````python
+from digits import digits
+
+digits.one
+digits.two
+# ...
+````
+
