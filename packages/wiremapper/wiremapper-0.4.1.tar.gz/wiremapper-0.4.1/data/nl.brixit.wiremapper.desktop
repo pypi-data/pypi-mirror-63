@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Wiremapper
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=wiremapper
+GenericName=Pockethernet utility
+Icon=nl.brixit.wiremapper
+Categories=GTK;GNOME;Utility
+X-DBUS-ServiceName=nl.brixit.wiremapper
