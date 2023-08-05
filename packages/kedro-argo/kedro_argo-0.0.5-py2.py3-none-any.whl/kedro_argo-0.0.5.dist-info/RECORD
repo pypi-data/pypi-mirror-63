@@ -1,0 +1,11 @@
+kedro_argo/__init__.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+kedro_argo/__main__.py,sha256=NVIFXdN8mIT-Y8g88YEHwZzZHhIErFeA-Zu05QDfzdE,375
+kedro_argo/cli.py,sha256=GrUvo1IF4UIcYvm38WPoF4645AiiaeUF_Wh3-8nQ5P8,3418
+kedro_argo/templates/argo_template.yaml,sha256=vGhYkL80Xu4jFvoEfwlMOsSg3xnsLfr8IzQc5S2SHaI,678
+kedro_argo-0.0.5.dist-info/AUTHORS.rst,sha256=aQoh_SerXqD9sIwonIPJkKVSnUIaino6ZlVupKhfOyo,44
+kedro_argo-0.0.5.dist-info/LICENSE,sha256=Xgie9b7dSdK8G2m1d4FCSrarIVKSYXawVb466ISM1Uk,1517
+kedro_argo-0.0.5.dist-info/METADATA,sha256=_WVlLrU_KMk7YmtmjtUEWSrOzT9wug8FJj82Jza3_-M,2799
+kedro_argo-0.0.5.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+kedro_argo-0.0.5.dist-info/entry_points.txt,sha256=OWKopYdgB5x0HU3khegLzd9mIDGHdl_aTnTxS_R1d0Y,113
+kedro_argo-0.0.5.dist-info/top_level.txt,sha256=Q3Bje5i7Pz96UqaG--W8B14i3PCf4HF1PmMfDvcf7f8,11
+kedro_argo-0.0.5.dist-info/RECORD,,
