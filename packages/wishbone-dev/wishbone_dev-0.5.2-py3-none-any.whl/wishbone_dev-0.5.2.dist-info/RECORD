@@ -1,0 +1,12 @@
+wishbone/__init__.py,sha256=5mHo2ofe-NDIMBvAj-XNEDbMwKVf4p9wpTfuhkRfz2o,128
+wishbone/autocomplete_entry.py,sha256=iYBaLg0MnVWbxtne99_7NpBdetpKpYbCUhyB4Fv2ytQ,4038
+wishbone/core.py,sha256=kWrL7KnJj8kHXQIuC5eKXZuOPbOpf0AmIYL3DsOigA0,17992
+wishbone/version.py,sha256=j1sHVNE8IFB1_LHAArwOamxEipWgEdC0ne54pqQfclg,48
+wishbone/wb.py,sha256=lr2jRtJxotuhiRmParmlsewOHrcTlDM4mKK1qEehXro,66791
+wishbone/wishbone_gui.py,sha256=PLtq_BWrmkwYUURDWJm2cSdJ63v2sPwjfubIYPRh-Eo,37021
+wishbone_dev-0.5.2.data/scripts/wishbone_gui.py,sha256=j8KTBnviqmEA7XDPTK7yJcp3xtoaXyMW4Il10kQ7_pg,37005
+wishbone_dev-0.5.2.dist-info/LICENSE,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+wishbone_dev-0.5.2.dist-info/METADATA,sha256=fLPwSj_tszxlanUly92oNmdcH14gxN5mlFOCwxxhh0g,3185
+wishbone_dev-0.5.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wishbone_dev-0.5.2.dist-info/top_level.txt,sha256=vNOER2LiMND-ChvSbqMdFQoCXoesR22rIqjK2qj-gM4,9
+wishbone_dev-0.5.2.dist-info/RECORD,,
