@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "poetry-crawling"
+version = "0.1.0"
+description = ""
+authors = ["adi <adi@cakeplabs.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.1"
+beautifulsoup4 = "^4.8.2"
+bs4 = "^0.0.1"
+protobuf = "^3.11.3"
+selenium = "^3.141.0"
+six = "^1.14.0"
+soupsieve = "^2.0"
+grpcio = "^1.27.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

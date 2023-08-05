@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-crawling
+Version: 0.1.0
+Summary: 
+Author: adi
+Author-email: adi@cakeplabs.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifulsoup4 (>=4.8.2,<5.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: grpcio (>=1.27.2,<2.0.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: protobuf (>=3.11.3,<4.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Requires-Dist: six (>=1.14.0,<2.0.0)
+Requires-Dist: soupsieve (>=2.0,<3.0)
