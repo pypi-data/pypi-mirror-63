@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: allauth-socialaccount-provider-keycloak
+Version: 0.1.2
+Summary: allauth oauth2 provider for Keycloak
+Home-page: https://github.com/fherdom/allauth-socialaccount-provider-keycloak
+Author: Félix José Hernández
+Author-email: info@felixjosehernandez.es
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# allauth-socialaccount-provider-keycloak
+
+## install
+
+`pip install allauth-socialaccount-provider-keycloak`
+
+## configure
+
+```python
+INSTALLED_APPS = [
+    ...
+    'django.contrib.sites',
+    ...
+    #
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth_socialaccount_provider_keycloak',
+    ...
+]
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
+SOCIALACCOUNT_PROVIDERS = {
+    'keycloak': {
+        'KEYCLOAK_URL': "https://sso.grafcan.es/auth/realms/demo",
+    }
+}
+```
+
+
