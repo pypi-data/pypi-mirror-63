@@ -1,0 +1,10 @@
+README.rst
+setup.py
+flake8_fancy_header/__init__.py
+flake8_fancy_header/checker.py
+flake8_fancy_header.egg-info/PKG-INFO
+flake8_fancy_header.egg-info/SOURCES.txt
+flake8_fancy_header.egg-info/dependency_links.txt
+flake8_fancy_header.egg-info/entry_points.txt
+flake8_fancy_header.egg-info/requires.txt
+flake8_fancy_header.egg-info/top_level.txt
