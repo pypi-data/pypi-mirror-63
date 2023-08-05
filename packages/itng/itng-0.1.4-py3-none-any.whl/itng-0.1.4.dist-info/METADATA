@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: itng
+Version: 0.1.4
+Summary: Institute for Advanced Studies in Basic Sciences (IASBS) theoretical neuroscience group toolbox.
+Home-page: https://github.com/Ziaeemehr/itng_toolbox
+Author: Abolfazl Ziaeemehr
+Author-email: a.ziaeemehr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+
+### This is ITNG toolbox package.
+-  IASBS Theoretical Neuroscience Group toolbox, to analysis the time series, spike trains and graphs in python.
+
+
+
+
