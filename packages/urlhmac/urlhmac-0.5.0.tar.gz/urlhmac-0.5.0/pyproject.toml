@@ -1,0 +1,6 @@
+[tool.cpa]
+name = "urlhmac"
+version = "0.1.0"
+description = "Python Boilerplate contains all the boilerplate you need to create a Python package."
+authors = ["Florian Ludwig <f.ludwig@greyrook.com>"]
+public = true
