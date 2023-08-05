@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: nirah
+Version: 0.0.2
+Summary: A package for easily sending messages via the CLI or in python.
+Home-page: https://github.com/alexanra-vogt/arke
+Author: Alexandra Vogt
+Author-email: projects@vogt.systems
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: twilio
+Requires-Dist: discord.py
+
+# Description
+Arke is an interface designed messages from your long running processes
+through the command line or in python through a standard interface. This
+project is in the early stages of its development and will hopefully come
+to provide a standard API for users to develop against.
+
+## Settings
+The API keys can be stored in a file `~/.config/hermes/settings.json` with
+the following format:
+```
+{
+    "discord_key" : "your discord key",
+    "twillio" : {
+        "number": "your number",
+	    "account_sid": "your account sid",
+	    "auth_token": "your auth token"
+    }
+}
+```
+
+Alternatively you may provide the relevant API keys as a token with a method
+specific format.
+
+
