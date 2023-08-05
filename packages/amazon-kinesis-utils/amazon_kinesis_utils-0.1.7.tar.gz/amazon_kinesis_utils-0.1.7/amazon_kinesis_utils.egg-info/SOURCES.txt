@@ -1,0 +1,13 @@
+README.md
+setup.py
+amazon_kinesis_utils/__init__.py
+amazon_kinesis_utils/baikonur_logging.py
+amazon_kinesis_utils/kinesis.py
+amazon_kinesis_utils/misc.py
+amazon_kinesis_utils/s3.py
+amazon_kinesis_utils.egg-info/PKG-INFO
+amazon_kinesis_utils.egg-info/SOURCES.txt
+amazon_kinesis_utils.egg-info/dependency_links.txt
+amazon_kinesis_utils.egg-info/requires.txt
+amazon_kinesis_utils.egg-info/top_level.txt
+amazon_kinesis_utils.egg-info/zip-safe
