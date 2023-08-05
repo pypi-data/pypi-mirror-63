@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: EXCAT-Sync
+Version: 0.0.3
+Summary: A package to download images and annotations from the EXACT Server https://github.com/ChristianMarzahl/Exact
+Home-page: https://github.com/ChristianMarzahl/EXACT-Sync
+Author: Christian Marzahl
+Author-email: christian.marzahl@gamil.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# EXACT-Sync
+Rest API sync with the EXACT Server https://github.com/ChristianMarzahl/Exact
+
+
+## Example Notebooks
+
+In the folder examples or:
+https://colab.research.google.com/drive/1nOTyAVwzBDMSEAdgjbdpe7isGfeVpusK
+
+
+## Pip
+
+pip install EXCAT-Sync
+
