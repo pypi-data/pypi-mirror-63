@@ -1,0 +1,3 @@
+[console_scripts]
+pandas-profiling=pandas_profiling_cli.main:main
+
