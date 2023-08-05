@@ -1,0 +1,17 @@
+aio_odoorpc_base/__init__.py,sha256=9TbcN9hZtSwKwZ7PfkRew9UnfRw9J0W1wCeqzItmyL4,598
+aio_odoorpc_base/aio/__init__.py,sha256=oykTdEh4e-EHh_A1Xlmf8h7dmRHELmeoAPNZwN4zh2k,951
+aio_odoorpc_base/aio/common.py,sha256=A3O1kocOuqRC_97h0-9sYSbeq6xVDv86lHXFeLa3WWA,1603
+aio_odoorpc_base/aio/db.py,sha256=1MFRi8Oz7oGhqtV_vjUgEWt_KH2ik1bwWCwrx2oHa9Y,5471
+aio_odoorpc_base/aio/object.py,sha256=tfQRVxo9bozJph9ir2_vmZMVGo0NfA3iwx07y-ICtxo,622
+aio_odoorpc_base/aio/rpc.py,sha256=jWAGed3_4ixhAwqs0jB8skefos46Ddhz43c0bSOdYOs,3204
+aio_odoorpc_base/helpers.py,sha256=zNrAxBeYV_L2Qqm2h2n11C_NPtRlFI2WYqo03xRVknE,2900
+aio_odoorpc_base/protocols.py,sha256=I3N71352EnuhPTL14I_vRF1kwGYryZPG0mftXzQGq6Y,963
+aio_odoorpc_base/sync/__init__.py,sha256=9oleag3AVH3L2FeoDsYgkTWe7LGxGuvtS93BG8EZB5s,957
+aio_odoorpc_base/sync/common.py,sha256=A7xLq7PbOJNRLkcF59bH5gJ1qSNsGUfmhHDkLMEgEmM,1452
+aio_odoorpc_base/sync/db.py,sha256=h5APY8guHHojhVYRkop1N8eAR8TlMgr8MtxcyTdOMKg,5197
+aio_odoorpc_base/sync/object.py,sha256=5xQJxyGEqQFon4yi57ViGCjOpqGb1NQ0LdQV9s12Gx4,575
+aio_odoorpc_base/sync/rpc.py,sha256=Bh2wg7NDdM4BCV5seIcJj8A6BV94cafSWTEn8OwoAws,2981
+aio_odoorpc_base-3.0.4.dist-info/LICENSE,sha256=cXloPoAA5r3Ju8YNhe3wpKyOdvlRhX9U_Ld11YhvEwk,7049
+aio_odoorpc_base-3.0.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+aio_odoorpc_base-3.0.4.dist-info/METADATA,sha256=vrulI25vb1EmWsNoHtBzeSrxyKJn1gQo0y8uEfSejx0,10244
+aio_odoorpc_base-3.0.4.dist-info/RECORD,,
