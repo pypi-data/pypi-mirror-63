@@ -1,0 +1,4 @@
+requests
+pyjwt
+tinydb
+python-dotenv
