@@ -1,0 +1,3 @@
+[udata.preview]
+geoplatform = udata_geoplatform.preview:GeoplatformPreview
+
