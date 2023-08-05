@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kryptonic
+Version: 0.9.0
+Summary: Easy UI testng in the spirit of python's own unittest module
+Home-page: https://github.com/untapt/kryptonic
+Author: Nick Palenchar
+Author-email: nick@untapt.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: pymongo
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: xmlrunner (==1.7.7)
+
+UNKNOWN
+
+
