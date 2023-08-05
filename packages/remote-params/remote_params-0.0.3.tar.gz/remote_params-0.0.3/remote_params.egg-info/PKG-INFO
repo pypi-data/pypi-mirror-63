@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: remote-params
+Version: 0.0.3
+Summary: Remote controllable params
+Home-page: http://github.com/markkorput/pyremoteparams
+Author: Mark van de Korput
+Author-email: dr.theman@gmail.com
+License: MIT
+Description: # pyRemoteParams
+        <!-- [![Build Status](https://travis-ci.org/markkorput/pyevento.svg)](https://travis-ci.org/markkorput/pyevento) -->
+        
+        
+        Python remote_params package lets you add (remote) GUI controlable parameters to your pyhton application.
+        
+        ## Install
+        
+        ```shell
+        pip install remote_params
+        ```
+        
+        ## Run tests
+        ```shell
+        python setup.py test
+        ```
+        
+        ## Usage
+        
+        ```python
+        person1 = Params()
+        person1.string('name')
+        
+        person2 = Params()
+        person2.string('name')
+        
+        room = Params()
+        room.group(person1)
+        room.group(person2)
+        
+        params_osc_server = create_osc_server(room, port=8082)
+        # or
+        params_websocket_server = WebsocketServer(Server(room), port=8083)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

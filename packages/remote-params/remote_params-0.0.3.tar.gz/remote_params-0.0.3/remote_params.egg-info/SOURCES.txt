@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+remote_params/ui.html
+remote_params.egg-info/PKG-INFO
+remote_params.egg-info/SOURCES.txt
+remote_params.egg-info/dependency_links.txt
+remote_params.egg-info/requires.txt
+remote_params.egg-info/top_level.txt
+remote_params.egg-info/zip-safe
+test/test_http_server.py
+test/test_osc.py
+test/test_params.py
+test/test_schema.py
+test/test_server.py
+test/test_websocket_server.py
