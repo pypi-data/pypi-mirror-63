@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyvem/__init__.py
+pyvem/cli.py
+pyvem/core.py
+pyvem/commands/__init__.py
+pyvem/commands/activate.py
+pyvem/commands/base.py
+pyvem/commands/create.py
+pyvem/commands/list.py
+pyvem/commands/req.py
