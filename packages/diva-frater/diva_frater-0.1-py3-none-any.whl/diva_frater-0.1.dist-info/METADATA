@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: diva-frater
+Version: 0.1
+Summary: DIVA Frater library containing data types, base Component classes, and visualization tools
+Home-page: https://github.com/frater/diva
+Author: John Henning
+Author-email: john.l.henning@ibm.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: opencv-python
+Requires-Dist: sortedcontainers
+Requires-Dist: frater
+
+UNKNOWN
+
+
