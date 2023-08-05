@@ -1,0 +1,11 @@
+dill
+itk
+itk-thickness3d
+msgpack
+msgpack_numpy
+networkx
+numba
+psutil
+scipy
+SimpleITK
+vtk
