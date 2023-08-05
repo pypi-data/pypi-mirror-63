@@ -1,0 +1,15 @@
+README.rst
+setup.py
+djongo_celery_results/__init__.py
+djongo_celery_results/admin.py
+djongo_celery_results/apps.py
+djongo_celery_results/managers.py
+djongo_celery_results/models.py
+djongo_celery_results/tests.py
+djongo_celery_results/urls.py
+djongo_celery_results/utils.py
+djongo_celery_results/views.py
+djongo_celery_results.egg-info/PKG-INFO
+djongo_celery_results.egg-info/SOURCES.txt
+djongo_celery_results.egg-info/dependency_links.txt
+djongo_celery_results.egg-info/top_level.txt
