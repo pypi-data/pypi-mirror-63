@@ -1,0 +1,3 @@
+[console_scripts]
+caps-cli = caps.__main__:cli
+
