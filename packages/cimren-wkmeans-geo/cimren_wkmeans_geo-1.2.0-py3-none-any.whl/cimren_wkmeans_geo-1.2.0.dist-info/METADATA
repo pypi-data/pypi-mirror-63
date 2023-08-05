@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: cimren-wkmeans-geo
+Version: 1.2.0
+Summary: Weighted KMeans Clustering for Geolocational Problem
+Home-page: https://github.com/emrahcimren/wkmeans-geo
+Author: cimren
+Author-email: cimren.1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: bumpversion (==0.5.3)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cimren-helpers (==1.0.3)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: Faker (==3.0.0)
+Requires-Dist: feedparser (==5.2.1)
+Requires-Dist: html2text (==2019.9.26)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==1.4.0)
+Requires-Dist: importlib-resources (==1.0.2)
+Requires-Dist: keyring (==21.1.0)
+Requires-Dist: more-itertools (==8.1.0)
+Requires-Dist: numpy (==1.17.3)
+Requires-Dist: ortools (==7.5.7466)
+Requires-Dist: pandas (==0.25.3)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: plotly (==4.4.1)
+Requires-Dist: protobuf (==3.11.2)
+Requires-Dist: Pygments (==2.5.2)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: realpython-reader (==1.0.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: retrying (==1.3.3)
+Requires-Dist: six (==1.13.0)
+Requires-Dist: text-unidecode (==1.3)
+Requires-Dist: tqdm (==4.41.1)
+Requires-Dist: twine (==3.1.1)
+Requires-Dist: typing (==3.7.4.1)
+Requires-Dist: urllib3 (==1.25.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wincertstore (==0.2)
+Requires-Dist: zipp (==1.0.0)
+
+Weighted KMeans Clustering for Geolocational Problem
+====================================================
+
+Repo for weighted k means clustering for specifically geo locational problems. 
+
+For an example and mathematical explanation:
+
+https://emrahcimren.github.io/data%20science/Greenfield-Analysis-with-Weighted-Clustering/
+
+Prerequisites
+-------------
+
+Install environment.yml for prerequisites.
+
+```
+conda env create -f environment.yml
+```
+
+To recreate environment.yml
+
+```
+conda env export > environment.yml
+```
+
+To create requirements.txt from environment.yml
+
+```
+pip freeze > requirements.txt
+```
+
+Installation
+------------
+
+```
+pip install cimren-wkmeans-geo
+```
+
+Inputs
+------
+
+*input_locations* is a pandas dataframe with the following format.
+
+LOCATION_NAME | LATITUDE | LONGITUDE | WEIGHT | VOLUME |
+--- | --- | --- | --- | --- 
+LOC 0 | -27.0065 | 170.583 | 1 | 10
+
+*number_of_clusters*: Number of clusters to be created
+
+*minimum_elements_in_a_cluster*: Minimum elements in a cluster
+
+*maximum_elements_in_a_cluster*: Maximum elements in a cluster
+
+*maximum_volume_in_a_cluster*: Maximum volume that can fit in a cluster; if set to None, then it is disabled
+
+*maximum_iteration*: How many maximum number of steps the algorithm takes to stop if it does not find the solution
+
+*enable_minimum_maximum_elements_in_a_cluster*: True/False to enable minimum and maximum cluster size
+
+*objective_range*: Acceptable difference between objectives at each iteration
+
+Data
+----
+Package has a sample data set
+
+```
+from wkmeans_geo.src import data
+data.locations_test
+data.number_of_clusters
+data.minimum_elements_in_a_cluster
+data.maximum_elements_in_a_cluster
+data.maximum_volume_in_a_cluster
+data.maximum_iteration
+data.enable_minimum_maximum_elements_in_a_cluster
+data.objective_range
+```
+
+How to use
+----------
+
+```
+from wkmeans_geo.src import data
+from wkmeans_geo import wkmeans_clustering as wkc
+clusters, locations_with_clusters = wkc.calculate_clusters(
+                                       data.locations_test,
+                                       data.number_of_clusters,
+                                       data.minimum_elements_in_a_cluster,
+                                       data.maximum_elements_in_a_cluster,
+                                       data.maximum_volume_in_a_cluster,
+                                       data.maximum_iteration,
+                                       data.objective_range,
+                                       data.enable_minimum_maximum_elements_in_a_cluster)
+```
+
+
