@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: packpy
+Version: 0.1.8
+Summary: pip clone with migration facility
+Home-page: https://github.com/1hef001/packpy
+Author: S Ashwin
+Author-email: ashwins1211@gmail.com
+License: MIT
+Download-URL: https://github.com/1hef001/packpy/archive/v0.1.8.tar.gz
+Description: 
+        https://github.com/1hef001/packpy/blob/master/README.md
+        
+Keywords: pip,package manager,pipreqs,pip freeze,packpy
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
