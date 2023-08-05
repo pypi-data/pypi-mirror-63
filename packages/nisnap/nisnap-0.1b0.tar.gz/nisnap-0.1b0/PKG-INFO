@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: nisnap
+Version: 0.1b0
+Summary: nisnap
+Home-page: https://gitlab.com/xgrg/nisnap
+Author: Greg Operto
+Author-email: goperto@barcelonabeta.org
+License: UNKNOWN
+Download-URL: https://gitlab.com/xgrg/nisnap/-/archive/v0.1/nisnap-v0.1.tar.gz
+Description: # nisnap
+        
+        [![pipeline status](https://gitlab.com/xgrg/nisnap/badges/master/pipeline.svg)](https://gitlab.com/xgrg/nisnap/commits/master)
+        [![coverage report](https://gitlab.com/xgrg/nisnap/badges/master/coverage.svg)](https://gitlab.com/xgrg/nisnap/commits/master)
+        [![downloads](https://img.shields.io/pypi/dm/nisnap.svg)](https://pypi.org/project/nisnap/)
+        [![python versions](https://img.shields.io/pypi/pyversions/nisnap.svg)](https://pypi.org/project/nisnap/)
+        [![pypi version](https://img.shields.io/pypi/v/nisnap.svg)](https://pypi.org/project/nisnap/)
+        
+        
+        Create snapshots of segmentation maps produced by neuroimaging software.
+        
+        ## Usage
+        
+        From a Terminal:
+        
+        ```
+        nisnap c1.nii.gz c2.nii.gz c3.nii.gz --bg /tmp/test.nii.gz --opacity 30 -o /tmp/test.gif
+        ```
+        
+        From IPython/Jupyter Notebook:
+        
+        ```
+        import nisnap
+        nisnap.plot_segment(
+        ```
+        
+        ### Using XNAT
+        
+        From a Terminal:
+        
+        ```
+        nisnap --config /home/grg/.xnat.cfg -e BBRC_E000
+        ```
+        
+        From IPython/Jupyter Notebook:
+        
+        ```
+        from nisnap import xnat
+        xnat.plot_segment(config='/home/grg/.xnat.cfg', experiment_id='BBRC_E000',
+          raw=True, opacity=30, axes=('A'), cut_coords=range(100,120,2), animated=True)
+        ```
+        
+        
+        ## How to install
+        
+        ```
+        pip install nisnap
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
