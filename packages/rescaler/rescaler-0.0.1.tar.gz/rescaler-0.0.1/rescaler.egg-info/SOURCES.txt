@@ -1,0 +1,8 @@
+README.md
+setup.py
+rescaler/__init__.py
+rescaler/rescaler.py
+rescaler.egg-info/PKG-INFO
+rescaler.egg-info/SOURCES.txt
+rescaler.egg-info/dependency_links.txt
+rescaler.egg-info/top_level.txt
