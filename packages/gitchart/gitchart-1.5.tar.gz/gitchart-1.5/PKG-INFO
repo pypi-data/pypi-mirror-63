@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: gitchart
+Version: 1.5
+Summary: Generate statistic charts on Git repositories.
+Home-page: https://github.com/flashcode/gitchart
+Author: Sébastien Helleu
+Author-email: flashcode@flashtux.org
+License: GPL3
+Description: 
+        Gitchart can generate following charts:
+        
+        * authors,
+        * processed tickets by author,
+        * commits by hour of day,
+        * commits by hour of week,
+        * commits by day,
+        * commits by day of week,
+        * commits by month of year,
+        * commits by year,
+        * commits by year/month,
+        * commits by tag/version,
+        * files by type (extension).
+        
+Keywords: git chart pygal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Version Control
