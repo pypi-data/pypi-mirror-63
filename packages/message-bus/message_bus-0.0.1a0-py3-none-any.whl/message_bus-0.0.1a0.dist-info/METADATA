@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: message-bus
+Version: 0.0.1a0
+Summary: Message bus between services
+Home-page: https://github.com/SergeyMokeyev/message-bus.git
+Author: Sergey Mokeyev
+Author-email: sergey.mokeyev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+Requires-Dist: aioredis
+
+# message-bus-redis
+Message bus between services
+
+
