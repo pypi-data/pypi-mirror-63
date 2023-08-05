@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+YouTube_Loader.egg-info/PKG-INFO
+YouTube_Loader.egg-info/SOURCES.txt
+YouTube_Loader.egg-info/dependency_links.txt
+YouTube_Loader.egg-info/entry_points.txt
+YouTube_Loader.egg-info/requires.txt
+YouTube_Loader.egg-info/top_level.txt
+loader/__init__.py
+loader/__main__.py
+loader/cli.py
+loader/download.py

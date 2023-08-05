@@ -1,0 +1,3 @@
+[console_scripts]
+yt-loader = loader.cli:main
+
