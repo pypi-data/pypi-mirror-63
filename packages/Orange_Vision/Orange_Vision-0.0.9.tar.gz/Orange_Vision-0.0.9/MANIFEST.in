@@ -1,0 +1,9 @@
+include Orange_Vision/streaming/assets/*
+include Orange_Vision/streaming/assets/broadway/*
+include Orange_Vision/streaming/assets/css/*
+include Orange_Vision/streaming/assets/images/*
+include Orange_Vision/streaming/assets/images/logo/*
+include Orange_Vision/streaming/assets/js/*
+include Orange_Vision/streaming/assets/json/*
+include Orange_Vision/models/*
+include README.md

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settings</title>
+  <link rel="stylesheet" href="bulma.css">
+
+  <!--Core CSS -->
+  <link rel="stylesheet" href="css/orange-bulma.css">
+  <link rel="stylesheet" href="css/orange-core.css">
+
+
+  <!-- <link rel="stylesheet" href="static/css/bulma.css"> -->
+  <script defer src="js/fontAwesome.js"></script>
+  <script src="js/jquery.js"></script>
+</head>
+
+<body>
+
+
+  <!-- Pageloader -->
+  <div class="pageloader"></div>
+  <div class="infraloader is-active"></div>
+  <nav class="navbar mobile-navbar is-hidden-desktop is-hidden-tablet" aria-label="main navigation">
+    <!-- Brand -->
+    <div class="navbar-brand">
+      <a class="navbar>-item" href="home.html">
+        <img src="images/logo/orange-icon.svg" alt="">
+      </a>
+
+      <!-- Sidebar mode toggler icon -->
+      <a id="sidebar-mode" class="navbar-item is-icon is-sidebar-toggler" href="javascript:void(0);">
+        <i data-feather="sidebar"></i>
+      </a>
+
+      <a id="sidebar-mode" class="navbar-item is-icon is-sidebar-toggler" href="javascript:void(0);">
+        <i data-feather="wifi"></i>
+      </a>
+
+
+    </div>
+
+  </nav>
+
+  <!-- Main Sidebar-->
+  <div class="main-sidebar">
+    <div class="sidebar-brand">
+      <a href="#"><img src="images/logo/orange-icon.svg" alt=""></a>
+    </div>
+    <div class="sidebar-inner">
+      <ul class="icon-menu">
+        <!-- Shop sidebar trigger -->
+
+        <li>
+          <a href="orange-ai.html"><i data-feather="eye"></i></a>
+        </li>
+
+
+        <li>
+          <a id="open-filters" href="#"><i data-feather="settings" class="main_color"></i></a>
+        </li>
+
+
+
+        <!-- Search trigger -->
+
+        <!-- User account -->
+
+    </div>
+  </div>
+  <!-- /Main Sidebar-->
+  <!-- FAB -->
+  <div id="quickview-trigger" class="menu-fab is-hidden-mobile">
+    <div class="dropdown" id="myDropdown">
+      <div class="dropdown-trigger">
+        <button class="button" onclick=dropdown() aria-controls="dropdown-menu2">
+          <span>Wifi <i class="fas fa-wifi"></i> </span>
+          <span class="icon is-small">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </button>
+      </div>
+      <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+        <div class="dropdown-content" id="dropdown-content">
+          <button id="refresh" class="button" onclick=refreshConnections()>Refresh</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /FAB -->
+  <!-- Main wrapper -->
+  <div class="shop-wrapper">
+
+    <!-- Search overlay -->
+    <div class="search-overlay"></div>
+
+    <!-- Search input -->
+    <div class="search-input-wrapper is-desktop is-hidden">
+      <div class="field">
+        <div class="control">
+          <input type="text" name="search" autofocus required>
+          <span id="clear-search" role="button"><i data-feather="x"></i></span>
+          <span class="search-help">Enter a search</span>
+        </div>
+      </div>
+    </div>
+    <!-- Main section -->
+    <div class="section">
+      <!-- Container -->
+      <div class="mainSection">
+
+        <!-- Account Layout -->
+        <div class="columns account-header">
+          <div class="column  is-tablet-landscape-padded">
+            <!-- Title -->
+            <div class="account-title">
+              <h2> Settings</h2>
+              <img class="brand-filigrane" src="images/logo/orange-grey.svg" alt="">
+            </div>
+
+            <!-- Account tabs -->
+            <div class="tabs-wrapper underline-tabs animated-tabs">
+              <div class="tabs">
+                <ul>
+                  <li class="is-active" data-tab="t1"><a>Updates</a></li>
+                  <li data-tab="t2"><a>Set Ip</a></li>
+                  <li data-tab="t3"><a> Configure Pipeline </a></li>
+                </ul>
+              </div>
+              <div id="t1" class="navtab-content is-active">
+
+                <div class="columns">
+                  <div class="column column is-one-quarter"></div>
+                  <div class="column">
+
+
+
+
+                    <div class="flat-card">
+                      <div id="account-main-placeholder" class="main-placeholder">
+                        <div class="placeholder-content">
+                          <img src="images/profile.svg" alt="helo?">
+    
+                          <h3 id="version">A new Version is available</h3>
+                          <p class="text-wrap"> hit the button below to check for Updates</p>
+                          <div id="notifications" class="button-wrap notifications">
+                            <a href="#" onclick=checkUpdate() class="button big-button notifications-button rounded raised">
+                              <i class="fas fa-cloud-download-alt"></i>
+                              &nbsp;
+                              Check for update</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="column "></div>
+                </div>
+
+                
+
+
+
+
+              </div>
+              <div id="t2" class="navtab-content is-active">
+
+
+
+                <!-- Chosen select -->
+                <div class="flat-card is-auto is-element-details">
+                  <div class="columns  is-vcentered">
+
+                    <div class="column is-component">
+
+
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+
+              <div id="t3" class="navtab-content is-active">
+
+
+
+                <!-- Chosen select -->
+                <div class="flat-card is-auto is-element-details">
+                  <div class="columns  is-vcentered">
+
+                    <div class="column is-component">
+
+
+
+
+
+
+                    </div>
+                    <div class="column is-component">
+
+                      <div id="container4"></div>
+
+
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+
+
+
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <!-- /Container -->
+    </div>
+    <!-- /Main section -->
+  </div>
+
+
+
+
+
+  <div id="passwordModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <form class="box" onsubmit="event.preventDefault(); showInput();">
+        <div class="field">
+          <label for="" class="label">Password</label>
+          <div class="control has-icons-left">
+            <input id="user_input" name="password" type="password" pattern=".{8,}" required title="8 characters minimum"
+              placeholder="*******" class="input">
+            <span class="icon is-small is-left">
+              <i class="fa fa-lock"></i>
+            </span>
+          </div>
+        </div>
+        <div class="field">
+
+          <button type="button" onclick="closeModal('passwordModal')" aria-label="close" class="button ">Cancel</button>
+
+          <button class="button is-success"> Submit</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <div id="disconnectModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <form class="box" onsubmit="event.preventDefault(); sendDisconnect();">
+        <div class="field">
+          <label for="" class="label">Disconnect Wifi</label>
+          <div class="control has-icons-left">
+            <p>Are you sure you want to Disconnect?</p>
+
+          </div>
+        </div>
+        <div class="field">
+
+          <button type="button" onclick="closeModal('disconnectModal')" aria-label="close" class="button">Cancel</button>
+
+          <button class="button is-danger"> Yes</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div id="noWifiModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <form class="box" onsubmit="event.preventDefault(); tempFunct();">
+        <div class="field">
+          <label for="" class="label">You are not currently connected to Wifi!</label>
+          <div class="control has-icons-left">
+            <p>Connect to a network in the wifi panel</p>
+
+          </div>
+        </div>
+        <div class="field">
+
+          <button  type="button" onclick="closeModal('noWifiModal')" aria-label="close" class="button is-danger">Ok</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <div id="updateUnavailableModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <form class="box" onsubmit="event.preventDefault(); tempFunct();">
+        <div class="field">
+          <label for="" class="label">Good news</label>
+          <div class="control has-icons-left">
+            <p>You are currently running the latest software</p>
+            <p id="updateUnavailable"></p>
+          </div>
+        </div>
+        <div class="field">
+
+
+
+
+          <button  type="button" onclick="closeModal('updateUnavailableModal')" aria-label="close" class="button is-danger">Ok</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="updateAvailableModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <form class="box" onsubmit="event.preventDefault(); updateAndReboot();">
+        <div class="field">
+          <label for="" class="label">A New Software Update Is Available</label>
+          <div class="control has-icons-left">
+            <p>Update to the latest version below</p>
+            <p id="updateAvailable"></p>
+          </div>
+        </div>
+        <div class="field">
+
+
+          <button type="button" onclick="closeModal('updateAvailableModal')" aria-label="close" class="button">cancel</button>
+          <button id="rebootAndInstall" class="button notifications-alert-button">
+            <i class="fas fa-download"></i>
+            &nbsp;
+            Reboot and Install</a>
+
+          </button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <button onclick=test() aria-label="close" class="button">test</button>
+
+
+
+  <!-- /Main wrapper -->
+  <!-- Concatenated plugins -->
+  <script src="js/app.js"></script>
+
+
+
+  <!-- Helios js -->
+
+  <script src="js/nephos.js"></script>
+
+
+
+</body>
+
+
+
+<script>
+
+
+  var connections = { "Dasilva-Wifi": "WPA2", "ATTUMTu3Ys_2.4": "WPA2", "SKYNETgear-2.4": "WPA2", Spider: "WPA2", xfinitywifi: "--", "33333-Wifi": "WPA2", "2222-Wifi": "WPA2", "qweewqe-Wifi": "WPA2", "eeeeee-Wifi": "WPA2", }
+  $.ajax({
+      type: 'POST',
+      url: "/getVersion",
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({ "hello": "test" }),
+      success: function (data) {
+        var element = document.getElementById('version');
+        version = JSON.parse(data)
+        
+        element.innerHTML = `Current Version is: ${version}`;
+      }
+
+    });
+  
+  function test() {
+    $.ajax({
+      type: 'POST',
+      url: "/yeet",
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({ "hello": "test" }),
+      success: function (data) {
+        console.log(data, "success")
+      }
+
+    });
+  }
+  function refreshConnections() {
+    console.log("refresh connections")
+    document.getElementById("refresh").classList.add('is-loading');
+    $.ajax({
+      type: 'POST',
+      url: "/getConnections",
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({ "hello": "test" }),
+      success: function (data) {
+        var fill_data = JSON.parse(data);
+        console.log(fill_data)
+        document.getElementById("refresh").classList.remove('is-loading');
+
+        fillConnections(fill_data)
+      }
+
+    });
+
+  }
+
+  function rebootDevice() {
+
+  }
+
+  function fillConnections(connections) {
+    document.getElementById('dropdown-content').innerHTML = '<button id="refresh" class="button" onclick=refreshConnections()>Refresh</button>';
+    for (let [SSID, Security] of Object.entries(connections)) {
+
+      const div = document.createElement('a');
+      div.className = 'dropdown-item';
+
+
+      switch (Security) {
+        case 'WPA2':
+          div.id = 'open-modal';
+
+          div.innerHTML = `${SSID}<i class="fas fa-lock is-pulled-right"> </i> `;
+
+          div.addEventListener('click', function (event) {
+            //send socket here to check for pwsd
+            console.log(SSID, "locked")
+            window.lockedSelector = SSID
+            createModal('#passwordModal')
+          })
+
+          document.getElementById('dropdown-content').appendChild(div);
+
+
+          break;
+        case 'connected':
+          div.id = 'open-modal';
+
+          div.innerHTML = `${SSID} `;
+          div.classList.add('lightGreen')
+          div.addEventListener('click', function (event) {
+
+            //send socket here to check for pwsd
+            console.log(SSID, "locked")
+            window.lockedSelector = SSID
+            createModal('#disconnectModal');
+          })
+
+          document.getElementById('dropdown-content').appendChild(div);
+
+
+          break;
+        default:
+          div.id = 'no-modal';
+          div.innerHTML = `${SSID} `;
+
+          div.addEventListener('click', function (event) {
+            var str = this.innerHTML
+            //send socket here
+            console.log(str)
+            $.ajax({
+              type: 'POST',
+              url: "/connect",
+              contentType: 'application/json;charset=UTF-8',
+              data: JSON.stringify({ "connect": str }),
+            });
+
+          })
+          document.getElementById('dropdown-content').appendChild(div);
+
+
+      }
+
+    }
+
+
+  }
+
+
+  function dropdown() {
+
+    var element = document.getElementById("myDropdown");
+    var contains = element.classList.contains("is-active")
+
+    switch (contains) {
+      case true:
+        element.classList.remove("is-active");
+        break;
+      case false:
+        element.classList.add("is-active");
+        break;
+      default:
+      // code block
+    }
+
+  }
+
+
+  function closeModal(selector) {
+    var modal = document.querySelector(`#${selector}`);   // assuming you have only 1
+    var html = document.querySelector('html');
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  }
+
+
+
+
+  function showInput() {
+    t = document.getElementById("user_input");
+    console.log(t.value, window.lockedSelector, "valueeee")
+    $.ajax({
+      type: 'POST',
+      beforeSend: function (request) {
+        request.setRequestHeader("Authority", JSON.stringify(lockedSelector));
+      },
+
+      url: "/connect",
+      contentType: 'application/json;charset=UTF-8',
+      data: "test",
+    });
+
+    closeModal('#passwordModal')
+
+  }
+
+  function sendDisconnect() {
+    console.log(lockedSelector, "disconnect")
+    $.ajax({
+      type: 'POST',
+      beforeSend: function (request) {
+        request.setRequestHeader("Authority", JSON.stringify(lockedSelector));
+      },
+
+      url: "/disconnect",
+      contentType: 'application/json;charset=UTF-8',
+      data: "test",
+    });
+
+  }
+
+  // send socket with name to check in list on name click, if value in previous network list just connect
+  // case for password takew password do nmcli connect
+
+  function checkUpdate() {
+    console.log("called")
+    $.ajax({
+      type: 'POST',
+      url: "/checkUpdate",
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({ "hello": "test" }),
+      success: function (data) {
+        var return_data = JSON.parse(data);
+
+        if (typeof return_data == 'object') {
+
+          switch (return_data.outdated) {
+            case false:
+
+              var element = document.getElementById('updateUnavailable');
+              element.innerHTML = `latest version: ${return_data.latest_version}`;
+              createModal('#updateUnavailableModal')
+
+              break;
+            case true:
+              var element = document.getElementById('updateAvailable');
+              element.innerHTML = `latest version: ${return_data.latest_version}`;
+              var button = document.getElementById('notifications')
+              button.innerHTML=` <a href="#" onclick=checkUpdate() class="button big-button notifications-alert-button rounded raised">
+                          <i class="fas fa-download"></i>
+                          &nbsp;
+                          Update Available!</a>   <span class="badge">!</span>`
+
+              createModal('#updateAvailableModal')
+
+              break;
+            default:
+              console.log("error")
+          }
+        } else {
+          createModal('#noWifiModal')
+
+        }
+
+      }
+
+    });
+
+
+  }
+
+  function createModal(identifier) {
+    var modal = document.querySelector(identifier);  // assuming you have only 1
+    var html = document.querySelector('html');
+    modal.classList.add('is-active');
+    html.classList.add('is-clipped');
+    modal.querySelector('.modal-background').addEventListener('click', function (e) {
+      e.preventDefault();
+      modal.classList.remove('is-active');
+      html.classList.remove('is-clipped');
+    });
+  }
+  function tempFunct() {
+    console.log("yeet")
+  }
+  function updateAndReboot(){
+    document.getElementById("rebootAndInstall").classList.add('is-loading');
+    $.ajax({
+      type: 'POST',
+      url: "/updateAndReboot",
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({ "hello": "test" }),
+
+    });
+
+  }
+</script>
+
+</html>
