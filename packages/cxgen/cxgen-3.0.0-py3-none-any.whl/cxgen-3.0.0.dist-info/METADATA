@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cxgen
+Version: 3.0.0
+Summary: A package to generate cx_Freeze setup.py file!
+Home-page: https://github.com/armaan115/cxgen
+Author: Armaan Aggarwal
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3, <4
+
+**cxgen**
+
+v3.0.0 created by Armaan Aggarwal on March 9, 2020
+
+The all new cxgen!
+
+cxgen is a python package that can convert a python script to a .exe or .app file!
+
+To use the GUI, simply run: `from cxgen import GUI`
+

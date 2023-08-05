@@ -1,0 +1,12 @@
+cxgen/GUI.py,sha256=-mwmDhhjZM3WSkcNm_7LO5q40uEyZc2wkmdXVoJWIPM,8149
+cxgen/__init__.py,sha256=rAoZkjNYMqE-d0HT-SKUglRtK2aikWFP2EvMB-OtomI,521
+cxgen/utils.py,sha256=sCTE5HspHJDuo5Md6-AtjAzsLTwtTLxw8lnszBnC6XQ,1011
+cxgen/Legacy/__init__.py,sha256=NkH0RYhDT4FD62m_FihhQ-9uZYiqfIfmVelFiqvTPl8,10372
+cxgen/Legacy/appfile.py,sha256=iziA0EdZKbKvNR77O9Y96h1bo6iDVo6H9vfwPwK8I1A,1743
+cxgen/Legacy/utils.py,sha256=mtXi2wTu0pvld9COShr8Yaa39ZcLLoTKYG93AL2GsKI,1992
+cxgen/Legacy/files/LICENSE-for-function.txt,sha256=nCgrKvOIWeyH8lhpF26J2lFlGcQ5mlwV5v9yEJIkWDw,1091
+cxgen/Legacy/files/manual.txt,sha256=QAFYJIHXQeZO9ewm3n7E7yKuln2jmLeSHj6ayrSWUCw,1764
+cxgen-3.0.0.dist-info/METADATA,sha256=rJB_KDpRKN0yKQQDRpfyGWYU6hB24vsMqmH-RDTp4pk,598
+cxgen-3.0.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+cxgen-3.0.0.dist-info/top_level.txt,sha256=C8FuGI6_tiTjTJgS39Bc7KlpR90f_ycvtGgE8MY6E_A,6
+cxgen-3.0.0.dist-info/RECORD,,
