@@ -1,0 +1,4 @@
+INFO - 03/07/20 10:20:17 - 0:00:00 - load iris dataset
+INFO - 03/07/20 10:20:17 - 0:00:00 - dataset size: train=105, valid=45
+INFO - 03/07/20 10:20:17 - 0:00:00 - start training
+INFO - 03/07/20 10:20:17 - 0:00:00 - end training

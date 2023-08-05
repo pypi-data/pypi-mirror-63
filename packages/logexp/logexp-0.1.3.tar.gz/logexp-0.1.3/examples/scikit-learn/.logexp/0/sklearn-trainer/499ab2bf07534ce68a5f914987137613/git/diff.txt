@@ -1,0 +1,169 @@
+diff --git a/logexp/executor.py b/logexp/executor.py
+index 660491a..2213a1c 100644
+--- a/logexp/executor.py
++++ b/logexp/executor.py
+@@ -139,7 +139,7 @@ class Executor:
+         report: tp.Optional[Report] = None
+ 
+         try:
+-            with capture() as captured_out:
++            with capture() as (stdout, stderr):
+                 report = worker.run()
+         except KeyboardInterrupt:
+             runinfo.status = Status.INTERRUPTED
+@@ -150,8 +150,8 @@ class Executor:
+             runinfo.status = Status.FINISHED
+         finally:
+             runinfo.report = report
+-            runinfo.stdout = captured_out["stdout"]
+-            runinfo.stderr = captured_out["stderr"]
++            runinfo.stdout = stdout.get()
++            runinfo.stderr = stderr.get()
+ 
+             runinfo.end_time = datetime.datetime.now()
+ 
+diff --git a/logexp/utils/capture.py b/logexp/utils/capture.py
+index 9a71f21..54291dc 100644
+--- a/logexp/utils/capture.py
++++ b/logexp/utils/capture.py
+@@ -1,68 +1,80 @@
+ from __future__ import annotations
++import typing as tp
+ 
+ import contextlib
+-import os
+-import subprocess
++import io
+ import sys
+-import tempfile
+-import traceback
++
++
++class TeeingStreamProxy:
++    def __init__(self, stream: tp.IO, out: tp.IO):
++        self._stream = stream
++        self._out = out
++
++    def __getattr__(self, name: str):
++        return getattr(self._stream, name)
++
++    def write(self, data):
++        self._stream.write(data)
++        self._out.write(data)
++
++    def flush(self):
++        self._stream.flush()
++        self._out.flush()
++
++
++class CapturedStdout:
++    def __init__(self, buffer: tp.IO) -> None:
++        self._buffer = buffer
++        self._read_position = 0
++        self._final: tp.Optional[str] = None
++
++    @property
++    def closed(self) -> bool:
++        return self._buffer.closed
++
++    def flush(self):
++        return self._buffer.flush()
++
++    def get(self) -> str:
++        if self._final is None:
++            self._buffer.seek(self._read_position)
++            value = self._buffer.read()
++            self._read_position = self._buffer.tell()
++            return value
++
++        value = self._final
++        self._final = None
++        return value
++
++    def finalize(self) -> None:
++        self.flush()
++        self._final = self.get()
++        self._buffer.close()
+ 
+ 
+ @contextlib.contextmanager
+ def capture():
+-    with tempfile.TemporaryDirectory() as temppath:
+-        stdout_path = os.path.join(temppath, "stdout.txt")
+-        stderr_path = os.path.join(temppath, "stderr.txt")
+-
+-        original_stdout_fd = 1
+-        original_stderr_fd = 2
+-        saved_stdout_fd = os.dup(original_stdout_fd)
+-        saved_stderr_fd = os.dup(original_stderr_fd)
+-
+-        tee_out = subprocess.Popen(
+-            ["tee", "-a", stdout_path],
+-            start_new_session=True,
+-            stdin=subprocess.PIPE,
+-            stdout=1
+-        )
+-        tee_err = subprocess.Popen(
+-            ["tee", "-a", stderr_path],
+-            start_new_session=True,
+-            stdin=subprocess.PIPE,
+-            stdout=2
+-        )
+-
+-        os.dup2(tee_out.stdin.fileno(), original_stdout_fd)
+-        os.dup2(tee_err.stdin.fileno(), original_stderr_fd)
+-
+-        capture_result = {
+-            "stdout": "",
+-            "stderr": "",
+-        }
+-
+-        try:
+-            yield capture_result
+-        except Exception as e:
+-            sys.stderr.write(traceback.format_exc())
+-            raise e
+-        finally:
+-            sys.stdout.flush()
+-            sys.stderr.flush()
+-
+-            tee_out.stdin.close()
+-            tee_err.stdin.close()
+-
+-            os.dup2(saved_stdout_fd, original_stdout_fd)
+-            os.dup2(saved_stderr_fd, original_stderr_fd)
+-
+-            tee_out.wait(timeout=1)
+-            tee_err.wait(timeout=1)
+-
+-            os.close(saved_stdout_fd)
+-            os.close(saved_stderr_fd)
+-
+-            with open(stdout_path) as f:
+-                capture_result["stdout"] = f.read()
+-
+-            with open(stderr_path) as f:
+-                capture_result["stderr"] = f.read()
++    stdout_buffer = io.StringIO()
++    stderr_buffer = io.StringIO()
++    stdout_capture = CapturedStdout(stdout_buffer)
++    stderr_capture = CapturedStdout(stderr_buffer)
++
++    orig_stdout, orig_stderr = sys.stdout, sys.stderr
++
++    sys.stdout.flush()
++    sys.stderr.flush()
++
++    sys.stdout = TeeingStreamProxy(sys.stdout, stdout_buffer)
++    sys.stderr = TeeingStreamProxy(sys.stderr, stderr_buffer)
++
++    try:
++        yield stdout_capture, stderr_capture
++    finally:
++        sys.stdout.flush()
++        sys.stderr.flush()
++
++        stdout_capture.finalize()
++        stderr_capture.finalize()
++
++        sys.stdout, sys.stderr = orig_stdout, orig_stderr
