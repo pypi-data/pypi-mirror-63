@@ -1,0 +1,5 @@
+---
+$schema: http://json-schema.org/draft-07/schema#
+description: A 128-bit unique ID, expressed in hex
+type: string
+pattern: "^[0-9|a-f]{8}-[0-9|a-f]{4}-[0-9|a-f]{4}-[0-9|a-f]{4}-[0-9|a-f]{12}$"

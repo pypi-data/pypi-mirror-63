@@ -1,0 +1,15 @@
+README.md
+setup.py
+sschema/__init__.py
+sschema.egg-info/PKG-INFO
+sschema.egg-info/SOURCES.txt
+sschema.egg-info/dependency_links.txt
+sschema.egg-info/requires.txt
+sschema.egg-info/top_level.txt
+sschema/handler/__init__.py
+sschema/handler/sschema.py
+sschema/schema/endian.yaml
+sschema/schema/raw-unit.yaml
+sschema/schema/si-unit.yaml
+sschema/schema/type.yaml
+sschema/schema/uuid.yaml
