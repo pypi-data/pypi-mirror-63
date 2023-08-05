@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ntc-pcrypto
+Version: 0.0.1
+Summary: ntc-pcrypto is module python cryptography
+Home-page: https://github.com/congnghia0609/ntc-pcrypto
+Author: NghiaTC
+Author-email: congnghia0609@gmail.com
+License: Apache License 2.0
+Description: ntc-pcrypto is module python cryptography
+Keywords: ntc-pcrypto,pcrypto,cryptography,crypto,encrypt
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: build
+Provides-Extra: test
