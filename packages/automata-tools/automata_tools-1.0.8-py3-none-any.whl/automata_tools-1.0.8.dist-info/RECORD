@@ -1,0 +1,17 @@
+automata_tools/Automata.py,sha256=uxDi_sCmeXpPl7dN3kkpBl90yrZvDdlUVDV1aGgEjBM,8320
+automata_tools/BuildAutomata.py,sha256=McdvTuFDaok_xFESJJn1lj7T07Odo2HlH20zx4btRPk,6601
+automata_tools/DFAFromNFA.py,sha256=x4WrjPYvKzKaQjS0vKxrgsDCszX0KkHGoM-uKDM7UiI,5635
+automata_tools/__init__.py,sha256=I7imH_8jzGabVrgR4UJBASKerGVPeGl7ogq9ZTpmPCE,206
+automata_tools/constants.py,sha256=nC4xok8ofaJwvmafZ_rRN9EWsX6SAxVN3nOZ5BP3pVc,15
+automata_tools/utils.py,sha256=NAIeMj0io5NnoelsQI2Nkq8WlpQjFVH1BvZAZLVL9xg,923
+examples/NFAfromCustomRule.py,sha256=y32KkxR1ex55JNsfd7I08c5odyBLUY4Mjp9pfHPoHik,7239
+examples/NFAfromRegex.py,sha256=9z5RBZqox4QAP5NhaCSK5Td03SfFT8tmJtDKTgygQ6w,4570
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/cli.py,sha256=1g8KM8-hYZI8fTsnvP2isKESUtnLy7QBAkoeu-RWo-c,1441
+scripts/gui.py,sha256=CkUHvRAZxDRH9mKH1pJNi3WIXZkv9rNwYBJtADckd3E,11090
+automata_tools-1.0.8.dist-info/LICENSE,sha256=qV3_ZfTTnkHgQtk2yctIjpPV4KLL4M7XWku76kghED8,1067
+automata_tools-1.0.8.dist-info/METADATA,sha256=iDFhE-RW-gowOSBKEUoZbYMvDOMEiZXxiSqJIsf0ugY,5016
+automata_tools-1.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+automata_tools-1.0.8.dist-info/top_level.txt,sha256=80HKQzMQy53_CC-J97STOhXuUMA514y8VgfFkaxns9Q,15
+automata_tools-1.0.8.dist-info/RECORD,,
