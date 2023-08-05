@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+fpandas/__init__.py
+fpandas/exceptions.py
+fpandas/pipe.py
+fpandas.egg-info/PKG-INFO
+fpandas.egg-info/SOURCES.txt
+fpandas.egg-info/dependency_links.txt
+fpandas.egg-info/not-zip-safe
+fpandas.egg-info/requires.txt
+fpandas.egg-info/top_level.txt
