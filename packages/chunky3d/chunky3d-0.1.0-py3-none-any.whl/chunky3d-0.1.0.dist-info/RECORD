@@ -1,0 +1,16 @@
+chunky3d/__init__.py,sha256=9tRWSsFjH_BH2jwZ_IMjzg3ZS87Dpt9vrO-cBeZSNI4,137
+chunky3d/_version.py,sha256=C3j8bNp0OXFiR3kZPlWeUHbgUp9oD4qQbu5xzJQi9-A,72
+chunky3d/chunk.py,sha256=dPOuragYcmo_anxp3uAvqJY9NjJ-ZtlXjqLzjZAgemM,985
+chunky3d/chunky.py,sha256=H4darh7fQZo3m7L2J0aQzOKDH4c2gZHJ9rOcAUzFKOs,41374
+chunky3d/helpers.py,sha256=vtig33zvWeELDhv5Zhlzef9WzOvkMK4pXMU1OAglofM,4057
+chunky3d/k3d_connector.py,sha256=-PbKQB_Itv6x-VzOwXmxeBjx3SZFF_V6vCSyhKSGDHQ,2268
+chunky3d/multiprocesses.py,sha256=Jl91oXzMmZH2DOHpQpFQwhG1DEQA0JbxaGV0ATMGmc4,2602
+chunky3d/sparse_func.py,sha256=AkTv54Bs1Bt7XQwI0MPN_howw6jBdByMlgVCmNOsO1Q,16717
+chunky3d/vtk_utils.py,sha256=l7T6C6E5EHX7YhX5And1AKxmpvdufEUr4bg66Wuk834,13099
+chunky3d/geometry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chunky3d/geometry/extract.py,sha256=d7Jt-Vbvg8XmvvlW-3cp8MP-pspFdzYMZz0t-018XYk,843
+chunky3d-0.1.0.dist-info/LICENSE,sha256=N7hsrhXPGP3zdQmgzF-As2JS0IfCNVOWWQpUdTpAhsk,1066
+chunky3d-0.1.0.dist-info/METADATA,sha256=STbvNOjE3iGLMIEBZrqoZ06Jztv7DUNiVE7t3JBeLgY,2306
+chunky3d-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chunky3d-0.1.0.dist-info/top_level.txt,sha256=v_erD1IKNkWeY1MTrPsIOziCFHqdK-Ensuk5ZGmSyCc,9
+chunky3d-0.1.0.dist-info/RECORD,,
