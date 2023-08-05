@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cfg-cli
+Version: 0.1.4
+Summary: Command-line tool for Cofactor Genomics' products and services.
+License: MIT
+Author: Alex Bode
+Author-email: alex_bode@cofactorgenomics.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: better-exceptions (>=0.2.2,<0.3.0)
+Requires-Dist: boto3 (>=1.12.17,<2.0.0)
+Requires-Dist: fire (>=0.2.1,<0.3.0)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
