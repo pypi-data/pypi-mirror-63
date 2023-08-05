@@ -1,0 +1,87 @@
+
+.sidebar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	padding: 0px;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+	// background-color: #242939;
+	background-color: white;
+	// color: #c0c4d1;
+  }
+  
+  .sidebar-sticky {
+	position: relative;
+	top: 0;
+	// height: calc(100vh - 70px);
+	height: 100vh;
+	padding-top: .5rem;
+	overflow-x: hidden;
+	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+	.sidebar-sticky {
+	  position: -webkit-sticky;
+	  position: sticky;
+	}
+  }
+
+#sidebar-menu>ul>li>ul {
+	padding-left: 0px;
+}
+
+#sidebar-menu>ul>li>a {
+	color: #6e768e;
+	display: block;
+	padding: 13px 30px 13px 20px;
+	position: relative;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+	font-family: "Work Sans",sans-serif;
+	font-size: .925rem;
+}
+
+#sidebar-menu>ul>li>ul>li>a {
+	padding: 2px 20px;
+	color: #6e768e;
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+#sidebar-menu .has-arrow::after {
+
+	right: 20px;
+
+	}
+
+.metismenu {
+	padding: 0;
+}
+
+.metismenu li {
+	list-style: none;
+	}
+  
+  .sidebar .nav-link {
+
+  }
+  
+  
+  .sidebar .nav-link.active {
+	color: #007bff;
+  }
+
+  .sidebar-heading {
+	padding: 10px 20px;
+	letter-spacing: .05em;
+	pointer-events: none;
+	cursor: default;
+	font-size: .6875rem;
+	text-transform: uppercase;
+	color: #6e768e;
+	font-weight: 600;
+  }

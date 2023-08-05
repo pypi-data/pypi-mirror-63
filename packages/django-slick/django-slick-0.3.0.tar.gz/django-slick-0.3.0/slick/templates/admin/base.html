@@ -1,0 +1,87 @@
+{% load static slick_tags %}
+<!DOCTYPE html>
+<html lang='{{LANGUAGE_CODE}}'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <title>Admin</title>
+    {% block stylesheets %}
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet'>
+      <link href='{% static 'slick/plugins/bootstrap-select-1.6.3/css/bootstrap-select.min.css' %}' rel='stylesheet'>
+      <link href='{% static 'slick/css/slick.css' %}' rel='stylesheet'>
+      <link href='{% static 'slick/plugins/metisMenu/metisMenu.min.css' %}' rel='stylesheet'>
+
+    {% endblock %}
+    {% block javascripts %}
+      <script type='text/javascript'>
+        var slick = {};
+      </script>
+      <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+      <script src='{% static 'slick/plugins/bootstrap-4.3.1/bootstrap.bundle.min.js' %}'></script>
+      <script src='{% static 'slick/plugins/metisMenu/metisMenu.min.js' %}'></script>
+      <script src='{% static 'slick/plugins/bootstrap-select-1.6.3/js/bootstrap-select.min.js' %}'></script>
+      <script src='{% static 'slick/js/slick.js' %}'></script>
+      <script type='text/javascript'>
+        (function($) {
+          $(document).ready(function() {
+            slick.initSidebar();
+          });
+        })(slk.jQuery);
+      </script>
+    {% endblock %}
+    {% block extrahead %}
+
+    {% endblock %}
+
+  </head>
+  <body class=''>
+    <div id='container-fluid'>
+      <div class='row'>
+        <div aria-expanded='true' class='sidebar col-md-2' id='sidebar'>
+          <div class='sidebar-sticky'>
+            {% include "admin/includes/sidebar.html" %}
+
+          </div>
+        </div>
+        <div class='content col-md-9 ml-sm-auto col-lg-10 px-4' id='content'>
+          <div class='navbar special-navbar navbar-light flex-column flex-md-row'>
+
+
+            <ul class='navbar-nav flex-row'>
+              <li>
+                <button data-click='sidebar-toggle' class='navbar-toggler'>
+                  <span class='navbar-toggler-icon'></span>
+                </button>
+              </li>
+            </ul>
+            <div class='navbar-nav ml-md-auto'>
+              {% firstof user.get_short_name user.get_username %}
+
+            </div>
+          </div>
+          <div class='container-fluid'>
+
+            <h1 class='content-title'>
+              {% block content_title %}
+                {% if title %}
+                  {{ title }}
+
+                {% endif %}
+              {% endblock %}
+            </h1>
+            {% block content %}
+
+
+            {% endblock %}
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    {% block footer %}
+    {% endblock %}
+  </body>
+</html>
