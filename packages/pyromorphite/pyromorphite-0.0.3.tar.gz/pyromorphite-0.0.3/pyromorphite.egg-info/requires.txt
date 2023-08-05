@@ -1,0 +1,2 @@
+pandas==0.25.3
+lxml==4.4.2networkx==2.4.0
