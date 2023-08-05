@@ -1,0 +1,54 @@
+# Maintainer: Philip Top <top1@llnl.gov>
+
+_realname=helics
+pkgbase=mingw-w64-${_realname}
+pkgname="${MINGW_PACKAGE_PREFIX}-${_realname}"
+pkgver=2.4.0
+pkgrel=1
+pkgdesc="Hiearchical Engine for Large-scale Infrastructure Co-Simulation (mingw-w64)"
+arch=('any')
+url="https://github.com/GMLC-TDC/HELICS"
+license=('BSD-3-clause')
+depends=("${MINGW_PACKAGE_PREFIX}-zeromq"
+         "${MINGW_PACKAGE_PREFIX}-python3")
+makedepends=("${MINGW_PACKAGE_PREFIX}-gcc"
+             "${MINGW_PACKAGE_PREFIX}-cmake"
+             "${MINGW_PACKAGE_PREFIX}-zeromq"
+             make
+             "${MINGW_PACKAGE_PREFIX}-boost"
+             "${MINGW_PACKAGE_PREFIX}-python3")
+options=('!staticlibs' '!strip')
+source=("${_realname}-${pkgver}.tar.gz"::"https://github.com/GMLC-TDC/HELICS/releases/download/v${pkgver}/HELICS-v${pkgver}-source.tar.gz")
+sha256sums=('ffc4c8fa8fa593186a64288849a69c707ed91820448ff965947e32cdd54f9308')
+
+#prepare() {
+#  mkdir -p test
+#}
+
+build() {
+  declare -a extra_config
+  if check_option "debug" "n"; then
+    extra_config+=("-DCMAKE_BUILD_TYPE=Release")
+  else
+    extra_config+=("-DCMAKE_BUILD_TYPE=Debug")
+  fi
+
+  [[ -d ${srcdir}/build-${MINGW_CHOST} ]] && rm -rf ${srcdir}/build-${MINGW_CHOST}
+  mkdir "${srcdir}/build-${MINGW_CHOST}" && cd "${srcdir}/build-${MINGW_CHOST}"
+
+  MSYS2_ARG_CONV_EXCL="-DCMAKE_INSTALL_PREFIX=" \
+  ${MINGW_PREFIX}/bin/cmake \
+    -G"MSYS Makefiles" \
+    -DCMAKE_INSTALL_PREFIX=${MINGW_PREFIX} \
+    -DBUILD_SHARED_LIBS=ON \
+    -DBUILD_PYTHON_INTERFACE=ON\
+    ${extra_config} \
+    ..
+
+  make
+}
+
+package() {
+  cd "${srcdir}/build-${MINGW_CHOST}"
+  make DESTDIR=${pkgdir} install
+}
