@@ -1,0 +1,12 @@
+hypothesize/__init__.py,sha256=9fucC2gjGbGdT7Z_s5FuTb3cnxjyYK2k6JwoTI7nPqE,84
+hypothesize/compare_groups_with_single_factor.py,sha256=zl_THCuKqx1sk87HFldjUJpDauQUnNW55r2YcaqezQI,2048
+hypothesize/utilities.py,sha256=6cyk6dk5oLOpytrDXiG4HtVJoUGMInHA5YUxFT3okwA,3129
+hypothesize/compare_groups_with_single_factor/__init__.py,sha256=f0I7m2XrgcPYpeCC52xSmm_GEuaIAjgUNdetelbMgTw,51
+hypothesize/compare_groups_with_single_factor/_compare_groups_with_single_factor.py,sha256=ZeCaX-1zwB8r0Jg1_3NpAf1LdZkGH2fH0CyM8wVpEQA,2071
+hypothesize/measuring_associations/__init__.py,sha256=JNlqb_5qWxi-G7sCkNEIrET7Oag-45JX9fk5dmUb1Qo,39
+hypothesize/measuring_associations/_measuring_associations.py,sha256=8xAeZSc5UUDmzg0AESUG0aLYak6vvqVAqOYbluoY5gU,2916
+hypothesize-0.1.dev8.dist-info/LICENSE,sha256=q6P6aQ5NdZ7buu7feDH7h-rrBzT-0yaBBPviqibMV0s,1487
+hypothesize-0.1.dev8.dist-info/METADATA,sha256=FaJzAnf4DUsqGYndglnTmUzYIiwmKI4ce4DB4mtNaLA,2237
+hypothesize-0.1.dev8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hypothesize-0.1.dev8.dist-info/top_level.txt,sha256=Fn_blFLo_OebYFOa5rB1jwcdneR2arZgyZds-xLKPds,12
+hypothesize-0.1.dev8.dist-info/RECORD,,
