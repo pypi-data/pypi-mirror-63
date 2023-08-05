@@ -1,0 +1,8 @@
+README.md
+setup.py
+py_riff/__init__.py
+py_riff/commons.py
+py_riff.egg-info/PKG-INFO
+py_riff.egg-info/SOURCES.txt
+py_riff.egg-info/dependency_links.txt
+py_riff.egg-info/top_level.txt
