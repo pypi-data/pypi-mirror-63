@@ -1,0 +1,7 @@
+jdatetime
+django_tables2
+django-phonenumber-field
+phonenumbers
+kavenegar
+django-cryptography
+pyJWT
