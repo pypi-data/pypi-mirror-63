@@ -1,0 +1,17 @@
+cloudmesh_aws-4.1.5-py3.8-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/aws/__init__.py,sha256=qS8J8t46rh5Pooly4LFiytlNKBi6uu8JcNs0Kft_kUI,21
+cloudmesh/aws/__version__.py,sha256=NCvyM26mBZdswQZM_m62HjMqHYX6GGiH8H7FDkhnSuo,17
+cloudmesh/aws/compute/AwsFlavors-Gregor.py,sha256=HAcI9lWsKz5bBfSZnhYw7C6Cl19crbCCvb5nogAV59g,4581
+cloudmesh/aws/compute/AwsFlavors-dev.py,sha256=iSQT8NJddscXCtAHdvGcuiCESzYeugGEHyTY_w_1sb0,4915
+cloudmesh/aws/compute/AwsFlavors.py,sha256=lOU0eAe0XITvt1VKneDMf30owv6-OhP61WqwkK0fyv8,5613
+cloudmesh/aws/compute/Provider-dev.py,sha256=lqXRdTc-BaNwKsaDDqu7mTPTmafaw8pEmfYsTiipleA,50847
+cloudmesh/aws/compute/Provider.py,sha256=IC4GhYxX4iinqyub9gGNowiy9cQE9NMKvnpUPzXjmCY,51694
+cloudmesh/aws/compute/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/aws/compute/gregor_flavor.py,sha256=vKFeD2MTVrZWTeR_AI7QKTLCHmj6RjbrVhslq6CjQos,3017
+cloudmesh/aws/compute/test_boto.py,sha256=Hy_U3mi1BeyqAXDHqDwcKwUXVb79wvlGmmgsTEjBhus,2513
+cloudmesh_aws-4.1.5.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_aws-4.1.5.dist-info/METADATA,sha256=uGKwm79EkX_GVoFSQv-Sa-GHBlfxCygSPVq7WveR2NA,1475
+cloudmesh_aws-4.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_aws-4.1.5.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_aws-4.1.5.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_aws-4.1.5.dist-info/RECORD,,
