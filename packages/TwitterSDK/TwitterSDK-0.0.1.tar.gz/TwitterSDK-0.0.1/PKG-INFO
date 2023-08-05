@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: TwitterSDK
+Version: 0.0.1
+Summary: A Twitter SDK to help API consume.
+Home-page: https://github.com/user/jessescn
+Author: Jessé Souza
+Author-email: jesse.neto@ccc.ufcg.edu.br
+License: MIT
+Download-URL: https://github.com/jessescn/TwitterSDK/archive/0.1.tar.gz
+Description: # Twitter SDK
+        
+        Work in Progress
+        
+        ## Installation
+        
+        This project is available via PyPi, you just need to run this command above
+        ```
+        $ pip install twittersdk
+        ```
+        
+        ## TODO
+        
+        ### Follow, search and get users
+        
+        List of methods in this [Twitter API session page](https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-users-lookup).
+        
+        * [x] GET friends/ids
+        * [x] GET friends/list
+        * [x] GET followers/ids
+        * [x] GET followers/list
+        * [ ] GET friendships/incoming
+        * [ ] GET friendships/lookup
+        * [ ] GET friendships/no_retweets/ids
+        * [ ] GET friendships/outgoing
+        * [ ] GET friendships/show
+        * [x] GET users/lookup
+        * [ ] GET users/search
+        * [ ] GET users/show
+        * [ ] POST friendships/create
+        * [ ] POST friendships/destroy
+        * [ ] POST friendships/update 
+        
+Keywords: Twitter,API,Python,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
