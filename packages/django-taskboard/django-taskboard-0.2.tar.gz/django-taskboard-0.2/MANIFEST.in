@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include taskboard/controller *
+recursive-include taskboard/sessions *
+recursive-include taskboard/static *
+recursive-include taskboard/templates *

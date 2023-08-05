@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  {% load static %}
+  {% include 'taskboard/head.html' %}
+  <body id="page-top">
+    <div id="wrapper">
+      {% include 'taskboard/sidebar.html' %}
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div class="row align-items-center h-100">
+          <div class="col-6 mx-auto">
+            <div class="text-center">
+              <div class="error mx-auto" data-text="404">404</div>
+              <p class="lead text-gray-800 mb-4">Page Not Found</p>
+              <p class="text-gray-500 mb-1">It looks like you found a glitch in the matrix...</p>
+              <a href="/" class="btn btn-primary btn-icon-split">
+                <span class="icon text-white-50">
+                  <i class="fas fa-arrow-left"></i>
+                </span>
+                <span class="text">Back to Dashboard</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% include 'taskboard/footer.html' %}
+      </div>
+    </div>
+    {% include 'taskboard/modal-logout.html' %}
+    {% include 'taskboard/scripts.html' %}
+  </body>
+</html>

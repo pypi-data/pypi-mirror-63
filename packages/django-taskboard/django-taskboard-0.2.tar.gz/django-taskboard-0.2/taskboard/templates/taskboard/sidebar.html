@@ -1,0 +1,59 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+    <div class="sidebar-brand-icon">
+      <i class="fas fa-server"></i>
+    </div>
+    <div class="sidebar-brand-text mx-2">Taskboard</div>
+  </a>
+  <hr class="sidebar-divider my-0">
+  <li class="nav-item {% if active == 'dashboard' %} active {% endif %}">
+    <a class="nav-link" href="/">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard</span>
+    </a>
+  </li>
+  <hr class="sidebar-divider">
+  <div class="sidebar-heading">Performance</div>
+  <li class="nav-item {% if active == 'cpu' %} active {% endif %}">
+    <a class="nav-link" href="/performance/cpu">
+      <i class="fas fa-fw fa-microchip"></i>
+      <span>CPU</span>
+    </a>
+  </li>
+  <li class="nav-item {% if active == 'memory' %} active {% endif %}">
+    <a class="nav-link" href="/performance/memory">
+      <i class="fas fa-fw fa-memory"></i>
+      <span>Memory</span>
+    </a>
+  </li>
+  <li class="nav-item {% if active == 'disk' %} active {% endif %}">
+    <a class="nav-link" href="/performance/disk">
+      <i class="fas fa-fw fa-hdd"></i>
+      <span>Disk</span>
+    </a>
+  </li>
+  <li class="nav-item {% if active == 'network' %} active {% endif %}">
+    <a class="nav-link" href="/performance/network">
+      <i class="fas fa-fw fa-network-wired"></i>
+      <span>Network</span>
+    </a>
+  </li>
+  <hr class="sidebar-divider d-none d-md-block">
+  <div class="sidebar-heading">System</div>
+  <li class="nav-item {% if active == 'processes' %} active {% endif %}">
+    <a class="nav-link" href="/system/processes">
+      <i class="fas fa-fw fa-wrench"></i>
+      <span>Processes</span>
+    </a>
+  </li>
+  <li class="nav-item {% if active == 'services' %} active {% endif %}">
+    <a class="nav-link" href="/system/services">
+      <i class="fas fa-fw fa-cog"></i>
+      <span>Services</span>
+    </a>
+  </li>
+  <hr class="sidebar-divider d-none d-md-block">
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+</ul>
