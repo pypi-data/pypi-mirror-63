@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-xlsxtable
+Version: 0.1.7.dev20200308
+Summary: A sphinx extension for making table from Excel file
+Home-page: https://github.com/kkAyataka/sphinxcontrib-xlsxtable
+Author: kkAyataka
+Author-email: kk.ayataka@gmail.com
+License: MIT
+Download-URL: http://pypi.python.org/pypi/sphinxcontrib-xlsxtable
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: Sphinx
+Requires-Dist: openpyxl
+
+=======================
+sphinxcontrib-xlsxtable
+=======================
+
+A sphinx extension for making table from Excel file.
+
+- Depends on `OpenPyXL <https://openpyxl.readthedocs.io/en/stable/>`__
+
+  - Supports xlsx file
+
+- Supports merged cell
+- Supports Japanese
+
+This extension **generates a grid table string internally** from Excel file.
+
+reStructuredText:
+
+.. code-block:: rst
+
+   .. xlsx-table:: Table Caption
+      :file: path/to/xlsx/file.xlsx
+      :header-rows: 1
+
+Excel file:
+
+.. image:: https://raw.githubusercontent.com/kkAyataka/sphinxcontrib-xlsxtable/master/sample-excel.png
+
+Rendered HTML:
+
+.. image:: https://raw.githubusercontent.com/kkAyataka/sphinxcontrib-xlsxtable/master/sample-rendering.png
+
+
+LICENSE
+=======
+
+- MIT
+
+
