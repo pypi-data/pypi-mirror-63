@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pydocstring_coverage/__init__.py
+pydocstring_coverage/coverage.py
+pydocstring_coverage.egg-info/PKG-INFO
+pydocstring_coverage.egg-info/SOURCES.txt
+pydocstring_coverage.egg-info/dependency_links.txt
+pydocstring_coverage.egg-info/entry_points.txt
+pydocstring_coverage.egg-info/not-zip-safe
+pydocstring_coverage.egg-info/requires.txt
+pydocstring_coverage.egg-info/top_level.txt

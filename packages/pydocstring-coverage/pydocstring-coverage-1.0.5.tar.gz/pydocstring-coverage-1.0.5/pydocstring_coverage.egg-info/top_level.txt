@@ -1,0 +1,1 @@
+pydocstring_coverage
