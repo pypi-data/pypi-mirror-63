@@ -1,0 +1,9 @@
+python_rclone_wrapper/__init__.py,sha256=ps7DUYwDjS1z1JdKLLn9it9hueH1lu-7YDhXbphUg98,150
+python_rclone_wrapper/cli.py,sha256=xWjL8IcxwBFX1l2o3eGjtPXNJkJpTeT9R_YyFajevns,1722
+python_rclone_wrapper/locking.py,sha256=dGt0rTz11XMs1LX66aR5XUQMxfC48DvOM4uoTpTnVuM,1598
+python_rclone_wrapper/rclone.py,sha256=EBaocAgulROCD4Yr1vnAKZ7iHn4ktoeQjrIUn6nWf8E,9441
+python_rclone_wrapper-0.3.1.dist-info/METADATA,sha256=K5RJ_etyaPGWJK7GsU7P0MSJPVwHLpUPNeZJrzZB5BE,959
+python_rclone_wrapper-0.3.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_rclone_wrapper-0.3.1.dist-info/entry_points.txt,sha256=0tsq4-CTMn-gIMbrW5cYFsV5DMfpV2fNY3F16bxn3Jo,74
+python_rclone_wrapper-0.3.1.dist-info/top_level.txt,sha256=g3xQuxPDT66f-CXeoGS1Et4lb2nZiQcE0v2WYTEYH9E,22
+python_rclone_wrapper-0.3.1.dist-info/RECORD,,
