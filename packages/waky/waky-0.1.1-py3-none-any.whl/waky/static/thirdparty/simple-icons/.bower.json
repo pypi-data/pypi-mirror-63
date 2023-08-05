@@ -1,0 +1,15 @@
+{
+  "name": "simple-icons",
+  "homepage": "https://github.com/danleech/simple-icons",
+  "version": "2.6.0",
+  "_release": "2.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.6.0",
+    "commit": "dfeaa3b09d7482a71ef4c755918ec27d1db9b6e6"
+  },
+  "_source": "https://github.com/danleech/simple-icons.git",
+  "_target": "^2.6.0",
+  "_originalSource": "simple-icons",
+  "_direct": true
+}
