@@ -1,0 +1,13 @@
+redbucket/__init__.py,sha256=bJ4EokdtcDkJeXIbO8Uz0C94ATWci5hzzBHc0AQr_pw,543
+redbucket/base.py,sha256=v-Bm5MeWAqOEUQ1-pSY4pbtprxbXTmOIIsmF_SkfyyI,4784
+redbucket/codecs.py,sha256=rPxNU1nm_IfCwghNtz3Q827ufPk6LrEbD0Th6CBk2D0,4814
+redbucket/data.py,sha256=uIaGcEtVRKbCTqwoJtj7EpmN6LabE8eLrA-sCNQ-2C8,1166
+redbucket/in_memory.py,sha256=i9A-b9qq1VT9ghrcUBW6FxlTAPkblxjT9XP9hVPlh80,2225
+redbucket/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redbucket/script.py,sha256=5Mxqm7Jj2uZsv_QRlQqV1OpoiOOCtERj8Vd33eKgFrc,4290
+redbucket/transactional.py,sha256=_IeTt6y8QJME-ZPkcMuDReHsp92vfbdtDcesbDQZMG8,3003
+redbucket-0.1.0.dist-info/LICENSE,sha256=FbcAuWun6gGSJ4020f6Iza_aE59y5saYQrqhJkDO68w,1070
+redbucket-0.1.0.dist-info/METADATA,sha256=bQJvokXDRR4SoYwazoBFZfitDzqannEAXgFaNnTkfWU,7207
+redbucket-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+redbucket-0.1.0.dist-info/top_level.txt,sha256=zQdMabWND-_o2hIYK7rGKCOtm2gbo4Zks-a7NB6ucYQ,10
+redbucket-0.1.0.dist-info/RECORD,,
