@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: turbo-seti
+Version: 1.0.0
+Summary: Analysis tool for the search of narrow band drifting signals in filterbank data
+Home-page: https://github.com/UCBerkeleySETI/turbo_seti
+Author: Emilio Enriquez
+Author-email: e.enriquez@berkeley.edu
+License: MIT License
+Keywords: astronomy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: astropy
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: blimpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
