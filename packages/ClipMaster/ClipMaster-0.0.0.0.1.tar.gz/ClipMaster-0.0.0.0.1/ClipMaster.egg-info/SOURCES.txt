@@ -1,0 +1,8 @@
+README.md
+setup.py
+ClipMaster/ClipMaster.py
+ClipMaster/__init__.py
+ClipMaster.egg-info/PKG-INFO
+ClipMaster.egg-info/SOURCES.txt
+ClipMaster.egg-info/dependency_links.txt
+ClipMaster.egg-info/top_level.txt
