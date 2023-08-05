@@ -1,0 +1,3 @@
+[console_scripts]
+deeplearning2020 = deeplearning2020.cli:main
+
