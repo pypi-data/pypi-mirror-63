@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pricestf/__init__.py
+pricestf/itemids.json
+pricestf/pricestf.py
+pricestf.egg-info/PKG-INFO
+pricestf.egg-info/SOURCES.txt
+pricestf.egg-info/dependency_links.txt
+pricestf.egg-info/requires.txt
+pricestf.egg-info/top_level.txt
