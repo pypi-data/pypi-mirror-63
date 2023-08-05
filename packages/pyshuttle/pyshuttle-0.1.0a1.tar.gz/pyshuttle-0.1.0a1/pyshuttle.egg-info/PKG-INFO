@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pyshuttle
+Version: 0.1.0a1
+Summary: Cross-chain atomic swaps between the networks of two cryptocurrencies.
+Home-page: https://github.com/meherett/shuttle
+Author: Meheret Tesfaye
+Author-email: meherett@zoho.com
+License: AGPL-3.0
+Description: # Shuttle
+        Cross-chain atomic swaps between the networks of two cryptocurrencies.
+        
+        ## Installation
+        PIP to install shuttle globally. For Linux sudo may be required.
+        ```
+        $ pip install pyshuttle
+        ```
+        
+        ## Development
+        We welcome pull requests. To get started, just fork this repo, clone it locally, and run:
+        ```
+        $ pip install -e . -r requirements.txt
+        ```
+        
+        ## Testing
+        Tests are still under development.
+        
+        You can run the tests with:
+        
+        ```
+        $ pytest tests
+        ```
+        
+        Or use `tox` to run the complete suite against the full set of build targets, or pytest to run specific 
+        tests against a specific version of Python.
+        
+        ## Contributing
+        Feel free to open an issue if you find a problem, or a pull request if you've solved an issue.
+        
+        ## Meta
+        
+        Meheret Tesfaye â€“ [@meherett](https://github.com/meherett) â€“ meherett@zoho.com
+        
+        Distributed under the AGPL-3.0 license. See ``LICENSE`` for more information.
+        
+        For the versions available, see the [tags on this repository](https://github.com/meherett/shuttle/tags).
+        
+        ## License
+        [AGPL-3.0](https://github.com/meherett/shuttle/LICENSE)
+        
+Keywords: shuttle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
