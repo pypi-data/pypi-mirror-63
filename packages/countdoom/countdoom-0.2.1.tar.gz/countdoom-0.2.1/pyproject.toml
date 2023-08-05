@@ -1,0 +1,43 @@
+# -*-mode:toml-*- vim:ft=toml
+
+# Python project config file
+#
+# Defines Python build system requirements and default options for related
+# tools.
+# See https://www.python.org/dev/peps/pep-0518/
+
+[build-system]
+requires = ["setuptools>=41.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+target_version = ['py36']
+include = '\.pyi?$'
+# Exclude a few common directories in the root of the project.
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | venv
+  )/
+)
+'''
+
+[tool.isort]
+combine_as_imports = true
+force_grid_wrap = 0
+include_trailing_comma = true
+known_third_party = ["_pytest", "aiohttp", "aioresponses", "async_timeout", "bs4", "pytest", "pytest_httpserver", "requests", "setuptools"]
+line_length = 79
+multi_line_output = 3
+skip = 'docs'

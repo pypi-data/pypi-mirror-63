@@ -1,0 +1,3 @@
+[console_scripts]
+countdoom = countdoom.cli:cli
+
