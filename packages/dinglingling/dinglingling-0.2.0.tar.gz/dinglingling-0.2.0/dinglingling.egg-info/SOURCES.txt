@@ -1,0 +1,8 @@
+setup.py
+dinglingling/__init__.py
+dinglingling/wx_reminder.py
+dinglingling.egg-info/PKG-INFO
+dinglingling.egg-info/SOURCES.txt
+dinglingling.egg-info/dependency_links.txt
+dinglingling.egg-info/not-zip-safe
+dinglingling.egg-info/top_level.txt
