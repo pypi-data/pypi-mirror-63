@@ -1,0 +1,3 @@
+[console_scripts]
+bio = handbook.bio:main
+

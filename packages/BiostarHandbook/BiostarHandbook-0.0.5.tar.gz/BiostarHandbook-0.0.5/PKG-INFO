@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: BiostarHandbook
+Version: 0.0.5
+Summary: Utilities for the Biostar Handbook 
+Home-page: https://github.com/biostars/biostar-handbook-code
+Author: Istvan Albert
+Author-email: istvan.albert@gmail.com
+License: UNKNOWN
+Description: # Biostar Handbook: Code
+        
+        This package contains code used in the [Biostar Handbook][book].
+        
+        * <https://www.biostarhandbook.com>
+        
+        minimap2 -a demo.fa query.fa | samtools calmd -u - demo.fa | samtools sort > demo.bam
+        
+        [book]:  https://www.biostarhandbook.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
