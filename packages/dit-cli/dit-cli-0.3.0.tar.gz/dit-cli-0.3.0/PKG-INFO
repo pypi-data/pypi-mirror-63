@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dit-cli
+Version: 0.3.0
+Summary: The CLI for dit
+Home-page: https://www.ditabase.io/
+License: GPL-3.0-or-later
+Author: Isaiah Shiner
+Author-email: shiner.isaiah@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+This is the CLI for dit. Dit is a type of arbitrary container file. This
+CLI can interact with scripts in dit files, and do things like telling
+them to validate themselves. See more at [DitaBase.io]
+
+  [DitaBase.io]: https://www.ditabase.io/
