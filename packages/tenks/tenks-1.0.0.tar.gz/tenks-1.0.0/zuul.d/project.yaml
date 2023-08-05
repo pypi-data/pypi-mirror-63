@@ -1,0 +1,26 @@
+---
+- project:
+    templates:
+      - openstack-cover-jobs
+      - openstack-python-jobs
+      - openstack-python3-ussuri-jobs
+      - publish-openstack-docs-pti
+      - release-notes-jobs-python3
+
+    check:
+      jobs:
+        - tenks-tox-ansible-lint
+        - tenks-deploy-teardown-centos
+        - tenks-deploy-teardown-ubuntu
+        # Until we have ironic jobs using tenks, gate on the kayobe overcloud
+        # deploy job, which uses tenks to test bare metal compute provisioning.
+        - kayobe-overcloud-centos
+    gate:
+      queue: tenks
+      jobs:
+        - tenks-tox-ansible-lint
+        - tenks-deploy-teardown-centos
+        - tenks-deploy-teardown-ubuntu
+        # Until we have ironic jobs using tenks, gate on the kayobe overcloud
+        # deploy job, which uses tenks to test bare metal compute provisioning.
+        - kayobe-overcloud-centos

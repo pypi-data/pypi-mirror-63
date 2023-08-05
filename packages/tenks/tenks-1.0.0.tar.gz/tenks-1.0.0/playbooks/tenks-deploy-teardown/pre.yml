@@ -1,0 +1,58 @@
+---
+- hosts: all
+  pre_tasks:
+    - name: Include common variables
+      include_vars: common.yml
+  roles:
+    - role: tenks-diagnostics
+      tenks_diagnostics_phase: "pre"
+      tenks_diagnostics_log_dir: "{{ logs_dir }}"
+    - role: tenks-ci-prep
+  tasks:
+    - name: Ensure config directory exists
+      file:
+        path: "{{ config_dir }}"
+        state: "directory"
+
+    - name: Template tenks overrides
+      template:
+        src: tenks-overrides.yml.j2
+        dest: "{{ tenks_overrides_path }}"
+
+    - name: Create virtualenv for tenks
+      pip:
+        requirements: "{{ tenks_src_dir }}/requirements.txt"
+        virtualenv: "{{ tenks_venv }}"
+
+    - name: Template requirements overrides
+      template:
+        src: requirements-overrides.yml.j2
+        dest: "{{ tenks_requirements_overrides_path }}"
+
+    - name: Install Ansible Galaxy dependencies
+      vars:
+        ansible_galaxy_bin: "{{ tenks_venv }}/bin/ansible-galaxy"
+      command:
+        cmd: >-
+          {{ ansible_galaxy_bin }} install -r {{ tenks_src_dir }}/requirements.yml
+          -p {{ tenks_src_dir }}/ansible/roles
+        chdir: "{{ tenks_src_dir }}"
+
+    - name: Install dependencies for CI
+      # We install roles specifc to CI over the existing ones. This means that we
+      # don't have to keep the two requirements files in sync, as we just override
+      # some of them.
+      vars:
+        ansible_galaxy_bin: "{{ tenks_venv }}/bin/ansible-galaxy"
+      command:
+        cmd: >-
+          {{ ansible_galaxy_bin }} install -f -r "{{ tenks_requirements_overrides_path }}"
+          -p {{ tenks_src_dir }}/ansible/roles
+        chdir: "{{ tenks_src_dir }}"
+
+    - name: Ensure network bridge for physnet1 exists
+      command: "{{ item }}"
+      become: true
+      with_items:
+        - "ip l add breth1 type bridge"
+        - "ip l set breth1 up"
