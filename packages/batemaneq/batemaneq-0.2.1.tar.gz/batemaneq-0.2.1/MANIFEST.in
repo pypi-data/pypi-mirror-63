@@ -1,0 +1,5 @@
+recursive-include include *.hpp *.h *.pyx
+include AUTHORS
+include CHANGES.rst
+include LICENSE
+include README.rst
