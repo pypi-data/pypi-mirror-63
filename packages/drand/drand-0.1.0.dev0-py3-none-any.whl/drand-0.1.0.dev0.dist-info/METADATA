@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: drand
+Version: 0.1.0.dev0
+Summary: Python client for drand.
+Home-page: UNKNOWN
+Author: Sylvain Bellemare
+License: MIT license
+Keywords: drand
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+
+drandpy
+=======
+Python client for drand.
+
+
