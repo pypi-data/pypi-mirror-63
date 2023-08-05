@@ -1,0 +1,12 @@
+azureml/__init__.py,sha256=ybCtCrXNS3six25SvldGKjcl-9eR9CzOMgoUjbRBdBQ,249
+azureml/contrib/__init__.py,sha256=ybCtCrXNS3six25SvldGKjcl-9eR9CzOMgoUjbRBdBQ,249
+azureml/contrib/dataset/__init__.py,sha256=r7ij7QTN1sz_RxXSC_ZKAL6oHgieN54Yi7_Y0S7sl3s,545
+azureml/contrib/dataset/_torchvision_helper.py,sha256=qsVA5SX-tt1za7uKggvRXt9PagWA26qBrS4OMAIljC0,6807
+azureml/contrib/dataset/labeled_dataset.py,sha256=kZS1Jj_aX6EUWtJCH5zV8UVj17pEtmT4MGa4jeJKeoc,22461
+azureml_contrib_dataset-1.1.5.dist-info/DESCRIPTION.rst,sha256=MB-yoiVSBNVpR2YocBWKiuLdy9vmdhxu9UrGXuP97pY,326
+azureml_contrib_dataset-1.1.5.dist-info/LICENSE.txt,sha256=FOfkEEz4uS7g278F9Rq12rqKF3lLyBUZhVpLetuZrTg,1021
+azureml_contrib_dataset-1.1.5.dist-info/METADATA,sha256=0ffH2fGVcn-ch9O7cHCJUL65LHrdD-L5MRdy7Myei5k,748
+azureml_contrib_dataset-1.1.5.dist-info/RECORD,,
+azureml_contrib_dataset-1.1.5.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+azureml_contrib_dataset-1.1.5.dist-info/metadata.json,sha256=F7ys7m3zWUN6vORueqn4miggIvey5acZJ9V0JvbyE9Y,665
+azureml_contrib_dataset-1.1.5.dist-info/top_level.txt,sha256=ZOeEa0TAXo6i5wOjwBoqfIGEuxOcKuscGgNSpizqREY,8
