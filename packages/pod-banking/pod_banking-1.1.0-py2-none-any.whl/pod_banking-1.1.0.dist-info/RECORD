@@ -1,0 +1,10 @@
+pod_banking/__init__.py,sha256=Dy3PYNMKcMYPKQG1B97juom3JC1Hbyzmlk1Fbm09xSc,36
+pod_banking/data_ordered.py,sha256=Q5IOfGlfQueoxDHfje74Vvz-1lt2MqUkRJu1mpZms-A,5289
+pod_banking/json_schema.json,sha256=jLwBas7kqrctqToFA8Cr_shTejtEoUxhzKjQdeBMtAs,24983
+pod_banking/pod_banking.py,sha256=j608B9bAXpNsnfk76IyGeXOlqKDBTZ-ewRVdOoFeZcY,28589
+pod_banking/services.json,sha256=TQGptk7GggTzc1Ow7DAnZ_36Yil2kaqF1SGJHNdCiSk,3508
+pod_banking/version.py,sha256=I9kKE-DuoDgo5xfD475eBgwo0uv3xYpu77fzT9oqx5U,24
+pod_banking-1.1.0.dist-info/METADATA,sha256=wOKX0F6zUtIl3TVSsznvPRrAjt3yKzfi66GMPd9ewaw,1794
+pod_banking-1.1.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+pod_banking-1.1.0.dist-info/top_level.txt,sha256=WTmbjPubLOCpYbOy5QLDRn4jYTbU8_FsgLLsUbfVJ-8,12
+pod_banking-1.1.0.dist-info/RECORD,,

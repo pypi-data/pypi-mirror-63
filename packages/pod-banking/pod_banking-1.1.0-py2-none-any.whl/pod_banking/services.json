@@ -1,0 +1,157 @@
+{
+  "get_nzh_biz_getShebaInfo": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 34254,
+      "sandbox": 41386
+    }
+  },
+  "get_getShebaInfoAndStatus": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35602
+    }
+  },
+  "get_nzh_biz_getDebitCardInfo": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 34255,
+      "sandbox": 41387
+    }
+  },
+  "get_getDepositNumberByCardNumber": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35596
+    }
+  },
+  "get_getShebaByCardNumber": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35597
+    }
+  },
+  "get_getCardInformation": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35598
+    }
+  },
+  "post_cardToCard": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35603
+    }
+  },
+  "get_getcardToCardList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 36194
+    }
+  },
+  "get_getSubmissionCheque": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35590
+    }
+  },
+  "get_getConvertDepositNumberToSheba": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35594
+    }
+  },
+  "get_getConvertShebaToDepositNumber": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35600
+    }
+  },
+  "post_payaService": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35591
+    }
+  },
+  "get_getDepositInvoice": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35592
+    }
+  },
+  "get_getDepositBalance": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35593
+    }
+  },
+  "post_transferMoney": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35601
+    }
+  },
+  "get_getTransferState": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35595
+    }
+  },
+  "post_billPaymentByDeposit": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 35599
+    }
+  },
+  "get_getCardInformationByCardInfo": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 39632
+    }
+  },
+  "post_generateOtp": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 39635,
+      "sandbox": 47736
+    }
+  }
+}
