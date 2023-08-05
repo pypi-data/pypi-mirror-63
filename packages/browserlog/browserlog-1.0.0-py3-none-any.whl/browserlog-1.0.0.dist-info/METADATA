@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: browserlog
+Version: 1.0.0
+Summary: Masonite Log Viewer
+Home-page: https://github.com/hellomasonite/browserlog
+Author: Junior Gantin
+Author-email: nioperas06@gmail.com
+License: MIT
+Keywords: logging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+<h1 align="center">Browserlog</h1>
+
+<div align="center">
+  <strong>Log Viewer for Masonite Framework</strong>
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://www.hellomasonite.com/">
+      Read our Blog
+    </a>
+    <span> | </span>
+    <a href="https://twitter.com/HelloMasonite">
+      Follow us on Twitter
+    </a>
+  </h3>
+</div>
+
+## Table of Contents
+- [Preview](#preview)
+- [Installation](#installation)
+- [Support](#support)
+
+## Preview
+
+<img src='preview.png'>
+
+## Installation
+
+```sh
+# Using pip
+$ pip install browserlog
+
+# Using Pipenv
+$ pipenv install browserlog
+
+# Using Poetry
+$ poetry add browserlog
+```
+
+Add `BrowserlogProvider` to your providers list in `config/providers.py`:
+
+```python
+from browserlog.providers import BrowserlogProvider
+
+PROVIDERS = [
+
+    # Third Party Providers
+    BrowserlogProvider,
+]
+```
+
+This will add a new `browserlog:install` command to craft. Then run in your terminal:
+
+```bash
+craft browserlog:install
+```
+
+Go to http://myapp/logs.
+
+## Support
+
+`Browserlog` appreciates help from a wide range of different backgrounds. Small improvements or fixes are always appreciated and issues labeled as easy may be a good starting point. If you are considering larger contributions outside the traditional coding work, please contact us through hellomasonite@gmail.com .
+
