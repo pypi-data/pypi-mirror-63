@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pricestf
+Version: 0.0.7
+Summary: python api to Nicklason's prices.tf site.
+Home-page: https://github.com/Mark7888/pricestf
+Author: Mark7888
+Author-email: l.mark7888@gmail.com
+License: MIT
+Description: # PricesTF Python API
+        
+        This modul is a simple python api for [Nickalson's](https://github.com/Nicklason/) prices.tf website.
+        
+        ### Installation
+        
+        This module requires [Python](https://www.python.org/) v3+ to run.
+        
+        For install the module type this to your command line...
+        
+        ```sh
+        pip install pricestf
+        ```
+        ### Quick Example
+        ```py
+        from pricestf import get_price
+        
+        print(get_price("Scattergun", quality="Strange", australium=False, killstreak=0))
+        ```
+        It will return a dictionary with the item's full name and with the buy- and sellprices.
+        If something went wring, it returns `Null`.
+        
+        List of tf2 items:
+        https://wiki.alliedmods.net/Team_fortress_2_item_definition_indexes
+        
+        Qualities:
+        - Normal
+        - Genuine
+        - Vintage
+        - rarity3
+        - Unusual
+        - Unique
+        - Community
+        - Valve
+        - Self-Made
+        - Customized
+        - Strange
+        - Completed
+        - Haunted
+        - Collector's
+        - Decorated Weapon
+        -
+        Australium:
+        - It can be `True` if australium, and `False` if not.
+        Killstreak:
+        - If ``not killstreak`` it's `0`
+        - If ``killstreak`` it's `1`
+        - If ``specialized`` it's `2`
+        - If ``pofessional`` it's `3`
+        
+        
+        License
+        ----
+        
+        MIT
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3
+Description-Content-Type: text/markdown
