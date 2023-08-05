@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+musical_hash/__init__.py
+musical_hash/_musical_hash.py
+musical_hash/_scales.py
+musical_hash.egg-info/PKG-INFO
+musical_hash.egg-info/SOURCES.txt
+musical_hash.egg-info/dependency_links.txt
+musical_hash.egg-info/requires.txt
+musical_hash.egg-info/top_level.txt
+test/test_musical_hash.py
+test/test_scales.py
