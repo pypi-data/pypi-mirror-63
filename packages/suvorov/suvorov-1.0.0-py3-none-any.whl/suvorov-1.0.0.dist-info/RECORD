@@ -1,0 +1,17 @@
+suvorov/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suvorov/__pkginfo__.py,sha256=v_wAKcPH512M4DW_UUjPapoYH2vlbAu2ldOItOy9ZGE,404
+suvorov/ck2path.py,sha256=8wilX9FX4PJIaU8_cyYp_bJNKfk4Ls4iOyoP_6B7vqw,442
+suvorov/conf.py,sha256=GekflxtagWjya0QWhjlDvy5QSwCgu0uHh3SpNotNMMQ,2760
+suvorov/convert.py,sha256=afNEo1ICLWyy4LwO0Dxb9q35llbKKV6jW-AWXxYa-34,6953
+suvorov/convert_old.py,sha256=rmfaRucT3pWqDkAi73STYwDhPrDdEL8skX4VNgCUrjI,14342
+suvorov/main.py,sha256=cCikrD7GXvi2WN0miDxYP6yAUXI2Z6EIHS1ucZMZAWg,368
+suvorov/service.py,sha256=NF3v8hOdC6FD7h7AthXAGiftVXjlSVKQWHjnC8lwbLE,2421
+suvorov/setup.py,sha256=BPt0SkTcT3JbPxV8MA9xvpFWCqvw7T8zJi6YRDBZJ58,664
+suvorov/suvfile.py,sha256=EtQPztYRNr3S5RNjE6yb7GEK8y8jhSkwlRgq5WfhaTs,2016
+suvorov/utils.py,sha256=aX6sqTUAw6PxfZmjCwqR-_tXoQEtMpmLxmXU3ZbVhv8,210
+suvorov-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+suvorov-1.0.0.dist-info/METADATA,sha256=UO3wa6WIaUahnNOVDF77oj0K-d1siVdx2j-xHvgNs94,1308
+suvorov-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+suvorov-1.0.0.dist-info/entry_points.txt,sha256=cdvtrN34u0WF-i_Gqeu7NyrYTxzIpm7tXIrnT44dh3M,47
+suvorov-1.0.0.dist-info/top_level.txt,sha256=d7POpl3wDmk3Lj-RdXlbvKrmfta8wZkeDnnMW1bx2tw,8
+suvorov-1.0.0.dist-info/RECORD,,
