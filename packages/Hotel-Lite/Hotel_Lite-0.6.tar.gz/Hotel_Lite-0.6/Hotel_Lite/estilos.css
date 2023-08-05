@@ -1,0 +1,42 @@
+.menuBar
+{
+
+    background-color: #2966B8;
+    border: none;
+    color: white;
+
+}
+
+button
+{
+    background-image: none;
+    border: none;
+    background-color: #7BA7E1;
+    color: black;
+
+}
+
+button:hover, menuitem:hover, tab:hover{
+    background-image: none;
+    border: none;
+    background-color: #2966B8;
+    box-shadow: 1px 1px 3px #2F74D0;
+    color: white;
+}
+
+tab:checked{
+
+    background-image: none;
+    border: none;
+    background-color: #2F74D0;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+toolbar button {
+    background-image: none;
+    background-color: white;
+    border: none;
+
+}
