@@ -1,0 +1,8 @@
+
+[test]
+black
+flake8
+mypy
+sorti
+pytest
+pytest-mypy-plugins
