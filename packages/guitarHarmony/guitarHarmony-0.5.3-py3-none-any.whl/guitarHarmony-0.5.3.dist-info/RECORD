@@ -1,0 +1,13 @@
+guitarHarmony/__init__.py,sha256=h14uA8BmamEiaf4i3rYoFjN5V1TeGc_g06xOq029ejQ,281
+guitarHarmony/chord.py,sha256=ltut2SEf3qqNHOJsFVqjcm1hkSBJFAeIWfCUOodE7kY,2133
+guitarHarmony/exercise.py,sha256=NPddbdnMSWOzg_xbo7dQ5fDg5lodjQKSKSaMHzNyjAY,150
+guitarHarmony/interval.py,sha256=uLJdkZLsmqHneODVWAKhfL0BoGeVxf091X-7hoW-7Ck,941
+guitarHarmony/note.py,sha256=aC-cWotR6FrunlugMg0aMvGy0sC871m7iRCl-wQHC60,3700
+guitarHarmony/progression.py,sha256=3-fB2oH8S2n2NIGjob8GzUMcXuoxs1s_dPMXnvWhUGI,2221
+guitarHarmony/scale.py,sha256=Bl6WZBxPRuSZKLxc35uvYEH4I1wCeeTMXXRz7cwiSMk,2324
+guitarHarmony/style.py,sha256=6JAaJ-fOeo4aI9HXJNFOP1_iaQz4uztpj-XeEe_-fSA,2151
+guitarHarmony-0.5.3.dist-info/LICENSE.txt,sha256=9XFQqav0_A_TaezeccslHoACI-sunfuXyyjA1hVM4Bw,1071
+guitarHarmony-0.5.3.dist-info/METADATA,sha256=7w9kn15rgWVT8iXMICQg-682_Mca8N5tAudIDIHekuE,2444
+guitarHarmony-0.5.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+guitarHarmony-0.5.3.dist-info/top_level.txt,sha256=MYMmHYON-hkaZhSQrMZ2UryKckEpcasvk7Op9s28H9Q,14
+guitarHarmony-0.5.3.dist-info/RECORD,,
