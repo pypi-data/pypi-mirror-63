@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MyStuff-Sumitkr1912
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/Sumit/mystuff
+Author: Sumit Kumar
+Author-email: sumit.2.kumar@continental-corporation.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Project description
+
+This is the project description...
+
