@@ -1,0 +1,34 @@
+# Yatima Library (yatima)
+ เป็นการทดสอบการสร้างไลบรารี่ด้วยตัวเอง
+ความสามารถคือ
+
+  - แสดงชื่อตัวเองภาษาอังกฤษ 
+  - แสดงชื่อตัวเองเป็นภาษาไทย
+
+
+### วิธีติดตั้งแสนง่าย
+
+เราจะติดตั้งผ่านเจ้า pip
+
+```sh
+pip install yatima
+```
+
+ง่ายไหมล่ะ
+
+วิธีใช้ก็ง่ายมาก
+- เปิด Python แล้วพิพม์ตามนี้เลย
+
+```sh
+from noodang.mylibrary import Yatima
+
+    myLi = Yatima()
+    #print(help(myLi.WhoIAm))
+    print(myLi)
+    #print(myLi.name)
+    #print(myLi.lastname)
+    myLi.WhoIAm()
+    print(myLi.email)
+    myLi.thainame()
+```
+
