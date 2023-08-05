@@ -1,0 +1,14 @@
+<div>
+  <div id="pell-editor__{{ widget.name }}" class="pell-editor"></div>
+  <input
+    type="hidden"
+    name="{{ widget.name }}"
+    {% if widget.value != None %}
+    value="{{ widget.value|stringformat:'s' }}"
+    {% endif %}
+    {% include 'django/forms/widgets/attrs.html' %}>
+
+  <script>
+    {% include 'django_pell/widget.js' with widget=widget %}
+  </script>
+</div>
