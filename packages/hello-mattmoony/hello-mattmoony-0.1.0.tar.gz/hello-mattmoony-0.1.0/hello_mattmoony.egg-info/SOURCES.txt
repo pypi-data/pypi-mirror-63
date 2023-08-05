@@ -1,0 +1,9 @@
+setup.py
+hello/__init__.py
+hello/__main__.py
+hello/hello.py
+hello_mattmoony.egg-info/PKG-INFO
+hello_mattmoony.egg-info/SOURCES.txt
+hello_mattmoony.egg-info/dependency_links.txt
+hello_mattmoony.egg-info/entry_points.txt
+hello_mattmoony.egg-info/top_level.txt
