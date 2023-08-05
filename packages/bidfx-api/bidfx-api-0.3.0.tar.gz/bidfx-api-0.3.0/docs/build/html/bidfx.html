@@ -1,0 +1,237 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>BidFX package &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Pricing" href="pricing.html" />
+    <link rel="prev" title="Potential issues" href="issues.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pricing.html" title="Pricing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="issues.html" title="Potential issues"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">BidFX package</a><ul>
+<li><a class="reference internal" href="#session">Session</a></li>
+<li><a class="reference internal" href="#bidfxerror">BidFXError</a></li>
+<li><a class="reference internal" href="#pricingerror">PricingError</a></li>
+<li><a class="reference internal" href="#invalidsubjecterror">InvalidSubjectError</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="issues.html"
+                        title="previous chapter">Potential issues</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pricing.html"
+                        title="next chapter">Pricing</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bidfx">
+<span id="bidfx-package"></span><h1>BidFX package<a class="headerlink" href="#module-bidfx" title="Permalink to this headline">¶</a></h1>
+<p>The BidFX API provides a <em>Session</em> via which access is given to all of the API features.
+The Session represents a applications’s working session with the API for accessing
+either real-time pricing or the trading capabilities.
+Sessions open and maintain network connections to services running within the BidFX platform.
+They create threads to manage these connections asynchronously.
+These threads must be started explicitly after the Session has been configured.</p>
+<p><strong>Typical Usage</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create the Session from the INI file at .bidfx/api/config.ini</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+
+<span class="c1"># Set the callback for receiving price update events</span>
+<span class="n">session</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">price_event_fn</span> <span class="o">=</span> <span class="n">on_price_event</span>
+
+<span class="c1"># Set the pricing threads</span>
+<span class="n">session</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+<span class="c1"># Subscribe to streaming FX prices for €1m EURUSD at spot from DBFX</span>
+<span class="n">subject</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">liquidity_provider</span><span class="p">(</span><span class="s2">&quot;DBFX&quot;</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span><span class="s2">&quot;EURUSD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency</span><span class="p">(</span><span class="s2">&quot;EUR&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span><span class="p">(</span><span class="mi">1000000</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">subscribe</span><span class="p">(</span><span class="n">subject</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="session">
+<h2>Session<a class="headerlink" href="#session" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.Session">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">Session</code><span class="sig-paren">(</span><em class="sig-param">config_parser</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Session" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Session is the top-level API class which gives access to all of the features of the API.
+It represents a client’s working session with the API.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config_parser</strong> (<a class="reference external" href="https://docs.python.org/3/library/configparser.html#configparser.ConfigParser" title="(in Python v3.8)"><em>configparser.ConfigParser</em></a>) – The API configuration settings.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bidfx.Session.create_from_ini_file">
+<em class="property">static </em><code class="sig-name descname">create_from_ini_file</code><span class="sig-paren">(</span><em class="sig-param">config_file='~/.bidfx/api/config.ini'</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Session.create_from_ini_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new Session using configuration data parsed from an INI file.
+The default behaviour is to search for the file <code class="docutils literal notranslate"><span class="pre">.bidfx/api/config.ini</span></code> in the user’s home directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config_file</strong> – is the name of the INI file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the <a class="reference internal" href="#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> configured from the configuration file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Session.pricing">
+<em class="property">property </em><code class="sig-name descname">pricing</code><a class="headerlink" href="#bidfx.Session.pricing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the Pricing API session used for subscribing to realtime _prices.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A configured interface to the <a class="reference internal" href="pricing.html#bidfx.PricingAPI" title="bidfx.PricingAPI"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PricingAPI</span></code></a>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="pricing.html#bidfx.PricingAPI" title="bidfx.PricingAPI">PricingAPI</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Session.trading">
+<em class="property">property </em><code class="sig-name descname">trading</code><a class="headerlink" href="#bidfx.Session.trading" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the Trading API session used for placing orders.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A configured interface to the <a class="reference internal" href="trading.html#bidfx.TradingAPI" title="bidfx.TradingAPI"><code class="xref any py py-class docutils literal notranslate"><span class="pre">TradingAPI</span></code></a>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="trading.html#bidfx.TradingAPI" title="bidfx.TradingAPI">TradingAPI</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Session.version">
+<em class="property">static </em><code class="sig-name descname">version</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#bidfx.Session.version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the API version number.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="bidfxerror">
+<h2>BidFXError<a class="headerlink" href="#bidfxerror" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="bidfx.BidFXError">
+<em class="property">exception </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">BidFXError</code><a class="headerlink" href="#bidfx.BidFXError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for all errors raised by the BidFX API. Extends <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">Exception</span></code></a>.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="pricingerror">
+<h2>PricingError<a class="headerlink" href="#pricingerror" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="bidfx.PricingError">
+<em class="property">exception </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">PricingError</code><a class="headerlink" href="#bidfx.PricingError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for all errors raised by the BidFX Pricing API. Extends <a class="reference internal" href="#bidfx.BidFXError" title="bidfx.BidFXError"><code class="xref any py py-exc docutils literal notranslate"><span class="pre">BidFXError</span></code></a>.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="invalidsubjecterror">
+<h2>InvalidSubjectError<a class="headerlink" href="#invalidsubjecterror" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="bidfx.InvalidSubjectError">
+<em class="property">exception </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">InvalidSubjectError</code><a class="headerlink" href="#bidfx.InvalidSubjectError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Error indicating the a price <a class="reference internal" href="pricing.html#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> is invalid. Extends <a class="reference internal" href="#bidfx.PricingError" title="bidfx.PricingError"><code class="xref any py py-exc docutils literal notranslate"><span class="pre">PricingError</span></code></a>.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pricing.html" title="Pricing"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="issues.html" title="Potential issues"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

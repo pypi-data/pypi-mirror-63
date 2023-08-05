@@ -1,0 +1,330 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Trading &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Pricing" href="pricing.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pricing.html" title="Pricing"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Trading</a><ul>
+<li><a class="reference internal" href="#tradingapi">TradingAPI</a></li>
+<li><a class="reference internal" href="#resttradeclient">RESTTradeClient</a></li>
+<li><a class="reference internal" href="#wstradeclient">WSTradeClient</a></li>
+<li><a class="reference internal" href="#executionssubscription">ExecutionsSubscription</a></li>
+<li><a class="reference internal" href="#ordersubscription">OrderSubscription</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pricing.html"
+                        title="previous chapter">Pricing</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="trading">
+<h1>Trading<a class="headerlink" href="#trading" title="Permalink to this headline">¶</a></h1>
+<p>The Trading API is used to provide users with access to the trading capabilities of the BidFX platform.
+Although the API can be used independently of pricing,
+it is recommended that trading be accessed via the top-level <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> class of the BidFX API.</p>
+<div class="section" id="tradingapi">
+<h2>TradingAPI<a class="headerlink" href="#tradingapi" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.TradingAPI">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">TradingAPI</code><span class="sig-paren">(</span><em class="sig-param">config_parser: configparser.ConfigParser</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.TradingAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class is the top-level API interface for accessing the trading services of BidFX.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config_parser</strong> (<a class="reference external" href="https://docs.python.org/3/library/configparser.html#configparser.ConfigParser" title="(in Python v3.8)"><em>configparser.ConfigParser</em></a>) – The API configuration settings.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bidfx.TradingAPI.rest">
+<em class="property">property </em><code class="sig-name descname">rest</code><a class="headerlink" href="#bidfx.TradingAPI.rest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the REST trading interface.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the <code class="xref any docutils literal notranslate"><span class="pre">RestTradingAPI</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.TradingAPI.ws">
+<em class="property">property </em><code class="sig-name descname">ws</code><a class="headerlink" href="#bidfx.TradingAPI.ws" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the WebSocket trading interface.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the <code class="xref any docutils literal notranslate"><span class="pre">WebSocketTradingAPI</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.TradingAPI.username">
+<em class="property">property </em><code class="sig-name descname">username</code><a class="headerlink" href="#bidfx.TradingAPI.username" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the configured username used for sending trades.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The username.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="resttradeclient">
+<h2>RESTTradeClient<a class="headerlink" href="#resttradeclient" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.trading.client.RESTTradeClient">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.trading.client.</code><code class="sig-name descname">RESTTradeClient</code><span class="sig-paren">(</span><em class="sig-param">host</em>, <em class="sig-param">port</em>, <em class="sig-param">username</em>, <em class="sig-param">password</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="bidfx.trading.client.RESTTradeClient.running">
+<em class="property">property </em><code class="sig-name descname">running</code><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient.running" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if session is running</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.RESTTradeClient.start">
+<code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the REST session.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.RESTTradeClient.stop">
+<code class="sig-name descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stops the REST session.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.RESTTradeClient.add_response_listener">
+<code class="sig-name descname">add_response_listener</code><span class="sig-paren">(</span><em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient.add_response_listener" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add listener which is called after getting a response</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>listener</strong> (<em>def func</em><em>(</em><em>orders: List</em><em>[</em><em>FxOrder</em><em>]</em><em>)</em>) – A listener function</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.RESTTradeClient.add_error_listener">
+<code class="sig-name descname">add_error_listener</code><span class="sig-paren">(</span><em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.RESTTradeClient.add_error_listener" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add listener which is called after getting an error</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>listener</strong> – Function with signature: def func(error: TradeError)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="wstradeclient">
+<h2>WSTradeClient<a class="headerlink" href="#wstradeclient" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.trading.client.WSTradeClient">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.trading.client.</code><code class="sig-name descname">WSTradeClient</code><span class="sig-paren">(</span><em class="sig-param">base_url</em>, <em class="sig-param">username</em>, <em class="sig-param">password</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Websocket client for subscribing to trading information.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>base_url</strong> – The URL for the web socket.</p></li>
+<li><p><strong>username</strong> – The client username.</p></li>
+<li><p><strong>password</strong> – The client password.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bidfx.trading.client.WSTradeClient.start">
+<code class="sig-name descname">start</code><span class="sig-paren">(</span><em class="sig-param">message=None</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the web socket session.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>message</strong> – The message to send.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.WSTradeClient.do_open">
+<em class="property">static </em><code class="sig-name descname">do_open</code><span class="sig-paren">(</span><em class="sig-param">ws</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient.do_open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function which is called at opening websocket.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ws</strong> – WebSocketApp object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.WSTradeClient.do_message">
+<em class="property">static </em><code class="sig-name descname">do_message</code><span class="sig-paren">(</span><em class="sig-param">ws: bidfx.trading.client.WSTradeClient</em>, <em class="sig-param">message</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient.do_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function which is called when received data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ws</strong> – WebSocketApp object</p></li>
+<li><p><strong>message</strong> – utf-8 string which we get from the server.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.WSTradeClient.do_error">
+<em class="property">static </em><code class="sig-name descname">do_error</code><span class="sig-paren">(</span><em class="sig-param">ws</em>, <em class="sig-param">error</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient.do_error" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function which is called when we get error.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ws</strong> – WebSocketApp object</p></li>
+<li><p><strong>error</strong> – exception object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.trading.client.WSTradeClient.do_close">
+<em class="property">static </em><code class="sig-name descname">do_close</code><span class="sig-paren">(</span><em class="sig-param">ws</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.WSTradeClient.do_close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function which is called when closed the connection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ws</strong> – WebSocketApp object</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="executionssubscription">
+<h2>ExecutionsSubscription<a class="headerlink" href="#executionssubscription" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.trading.client.ExecutionsSubscription">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.trading.client.</code><code class="sig-name descname">ExecutionsSubscription</code><span class="sig-paren">(</span><em class="sig-param">base_url</em>, <em class="sig-param">username</em>, <em class="sig-param">password</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.ExecutionsSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Websocket client for subscribing to the executions stream</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>base_url</strong> – The URL for the web socket.</p></li>
+<li><p><strong>username</strong> – The client username.</p></li>
+<li><p><strong>password</strong> – The client password.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="ordersubscription">
+<h2>OrderSubscription<a class="headerlink" href="#ordersubscription" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.trading.client.OrderSubscription">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.trading.client.</code><code class="sig-name descname">OrderSubscription</code><span class="sig-paren">(</span><em class="sig-param">base_url</em>, <em class="sig-param">username</em>, <em class="sig-param">password</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.trading.client.OrderSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Websocket client for subscribing to the orders stream</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>base_url</strong> – The URL for the web socket.</p></li>
+<li><p><strong>username</strong> – The client username.</p></li>
+<li><p><strong>password</strong> – The client password.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pricing.html" title="Pricing"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Example Programs &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Configuration" href="configuration.html" />
+    <link rel="prev" title="User Guide" href="user_guide.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="configuration.html" title="API Configuration"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="user_guide.html" title="User Guide"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Example Programs</a><ul>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+<li><a class="reference internal" href="#running-the-examples">Running the examples</a><ul>
+<li><a class="reference internal" href="#running-in-an-ide">Running in an IDE</a></li>
+<li><a class="reference internal" href="#running-from-the-command-line">Running from the command line</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="user_guide.html"
+                        title="previous chapter">User Guide</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="configuration.html"
+                        title="next chapter">API Configuration</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="example-programs">
+<h1>Example Programs<a class="headerlink" href="#example-programs" title="Permalink to this headline">¶</a></h1>
+<p>The BidFX API comes bundled with a number of example programs to demonstrate its usage.
+These can be found under the <code class="docutils literal notranslate"><span class="pre">examples</span></code> directory, immediately under the top-level directory.
+Two sets of examples are provided to demonstrate the:</p>
+<ul class="simple">
+<li><p>Pricing API</p></li>
+<li><p>Trading API</p></li>
+</ul>
+<p>These are located in separate sub-directories called <code class="docutils literal notranslate"><span class="pre">examples/pricing</span></code> and <code class="docutils literal notranslate"><span class="pre">examples/trading</span></code>.</p>
+<div class="section" id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<p>All of the examples share a common means of configuration using a Window-style INI file.
+Out of the box the examples will attempt to locate the API configuration in the file
+<code class="docutils literal notranslate"><span class="pre">.bidfx/api/config.ini</span></code> located in the users home directory i.e. <code class="docutils literal notranslate"><span class="pre">$HOME/.bidfx/api/config.ini</span></code>.
+An example config file is provided at <code class="docutils literal notranslate"><span class="pre">examples/config_example.ini</span></code> to get you started.
+Tailor the configuration as follows before attempting to run the examples.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp examples/config_example.ini <span class="nv">$HOME</span>/.bidfx/api/config.ini
+vi <span class="nv">$HOME</span>/.bidfx/api/config.ini
+chmod <span class="m">600</span> <span class="nv">$HOME</span>/.bidfx/api/config.ini
+</pre></div>
+</div>
+<p>Edit the INI file to add the host name and user credentials provided by your BidFX account manager.
+It is best to make the file read-only to protect the credentials.
+See <a class="reference internal" href="configuration.html"><span class="doc">API Configuration</span></a> for documentation of the supported parameters.</p>
+</div>
+<div class="section" id="running-the-examples">
+<h2>Running the examples<a class="headerlink" href="#running-the-examples" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="running-in-an-ide">
+<h3>Running in an IDE<a class="headerlink" href="#running-in-an-ide" title="Permalink to this headline">¶</a></h3>
+<p>For running the example programs and for general Python development,
+we recommend an integrated development environment (IDE) designed for programming in Python.
+We like the <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a> from JetBrains.
+With <strong>PyCharm</strong> the examples can be run directly by
+right-clicking on the example program in the <code class="docutils literal notranslate"><span class="pre">Project</span></code> tab and selecting <code class="docutils literal notranslate"><span class="pre">Run</span></code>.</p>
+</div>
+<div class="section" id="running-from-the-command-line">
+<h3>Running from the command line<a class="headerlink" href="#running-from-the-command-line" title="Permalink to this headline">¶</a></h3>
+<p>You may also run the examples directly from the command line.
+The examples are all executable Python scripts.</p>
+<p>The scripts will select the first version of <code class="docutils literal notranslate"><span class="pre">python</span></code> from your <code class="docutils literal notranslate"><span class="pre">$PATH</span></code> environment variable.
+The scripts can be run directly on UNIX as follows.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>./examples/pricing/example_indicative_fx.py
+</pre></div>
+</div>
+<p>Alternatively, if you want to use a specific version of <code class="docutils literal notranslate"><span class="pre">python</span></code> then pass the example program
+file as the argument to the version of <code class="docutils literal notranslate"><span class="pre">python</span></code> that you prefer.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="configuration.html" title="API Configuration"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="user_guide.html" title="User Guide"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>BidFX Public API for Python &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="About BidFX" href="about.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">BidFX Public API for Python</a><ul>
+<li><a class="reference internal" href="#contents">Contents</a></li>
+<li><a class="reference internal" href="#api-docs">API docs</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="about.html"
+                        title="next chapter">About BidFX</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="bidfx-public-api-for-python">
+<h1>BidFX Public API for Python<a class="headerlink" href="#bidfx-public-api-for-python" title="Permalink to this headline">¶</a></h1>
+<p>The BidFX Python API is a price and trading API that connects to
+the BidFX trading platform to subscribe to realtime pricing and to register or submit orders.
+The API supports the following features:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>FX streaming executable prices (RFS)</p></li>
+<li><p>FX request for quote (RFQ)</p></li>
+<li><p>FX and Futures trading with <a class="reference external" href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a> or <a class="reference external" href="https://en.wikipedia.org/wiki/WebSocket">WebSockets</a>.</p></li>
+</ul>
+</div></blockquote>
+<p>Most users of the API will trade against the firm quotes received via the Pricing API.
+Trading is achieved by using direct API calls which are implemented under the covers by the BidFX WebSocket API.</p>
+<div class="section" id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About BidFX</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html#bidfx-apis">BidFX APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#python-api">Python API</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">User Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user_guide.html#download-and-installation">Download and installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user_guide.html#session-configuration">Session configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user_guide.html#pricing-api">Pricing API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user_guide.html#trading-api">Trading API</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Example Programs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#configuration">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#running-the-examples">Running the examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">API Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#configuration-methods">Configuration methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#ini-file-sections">INI file sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#example-ini-config-file">Example INI config file</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="POPs.html">Global Points of Presence</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="POPs.html#production">Production</a></li>
+<li class="toctree-l2"><a class="reference internal" href="POPs.html#user-acceptance-testing">User acceptance testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Potential issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#on-boarding-issues">On-boarding issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#connectivity-issues">Connectivity issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#subscription-limits">Subscription limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#latency">Latency</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="api-docs">
+<h2>API docs<a class="headerlink" href="#api-docs" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bidfx.html">BidFX package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pricing.html">Pricing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="about.html" title="About BidFX"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

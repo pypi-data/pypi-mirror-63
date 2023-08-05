@@ -1,0 +1,268 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>API Configuration &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Global Points of Presence" href="POPs.html" />
+    <link rel="prev" title="Example Programs" href="examples.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="POPs.html" title="Global Points of Presence"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Example Programs"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">API Configuration</a><ul>
+<li><a class="reference internal" href="#configuration-methods">Configuration methods</a><ul>
+<li><a class="reference internal" href="#default-configuration">Default configuration</a></li>
+<li><a class="reference internal" href="#non-standard-configuration-file">Non-standard configuration file</a></li>
+<li><a class="reference internal" href="#configuration-in-code">Configuration in code</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ini-file-sections">INI file sections</a><ul>
+<li><a class="reference internal" href="#default-section">Default section</a></li>
+<li><a class="reference internal" href="#shared-pricing-section">Shared pricing section</a></li>
+<li><a class="reference internal" href="#exclusive-pricing-section">Exclusive pricing section</a></li>
+<li><a class="reference internal" href="#trading-section">Trading section</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#example-ini-config-file">Example INI config file</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="examples.html"
+                        title="previous chapter">Example Programs</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="POPs.html"
+                        title="next chapter">Global Points of Presence</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="api-configuration">
+<h1>API Configuration<a class="headerlink" href="#api-configuration" title="Permalink to this headline">¶</a></h1>
+<p>The API is best configured using a Window’s style INI file.
+It is common to configure the API by supplying the name of the INI on a call <a class="reference internal" href="bidfx.html#bidfx.Session.create_from_ini_file" title="bidfx.Session.create_from_ini_file"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Session.create_from_ini_file()</span></code></a>.
+If no filename is provided then the <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> will look for a file called
+<code class="docutils literal notranslate"><span class="pre">.bidfx/api/config.ini</span></code> in the user’s home directory.</p>
+<div class="section" id="configuration-methods">
+<h2>Configuration methods<a class="headerlink" href="#configuration-methods" title="Permalink to this headline">¶</a></h2>
+<p>There are three ways to provide a configuration for the API:</p>
+<ol class="arabic simple">
+<li><p>by using a default config file located in your home directory</p></li>
+<li><p>specifying a named config file from any location</p></li>
+<li><p>creating a config in code.</p></li>
+</ol>
+<div class="section" id="default-configuration">
+<h3>Default configuration<a class="headerlink" href="#default-configuration" title="Permalink to this headline">¶</a></h3>
+<p>For convenience, all of configuration items may be provided through a single configuration object.
+The API uses a <a class="reference external" href="https://docs.python.org/3/library/configparser.html">ConfigParser</a>
+to read its configuration from a Windows-style INI file.</p>
+<p>The config file is commonly located at <code class="docutils literal notranslate"><span class="pre">$HOME/.bidfx/api/config.ini</span></code>.
+When using the default INI file location, the <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> can be created and configured as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="non-standard-configuration-file">
+<h3>Non-standard configuration file<a class="headerlink" href="#non-standard-configuration-file" title="Permalink to this headline">¶</a></h3>
+<p>The config file location may be changed by passing a in file name to <a class="reference internal" href="bidfx.html#bidfx.Session.create_from_ini_file" title="bidfx.Session.create_from_ini_file"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Session.create_from_ini_file()</span></code></a>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">(</span><span class="s2">&quot;./my_config.ini&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="configuration-in-code">
+<h3>Configuration in code<a class="headerlink" href="#configuration-in-code" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">ConfigParser</span></code> can be built directly in code if preferred,
+then passed into the <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> constructor as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">bidfx</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="kn">from</span> <span class="nn">configparser</span> <span class="kn">import</span> <span class="n">ConfigParser</span>
+<span class="n">config_parser</span> <span class="o">=</span> <span class="n">ConfigParser</span><span class="p">()</span>
+<span class="c1"># configure config manually</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="p">(</span><span class="n">config_parser</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="ini-file-sections">
+<h2>INI file sections<a class="headerlink" href="#ini-file-sections" title="Permalink to this headline">¶</a></h2>
+<p>There is four sections in the configuration INI file:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[DEFAULT]</span></code> - defines shared properties such as <em>host</em> and <em>port</em>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[Exclusive</span> <span class="pre">Pricing]</span></code> - is for overrides and properties particular to <em>Exclusive Pricing</em> (Pixie protocol).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[Shared</span> <span class="pre">Pricing]</span></code> - is for overrides and properties particular to <em>Shared Pricing</em> (Puffin protocol).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[Trading]</span></code> - is for overrides and properties particular to the <em>Trading</em> features.</p></li>
+</ul>
+<div class="section" id="default-section">
+<h3>Default section<a class="headerlink" href="#default-section" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">[DEFAULT]</span></code> section provides default properties that are shared by the other sections.
+At present all four protocols can be accessed by tunnelling via a single host on secure port 443.
+The required user credentials are also the same for all usages of the API.
+These data can therefore be defined once in the <code class="docutils literal notranslate"><span class="pre">[DEFAULT]</span></code> section of the configuration.
+Should this situation change then it is possible to override default settings in the each specific sections.</p>
+</div>
+<div class="section" id="shared-pricing-section">
+<h3>Shared pricing section<a class="headerlink" href="#shared-pricing-section" title="Permalink to this headline">¶</a></h3>
+<p>Shared Pricing, as the name suggests, is pricing which is shared between many users.
+An example of shared pricing is Exchange Listed Futures;
+all exchange members receive the same shared price stream.
+The BixFX API currently implements the Puffin protocol for subscribing to shared pricing via a Puffin server.</p>
+<p>The configuration of the Price Provider for <em>shared pricing</em> requires the following properties:</p>
+<ul class="simple">
+<li><p>host</p></li>
+<li><p>port</p></li>
+<li><p>username</p></li>
+<li><p>password</p></li>
+</ul>
+</div>
+<div class="section" id="exclusive-pricing-section">
+<h3>Exclusive pricing section<a class="headerlink" href="#exclusive-pricing-section" title="Permalink to this headline">¶</a></h3>
+<p>Exclusive pricing by contrast is not shared across users.
+It is exclusive to one particular user or group of users.
+Tradable FX OTC prices direct from liquidity providers are exclusive to the subscribing user.
+The BixFX API currently implements the Pixie protocol
+for subscribing to exclusive pricing from BidFX price servers.</p>
+<p>The configuration of the Price Provider for <em>exclusive pricing</em> uses the following properties:</p>
+<ul class="simple">
+<li><p>host</p></li>
+<li><p>port</p></li>
+<li><p>username</p></li>
+<li><p>password</p></li>
+<li><p>product_serial</p></li>
+<li><p>default_account</p></li>
+<li><p>min_interval</p></li>
+</ul>
+</div>
+<div class="section" id="trading-section">
+<h3>Trading section<a class="headerlink" href="#trading-section" title="Permalink to this headline">¶</a></h3>
+<p>Trading functionality is provided by the API using both REST and WebSocket protocols.
+Both delivery mechanisms transmit their data using JSON.
+The configuration of the trading API requires the following properties:</p>
+<ul class="simple">
+<li><p>host</p></li>
+<li><p>port</p></li>
+<li><p>username</p></li>
+<li><p>password</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="example-ini-config-file">
+<h2>Example INI config file<a class="headerlink" href="#example-ini-config-file" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[DEFAULT]</span>
+<span class="c1"># The host and port number of the BidFX service to connect to.</span>
+<span class="na">host</span> <span class="o">=</span> <span class="s">ny-tunnel.uatprod.tradingscreen.com</span>
+<span class="na">port</span> <span class="o">=</span> <span class="s">443</span>
+
+<span class="c1"># Provide the API login credentials provided by your BidFX account manager.</span>
+<span class="na">username</span> <span class="o">=</span> <span class="s">smartcorp_api</span>
+<span class="na">password</span> <span class="o">=</span> <span class="s">4EL77HqPC2W8hQut</span>
+
+<span class="c1"># If you have an API serial key then set it below otherwise leave it blank.</span>
+<span class="c1"># product_serial = aad33247deffe2aa2832001f</span>
+
+<span class="k">[Exclusive Pricing]</span>
+<span class="c1"># Use this section to override DEFAULT settings for user-exclusive pricing.</span>
+
+<span class="c1"># When subscribing to user-exclusive quotes, the prices consumed may vary by account.</span>
+<span class="c1"># A default account is defined here for use no explicit account has been provided.</span>
+<span class="na">default_account</span> <span class="o">=</span> <span class="s">GIVE_UP_ACCT</span>
+
+<span class="c1"># The minimum price publication interval is given below in milliseconds.</span>
+<span class="na">min_interval</span> <span class="o">=</span> <span class="s">500</span>
+
+<span class="k">[Shared Pricing]</span>
+<span class="c1"># Use this section to override DEFAULT settings for use with shared pricing.</span>
+
+<span class="k">[Trading]</span>
+<span class="c1"># Use this section to override DEFAULT settings for use when accessing the Trading API.</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="POPs.html" title="Global Points of Presence"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Example Programs"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

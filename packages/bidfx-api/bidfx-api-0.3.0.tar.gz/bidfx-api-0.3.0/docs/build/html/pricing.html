@@ -1,0 +1,1386 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pricing &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Trading" href="trading.html" />
+    <link rel="prev" title="BidFX package" href="bidfx.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="trading.html" title="Trading"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="bidfx.html" title="BidFX package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pricing</a><ul>
+<li><a class="reference internal" href="#pricingapi">PricingAPI</a></li>
+<li><a class="reference internal" href="#priceprovider">PriceProvider</a></li>
+<li><a class="reference internal" href="#callbacks">Callbacks</a></li>
+<li><a class="reference internal" href="#subject">Subject</a></li>
+<li><a class="reference internal" href="#tenor">Tenor</a></li>
+<li><a class="reference internal" href="#priceevent">PriceEvent</a></li>
+<li><a class="reference internal" href="#subscriptionevent">SubscriptionEvent</a></li>
+<li><a class="reference internal" href="#providerevent">ProviderEvent</a></li>
+<li><a class="reference internal" href="#subscriptionstatus">SubscriptionStatus</a></li>
+<li><a class="reference internal" href="#providerstatus">ProviderStatus</a></li>
+<li><a class="reference internal" href="#field">Field</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="bidfx.html"
+                        title="previous chapter">BidFX package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="trading.html"
+                        title="next chapter">Trading</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pricing">
+<h1>Pricing<a class="headerlink" href="#pricing" title="Permalink to this headline">¶</a></h1>
+<p>The Pricing API is used to provide users with access to real-time pricing from the BidFX platform.
+Although the API can be used independently of trading,
+it is recommended that pricing be accessed via the top-level <a class="reference internal" href="bidfx.html#bidfx.Session" title="bidfx.Session"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Session</span></code></a> class of the BidFX API.</p>
+<div class="section" id="pricingapi">
+<h2>PricingAPI<a class="headerlink" href="#pricingapi" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.PricingAPI">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">PricingAPI</code><span class="sig-paren">(</span><em class="sig-param">config_parser</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PricingAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pricing is the top-level API interface for accessing the real-time pricing services of BidFX.
+It implements two <a class="reference internal" href="#bidfx.PriceProvider" title="bidfx.PriceProvider"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PriceProvider</span></code></a> implementations:
+one for <em>exclusive pricing</em> that uses the Pixie protocol,
+and one for <em>shared pricing</em> that uses the Puffin protocol.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config_parser</strong> (<a class="reference external" href="https://docs.python.org/3/library/configparser.html#configparser.ConfigParser" title="(in Python v3.8)"><em>configparser.ConfigParser</em></a>) – The API configuration.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bidfx.PricingAPI.start">
+<code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PricingAPI.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the pricing threads which connect to and manage real-time price services asynchronously.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PricingAPI.subscribe">
+<code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">subject</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PricingAPI.subscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Subscribes to real-time price publications on a given <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> representing an instrument.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The price subject to subscribe to.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PricingAPI.unsubscribe">
+<code class="sig-name descname">unsubscribe</code><span class="sig-paren">(</span><em class="sig-param">subject</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PricingAPI.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-subscribes from a previously subscribed price <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The price subject to unsubscribe from.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PricingAPI.build">
+<em class="property">property </em><code class="sig-name descname">build</code><a class="headerlink" href="#bidfx.PricingAPI.build" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provides a handle to a the subject builder interface that provides a convenient way to construct a
+well-formed and validated price <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> by using a blend of method-chaining and the builder pattern.
+The method-chains guide the user to find a correct subject for common classes of instrument,
+and the builder then validates the resulting subject. For example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create an indicative FX spot subject</span>
+<span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">indicative</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span><span class="s2">&quot;GBPAUD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+
+<span class="c1"># Create a tradable FX OTC spot subject</span>
+<span class="n">pricing</span><span class="o">.</span><span class="n">build</span><span class="o">.</span><span class="n">fx</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">spot</span><span class="o">.</span><span class="n">liquidity_provider</span><span class="p">(</span><span class="s2">&quot;DBFX&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency_pair</span><span class="p">(</span><span class="s2">&quot;USDJPY&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">currency</span><span class="p">(</span><span class="s2">&quot;USD&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span><span class="p">(</span><span class="mi">5000000</span><span class="p">)</span><span class="o">.</span><span class="n">create_subject</span><span class="p">()</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A method-chain that should lead to the creation a valid <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PricingAPI.callbacks">
+<em class="property">property </em><code class="sig-name descname">callbacks</code><a class="headerlink" href="#bidfx.PricingAPI.callbacks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Accessor for setting callbacks for pricing related events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The set of <a class="reference internal" href="#bidfx.Callbacks" title="bidfx.Callbacks"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Callbacks</span></code></a> that determine which user-functions get called for each type of event.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#bidfx.Callbacks" title="bidfx.Callbacks">Callbacks</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PricingAPI.create_price_provider">
+<em class="property">static </em><code class="sig-name descname">create_price_provider</code><span class="sig-paren">(</span><em class="sig-param">config_section</em>, <em class="sig-param">callbacks</em>, <em class="sig-param">protocol</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PricingAPI.create_price_provider" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a price provider for a given protocol. Allowed values are ‘Pixie’ or ‘Puffin’.
+Most applications will not use this method directly as the <a class="reference internal" href="#bidfx.PricingAPI" title="bidfx.PricingAPI"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PricingAPI</span></code></a> will create
+the required price providers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>config_section</strong> (<a class="reference external" href="https://docs.python.org/3/library/configparser.html#configparser.ConfigParser" title="(in Python v3.8)"><em>configparser.ConfigParser</em></a><em>[</em><em>section</em><em>]</em>) – Provider section of the API configuration.</p></li>
+<li><p><strong>callbacks</strong> (<a class="reference internal" href="#bidfx.Callbacks" title="bidfx.Callbacks"><em>Callbacks</em></a>) – The callback functions to handle events.</p></li>
+<li><p><strong>protocol</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The protocol implementation for the provider. Defaults to ‘Pixie’.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A new price provider instance.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.PriceProvider" title="bidfx.PriceProvider">PriceProvider</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><a class="reference internal" href="bidfx.html#bidfx.PricingError" title="bidfx.PricingError"><strong>PricingError</strong></a> – if the protocol is not supported.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="priceprovider">
+<h2>PriceProvider<a class="headerlink" href="#priceprovider" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.PriceProvider">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">PriceProvider</code><a class="headerlink" href="#bidfx.PriceProvider" title="Permalink to this definition">¶</a></dt>
+<dd><p>A PriceProvider is an interface that encapsulates the operations of an underlying price provider implementation.</p>
+<dl class="method">
+<dt id="bidfx.PriceProvider.start">
+<em class="property">abstract </em><code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PriceProvider.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the pricing threads which connect to and manage real-time price services asynchronously.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PriceProvider.subscribe">
+<em class="property">abstract </em><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">subject</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PriceProvider.subscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Subscribes to real-time price publications on a given <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> representing an instrument.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The price subject to subscribe to.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.PriceProvider.unsubscribe">
+<em class="property">abstract </em><code class="sig-name descname">unsubscribe</code><span class="sig-paren">(</span><em class="sig-param">subject</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PriceProvider.unsubscribe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-subscribes from a previously subscribed price <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The price subject to unsubscribe from.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="callbacks">
+<h2>Callbacks<a class="headerlink" href="#callbacks" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.Callbacks">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">Callbacks</code><a class="headerlink" href="#bidfx.Callbacks" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class provides a set of callback functions that can be overridden by the API user
+to handle the different types of event that are published by the Pricing API.</p>
+<dl class="attribute">
+<dt id="bidfx.Callbacks.price_event_fn">
+<code class="sig-name descname">price_event_fn</code><a class="headerlink" href="#bidfx.Callbacks.price_event_fn" title="Permalink to this definition">¶</a></dt>
+<dd><p>The callback function to be used for handling price events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>def function(event: <a class="reference internal" href="#bidfx.PriceEvent" title="bidfx.PriceEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PriceEvent</span></code></a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Callbacks.price_grid_event_fn">
+<code class="sig-name descname">price_grid_event_fn</code><a class="headerlink" href="#bidfx.Callbacks.price_grid_event_fn" title="Permalink to this definition">¶</a></dt>
+<dd><p>The callback function to be used for handling price grid events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>def function(event: <a class="reference internal" href="#bidfx.PriceEvent" title="bidfx.PriceEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PriceEvent</span></code></a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Callbacks.subscription_event_fn">
+<code class="sig-name descname">subscription_event_fn</code><a class="headerlink" href="#bidfx.Callbacks.subscription_event_fn" title="Permalink to this definition">¶</a></dt>
+<dd><p>The callback function to be used for handling subscription events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>def function(event: <a class="reference internal" href="#bidfx.SubscriptionEvent" title="bidfx.SubscriptionEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SubscriptionEvent</span></code></a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Callbacks.provider_event_fn">
+<code class="sig-name descname">provider_event_fn</code><a class="headerlink" href="#bidfx.Callbacks.provider_event_fn" title="Permalink to this definition">¶</a></dt>
+<dd><p>The callback function to be used for handling provider events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>def function(event: <a class="reference internal" href="#bidfx.ProviderEvent" title="bidfx.ProviderEvent"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ProviderEvent</span></code></a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="subject">
+<h2>Subject<a class="headerlink" href="#subject" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.Subject">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">Subject</code><span class="sig-paren">(</span><em class="sig-param">components</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject" title="Permalink to this definition">¶</a></dt>
+<dd><p>A subject is an immutable, multi-component identifier used to identify instruments
+that may be subscribed to via the pricing API. Subjects are represented as tuples of many nested tuple pairs,
+where each pair provides a component key and value. Subject components are alphabetically ordered by key.</p>
+<p>Example subjects are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">AssetClass=Fx,BuySideAccount=ABC,Currency=EUR,DealType=Spot,Level=1,LiquidityProvider=DBFX,</span>&#160;&#160;&#160; <span class="pre">Quantity=100000.00,RequestFor=Stream,Symbol=EURUSD,Tenor=Spot,User=smartcorp_api</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">AssetClass=Fx,Exchange=OTC,Level=1,Source=Indi,Symbol=USDJPY</span></code></p></li>
+</ul>
+<p>Subject are safe to compare for equality and to use as the keys of a dictionary.
+Subjects can be converted to string using <code class="docutils literal notranslate"><span class="pre">str(subject)</span></code> for display purposes.
+Instances of the subject class can be used much like a <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a> to pull out the individual component parts.
+For example:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">subject</span> <span class="o">=</span> <span class="n">Subject</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ccy_pair</span> <span class="o">=</span> <span class="n">subject</span><span class="p">[</span><span class="n">Subject</span><span class="o">.</span><span class="n">CURRENCY</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>A number of common subject component keys are provided as constants of the Subject class for this purpose.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>components</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><em>tuple</em></a>) – A tuple of subject components, key-value pairs as tuples.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bidfx.Subject.flatten">
+<code class="sig-name descname">flatten</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.flatten" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flattens the subject into a simple list of the subject’s key and value pairings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A flattened list of strings.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)">list</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.parse_string">
+<em class="property">static </em><code class="sig-name descname">parse_string</code><span class="sig-paren">(</span><em class="sig-param">s</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.parse_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new Subject by parsing the string form of subject.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>s</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The string to be parsed.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A new Subject</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject">Subject</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.from_dict">
+<em class="property">static </em><code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="sig-param">d</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new Subject from a dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>d</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)"><em>dict</em></a>) – The dictionary to convert.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A new Subject</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject">Subject</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">key</em>, <em class="sig-param">default</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the value of a Subject component.  The component value is returned
+if the component is present in the subject, otherwise the default value is returned.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The key of the subject component to get.</p></li>
+<li><p><strong>default</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The default value to be returned if the key is not present in the subject.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A the value of the component mapped from the <em>key</em>, or the <em>default</em> value.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.__contains__">
+<code class="sig-name descname">__contains__</code><span class="sig-paren">(</span><em class="sig-param">key</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.__contains__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if this Subject contains a component with the given key.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.__len__">
+<code class="sig-name descname">__len__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.__len__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the length of the Subject in terms of components.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.__str__">
+<code class="sig-name descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets a string representation of the Subject.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.__eq__">
+<code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="sig-param">other</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.__eq__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tests the subject for equality with another Subject.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Subject.__hash__">
+<code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Subject.__hash__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provides a hash code of the Subject.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.ASSET_CLASS">
+<code class="sig-name descname">ASSET_CLASS</code><em class="property"> = 'AssetClass'</em><a class="headerlink" href="#bidfx.Subject.ASSET_CLASS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.BUY_SIDE_ACCOUNT">
+<code class="sig-name descname">BUY_SIDE_ACCOUNT</code><em class="property"> = 'BuySideAccount'</em><a class="headerlink" href="#bidfx.Subject.BUY_SIDE_ACCOUNT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.CURRENCY">
+<code class="sig-name descname">CURRENCY</code><em class="property"> = 'Currency'</em><a class="headerlink" href="#bidfx.Subject.CURRENCY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.CURRENCY_PAIR">
+<code class="sig-name descname">CURRENCY_PAIR</code><em class="property"> = 'Symbol'</em><a class="headerlink" href="#bidfx.Subject.CURRENCY_PAIR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.DEAL_TYPE">
+<code class="sig-name descname">DEAL_TYPE</code><em class="property"> = 'DealType'</em><a class="headerlink" href="#bidfx.Subject.DEAL_TYPE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.EXCHANGE">
+<code class="sig-name descname">EXCHANGE</code><em class="property"> = 'Exchange'</em><a class="headerlink" href="#bidfx.Subject.EXCHANGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.EXPIRY_DATE">
+<code class="sig-name descname">EXPIRY_DATE</code><em class="property"> = 'ExpiryDate'</em><a class="headerlink" href="#bidfx.Subject.EXPIRY_DATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FAR_CURRENCY">
+<code class="sig-name descname">FAR_CURRENCY</code><em class="property"> = 'FarCurrency'</em><a class="headerlink" href="#bidfx.Subject.FAR_CURRENCY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FAR_FIXING_DATE">
+<code class="sig-name descname">FAR_FIXING_DATE</code><em class="property"> = 'FarFixingDate'</em><a class="headerlink" href="#bidfx.Subject.FAR_FIXING_DATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FAR_QUANTITY">
+<code class="sig-name descname">FAR_QUANTITY</code><em class="property"> = 'FarQuantity'</em><a class="headerlink" href="#bidfx.Subject.FAR_QUANTITY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FAR_SETTLEMENT_DATE">
+<code class="sig-name descname">FAR_SETTLEMENT_DATE</code><em class="property"> = 'FarSettlementDate'</em><a class="headerlink" href="#bidfx.Subject.FAR_SETTLEMENT_DATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FAR_TENOR">
+<code class="sig-name descname">FAR_TENOR</code><em class="property"> = 'FarTenor'</em><a class="headerlink" href="#bidfx.Subject.FAR_TENOR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FIXING_CCY">
+<code class="sig-name descname">FIXING_CCY</code><em class="property"> = 'FixingCcy'</em><a class="headerlink" href="#bidfx.Subject.FIXING_CCY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.FIXING_DATE">
+<code class="sig-name descname">FIXING_DATE</code><em class="property"> = 'FixingDate'</em><a class="headerlink" href="#bidfx.Subject.FIXING_DATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.LEVEL">
+<code class="sig-name descname">LEVEL</code><em class="property"> = 'Level'</em><a class="headerlink" href="#bidfx.Subject.LEVEL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.LIQUIDITY_PROVIDER">
+<code class="sig-name descname">LIQUIDITY_PROVIDER</code><em class="property"> = 'LiquidityProvider'</em><a class="headerlink" href="#bidfx.Subject.LIQUIDITY_PROVIDER" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.ON_BEHALF_OF">
+<code class="sig-name descname">ON_BEHALF_OF</code><em class="property"> = 'OnBehalfOf'</em><a class="headerlink" href="#bidfx.Subject.ON_BEHALF_OF" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.PUT_CALL">
+<code class="sig-name descname">PUT_CALL</code><em class="property"> = 'PutCall'</em><a class="headerlink" href="#bidfx.Subject.PUT_CALL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.QUANTITY">
+<code class="sig-name descname">QUANTITY</code><em class="property"> = 'Quantity'</em><a class="headerlink" href="#bidfx.Subject.QUANTITY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.REQUEST_TYPE">
+<code class="sig-name descname">REQUEST_TYPE</code><em class="property"> = 'RequestFor'</em><a class="headerlink" href="#bidfx.Subject.REQUEST_TYPE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.ROUTE">
+<code class="sig-name descname">ROUTE</code><em class="property"> = 'Route'</em><a class="headerlink" href="#bidfx.Subject.ROUTE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.ROWS">
+<code class="sig-name descname">ROWS</code><em class="property"> = 'Rows'</em><a class="headerlink" href="#bidfx.Subject.ROWS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.SETTLEMENT_DATE">
+<code class="sig-name descname">SETTLEMENT_DATE</code><em class="property"> = 'SettlementDate'</em><a class="headerlink" href="#bidfx.Subject.SETTLEMENT_DATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.SOURCE">
+<code class="sig-name descname">SOURCE</code><em class="property"> = 'Source'</em><a class="headerlink" href="#bidfx.Subject.SOURCE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.STRIKE">
+<code class="sig-name descname">STRIKE</code><em class="property"> = 'Strike'</em><a class="headerlink" href="#bidfx.Subject.STRIKE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.SYMBOL">
+<code class="sig-name descname">SYMBOL</code><em class="property"> = 'Symbol'</em><a class="headerlink" href="#bidfx.Subject.SYMBOL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.TENOR">
+<code class="sig-name descname">TENOR</code><em class="property"> = 'Tenor'</em><a class="headerlink" href="#bidfx.Subject.TENOR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Subject.USER">
+<code class="sig-name descname">USER</code><em class="property"> = 'User'</em><a class="headerlink" href="#bidfx.Subject.USER" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="tenor">
+<h2>Tenor<a class="headerlink" href="#tenor" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.Tenor">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">Tenor</code><a class="headerlink" href="#bidfx.Tenor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tenor values for defining the settlement period in a <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> for FX futures and swaps.</p>
+<dl class="attribute">
+<dt id="bidfx.Tenor.BROKEN_DATE">
+<code class="sig-name descname">BROKEN_DATE</code><em class="property"> = 'BD'</em><a class="headerlink" href="#bidfx.Tenor.BROKEN_DATE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Broken data tenor implied that an explicit settlement date is provided.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.TODAY">
+<code class="sig-name descname">TODAY</code><em class="property"> = 'TOD'</em><a class="headerlink" href="#bidfx.Tenor.TODAY" title="Permalink to this definition">¶</a></dt>
+<dd><p>Today or same day settlement.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.TOMORROW">
+<code class="sig-name descname">TOMORROW</code><em class="property"> = 'TOM'</em><a class="headerlink" href="#bidfx.Tenor.TOMORROW" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tomorrow or next day settlement. Next good business day after today.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.SPOT">
+<code class="sig-name descname">SPOT</code><em class="property"> = 'Spot'</em><a class="headerlink" href="#bidfx.Tenor.SPOT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Spot date settlement. Spot is T+1 or T+2 depending of the currency pair.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.SPOT_NEXT">
+<code class="sig-name descname">SPOT_NEXT</code><em class="property"> = 'S/N'</em><a class="headerlink" href="#bidfx.Tenor.SPOT_NEXT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Spot/next settlement. The next good business day after spot.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_1_WEEK">
+<code class="sig-name descname">IN_1_WEEK</code><em class="property"> = '1W'</em><a class="headerlink" href="#bidfx.Tenor.IN_1_WEEK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in one week.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_2_WEEKS">
+<code class="sig-name descname">IN_2_WEEKS</code><em class="property"> = '2W'</em><a class="headerlink" href="#bidfx.Tenor.IN_2_WEEKS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in two weeks.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_3_WEEKS">
+<code class="sig-name descname">IN_3_WEEKS</code><em class="property"> = '3W'</em><a class="headerlink" href="#bidfx.Tenor.IN_3_WEEKS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in three weeks.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_1_MONTH">
+<code class="sig-name descname">IN_1_MONTH</code><em class="property"> = '1M'</em><a class="headerlink" href="#bidfx.Tenor.IN_1_MONTH" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in one month.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_2_MONTHS">
+<code class="sig-name descname">IN_2_MONTHS</code><em class="property"> = '2M'</em><a class="headerlink" href="#bidfx.Tenor.IN_2_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in two months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_3_MONTHS">
+<code class="sig-name descname">IN_3_MONTHS</code><em class="property"> = '3M'</em><a class="headerlink" href="#bidfx.Tenor.IN_3_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in three months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_4_MONTHS">
+<code class="sig-name descname">IN_4_MONTHS</code><em class="property"> = '4M'</em><a class="headerlink" href="#bidfx.Tenor.IN_4_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in four months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_5_MONTHS">
+<code class="sig-name descname">IN_5_MONTHS</code><em class="property"> = '5M'</em><a class="headerlink" href="#bidfx.Tenor.IN_5_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in five months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_6_MONTHS">
+<code class="sig-name descname">IN_6_MONTHS</code><em class="property"> = '6M'</em><a class="headerlink" href="#bidfx.Tenor.IN_6_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in six months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_7_MONTHS">
+<code class="sig-name descname">IN_7_MONTHS</code><em class="property"> = '7M'</em><a class="headerlink" href="#bidfx.Tenor.IN_7_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in seven months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_8_MONTHS">
+<code class="sig-name descname">IN_8_MONTHS</code><em class="property"> = '8M'</em><a class="headerlink" href="#bidfx.Tenor.IN_8_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in eight months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_9_MONTHS">
+<code class="sig-name descname">IN_9_MONTHS</code><em class="property"> = '9M'</em><a class="headerlink" href="#bidfx.Tenor.IN_9_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in nine months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_10_MONTHS">
+<code class="sig-name descname">IN_10_MONTHS</code><em class="property"> = '10M'</em><a class="headerlink" href="#bidfx.Tenor.IN_10_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in ten months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_11_MONTHS">
+<code class="sig-name descname">IN_11_MONTHS</code><em class="property"> = '11M'</em><a class="headerlink" href="#bidfx.Tenor.IN_11_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in eleven months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_18_MONTHS">
+<code class="sig-name descname">IN_18_MONTHS</code><em class="property"> = '18M'</em><a class="headerlink" href="#bidfx.Tenor.IN_18_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in eighteen months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_30_MONTHS">
+<code class="sig-name descname">IN_30_MONTHS</code><em class="property"> = '30M'</em><a class="headerlink" href="#bidfx.Tenor.IN_30_MONTHS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in thirty months.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_1_YEAR">
+<code class="sig-name descname">IN_1_YEAR</code><em class="property"> = '1Y'</em><a class="headerlink" href="#bidfx.Tenor.IN_1_YEAR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in one year.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_2_YEARS">
+<code class="sig-name descname">IN_2_YEARS</code><em class="property"> = '2Y'</em><a class="headerlink" href="#bidfx.Tenor.IN_2_YEARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in two years.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_3_YEARS">
+<code class="sig-name descname">IN_3_YEARS</code><em class="property"> = '3Y'</em><a class="headerlink" href="#bidfx.Tenor.IN_3_YEARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in three years.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_4_YEARS">
+<code class="sig-name descname">IN_4_YEARS</code><em class="property"> = '4Y'</em><a class="headerlink" href="#bidfx.Tenor.IN_4_YEARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in four years.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IN_5_YEARS">
+<code class="sig-name descname">IN_5_YEARS</code><em class="property"> = '5Y'</em><a class="headerlink" href="#bidfx.Tenor.IN_5_YEARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement in five years.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IMM_MARCH">
+<code class="sig-name descname">IMM_MARCH</code><em class="property"> = 'IMMH'</em><a class="headerlink" href="#bidfx.Tenor.IMM_MARCH" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement coinciding with the IMM cash futures contract for March.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IMM_JUNE">
+<code class="sig-name descname">IMM_JUNE</code><em class="property"> = 'IMMM'</em><a class="headerlink" href="#bidfx.Tenor.IMM_JUNE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement coinciding with the IMM cash futures contract for June.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IMM_SEPTEMBER">
+<code class="sig-name descname">IMM_SEPTEMBER</code><em class="property"> = 'IMMU'</em><a class="headerlink" href="#bidfx.Tenor.IMM_SEPTEMBER" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement coinciding with the IMM cash futures contract for September.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Tenor.IMM_DECEMBER">
+<code class="sig-name descname">IMM_DECEMBER</code><em class="property"> = 'IMMZ'</em><a class="headerlink" href="#bidfx.Tenor.IMM_DECEMBER" title="Permalink to this definition">¶</a></dt>
+<dd><p>Settlement coinciding with the IMM cash futures contract for December.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Tenor.of_week">
+<em class="property">classmethod </em><code class="sig-name descname">of_week</code><span class="sig-paren">(</span><em class="sig-param">week: int</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Tenor.of_week" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the weekly tenor of the given number of weeks.
+:param week: number of weeks
+:return: the tenor value</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Tenor.of_month">
+<em class="property">classmethod </em><code class="sig-name descname">of_month</code><span class="sig-paren">(</span><em class="sig-param">month: int</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Tenor.of_month" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the monthly tenor of the given number of months.
+:param month: number of months
+:return: the tenor value</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Tenor.of_year">
+<em class="property">classmethod </em><code class="sig-name descname">of_year</code><span class="sig-paren">(</span><em class="sig-param">year: int</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Tenor.of_year" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the yearly tenor of the given number of years.
+:param year: number of months
+:return: the tenor value</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bidfx.Tenor.of_imm_month">
+<em class="property">classmethod </em><code class="sig-name descname">of_imm_month</code><span class="sig-paren">(</span><em class="sig-param">month</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.Tenor.of_imm_month" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the IMM monthly contract tenor of the given month.
+:param month: months number in year 1..12
+:return: the tenor value</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="priceevent">
+<h2>PriceEvent<a class="headerlink" href="#priceevent" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.PriceEvent">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">PriceEvent</code><span class="sig-paren">(</span><em class="sig-param">subject</em>, <em class="sig-param">price</em>, <em class="sig-param">full</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.PriceEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class defines a Price Event that gets published for each price tick received on a subscription.
+Price events should be handled by setting a callback function via <a class="reference internal" href="#bidfx.PricingAPI.callbacks" title="bidfx.PricingAPI.callbacks"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">PricingAPI.callbacks</span></code></a>.
+The callback function could be implemented and used as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">on_price_event</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">price</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;price update </span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2"> / </span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">event</span><span class="o">.</span><span class="n">subject</span><span class="p">[</span><span class="n">Subject</span><span class="o">.</span><span class="n">CURRENCY_PAIR</span><span class="p">],</span>
+            <span class="n">event</span><span class="o">.</span><span class="n">price</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">Field</span><span class="o">.</span><span class="n">BID</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">),</span>
+            <span class="n">event</span><span class="o">.</span><span class="n">price</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">Field</span><span class="o">.</span><span class="n">ASK</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)))</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">price_event_fn</span> <span class="o">=</span> <span class="n">on_price_event</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Notice from above that you can use the constants provided by:</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> to access the components of the subject</p></li>
+<li><p><a class="reference internal" href="#bidfx.Field" title="bidfx.Field"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Field</span></code></a> to access the fields of the price update.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The unique subject of the price subscription.</p></li>
+<li><p><strong>price</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)"><em>dict</em></a>) – The price as a map for fields.</p></li>
+<li><p><strong>full</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Flag indicating if this is a full or partial price update.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="bidfx.PriceEvent.subject">
+<code class="sig-name descname">subject</code><a class="headerlink" href="#bidfx.PriceEvent.subject" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> of the price event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject">Subject</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.PriceEvent.price">
+<code class="sig-name descname">price</code><a class="headerlink" href="#bidfx.PriceEvent.price" title="Permalink to this definition">¶</a></dt>
+<dd><p>The map of updated price field.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.PriceEvent.full">
+<code class="sig-name descname">full</code><a class="headerlink" href="#bidfx.PriceEvent.full" title="Permalink to this definition">¶</a></dt>
+<dd><p>A boolean flag indicating if the update represents a full or partial update.
+The value is set to <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> for a full price image and <a class="reference external" href="https://docs.python.org/3/library/constants.html#False" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">False</span></code></a> for a partial update.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)">bool</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="subscriptionevent">
+<h2>SubscriptionEvent<a class="headerlink" href="#subscriptionevent" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.SubscriptionEvent">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">SubscriptionEvent</code><span class="sig-paren">(</span><em class="sig-param">subject</em>, <em class="sig-param">status</em>, <em class="sig-param">explanation</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.SubscriptionEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class defines a Subscription Event that gets published whenever the status of subscription changes.
+Subscription events should be handled by setting a callback function via <a class="reference internal" href="#bidfx.PricingAPI.callbacks" title="bidfx.PricingAPI.callbacks"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">PricingAPI.callbacks</span></code></a>.
+The callback function could be implemented and used as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">on_subscription_event</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Subscription to </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">subject</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">subscription_event_fn</span> <span class="o">=</span> <span class="n">on_subscription_event</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>subject</strong> (<a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><em>Subject</em></a>) – The unique subject of the price subscription.</p></li>
+<li><p><strong>status</strong> (<a class="reference internal" href="#bidfx.SubscriptionStatus" title="bidfx.SubscriptionStatus"><em>SubscriptionStatus</em></a>) – The subscription status.</p></li>
+<li><p><strong>explanation</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An explanation of the status reason.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="bidfx.SubscriptionEvent.subject">
+<code class="sig-name descname">subject</code><a class="headerlink" href="#bidfx.SubscriptionEvent.subject" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> of the price event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.Subject" title="bidfx.Subject">Subject</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionEvent.status">
+<code class="sig-name descname">status</code><a class="headerlink" href="#bidfx.SubscriptionEvent.status" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="#bidfx.SubscriptionStatus" title="bidfx.SubscriptionStatus"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SubscriptionStatus</span></code></a> associated with the event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.SubscriptionStatus" title="bidfx.SubscriptionStatus">SubscriptionStatus</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionEvent.explanation">
+<code class="sig-name descname">explanation</code><a class="headerlink" href="#bidfx.SubscriptionEvent.explanation" title="Permalink to this definition">¶</a></dt>
+<dd><p>An optional explanation message for the status event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="providerevent">
+<h2>ProviderEvent<a class="headerlink" href="#providerevent" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.ProviderEvent">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">ProviderEvent</code><span class="sig-paren">(</span><em class="sig-param">provider</em>, <em class="sig-param">status</em>, <em class="sig-param">explanation</em><span class="sig-paren">)</span><a class="headerlink" href="#bidfx.ProviderEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class defines Provider Event that gets published whenever the status of price provider changes.
+Provider events should be handled by setting a callback function via <a class="reference internal" href="#bidfx.PricingAPI.callbacks" title="bidfx.PricingAPI.callbacks"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">PricingAPI.callbacks</span></code></a>.
+The callback function could be implemented and used as follows.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">on_provider_event</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Provider </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">provider</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">Session</span><span class="o">.</span><span class="n">create_from_ini_file</span><span class="p">()</span>
+    <span class="n">pricing</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">provider_event_fn</span> <span class="o">=</span> <span class="n">on_provider_event</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>provider</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The unique name of the price provider.</p></li>
+<li><p><strong>status</strong> (<a class="reference internal" href="#bidfx.ProviderStatus" title="bidfx.ProviderStatus"><em>ProviderStatus</em></a>) – The provider status.</p></li>
+<li><p><strong>explanation</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An explanation of the status reason.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="bidfx.ProviderEvent.provider">
+<code class="sig-name descname">provider</code><a class="headerlink" href="#bidfx.ProviderEvent.provider" title="Permalink to this definition">¶</a></dt>
+<dd><p>The name of the price provider that issued the event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderEvent.status">
+<code class="sig-name descname">status</code><a class="headerlink" href="#bidfx.ProviderEvent.status" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="#bidfx.ProviderStatus" title="bidfx.ProviderStatus"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ProviderStatus</span></code></a> associated with of the event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bidfx.ProviderStatus" title="bidfx.ProviderStatus">ProviderStatus</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderEvent.explanation">
+<code class="sig-name descname">explanation</code><a class="headerlink" href="#bidfx.ProviderEvent.explanation" title="Permalink to this definition">¶</a></dt>
+<dd><p>An optional explanation message for the status event.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="subscriptionstatus">
+<h2>SubscriptionStatus<a class="headerlink" href="#subscriptionstatus" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.SubscriptionStatus">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">SubscriptionStatus</code><a class="headerlink" href="#bidfx.SubscriptionStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>This enum defines the number of different statuses that can be applied to a pricing subscription.</p>
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.OK">
+<code class="sig-name descname">OK</code><em class="property"> = 1</em><a class="headerlink" href="#bidfx.SubscriptionStatus.OK" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is OK. This state is not normally published, it is implied by any price update.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.PENDING">
+<code class="sig-name descname">PENDING</code><em class="property"> = 2</em><a class="headerlink" href="#bidfx.SubscriptionStatus.PENDING" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is pending an update from an upstream service or provider.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.STALE">
+<code class="sig-name descname">STALE</code><em class="property"> = 3</em><a class="headerlink" href="#bidfx.SubscriptionStatus.STALE" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is stale, possibly due to a connection issue.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.CANCELLED">
+<code class="sig-name descname">CANCELLED</code><em class="property"> = 4</em><a class="headerlink" href="#bidfx.SubscriptionStatus.CANCELLED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has been cancelled.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.DISCONTINUED">
+<code class="sig-name descname">DISCONTINUED</code><em class="property"> = 5</em><a class="headerlink" href="#bidfx.SubscriptionStatus.DISCONTINUED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has been discontinued by the provider (common on RFQ subscriptions).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.PROHIBITED">
+<code class="sig-name descname">PROHIBITED</code><em class="property"> = 6</em><a class="headerlink" href="#bidfx.SubscriptionStatus.PROHIBITED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is prohibited by entitlements.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.UNAVAILABLE">
+<code class="sig-name descname">UNAVAILABLE</code><em class="property"> = 7</em><a class="headerlink" href="#bidfx.SubscriptionStatus.UNAVAILABLE" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is unavailable perhaps due to routing issues or setup.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.REJECTED">
+<code class="sig-name descname">REJECTED</code><em class="property"> = 8</em><a class="headerlink" href="#bidfx.SubscriptionStatus.REJECTED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has been rejected by the provider.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.TIMEOUT">
+<code class="sig-name descname">TIMEOUT</code><em class="property"> = 9</em><a class="headerlink" href="#bidfx.SubscriptionStatus.TIMEOUT" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has timed out.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.INACTIVE">
+<code class="sig-name descname">INACTIVE</code><em class="property"> = 10</em><a class="headerlink" href="#bidfx.SubscriptionStatus.INACTIVE" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has been detected as being inactive.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.EXHAUSTED">
+<code class="sig-name descname">EXHAUSTED</code><em class="property"> = 11</em><a class="headerlink" href="#bidfx.SubscriptionStatus.EXHAUSTED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription is has exhausted a usage limit or resource.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.SubscriptionStatus.CLOSED">
+<code class="sig-name descname">CLOSED</code><em class="property"> = 12</em><a class="headerlink" href="#bidfx.SubscriptionStatus.CLOSED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subscription has been closed (normally by the client API). This is a terminal state.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="providerstatus">
+<h2>ProviderStatus<a class="headerlink" href="#providerstatus" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.ProviderStatus">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">ProviderStatus</code><a class="headerlink" href="#bidfx.ProviderStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>This enum defines the number of different statuses that can be applied to a price provider.</p>
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.READY">
+<code class="sig-name descname">READY</code><em class="property"> = 1</em><a class="headerlink" href="#bidfx.ProviderStatus.READY" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider is ready for use.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.DISABLED">
+<code class="sig-name descname">DISABLED</code><em class="property"> = 2</em><a class="headerlink" href="#bidfx.ProviderStatus.DISABLED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider is has been disabled.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.DOWN">
+<code class="sig-name descname">DOWN</code><em class="property"> = 3</em><a class="headerlink" href="#bidfx.ProviderStatus.DOWN" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider is down and attempting to reconnect.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.UNAVAILABLE">
+<code class="sig-name descname">UNAVAILABLE</code><em class="property"> = 4</em><a class="headerlink" href="#bidfx.ProviderStatus.UNAVAILABLE" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider is unavailable.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.INVALID">
+<code class="sig-name descname">INVALID</code><em class="property"> = 5</em><a class="headerlink" href="#bidfx.ProviderStatus.INVALID" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider is invalid most likely due to misconfiguration.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.ProviderStatus.CLOSED">
+<code class="sig-name descname">CLOSED</code><em class="property"> = 6</em><a class="headerlink" href="#bidfx.ProviderStatus.CLOSED" title="Permalink to this definition">¶</a></dt>
+<dd><p>The price provider has been closed. This is the terminal state.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="field">
+<h2>Field<a class="headerlink" href="#field" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bidfx.Field">
+<em class="property">class </em><code class="sig-prename descclassname">bidfx.</code><code class="sig-name descname">Field</code><a class="headerlink" href="#bidfx.Field" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fields provides constants for the most commonly used price field names.</p>
+<dl class="attribute">
+<dt id="bidfx.Field.ASK">
+<code class="sig-name descname">ASK</code><em class="property"> = 'Ask'</em><a class="headerlink" href="#bidfx.Field.ASK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ask price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_END_SIZE">
+<code class="sig-name descname">ASK_END_SIZE</code><em class="property"> = 'AskEndSize'</em><a class="headerlink" href="#bidfx.Field.ASK_END_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ask size of the end leg of a swap or NDS.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_EXCHANGE">
+<code class="sig-name descname">ASK_EXCHANGE</code><em class="property"> = 'AskExchange'</em><a class="headerlink" href="#bidfx.Field.ASK_EXCHANGE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the exchange code from where the ask price has originated.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_FORWARD_POINTS">
+<code class="sig-name descname">ASK_FORWARD_POINTS</code><em class="property"> = 'AskForwardPoints'</em><a class="headerlink" href="#bidfx.Field.ASK_FORWARD_POINTS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ask forward points of an FX forward.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_ID">
+<code class="sig-name descname">ASK_ID</code><em class="property"> = 'AskID'</em><a class="headerlink" href="#bidfx.Field.ASK_ID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the price ID of a quote of the ask side of an quote book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_LEVELS">
+<code class="sig-name descname">ASK_LEVELS</code><em class="property"> = 'AskLevels'</em><a class="headerlink" href="#bidfx.Field.ASK_LEVELS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the number of market-depth levels of the ask side of an order book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_FIRM">
+<code class="sig-name descname">ASK_FIRM</code><em class="property"> = 'AskFirm'</em><a class="headerlink" href="#bidfx.Field.ASK_FIRM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the firm (company) offering on the ask side of an order book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_SIZE">
+<code class="sig-name descname">ASK_SIZE</code><em class="property"> = 'AskSize'</em><a class="headerlink" href="#bidfx.Field.ASK_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ask size.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_SPOT">
+<code class="sig-name descname">ASK_SPOT</code><em class="property"> = 'AskSpot'</em><a class="headerlink" href="#bidfx.Field.ASK_SPOT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ask spot rate associated with an FX forward.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_TICK">
+<code class="sig-name descname">ASK_TICK</code><em class="property"> = 'AskTick'</em><a class="headerlink" href="#bidfx.Field.ASK_TICK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the tick direction for the ask price relative to the previous price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ASK_TIME">
+<code class="sig-name descname">ASK_TIME</code><em class="property"> = 'AskTime'</em><a class="headerlink" href="#bidfx.Field.ASK_TIME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the time of the last change in the ask price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID">
+<code class="sig-name descname">BID</code><em class="property"> = 'Bid'</em><a class="headerlink" href="#bidfx.Field.BID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the bid price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_END_SIZE">
+<code class="sig-name descname">BID_END_SIZE</code><em class="property"> = 'BidEndSize'</em><a class="headerlink" href="#bidfx.Field.BID_END_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the bid size of the end leg of a swap or NDS.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_EXCHANGE">
+<code class="sig-name descname">BID_EXCHANGE</code><em class="property"> = 'BidExchange'</em><a class="headerlink" href="#bidfx.Field.BID_EXCHANGE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the exchange code from where the bid price has originated.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_FORWARD_POINTS">
+<code class="sig-name descname">BID_FORWARD_POINTS</code><em class="property"> = 'BidForwardPoints'</em><a class="headerlink" href="#bidfx.Field.BID_FORWARD_POINTS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the bid forward points of an FX forward.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_ID">
+<code class="sig-name descname">BID_ID</code><em class="property"> = 'BidID'</em><a class="headerlink" href="#bidfx.Field.BID_ID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the price ID of a quote of the bid side of an quote book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_LEVELS">
+<code class="sig-name descname">BID_LEVELS</code><em class="property"> = 'BidLevels'</em><a class="headerlink" href="#bidfx.Field.BID_LEVELS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the number of market-depth levels of the bid side of an order book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_FIRM">
+<code class="sig-name descname">BID_FIRM</code><em class="property"> = 'BidFirm'</em><a class="headerlink" href="#bidfx.Field.BID_FIRM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the firm (company) offering on the bid side of an order book.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_SIZE">
+<code class="sig-name descname">BID_SIZE</code><em class="property"> = 'BidSize'</em><a class="headerlink" href="#bidfx.Field.BID_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the bid size.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_SPOT">
+<code class="sig-name descname">BID_SPOT</code><em class="property"> = 'BidSpot'</em><a class="headerlink" href="#bidfx.Field.BID_SPOT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the bid spot rate associated with an FX forward.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_TICK">
+<code class="sig-name descname">BID_TICK</code><em class="property"> = 'BidTick'</em><a class="headerlink" href="#bidfx.Field.BID_TICK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the tick direction for the bid price relative to the previous price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BID_TIME">
+<code class="sig-name descname">BID_TIME</code><em class="property"> = 'BidTime'</em><a class="headerlink" href="#bidfx.Field.BID_TIME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the time of the last change in the bid price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.BROKER">
+<code class="sig-name descname">BROKER</code><em class="property"> = 'Broker'</em><a class="headerlink" href="#bidfx.Field.BROKER" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the name of the broker quoting the price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.CLOSE">
+<code class="sig-name descname">CLOSE</code><em class="property"> = 'Close'</em><a class="headerlink" href="#bidfx.Field.CLOSE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the previous market close price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.HIGH">
+<code class="sig-name descname">HIGH</code><em class="property"> = 'High'</em><a class="headerlink" href="#bidfx.Field.HIGH" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the market high price for the current day or session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.LAST">
+<code class="sig-name descname">LAST</code><em class="property"> = 'Last'</em><a class="headerlink" href="#bidfx.Field.LAST" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the last traded price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.LAST_SIZE">
+<code class="sig-name descname">LAST_SIZE</code><em class="property"> = 'LastSize'</em><a class="headerlink" href="#bidfx.Field.LAST_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the size of the last trade.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.LAST_TICK">
+<code class="sig-name descname">LAST_TICK</code><em class="property"> = 'LastTick'</em><a class="headerlink" href="#bidfx.Field.LAST_TICK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the tick direction of the last trade relative to the previous trade.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.LOW">
+<code class="sig-name descname">LOW</code><em class="property"> = 'Low'</em><a class="headerlink" href="#bidfx.Field.LOW" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the market low price for the current day or session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.NET_CHANGE">
+<code class="sig-name descname">NET_CHANGE</code><em class="property"> = 'NetChange'</em><a class="headerlink" href="#bidfx.Field.NET_CHANGE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the net change in price between the last price and the open price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.NUM_ASKS">
+<code class="sig-name descname">NUM_ASKS</code><em class="property"> = 'NumAsks'</em><a class="headerlink" href="#bidfx.Field.NUM_ASKS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the number of participants offering at the ask price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.NUM_BIDS">
+<code class="sig-name descname">NUM_BIDS</code><em class="property"> = 'NumBids'</em><a class="headerlink" href="#bidfx.Field.NUM_BIDS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the the number of participants bidding at the bid price.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.OPEN">
+<code class="sig-name descname">OPEN</code><em class="property"> = 'Open'</em><a class="headerlink" href="#bidfx.Field.OPEN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the market price at the open.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.OPEN_INTEREST">
+<code class="sig-name descname">OPEN_INTEREST</code><em class="property"> = 'OpenInterest'</em><a class="headerlink" href="#bidfx.Field.OPEN_INTEREST" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the open interest in a future.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.ORIGIN_TIME">
+<code class="sig-name descname">ORIGIN_TIME</code><em class="property"> = 'OriginTime'</em><a class="headerlink" href="#bidfx.Field.ORIGIN_TIME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the time of a price tick as measured at the originating source.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.PERCENT_CHANGE">
+<code class="sig-name descname">PERCENT_CHANGE</code><em class="property"> = 'PercentChange'</em><a class="headerlink" href="#bidfx.Field.PERCENT_CHANGE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the percentage change between the last price and the market open.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.PRICE_ID">
+<code class="sig-name descname">PRICE_ID</code><em class="property"> = 'PriceID'</em><a class="headerlink" href="#bidfx.Field.PRICE_ID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the ID used by an LP to identify a tradable quote.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.STRIKE">
+<code class="sig-name descname">STRIKE</code><em class="property"> = 'Strike'</em><a class="headerlink" href="#bidfx.Field.STRIKE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the strike price of an option.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.VOLUME">
+<code class="sig-name descname">VOLUME</code><em class="property"> = 'Volume'</em><a class="headerlink" href="#bidfx.Field.VOLUME" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the volume.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bidfx.Field.VWAP">
+<code class="sig-name descname">VWAP</code><em class="property"> = 'VWAP'</em><a class="headerlink" href="#bidfx.Field.VWAP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Price field containing the volume weighted average price.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="trading.html" title="Trading"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="bidfx.html" title="BidFX package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>

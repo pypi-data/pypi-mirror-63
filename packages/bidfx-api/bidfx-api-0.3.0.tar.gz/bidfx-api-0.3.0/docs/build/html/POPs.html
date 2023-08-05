@@ -1,0 +1,219 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Global Points of Presence &#8212; BidFX API Python (0.3.0)</title>
+    <link rel="stylesheet" href="_static/bidfxstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="shortcut icon" href="_static/favicon32.png"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Potential issues" href="issues.html" />
+    <link rel="prev" title="API Configuration" href="configuration.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="issues.html" title="Potential issues"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="configuration.html" title="API Configuration"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/bidfx_logo_128.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Global Points of Presence</a><ul>
+<li><a class="reference internal" href="#production">Production</a></li>
+<li><a class="reference internal" href="#user-acceptance-testing">User acceptance testing</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="configuration.html"
+                        title="previous chapter">API Configuration</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="issues.html"
+                        title="next chapter">Potential issues</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="global-points-of-presence">
+<h1>Global Points of Presence<a class="headerlink" href="#global-points-of-presence" title="Permalink to this headline">¶</a></h1>
+<p>BidFX provides several network Points-Of-Presence (POPs) around the world
+where our clients may connect to access our pricing and trading service.
+TLS secures all connections over a single port which is sufficient for both pricing and order flow.</p>
+<div class="section" id="production">
+<h2>Production<a class="headerlink" href="#production" title="Permalink to this headline">¶</a></h2>
+<p>The table below lists the available Production POPs.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>City</p></th>
+<th class="head"><p>Environment</p></th>
+<th class="head"><p>DNS name</p></th>
+<th class="head"><p>IP</p></th>
+<th class="head"><p>Port</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>London</p></td>
+<td><p>PROD</p></td>
+<td><p>ln-tunnel.prod.tradingscreen.com</p></td>
+<td><p>199.27.86.88</p></td>
+<td><p>443</p></td>
+</tr>
+<tr class="row-odd"><td><p>New York</p></td>
+<td><p>PROD</p></td>
+<td><p>ny-tunnel.prod.tradingscreen.com</p></td>
+<td><p>199.27.81.88</p></td>
+<td><p>443</p></td>
+</tr>
+<tr class="row-even"><td><p>Tokyo</p></td>
+<td><p>PROD</p></td>
+<td><p>to-tunnel.prod.tradingscreen.com</p></td>
+<td><p>199.27.85.88</p></td>
+<td><p>443</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hong Kong</p></td>
+<td><p>PROD</p></td>
+<td><p>hk-tunnel.prod.tradingscreen.com</p></td>
+<td><p>199.27.84.88</p></td>
+<td><p>443</p></td>
+</tr>
+<tr class="row-even"><td><p>Paris</p></td>
+<td><p>PROD</p></td>
+<td><p>pa-tunnel.prod.tradingscreen.com</p></td>
+<td><p>199.27.83.88</p></td>
+<td><p>443</p></td>
+</tr>
+</tbody>
+</table>
+<p>Clients are encouraged to connect to their <strong>geographically closest</strong> access
+point for minimum latency.</p>
+</div>
+<div class="section" id="user-acceptance-testing">
+<h2>User acceptance testing<a class="headerlink" href="#user-acceptance-testing" title="Permalink to this headline">¶</a></h2>
+<p>BidFX provide dedicated User Acceptance Test (UAT) environments
+which clients can uses to test and certify their software before going into production.
+The table below lists the available UAT POPs.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>City</p></th>
+<th class="head"><p>Environment</p></th>
+<th class="head"><p>DNS name</p></th>
+<th class="head"><p>IP</p></th>
+<th class="head"><p>Port</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>New York</p></td>
+<td><p>UAT</p></td>
+<td><p>ny-tunnel.uatprod.tradingscreen.com</p></td>
+<td><p>199.27.81.99</p></td>
+<td><p>443</p></td>
+</tr>
+<tr class="row-odd"><td><p>London</p></td>
+<td><p>UAT</p></td>
+<td><p>ln-tunnel.uatprod.tradingscreen.com</p></td>
+<td><p>199.27.86.91</p></td>
+<td><p>443</p></td>
+</tr>
+</tbody>
+</table>
+<p>UAT pricing subscriptions are routed to liquidity provider <strong>test sessions</strong>.
+These will quote prices that are <em>similar</em> to current market rates but will not compare well with production data.
+Prices on bank test session are good for heavily traded instruments
+but less so for less-liquid instruments such as NDF.</p>
+<p>In UAT orders are routed to a BidFX market simulator running in New York.
+Clients located far from the simulator may experience latency on their orders as
+they route to New York for handling.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="issues.html" title="Potential issues"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="configuration.html" title="API Configuration"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">BidFX API Python (0.3.0)</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, BidFX Systems Ltd.
+    </div>
+  </body>
+</html>
