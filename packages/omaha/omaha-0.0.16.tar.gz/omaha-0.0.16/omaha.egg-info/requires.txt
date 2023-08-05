@@ -1,0 +1,5 @@
+requests
+pandas
+cachetools
+quandl
+inflection
