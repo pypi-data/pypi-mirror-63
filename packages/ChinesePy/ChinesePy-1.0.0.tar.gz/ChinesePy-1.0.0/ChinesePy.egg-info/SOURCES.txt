@@ -1,0 +1,7 @@
+setup.py
+ChinesePy/ChBase.py
+ChinesePy/__init__.py
+ChinesePy.egg-info/PKG-INFO
+ChinesePy.egg-info/SOURCES.txt
+ChinesePy.egg-info/dependency_links.txt
+ChinesePy.egg-info/top_level.txt
