@@ -1,0 +1,11 @@
+README.md
+obj
+setup.py
+objectio/__init__.py
+objectio/checks.py
+objectio/io.py
+objectio.egg-info/PKG-INFO
+objectio.egg-info/SOURCES.txt
+objectio.egg-info/dependency_links.txt
+objectio.egg-info/requires.txt
+objectio.egg-info/top_level.txt
