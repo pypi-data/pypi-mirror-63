@@ -1,0 +1,12 @@
+README.rst
+setup.py
+study_state_machine/__init__.py
+study_state_machine/context.py
+study_state_machine/errors.py
+study_state_machine/interfaces.py
+study_state_machine.egg-info/PKG-INFO
+study_state_machine.egg-info/SOURCES.txt
+study_state_machine.egg-info/dependency_links.txt
+study_state_machine.egg-info/top_level.txt
+test/test_main.py
+test/test_state_machine.py
