@@ -1,0 +1,18 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Process name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>Colour</td>
+    <td>{{ object.colour }}</td>
+  </tr>
+  <tr>
+    <td>Positive</td>
+    <td>{{ object.positive }}</td>
+  </tr>
+</table>
+{% endblock %}
