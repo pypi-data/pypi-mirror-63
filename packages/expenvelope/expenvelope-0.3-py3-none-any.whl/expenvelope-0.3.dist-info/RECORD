@@ -1,0 +1,10 @@
+expenvelope/__init__.py,sha256=A3jKnIsXva3CAAPirCRtkMrBebhoPmSjqM0Z2HOztJ0,24
+expenvelope/envelope.py,sha256=AxgK2MGyLlfsYkxKqYbsqqMkKp-AFx7VUt47A75Gnx0,42779
+expenvelope/envelope_conflict-20191025-181828.py,sha256=vh27l128_Pu9zniBnDU97lkbZrXF6YD30XBDKrJAuAk,42699
+expenvelope/envelope_segment.py,sha256=0FioqDqj3wQ85EzLORXtUuy1bTHE31Lw1HkxliUcP8E,15889
+expenvelope/utilities.py,sha256=vc6KTWpns5aVuW_CxUxxODMQz-9Imw1frSt-06OWW5Q,9304
+expenvelope-0.3.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+expenvelope-0.3.dist-info/METADATA,sha256=u2Hrk05-_bDx6Ozwp7L0jCREbeox1k1zwgqdEcbCBQM,1991
+expenvelope-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+expenvelope-0.3.dist-info/top_level.txt,sha256=HYfuvoXyR_rJT9wM5F6ZGwsBQ-OfN6jljQvo7hdn0UY,12
+expenvelope-0.3.dist-info/RECORD,,
