@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: youngones-auth
+Version: 0.0.1
+Summary: Python Auth Adapter for YoungOnes Authentication
+Author: Alex Pedersen
+Author-email: alex@youngones.works
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: build (>=1.0.2,<2.0.0)
+Requires-Dist: pyyaml (>=5.3,<6.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
