@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wxcloudsdk/__init__.py
+wxcloudsdk/file_manager.py
+wxcloudsdk.egg-info/PKG-INFO
+wxcloudsdk.egg-info/SOURCES.txt
+wxcloudsdk.egg-info/dependency_links.txt
+wxcloudsdk.egg-info/requires.txt
+wxcloudsdk.egg-info/top_level.txt
+wxcloudsdk/__pycache__/__init__.cpython-37.pyc
+wxcloudsdk/__pycache__/file_manager.cpython-37.pyc

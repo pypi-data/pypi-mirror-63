@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wxcloudsdk
+Version: 0.0.5
+Summary: Wechat miniprogram http api tools
+Home-page: UNKNOWN
+Author: typingcat
+Author-email: liuchunyao0321@gmail.com
+License: MIT License
+Description: This package is maintained by Typing Cat<liuchunyao0321@gmail.com>.
+        
+        This package is useful for developing wechat miniprogram. Especially for the cloud apis.
+        
+        ## API usage
+        
+        ### upload_file: (token, env_id, cloud_path, cloud_dir, local_path)
+        Upload a single file to wx cloud storage
+        
+        ### rebuild: (file_path, env_id, token, collection_name)
+        Refresh a collection by remove and rebuild a collection. NOTICE that you must upload the data file to the cloud storage first. File path is the cloud file path, not local path.
+        
+Keywords: wechat miniprogram http sdk api
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
