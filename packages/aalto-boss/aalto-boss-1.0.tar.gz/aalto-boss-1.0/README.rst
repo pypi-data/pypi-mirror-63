@@ -1,0 +1,72 @@
+BOSS
+=========
+Bayesian Optimization Structure Search (BOSS) is an active machine learning technique for accelerated global exploration of energy and property phase space. It is designed to facilitate machine learning in computational and experimental natural sciences.
+
+For a more detailed description of the code and tutorials, please consult the `user guide <https://cest-group.gitlab.io/boss>`_.
+
+Installation
+------------
+BOSS is distributed as a PyPI package and can be installed using pip::
+
+    python3 -m pip install --user aalto-boss
+
+Basic usage
+-----------
+BOSS currently supports running via a simple CLI interface, provided by an executable called ``boss``. The user must provide an input file containing a list of BOSS keywords and a Python script that defines a function to be optimized. The function must be named ``f`` and take a single input argument in the form of a 2D numpy array. 
+
+Consider the optimization of a 1D function defined in ``user_function.py``:
+
+.. code-block:: python
+
+   """ user_function.py
+
+    BOSS-compatible definition of the analytic function f(x) = sin(x) + 1.5*exp(-(x-4.3)**2)
+   """
+   import numpy as np
+
+    def f(X):
+        x = X[0, 0]
+        return np.sin(x) + 1.5*np.exp(-(x - 4.3)**2)
+
+
+To minimize this function subject to the constraint *0 < x < 7*, we define a BOSS input file ``boss.in``:
+
+.. code-block:: python
+
+    # boss.in
+    userfn        user_function.py
+    bounds        0 7
+    yrange        -1 1
+    kernel        rbf
+    initpts       5
+    iterpts       15
+    verbosity     2
+
+The optimization can now be started from the command line:
+
+.. code-block:: bash
+
+    $ boss o boss.in
+
+Credits
+-------
+BOSS is under active development in the `Computational Electronic Structure Theory (CEST) group <http://cest.aalto.fi/>`_ at Aalto University. Past and current members of development team include
+
+* Ville Parkkinen,
+* Henri Paulamäki, 
+* Arttu Tolvanen, 
+* Joakim Löfgren (maintainer)
+* Milica Todorović (team lead)
+
+If you wish to use BOSS in your research, please cite
+
+| Milica Todorovic, Micheal U. Gutmann, Jukka Corander, and Patrick Rinke
+| *Bayesian inference of atomistic structure in functional materials*
+| npj Comput Mater **5**, 35 (2019)
+| `doi: 10.1038/s41524-019-0175-2 <https://doi.org/10.1038/s41524-019-0175-2>`_
+
+Issues and feature requests
+---------------------------
+It is strongly encouraged to submit bug reports and feature requests via the
+`gitlab issue tracker <https://gitlab.com/cest-group/boss/issues>`_.
+The BOSS development team can be contacted by email at milica.todorovic@aalto.fi
