@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: testpos
+Version: 0.0.2
+Summary: Test
+Home-page: http://pypi.org
+Author: leevv
+Author-email: lwtaurus@163.com
+License: MIT
+Keywords: test
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: test
+
+UNKNOWN
+
+
