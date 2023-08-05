@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ATSAPI
+Version: 0.3
+Summary: Communication for ATS alarm
+Home-page: https://github.com/kloknibor/ATS-API
+Author: Robin Kolk <kloknibor>
+Author-email: robinkolk@msn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Communication API to arm, disarm and get status from ats alarm
+
+
