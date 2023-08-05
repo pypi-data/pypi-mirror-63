@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+chombopy/__init__.py
+chombopy/chombopy.py
+chombopy/inputs.py
+chombopy/plotfile.py
+chombopy.egg-info/PKG-INFO
+chombopy.egg-info/SOURCES.txt
+chombopy.egg-info/dependency_links.txt
+chombopy.egg-info/not-zip-safe
+chombopy.egg-info/requires.txt
+chombopy.egg-info/top_level.txt
