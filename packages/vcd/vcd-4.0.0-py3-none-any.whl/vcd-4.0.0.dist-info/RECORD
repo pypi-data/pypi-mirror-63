@@ -1,0 +1,14 @@
+vcd/__init__.py,sha256=Gy2smCH3gWV7MiKpsetCfEYa1kaaEh9CoiyubkPsO0w,325
+vcd/core.py,sha256=mb5rw3SMOrJlE8q7WHFhtIg5P0rlr2XpA57On_osatQ,51630
+vcd/poly2d.py,sha256=BU-X-sADE6j__pcroAitfY5u6ESV7UY8MLff6gJoLQo,15007
+vcd/proto.py,sha256=wP8Oi5SNZylgQaQT4pvHz8G26QwyZq4XPGZCcnQSxiA,128734
+vcd/sanity.py,sha256=f9E6Wx9NE4lv11BRz3pFPq2PQudHzBunouIITvjNbBI,3466
+vcd/schema.py,sha256=W-tWFv3iboosgwht_mWDZYa7sBqyVKt52pnT1cOTb4s,23594
+vcd/serializer.py,sha256=-lVWCbtdAxa2l7vepdhYT0QTUhsO0D9v8w-pyM9xKcg,1125
+vcd/types.py,sha256=beZDBR5dCzcTDBTfxZJhU99VPg2NMZHKcvSMwA8dwQg,12184
+vcd/utils.py,sha256=isW77jFRIZVBFsaXcvM9qymHhsFbhCRtwn6ZZcemgGk,4501
+vcd-4.0.0.dist-info/LICENSE,sha256=Sk_H0VE3-oLQ14-c2bdfUfTLPLbL_v1Wrdg4bD3cK1s,1070
+vcd-4.0.0.dist-info/METADATA,sha256=wcr2-4tofl3IRuWRwav-mToJKYXtFLaNGKvef3zE3g0,6805
+vcd-4.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vcd-4.0.0.dist-info/top_level.txt,sha256=Uvi2egUUUxQHMWOodlvDuhRFJeLPKuZ52B1cQDamJQg,4
+vcd-4.0.0.dist-info/RECORD,,
