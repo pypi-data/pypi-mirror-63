@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mjcf2urdf/__init__.py
+mjcf2urdf/core.py
+mjcf2urdf/makedirs.py
+mjcf2urdf.egg-info/PKG-INFO
+mjcf2urdf.egg-info/SOURCES.txt
+mjcf2urdf.egg-info/dependency_links.txt
+mjcf2urdf.egg-info/entry_points.txt
+mjcf2urdf.egg-info/not-zip-safe
+mjcf2urdf.egg-info/requires.txt
+mjcf2urdf.egg-info/top_level.txt
+mjcf2urdf/apps/__init__.py
+mjcf2urdf/apps/mjcf2urdf.py

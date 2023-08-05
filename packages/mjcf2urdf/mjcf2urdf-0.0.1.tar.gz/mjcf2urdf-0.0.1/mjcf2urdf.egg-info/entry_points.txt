@@ -1,0 +1,3 @@
+[console_scripts]
+mjcf2urdf = mjcf2urdf.apps.mjcf2urdf:main
+
