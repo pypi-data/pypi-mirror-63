@@ -1,0 +1,11 @@
+encodeproject
+pybwtool
+crr_labels
+notipy_me
+
+[test]
+pytest
+pytest-cov
+coveralls
+validate_version_code
+codacy-coverage
