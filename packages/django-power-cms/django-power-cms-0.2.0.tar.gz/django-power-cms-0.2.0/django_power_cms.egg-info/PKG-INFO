@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: django-power-cms
+Version: 0.2.0
+Summary: A power content management system based on django admin framework.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-power-cms
+        
+        A power content management system based on django admin framework.
+        
+        ## Install
+        
+        ```shell
+        pip install django-power-cms
+        ```
+        
+        ## Release
+        
+        ### v0.2.0 2020/03/08
+        
+        - Add left-portlet, both-portlet template support.
+        - Turn site admin style to django-cards-admin.
+        - Add template and theme register commands.
+        - Add page preview button.
+        - Allow same page code in different site.
+        
+        ### v0.1.0 2020/03/05
+        
+        - First release.
+        
+Keywords: django admin extentions,django power cms
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

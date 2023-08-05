@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.djangl-power-cms-body {
+    width: 1170px;
+    margin: 0 auto;
+}
+.djangl-power-cms-main {
+    clear: both;
+    margin-top: 20px;
+}
+.djangl-power-cms-main-left{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+.djangl-power-cms-main-center{
+    width: 630px;
+    float: left;
+}
+.djangl-power-cms-main-right{
+    width: 250px;
+    float: right;
+}
+.djangl-power-cms-main-left-content,
+.djangl-power-cms-main-right-content {
+    margin-bottom: 20px;
+}
+.djangl-power-cms-footer {
+    clear: both;
+    width: 1170px;
+    margin: 0 auto 50px auto;
+}
+.djangl-power-cms-footer-content {
+    margin-bottom: 20px;
+}
