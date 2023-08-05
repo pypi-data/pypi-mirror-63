@@ -1,0 +1,17 @@
+<div class="flex-field-group block-with-padding flex-static-field-group {{ field_group_class }} js-static_field_wrapper">
+    {% block field_wrapper %}
+        <div class="flex-field-wrapper flex-static-field-wrapper">
+            {% block field_template %}
+                <div class="static-field plain-static-data">
+                    {% if default_value %}
+                        {{ data|default:default_value }}
+                    {% elif default_if_none_value %}
+                        {{ data|default_if_none:default_if_none_value }}
+                    {% else %}
+                        {{ data }}
+                    {% endif %}
+                </div>
+            {% endblock %}
+        </div>
+    {% endblock %}
+</div>
