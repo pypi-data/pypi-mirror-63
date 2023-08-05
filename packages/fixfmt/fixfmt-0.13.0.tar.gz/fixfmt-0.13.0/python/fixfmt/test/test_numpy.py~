@@ -1,0 +1,8 @@
+import numpy as np
+
+import fixfmt.numpy
+
+#-------------------------------------------------------------------------------
+
+def test_choose_formatter_int():
+    a 
