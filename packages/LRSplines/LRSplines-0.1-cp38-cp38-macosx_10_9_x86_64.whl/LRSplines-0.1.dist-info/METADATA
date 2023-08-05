@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: LRSplines
+Version: 0.1
+Summary: Python bindings for the LRSplines library
+Home-page: UNKNOWN
+Maintainer: Eivind Fonn
+Maintainer-email: eivind.fonn@sintef.no
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
