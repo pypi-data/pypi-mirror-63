@@ -1,0 +1,7 @@
+Pillow<7.0.0
+numpy
+SimpleITK
+torch>=0.4.0
+torchvision
+tqdm
+pathlib2
