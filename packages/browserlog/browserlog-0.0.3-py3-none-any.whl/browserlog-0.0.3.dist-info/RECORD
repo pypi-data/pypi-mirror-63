@@ -1,0 +1,15 @@
+browserlog/SkeletonProvider.py,sha256=9-2lOKIWjxTdF4sn-Gw0LBjsqYdQWsM6QWL85kO2jJg,160
+browserlog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browserlog/commands/InstallCommand.py,sha256=VUKenAXc3K9Q12Rb1bB6bxk0p3GzsLNpXQcrjRdS6jE,1367
+browserlog/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browserlog/config/browserlog.py,sha256=b7prbsr7vYvAFfQb4pvVPO5JF_pjuW2hX6F0bQmMV5E,98
+browserlog/controllers/BrowserlogController.py,sha256=suqCDtwRjFNLQMhAopE65Ot54fDORhZ_We7Q4imKhzc,785
+browserlog/providers/BrowserlogProvider.py,sha256=a4_4MlQDcfjBC4FZQtzm18cN7oxmOwDL1IuKN1UEKZI,445
+browserlog/providers/__init__.py,sha256=w46U-2GxMIcT4TvuSIjd-iylZMs6r9h7jIHqpm4tNt0,50
+browserlog/utils/__init__.py,sha256=Lk95ccPinDc_qUIJpvZWEKAlcpE0qe4-D1XTgS5WTLQ,27
+browserlog/utils/logs.py,sha256=yfQBNZkuwiAgFPXmbOwbDYR76B6XmxnkgtcJwUFSSjA,758
+browserlog-0.0.3.dist-info/LICENSE.md,sha256=50C7_pdFM5Otdm7J7GwrxpVAE4nSyWtq1ehwV3lTxJ8,1090
+browserlog-0.0.3.dist-info/METADATA,sha256=8qd6QPckHqNQvlzIFdn1toeTxqGNg-tr2W95fnGxfhM,2499
+browserlog-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+browserlog-0.0.3.dist-info/top_level.txt,sha256=eQFH_ujGWamCWSE8LHzNk0cdNz5zdfydqr7W8CSG4zc,11
+browserlog-0.0.3.dist-info/RECORD,,
