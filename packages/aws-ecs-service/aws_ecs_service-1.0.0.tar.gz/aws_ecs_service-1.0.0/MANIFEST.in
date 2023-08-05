@@ -1,0 +1,4 @@
+include *.txt
+recursive-include aws_ecs_service *.py
+recursive-include aws_ecs_service *.zip
+recursive-include aws_ecs_service *.yml
