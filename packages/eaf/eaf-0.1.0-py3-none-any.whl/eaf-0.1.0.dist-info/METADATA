@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eaf
+Version: 0.1.0
+Summary: Enterprise Application Framework
+License: MIT
+Author: Pavel Kulyov
+Author-email: kulyov.pavel@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: tornado (>=6.0.4,<7.0.0)
