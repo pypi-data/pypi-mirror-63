@@ -1,0 +1,15 @@
+xml4h/__init__.py,sha256=aAUdwTAWziDsO8qsdok6EOHqhyHMyCtYIbvCZmo8tvg,4188
+xml4h/builder.py,sha256=HSfIFwIKo-13vvqZ0vaIcggWcjya_esgg6mHdfriYUE,9223
+xml4h/exceptions.py,sha256=icvAL6yuqUmBAxz0BOyL7ayLeksh7WtAJXd-zjPtakA,1090
+xml4h/nodes.py,sha256=XdBZUCDIEa52YA3pe9sS46z2cUv0cW79d1L-tAoY5Ws,45057
+xml4h/writer.py,sha256=qJcpAGwOdzqBGTGfXoYOgZ01ndzOZM3gKWlZHjSxXp4,7935
+xml4h/impls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xml4h/impls/interface.py,sha256=Oa6qJB9XrttISe71TsHPjcV3VM-AnsEvodLxAjp-if0,11638
+xml4h/impls/lxml_etree.py,sha256=pkRVd1mievATJ971oNVQ6dcBBZSUlT4VBVC598aWits,19913
+xml4h/impls/xml_dom_minidom.py,sha256=DSGsVMjuL3wVgyttkNXFM9Ie0K3SpkrQPjf6ckdrZDA,9015
+xml4h/impls/xml_etree_elementtree.py,sha256=VXCWYMBA67iGa1qZInu8tCA5ZEwUlUuHOtajqvm01qE,22141
+xml4h-1.0.dist-info/LICENSE,sha256=_6MtgX080D0c7GsLq7NlnIoUUWb9pbFH66uGSBdCO5k,1079
+xml4h-1.0.dist-info/METADATA,sha256=I1hYXfUi71PqRwl2RIiPrU56ZBXTRQJ46fxncF3LwJA,10477
+xml4h-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xml4h-1.0.dist-info/top_level.txt,sha256=N0H_eIhm-g729lL2sdOeqW60R1wpGlxAXP1hNaKkHic,6
+xml4h-1.0.dist-info/RECORD,,
