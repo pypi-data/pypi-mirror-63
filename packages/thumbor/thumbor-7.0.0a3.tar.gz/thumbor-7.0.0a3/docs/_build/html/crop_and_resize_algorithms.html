@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Crop and Resize Algorithms &mdash; Thumbor 7.0.0a2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Filters" href="filters.html" />
+    <link rel="prev" title="Imaging" href="imaging.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Thumbor
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                7.0.0a2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="imaging.html">Imaging</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Crop and Resize Algorithms</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cropping-the-image">Cropping the image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resizing-the-image">Resizing the Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flipping-the-image">Flipping the Image</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detectors.html">Detectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_loader.html">Image loader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_storage.html">Image storage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="result_storage.html">Result Storage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="optimizers.html">Optimizers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="customizing.html">Customizing Thumbor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upload.html">Upload</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">Contributors &amp; Users</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thumbor</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="imaging.html">Imaging</a> &raquo;</li>
+        
+      <li>Crop and Resize Algorithms</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/crop_and_resize_algorithms.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="crop-and-resize-algorithms">
+<h1>Crop and Resize Algorithms<a class="headerlink" href="#crop-and-resize-algorithms" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>thumbor performs the least amount of cropping possible to resize your
+image to the exact size you specified, without changing it’s aspect
+ratio.</p>
+</div>
+<div class="section" id="cropping-the-image">
+<h2>Cropping the image<a class="headerlink" href="#cropping-the-image" title="Permalink to this headline">¶</a></h2>
+<p>Before resizing the image, thumbor crops it so it has the same aspect as
+the desired dimensions. Let’s see an example to clarify this concept.</p>
+<p>Consider an <span class="math notranslate nohighlight">\(800x600\)</span> (width x height, in pixels) image and say we want a
+<span class="math notranslate nohighlight">\(400x150\)</span> thumbnail of it. The first thing thumbor needs to do is
+calculate the proportion of the images:</p>
+<div class="math notranslate nohighlight">
+\[width: 800 ÷ 600 = 1.333\]</div>
+<div class="math notranslate nohighlight">
+\[height: 400 ÷ 150 = 2.666\]</div>
+<p>Now that they don’t match, thumbor defines if the image needs horizontal
+or vertical cropping. We never crop both ways, since it’s not needed.</p>
+<p>So, in our example to get an image of the same proportion of the target
+one, we need to get the picture height to be <span class="math notranslate nohighlight">\(300px\)</span> (using the proportional height):</p>
+<div class="math notranslate nohighlight">
+\[h = 800 x 150 ÷ 400 = 300\]</div>
+<p>Now all we need to do is cropping <span class="math notranslate nohighlight">\(300px\)</span> of the picture height. To
+determine whether to crop from the top, bottom or both we use the focal
+points or the horizontal alignment. If any focal points have been
+specified we’ll use those to find the center of mass of the image (more
+on that in <a class="reference internal" href="detection_algorithms.html"><span class="doc">Detection Algorithms</span></a>). Otherwise we’ll use the horizontal
+and vertical alignments.</p>
+<img alt="Default focal points if no other havebeen detected" src="_images/focal-points.png" />
+<p>Let’s say that for this image no focal points were found, so we’ll use
+the vertical alignment to crop the height. Since we specified middle
+alignment for this example, we’ll crop off <span class="math notranslate nohighlight">\(150px\)</span> from the top and <span class="math notranslate nohighlight">\(150px\)</span>
+from the bottom of the image, similarly to this image:</p>
+<img alt="The image after trimming the top and bottom" src="_images/cropped_image.png" />
+<p>Here’s an example of how thumbor would crop width or height using
+centered alignment:</p>
+<img alt="How horizontal and vertical cropping affect the image" src="_images/crop-width-height.png" />
+</div>
+<div class="section" id="resizing-the-image">
+<h2>Resizing the Image<a class="headerlink" href="#resizing-the-image" title="Permalink to this headline">¶</a></h2>
+<p>Now that the image has the same proportion as the image we want, it’s
+just a matter of resizing it to the desired dimensions.</p>
+</div>
+<div class="section" id="flipping-the-image">
+<h2>Flipping the Image<a class="headerlink" href="#flipping-the-image" title="Permalink to this headline">¶</a></h2>
+<p>If the desired dimensions feature negative numbers, thumbor will flip
+them around that direction. This means that negative width specifies
+horizontal flip, while negative height specifies vertical flip.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="filters.html" class="btn btn-neutral float-right" title="Filters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="imaging.html" class="btn btn-neutral float-left" title="Imaging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Globo.com
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
