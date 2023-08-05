@@ -1,0 +1,10 @@
+README.md
+setup.py
+winclip32/__init__.py
+winclip32/errors.py
+winclip32/main.py
+winclip32.egg-info/PKG-INFO
+winclip32.egg-info/SOURCES.txt
+winclip32.egg-info/dependency_links.txt
+winclip32.egg-info/requires.txt
+winclip32.egg-info/top_level.txt
