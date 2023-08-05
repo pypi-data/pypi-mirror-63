@@ -1,0 +1,73 @@
+CHANGES
+=======
+
+* Add validation
+* Correct unreleased migration to correctly populate timezone field
+* Update README
+* Server: Glue publish stages to not wait so long for slow travis
+* Server: Fix codeception support
+* Server: Attempt to resolve \`\`\` SQLSTATE[HY000]: General error: 1 Cannot add a NOT NULL column with default    value NULL    \`\`\`\`
+* Server: Attempt to resolve \`\`\` SQLSTATE[HY000]: General error: 1 Cannot add a NOT NULL column with default    value NULL    \`\`\`\`
+* Server: Bugfix - searching by full token id in token searching endpoint was not working, increased tests coverage in API tests
+* Server: Refactor
+* Server: Support for MariaDB 10.2+ (worked only on 10.4+). Added more precised requirements for the databases - MySQL/MariaDB and PostgreSQL
+* Server: SecureCopy - encrypt with token passphrase
+* Server: Full backup domain files deduplication. Removed legacy "contentIdent" feature which was making each backup version unique. Now the storage domain takes control over the deduplication process fully, so the backup domain do not care at all. Added support for MySQL
+* Server: Tests for deduplication in backups domain
+* Server: By default allowing to upload files with any bad characters in filename, those would be stripped out. Previously a validation error was thrown. Now the validation error could be still thrown, when passed ?stripInvalidCharacters=true to the query string
+* Server: Corrected a mistake in DQL query
+* Server: Improved and simplified deduplication of files. Now it is really transparent to the user
+* Server: Support for Redis cache and Memcached cache
+* Server: Applied UUIDv4 masking to not break the security
+* Docs: Update docs
+* Docs: Updated docs for anti hotlink feature
+* Docs: At least documentation for successful cases
+* Updated docs
+* Server: Remove tests for deleted endpoint
+* Docs: Described all endpoints
+* Docs: Added RiotKit theme to swagger docs
+* Docs: Documented listing endpoint, cleaned up docs
+* Server: WIP - hide sensitive information such as token id, when user has applied an restriction on token that tells to hide token ids
+* Server: WIP - collection allowed tokens listing endpoint (without API tests, unit tests, swagger docs, and docs)
+* Server: Correct test. We do not want to use 202 HTTP code, only 200 and 201
+* Server: Partial docs for the backup domain
+* Server: Full support for SQLite3 is back
+* Server: Fix support for MariaDB in tests (restore was not performed correctly)
+* Server: (BC BREAK) improved /version endpoint by adding database type
+* Server: Covered with API tests SecureCopy endpoint about getting metadata. Fixed 500 error in case, when hashed file id is invalid - should return 404 with explanation - now does
+* Server: Fixed a problem - not possible to run a single Cest in CodeCeption using CODECEPT\_ARGS eg. CODECEPT\_ARGS="functional SecureCopyCest"
+* Server: Fixed way how the database is restored in tests. It is now fully working
+* Added release name :-)
+* KropotCLI: Correct typo
+* Server: Add metadata encryption functionaity to the SecureCopy, so now it is really a secure mechanism
+* KropotCLI: Correct typo
+* Naming refactor in Makefiles
+* Kropot-CLI: Attempt to build the Docker image on CI
+* Server: Temporarily suspend SQLite3 support on CI until it will not be resolved
+* Docs: Added info about kropot-cli
+* Docs: Corrected formatting
+* Server: Corrected first-steps docs page
+* Server: Correct roles test
+* CI: Changed order of stages and added a MariaDB stage
+
+v2.1.0.rc4
+----------
+
+* CI: Trying to run the build
+* CI: Trying to run the build
+* CI: Trying to run the build
+* Bahub client: [#98] Corrected test mock
+* CI: Fixed build
+* Bahub client: [#98] Added gnutls-dev to Dockerfile, as it is required to build pycurl
+* Bahub client: [#98] Added missing requirements
+* Bahub client: [#98] Turn off debug ;-)
+* Bahub client: [#98] Backups command - Interrupt the HTTP request, when UNIX process was interrupted
+* Bahub client: [#98] Corrected early failure check to make sure that case when the process is still running will not throw the exception
+* Bahub client: [#98] Check for early failures
+* Bahub client: [#99] Kill the process on restore whenever its possible
+* Bahub client: [#99] Catch HTTP errors and cancel background process
+
+v2.1.0.rc3
+----------
+
+* CI: Fixed build
