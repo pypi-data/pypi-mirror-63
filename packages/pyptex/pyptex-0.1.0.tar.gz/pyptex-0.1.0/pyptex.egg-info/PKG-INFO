@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: pyptex
+Version: 0.1.0
+Summary: Python Preprocessor for (La)TeX
+Home-page: https://github.com/sloisel/pyptex
+Author: Sébastien Loisel
+Author-email: sloisel@gmail.com
+License: MIT
+Project-URL: Documentation, https://htmlpreview.github.io/?https://github.com/sloisel/pyptex/blob/master/html/pyptex.html
+Project-URL: Source, https://github.com/sloisel/pyptex
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

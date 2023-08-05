@@ -1,0 +1,4 @@
+sympy>=1.5
+numpy>=1.18
+setuptools
+pdoc>=0.7
