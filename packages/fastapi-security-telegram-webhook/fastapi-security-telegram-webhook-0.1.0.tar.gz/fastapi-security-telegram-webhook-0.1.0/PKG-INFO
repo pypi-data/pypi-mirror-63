@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: fastapi-security-telegram-webhook
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/piterpy-meetup/fastapi-security-telegram-webhook
+License: MIT
+Keywords: fastapi,fastapi security,telegram,telegram webhook,bot webhook
+Author: Dima Boger
+Author-email: kotvberloge@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fastapi
+Project-URL: Repository, https://github.com/piterpy-meetup/fastapi-security-telegram-webhook
+Description-Content-Type: text/markdown
+
+# fastapi-security-telegram-webhook
+
+Plugin for [FastAPI](https://github.com/tiangolo/fastapi) which allows you secure your Telegram Bot API webhook endpoint
+ with IP restriction and optional secret token.
+ 
+
+
+## How to use
+
+Use pip or another package management util:
+```bash
+pip install fastapi-security-telegram-webhook
+```
+
+or
+
+```bash
+poetry add fastapi-security-telegram-webhook
+```
+
+or
+
+```bash
+pipenv install fastapi-security-telegram-webhook
+```
+
+Package contains two Security objects: 
+ - `OnlyTelegramNetwork` allows request only from telegram subnets
+ - `OnlyTelegramNetworkWithSecret` additionally check secret in path
+ 
+Example with `OnlyTelegramNetworkWithSecret`. Pay attention to `{secret}` in path operation, it's required
+
+```python
+from fastapi import FastAPI, Body, Depends
+from fastapi_security_telegram_webhook import OnlyTelegramNetworkWithSecret
+
+app = FastAPI()
+webhook_security = OnlyTelegramNetworkWithSecret(real_secret="your-secret-from-config-or-env")
+
+# {secret} in path and OnlyTelegramNetworkWithSecret as dependency:
+@app.post('/webhook/{secret}', dependencies=[Depends(webhook_security)])
+def process_telegram_update(update_raw = Body(...)):
+   ...
+
+```
+
