@@ -1,0 +1,14 @@
+name: exception
+author: fetchai
+version: 0.1.0
+license: Apache-2.0
+fingerprint: ""
+behaviours:
+  exception:
+    class_name: ExceptionBehaviour
+    args: {}
+handlers: {}
+models: {}
+protocols: []
+dependencies: {}
+description: "Raise an exception, at some point."

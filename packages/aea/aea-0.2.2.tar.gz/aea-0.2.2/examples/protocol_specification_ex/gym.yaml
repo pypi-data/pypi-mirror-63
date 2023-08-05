@@ -1,0 +1,27 @@
+---
+name: gym
+author: fetchai
+version: 0.1.0
+license: Apache-2.0
+description: 'A protocol for interacting with a gym connection.'
+speech_acts:
+  act:
+    action: ct:Action
+    step_id: pt:int
+  percept:
+    step_id: pt:int
+    observation: ct:Observation
+    reward: pt:float
+    done: pt:bool
+    info: pt:dict[pt:str, ct:Info]
+  reset: {}
+  close: {}
+...
+---
+ct:Action: |
+  bytes action = 1;
+ct:Observation: |
+  bytes observation = 1;
+ct:Info: |
+  bytes info = 1;
+...
