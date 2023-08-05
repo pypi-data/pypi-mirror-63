@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-hello-world"
+version = "0.1.0"
+description = "Hello World"
+authors = ["hideaki murotani <munroyello@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry.scripts]
+"poetry-hello-world" = 'poetry_hello_world.main:main'
