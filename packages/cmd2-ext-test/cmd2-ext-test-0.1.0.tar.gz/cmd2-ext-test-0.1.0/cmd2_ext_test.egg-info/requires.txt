@@ -1,0 +1,11 @@
+cmd2<=2,>=0.9.4
+
+[dev]
+setuptools_scm
+pytest
+codecov
+pytest-cov
+pylint
+invoke
+wheel
+twine
