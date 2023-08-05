@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: emojizones
+Version: 0.1
+Summary: A helper library to convert dates between timezone using emojiis
+Home-page: https://github.com/EmilStenstrom/emojizones/
+Author: Emil Stenström
+Author-email: em@kth.se
+License: UNKNOWN
+Description: # Stupidzones
+        **Stupidzones** helps you convert one datetime in one time zone to another, using the emojiis you are used to from your iPhone. Never have time zone conversion been this easy!
+        
+        ## Installation
+        
+        ```bash
+        pip install stupidzones
+        ```
+        
+        ## Example usage
+        
+        ```python
+        >>> from stupidzones import convert
+        >>> from datetime import datetime
+        >>>
+        >>> convert(datetime(2020, 3, 7, 0, 0, 0), "🗾", "🗻")
+        "2020-03-07 13:14:15"
+        
+        ```
+        
+Keywords: emojizones,conll,conll-u,parser,nlp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
