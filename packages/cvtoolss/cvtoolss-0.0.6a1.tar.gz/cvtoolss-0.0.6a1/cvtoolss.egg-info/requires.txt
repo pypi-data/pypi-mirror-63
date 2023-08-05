@@ -1,0 +1,11 @@
+numpy>=1.11.1
+opencv-python
+pillow
+matplotlib
+tqdm
+pyyaml
+terminaltables
+mmcv>=0.2.10
+shapely>=1.6.4
+terminaltables
+flask
