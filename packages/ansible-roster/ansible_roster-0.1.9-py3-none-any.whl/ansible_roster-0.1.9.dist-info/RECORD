@@ -1,0 +1,12 @@
+ansible_roster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_roster/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_roster/lib/inventory/__init__.py,sha256=ZqMK_7M20DDuytK_3Fr7CHrbPVfHvDH90JSAfct0J9U,3753
+ansible_roster/lib/inventory/roster.py,sha256=I0BEcV1Xes0EeNJ_fO69wn3_WyQ2XlCIPHboTcVnrlc,9943
+ansible_roster/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_roster/plugins/inventory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_roster/plugins/inventory/roster.py,sha256=hTSXN7JsA5Pq2GQQ0PclGTcRNvgyEWizgsMAwSS9xxA,1753
+ansible_roster-0.1.9.dist-info/LICENSE,sha256=_evFV7IszDp4w80Fe8ILKuAFPDFgbbdmnsAVZbh2jjk,1086
+ansible_roster-0.1.9.dist-info/METADATA,sha256=hlkN9Kb5ScqTX8xgPmZ3E2HoGlo1ao6z2XiPXilcLVs,3550
+ansible_roster-0.1.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ansible_roster-0.1.9.dist-info/top_level.txt,sha256=80zeki2KcBXY8lu0EYwa-yj7rXp1VJk6bCf3esfupeg,15
+ansible_roster-0.1.9.dist-info/RECORD,,
