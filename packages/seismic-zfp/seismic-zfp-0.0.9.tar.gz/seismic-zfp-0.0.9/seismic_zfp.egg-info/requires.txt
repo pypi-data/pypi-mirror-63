@@ -1,0 +1,6 @@
+segyio
+pyzfp
+psutil
+pillow
+matplotlib
+Cython
