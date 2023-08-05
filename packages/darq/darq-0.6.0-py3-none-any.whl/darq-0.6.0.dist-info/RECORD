@@ -1,0 +1,12 @@
+darq/__init__.py,sha256=qkaZO52ie0rPRqP9GbF5Gni1XO3tjP7dqpCmsy5hnIk,172
+darq/app.py,sha256=GO9vFKvLxQ4-GaZ0Orc8t9KX_MLhM4FeankQVS2Rmys,6935
+darq/cli.py,sha256=QDmiPPrdfZeFLm2xwErDZDGWW8VlaB1uL0vauB826lA,1276
+darq/registry.py,sha256=3pEvFR_Gfh9o5lEYF7ZaG3-RqeVEenmyQYK03K-m1Ec,1415
+darq/types.py,sha256=rFLvJt7038yDf_QjbNNci_pDGiLSmaZrHDi8nu1uMEs,870
+darq/utils.py,sha256=DGKHw7GCiEMaiZY00BRDuGBqK8ar5rGsDrcM4kwaGX4,740
+darq/worker.py,sha256=_4Xhd0_seEGn4wLiKT5tOsASJy42BnUYpHP5zJ-LU3k,3795
+darq-0.6.0.dist-info/LICENSE,sha256=A7fNTdMkUR34dqXZKcuaOLDq9zTf9y1NTRqtg5NkGfY,1073
+darq-0.6.0.dist-info/METADATA,sha256=d7kuGgcWfMyoWe7m65Gk0CSt7mluOUvIwEsgS44Mz9o,3762
+darq-0.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+darq-0.6.0.dist-info/top_level.txt,sha256=maj9XENmLQo3247C0PUYPI3g2pr4sOBeKUGd5axhzX4,5
+darq-0.6.0.dist-info/RECORD,,
