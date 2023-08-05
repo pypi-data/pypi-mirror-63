@@ -1,0 +1,10 @@
+kivy_garden/tickmarker/_version.py,sha256=2RvrkcpIG_Yam-itJ7fhB8YniwdBtp63F5IMHTVWGBs,378
+kivy_garden/tickmarker/__init__.py,sha256=i1Mro3FAtBu4Zcvl07ZScsFmBAK4ffN7J9Yhp1KVsKk,10599
+kivy_garden/tickmarker/ticks.cpython-37m-darwin.so,sha256=dXx3MbEmTO9OOIPze7_p5LMHsj4BtIN_4qBeRk4ZEF8,62224
+kivy_garden/tickmarker/tests/test_import.py,sha256=Q_schvcp_xt-f-Iaar4DxaMNwRfE-Jo-ZX9xaTIiHM0,206
+kivy_garden.tickmarker-3.0.0.dist-info/RECORD,,
+kivy_garden.tickmarker-3.0.0.dist-info/WHEEL,sha256=YAWOm3bIVfvxcsZKWtyjzlNHAZMJM2qn7oQKGQYjRzQ,251
+kivy_garden.tickmarker-3.0.0.dist-info/top_level.txt,sha256=xkuO-b6JfhaW77yWDB3uzuzsAscEKSLzAg0W7BmeqiI,12
+kivy_garden.tickmarker-3.0.0.dist-info/LICENSE.txt,sha256=Qx08hp_bmwXr7Y7_tTH3lpdI-3F0r2_I0sN1uZdIuwE,1077
+kivy_garden.tickmarker-3.0.0.dist-info/AUTHORS.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kivy_garden.tickmarker-3.0.0.dist-info/METADATA,sha256=LS1BMNQXDfQCuN9XNDwWTCWP-ehFL2MfQNFKEx_Suow,4437
