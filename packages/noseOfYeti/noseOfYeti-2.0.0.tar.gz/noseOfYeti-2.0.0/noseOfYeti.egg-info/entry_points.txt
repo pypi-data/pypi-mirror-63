@@ -1,0 +1,9 @@
+[console_scripts]
+run_noseOfYeti_tests = noseOfYeti:run_pytest
+
+[nose.plugins]
+noseOfYeti = noseOfYeti.plugins.nosetests:Plugin
+
+[pytest11]
+nose_of_yeti = noseOfYeti.plugins.pytest
+
