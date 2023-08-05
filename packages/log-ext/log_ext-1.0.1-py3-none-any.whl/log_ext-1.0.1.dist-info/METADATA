@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: log-ext
+Version: 1.0.1
+Summary: An extension for standard python logging
+Home-page: https://github.com/CpHarding/py_logging_extensions
+Author: CpHarding
+Author-email: 
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
