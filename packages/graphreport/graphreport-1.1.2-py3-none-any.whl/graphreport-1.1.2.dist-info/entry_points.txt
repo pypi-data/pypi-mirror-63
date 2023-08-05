@@ -1,0 +1,3 @@
+[console_scripts]
+graphreport = robotframework_metrics.runner:main
+
