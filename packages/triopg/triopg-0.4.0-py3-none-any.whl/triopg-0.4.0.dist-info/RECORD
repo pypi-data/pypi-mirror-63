@@ -1,0 +1,14 @@
+triopg/__init__.py,sha256=XieinVuGPRbpIya2wb09a8akzDG0G7F1krwA2Og1zzI,244
+triopg/_triopg.py,sha256=65E7sc3SZvSl5sEBc0RVG2iKi-d7IHan3CNfMEtIIew,4377
+triopg/_version.py,sha256=bIJzbFtjiCllPKR-ZP9b_ILLBvYWKobV9iL6-zuwnLo,89
+triopg/exceptions.py,sha256=HC-PE-UhOdT5x8LRxPs998m_5PgaisPd5wEZRoLUnNY,88
+triopg/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triopg/_tests/conftest.py,sha256=BpcEsUQbtn_KyBiajRrmUeuVIBcLEQl7xcoAatHcyzs,1163
+triopg/_tests/test_triopg.py,sha256=9lyRzJU5atTj_12qdOXT7YaRix6K5rWaBwjf1WC7EKc,2301
+triopg-0.4.0.dist-info/LICENSE,sha256=ZSyHhIjRRWNh4Iw_hgf9e6WYkqFBA9Fczk_5PIW1zIs,185
+triopg-0.4.0.dist-info/LICENSE.APACHE2,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+triopg-0.4.0.dist-info/LICENSE.MIT,sha256=Pm2uVV65J4f8gtHUg1Vnf0VMf2Wus40_nnK_mj2vA0s,1046
+triopg-0.4.0.dist-info/METADATA,sha256=CYy-dFDuzCPfKFmcLmP75-hEy1dF23K5IC8poxdkHLI,2478
+triopg-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+triopg-0.4.0.dist-info/top_level.txt,sha256=_UVQIu12UnRisa1ZEWi_iSDG2jm_B9GtOUlTmfLZsiA,7
+triopg-0.4.0.dist-info/RECORD,,
