@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: clvm
+Version: 0.1.dev2
+Summary: [Contract Language | Chialisp] Virtual Machine
+Home-page: https://github.com/Chia-Network/clvm
+Author: Chia Network, Inc.
+Author-email: hello@chia.net
+License: https://opensource.org/licenses/Apache-2.0
+Project-URL: Bug Reports, https://github.com/Chia-Network/clvm
+Project-URL: Source, https://github.com/Chia-Network/clvm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Security :: Cryptography
+
+UNKNOWN
+
+
