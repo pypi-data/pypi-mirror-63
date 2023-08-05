@@ -1,0 +1,13 @@
+gogokit/__init__.py,sha256=GbgNqsPmPjdmAmTMZNIfgmTPK3AXhsU6E5l6jU6MD6k,559
+gogokit/clients.py,sha256=43IYkSecyKE88Ao_3SEyNuVqb4f3F8Jvu7jBHt8BgWs,11680
+gogokit/config.py,sha256=LvTOF6co-Pux6oohGrapeqvQv6JpEYfw-i9QTTqBV24,330
+gogokit/exceptions.py,sha256=1k561t-IVRAdfAJA3McUDVrgXQVWB3C6VM22A8XZUwM,146
+gogokit/hal.py,sha256=90vElSo2wYzoScsMeWEgIcQdYl2dQkHUqfNJLHQV3bQ,3047
+gogokit/http_client.py,sha256=_tjqypIs1BVo7Xc5-KqbJvUVVAMMXXweJQhqUX0hJrU,2629
+gogokit/oauth.py,sha256=cAvEYGQUcg0Vc7rb6x7uESAJODSZEPHTP8-vzr6xhYk,1496
+gogokit/resources.py,sha256=SXdqh71_8rccAhCv1kIqEumHkyUlOTRU9tHSkprX5R8,8156
+gogokit-0.2.0.dist-info/LICENSE.txt,sha256=NWUeszh7o-HK_k4EXCbjso6RI_YwpZSolV8JqkuA3Zs,1068
+gogokit-0.2.0.dist-info/METADATA,sha256=EJMR5ch7k1vtnUrYY9pxkHo6LAOIIoPhu2wEyMleMGY,5342
+gogokit-0.2.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+gogokit-0.2.0.dist-info/top_level.txt,sha256=Tb8OaGM0Xw9mib6-H0gAk1J6OMsgZNA_KhPrMbQ_mhE,8
+gogokit-0.2.0.dist-info/RECORD,,
