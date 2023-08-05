@@ -1,0 +1,4 @@
+aiohttp
+tenacity
+cachetools
+asyncache
