@@ -1,0 +1,15 @@
+ivory/__init__.py,sha256=1XdEQ7gs-UuAr7SBsOS2U61NfwrGlCZcH6pJOgdOYaM,110
+ivory/callback.py,sha256=6bS68MA76ia4l6fcLYuU5TyB5svkTz25IQgETCEeI_8,1283
+ivory/runner.py,sha256=SV6Ku2p4e-U7s5m4jP6rQhbrkjyk4e3RypdNuuUmmj4,294
+ivory/utils.py,sha256=LCcHp2-xHECZu06iaJrTGnC6X966Cptav3k9CzT3nDo,2814
+ivory/torch/__init__.py,sha256=SVMzVIFMIWCs3iRnnoiRLoJoXqPJWeF7sopZ_FCgfG0,162
+ivory/torch/data.py,sha256=dV1jo-fHv_8_VdW7r04h8H244q8i4lf5y9UzQJX67rE,3772
+ivory/torch/metrics.py,sha256=R6m64R9TolcwcE4j1QHi1JiUM9LXxMKp9EyvedlQji4,3585
+ivory/torch/runner.py,sha256=TlMF18g660C18yrtdKu9zWbJkGrfN7-dHYkb-kUeklg,204
+ivory/torch/trainer.py,sha256=bLccOppxaas1l3ocEROED5MOwv51G5Wp-Jo8L0IBIxY,2987
+ivory/torch/utils.py,sha256=0kgDGVrRhFC9z-ZBzODKOk385KaDsN47qUpTOVXQs_A,239
+ivory-0.1.2.dist-info/LICENSE,sha256=O8snh2T3ZyxkWkXsCzFr9gja5Zb3gVftJs_O2PFR6ZE,1066
+ivory-0.1.2.dist-info/METADATA,sha256=dPTp6P18jhZRqoU8aAZbBzRt_w7Y5kFcH0eF3SjHSdg,912
+ivory-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ivory-0.1.2.dist-info/top_level.txt,sha256=vqqM-mtZZzfv-eUD4LGbQgwBkucoXSGOlerx7tjxNTk,18
+ivory-0.1.2.dist-info/RECORD,,
