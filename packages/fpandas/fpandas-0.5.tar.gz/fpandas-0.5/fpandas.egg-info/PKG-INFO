@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fpandas
+Version: 0.5
+Summary: Utils toward a monad-inspired pandas design-pattern.
+Home-page: UNKNOWN
+Author: Quinn Dougherty
+Author-email: quinn.dougherty92@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
