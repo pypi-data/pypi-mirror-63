@@ -1,0 +1,14 @@
+earendil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+earendil/ircdef/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+earendil/ircdef/__main__.py,sha256=PKBYDR42tL7hor92z8hLcmGWKn6z5EZlOZdoe2-VHgk,1744
+earendil/ircdef/messages.desc,sha256=Vv_ds9aBljpW25a9RBIOcrBvml3q-bRnvn9aynRLUyw,13612
+earendil/ircdef/mkdocs.py,sha256=mQPwanVCLaBKQrmXhf6W4YiWNYRLMrznwc0S07J7jYY,732
+earendil/ircdef/parser.py,sha256=-q7OJ3YK3MmLgM-eo1UXKXZ3siNYkGylw86KhBsfGnE,11258
+earendil/ircdef/template.py,sha256=_Nif2eg7WQTgRGn3cMap4tscU0cKiGGCo5mG8uVdt4U,395
+earendil/ircdef/formats/markdown.md,sha256=KrnVUPiS8LTe7xB5wcrlrXcJ3L23VXCK-xKsGa-p1cs,915
+earendil-0.1.dist-info/LICENSE.md,sha256=2BvgDfQQWoEtdHAguezr1rKy71rY8HZyeLnCe-1ttl0,1073
+earendil-0.1.dist-info/METADATA,sha256=JcSS2MVWhsvWdF2TbGKvQKgoljL7kdFrKRtS4VQXwQo,1662
+earendil-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+earendil-0.1.dist-info/entry_points.txt,sha256=SpKWNYIvU1Qw4Fv5pthsEbf2m7Hs3dkIkFZ1CI-ah2Q,66
+earendil-0.1.dist-info/top_level.txt,sha256=yLPxnQEn2BMdlW1Rnz4AEY371i4Jf1YrBamTTbk5_Os,9
+earendil-0.1.dist-info/RECORD,,
