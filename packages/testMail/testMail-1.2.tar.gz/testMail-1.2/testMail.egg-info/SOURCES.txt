@@ -1,0 +1,7 @@
+README.md
+setup.py
+testMail/__init__.py
+testMail.egg-info/PKG-INFO
+testMail.egg-info/SOURCES.txt
+testMail.egg-info/dependency_links.txt
+testMail.egg-info/top_level.txt
