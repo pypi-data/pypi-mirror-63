@@ -1,0 +1,144 @@
+{
+  "speechToText": {
+    "type": "object",
+    "properties": {
+      "linkFile": {
+        "type": "string",
+        "minLength": 1,
+        "title": "آدرس فایل صوتی",
+        "description": "آدرس فایل صوتی"
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "linkFile"
+    ]
+  },
+  "imageProcessingAuthentication": {
+    "type": "object",
+    "properties": {
+      "image1": {
+        "type": "string",
+        "minLength": 1,
+        "title": "آدرس تصویر اصلی",
+        "description": "حداقل اندازه تصویر 240x240 و حداکثر اندازه تصویر 2080x1080 پیکسل است"
+      },
+      "image2": {
+        "type": "string",
+        "title": "آدرس تصاویری که جستجو بین آنها قرار است صورت بگیرد",
+        "description": "حداقل اندازه تصویر 240x240 و حداکثر اندازه تصویر 2080x1080 پیکسل است"
+      },
+      "mode": {
+        "type": "string",
+        "enum": [
+          "easy",
+          "normal",
+          "strict"
+        ]
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "image1",
+      "image2",
+      "mode"
+    ]
+  },
+  "NLUBanking": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "text"
+    ]
+  },
+  "NLUIOT": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "text"
+    ]
+  },
+  "plate": {
+    "type": "object",
+    "properties": {
+      "image": {
+        "type": "string",
+        "minLength": 1
+      },
+      "isCrop": {
+        "type": "boolean"
+      },
+      "scVoucherHash": {
+        "type": "array",
+        "title": "کد تخفیف برای فراخوانی سرویس کال",
+        "description": "کد تخفیف برای فراخوانی سرویس کال",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scApiKey": {
+        "type": "string",
+        "title": "توکن برای فراخوانی سرویس کال"
+      }
+    },
+    "required": [
+      "image"
+    ]
+  }
+}
