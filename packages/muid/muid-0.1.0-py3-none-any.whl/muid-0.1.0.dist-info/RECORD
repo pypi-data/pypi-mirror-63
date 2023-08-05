@@ -1,0 +1,10 @@
+muid/__init__.py,sha256=4_iHOlPUGmHjFbOPffNXJR_fhJC14k7kS4aDyd2lncs,115
+muid/corpus.py,sha256=R36xIrAnKstDIYIZGU6PEjDzVntwY-lFZK-uB0LraiE,9355
+muid/economics.py,sha256=xDZXSetqzuY-XFOX9OwX88G7Ozc3bd-yVCjnrsXFfeA,5518
+muid/memorable.py,sha256=PvyU1K9Lh8XVqC37r0JvBV0HsDxFZ5CDuHxUGWt50Yc,7257
+muid/mining.py,sha256=6PpozgQh4YDpvf6QG7J32ctRS6nVPnYkQfv9CQQnOAk,2147
+muid-0.1.0.dist-info/METADATA,sha256=mDupC3YPXFwex-M7eKMZFBassdkaHyxBtUyDYVjT_yA,4740
+muid-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+muid-0.1.0.dist-info/entry_points.txt,sha256=8TARaD5ygbWPE7cEU_xFv8WxANurjmh1ylavk9obubs,45
+muid-0.1.0.dist-info/top_level.txt,sha256=MZrgmWTdG-siWGRwfqrV-wsUgZIe5dGYgnpKL_j8es0,5
+muid-0.1.0.dist-info/RECORD,,
