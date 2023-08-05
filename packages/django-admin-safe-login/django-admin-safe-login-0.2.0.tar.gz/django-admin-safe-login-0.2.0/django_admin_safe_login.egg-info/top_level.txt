@@ -1,0 +1,3 @@
+django_admin_safe_login
+django_admin_safe_login_demo
+django_admin_safe_login_example
