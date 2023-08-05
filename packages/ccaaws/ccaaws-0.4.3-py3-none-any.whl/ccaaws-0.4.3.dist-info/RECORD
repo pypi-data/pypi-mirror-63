@@ -1,0 +1,13 @@
+ccaaws/__init__.py,sha256=5ldrI0KalloAW3F0YCEP7S3Wm6UpY_aH8KvhVafcae0,51
+ccaaws/acm.py,sha256=HGdqqEW9pGdke2Y4vHRCkLjJeGBmruZgrDHAu2BqEmQ,3456
+ccaaws/botosession.py,sha256=EJHrOKVTtrN-MRg-T4VUFTYBONF_szAjEfgNbJBiNHY,3419
+ccaaws/cfnclient.py,sha256=WU5S_ly4HeKevcx-SKOYdEy7f4qAdEoQJ2dV_VVMH3c,9958
+ccaaws/cwclient.py,sha256=An-UiljEIIAxa3lMjqxEMNb3Mv2jjdH4aXevc4rljHs,3083
+ccaaws/dynamo.py,sha256=Ug6w4r5mw_iz-e1POYQn9iX3CXvmVTmkd8yqc7c_KGk,2218
+ccaaws/ec2.py,sha256=4qlTRuP2hdIvcDUnnISngvzCY5ffG5ITtvHWITq3EnM,3212
+ccaaws/iamclient.py,sha256=KSiOKEToKsdCSM4elQpp05o7ti5Ru--zlZkVmaCGCck,7691
+ccaaws/paramstore.py,sha256=qZuyTmmhaypu2l7nRBOvCvnDHBg2l6Ez-LxnqzUrLlk,6267
+ccaaws/s3filesystem.py,sha256=9chstisNkyKm1tRJWQ-SEF-HBI9HnDevVpU8bDEnT1A,5142
+ccaaws-0.4.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ccaaws-0.4.3.dist-info/METADATA,sha256=RvurtDb8phAf3vCKguZaLbAB-cZ26ZVnSmuoaiK_nqU,1193
+ccaaws-0.4.3.dist-info/RECORD,,
