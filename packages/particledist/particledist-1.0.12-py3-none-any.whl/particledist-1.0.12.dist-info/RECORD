@@ -1,0 +1,11 @@
+.DS_Store,sha256=kUFeAWKgjKd7QW5CujzYL_DjZRQn2gHQu3YqqW9Ukc0,6148
+particledist/MassDistribution.py,sha256=84rMQYUuT0QSXz3PROoiOF-2kAMn8Q57bdjMgxD1jik,3374
+particledist/PFNDist.py,sha256=tXffgt4iF7Q701yP2ABtcpAw7TURNnZ__mUmctkazk0,3031
+particledist/ParticleDistributionCMS.py,sha256=76HEZvUQEyQmN2ZAdsnJgnOQenioqxS2gBLlQl8i2_U,8594
+particledist/SignalInjectionTwoGluons.py,sha256=MLTeoxZoh2MnYq2HhjvgKMbpbVC6pn9aUmVeEO5iiVU,1332
+particledist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+particledist-1.0.12.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+particledist-1.0.12.dist-info/METADATA,sha256=A88zkJkZmeb4yKb_tmNJQetNdqMCMm_3jXHIKpJ0log,745
+particledist-1.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+particledist-1.0.12.dist-info/top_level.txt,sha256=0TWlXiXrmFzci0D4oeggv3VKM-ZxVfBFMng9KG2DI8k,13
+particledist-1.0.12.dist-info/RECORD,,
