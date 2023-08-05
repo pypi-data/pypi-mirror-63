@@ -1,0 +1,3 @@
+[console_scripts]
+sichuanlang = sichuanlang.__main__:main
+

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SichuanLang
+Version: 0.1.0
+Summary: Sichuan programming language.
+Home-page: https://github.com/AoiKuiyuyou/SichuanLang
+Author: Aoi.Kuiyuyou
+Author-email: aoi.kuiyuyou@gmail.com
+License: MIT
+Keywords: sichuan programming language
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+`Documentation on Github
+<https://github.com/AoiKuiyuyou/SichuanLang>`_
+
