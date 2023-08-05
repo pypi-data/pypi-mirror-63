@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-vtk
+Version: 0.1.0
+Summary: Pythonic API for VTK.
+Author: Dominik Steinberger
+Author-email: dominik.steinberger@imfd.tu-freiberg.de
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs (>=19.1,<20.0)
+Requires-Dist: numpy (>=1.15,<2.0)
+Requires-Dist: vtk (>=8.1,<9.0)
