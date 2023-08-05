@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/paczek
+paczekfiller/__init__.py
+paczekfiller/cli.py
+paczekfiller/paczekfiller.py
+paczekfiller.egg-info/PKG-INFO
+paczekfiller.egg-info/SOURCES.txt
+paczekfiller.egg-info/dependency_links.txt
+paczekfiller.egg-info/entry_points.txt
+paczekfiller.egg-info/requires.txt
+paczekfiller.egg-info/top_level.txt
