@@ -1,0 +1,18 @@
+{
+  "newsapi": {
+    "api_key": "aeef18bc392c4c75bdfdb2caf599a766",
+    "url": "http://newsapi.org/v2/",
+    "sources": ["google-news", "google-news-in", "abc-news"],
+    "area": {
+      "india": {
+        "sources": ["google-news-in"]
+      },
+      "usa": {
+        "sources": ["google-news", "abc-news"]
+      },
+      "technology": {
+        "sources": ["engadget", "hacker-news"]
+      }
+    }
+  }
+}

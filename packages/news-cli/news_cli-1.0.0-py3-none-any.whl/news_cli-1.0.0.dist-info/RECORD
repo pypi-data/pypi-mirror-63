@@ -1,0 +1,15 @@
+common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common/app_settings.json,sha256=EXI9a7b6wJUn_S6AWQO1ut1UV-WDrthQ3NqWPRrvBbI,404
+common/get_api.py,sha256=qoUEDYJ-14nz-fzeCZ_SneTpHLNWyQjfI5nrgHdspqw,504
+common/tln_exceptions.py,sha256=7lReecP8PAyro9yUGjHRu5IHcB52jpUosf6Sqtr8reA,94
+interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interface/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interface/cli/cli.py,sha256=5T6i-528ifMhcU6xiXxYiRqoMUbuZZt3F5pjYejKA94,1266
+news/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+news/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+news/src/google_news.py,sha256=bpiF5XLIUBBr_SjJdHfCK3OijZJjnT9h06XmlIKtn9k,2078
+news_cli-1.0.0.dist-info/METADATA,sha256=DczbJHrLgsciKu1bSmOyL8lysdvd04vSVN9ugqcroPk,1420
+news_cli-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+news_cli-1.0.0.dist-info/entry_points.txt,sha256=wshRJXKy1Eut4W_2NKBAWCKHzjMBXGh8o4EEO-nz_cA,49
+news_cli-1.0.0.dist-info/top_level.txt,sha256=mo7FpOjf-PmzUjYp-CnvRyg_J0UpdpgiKScbqOW_upM,22
+news_cli-1.0.0.dist-info/RECORD,,
