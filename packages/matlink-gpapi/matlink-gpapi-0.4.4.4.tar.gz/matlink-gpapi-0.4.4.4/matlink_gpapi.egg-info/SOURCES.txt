@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gpapi/__init__.py
+gpapi/config.py
+gpapi/device.properties
+gpapi/googleplay.py
+gpapi/utils.py
+matlink_gpapi.egg-info/PKG-INFO
+matlink_gpapi.egg-info/SOURCES.txt
+matlink_gpapi.egg-info/dependency_links.txt
+matlink_gpapi.egg-info/requires.txt
+matlink_gpapi.egg-info/top_level.txt
+test/test.py
