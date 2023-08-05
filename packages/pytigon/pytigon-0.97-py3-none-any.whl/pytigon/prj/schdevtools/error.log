@@ -1,0 +1,1518 @@
+
+[2020-01-19 11:04:25] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 226, in run
+    p.kill()
+NameError: name 'p' is not defined
+
+
+[2020-01-19 11:35:46] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 38, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 10, in exists
+    conn = httplib.HTTPConnection(site)
+NameError: name 'httplib' is not defined
+
+
+[2020-01-19 11:36:35] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 39, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 11, in exists
+    conn = httplib2.HTTPConnection(site)
+AttributeError: module 'httplib2' has no attribute 'HTTPConnection'
+
+
+[2020-01-19 11:37:07] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 39, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 11, in exists
+    conn = httplib2.HTTPConnection(site)
+AttributeError: module 'httplib2' has no attribute 'HTTPConnection'
+
+
+[2020-01-19 11:37:50] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 39, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 12, in exists
+    conn.request("HEAD", path)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Ta nazwa lub usługa jest nieznana
+
+
+[2020-01-19 11:38:02] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 39, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 12, in exists
+    conn.request("HEAD", path)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Ta nazwa lub usługa jest nieznana
+
+
+[2020-01-19 11:38:46] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 39, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 12, in exists
+    conn.request("HEAD", path)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Ta nazwa lub usługa jest nieznana
+
+
+[2020-01-19 11:43:22] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 41, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 14, in exists
+    conn.request("HEAD", path)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Ta nazwa lub usługa jest nieznana
+
+
+[2020-01-19 11:44:28] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 41, in run
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 14, in exists
+    conn.request("HEAD", path)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+
+[2020-01-20 16:06:57] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 222, in run
+    run("http://127.0.0.1:8000", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 89, in run
+    asyncio.run(run_async(url, title, parent_win, x, y, width, height))
+  File "/usr/lib/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 78, in run_async
+    bindings.SetObject('external', browser.js_bridge)
+AttributeError: 'cefpython_py37.PyBrowser' object has no attribute 'js_bridge'
+
+
+[2020-01-20 20:12:15] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 79, in py_function
+    print("Value sent from Javascript: " + value)
+TypeError: can only concatenate str (not "list") to str
+
+
+[2020-01-20 20:51:57] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 83, in py_function
+    ret = request("http://127.0.0.2/"+url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+AttributeError: 'NoneType' object has no attribute 'post'
+
+
+[2020-01-20 21:57:17] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 101, in py_function
+    ret = request("http://127.0.0.2/"+url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 17, in request
+    response = HTTP.post(None, url, params)
+AttributeError: 'NoneType' object has no attribute 'post'
+
+
+[2020-01-20 22:09:28] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 102, in py_function
+    ret = request("http://127.0.0.2/"+url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 18, in request
+    response = HTTP.post(None, url, params)
+AttributeError: 'NoneType' object has no attribute 'post'
+
+
+[2020-01-20 22:11:07] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fe620b175f8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe620b175f8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 102, in py_function
+    ret = request(url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 334, in post
+    return self.get(parent, address_str, parm, upload, credentials, user_agent, True, json_data = json_data)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe620b175f8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-20 22:11:39] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f19a8997630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f19a8997630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 102, in py_function
+    ret = request(url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 334, in post
+    return self.get(parent, address_str, parm, upload, credentials, user_agent, True, json_data = json_data)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f19a8997630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-20 22:12:52] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f108411e978>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f108411e978>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 103, in py_function
+    ret = request(url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 334, in post
+    return self.get(parent, address_str, parm, upload, credentials, user_agent, True, json_data = json_data)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f108411e978>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-20 22:13:48] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f839e19e630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f839e19e630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 103, in py_function
+    ret = request(url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 334, in post
+    return self.get(parent, address_str, parm, upload, credentials, user_agent, True, json_data = json_data)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f839e19e630>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-20 22:14:38] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fdae004f5c0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdae004f5c0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 103, in py_function
+    ret = request(url, params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 52, in request
+    response = HTTP.post(None, url, params)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 334, in post
+    return self.get(parent, address_str, parm, upload, credentials, user_agent, True, json_data = json_data)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.2', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdae004f5c0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-20 22:51:00] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 110, in py_function
+    ret = request(url + "/", params)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 412, in get
+    f = default_storage.open(file_name)
+  File "/home/sch/.local/lib/python3.7/site-packages/django/core/files/storage.py", line 36, in open
+    return self._open(name, mode)
+  File "/home/sch/prj/pytigon/pytigon/ext_lib/django_storage.py", line 49, in _open
+    f = self.fs.open(name, mode)
+  File "/home/sch/.local/lib/python3.7/site-packages/fs/mountfs.py", line 300, in open
+    **options
+  File "/home/sch/.local/lib/python3.7/site-packages/fs/base.py", line 1169, in open
+    bin_file = self.openbin(path, mode=bin_mode, buffering=buffering)
+  File "/home/sch/.local/lib/python3.7/site-packages/fs/memoryfs.py", line 429, in openbin
+    raise errors.ResourceNotFound(path)
+fs.errors.ResourceNotFound: resource '/home/sch/prj/pytigon/pytigon/' not found
+
+
+[2020-01-20 22:54:18] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 114, in py_function
+    ret = """<base href="file:///home/sch/prj/pytigon/pytigon/" target="_blank">""" + ret
+TypeError: can only concatenate str (not "HttpResponse") to str
+
+
+[2020-01-21 20:25:42] Traceback (most recent call last):
+  File "resource_handler.pyx", line 93, in cefpython_py37.ResourceHandler_ProcessRequest
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 141, in ProcessRequest
+    cefpython.Request.Flags["AllowCachedCredentials"]
+NameError: name 'cefpython' is not defined
+
+
+[2020-01-21 20:26:48] Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+TypeError: OnRequestComplete() got an unexpected keyword argument 'web_request'
+
+
+[2020-01-21 20:30:35] Traceback (most recent call last):
+  File "resource_handler.pyx", line 93, in cefpython_py37.ResourceHandler_ProcessRequest
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 145, in ProcessRequest
+    self._web_request = cef.WebRequest.Create(request, self._webRequestClient)
+AttributeError: 'ResourceHandler' object has no attribute '_webRequestClient'
+
+
+[2020-01-21 20:30:58] Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 254, in OnRequestComplete
+    self._data,
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 66, in _OnResourceResponse
+    if FIX_ENCODING_BUG:
+NameError: name 'FIX_ENCODING_BUG' is not defined
+
+
+[2020-01-21 20:40:57] Traceback (most recent call last):
+  File "resource_handler.pyx", line 159, in cefpython_py37.ResourceHandler_ReadResponse
+TypeError: ReadResponse() got an unexpected keyword argument 'data_out'
+
+
+[2020-01-21 20:42:05] Traceback (most recent call last):
+  File "resource_handler.pyx", line 159, in cefpython_py37.ResourceHandler_ReadResponse
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 188, in ReadResponse
+    self._offsetRead : (self._offsetRead + bytesToRead)
+NameError: name 'bytesToRead' is not defined
+
+
+[2020-01-21 20:43:21] Traceback (most recent call last):
+  File "resource_handler.pyx", line 168, in cefpython_py37.ResourceHandler_ReadResponse
+TypeError: expected bytes, str found
+
+
+[2020-01-25 18:24:48] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 201, in run
+    run("http://127.0.0.2", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 431, in run
+    asyncio.run(run_async(url, title, parent_win, x, y, width, height))
+  File "/usr/lib/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 412, in run_async
+    browser.SetClientHandler(clientHandler)
+  File "browser.pyx", line 284, in cefpython_py37.PyBrowser.SetClientHandler
+  File "browser.pyx", line 297, in cefpython_py37.PyBrowser.SetClientHandler
+  File "browser.pyx", line 280, in cefpython_py37.PyBrowser.SetClientCallback
+Exception: Browser.SetClientCallback() failed: unknown callback: xxx_OnResourceResponse
+
+
+[2020-01-26 15:59:40] Traceback (most recent call last):
+  File "request_handler.pyx", line 155, in cefpython_py37.RequestHandler_GetResourceHandler
+  File "resource_handler.pyx", line 36, in cefpython_py37.CreateResourceHandler
+  File "resource_handler.pyx", line 31, in cefpython_py37.ValidateUserResourceHandler
+Exception: ResourceHandler object is missing method: GetResponseHeaders
+
+
+[2020-01-26 17:04:58] Traceback (most recent call last):
+  File "resource_handler.pyx", line 123, in cefpython_py37.ResourceHandler_GetResponseHeaders
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/cef_run.py", line 62, in GetResponseHeaders
+    assert self._web_request_client._response, "Response object empty"
+AssertionError: Response object empty
+
+
+[2020-01-27 19:41:02] Traceback (most recent call last):
+  File "ptig", line 31, in <module>
+    run()
+  File "/home/sch/prj/pytigon/pytigon/pytigon_run.py", line 201, in run
+    run("http://127.0.0.2", "Pytigon")
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 290, in run
+    asyncio.run(run_async(url, title, parent_win, x, y, width, height))
+  File "/usr/lib/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 242, in run_async
+    browser, client_handler = create_browser(None, title, parent_win, x, y, width, height)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 211, in create_browser
+    test = exists(url)
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 11, in exists
+    if '127.0.0.2' in site:
+TypeError: argument of type 'NoneType' is not iterable
+
+
+[2020-01-28 21:00:31] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f99c60f5208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99c60f5208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 199, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99c60f5208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:02:41] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f80f49b31d0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80f49b31d0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 203, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80f49b31d0>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:05:06] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f0c4276a208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c4276a208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0c4276a208>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:05:43] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f77be4b1278>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77be4b1278>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77be4b1278>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:06:24] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f9a30214198>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a30214198>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a30214198>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:06:39] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f035c090a90>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f035c090a90>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8089): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f035c090a90>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:07:18] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f69132caba8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69132caba8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69132caba8>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:10:46] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fd780252240>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd780252240>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd780252240>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+
+[2020-01-28 21:15:39] Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f92c810d160>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 364, in as_network_error
+    yield
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/sch/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f92c810d160>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "web_request.pyx", line 195, in cefpython_py37.WebRequestClient_OnRequestComplete
+  File "/home/sch/prj/pytigon/pytigon_lib/schbrowser/schcef.py", line 216, in OnRequestComplete
+    ret = pytigon_request(web_request.GetRequest().GetUrl(), None)
+  File "/home/sch/prj/pytigon/pytigon/pytigon_request.py", line 54, in request
+    response = HTTP.get(None, url, user_agent="embeded")
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 454, in get
+    response = request(method, adr, direct_access, argv, self.app)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 207, in request
+    requests_request(method, url, argv, ret)
+  File "/home/sch/prj/pytigon/pytigon_lib/schhttptools/httpclient.py", line 139, in requests_request
+    ret2 = httpx.request(method, url, **argv)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/api.py", line 96, in request
+    allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 568, in request
+    request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 588, in send
+    request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 618, in send_handling_redirects
+    request, auth=auth, timeout=timeout, history=history
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 653, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/client.py", line 675, in send_single_request
+    response = dispatcher.send(request, timeout=timeout)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/dispatch/urllib3.py", line 109, in send
+    pool_timeout=timeout.pool_timeout,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/sch/.local/lib/python3.7/site-packages/httpx/utils.py", line 368, in as_network_error
+    raise NetworkError(exc) from exc
+httpx.exceptions.NetworkError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f92c810d160>: Failed to establish a new connection: [Errno 111] Połączenie odrzucone'))
+
