@@ -1,0 +1,212 @@
+CHANGES
+=======
+
+v0.0.7
+------
+
+* update publish
+
+v0.0.6
+------
+
+* update setup.cfg
+* update license classifier
+
+v0.0.5
+------
+
+* add publish step
+* changes
+* fix test
+
+v0.0.4
+------
+
+* add tests
+* fix Form bug
+* add test config
+
+v0.0.3
+------
+
+* fix bug
+* remove identifier
+* new method for creating tables when paradigm is known
+* remove print
+* refactor
+* refactor
+* remove lex
+* remove unused code
+* refactor
+* refactor
+* remove choose and debug
+* refactor
+* refactor
+* handle tags in run\_paradigms
+* refactoring
+
+v0.0.2
+------
+
+* Add flake8
+
+v0.0.1
+------
+
+* move to src folder
+* add a temporary method needed for karppextract
+* cleanup of restored files
+* move into package
+* Revert "delete unused code"
+* move executables to bin
+* refactor
+* typing
+* move stuff and create setup.py
+* Update README.md
+* delete unused paradigms
+* delete unused code
+* clean-up
+* dont crash on empty paradigms, better naming, 0 -> first-attest
+* allow easier recomputation of language model
+* bug fixes
+* clean up
+* support for restricting to baseform
+* fixed tag bug
+* fixed language model
+* add example file
+* bug fix
+* bug fixes, cleaning
+* bug fixes, clean up
+* before code cleaning
+* bug fix
+* possibility to store small paradigms, without members and var\_insts
+* calculate and keep score, small fixes
+* start on functionality for parsing and writing json-paradigms
+* test scoring
+* start porting to python3, add functionality for mfl
+* fix tag bug
+* problem.md, added exapmle
+* Dokument med problematiska fall
+* more exploring
+* script for interactively exploring a paradigm file (only works for saol identifiers)
+* delete external data and task format
+* added support for saldo: allow , and : in words, each table has an identifier, c flag for inflecting a word according to a given paradigm, t flag for testing
+* Update morphanalyzer.py
+* Update genregex.py
+* Update morphanalyzer.py
+* fix bug where vars go in wrong order
+* Added examples
+* Started on README.md
+* ddn data in new format
+* updated paradigms
+* Update infix count procedure
+* class paradigms bug fix
+* New naming convention
+* precomputed class paradigms
+* class paradigms implemented
+* Class paradigms under implementation
+* Shared data
+* Shared data
+* shared task paradigms
+* shared, Russian
+* shared
+* commandline
+* backup
+* Started the shared data conversion
+* Code cleanup + new algorithm
+* '=>' points to the merged paradigm
+* bug fix
+* utf8 fix
+* Hole experiment
+* every table: lemma + at least one additional wordform
+* 'make htest'. No baseform holes (?)
+* h-filename fix
+* type 'make holes' to create holes in the D&D dataset
+* Missing wordform = @baseform
+* Exp update
+* bug fix
+* bug
+* Average ambiguity
+* Some comments added
+* exp + slots
+* The morph-experiment
+* Add restrictions on Gconstrained to compile large grammars
+* Makefile magic for the morphological analyzers
+* Add options -n -s
+* Added paradigm distribution to output
+* Add ability to analyze multiple words assumed to come from the same table
+* pretty-printing for paradigms
+* specificity score calculated as intended
+* constrained-match bug fix
+* bug fix
+* train files
+* minor typo
+* No cheating: work against dev
+* Bug fix
+* adjust printing
+* Add statistical morphological parser
+* 2 decimals
+* longest match first
+* Sorted output
+* Bling output
+* A small algorithmic change
+* Improved experiment output
+* More information added to the experiment output
+* Support for None-match. Experiment completed
+* Add None for no match and [] for match without bindings
+* experiment
+* train\_dev
+* load\_file fix
+* update to reflect new paradigm load format
+* update to reflect new paradigm load format
+* update to reflect new paradigm load format
+* load\_file returns an unannotated list of paradigms
+* fix regexmatcher to always return tuple
+* Add constrained, unconstrained, pvalue, etc
+* Bug fix for string length
+* outdated Makefile
+* Finnish nounadj
+* specificity score
+* \_\_getattr\_\_
+* \_\_getattr\_\_
+* Code cleanup:  \* using dictionaries as info structures  \* removed the Slot class
+* fix fomaregex
+* Fix typo
+* Cleanup
+* Cleanup, documentation
+* form.match with constrained
+* bug fixes
+* Bug fix
+* Variable constraints
+* Add first version of stringset -> regular expression generalization
+* 'python sforms.py p\_file -l' gives you the sforms for the lemma only
+* Cleanup and some optimization
+* code cleanup
+* German verbs
+* More paradigm files
+* More information added to sform output
+* pretty sforms
+* compiled regex
+* match all
+* precompiled regex
+* fits\_paradigm added
+* changes for sforms
+* shared forms
+* Cleanup
+* paradigm name bug fixed
+* Fix paradigm naming when no LCS is present
+* Slot example with file from argv
+* Fix utf8 output
+* First attempt at FST morphological analysis from paradigms
+* Now with all changes..
+* Added support for paradigms without variables
+* Fix handling of case where there is no LCS in a table
+* loadfile now supports the new paradigm file format
+* Added \_\_str\_\_ to Paradigm
+* Change pextract to use paradigm class
+* Sorted the output of the slot example
+* The slot example now with the maltese paradigm file
+* Added an example of how to call the paradigm class
+* First version of the paradigm class
+* New repos
+* Initial commit
