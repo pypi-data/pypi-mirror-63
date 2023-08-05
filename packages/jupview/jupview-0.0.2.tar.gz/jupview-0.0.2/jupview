@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Viewing $*
+python3 -m "jupview" "$*" | less -r

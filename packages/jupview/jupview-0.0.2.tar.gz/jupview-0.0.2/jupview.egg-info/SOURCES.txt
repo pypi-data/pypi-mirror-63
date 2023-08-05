@@ -1,0 +1,8 @@
+README.md
+jupview
+jupview.py
+setup.py
+jupview.egg-info/PKG-INFO
+jupview.egg-info/SOURCES.txt
+jupview.egg-info/dependency_links.txt
+jupview.egg-info/top_level.txt
