@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: grmpy
+Version: 0.1.3.dev0
+Summary: grmpy is a package for the simulation and analysis of the generalized Roy model.
+Home-page: http://grmpy.readthedocs.io
+Author: Philipp Eisenhauer
+Author-email: eisenhauer@policy-lab.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
