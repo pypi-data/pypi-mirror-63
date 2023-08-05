@@ -1,0 +1,2 @@
+setuptools>=38.3.0
+twine
