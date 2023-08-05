@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tas/__init__.py
+tas/__main__.py
+tas.egg-info/PKG-INFO
+tas.egg-info/SOURCES.txt
+tas.egg-info/dependency_links.txt
+tas.egg-info/requires.txt
+tas.egg-info/top_level.txt
