@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CheetaJWT
+Version: 1.3
+Summary: A falcon middleware to handle the JWT header
+Home-page: https://github.com/tavanarad/CG-falcon-jwt
+Author: Morteza Tavanarad
+Author-email: tavanarad@gmail.com
+License: MIS
+Platform: UNKNOWN
+
+UNKNOWN
+
+
