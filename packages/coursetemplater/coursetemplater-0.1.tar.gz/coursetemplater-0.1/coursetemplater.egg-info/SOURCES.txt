@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+coursetemplater/__init__.py
+coursetemplater/coursetemplate.py
+coursetemplater.egg-info/PKG-INFO
+coursetemplater.egg-info/SOURCES.txt
+coursetemplater.egg-info/dependency_links.txt
+coursetemplater.egg-info/entry_points.txt
+coursetemplater.egg-info/requires.txt
+coursetemplater.egg-info/top_level.txt
