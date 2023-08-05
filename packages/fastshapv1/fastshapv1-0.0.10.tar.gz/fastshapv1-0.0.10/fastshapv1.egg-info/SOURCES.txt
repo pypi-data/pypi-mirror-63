@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastshap/__init__.py
+fastshap/_nbdev.py
+fastshap/core.py
+fastshap/interp.py
+fastshapv1.egg-info/PKG-INFO
+fastshapv1.egg-info/SOURCES.txt
+fastshapv1.egg-info/dependency_links.txt
+fastshapv1.egg-info/entry_points.txt
+fastshapv1.egg-info/not-zip-safe
+fastshapv1.egg-info/requires.txt
+fastshapv1.egg-info/top_level.txt
