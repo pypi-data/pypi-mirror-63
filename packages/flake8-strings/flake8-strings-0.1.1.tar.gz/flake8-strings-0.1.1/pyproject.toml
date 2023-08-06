@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "flake8-strings"
+version = "0.1.1"
+description = "Flake8 Linter for Strings"
+authors = ["David S <d1618033@gmail.com>"]
+license = "MIT"
+readme = 'README.md'
+repository = "https://github.com/d1618033/flake8-strings"
+homepage = "https://pypi.org/project/flake8-strings"
+keywords = []
+
+[tool.poetry.plugins."flake8.extension"]
+STR = 'flake8_strings.plugin:StringsPlugin'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+flake8-plugin-utils = "*"
+
+[tool.poetry.dev-dependencies]
+black = {version = "*",allow-prereleases = true}
+bumpversion = "*"
+flake8-awesome = "*"
+mypy = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-deadfixtures = "*"
+pytest-mock = "*"
+unify = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
