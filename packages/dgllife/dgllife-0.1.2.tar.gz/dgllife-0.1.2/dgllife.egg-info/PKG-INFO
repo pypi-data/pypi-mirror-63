@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: dgllife
+Version: 0.1.2
+Summary: DGL-based package for Chemistry
+Home-page: https://github.com/dmlc/dgl/tree/master/apps/chem
+Maintainer: DGL Team
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pytorch,dgl,graph-neural-networks,chemistry,drug-discovery
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
