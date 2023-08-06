@@ -1,0 +1,11 @@
+README.md
+setup.py
+dpsearchclient/__init__.py
+dpsearchclient/meta_data.py
+dpsearchclient/search_client.py
+dpsearchclient/search_engine.py
+dpssearchclient.egg-info/PKG-INFO
+dpssearchclient.egg-info/SOURCES.txt
+dpssearchclient.egg-info/dependency_links.txt
+dpssearchclient.egg-info/requires.txt
+dpssearchclient.egg-info/top_level.txt
