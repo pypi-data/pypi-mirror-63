@@ -1,0 +1,16 @@
+.coveragerc
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+.github/workflows/pypi.yml
+src/snakespace/__init__.py
+src/snakespace/snakespace.py
+src/snakespace.egg-info/PKG-INFO
+src/snakespace.egg-info/SOURCES.txt
+src/snakespace.egg-info/dependency_links.txt
+src/snakespace.egg-info/not-zip-safe
+src/snakespace.egg-info/top_level.txt
+tests/conftest.py
+tests/test_snakepace.py
