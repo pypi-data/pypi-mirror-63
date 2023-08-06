@@ -1,0 +1,30 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>Width</td>
+    <td>{{ object.width }}</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>{{ object.height }}</td>
+  </tr>
+  <tr>
+    <td>Crop factor</td>
+    <td>{{ object.crop_factor }}</td>
+  </tr>
+  <tr>
+    <td>Area</td>
+    <td>{{ object.area }}</td>
+  </tr>
+  <tr>
+    <td>Aspect ratio</td>
+    <td>{{ object.aspect_ratio }}</td>
+  </tr>
+</table>
+{% endblock %}

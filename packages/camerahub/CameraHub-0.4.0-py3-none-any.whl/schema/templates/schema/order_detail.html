@@ -1,0 +1,34 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Negative</td>
+    <td>{% if object.negative is not None %}<a href="{% url 'negative-detail' object.negative.id %}">{{ object.negative }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Width</td>
+    <td>{{ object.width }}</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>{{ object.height }}</td>
+  </tr>
+  <tr>
+    <td>Date added</td>
+    <td>{{ object.added }}</td>
+  </tr>
+  <tr>
+    <td>Date printed</td>
+    <td>{{ object.printed }}</td>
+  </tr>
+  <tr>
+    <td>Print</td>
+    <td>{{ object.print }}</td>
+  </tr>
+  <tr>
+    <td>Recipient</td>
+    <td>{{ object.recipient }}</td>
+  </tr>
+</table>
+{% endblock %}

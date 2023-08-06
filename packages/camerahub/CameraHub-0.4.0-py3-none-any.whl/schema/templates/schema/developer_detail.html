@@ -1,0 +1,26 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Manufacturer</td>
+    <td>{% if object.manufacturer is not None %}<a href="{% url 'manufacturer-detail' object.manufacturer.id %}">{{ object.manufacturer }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>For paper</td>
+    <td>{{ object.for_paper }}</td>
+  </tr>
+  <tr>
+    <td>For film</td>
+    <td>{{ object.for_film }}</td>
+  </tr>
+  <tr>
+    <td>Chemistry</td>
+    <td>{{ object.chemistry }}</td>
+  </tr>
+</table>
+{% endblock %}

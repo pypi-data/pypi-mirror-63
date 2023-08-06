@@ -1,0 +1,86 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Negative</td>
+    <td>{% if object.negative is not None %}<a href="{% url 'negative-detail' object.negative.id %}">{{ object.negative }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>{{ object.date }}</td>
+  </tr>
+  <tr>
+    <td>Paperstock</td>
+    <td>{% if object.paper_stock is not None %}<a href="{% url 'paper_stock-detail' object.paper_stock.id %}">{{ object.paper_stock }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>{{ object.height }}</td>
+  </tr>
+  <tr>
+    <td>Width</td>
+    <td>{{ object.width }}</td>
+  </tr>
+  <tr>
+    <td>Aperture</td>
+    <td>{{ object.aperture }}</td>
+  </tr>
+  <tr>
+    <td>Exposure time</td>
+    <td>{{ object.exposure_time }}</td>
+  </tr>
+  <tr>
+    <td>Filtration grade</td>
+    <td>{{ object.filtration_grade }}</td>
+  </tr>
+  <tr>
+    <td>Development time</td>
+    <td>{{ object.development_time }}</td>
+  </tr>
+  <tr>
+    <td>Toner</td>
+    <td>{{ object.toner.all|join:", " }}</td>
+  </tr>
+  <tr>
+    <td>Own</td>
+    <td>{{ object.own }}</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>{{ object.location }}</td>
+  </tr>
+  <tr>
+    <td>Sold price</td>
+    <td>{{ object.sold_price }}</td>
+  </tr>
+  <tr>
+    <td>Enlarger</td>
+    <td>{{ object.enlarger }}</td>
+  </tr>
+  <tr>
+    <td>Enlarger lens</td>
+    <td>{{ object.lens }}</td>
+  </tr>
+  <tr>
+    <td>Developer</td>
+    <td>{% if object.developer is not None %}<a href="{% url 'developer-detail' object.developer.id %}">{{ object.developer }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Fine</td>
+    <td>{{ object.fine }}</td>
+  </tr>
+  <tr>
+    <td>Notes</td>
+    <td>{{ object.notes }}</td>
+  </tr>
+  <tr>
+    <td>Archive</td>
+    <td>{% if object.archive is not None %}<a href="{% url 'archive-detail' object.archive.id %}">{{ object.archive }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Printer</td>
+    <td>{{ object.printer }}</td>
+  </tr>
+</table>
+{% endblock %}
