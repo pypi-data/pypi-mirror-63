@@ -1,0 +1,8 @@
+README.md
+setup.py
+coronatracker/__init__.py
+coronatracker.egg-info/PKG-INFO
+coronatracker.egg-info/SOURCES.txt
+coronatracker.egg-info/dependency_links.txt
+coronatracker.egg-info/requires.txt
+coronatracker.egg-info/top_level.txt
