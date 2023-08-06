@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: compose-watcher
+Version: 1.0.1
+Summary: compose-watcher
+Home-page: https://github.com/remorses/compose-watcher
+Author: Tommaso De Rossi
+Author-email: daer.tommy@gmail.com
+License: Apache Software License 2.0
+Description: # compose-watcher
+        
+        Cli that restarts you docker compose services when a file inside one of its volumes changes
+        To use with compiled languages place the compilation step in the `command` field.
+        
+        Example usage
+        
+        -   graphql api restart when schema file changes
+        -   [Mongoke](https://github.com/remorses/mongoke) restarts when config schema changes
+        -   Nodejs container restarts when the src folder changes, recompiling with tsc
+        
+        ## Install
+        
+        ```
+        pip3 install compose-watcher
+        ```
+        
+        ## Usage
+        
+        Use the directories you want to track as service volumes
+        
+        ```
+        version: '3'
+        
+        services:
+          api:
+            build: node_api
+            command: sh -c 'tsc --incremental && node index.js'
+            volumes:
+              - ./node_api/src:/src
+        
+        ```
+        Then execute `compose-watcher` to watch changes
+        
+        ```
+        compose-watcher -f docker-compose.yml
+        ```
+        
+Keywords: docker-compose,watcher,watch
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
