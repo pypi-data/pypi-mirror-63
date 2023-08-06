@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyavro
+Version: 0.3.0
+Summary: A Python Avro Schema Builder
+Home-page: https://github.com/mitchelllisle/pyavro
+Author: Mitchell Lisle
+Author-email: m.lisle90@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pydantic
+Requires-Dist: fastavro (==0.22.13)
+Requires-Dist: funcy (==1.14)
+
+UNKNOWN
+
+

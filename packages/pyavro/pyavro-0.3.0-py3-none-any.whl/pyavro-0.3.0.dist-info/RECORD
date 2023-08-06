@@ -1,0 +1,11 @@
+pyavro/__init__.py,sha256=gCt98mAbiAUlB5PwkquZVhCPwf5UzysKmF_tG2unuFE,88
+pyavro/util.py,sha256=u94j9FLRvG0G6ChvHpZPMHZZYHVx-2uC8FGA5gZDGQ0,272
+pyavro/field/__init__.py,sha256=_cCNQ5xyn3QCbhRgOqztYqgyiYxaSoG3zqnJlEp4bi8,57
+pyavro/field/field.py,sha256=WXOP5Y6H8pdqBhS8noMbkBa9ocGCZLK4XGynuCpNCnU,1045
+pyavro/schema/__init__.py,sha256=1hVclxbkKMj--x46vfB8tZxb56PNi92hSquy9wC3P6o,44
+pyavro/schema/schema.py,sha256=ENuTYzyUOEV5pNWWIrys83QdiyWlQ5p4PXH2xXD3rHI,2423
+pyavro-0.3.0.dist-info/LICENSE,sha256=5EHsN9AqdzOMIUX3SeZwB2gNYVzh6fIpyYYvNOCwC4I,1071
+pyavro-0.3.0.dist-info/METADATA,sha256=KQyW1psSbGtEvHZQMYhsXth5niY8ga1mxpeNegBAhrQ,332
+pyavro-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyavro-0.3.0.dist-info/top_level.txt,sha256=tdCwnY3QpgIbbFoyE3-BJYZrhZ8jpo7fMwcJIsHVo6I,7
+pyavro-0.3.0.dist-info/RECORD,,
