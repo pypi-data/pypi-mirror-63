@@ -1,0 +1,44 @@
+Metadata-Version: 1.2
+Name: amdgpu-pptable
+Version: 0.9.0
+Summary: AMDGPU PowerPlay table parser
+Home-page: https://github.com/amezin/amdgpu-pptable
+Author: Aleksandr Mezin
+Author-email: mezin.alexander@gmail.com
+License: UNKNOWN
+Description: |Tests badge| |flake8 lint badge|
+        
+        AMDGPU PowerPlay table parser
+        =============================
+        
+        A Python library that converts AMDGPU PowerPlay tables to ctypes structs.
+        
+        Uses code generated from MIT-licensed AMDGPU Linux driver headers.
+        
+        For a Qt GUI editor see `amdgpu-pptable-editor-qt <https://github.com/amezin/amdgpu-pptable-editor-qt>`_
+        
+        Generating ctypes structs
+        -------------------------
+        
+        Generated code is tracked in git, it is located in ``src/amdgpu_pptable/generated``.
+        
+        To re-generate it (with, maybe, different kernel sources)::
+        
+        $ tox -e generate-ctypes -- -k path/to/kernel/sources
+        
+        
+        .. |Tests badge| image:: https://github.com/amezin/amdgpu-pptable/workflows/Tests/badge.svg
+        .. |flake8 lint badge| image:: https://github.com/amezin/amdgpu-pptable/workflows/flake8%20lint/badge.svg
+        
+Keywords: amdgpu radeon powerplay
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.6
