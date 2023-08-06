@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sauci-pydbc
+Version: 0.1.0
+Summary: utility for dbc files
+Home-page: https://github.com/Sauci/pydbc
+Author: Guillaume Sottas
+Author-email: guillaume.sottas@liebherr.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: ply
+
+this package provides an API to access different nodes in a dbc file
+
+
