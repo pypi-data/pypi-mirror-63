@@ -1,0 +1,11 @@
+README.md
+setup.py
+tinyPub/__init__.py
+tinyPub/__main__.py
+tinyPub/htmlParser.py
+tinyPub/navParser.py
+tinypub_HakierGrzonzo.egg-info/PKG-INFO
+tinypub_HakierGrzonzo.egg-info/SOURCES.txt
+tinypub_HakierGrzonzo.egg-info/dependency_links.txt
+tinypub_HakierGrzonzo.egg-info/entry_points.txt
+tinypub_HakierGrzonzo.egg-info/top_level.txt
