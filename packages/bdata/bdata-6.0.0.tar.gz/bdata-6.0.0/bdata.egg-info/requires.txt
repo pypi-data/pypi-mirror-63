@@ -1,0 +1,4 @@
+mud-py>=0.1.0
+numpy>=1.14
+requests>=2.22.0
+pandas>=0.25
