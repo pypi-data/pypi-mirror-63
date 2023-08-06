@@ -1,0 +1,10 @@
+README.md
+setup.py
+seatease/__init__.py
+seatease/cseatease.py
+seatease/spectrometers.py
+seatease.egg-info/PKG-INFO
+seatease.egg-info/SOURCES.txt
+seatease.egg-info/dependency_links.txt
+seatease.egg-info/requires.txt
+seatease.egg-info/top_level.txt
