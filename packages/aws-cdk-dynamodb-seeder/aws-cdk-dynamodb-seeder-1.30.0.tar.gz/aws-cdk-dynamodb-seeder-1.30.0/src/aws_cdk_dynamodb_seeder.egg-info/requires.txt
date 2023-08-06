@@ -1,0 +1,8 @@
+jsii~=0.22.0
+publication>=0.0.3
+aws-cdk.aws-dynamodb<2.0.0,>=1.30.0
+aws-cdk.aws-lambda<2.0.0,>=1.30.0
+aws-cdk.aws-s3<2.0.0,>=1.30.0
+aws-cdk.aws-s3-deployment<2.0.0,>=1.30.0
+aws-cdk.core<2.0.0,>=1.30.0
+aws-cdk.custom-resources<2.0.0,>=1.30.0
