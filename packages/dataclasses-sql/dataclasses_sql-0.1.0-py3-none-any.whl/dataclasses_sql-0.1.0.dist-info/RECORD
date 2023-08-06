@@ -1,0 +1,10 @@
+dataclasses_sql/__init__.py,sha256=1MaQYiAawr-ae3XtKbJbVCacdQo4w0Iwe7u8Idcq33A,344
+dataclasses_sql/_version.py,sha256=yLh47u6ClNEIp0E_eysltix96PmfhE_eCXpyvc4ntfI,497
+dataclasses_sql/insert.py,sha256=3rNPeD2BQTfIqMtDoGBqIE6cd0IpSjccqleRZGF1bHE,4428
+dataclasses_sql/select.py,sha256=OAwgRji-GZdWOvxUfulM2mRLfSc3dLNLL5vkp5ZzRg0,7048
+dataclasses_sql/utils.py,sha256=a9ht0F1fqQg2Kokvjg7ihfjZaOTTJAWSCos86oA6vbA,703
+dataclasses_sql-0.1.0.dist-info/LICENSE,sha256=d3L-Ami0yo-2TiTklRR-lVbgDYD7KVl2wJED6SMLjQk,1074
+dataclasses_sql-0.1.0.dist-info/METADATA,sha256=MXdqs4EI_oJ2WbgBPU5Fv-Xmigaw45lVAuOWIyhFjTQ,2289
+dataclasses_sql-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dataclasses_sql-0.1.0.dist-info/top_level.txt,sha256=09vTHN68PL1G7aPRG5w1mEY5FTEuTK81y8Q62A0FmE4,16
+dataclasses_sql-0.1.0.dist-info/RECORD,,
