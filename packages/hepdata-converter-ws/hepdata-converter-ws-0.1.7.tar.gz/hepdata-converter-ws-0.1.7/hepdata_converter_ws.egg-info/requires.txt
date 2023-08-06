@@ -1,0 +1,5 @@
+hepdata-converter<0.2,>=0.1.35
+flask<2,>=1.1.1
+
+[tests]
+distlib
