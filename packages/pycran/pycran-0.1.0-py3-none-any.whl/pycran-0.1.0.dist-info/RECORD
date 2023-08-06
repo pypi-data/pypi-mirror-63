@@ -1,0 +1,7 @@
+pycran/__init__.py,sha256=ho4Gw55XLlJbw7sJ2P88IHlEpu8xO1J-8qblAOLk1nI,3541
+pycran/errors.py,sha256=UwyF7l29ph1rbYr8JgwPP-aX55iNVejd4zqWz0LyDlo,116
+pycran/util.py,sha256=RCzRv0FCDtVwFxU6KBW2kRpxfzVkj0jgU4sB94_gwo4,1672
+pycran-0.1.0.dist-info/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+pycran-0.1.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+pycran-0.1.0.dist-info/METADATA,sha256=Z6Ob72t52_GqrvZ0UCmyArHtm03rwx03J0y52sM9gLc,4513
+pycran-0.1.0.dist-info/RECORD,,
