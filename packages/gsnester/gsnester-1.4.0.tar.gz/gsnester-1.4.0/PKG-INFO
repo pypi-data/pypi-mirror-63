@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gsnester
+Version: 1.4.0
+Summary: Simple printer for nested lists
+Home-page: UNKNOWN
+Author: Geetika Sharma
+Author-email: geetusharma7@gmail.com
+License: UNKNOWN
+Description: This is gsnester.py module, and it provides one function called print_nested_lists() which prints lists that may or may not include nested list
+Platform: UNKNOWN
