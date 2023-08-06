@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: yml2
+Version: 2.6.4
+Summary: UNKNOWN
+Home-page: https://pep.foundation/dev/repos/yml2/
+Author: Volker Birk
+Author-email: vb@pep-project.org
+License: GPL-2.0
+Description: ************
+        What is YML?
+        ************
+        
+        Well, it's the idea not to need to define a grammar first when you want to use a Domain Specific Language. For that purpose, YML is being translated into XML. Let's make an example.
+        
+        Everything which comes close to a C like language, parses without a grammar definition.
+        
+        Please see README.md for more information.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
