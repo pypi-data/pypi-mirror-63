@@ -1,0 +1,108 @@
+#!python
+
+import pelix.framework
+import argparse
+import json
+import yaml
+import os
+import logging
+import sys
+from pelix.misc.init_handler import InitFileHandler
+from pelix.ipopo.constants import use_ipopo
+from logstash_formatter import LogstashFormatter
+from prometheus_client import start_http_server
+
+_logger = logging.getLogger(__name__)
+
+
+def get_arguments():
+    p = argparse.ArgumentParser(
+        description='Generates and writes compositions to db')
+
+    p.add_argument(
+        '-c',
+        '--console',
+        action='store_true',
+        help='Sets the lookup directory',
+    )
+    args = p.parse_args()
+
+    return args
+
+def init_prometheus():
+    start_http_server(9111)
+
+def init_logger():
+    logger = logging.getLogger()
+
+    logger.setLevel(logging.getLevelName(os.getenv('LOG_LEVEL', "DEBUG")))
+    #logger.handlers = []
+
+    handler = logging.StreamHandler(stream=sys.stdout)
+    handler.setLevel(logging.INFO)
+
+    #formatter = LogstashFormatter()
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    _logger.info("Logger initialized")
+
+
+def main():
+
+    arg = get_arguments()
+    init_prometheus()
+    init = InitFileHandler()
+    try:
+        init.load("framework.conf")
+    except Exception:
+        print("Can not fiend framwork.conf")
+        #exit(1)
+    
+    try:
+        init.load("extra-bundles.conf")
+    except Exception:
+        print("Can not fiend extra-bundles.conf")
+        #exit(1)
+    
+
+    components = []
+
+    for filename in os.listdir("etc"):
+        if filename.endswith(".yaml"):
+            with open(os.path.join("etc", filename), "r") as filep:
+                data = yaml.full_load(filep)
+                if data:
+                    components += data
+
+    init.normalize()
+
+    if arg.console:
+        init.bundles.append("pelix.shell.console")
+    else:
+        init_logger()
+
+    framework = pelix.framework.create_framework(init.bundles, init.properties)
+    framework.start()
+
+    if "pelix.ipopo.core" in init.bundles:
+        ctx = framework.get_bundle_context()
+        init.instantiate_components(ctx)
+        with use_ipopo(ctx) as ipopo:
+            if components:
+                for component in components:
+                    ipopo.instantiate(component["factory"],
+                                      component["name"], component["properties"])
+
+    else:
+        _logger.critical("iPOPO has not been setup in the configuration file.")
+    try:
+        framework.wait_for_stop()
+    except KeyboardInterrupt:
+        framework.stop()
+
+
+# Classic entry point...
+if __name__ == "__main__":
+    main()
