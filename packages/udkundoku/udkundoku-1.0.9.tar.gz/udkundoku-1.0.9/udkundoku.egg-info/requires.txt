@@ -1,0 +1,2 @@
+udkanbun>=1.9.3
+unidic2ud>=1.9.4
