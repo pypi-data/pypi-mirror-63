@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: livehttp
+Version: 0.0.2
+Summary: it is a fast reload http server, could server any folder 
+Home-page: https://github.com/zk4/livehttp
+Author: zk
+Author-email: liuzq7@gmail.com
+License: BSD
+Download-URL: https://github.com/zk4/livehttp/archive/master.zip
+Keywords: best practice for python project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Requires-Python: >3.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: watchdog (==0.9.0)
+Requires-Dist: setuptools (==40.6.3)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: pytest (==5.2.1)
+Requires-Dist: gevent (==1.3.7)
+Requires-Dist: Flask-Sockets (==0.2.1)
+Requires-Dist: gevent-websocket (==0.10.1)
+Requires-Dist: PyYAML (==5.3)
+
+# Why  
+It's robust, low cpu load, comparing to node version live-server or livereload.
+
+
+# Install 
+``` bash
+pip install livehttp
+```
+
+
+
+# Usage
+``` bash
+livehttp .
+
+```
+
