@@ -1,0 +1,8 @@
+flowclient/__init__.py,sha256=OBRBHrh0A7F92Hf3Atepn4LFalDip6GVQo0opywpgtM,2115
+flowclient/_version.py,sha256=30H2aDDvar42FvfqtrHg_wQpeT6F5P5pCEbOgCA7udM,508
+flowclient/client.py,sha256=C1WoUerrQGTxGKoHlo2JlgrUB_d65hcP8bfyIxvmZME,60003
+flowclient-1.4.0.post0.dev12.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+flowclient-1.4.0.post0.dev12.dist-info/METADATA,sha256=MKlNSbCQxnqcV636ww-AsA7LDykVH0EsC0grtla05ds,1028
+flowclient-1.4.0.post0.dev12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flowclient-1.4.0.post0.dev12.dist-info/top_level.txt,sha256=yWRgxFPfkIJJOjBERd3KodmlSGfbFlopakjJs4unmlA,11
+flowclient-1.4.0.post0.dev12.dist-info/RECORD,,
