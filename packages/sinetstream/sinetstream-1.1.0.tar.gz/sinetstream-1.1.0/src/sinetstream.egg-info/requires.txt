@@ -1,0 +1,3 @@
+pyyaml
+pycryptodome
+avro-python3
