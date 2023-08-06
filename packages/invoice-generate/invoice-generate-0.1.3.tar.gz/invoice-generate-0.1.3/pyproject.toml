@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "invoice-generate"
+version = "0.1.3"
+description = ""
+authors = ["Eric Prykhodko <eprykhodko@bcdtriptech.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jinja2 = "^2.10.3"
+pdfkit = "^0.6.1"
+click = "^7.0"
+toml = "^0.10.0"
+python-dateutil = "^2.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pygments = "^2.5.2"
+
+[tool.poetry.scripts]
+invoice-generate = 'invoice_generate:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
