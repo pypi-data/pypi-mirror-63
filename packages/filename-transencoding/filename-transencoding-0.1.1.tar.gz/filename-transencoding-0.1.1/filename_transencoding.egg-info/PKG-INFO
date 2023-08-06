@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: filename-transencoding
+Version: 0.1.1
+Summary: Fix filename encoding problem. Copy all files to new position with new encoding.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # filename-transencoding
+        
+        Fix filename encoding problem. Copy all files to new position with new encoding.
+        
+        ## Install
+        
+        ```shell
+        pip install filename-transencoding
+        ```
+        
+        ## Installed Utils
+        
+        - filename-transencoding
+        
+        ## Usage
+        
+        ```shell
+        [root@www tmp]# filename-transencoding --help
+        Usage: filename-transencoding [OPTIONS] SRC DST
+        
+        Options:
+          -f, --from-encoding TEXT  source encoding.
+          -t, --to-encoding TEXT    destination encoding.
+          --help                    Show this message and exit.
+        [root@www tmp]# filename-transencoding -f gbk -t utf-8 src-folder dst-folder
+        
+        ```
+        
+        ## Releases
+        
+        ### v0.1.1 2020/03/18
+        
+        - Remove click version, so will NOT requires lastest click version.
+        
+        ### v0.1.0 2020/03/18
+        
+        - First release.
+Keywords: command line utils,filename-transencoding
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
