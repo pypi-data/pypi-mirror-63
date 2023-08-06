@@ -1,0 +1,3 @@
+[console_scripts]
+katoun = katoun.main:main
+
