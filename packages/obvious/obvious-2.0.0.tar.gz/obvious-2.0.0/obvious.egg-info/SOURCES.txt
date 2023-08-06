@@ -1,0 +1,8 @@
+setup.py
+obvious/__init__.py
+obvious/obvious.py
+obvious.egg-info/PKG-INFO
+obvious.egg-info/SOURCES.txt
+obvious.egg-info/dependency_links.txt
+obvious.egg-info/not-zip-safe
+obvious.egg-info/top_level.txt
