@@ -1,0 +1,3 @@
+[console_scripts]
+zepl = zepl.zepl_cli:main
+
