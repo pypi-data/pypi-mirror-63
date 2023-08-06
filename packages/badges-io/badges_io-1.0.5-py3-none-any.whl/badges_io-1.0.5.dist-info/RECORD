@@ -1,0 +1,9 @@
+badges_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+badges_io/__main__.py,sha256=geVNg-WuQipKKY8ra94cMadr90_9sC_BYVEB-FUlsaw,1832
+badges_io/badges.py,sha256=P1M_CVk5Po0z-gtgw5TGjtJFiVAVU7PkFTrqmMLJ6xk,2393
+badges_io/slug.py,sha256=MQJvXoU6CBNIz4hoWiS_dA3KGcuGnvB2bI7PBiAFgOk,689
+badges_io-1.0.5.dist-info/LICENSE,sha256=k3XsAReGJTHjwZ5udRlgsGaTtaoLtK7la9TFblS0UF4,1074
+badges_io-1.0.5.dist-info/METADATA,sha256=YnHGZcjfUtLn9BAsW4qTPmjdtJPQu1S42oo1sIIfHrQ,1010
+badges_io-1.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+badges_io-1.0.5.dist-info/top_level.txt,sha256=dzNOAEc9OcrsegAZnUGAd9_De6CiP2V_Sx5p5uwBeWo,10
+badges_io-1.0.5.dist-info/RECORD,,
