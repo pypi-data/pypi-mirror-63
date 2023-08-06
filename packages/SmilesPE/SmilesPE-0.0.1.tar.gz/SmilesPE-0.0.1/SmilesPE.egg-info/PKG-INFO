@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: SmilesPE
+Version: 0.0.1
+Summary: Tokenize SMILES with substructure units
+Home-page: https://github.com/XinhaoLi74/SmilesPE
+Author: Xinhao Li
+Author-email: xli74@ncsu.edu
+License: Apache Software License 2.0
+Description: # SMILES Pair Encoding.
+        > SMILES Pair Encoding (SmilesPE) trains a substructure tokenizer from a large set of SMILES strings (e.g., ChEMBL) based on [byte-pair-encoding (BPE)](https://www.aclweb.org/anthology/P16-1162/).
+        
+        
+        ## Install
+        
+        `pip install your_project_name`
+        
+        ## Use the Pre-trained 
+        
+        Fill me in please! Don't forget code examples:
+        
+        ```python
+        1+1
+        ```
+        
+        
+        
+        
+            2
+        
+        
+        
+Keywords: Cheminformatics SMILES
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
