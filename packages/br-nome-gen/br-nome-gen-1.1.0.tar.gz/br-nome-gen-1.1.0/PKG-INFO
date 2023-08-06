@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: br-nome-gen
+Version: 1.1.0
+Summary: A generator of Brazilian typical names.
+Home-page: https://github.com/victorwss/br-nome-gen
+Author: Victor Williams Stafusa da Silva
+Author-email: victorwssilva@gmail.com
+License: UNKNOWN
+Description: # br_nome_gen
+        Gerador aleatÃ³rio de nomes brasileiros.
+        
+        ## Exemplo de uso:
+        
+        Uma forma simples de usar isso Ã© assim:
+        
+        ```python
+        from br_nome_gen import pessoa_random
+        
+        p = pessoa_random()
+        print(f"{'Homem' if p.masc else 'Mulher'}: {p.nome}")
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
