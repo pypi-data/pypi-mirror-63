@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dotez
+Version: 0.0.2
+Summary: Python module for managing dotfiles easily
+Home-page: http://github.com/tjysdsg/dot-easy/
+Author: Jiyang Tang
+Author-email: tjy1018543509@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, http://github.com/tjysdsg/dot-easy/issues
+Project-URL: Documentation, http://github.com/tjysdsg/dot-easy/wiki
+Project-URL: Source Code, http://github.com/tjysdsg/dot-easy
+Keywords: dotfiles,git,backup
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Requires-Dist: gitpython
+Requires-Dist: setuptools
+
+UNKNOWN
+
+
