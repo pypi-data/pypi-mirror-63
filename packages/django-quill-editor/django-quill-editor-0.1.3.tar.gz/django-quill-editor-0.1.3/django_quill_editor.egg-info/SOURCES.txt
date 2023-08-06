@@ -1,0 +1,17 @@
+README.md
+setup.py
+django_quill/__init__.py
+django_quill/config.py
+django_quill/fields.py
+django_quill/forms.py
+django_quill/quill.py
+django_quill/test_settings.py
+django_quill/tests.py
+django_quill/urls.py
+django_quill/widgets.py
+django_quill_editor.egg-info/PKG-INFO
+django_quill_editor.egg-info/SOURCES.txt
+django_quill_editor.egg-info/dependency_links.txt
+django_quill_editor.egg-info/requires.txt
+django_quill_editor.egg-info/top_level.txt
+django_quill_editor.egg-info/zip-safe
