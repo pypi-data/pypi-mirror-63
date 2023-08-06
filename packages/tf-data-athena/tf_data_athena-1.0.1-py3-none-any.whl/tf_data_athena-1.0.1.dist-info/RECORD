@@ -1,0 +1,14 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_athena_dataset.py,sha256=Ffr-uF7O7EGZVAOUFu6cidgV7T-8VnOXGPvANgO-6l4,3310
+test/mocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/mocks/mock_athena_connector.py,sha256=STA1bPBR4meTrcgg6gP-HJ5tGGcTmXYyVU84bbjvImU,555
+tf_data_athena/__init__.py,sha256=3CwuOYdaqBv3eZu7Dnd7NlfPQHkL2RGlqa0wkzH5zik,129
+tf_data_athena/factory.py,sha256=M0qjAjex3ecYcYl0TAOafKB_iJVS1KramcGhzveHgdg,648
+tf_data_athena/aws_persistense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_data_athena/aws_persistense/athena_connector.py,sha256=T_GN0ZRx186PfRWadMtwzG2th600YLRRgc9ZuuIu9pc,3580
+tf_data_athena/aws_persistense/athena_dataset.py,sha256=zd2uSXmiNJq8hR8jqkctOFzx9t551q3z6XLhpNkTsws,1213
+tf_data_athena/aws_persistense/util_functions.py,sha256=EfEBIS9RnvczebpCzH8H6zpRZlGOZhYlyzm1LNc131g,883
+tf_data_athena-1.0.1.dist-info/METADATA,sha256=Gce5xhkU0DPrjkIpNdm0GmeDrbe65mbjwtZs71TrrxI,2568
+tf_data_athena-1.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+tf_data_athena-1.0.1.dist-info/top_level.txt,sha256=BQ9_We0cJBbdT_kXje9aLV6mmgcmH98sQdC9HvRyAws,20
+tf_data_athena-1.0.1.dist-info/RECORD,,
