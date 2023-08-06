@@ -1,0 +1,11 @@
+network_diffusion/__init__.py,sha256=CtEzMATj5j03BhnFLl3Lo2-IQB22HKI_fiJMw1bpg70,250
+network_diffusion/flat_spreading.py,sha256=-rJ5WeKbgyS_QVHqCRL40y8rXR8KWsv4xyTbwNk44vI,21624
+network_diffusion/multi_spreading.py,sha256=-elBWw1VdHlOJx03CTq48VogD6LZ8RUskL-O3jDXhXE,11022
+network_diffusion/multilayer_network.py,sha256=QTV2IYKvAZBGoD-18KMpn3sGVS0ZLWhf0JwTX6uclcU,8697
+network_diffusion/propagation_model.py,sha256=ror2-B_k1t02d8BSJUVd4hRc1FkFSVZw8Q5oVFHXA6Y,10051
+network_diffusion/utils.py,sha256=GBIwVcupyyxphPm_rZiU2UAtP5zweiPj8Ry7a973yZY,1970
+network_diffusion-0.5.28.dist-info/LICENSE,sha256=sRbdXhK6PKIari-2PWvaTMs0hr4I8UVIdFi7bFCXRFk,1069
+network_diffusion-0.5.28.dist-info/METADATA,sha256=1M4FIi0II97_tJH6staWcBv0BX1-pVEopuZhdLgLx00,1500
+network_diffusion-0.5.28.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+network_diffusion-0.5.28.dist-info/top_level.txt,sha256=Vo62h8z_hqLJD6cOTyscCcNL17p09svehKZgVSfVS3w,18
+network_diffusion-0.5.28.dist-info/RECORD,,
