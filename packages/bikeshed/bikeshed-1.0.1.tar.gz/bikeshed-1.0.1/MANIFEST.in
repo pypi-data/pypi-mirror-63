@@ -1,0 +1,5 @@
+include README.md
+include Bikeshed.tmLanguage
+graft docs
+graft bikeshed/spec-data
+graft bikeshed/boilerplate
