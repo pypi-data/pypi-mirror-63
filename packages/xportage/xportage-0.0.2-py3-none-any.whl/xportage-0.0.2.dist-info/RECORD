@@ -1,0 +1,9 @@
+xportage/__init__.py,sha256=WqLuA9Kqfm8sQtVafhsdNXcTGlLwJjSCQXBzJmThQao,36
+xportage/__main__.py,sha256=_RHX-uf7Lg9wFL-CHggRqMU4lLl0fv-pN0TvYaIExeU,1155
+xportage/default_reference.py,sha256=D9-zj4FA5BbJt0EZ5p5nlcezUwVpPOq1dgAkHlVbXN0,453
+xportage/xportage.py,sha256=pI3l0mcsm7safvBizK_JsbR3m34IufKWrl3jWj3IXB0,3900
+xportage-0.0.2.dist-info/METADATA,sha256=sCrUhXsy56Hcj04EuY1T3Cn2QHAZ9ipQ28Kuv2wQSE4,433
+xportage-0.0.2.dist-info/RECORD,,
+xportage-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+xportage-0.0.2.dist-info/entry_points.txt,sha256=eaPiKQE2QbVMMUF9xbVm4GmrOqF7P2Wne4h6U1gp2Lc,53
+xportage-0.0.2.dist-info/top_level.txt,sha256=4mphuIIL7SzTmpWeXHj0rSzXJp4ZhiqgOiJtEoX5f_I,9
