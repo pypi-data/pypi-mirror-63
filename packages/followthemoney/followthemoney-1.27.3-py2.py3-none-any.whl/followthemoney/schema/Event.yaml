@@ -1,0 +1,36 @@
+Event:
+  label: "Event"
+  plural: "Events"
+  extends: 
+  - Interval
+  - Analyzable
+  - Thing
+  matchable: false
+  # generated: true
+  caption:
+  - name
+  - summary
+  - date
+  properties:
+    location:
+      label: "Location"
+      type: address
+    country:
+      label: "Country"
+      type: country
+    important:
+      label: "Important"
+    organizer:
+      label: "Organizer"
+      type: entity
+      range: LegalEntity
+      reverse:
+        name: eventsOrganized
+        label: "Organized events"
+    involved:
+      label: "Involved"
+      type: entity
+      range: LegalEntity
+      reverse:
+        name: eventsInvolved
+        label: "Events"
