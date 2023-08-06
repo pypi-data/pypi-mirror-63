@@ -1,0 +1,8 @@
+README.md
+setup.py
+createflaskapp.egg-info/PKG-INFO
+createflaskapp.egg-info/SOURCES.txt
+createflaskapp.egg-info/dependency_links.txt
+createflaskapp.egg-info/entry_points.txt
+createflaskapp.egg-info/requires.txt
+createflaskapp.egg-info/top_level.txt
