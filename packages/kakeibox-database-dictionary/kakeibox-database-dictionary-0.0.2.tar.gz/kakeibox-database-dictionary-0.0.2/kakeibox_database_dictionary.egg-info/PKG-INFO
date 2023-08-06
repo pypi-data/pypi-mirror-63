@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: kakeibox-database-dictionary
+Version: 0.0.2
+Summary: A persistent data plugin to store the data in Python dictionaries.
+Home-page: https://gitlab.com/kakeibox/plugins/database/kakeibox-database-dictionary
+Author: Jonathan López
+Author-email: jlopez@fipasoft.com.mx
+License: GNU General Public License v3
+Description: ===============================
+        kakeibox_database_memory
+        ===============================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/kakeibox_database_dictionary.svg
+                :target: https://pypi.python.org/pypi/kakeibox-database-dictionary
+        
+        
+        
+        Plugin to store the data into Python dictionaries.
+        
+        
+        * Free software: GNU General Public License v3
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-08-28)
+        ------------------
+        
+        * First release on PyPI. Basic operations in database.
+        
+Keywords: kakeibox_database_dictionary
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
