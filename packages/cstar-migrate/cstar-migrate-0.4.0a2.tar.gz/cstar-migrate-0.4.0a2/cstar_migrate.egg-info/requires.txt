@@ -1,0 +1,13 @@
+arrow<0.16
+cassandra-driver<4.0
+pyyaml<5.0
+tabulate<0.9
+
+[dev]
+flake8==3.7.9
+twine==3.1.1
+
+[test]
+pytest-cov==2.8.1
+pytest==5.3.5
+tox==3.14.5
