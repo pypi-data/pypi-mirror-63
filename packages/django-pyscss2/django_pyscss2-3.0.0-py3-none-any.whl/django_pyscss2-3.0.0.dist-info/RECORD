@@ -1,0 +1,11 @@
+django_pyscss/__init__.py,sha256=OC3Bj9SaZauhMUcr7o2XIAR9FmDBHbFYxADzmznv5AE,49
+django_pyscss/compiler.py,sha256=PCR7Uu5GVhlwI7UO32SLQ2DFCPMXp1FiRgcGqQfZoQo,2211
+django_pyscss/compressor.py,sha256=a99pYk7bobrW8rxRFc8sWkMyJt9YdhECvn0qm6xKC90,990
+django_pyscss/utils.py,sha256=iXcLbzF6pWw-7ifsyVrRQnobeJdVWDPmDD2cqsULNIg,1625
+django_pyscss/extension/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pyscss/extension/django.py,sha256=pYXmH2miOczJm1bOfc99wbF9l_SMojLURzFwpL8RiBM,1623
+django_pyscss2-3.0.0.dist-info/LICENSE,sha256=rq7uudFy71loUGKjQmzp_Hj16liCC-zGbdzXaBvNT7Q,1297
+django_pyscss2-3.0.0.dist-info/METADATA,sha256=VE21mV_Z3T33_b8jh-OPcamU7pJ0kHb1nnGYpC3pZas,6523
+django_pyscss2-3.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_pyscss2-3.0.0.dist-info/top_level.txt,sha256=xiUXKGiyQVHp8nwIM3Tv2FX0du8sG4PFmOqZR5z3GYo,14
+django_pyscss2-3.0.0.dist-info/RECORD,,
