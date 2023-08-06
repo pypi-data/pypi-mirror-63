@@ -1,0 +1,6 @@
+[sinetstream.reader]
+mqtt = sinetstreamplugin.mqtt:MqttReader
+
+[sinetstream.writer]
+mqtt = sinetstreamplugin.mqtt:MqttWriter
+
