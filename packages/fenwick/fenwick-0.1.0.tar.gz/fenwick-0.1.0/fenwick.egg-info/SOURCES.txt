@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+documentation.md
+example.py
+setup.py
+fenwick/__init__.py
+fenwick/fenwick.py
+fenwick/version.txt
+fenwick.egg-info/PKG-INFO
+fenwick.egg-info/SOURCES.txt
+fenwick.egg-info/dependency_links.txt
+fenwick.egg-info/top_level.txt

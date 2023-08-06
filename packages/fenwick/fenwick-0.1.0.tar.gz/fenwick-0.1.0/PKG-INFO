@@ -1,0 +1,88 @@
+Metadata-Version: 1.1
+Name: fenwick
+Version: 0.1.0
+Summary: A Python implementation of Fenwick trees
+Home-page: https://github.com/dstein64/fenwick
+Author: Daniel Steinberg
+Author-email: ds@dannyadam.com
+License: MIT
+Description: .. image:: https://github.com/dstein64/fenwick/workflows/build/badge.svg
+            :target: https://github.com/dstein64/fenwick/actions
+        
+        fenwick
+        =======
+        
+        A Python library that implements Fenwick trees, based on the algorithm in
+        (Fenwick 1994).
+        
+        Features
+        --------
+        
+        - Update a frequency in O(log n).
+        - Retrieve a single frequency in O(log n).
+        - Initialize existing frequencies in O(n).
+        - Retrieve all frequencies in O(n).
+        
+        Requirements
+        ------------
+        
+        *fenwick* supports Python 2.7 and Python 3.x.
+        
+        Linux, Mac, and Windows are supported.
+        
+        Installation
+        ------------
+        
+        `fenwick <https://pypi.python.org/pypi/fenwick>`__ is available on PyPI, the Python Package Index.
+        
+        ::
+        
+            $ pip install fenwick
+        
+        Documentation
+        -------------
+        
+        See `documentation.md <https://github.com/dstein64/fenwick/blob/master/documentation.md>`__.
+        
+        Example Usage
+        -------------
+        
+        See `example.py <https://github.com/dstein64/fenwick/blob/master/example.py>`__.
+        
+        Tests
+        -----
+        
+        Tests are in `tests/ <https://github.com/dstein64/fenwick/blob/master/tests>`__.
+        
+        ::
+        
+            # Run tests
+            $ python -m unittest discover tests -v
+        
+        License
+        -------
+        
+        The code in this repository has an `MIT License <https://en.wikipedia.org/wiki/MIT_License>`__.
+        
+        See `LICENSE <https://github.com/dstein64/fenwick/blob/master/LICENSE>`__.
+        
+        References
+        ----------
+        
+        Fenwick, Peter M. 1994. “A New Data Structure for Cumulative Frequency Tables.”
+        Software: Practice and Experience 24 (3): 327–36.
+        
+Keywords: fenwick,binary-index-tree,fenwick-tree
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
