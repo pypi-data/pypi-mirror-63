@@ -1,0 +1,9 @@
+brymck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/calendar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/calendar/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/calendar/v1/calendar_api_pb2.py,sha256=eVuZNl5o0BOPxqXjhn2txmv9XCqBFGc61SS66TYaZoc,8352
+brymck/calendar/v1/calendar_api_pb2_grpc.py,sha256=22jbrL_o0cd59LaRPgdc0F0b65rNPtTVCPjScLXmbxQ,2612
+brymck_calendar-0.0.5.dev29.dist-info/METADATA,sha256=CPrIVeu87JJLBuQ0Dw6KXndLaITXcuOGOWjZnLWKkZQ,520
+brymck_calendar-0.0.5.dev29.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+brymck_calendar-0.0.5.dev29.dist-info/top_level.txt,sha256=VY1fYcadKhoqppcYnzf84EVe73B3vbUak5rH25rlCM8,7
+brymck_calendar-0.0.5.dev29.dist-info/RECORD,,
