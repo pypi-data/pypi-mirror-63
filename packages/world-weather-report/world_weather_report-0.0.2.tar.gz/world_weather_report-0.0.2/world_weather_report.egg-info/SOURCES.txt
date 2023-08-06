@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+world_weather_report/__init__.py
+world_weather_report/cli.py
+world_weather_report/utils.py
+world_weather_report.egg-info/PKG-INFO
+world_weather_report.egg-info/SOURCES.txt
+world_weather_report.egg-info/dependency_links.txt
+world_weather_report.egg-info/entry_points.txt
+world_weather_report.egg-info/top_level.txt
