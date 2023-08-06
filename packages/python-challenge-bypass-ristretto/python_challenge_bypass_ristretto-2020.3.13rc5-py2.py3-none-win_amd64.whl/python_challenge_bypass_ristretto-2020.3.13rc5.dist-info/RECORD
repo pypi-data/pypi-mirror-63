@@ -1,0 +1,10 @@
+challenge_bypass_ristretto/__init__.py,sha256=iGA9_EE6K1iAntcT5CPTa24v-rrXncjy3ce7uYaOyBY,6662
+challenge_bypass_ristretto/_native.py,sha256=ubOibqz_FyDNaDwt3nx-6fE8spKdMS1suLOioHJA7Tg,218
+challenge_bypass_ristretto/_native__ffi.py,sha256=iMvfe0602DxprKu1iKKD7mPsx9D-Iy8HFLOYf9GF9Cg,6232
+challenge_bypass_ristretto/_native__lib.cp37-win_amd64.pyd,sha256=0L1T3zJsJ1Nt-Uw3UZAhzsJPWwWVZzf0tl1yX4H1CKQ,367616
+challenge_bypass_ristretto/tests/__init__.py,sha256=HP4PGhHyQZqaCqKdD-RaAgTWPfMBXQ9mTpxzDbNQovQ,370
+challenge_bypass_ristretto/tests/test_privacypass.py,sha256=-XAItA2YevHKRkaaZh-s_M--jg45k6HX9E_3Qk_qwdI,18559
+python_challenge_bypass_ristretto-2020.3.13rc5.dist-info/METADATA,sha256=0xO7_eX_LB8dP0Ay9Kp340B1L6MBbD57KagZ5d4u6YY,1179
+python_challenge_bypass_ristretto-2020.3.13rc5.dist-info/WHEEL,sha256=rw-yTkh7O9QipDt63xfMM3xW4spgAGSFEvEuc_ylPUY,129
+python_challenge_bypass_ristretto-2020.3.13rc5.dist-info/top_level.txt,sha256=tGbpVv8nGBfNtTaDBtkKGHiHNjyH_7GUfjX8ZMHGMWQ,27
+python_challenge_bypass_ristretto-2020.3.13rc5.dist-info/RECORD,,
