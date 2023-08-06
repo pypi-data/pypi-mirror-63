@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ig_profile/ProfileImage.py
+ig_profile/__init__.py
+ig_profile.egg-info/PKG-INFO
+ig_profile.egg-info/SOURCES.txt
+ig_profile.egg-info/dependency_links.txt
+ig_profile.egg-info/requires.txt
+ig_profile.egg-info/top_level.txt
