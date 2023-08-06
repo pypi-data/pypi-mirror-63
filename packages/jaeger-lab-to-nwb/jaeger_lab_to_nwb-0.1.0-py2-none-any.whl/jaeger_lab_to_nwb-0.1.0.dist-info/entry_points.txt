@@ -1,0 +1,3 @@
+[console_scripts]
+nwbn-gui-jaeger = jaeger_lab_to_nwb.gui_command_line:main
+
