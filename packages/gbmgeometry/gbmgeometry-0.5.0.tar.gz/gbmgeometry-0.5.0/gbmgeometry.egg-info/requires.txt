@@ -1,0 +1,6 @@
+astropy
+numpy
+matplotlib
+sympy
+healpy
+spherical_geometry
