@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: space-time-astar
+Version: 0.6
+Summary: A* search algorithm with an added time dimension to deal with dynamic obstacles.
+Home-page: https://github.com/GavinPHR/Space-Time-AStar
+Author: Haoran Peng
+Author-email: gavinsweden@gmail.com
+License: MIT
+Description: # Space-Time-A-Star
+        
+        More details will come later.
+Keywords: astar-algorithm,obstacle-avoidance,time-dimension
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
