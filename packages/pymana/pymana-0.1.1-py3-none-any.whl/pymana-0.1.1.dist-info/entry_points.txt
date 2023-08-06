@@ -1,0 +1,3 @@
+[console_scripts]
+pymana=bin.cli:cli
+
