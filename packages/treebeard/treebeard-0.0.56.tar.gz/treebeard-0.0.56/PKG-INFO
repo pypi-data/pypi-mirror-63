@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: treebeard
+Version: 0.0.56
+Summary: Tools for notebook hosting
+Home-page: UNKNOWN
+Author: Treebeard Technologies
+Author-email: alex@treebeard.io
+License: UNKNOWN
+Description: Contains functionality for interacting with the scheduler service via the CLI and running builds
+        
+        To run against local services
+        
+        `export TREEBEARD_ENVIRONMENT=development`
+        
+        To run against prod services but with Sentry suppressed
+        
+        `export TREEBEARD_ENVIRONMENT=staging`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
