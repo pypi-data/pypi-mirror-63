@@ -1,0 +1,3 @@
+[console_scripts]
+filename-transencoding = filename_transencoding:copy
+
