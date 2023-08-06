@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ansiformat
+Version: 0.0.1.dev1
+Summary: Library to pretty format CLI output
+Home-page: https://ansiformat.readthedocs.io
+Author: ddnomad
+Author-email: ddnomad@protonmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://ansiformat.readthedocs.io
+Project-URL: Source, https://github.com/ddnomad/ansiformat
+Description: ANSI Format
+        ===========
+        > **WARNING**: This library is under not so active development. Nothing works
+        > just yet and might not be working for the next X years.
+        
+        ANSI format is a library that helps to pretty format text with ANSI escapes on
+        CLI. This includes tables, sections, man pages, progress bars and almost anything
+        that is structured and should look pretty.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
