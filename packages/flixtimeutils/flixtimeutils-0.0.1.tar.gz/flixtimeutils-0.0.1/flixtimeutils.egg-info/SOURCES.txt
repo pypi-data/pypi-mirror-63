@@ -1,0 +1,10 @@
+README.md
+setup.py
+flixtimeutils/__init__.py
+flixtimeutils/json_parsable.py
+flixtimeutils/url_builder.py
+flixtimeutils/user_agent.py
+flixtimeutils.egg-info/PKG-INFO
+flixtimeutils.egg-info/SOURCES.txt
+flixtimeutils.egg-info/dependency_links.txt
+flixtimeutils.egg-info/top_level.txt
