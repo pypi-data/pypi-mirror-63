@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zac
+Version: 0.1.0
+Summary: ZAC Atmospheric Correction
+License: AGPL-3.0-or-later
+Author: Tang Ziya
+Author-email: tcztzy@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: gdal (>=3.0.4,<4.0.0)
+Requires-Dist: numba (>=0.48.0,<0.49.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: psutil (>=5.7.0,<6.0.0)
+Requires-Dist: pyproj (>=2.5.0,<3.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: scikit-learn (>=0.22.2,<0.23.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
