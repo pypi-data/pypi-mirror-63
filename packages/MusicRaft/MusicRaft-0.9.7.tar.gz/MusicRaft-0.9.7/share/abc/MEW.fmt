@@ -1,0 +1,157 @@
+beginps
+/biglc{     % usage: str x y biglc
+    2 copy 5 2 roll /Times-Bold 22 selectfont
+    6 add M showc
+    3 SLW 13 add newpath
+    15 0 360 arc stroke 1 SLW}!
+% --- carré noir = deco head-bkre
+/bkre{
+     M -3.75 -2.5 RM
+		0 5 rlineto
+		7 0  rlineto
+		0 -5 rlineto
+		closepath fill }!
+
+%% hacked black rectangle representation of percussion double flat for e.g. temple blocks
+/pdfthd{/x 2 index def/y 1 index def dsh0
+		.7 SLW x y M
+     -3.9 -2.8 RM
+		0 6 rlineto
+		8 0  rlineto
+		0 -6 rlineto
+		closepath fill }!
+/nnpdfthd{
+    M -3.75 -2.5 RM
+		0 5 rlineto
+		7 0  rlineto
+		0 -5 rlineto
+		closepath fill }!
+% --- white diamond head = deco head-wdmd
+/wdmd{ 
+       M 0 3 RM 1 SLW 
+		4.25 -3 rlineto
+		-4.25 -3 rlineto
+		-4.25 3 rlineto
+		closepath stroke}!
+/pdshhd{/x 2 index def/y 1 index def dsh0
+		.7 SLW x y M
+0 3 RM 1 SLW 
+		4.25 -3 rlineto
+		-4.25 -3 rlineto
+		-4.25 3 rlineto
+		closepath stroke}!
+/pshhd{/x 2 index def/y 1 index def dsh0
+		.7 SLW x y M
+0 3 RM 1 SLW 
+		% 4.25 -3 rlineto
+		% -4.25 -3 rlineto
+		% -4.25 3 rlineto
+		 }!
+% --- triangles
+% --- triangle noir delta base  = deco head-btgl
+/btgl{
+     M -5.25 -2.25 RM
+		5 5 rlineto
+		5 -5  rlineto
+		closepath fill }!
+% --- triangle blanc delta  = deco head-wtgl
+/wtgl{ 1.25 setlinewidth
+     M -5.25 -2.25 RM
+		5 5 rlineto
+		5 -5 rlineto
+		closepath stroke }!
+% --- triangle noir V  = deco head-btg
+/btg{
+     M -5 2.25 RM
+		5 -5  rlineto
+		5 5 rlineto
+		closepath fill }!
+% --- triangle blanc V  = deco head-wtg
+/wtg{ 1.25 setlinewidth
+     M -5 2.25 RM
+		5 -5 rlineto
+		5 5 rlineto
+    		closepath stroke }!
+% --- triangle noir tong-ram = deco head-btrg
+/btrg{
+     M -4 3 RM
+		8 -3 rlineto
+		-8 -3 rlineto
+    		closepath fill }!
+% --- triangle blanc tong-ram = deco head-wtrg
+/wtrg{ 1.25 setlinewidth
+     M -4 3 RM
+		8 -3 rlineto
+		-8 -3 rlineto
+    		closepath stroke }!
+endps
+
+% --------------- MEW percussion using mapping - start
+beginsvg
+<defs>
+%<polygon id="black_diamond_head" points="10,0  60,0  35,50"/>
+
+<path id="white_diamond_head" d="m-3 0l 3 3l 3 -3 l -3 -3 l -3 3"
+ class="stroke" style="stroke-width:1.2"/>
+
+<path id="black_diamond_head" d="m-3 0l 3 3l 3 -3 l -3 -3 l -3 3"
+ class="fill"/>
+
+<path id="x_head" d="m-4 -4l8 8m0 -8l-8 8"
+ class="stroke" style="stroke-width:1.2"/>
+<path id="rect1_head" d="m-3 -1.5l0 3l6 0 l0 -3l-3 0" class="fill"/>
+<path id="rect2_head" d="m-3 -2l0 4l6 0 l0 -4l-4 0" class="fill"/>
+<circle id="spot_head" r="2.5" class="fill"/>
+<circle id="donut_head" r="3.5" stroke-width="1.5" class="stroke"/>
+<circle id="spot_head_small" r="2.2" class="fill"/>
+<circle id="donut_head_small" r="2.6" stroke-width="1.5" class="stroke"/>
+</defs>
+endsvg
+
+map percussion ^A, print=g heads=x_head % Hi-Hat - so far unused in MEW stuff
+map percussion  D, print=c % Snare - so far unused in MEW stuff
+
+% Acoustic snare    -   D,, = 'pitch' 38
+map percussion  D,, print=C heads=spot_head_small,donut_head_small
+
+% Tambourine    -   Gb, = 'pitch' 54
+map percussion  _G, print=B, heads=black_diamond_head,white_diamond_head
+
+map percussion  d   print=G, heads=rect1_head % claves/ hi temple block -   d   = 'pitch' 75
+map percussion  e   print=E, heads=rect1_head % hi wood/ med temple block - e   = 'pitch' 76
+map percussion  f   print=C, heads=rect1_head % lo wood/temple block    -   f   = 'pitch' 77
+
+map percussion  C,, print=B, heads=spot_head,donut_head % Bass drum     -   C   = 'pitch' 77
+map percussion  A,  print=D heads=x_head % Concert(Crash 2) Cymbals     -   A,  = 'pitch' 57
+map percussion  ^C, print=E % (normal heads) Susp. (Crash 1) Cymbal     -  ^C,  = 'pitch' 49
+
+% --------------- MEW percussion using mapping - end
+
+deco fp  6 pf 10 0 0 fp
+deco sfp 6 pf 10 5 0 sfp
+% -- not needed; use K.... deco teepee 3 pf 10 0 0 ^
+deco GP  3 dacs 20 0 0 //
+deco cursor 3 biglc 0 0 0 ?
+deco head-bkre 0 bkre 0 0 0
+pageheight 29.7cm
+pagewidth 21.0cm
+header " "
+footer $T $IG ; page $P \n'$F' $D ;For MEW by Larry Myerscough using $V
+titlefont Times roman 32
+titleformat T0, G-1 C1
+autoclef 0
+partsfont Times-Roman 16 box
+footerfont Times-Roman 12
+measurebox 0
+%musicspace 1.0cm
+titlespace 0.2cm
+%textspace 0.2cm
+topspace 0.0cm
+topmargin 0.2cm
+botmargin 0.2cm
+user K = !marcato!
+user Q = !tenuto!
+deco cres  6 pf 20 0 0 cresc.
+deco fp  6 pf 20 0 0 fp
+deco dim  6 pf 20 0 0 dim.
+deco rit  6 pf 20 0 0 rit.
