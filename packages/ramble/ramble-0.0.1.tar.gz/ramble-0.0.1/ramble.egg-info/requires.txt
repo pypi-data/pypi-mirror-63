@@ -1,0 +1,13 @@
+async_lru
+cproto
+python-mpd2
+coloredlogs
+diskcache
+clize
+catt
+quart
+feedparser
+pyglet
+dbussy
+PyYAML
+BeautifulSoup4
