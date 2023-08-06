@@ -1,0 +1,7 @@
+lmfit
+numpy
+scipy
+
+[dev]
+pandas
+pytest
