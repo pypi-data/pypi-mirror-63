@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+xycrypto/__init__.py
+xycrypto/hashes.py
+xycrypto/hmac.py
+xycrypto.egg-info/PKG-INFO
+xycrypto.egg-info/SOURCES.txt
+xycrypto.egg-info/dependency_links.txt
+xycrypto.egg-info/requires.txt
+xycrypto.egg-info/top_level.txt
