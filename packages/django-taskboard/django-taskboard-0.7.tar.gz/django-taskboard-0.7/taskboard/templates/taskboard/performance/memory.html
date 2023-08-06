@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  {% load static %}
+  {% include 'taskboard/head.html' %}
+  <body id="page-top">
+    <div id="wrapper">
+      {% include 'taskboard/sidebar.html' %}
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+          {% include 'taskboard/topbar.html' %}
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-s-12 col-xs-12 mb-4">
+                <div class="card border-left-primary shadow py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-s font-weight-bold text-primary text-uppercase">Virtual</div>
+                        <div id="total_virtual" class="h5 mt-4 mb-3 font-weight-bold text-gray-800"></div>
+                        <div id="used_virtual" class="h6 mb-1 font-weight text-gray-800"></div>
+                        <div id="free_virtual" class="h6 mb-3 font-weight text-gray-800"></div>
+                        <div class="chart-pie pt-4 pb-2">
+                          <canvas id="chart_virtual"></canvas>
+                        </div>
+                        <div class="mt-4 text-center small">
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-warning"></i> Used
+                          </span>
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-info"></i> Free
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12 col-md-12 col-s-12 col-xs-12 mb-4">
+                <div class="card border-left-primary shadow py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-s font-weight-bold text-primary text-uppercase">Swap</div>
+                        <div id="total_swap" class="h5 mt-4 mb-3 font-weight-bold text-gray-800"></div>
+                        <div id="used_swap" class="h6 mb-1 font-weight text-gray-800"></div>
+                        <div id="free_swap" class="h6 mb-3 font-weight text-gray-800"></div>
+                        <div class="chart-pie pt-4 pb-2">
+                          <canvas id="chart_swap"></canvas>
+                        </div>
+                        <div class="mt-4 text-center small">
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-warning"></i> Used
+                          </span>
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-info"></i> Free
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% include 'taskboard/footer.html' %}
+      </div>
+    </div>
+    {% include 'taskboard/modal-logout.html' %}
+    {% include 'taskboard/scripts.html' %}
+    <script src="{% static 'taskboard/js/memory/information.js' %}"></script>
+    <script src="{% static 'taskboard/js/memory/chart_virtual.js' %}"></script>
+    <script src="{% static 'taskboard/js/memory/chart_swap.js' %}"></script>
+  </body>
+</html>

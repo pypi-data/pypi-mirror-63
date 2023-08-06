@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+  {% load static %}
+  {% include 'taskboard/head.html' %}
+  <body id="page-top">
+    <div id="wrapper">
+      {% include 'taskboard/sidebar.html' %}
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+          {% include 'taskboard/topbar.html' %}
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-s-12 col-xs-12">
+                <div class="card border-left-primary shadow py-2 mb-4">
+                  <div class="card-body">
+                    <div class="text-s mb-3 font-weight-bold text-primary text-uppercase">Partitions & Usage</div>
+                    <div class="row">
+                      <div class="col-xl-6 col-lg-12 col-md-12 col-s-12 col-xs-12">
+                        <div class="table-responsive">
+                          <table class="table table-bordered" id="table_partitions" width="100%" cellspacing="0">
+                            <thead>
+                              <tr>
+                                <th>Device</th>
+                                <th>Mountpoint</th>
+                                <th>Filesystem</th>
+                                <th>Options</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6 col-s-6 col-xs-6 mt-5">
+                        <div class="ml-2">
+                          <div id="device" class="h1 mt-4 mb-3 ml-5 font-weight-bold text-gray-800"></div>
+                          <div id="total" class="h5 mb-3 ml-5 font-weight-bold text-gray-800"></div>
+                          <div id="used" class="h6 mb-1 ml-5 font-weight text-gray-800"></div>
+                          <div id="free" class="h6 mb-3 ml-5 font-weight text-gray-800"></div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6 col-s-6 col-xs-6">
+                        <div class="chart-pie">
+                          <canvas id="chart_usage"></canvas>
+                        </div>
+                        <div class="mt-4 text-center small">
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-danger"></i> Used
+                          </span>
+                          <span class="mr-2">
+                            <i class="fas fa-circle text-success"></i> Free
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-s-12 col-xs-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">I/O Counters (Count)</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="chart_io_counters_count"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-s-12 col-xs-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">I/O Counters (Bytes)</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="chart_io_counters_bytes"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      {% include 'taskboard/footer.html' %}
+      </div>
+    </div>
+    {% include 'taskboard/modal-logout.html' %}
+    {% include 'taskboard/scripts.html' %}
+    <script src="{% static 'taskboard/js/disk/partitions_usage.js' %}"></script>
+    <script src="{% static 'taskboard/js/disk/chart_io_counters.js' %}"></script>
+  </body>
+</html>
