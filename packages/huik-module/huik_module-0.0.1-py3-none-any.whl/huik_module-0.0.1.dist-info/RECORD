@@ -1,0 +1,10 @@
+mymodule/__init__.py,sha256=gKyCG5uUiIbT3oAlEIpyovHoTlNte4DhU3UAt9xUPpg,1588
+mymodule/mypath.py,sha256=GCsagFnBf3RauUQLc5mstFxEClfEDQ4ekSw7eoXAx24,181
+mymodule/rotate_logger.py,sha256=Ho1fvTRmMO0OmplImYSDhPqfeGmNlnJ2DKnKjR9Vss0,1290
+mymodule/seq.py,sha256=rvvdwqxJBc3-yWurWkuvkbCXT3atLcAcKJahXDpv6r8,2293
+mymodule/tool.py,sha256=mSqmoR-EpumwVTAeK8TIMzwQabldEA-sRg0gkJjGU5g,4180
+huik_module-0.0.1.dist-info/LICENSE,sha256=SFbTls4Jcn5D0-96oMjFRTQmfOz20Wvrp0t-0J4Y9NY,37
+huik_module-0.0.1.dist-info/METADATA,sha256=pkDsUxYN9AsjtGS5ErPNNPQ166Use3_I1k88XTDFKf0,467
+huik_module-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+huik_module-0.0.1.dist-info/top_level.txt,sha256=FYaNl_9RLNLJ5bMEfNxzICYvMJPRRsPbvC9vMCTeyRk,9
+huik_module-0.0.1.dist-info/RECORD,,
