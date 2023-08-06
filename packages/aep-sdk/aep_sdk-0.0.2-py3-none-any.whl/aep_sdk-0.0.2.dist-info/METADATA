@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: aep-sdk
+Version: 0.0.2
+Summary: A SDK for the Adobe Experience Platform
+Home-page: https://github.com/Dacson33/Experience-Platform-Python-SDK/
+Author: ['Dakoda Richardson', 'Benson Condie', 'Adam Ure', 'Nick Cummings', 'Lance Haderlie']
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: PyJWT
+Requires-Dist: bitmath
+Requires-Dist: cryptography
+
+# Experience-Platform-Python-SDK
+
+#### This Python SDK is designed to facilitate access to the Adobe Experience Platform Rest APIs and the associated tools.
+
+#### In order to use this SDK you will first need to have an account with the Adobe Experience Platform along with the necessary authentication information.
+
+#### See the [Adobe Experience Platform API Documentation](https://www.adobe.io/apis/experienceplatform/home/api-reference.html) for more information.
+
+---
+
+## Getting Started
+
+To begin first install the required dependencies using "pip install -r requirements.txt" in the terminal
+
