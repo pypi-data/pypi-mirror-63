@@ -1,0 +1,6 @@
+requests
+pyyaml
+pyaltt2>=0.0.60
+rapidtables
+neotermcolor
+jsonschema
