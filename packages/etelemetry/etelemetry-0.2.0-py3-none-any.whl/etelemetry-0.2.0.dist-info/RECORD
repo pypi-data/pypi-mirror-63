@@ -1,0 +1,11 @@
+etelemetry/__init__.py,sha256=YVQACGFC_b6y8SCdDw3UzAFcbOZbk29cJFqtcK4TsvI,57
+etelemetry/_version.py,sha256=aAsPfDv_ecld_ySJfbWKbXIu6dRTUSzWWvrI520kxAQ,498
+etelemetry/client.py,sha256=6E3-LmTTCr0W0jYeyQLugaC4DLCy8g2gqPrO1lgY22U,3696
+etelemetry/config/__init__.py,sha256=8UxSLw4ZMifg_uCtsn99VMHuzQ7MKT07C_3uiAad_Xc,233
+etelemetry/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etelemetry/tests/test_client.py,sha256=10WCbJR0CC_sbOsyJMXXqxOz4zbY6dYPkngiDlAUF4E,1403
+etelemetry-0.2.0.dist-info/LICENSE,sha256=U07to7uEHObZi5VPvyZLr2YUE6SDwnNoU0WCfyb-H8M,574
+etelemetry-0.2.0.dist-info/METADATA,sha256=zmW5GpS5ew-8FrLPPPZysrmTraJ158dJeLJnYGCd76Y,2198
+etelemetry-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+etelemetry-0.2.0.dist-info/top_level.txt,sha256=C33J6hGN7svYoIRpKB-GNotFd_vi2wnoqF1hsNgOANk,11
+etelemetry-0.2.0.dist-info/RECORD,,
