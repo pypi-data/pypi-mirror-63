@@ -1,0 +1,15 @@
+floxcore/__init__.py,sha256=zKKTfBZnnsq6neOkeVM-hhrtrl-RCnEl1RrQVqIQbOs,197
+floxcore/command.py,sha256=BeefAaEIw89CVA1BNdU8bdkLTRx7usWUEVsgZLayOkM,342
+floxcore/config.py,sha256=ivdmSukxW2_U8U5HqCqZbKP4Uo12pP5P44agMpsfFrE,1620
+floxcore/console.py,sha256=d2yFaCqK9z55RrqARSx2CGwzXRiQS7aVEVIjxYqfwXQ,2143
+floxcore/context.py,sha256=wC5cjxZZtNh1jmJOCse0b9cpCEzBpm0l9vIAR3r856c,2045
+floxcore/exceptions.py,sha256=-3-oFrU-s_de-PPrPJwwFFcse5gK_dNW_v4P9zX0b9A,446
+floxcore/plugin.py,sha256=GNr0nszyC4EWdmP8WSO9MOkl7VSGv6kycWQJe2uam2Q,1515
+floxcore/secrets.py,sha256=k97BmMygqzUfw14W6_u2JmqL3GN1DQjz3m0AhzKlFho,1328
+floxcore/settings.py,sha256=AHbynuVCsGnQ2EYLmqvPD0v8G9htqnvpvKZEshw1YUQ,125
+floxcore/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+floxcore/utils/string.py,sha256=8P20XRAWCpDYTUNz1ZvWNumGzYKMFt-Zz6eV6xORySs,66
+floxcore/utils/table.py,sha256=iSapzwCa0CDoFFDB8RiYcjs08qdgG6sUxndDUEwhFkg,291
+flox_core-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+flox_core-0.1.0.dist-info/METADATA,sha256=Cl2cw6WGuFo2UMg6vnOPRefzl3EJHJbJTCnF-tvCiDI,530
+flox_core-0.1.0.dist-info/RECORD,,
