@@ -1,0 +1,6 @@
+pyyaml
+virtualenv
+
+[dev]
+
+[test]
