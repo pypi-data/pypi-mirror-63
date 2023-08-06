@@ -1,0 +1,5 @@
+[console_scripts]
+hello = FHmonitor.command_line:hello
+start = FHmonitor.command_line:start
+status = FHmonitor.command_line:status
+
