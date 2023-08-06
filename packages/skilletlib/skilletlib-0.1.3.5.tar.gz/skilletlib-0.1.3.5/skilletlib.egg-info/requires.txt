@@ -1,0 +1,12 @@
+oyaml
+pan-python
+pathlib
+jinja2
+pyyaml
+xmldiff
+xmltodict
+requests-toolbelt
+requests
+jsonpath_ng
+passlib
+GitPython
