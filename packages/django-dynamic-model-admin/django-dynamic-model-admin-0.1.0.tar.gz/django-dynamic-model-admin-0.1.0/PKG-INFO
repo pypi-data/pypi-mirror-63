@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-dynamic-model-admin
+Version: 0.1.0
+Summary: Define new type model in Django's admin site. New type model can be managed in admin site, and also provide the auto generated ModelForm.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-dynamic-model-admin
+        
+        Define new type model in Django's admin site. New type model can be managed in admin site, and also provide the auto generated ModelForm.
+        
+        ## Install
+        
+        ```shell
+        pip install django-dynamic-model-admin
+        ```
+        
+        ## Releases
+        
+        ### v0.1.0 2020/03/16
+        
+        - First release.
+Keywords: django admin extentions,django dynamic model admin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
