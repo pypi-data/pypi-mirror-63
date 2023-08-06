@@ -1,0 +1,16 @@
+GeoAlchemy2
+SOAPpy-py3>=0.52.24
+SQLAlchemy-Utils>=0.32.9
+SQLAlchemy>=1.0.14
+Twisted[conch,tls]<19.0.0
+alembic>=0.8.7
+json-cfg-rw
+pytmpdir>=0.2.3
+pytz
+rx<3.0.0
+txcelery-py3>=1.6.1
+txhttputil>=0.3.0
+txsuds-py3>=0.5.9
+tzlocal
+vortexpy>=1.2.10
+wstools-py3>=0.54.2
