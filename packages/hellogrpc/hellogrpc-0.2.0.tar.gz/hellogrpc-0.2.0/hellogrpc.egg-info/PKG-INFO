@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: hellogrpc
+Version: 0.2.0
+Summary: Client for the hellogrpc service
+Home-page: https://github.com/stackmachine/hellogrpc
+Author: StackMachine
+Author-email: contact@stackmachine.com
+License: MIT
+Description: UNKNOWN
+Keywords: grpc stackmachine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
