@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cmdline-image-processor
+Version: 0.0.2
+Summary: Python command line application which analyses images
+Home-page: https://github.com/webdevAlina1107/ImageAnalysis
+Author: Fugol Alina, Taran Anatoly
+Author-email: webdevAlina@gmail.com
+License: MIT
+Download-URL: https://github.com/webdevAlina1107/ImageAnalysis/archive/0.0.2.tar.gz
+Requires-Dist: matplotlib (==3.2.0)
+Requires-Dist: rasterio (==1.0.24)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: tabulate (==0.8.6)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: scipy (==1.4.1)
+Provides-Extra: excel
+Requires-Dist: xlsxwriter ; extra == 'excel'
+
+Image processing library
+
+
