@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: transfersh-cli-config
+Version: 1.0.3
+Summary: Client to upload files to the transfer.sh service
+Home-page: https://github.com/0rang3max/transfersh-cli-config
+Author: Maxim Semenov
+Author-email: 0rang3max@gmail.com
+License: UNKNOWN
+Keywords: transfer,upload,client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6
+Requires-Dist: Click (>=6.7)
+Requires-Dist: pyperclip (>=1.6.4)
+Requires-Dist: requests (>=2.19.1)
+Requires-Dist: appdirs (>=1.4.3)
+
+UNKNOWN
+
+
