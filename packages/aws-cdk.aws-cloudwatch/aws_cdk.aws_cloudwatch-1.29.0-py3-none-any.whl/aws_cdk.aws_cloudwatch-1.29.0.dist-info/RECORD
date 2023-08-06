@@ -1,0 +1,8 @@
+aws_cdk/aws_cloudwatch/__init__.py,sha256=1A7XZCB6ZkqJAcZMPoKDzeFsyW0pdmALsYiRNulBLe8,228800
+aws_cdk/aws_cloudwatch/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_cloudwatch/_jsii/__init__.py,sha256=oqZb_OWYsri7BbF049gIOr6T5mLpPePpg-rP1tQiIJ8,218
+aws_cdk/aws_cloudwatch/_jsii/aws-cloudwatch@1.29.0.jsii.tgz,sha256=gBzTJX3OVPRkRAIzluHqwBGhANhOiY36CHAvoqWkY-8,155937
+aws_cdk.aws_cloudwatch-1.29.0.dist-info/METADATA,sha256=UEJeliKutMWPCn9U5jjDTaMneEwE4fNInYUn_bekncg,10446
+aws_cdk.aws_cloudwatch-1.29.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_cloudwatch-1.29.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_cloudwatch-1.29.0.dist-info/RECORD,,
