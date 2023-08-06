@@ -1,0 +1,10 @@
+Jinja2
+eventlet
+exifread
+numpy
+pandas
+python-magic
+python-prctl
+pytz
+socketio
+wheel
