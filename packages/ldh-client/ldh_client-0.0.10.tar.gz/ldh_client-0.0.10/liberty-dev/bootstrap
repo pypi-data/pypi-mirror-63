@@ -1,0 +1,12 @@
+#!/bin/sh
+
+mkdir --parents $HOME/.local/bin
+
+rm --recursive --force $HOME/.local/ldh_client
+rm --force $HOME/.local/bin/liberty-dev
+
+rm --force $HOME/.local/ldh_client && ln --symbolic $PWD/.. $HOME/.local/ldh_client
+ln --symbolic --force $PWD/liberty-dev $HOME/.local/bin/liberty-dev
+ln --symbolic --force $PWD/liberty-dev-update $HOME/.local/bin/liberty-dev-update
+
+liberty-dev show info

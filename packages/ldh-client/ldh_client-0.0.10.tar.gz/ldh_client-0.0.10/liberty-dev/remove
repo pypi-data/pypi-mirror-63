@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir --parents $HOME/.local/bin
+
+rm --recursive --force $HOME/.local/ldh_client
+rm --force $HOME/.local/bin/liberty-dev

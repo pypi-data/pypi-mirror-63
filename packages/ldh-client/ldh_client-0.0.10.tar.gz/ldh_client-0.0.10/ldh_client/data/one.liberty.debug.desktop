@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Librem One Info
+GenericName=Liberty Hub Info
+Comment=Show system info for Liberty CLI
+Exec=liberty show info --gui
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon=org.gnome.Settings
+Keywords=liberty;l1;librem one;debug;info
+
