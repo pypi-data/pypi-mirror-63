@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pypainter
+Version: 0.0.1
+Summary: tkinter_painter
+Home-page: UNKNOWN
+Author: pythonnlgs
+License: UNKNOWN
+Description: # pypainter v0.0.1
+        
+        基于tkinter的画图程序
+        
+        ### 使用方法
+        
+        ```python
+        from painter import Painter
+        
+        Painter().mainloop()
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

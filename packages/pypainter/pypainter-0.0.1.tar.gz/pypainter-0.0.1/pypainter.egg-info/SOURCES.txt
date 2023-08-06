@@ -1,0 +1,7 @@
+README.md
+painter.py
+setup.py
+pypainter.egg-info/PKG-INFO
+pypainter.egg-info/SOURCES.txt
+pypainter.egg-info/dependency_links.txt
+pypainter.egg-info/top_level.txt
