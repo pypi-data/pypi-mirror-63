@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+src/cryptosteganography/__init__.py
+src/cryptosteganography/cli.py
+src/cryptosteganography/utils.py
+src/cryptosteganography.egg-info/PKG-INFO
+src/cryptosteganography.egg-info/SOURCES.txt
+src/cryptosteganography.egg-info/dependency_links.txt
+src/cryptosteganography.egg-info/entry_points.txt
+src/cryptosteganography.egg-info/not-zip-safe
+src/cryptosteganography.egg-info/requires.txt
+src/cryptosteganography.egg-info/top_level.txt
