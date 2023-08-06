@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: osrmcpy
+Version: 0.1
+Summary: OSRM Python binding
+Home-page: https://github.com/GeographicaGS/libosrmc.git
+Author: Geographica
+Author-email: cayetano.benavent@geographica.gs
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
