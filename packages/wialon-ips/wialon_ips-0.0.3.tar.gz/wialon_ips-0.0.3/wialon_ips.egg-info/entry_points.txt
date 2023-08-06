@@ -1,0 +1,3 @@
+[console_scripts]
+wialon_ips = wialon_ips
+
