@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: raptorq
+Version: 1.3.0
+Summary: RaptorQ (RFC6330)
+Author: Christopher Berner <christopherberner@gmail.com>
+Author-Email: Christopher Berner <christopherberner@gmail.com>
+License: Apache-2.0
