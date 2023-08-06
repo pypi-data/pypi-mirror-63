@@ -1,0 +1,16 @@
+sqlalchemy_dict/__init__.py,sha256=z9pnmSej10wPZOLzOoScEuaBYDzhnjIxXW3vJEBJO_k,291
+sqlalchemy_dict/base_model.py,sha256=p5o8hoYC_s4t4tnVrDU39gPEwyAnEf_hl8GW2xbI8LI,8758
+sqlalchemy_dict/constants.py,sha256=-6eSWgl3c7JWm9FeQZ2Z7FbOuAGuR091VepZWkUqEmo,245
+sqlalchemy_dict/field.py,sha256=-sdsiqCzk-bwMq7HNX60S601WpqQOKy-4zjyfAZ2oZI,4771
+sqlalchemy_dict/formatter.py,sha256=n9WzMIiv5dTYoJ7OnA-xAgOOL1XpOtsXhioY9pGRz00,3024
+sqlalchemy_dict/utils.py,sha256=f2MkrDPpeJzYuf1Jf_0wiskaEmNXALV5P0mIfoUMSLQ,104
+sqlalchemy_dict/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_dict/tests/conftest.py,sha256=q9qt54q2GqD5Qu6P1KEFq5O_NWcS3f_tUjUiHiQfB2I,2225
+sqlalchemy_dict/tests/db.py,sha256=7Y9C0YqveHbtasowS-oE8_5cezigZPI2SqQyoLWq320,229
+sqlalchemy_dict/tests/test_base_model.py,sha256=SpNIiHOysH3Xj7-mTkh4ooztTZGydJFZ0mSc27eHOfQ,12078
+sqlalchemy_dict/tests/test_utils.py,sha256=IK4ATTOCvF4_CJ9GqB4tXwrejdBcCsyxaquCFlcae2g,1112
+sqlalchemy_dict-0.7.0.dist-info/LICENSE,sha256=VkEs_iyFG-i710rPrDAYJI4MpiZGJmW0XMleqXGRZcc,1062
+sqlalchemy_dict-0.7.0.dist-info/METADATA,sha256=KMGGgZRdGbCGGX3q9XiVhaM__CQ6I7QQIMUkEPGvfE8,1544
+sqlalchemy_dict-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlalchemy_dict-0.7.0.dist-info/top_level.txt,sha256=sUbud7vry0UlvI9xSBXk4MxP5pIqy3SSS118MTDTV9E,16
+sqlalchemy_dict-0.7.0.dist-info/RECORD,,
