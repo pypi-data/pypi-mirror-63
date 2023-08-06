@@ -1,0 +1,9 @@
+README.md
+setup.py
+jenkins-test/test.py
+jenkins_test_job.egg-info/PKG-INFO
+jenkins_test_job.egg-info/SOURCES.txt
+jenkins_test_job.egg-info/dependency_links.txt
+jenkins_test_job.egg-info/not-zip-safe
+jenkins_test_job.egg-info/requires.txt
+jenkins_test_job.egg-info/top_level.txt
