@@ -1,0 +1,7 @@
+setup.py
+mnistlib/__init__.py
+mnistlib.egg-info/PKG-INFO
+mnistlib.egg-info/SOURCES.txt
+mnistlib.egg-info/dependency_links.txt
+mnistlib.egg-info/requires.txt
+mnistlib.egg-info/top_level.txt

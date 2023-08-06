@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mnistlib
+Version: 0.0.9
+Summary: geometric transformations for mnist dataset
+Home-page: UNKNOWN
+Author: Oleg Zyablov
+Author-email: oleg.z98@mail.ru
+License: MIT
+Description: UNKNOWN
+Keywords: mnist
+Platform: UNKNOWN
