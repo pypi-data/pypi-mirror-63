@@ -1,0 +1,10 @@
+README.md
+setup.py
+transipApiV6/Domains.py
+transipApiV6/Generic.py
+transipApiV6/__init__.py
+transipApiV6/setup.py
+transipApiV6.egg-info/PKG-INFO
+transipApiV6.egg-info/SOURCES.txt
+transipApiV6.egg-info/dependency_links.txt
+transipApiV6.egg-info/top_level.txt
