@@ -1,0 +1,11 @@
+requests
+pyyaml
+sqlalchemy
+pyaltt2
+flask
+jsonschema
+python-rapidjson
+netaddr
+filetype
+tebot
+simplejson
