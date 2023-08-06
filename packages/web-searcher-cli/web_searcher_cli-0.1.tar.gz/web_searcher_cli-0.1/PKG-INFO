@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: web_searcher_cli
+Version: 0.1
+Summary: consosle web search from google or yandex
+Home-page: https://github.com/gmanru/web_searcher_cli
+Author: Gmvn
+Author-email: mrgman11@yandex.ru
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: json,google,yandex,bs4
+Platform: UNKNOWN
