@@ -1,0 +1,11 @@
+malibu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malibu/assessment.py,sha256=AuLHrE5TgooytbqXQXvjShAME6mQwACJRQDhpM6zKsc,1192
+malibu/fib.py,sha256=Zb_g_Op0QjZary3FaOadUnOHHp39jmzE_Ng_jcAnN2w,287
+malibu/malibu.py,sha256=SP6kofXslL-jgDw7RX2oI3Oz8bVP6SlibrxTHoMwVdc,465
+malibu/my_mod.py,sha256=CzGAHYBrU8X-kMP17vsSKhf5j3FZJKzuRaOavQ8qC5o,228
+malibu/train.py,sha256=li8BSsFAEjNqTvF8LfxFdjNhjc84za9OV12uykhfo-Q,674
+Malibu_lambda_3-0.0.3.dist-info/LICENSE,sha256=B3vj0Z4YJCiMXBiN_kE-bxDl7edvirJhoHIFQpl4lwY,1095
+Malibu_lambda_3-0.0.3.dist-info/METADATA,sha256=6msgrEVjp79xMVLtefjOzFCc34dsXtc7oDYFyV3l_do,349
+Malibu_lambda_3-0.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+Malibu_lambda_3-0.0.3.dist-info/top_level.txt,sha256=PaRif0t7z6wSHhPP311uVkVZ3DnC9Ae6tQkv2Zfjkxw,7
+Malibu_lambda_3-0.0.3.dist-info/RECORD,,
