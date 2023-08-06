@@ -1,0 +1,10 @@
+search/__init__.py,sha256=xmsez1sit5axpPkS3U3VrBcq56iGyJT6heIzuRRDD0M,30
+search/main.py,sha256=PdP7f8ct7uTqGTwCuXSZNY5TiJ0VSPDT5Ixt6LulU3k,111
+search/main_search.py,sha256=ySrGYS2W60XyuSMZ2HCDPH6lsEWHt80j_o-48we-xOo,457
+search/search_google.py,sha256=k-jK3ARzPyOxgJnXMN07ZmZPXZjIDuQQ9gp8_sfNyYU,1184
+search/search_yandex.py,sha256=yWbhnujE9Gy2a9rHrDFc10MQ2fjZ88zKc8aJdk1snsw,430
+web_searcher_cli-0.1.dist-info/METADATA,sha256=9EjNDQL8ROVyo6iLHRz6_DT6VMCU_iKhDA74DpJVwtI,312
+web_searcher_cli-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+web_searcher_cli-0.1.dist-info/entry_points.txt,sha256=6dMRWh0xYTP8mmgtvwbi9CL9LKgPme6N9FVWFBoRHQs,47
+web_searcher_cli-0.1.dist-info/top_level.txt,sha256=8fNSi62JXX6dtFRAgbUxwhJngYQ666-my-p8L5NYz4U,7
+web_searcher_cli-0.1.dist-info/RECORD,,
