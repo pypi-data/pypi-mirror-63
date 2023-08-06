@@ -1,0 +1,3 @@
+[console_scripts]
+thundradebug = thundradebugclient.__main__:main
+
