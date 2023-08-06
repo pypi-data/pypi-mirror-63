@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+src/hello.py
+src/mgorav_hellworld.egg-info/PKG-INFO
+src/mgorav_hellworld.egg-info/SOURCES.txt
+src/mgorav_hellworld.egg-info/dependency_links.txt
+src/mgorav_hellworld.egg-info/top_level.txt
