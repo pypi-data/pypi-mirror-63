@@ -1,0 +1,8 @@
+numpy
+scipy
+prettyprinter
+colour
+matplotlib
+plotly
+marshmallow
+gitpython
