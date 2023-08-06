@@ -1,0 +1,3 @@
+[console_scripts]
+directory_schema = directory_schema.cli:main
+
