@@ -1,0 +1,6 @@
+requests
+configparser
+termcolor
+pandas
+matplotlib
+colorama
