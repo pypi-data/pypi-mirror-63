@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lib-bgp-data
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/jfuruness/lib_bgp_data.git
+Author: UNKNOWN
+Author-email: jfuruness@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jfuruness/lib_bgp_data.git
+Keywords: Furuness,BGP,ROA,MRT,RPKI,ROV,ROV++
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: validators (>=0.14.1)
+Requires-Dist: tqdm (>=4.40.2)
+Requires-Dist: pytest (==4.6.6)
+Requires-Dist: psutil (==5.6.7)
+Requires-Dist: Flask (>=1.1.1)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: pathos (>=0.2.5)
+Requires-Dist: flasgger (>=0.9.3)
+Requires-Dist: multiprocess (>=0.70.9)
+Requires-Dist: psycopg2-binary (>=2.8.4)
+Requires-Dist: Werkzeug (>=0.16.0)
+Requires-Dist: pytz (>=2019.3)
+Requires-Dist: beautifulsoup4 (>=4.8.1)
+Requires-Dist: psycopg2 (>=2.8.4)
+Requires-Dist: matplotlib
+Requires-Dist: multiprocessing-logging
+Requires-Dist: jsonschema (==2.6.0)
+
+UNKNOWN
+
+
