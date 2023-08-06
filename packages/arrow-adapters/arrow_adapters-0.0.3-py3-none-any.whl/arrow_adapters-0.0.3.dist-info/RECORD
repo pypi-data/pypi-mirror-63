@@ -1,0 +1,11 @@
+arrow_adapters/__init__.py,sha256=dwERq9qzFRjZWktbtJvwGBvR7gqqztEqfGNNnDstoKc,58
+arrow_adapters/auto.py,sha256=Udpi6BR2xSdrBpRpUL93DdcG61HPAfJ2c_E_0-proIc,294
+arrow_adapters/graphene.py,sha256=cwD42vUb4b1xqPrSi96e9pDgVN6cEPavaQC4SzfHFXE,1070
+arrow_adapters/postgres.py,sha256=Vpj3dAfrzHRzyK7pp1chHt5jjRFfl5Z9REj4VxxS58o,240
+arrow_adapters/sqlalchemy.py,sha256=haCVbJfzMUUFIH8Cim7hfmkBPlTGGf3kRRAEc4ys6nA,1344
+arrow_adapters/sqlite.py,sha256=tpyhSRhW4lw-RC6rzyaaBWLqojPfQLMeV92xRnvJ4s8,218
+arrow_adapters-0.0.3.dist-info/LICENSE.txt,sha256=bwZfvn-EzBtwk1CiquzB3KcEEgtXHyQNp3Kse1nrFO4,1081
+arrow_adapters-0.0.3.dist-info/METADATA,sha256=tO8HTqczsX2kX7NPTdzqWn1PrZt9ev-9LT7gZPgk4gY,923
+arrow_adapters-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+arrow_adapters-0.0.3.dist-info/top_level.txt,sha256=VPEU5Z_KMKAe0iSx0XlIbBptfZMxhHFjKikN-4I8d8U,15
+arrow_adapters-0.0.3.dist-info/RECORD,,
