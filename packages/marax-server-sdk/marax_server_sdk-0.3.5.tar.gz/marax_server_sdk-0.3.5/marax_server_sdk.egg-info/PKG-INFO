@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: marax-server-sdk
+Version: 0.3.5
+Summary: marax_server_sdk
+Home-page: https://pypi.org/project/marax-server-sdk/
+Author: OpenAPI Generator community
+Author-email: team@marax.ai
+License: Apache-2.0
+Description:     Marax Server SDK to send transactional events from client server to marax server  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,marax_server_sdk
+Platform: UNKNOWN
