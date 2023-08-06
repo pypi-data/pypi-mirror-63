@@ -1,0 +1,10 @@
+README.md
+mitmjson.py
+setup.cfg
+setup.py
+mitmjson.egg-info/PKG-INFO
+mitmjson.egg-info/SOURCES.txt
+mitmjson.egg-info/dependency_links.txt
+mitmjson.egg-info/entry_points.txt
+mitmjson.egg-info/requires.txt
+mitmjson.egg-info/top_level.txt
