@@ -1,0 +1,10 @@
+language: python
+sudo: false
+python:
+- "3.4"
+- "3.6"
+- "3.8"
+script:
+- python -m unittest test_htmlwrite
+install:
+- pip install .
