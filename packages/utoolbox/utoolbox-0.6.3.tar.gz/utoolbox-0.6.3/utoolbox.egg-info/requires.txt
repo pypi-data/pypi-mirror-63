@@ -1,0 +1,26 @@
+dask~=2.12.0
+numpy>=1.17
+scipy
+pandas
+imageio
+imageio-ffmpeg
+tifffile
+h5py>=2.9
+distributed~=2.12.0
+pyparsing
+mako
+click
+coloredlogs
+prompt_toolkit>2.0.0
+tqdm
+
+[gpu]
+
+[gpu:platform_system != "Darwin"]
+cupy-cuda101
+
+[gpu:platform_system == "Darwin"]
+cupy
+
+[viewer]
+napari
