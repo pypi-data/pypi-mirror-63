@@ -1,0 +1,8 @@
+README.md
+setup.py
+data_scripts.egg-info/PKG-INFO
+data_scripts.egg-info/SOURCES.txt
+data_scripts.egg-info/dependency_links.txt
+data_scripts.egg-info/entry_points.txt
+data_scripts.egg-info/not-zip-safe
+data_scripts.egg-info/top_level.txt
