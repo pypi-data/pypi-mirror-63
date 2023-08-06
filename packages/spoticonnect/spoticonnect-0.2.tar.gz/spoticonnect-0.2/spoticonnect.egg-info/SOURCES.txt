@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+spoticonnect/__init__.py
+spoticonnect/main.py
+spoticonnect.egg-info/PKG-INFO
+spoticonnect.egg-info/SOURCES.txt
+spoticonnect.egg-info/dependency_links.txt
+spoticonnect.egg-info/entry_points.txt
+spoticonnect.egg-info/requires.txt
+spoticonnect.egg-info/top_level.txt

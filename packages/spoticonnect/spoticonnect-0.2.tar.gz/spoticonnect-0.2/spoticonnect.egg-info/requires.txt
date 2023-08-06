@@ -1,0 +1,5 @@
+appdirs
+click
+click-config-file
+configobj
+spotipy
