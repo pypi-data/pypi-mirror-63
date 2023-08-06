@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+box_interpolation.c
+setup.py
+box_interpolation.egg-info/PKG-INFO
+box_interpolation.egg-info/SOURCES.txt
+box_interpolation.egg-info/dependency_links.txt
+box_interpolation.egg-info/requires.txt
+box_interpolation.egg-info/top_level.txt

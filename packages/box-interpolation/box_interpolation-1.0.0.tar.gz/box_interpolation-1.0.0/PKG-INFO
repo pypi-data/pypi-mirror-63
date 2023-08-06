@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: box_interpolation
+Version: 1.0.0
+Summary: Simple fast box interpolation powered by Cython.
+Home-page: UNKNOWN
+Author: Vladimir Starostin
+Author-email: vladimir.starostin@uni-tuebingen.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
