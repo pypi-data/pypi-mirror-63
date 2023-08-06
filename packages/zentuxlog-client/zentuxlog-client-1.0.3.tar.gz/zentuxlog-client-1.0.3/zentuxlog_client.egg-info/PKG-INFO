@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: zentuxlog-client
+Version: 1.0.3
+Summary: Sonde / Client API ZentuxLog
+Home-page: https://gitlab.django-creation.net/zentux/zentuxlog-client
+Author: ZENTUX SAS
+Author-email: contact@zentux.fr
+License: Apache License 2.0
+Description: [![pipeline status](https://gitlab.django-creation.net/zentux/zentuxlog-client/badges/master/pipeline.svg)](https://gitlab.django-creation.net/zentux/zentuxlog-client/commits/master)
+        [![coverage report](https://gitlab.django-creation.net/zentux/zentuxlog-client/badges/master/coverage.svg)](https://gitlab.django-creation.net/zentux/zentuxlog-client/commits/master)
+        
+        
+        # Utilisation
+        ## Dans un script, une classe, un module, ...
+        
+        ```python
+        from zentuxlog_client.client import Client
+        
+        APIKEY = "hkhfds56dfsdfjhdjk"
+        APISECRET = "KAP0dika43iH7"
+        USERNAME = "John"
+        PASSWORD = "Mypass
+        
+        auth = {
+                    'client_id': APIKEY,
+                    'client_secret': APISECRET,
+                    'username': USERNAME,
+                    'password': PASSWORD
+                }
+        c = Client(auth=auth)
+        c.send(data="information à logguer", method="POST", path="logs/")
+        ```
+        
+        ## Dans une exception personnalisée
+        ```python
+        from zentuxlog_client.client import Client
+        
+        APIKEY = "hkhfds56dfsdfjhdjk"
+        APISECRET = "KAP0dika43iH7"
+        USERNAME = "John"
+        PASSWORD = "Mypass"
+        auth = {
+                    'client_id': APIKEY,
+                    'client_secret': APISECRET,
+                    'username': USERNAME,
+                    'password': PASSWORD
+                }
+        c = Client(auth=auth)
+        
+        class MyCustomError(Exception):
+            """Erreur générique."""
+            def __init__(self, msg=''):
+                self.msg = msg
+                if msg:
+                    c.send(msg, method="POST", path="logs/")
+        
+            def __str__(self):
+                return self.msg
+        
+        ```
+        
+Keywords: zentuxlog development client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Web Environment
+Description-Content-Type: text/markdown
