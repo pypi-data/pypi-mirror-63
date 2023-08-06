@@ -1,0 +1,7 @@
+loguru
+sqlalchemy
+
+[dev]
+pytest
+pytest-cov
+sphinx
