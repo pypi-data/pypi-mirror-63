@@ -1,0 +1,3 @@
+azure
+bs4
+requests
