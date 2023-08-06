@@ -1,0 +1,9 @@
+README.rst
+setup.py
+cloudvar/__init__.py
+cloudvar/__version__.py
+cloudvar/cloudv.py
+cloudvar.egg-info/PKG-INFO
+cloudvar.egg-info/SOURCES.txt
+cloudvar.egg-info/dependency_links.txt
+cloudvar.egg-info/top_level.txt

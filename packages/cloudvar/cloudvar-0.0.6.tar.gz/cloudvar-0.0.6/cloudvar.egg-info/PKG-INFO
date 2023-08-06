@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: cloudvar
+Version: 0.0.6
+Summary: cloudvar allows you to use variables remotely.
+Home-page: https://github.com/vincent770/cloudvar.git
+Author: vinct
+Author-email: vt.y@qq.com
+Maintainer: vincent
+Maintainer-email: vt.y@qq.com
+License: MIT License
+Description: # cloudvar
+        cloudvar allows you to use variables remotely.
+        
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
