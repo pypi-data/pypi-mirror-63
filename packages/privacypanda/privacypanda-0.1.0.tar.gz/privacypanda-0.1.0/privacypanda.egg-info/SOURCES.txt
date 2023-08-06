@@ -1,0 +1,13 @@
+README.md
+setup.py
+privacypanda/__init__.py
+privacypanda/addresses.py
+privacypanda/anonymize.py
+privacypanda/email.py
+privacypanda/phonenumbers.py
+privacypanda/report.py
+privacypanda.egg-info/PKG-INFO
+privacypanda.egg-info/SOURCES.txt
+privacypanda.egg-info/dependency_links.txt
+privacypanda.egg-info/requires.txt
+privacypanda.egg-info/top_level.txt
