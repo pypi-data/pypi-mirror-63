@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyxir
+Version: 0.0.1
+Summary: First version of PyXIR package
+Home-page: UNKNOWN
+Author: Jorn Tuyls
+Author-email: jorn.tuyls@icloud.com
+License: UNKNOWN
+Description: # PyXIR
+        
+        PyXIR is an Python Intermediate Representation (IR) for deep learning. It is designed to enable acceleration 
+        of deep neural networks from different frameworks, compiler stacks and IR's on hardware accelerators,
+        specifically Xilinx FPGA based accelerators like [DPU](https://www.xilinx.com/products/intellectual-property/dpu.html). 
+        
+        At the moment PyXIR integrates with the [TVM Open Deep Learning compiler stack](https://github.com/apache/incubator-tvm).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
