@@ -1,0 +1,15 @@
+doris/__init__.py,sha256=JyoWzNrZZ6HxbpeqXBAoiRcAHnqa9bmyJJeSTCSlkx0,725
+doris/__main__.py,sha256=-TmKc5tS9ZEK6q-ZRO_6vagL6emZm4NyHEx-EtlthT0,739
+doris/config.py,sha256=B3-jEnnrFM1g24TBsDi2W60HUPYQbRYGEHhz9yTimfw,4045
+doris/dialog.py,sha256=8FGrfs0mLI_xMjfZ4zgLn2xOzdMnaLI9pCD2_UXMThQ,5335
+doris/doris.py,sha256=PaZZCsrJmUvydL8w3Gv8d1bgdz1g9Q9JzazAig5cDU0,141806
+doris/doris_functions.py,sha256=ASZthuUUeP8VMxxp6E9m8YRuSRDH2J0EDdCfPl4GtsI,17800
+doris/doris_ui.py,sha256=rlGcqWVBfQTtYLzaY-VGjJi1jU9SkHz_BVyvTzWEDQg,44926
+doris/version.py,sha256=FChvYlFiI-0Z8XDmCKwOtsbLNJJdWRygXPBYWk5dcWE,789
+doris_tracker-20.3.15.dist-info/DESCRIPTION.rst,sha256=JWzd6g4XrR7SKc7R-OPE-IXMkHOnmE7nND7FSS8D3ls,168
+doris_tracker-20.3.15.dist-info/METADATA,sha256=u5e8uHHujq8BsefD_b90RBpkQN4VlpqIH98nNz9IbTM,910
+doris_tracker-20.3.15.dist-info/RECORD,,
+doris_tracker-20.3.15.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+doris_tracker-20.3.15.dist-info/entry_points.txt,sha256=GUrIe2FIPk67PGJW8rq1zrHKF7XuDa8hutXojvbxKuI,38
+doris_tracker-20.3.15.dist-info/metadata.json,sha256=RpS9KO3mb4ONG9WRO73kvAgo1xjc357yKIe8ZP9JF8o,961
+doris_tracker-20.3.15.dist-info/top_level.txt,sha256=2ayBrqp1s-_MHyIoOcFed4bUtHxSq_r6UonDoTddZOo,6
