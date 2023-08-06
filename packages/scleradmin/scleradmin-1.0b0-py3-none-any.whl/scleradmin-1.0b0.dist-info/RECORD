@@ -1,0 +1,13 @@
+src/__init__.py,sha256=ZQNZaJZWHKhuw9OigCq--_hMSHMVdw28TL5MHPE-g1A,1807
+src/artifacts.py,sha256=Uhm0yFSi5fC0ZzmYqKKgTTwGauZa3uebFQ9juTywdas,1905
+src/bootconfig.py,sha256=W5TSQhQXwvlSpP4yKu17ehZc_7IbjLmlq44wF7H2Dkg,1444
+src/install.py,sha256=pHJQJ66ZUcWcTNBlqWcGRPp4y4gkAB7BI3ir3xhzq5E,11890
+src/versionmap.py,sha256=ZPgn9foQheoZFWsmmDoJsVaTx1QlQtnDkuGUBtRC-QM,720
+src/config/sclera.conf,sha256=-oBIG9wXHqDTUyBYxea2zdYk7aAjYGOyXxYmlBwuzlM,672
+scleradmin-1.0b0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+scleradmin-1.0b0.dist-info/METADATA,sha256=MZmW8y0e0FoPfXLAmWk7t8agHkYvpLzrfOtUYmJHbfs,2006
+scleradmin-1.0b0.dist-info/NOTICE.txt,sha256=kL2-TaYfiYQIU2LDlQIzYjE1Tn4dAvZBCfC4Q-4Geiw,73
+scleradmin-1.0b0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+scleradmin-1.0b0.dist-info/entry_points.txt,sha256=fe3FT6TGA3oC7ZQfB3WMCPIPPAy9Dpc657ec4HWq4lk,41
+scleradmin-1.0b0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+scleradmin-1.0b0.dist-info/RECORD,,
