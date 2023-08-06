@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+aws_lambda_deployment_package/__init__.py
+aws_lambda_deployment_package/deployment_package.py
+aws_lambda_deployment_package.egg-info/PKG-INFO
+aws_lambda_deployment_package.egg-info/SOURCES.txt
+aws_lambda_deployment_package.egg-info/dependency_links.txt
+aws_lambda_deployment_package.egg-info/top_level.txt
