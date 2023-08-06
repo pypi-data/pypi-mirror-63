@@ -1,0 +1,9 @@
+README.md
+setup.py
+ircevents/__init__.py
+ircevents/engine.py
+ircevents/helpers.py
+ircevents.egg-info/PKG-INFO
+ircevents.egg-info/SOURCES.txt
+ircevents.egg-info/dependency_links.txt
+ircevents.egg-info/top_level.txt
