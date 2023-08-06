@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: eib-aws-utils
+Version: 0.0.2
+Summary: Helper used by Engie Impact Sustainability Solution EMEAI to develop services based on AWS
+Home-page: https://github.tools.digital.engie.com/TractebelHQImpulse/eib-aws-utils
+Author: Engie Impact Sustainability Solution EMEAI
+Author-email: guido.maurano@engie.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-json-logger
+
+# eib-aws-utils
+
+Helper used by Engie Impact Sustainability Solution EMEAI to develop services based on AWS.
+
+
+**This project is still a draft**
+
+
+

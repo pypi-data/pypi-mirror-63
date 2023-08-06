@@ -1,0 +1,11 @@
+eib_aws_utils/__init__.py,sha256=5HIVCJPfCLn73G3RxeRevsr2nExTjhjl2ONj6VwjXXE,155
+eib_aws_utils/api.py,sha256=wCWgFSt90IKyf0wa8HdjDWvcPURBU_QIc9Q2S06mHJo,1846
+eib_aws_utils/backgound_job.py,sha256=hshcJ5lUUXvpXKHOwS2SB4UlLaujLXypLp3zmP44dWQ,674
+eib_aws_utils/dynamo_serializer.py,sha256=VA87RHfkVR89pcd8czIGJ80HhpvlQF0p4H8-yWTWkBQ,1489
+eib_aws_utils/errors.py,sha256=VpvKXCd4Ee3X_FXrpI8Egj70CaGIBoqyxOafxZ9Osi4,943
+eib_aws_utils/logging.py,sha256=th34Y0Zoy8mdizOiDEM1tP63HdfM1BqiK9qRzZi67FQ,1908
+eib_aws_utils-0.0.2.dist-info/LICENSE.txt,sha256=khMx_4hkAjnWGbk6cUvQ8k6c542798pj1ztva3dtl1Q,109
+eib_aws_utils-0.0.2.dist-info/METADATA,sha256=BCHfvrkuxyn9EkgLKcK6PlqIr2opo2rWUIxTdO94IF4,705
+eib_aws_utils-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+eib_aws_utils-0.0.2.dist-info/top_level.txt,sha256=_IDeKrCZGSpXRhXolhTCYUEOkX66X0_5R0y9LXAw1sw,14
+eib_aws_utils-0.0.2.dist-info/RECORD,,
