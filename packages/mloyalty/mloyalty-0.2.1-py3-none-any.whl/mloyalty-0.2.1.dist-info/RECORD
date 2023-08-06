@@ -1,0 +1,12 @@
+mloyalty/__init__.py,sha256=FSp7x1ZvjG7KVy2Bz_IgHuJxfumiA7zl64iWNwv12Is,200
+mloyalty/base.py,sha256=o3kqEgMb7mFU_Nm-OwcwA0fPS-D1Sa21AwsPeNdG_GQ,8714
+mloyalty/campaign.py,sha256=HHQ9BueqROPR2fchu510Eigy0ygbXfIOj4VS1LHepQ4,1196
+mloyalty/cheque.py,sha256=qi1BnJ1dlFH1B3yELsdopqLEVg2C2nt5R6fMucKrwBA,1486
+mloyalty/client.py,sha256=b9-15wnREkDfDzYg5iuO1neSEVrS9XOa3UifNJC_gVg,4728
+mloyalty/operator.py,sha256=cucXtZESoND0c7wPkD4Lin3G1lwmL8IjsLjD1_gUELM,1331
+mloyalty/pos.py,sha256=GRSWjZuVvg9gr8sCpIZ2F5hW9sWZ3huMjlTwW7UVlPk,691
+mloyalty-0.2.1.dist-info/LICENSE,sha256=YNNoacfpq3gdGiV66Dz74WP0GVvfpKbwTQ_Fvw638g8,1070
+mloyalty-0.2.1.dist-info/METADATA,sha256=IYsVYFFpxqjD8ewAMvMMetSDTeM7arrJDqyIIUgWvmc,1021
+mloyalty-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mloyalty-0.2.1.dist-info/top_level.txt,sha256=YIt9CoMaFJU_1bDjknu7tGQUdMf4EsY0CdvC5xCDwfQ,9
+mloyalty-0.2.1.dist-info/RECORD,,
