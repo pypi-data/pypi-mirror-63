@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kg-lib
+Version: 0.0.2
+Summary: search book in kwansei gakuin library
+Home-page: https://github.com/taiseiyo/Self-made-python-script/tree/master/command/kglib/
+Author: suzuki taisei
+Author-email: taiseiyo11@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: selenium
+Requires-Dist: plumbum
+
+UNKNOWN
+
+
