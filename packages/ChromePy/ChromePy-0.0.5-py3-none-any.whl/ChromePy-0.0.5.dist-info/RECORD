@@ -1,0 +1,13 @@
+chromepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chromepy/chrome.py,sha256=Gq9xiZiJRWibrW3gnJ9_yv8PXMtGqWPib9H-0sN0Kb8,1612
+chromepy/common.py,sha256=XRs-oWXcOT6ORr1pNUtXSW0wZJHCLMyRaRdbCtT7AOY,806
+chromepy/remote.py,sha256=SfqeCgvzCpcx_dARoX7EnQpt0LtXjv2W-XqYR3rttkg,905
+chromepy/screenshot.py,sha256=KuNjleSWBW48VYnYwG_Yrb1-WsQ1SndGn6_Ho-WLLu0,149
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/start_chrome.py,sha256=0occZL3_GhrSFuaRFyMD1eTiIEadLAodLOLiV8Pjj5M,284
+examples/start_remote.py,sha256=G3v9DeyzWh50Pq_U6zfvff7rPt5rjjuxt7bzQ1YKxw8,415
+ChromePy-0.0.5.dist-info/LICENSE,sha256=6d-jwGmQljohPQBZe_0cAkirhm1zkqUYwDDz3b4omJM,1071
+ChromePy-0.0.5.dist-info/METADATA,sha256=Zg9GwnqcOgLoJIcvYS8g17vzsekfJbxAib53m3GVgx0,1826
+ChromePy-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ChromePy-0.0.5.dist-info/top_level.txt,sha256=NRE1lk5CDPnOcqGuvxBchhlE7MaxiJyBMkZURMaD874,18
+ChromePy-0.0.5.dist-info/RECORD,,
