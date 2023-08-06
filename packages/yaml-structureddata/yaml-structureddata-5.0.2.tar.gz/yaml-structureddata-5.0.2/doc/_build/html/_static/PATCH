@@ -1,0 +1,58 @@
+--- bootstrap.css.orig	2013-05-16 20:53:06.000000000 +0200
++++ bootstrap.css	2013-05-17 13:25:14.000000000 +0200
+@@ -734,7 +734,15 @@
+   text-align: center;
+ }
+ 
+-h1,
++h1 {
++  margin: 30px 0;
++  font-family: 'Telex', sans-serif;
++  font-weight: bold;
++  line-height: 20px;
++  color: #317eac;
++  text-rendering: optimizelegibility;
++}
++
+ h2,
+ h3,
+ h4,
+@@ -745,6 +753,7 @@
+   font-weight: bold;
+   line-height: 20px;
+   color: #317eac;
++  background: #E0E0E0;
+   text-rendering: optimizelegibility;
+ }
+ 
+@@ -766,19 +775,19 @@
+ }
+ 
+ h1 {
+-  font-size: 38.5px;
++  font-size: 30.0px;
+ }
+ 
+ h2 {
+-  font-size: 31.5px;
++  font-size: 22.0px;
+ }
+ 
+ h3 {
+-  font-size: 24.5px;
++  font-size: 18.0px;
+ }
+ 
+ h4 {
+-  font-size: 17.5px;
++  font-size: 16.0px;
+ }
+ 
+ h5 {
+@@ -6483,4 +6492,4 @@
+ 
+ .affix {
+   position: fixed;
+-}
+\ No newline at end of file
++}

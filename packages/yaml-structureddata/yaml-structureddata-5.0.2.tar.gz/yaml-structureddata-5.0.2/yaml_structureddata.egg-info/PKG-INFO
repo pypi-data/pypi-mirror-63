@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: yaml-structureddata
+Version: 5.0.2
+Summary: A YAML based database with types.
+Home-page: https://sourceforge.net/projects/yaml-structureddata
+Author: Goetz Pfeiffer
+Author-email: Goetz.Pfeiffer@helmholtz-berlin.de
+License: GPLv3
+Download-URL: https://sourceforge.net/projects/yaml-structureddata/files/?source=navbar
+Description: YAML-StructuredData
+        ===================
+        
+        About
+        -----
+        
+        YAML-StructuredData is a definition of a YAML data store with type
+        declarations. It is also a set of python libraries and scripts that are used to
+        manage StructuredData.
+        
+        Author
+        ------
+        
+        Goetz Pfeiffer <Goetz.Pfeiffer@helmholtz-berlin.de>
+        
+        Documentation
+        -------------
+        
+        Documentation is available online here:
+        
+        `StructuredData documentation <https://yaml-structureddata.sourceforge.io>`_.
+        
+        Documentation is also included in the software distribution in HTML format.
+        
+        Installation
+        ------------
+        
+        You can install StructuredData with `pip <https://pip.pypa.io/en/stable>`_
+        (python package manager), as 
+        `debian <https://www.debian.org/distrib/packages>`_  or 
+        `rpm <http://rpm.org>`_  package or from 
+        `source <https://docs.python.org/3/install>`_.
+        
+        All is described here:
+        
+        `StructuredData install <https://yaml-structureddata.sourceforge.io/install.html>`_.
+        
+        License
+        -------
+        
+        StructuredData is licensed under GNU GPL v.3. Here is the license text:
+        
+        `StructuredData license <https://yaml-structureddata.sourceforge.io/license.html>`_.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.2.3
+Description-Content-Type: text/x-rst
