@@ -1,0 +1,7 @@
+README.rst
+setup.py
+daliuge.egg-info/PKG-INFO
+daliuge.egg-info/SOURCES.txt
+daliuge.egg-info/dependency_links.txt
+daliuge.egg-info/requires.txt
+daliuge.egg-info/top_level.txt
