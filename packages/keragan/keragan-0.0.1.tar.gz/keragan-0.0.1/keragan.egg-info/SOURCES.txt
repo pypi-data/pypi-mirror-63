@@ -1,0 +1,13 @@
+README.md
+setup.py
+keragan/GAN.py
+keragan/GANTrainer.py
+keragan/ImageDataset.py
+keragan/__init__.py
+keragan/trainer.py
+keragan/utils.py
+keragan.egg-info/PKG-INFO
+keragan.egg-info/SOURCES.txt
+keragan.egg-info/dependency_links.txt
+keragan.egg-info/requires.txt
+keragan.egg-info/top_level.txt
