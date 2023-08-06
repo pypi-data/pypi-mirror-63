@@ -1,0 +1,6 @@
+sqs_msg_transfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqs_msg_transfer/sqs_move_msg.py,sha256=AP-xGAl82D9RcDJPoiKobF8dQi_sxzEqda0wxMO15Rg,5263
+sqs_msg_transfer-0.0.1.dist-info/METADATA,sha256=jP1JRCQM1sdGt5SeuC4RHAdReYFP_cRsCv9quDMLdls,697
+sqs_msg_transfer-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqs_msg_transfer-0.0.1.dist-info/top_level.txt,sha256=mpvFfrYzLHLIEEOIiSCXxZmL_46kSBD0Xff-NrgT0VA,17
+sqs_msg_transfer-0.0.1.dist-info/RECORD,,
