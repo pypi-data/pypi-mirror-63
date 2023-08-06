@@ -1,0 +1,10 @@
+wdplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wdplot/bivariate.py,sha256=GCc1M1p-h1XIUrwfggSLbxYGxKRqd_iKzLRizXX4YgM,7240
+wdplot/image.py,sha256=otsK129hh39OP-Pf9XghH20RqCFUAHLtWr8eoYW0-nE,614
+wdplot/prep.py,sha256=5iLN-pzQXqfKYQLNMOQ2Yd-dUB95MxL3XNAgVN3P5Fc,5244
+wdplot/truevspred.py,sha256=OuxufbjA72dL7fCpFuVn-JUBVNIcCI6-6jbFy723Nh4,15296
+wdplot-0.0.1.dist-info/LICENSE,sha256=pSfJfnNvFzhItsDhXO4mH-HVeWM4iFyCGypjQR-2NnU,1070
+wdplot-0.0.1.dist-info/METADATA,sha256=lJr6dezY6OWZ9MC3Q4Ttlf7LsqDPFkaEEnrKH0bBQ0E,1528
+wdplot-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wdplot-0.0.1.dist-info/top_level.txt,sha256=o0lEwM-7hZd2_WVtF58fPT_uWmqCYzv1HyB4pVtCmsQ,7
+wdplot-0.0.1.dist-info/RECORD,,
