@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tap_circle_ci/__init__.py
+tap_circle_ci/client.py
+tap_circle_ci/streams.py
+tap_circle_ci/tap_circle_ci.py
+tap_circle_ci.egg-info/PKG-INFO
+tap_circle_ci.egg-info/SOURCES.txt
+tap_circle_ci.egg-info/dependency_links.txt
+tap_circle_ci.egg-info/entry_points.txt
+tap_circle_ci.egg-info/requires.txt
+tap_circle_ci.egg-info/top_level.txt
+tap_circle_ci/schemas/jobs.json
+tap_circle_ci/schemas/pipelines.json
+tap_circle_ci/schemas/workflows.json
