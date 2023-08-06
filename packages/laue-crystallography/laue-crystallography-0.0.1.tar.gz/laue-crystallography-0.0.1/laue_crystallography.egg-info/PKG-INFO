@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: laue-crystallography
+Version: 0.0.1
+Summary: Laue crystallography
+Home-page: https://github.com/vstadnytskyi/laue-crystallography
+Author: Valentyn Stadnytskyi
+Author-email: v.stadnytskyi@gmail.com
+License: BSD (3-clause)
+Description: ====================
+        Laue crystallography
+        ====================
+        
+        .. image:: https://img.shields.io/travis/vstadnytskyi/laue-crystallography.svg
+                :target: https://travis-ci.org/vstadnytskyi/laue-crystallography
+        
+        .. image:: https://img.shields.io/pypi/v/laue-crystallography.svg
+                :target: https://pypi.python.org/pypi/laue-crystallography
+        
+        
+        Laue crystallography
+        
+        * Free software: 3-clause BSD license
+        * Documentation: (COMING SOON!) https://vstadnytskyi.github.io/laue-crystallography.
+        
+        Features
+        --------
+        
+        * TODO
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
