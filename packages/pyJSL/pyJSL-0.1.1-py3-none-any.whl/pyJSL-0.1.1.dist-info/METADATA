@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyJSL
+Version: 0.1.1
+Summary: It makes your WebSocket communications secure.
+Home-page: https://github.com/2runo/JSL-py
+Author: 2runo
+Author-email: 2runo04@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: crypto
+Requires-Dist: pycrypto
+Requires-Dist: simple-websocket-server
+Requires-Dist: pyopenssl
+Requires-Dist: RSAhandler
+
+UNKNOWN
+
+
