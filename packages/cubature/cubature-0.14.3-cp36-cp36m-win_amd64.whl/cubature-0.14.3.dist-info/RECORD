@@ -1,0 +1,8 @@
+cubature/__init__.py,sha256=wruB3YiKGpCeBnC7g4nrqfAnVrTwD02BZfqx946XRlI,1092
+cubature/_cubature.cp36-win_amd64.pyd,sha256=6JVNRz3aTIVbobD9dkY4LeWQezxgi68yn8i4An0OGG4,12810240
+cubature/_test_integrands.cp36-win_amd64.pyd,sha256=wHh-2eIFnKcyIbLex6updj54ZRXNBd-xx2ruVEs3ty8,185344
+cubature/cubature.py,sha256=ODyzh574qVH1Hji9zJxb3iffIvQucxhABS-vi-iWNlA,10147
+cubature-0.14.3.dist-info/METADATA,sha256=e-5JXOEwcUx5-LkG70q_-Jc7K7Y7tpXbutC54MB4pW8,4730
+cubature-0.14.3.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+cubature-0.14.3.dist-info/top_level.txt,sha256=9mbd5HTHJkQK2M7zpwfGnpgk45M-gI--XqZ3S12xmpY,9
+cubature-0.14.3.dist-info/RECORD,,
