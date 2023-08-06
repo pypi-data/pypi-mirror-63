@@ -1,0 +1,17 @@
+heliosat/__init__.py,sha256=ZchKkpK39brsSerZx4_FTyTwUSAO5uB9QAigEgrArcE,1122
+heliosat/caching.py,sha256=3XGMZ2hMnGDe5h0YFeXDga5irj491ToswVOO_cow1KY,2940
+heliosat/download.py,sha256=PZY4IEAQHnSNhFd1-5tnf1tpzqpYoR2H0yFD9zvcQNQ,4581
+heliosat/helcats.py,sha256=zXwGaSlf0sOS54SeUZiu88rCZP46TCGhOOojnbCVwe8,6046
+heliosat/satellites.py,sha256=YrVC3SL6cKuHIwZUAVQ22zeP2qEBlhfl0S8mpyK2MHU,1435
+heliosat/smoothing.py,sha256=QQqlJHP1N5IRH4jFfZdjQ2QXQ5qJ03Z8yozEpUhCpS0,3927
+heliosat/spacecraft.py,sha256=FrKkTKLeM6Qo-4mDRZ3aBC_Ytc-aSfJ_wcZD8gXGTtA,24580
+heliosat/spice.py,sha256=d9fLEYxOaGB0mqMQUPdZ_BLSQJ1gqAzcx77SQbQG4kA,9365
+heliosat/util.py,sha256=F1l79EPJmUFkPux0p-fpCOlX_LpnppAn4xKhXPlpNdE,4803
+heliosat/json/helcats.json,sha256=ycn7ZwnlkJOcW4q4h4yyIUZDkBPwvaKSN-PCqf2IODA,160
+heliosat/json/kernels.json,sha256=ZthREQaDG0vQUfGNoICj8X5A3DQwtVKoW-xtR9Nc3Cc,18395
+heliosat/json/spacecraft.json,sha256=yDvRy63HLIG214COED-4G19yYizHt5ws0V4G9DqcIlg,44954
+HelioSat-0.4.0.dist-info/LICENSE,sha256=0iwx9tqjag0UXqTTSXfid7q3EfzWiXNN6lfGeSFvSUY,1074
+HelioSat-0.4.0.dist-info/METADATA,sha256=fJ8Xv8HZ3W3Yp4Om4SaYbf6gTy5IWuZhoIV69CZXhRg,3443
+HelioSat-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+HelioSat-0.4.0.dist-info/top_level.txt,sha256=9G0uTsBTU-cf2bnLPBi3RUWOO5QCMIcC6i-JtT4hELw,9
+HelioSat-0.4.0.dist-info/RECORD,,
