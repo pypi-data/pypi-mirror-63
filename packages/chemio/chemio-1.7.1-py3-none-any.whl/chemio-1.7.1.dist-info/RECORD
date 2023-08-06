@@ -1,0 +1,17 @@
+chemio/__init__.py,sha256=6ecT2ew0lEb-5LGU044gtPmeY2tExrxVkq6IZpARLhk,363
+chemio/config.conf,sha256=q0R4xUri-Y483WaWLkJd93ywMHwI1fXuqkt8Clyf5kc,638
+chemio/main.py,sha256=mIRVmeYQ2oaaTTptrZht25hXci8w9z47vAhrm-TKGdI,8827
+chemio/molecule.py,sha256=tEcmrk6KdaL5iNos4_XoKSSHuGTzQlflj3SrihIaJck,1298
+chemio/supported_writetypes.py,sha256=UAibuX3UXbhP1b0uuOkvaNhvyloC3OeC0__yNgXOXrY,242
+chemio/supported_writetypes.txt,sha256=yupHoVKPBx__tidfisspVTpSIY3qRTkUKDuozuWD3XA,79
+chemio/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemio/cli/convert.py,sha256=U-4q-H1hkchVrq7pKdj9Xa5GAdPUfaRyswzYqaIFvXA,3295
+chemio/cli/info.py,sha256=Ee_H7jM7Evgpf7DVEiY4iyg6s7JlqynmKQ2n14fPfao,2355
+chemio/cli/main.py,sha256=jqP12jaAXid_D-v90cexyCE09CQyz0cGyHdkK-SQAIs,5181
+chemio/cli/utils.py,sha256=Q-tDTVI-2N-yicwXokbeYECmnrwFT9XsNdjUebXwpK8,425
+chemio-1.7.1.dist-info/LICENSE,sha256=Rkw0XFAkqnSrUZOqN3vXOjLAqiL4kGSs1ijbajK5SKI,1063
+chemio-1.7.1.dist-info/METADATA,sha256=jhVyt25vFxb49ON5rlbT-uKgH2VtwbSU7JN1K2NhvG4,4140
+chemio-1.7.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+chemio-1.7.1.dist-info/entry_points.txt,sha256=QwKUbMCTUtZIwIIhW_OxpegSwuB1HkTdoAa6FQNK6Nk,49
+chemio-1.7.1.dist-info/top_level.txt,sha256=sxxA9SxNOSWF9qSNWRN1Wdp4jRrsBLt6QuBraNX2m_A,7
+chemio-1.7.1.dist-info/RECORD,,
