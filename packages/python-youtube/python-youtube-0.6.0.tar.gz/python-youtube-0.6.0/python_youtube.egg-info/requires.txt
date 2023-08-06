@@ -1,0 +1,7 @@
+requests
+future
+requests-oauthlib
+pytz
+isodate
+responses
+dataclasses-json
