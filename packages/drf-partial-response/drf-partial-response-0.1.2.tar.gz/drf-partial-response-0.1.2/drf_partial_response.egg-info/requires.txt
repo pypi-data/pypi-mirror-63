@@ -1,0 +1,6 @@
+isort
+jsonmask
+Django>=3.0
+djangorestframework>=3.11
+six
+factory-boy

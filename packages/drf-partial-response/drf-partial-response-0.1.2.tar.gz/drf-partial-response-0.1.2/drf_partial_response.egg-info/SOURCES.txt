@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+drf_partial_response/__init__.py
+drf_partial_response/constants.py
+drf_partial_response/decorators.py
+drf_partial_response/serializers.py
+drf_partial_response/utils.py
+drf_partial_response/views.py
+drf_partial_response.egg-info/PKG-INFO
+drf_partial_response.egg-info/SOURCES.txt
+drf_partial_response.egg-info/dependency_links.txt
+drf_partial_response.egg-info/requires.txt
+drf_partial_response.egg-info/top_level.txt
