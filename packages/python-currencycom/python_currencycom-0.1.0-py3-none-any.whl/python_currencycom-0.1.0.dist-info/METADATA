@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: python-currencycom
+Version: 0.1.0
+Summary: Currency.com REST API python implementation
+Home-page: https://github.com/sann05/python-currencycom
+Author: Aliaksandr Sheliutsin
+Author-email: 
+License: MIT
+Keywords: currencycom exchange rest api bitcoin ethereum btc eth
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Requires-Dist: requests
+
+UNKNOWN
+
+
