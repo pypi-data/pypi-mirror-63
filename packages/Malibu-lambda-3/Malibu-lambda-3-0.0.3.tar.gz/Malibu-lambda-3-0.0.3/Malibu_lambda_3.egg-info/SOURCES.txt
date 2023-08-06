@@ -1,0 +1,12 @@
+README.md
+setup.py
+Malibu_lambda_3.egg-info/PKG-INFO
+Malibu_lambda_3.egg-info/SOURCES.txt
+Malibu_lambda_3.egg-info/dependency_links.txt
+Malibu_lambda_3.egg-info/top_level.txt
+malibu/__init__.py
+malibu/assessment.py
+malibu/fib.py
+malibu/malibu.py
+malibu/my_mod.py
+malibu/train.py
