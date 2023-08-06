@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: random-pesel
+Version: 1.0
+Summary: Random PESEL number generator
+Home-page: https://github.com/krzysztof-tatarata/random-pesel
+Author: Krzysztof Tatarata
+Author-email: krzysztof.tatarata@gmail.com
+License: MIT
+Description: # Random PESEL
+        
+        Random PESEL number generator.
+        
+        PESEL is the national identification number used in Poland.
+        
+        
+        ## Instalation
+            pip3 install random-pesel
+        
+        
+        ## Usage
+        
+            from random_pesel import RandomPESEL
+            pesel = RandomPESEL()
+            
+            # Generate random PESEL number
+            pesel.generate()
+            
+            # Generate random male PESEL number
+            pesel.generate(gender='m')
+            
+            # Generate random female PESEL number
+            pesel.generate(gender='f')
+            
+            # Generate random PESEL number with min age defined
+            pesel.generate(min_age=18)
+            
+            # Generate random PESEL number with max age defined
+            pesel.generate(max_age=30)
+        
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: General
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
