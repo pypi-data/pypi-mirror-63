@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: marax-server-sdk
+Version: 0.3.4
+Summary: marax_server_sdk
+Home-page: https://pypi.org/project/marax-server-sdk/
+Author: OpenAPI Generator community
+Author-email: team@marax.ai
+License: Apache-2.0
+Keywords: OpenAPI,OpenAPI-Generator,marax_server_sdk
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+Requires-Dist: cryptography
+Requires-Dist: pyjwt
+
+Marax Server SDK to send transactional events from client server to marax server  # noqa: E501
+
+
