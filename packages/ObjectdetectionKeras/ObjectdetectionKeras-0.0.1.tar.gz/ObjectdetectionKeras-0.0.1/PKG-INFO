@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ObjectdetectionKeras
+Version: 0.0.1
+Summary: a great object detection project
+Home-page: https://github.com/jamesjakeies/object-detection
+Author: snake98skill
+Author-email: 18816216903@163.com
+License: UNKNOWN
+Description: welcome to join us for ur dreams
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
