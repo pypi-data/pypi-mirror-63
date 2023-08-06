@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "gym-simple-cliffworld"
+version = "0.1.0"
+description = "A simplified version of Cliffworld in an OpenAI Gym Environment"
+authors = ["Phil Winder <phil@WinderResearch.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/"
+repository = "https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/"
+documentation = "https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/"
+keywords = ["reinforcement-learning", "openai-gym", "cliffworld", "testing"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gym = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.2"
+coverage = {extras = ["toml"], version = "^5.0.1"}
+pytest-cov = "^2.8.1"
+pytest-mock = "^2.0.0"
+flake8 = "^3.7.9"
+black = "^19.10b0"
+flake8-black = "^0.1.1"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^20.1.2"
+flake8-bandit = "^2.1.2"
+safety = "^1.8.5"
+mypy = "^0.761"
+flake8-annotations = "^1.1.3"
+typeguard = "^2.7.1"
+flake8-docstrings = "^1.5.0"
+darglint = "^1.1.2"
+xdoctest = "^0.11.0"
+codecov = "^2.0.15"
+nox = "^2019.11.9"
+pre-commit = "^2.0.1"
+pytype = "^2020.2.6"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["gym_simple_cliffworld"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 75
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

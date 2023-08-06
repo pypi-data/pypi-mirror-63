@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: gym-simple-cliffworld
+Version: 0.1.0
+Summary: A simplified version of Cliffworld in an OpenAI Gym Environment
+Home-page: https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/
+License: MIT
+Keywords: reinforcement-learning,openai-gym,cliffworld,testing
+Author: Phil Winder
+Author-email: phil@WinderResearch.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: gym (>=0.17.1,<0.18.0)
+Project-URL: Documentation, https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/
+Project-URL: Repository, https://gitlab.com/winderresearch/rl/environments/gym-simple-cliffworld/
+Description-Content-Type: text/markdown
+
+# gym-simple-cliffworld
+
+A simplified version of Cliffworld in an OpenAI Gym Environment.
+
+This is a project by [Winder Research](https://WinderResearch.com), a Cloud-Native Data Science consultancy.
+
+## Installation
+
+`pip install gym-simple-cliffworld`
+
+## Usage
+
+```python
+import gym
+import gym_simple_cliffworld
+
+env = gym.make("SimpleCliffworld-v0")
+episode_over = False
+rewards = 0
+while not episode_over:
+    state, reward, episode_over, _ = env.step(env.action_space.sample())
+    print(state, reward)
+    rewards += reward
+print("Total reward: {}".format(rewards))
+```
+
+## Credits
+
+Gitlab icon made by [Payungkead](https://www.flaticon.com/authors/payungkead) from [www.flaticon.com](https://www.flaticon.com/).
