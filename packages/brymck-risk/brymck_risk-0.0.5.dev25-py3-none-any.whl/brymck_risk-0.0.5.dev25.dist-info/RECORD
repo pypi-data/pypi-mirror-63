@@ -1,0 +1,15 @@
+brymck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/risk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/risk/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/risk/v1/covariance_pb2.py,sha256=pwqTUrcgp2RY3DlxOzvn7D3uuLaE61PbH3l00LBq9mo,3218
+brymck/risk/v1/covariance_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+brymck/risk/v1/frequency_pb2.py,sha256=OAguiC0C0EqJ4IuOPlBNnqx8-70fetF7C5hJSOrmgWw,2225
+brymck/risk/v1/frequency_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+brymck/risk/v1/return_time_series_entry_pb2.py,sha256=LJsco9UaxGmtXbzZPcqVaiZ_VRyuiGeca09VK2U_2sI,3246
+brymck/risk/v1/return_time_series_entry_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+brymck/risk/v1/risk_api_pb2.py,sha256=vMYsYtO-dChASRLUsfCGsXFPltC2WxJQ-D2EDcf8OmY,13049
+brymck/risk/v1/risk_api_pb2_grpc.py,sha256=VXvPQD-nk4UlvwOMCLlQmz-69CigXHPN4qZ7BqiPtLQ,3518
+brymck_risk-0.0.5.dev25.dist-info/METADATA,sha256=_cpnH5ojVQNdQ_TRx8bytlCqbVtrqQ4xR3atYdBSvGs,516
+brymck_risk-0.0.5.dev25.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+brymck_risk-0.0.5.dev25.dist-info/top_level.txt,sha256=VY1fYcadKhoqppcYnzf84EVe73B3vbUak5rH25rlCM8,7
+brymck_risk-0.0.5.dev25.dist-info/RECORD,,
