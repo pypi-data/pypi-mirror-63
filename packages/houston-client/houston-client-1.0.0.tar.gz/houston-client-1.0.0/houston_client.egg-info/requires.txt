@@ -1,0 +1,5 @@
+requests==2.22.0
+requests[security]==2.22.0
+
+[gcp]
+google-cloud-pubsub==1.2.0
