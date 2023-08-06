@@ -1,0 +1,6 @@
+README.md
+setup.py
+ultragraph.egg-info/PKG-INFO
+ultragraph.egg-info/SOURCES.txt
+ultragraph.egg-info/dependency_links.txt
+ultragraph.egg-info/top_level.txt
