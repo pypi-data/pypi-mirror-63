@@ -1,0 +1,100 @@
+io:
+    data_folder: data/
+    tournaments_filename: Liga Dos Orillas 2020 - Carga de partidos.xlsx
+    rankings_filename: Liga Dos Orillas 2020 - Rankings Crudos.xlsx
+    publish_filename: Torneo NN para publicar.xlsx
+    tournaments_gdrive: https://docs.google.com/spreadsheets/d/e/2PACX-1vRQQzsvkO7MJu6s05ijb5Rwm71DXcIgEOXWNuv81nsSn1W1wG5ht0DPJD82IJQdpq6KfWL1mXwdj0HF/pub?output=xlsx
+    tournaments_spreadsheet_id: 1fo1yljugseIfOT-ALgtSllmZrrtZ3aRuc_gRc05OT60
+    temporal_spreadsheet_id: 134W18TVOjpUVs25IOoxHMVZud8Ucaxe44XJutzTI1Ak
+    players_temp_file: temp_players.pickle
+    ranking_temp_file: temp_ranking.pickle
+    players_pickle: players.pk
+    tournaments_pickle: tournaments.pk
+    rankings_pickle: rankings.pk
+    published_on_web_spreadsheets_id:
+      - 1ERmL9bj3mvsF1pfDQEAhiKzjaEOxvUX2EqakO5HIkJY  # partidos
+      - 1HC7HdmT8tYlwLDmObDDoHfNYIxAUkLiY81J8YPm3xRo  # nivel de juego
+      - 118RnRL-YFEB3eg78MM_lDwCrbYzJ1p5MUUVHDpCgWFs  # detalles nivel de juego
+      - 1hhz3w-Zm7R7w1x2eWhj1BynU76Eo7R6EDB8RZH7m7QQ  # masters primera
+      - 1kUSmsmBXSTW-UcFrj_ZPWohIFlplfMdo3j5JQWs3TrY  # masters segunda
+      - 1CO-D1P1FYEYudKKZ6oGH9KBoodRKfaGj9zD3BfsSMlw  # masters tercera
+      - 1jGXffNwVW93edpm1zzIBGLN3KJi46qo9lzcfv1AnO_s  # masters cuarta
+
+sheetname:
+    players: Jugadores
+    initial_ranking: Ranking Torneo 00 2020
+    tournaments_key: Partidos
+    championship_details_key: Log Campeonato
+    rating_details_key: Log Rating
+    rankings_key: Ranking
+    histories: Historiales 2020
+    championship_key: Campeonato
+    statistics_key: Estadisticas
+
+labels:
+    tid: ID Torneo
+    pid: ID Jugador
+    Player: Jugador
+    Association: Asociación
+    City: Ciudad
+    Last Tournament: Último Torneo
+    Championship Points: Puntos de Campeonato
+    Rating: Nivel de Juego
+    Best Round: Mejor Ronda
+    Round: Instancia
+    Winner: Ganador
+    Loser: Perdedor
+    Winner Points: Puntos Ganador
+    Loser Points: Puntos Perdedor
+    Category: Categoría
+    Total Points: Total puntos
+    Active Player: Jugador Activo
+    Date: Fecha
+    Location: Lugar
+    Tournament name: Nombre del torneo
+    Tournament: Torneo
+    Participations: Torneos Jugados
+    Position: Posición
+    Difference: Diferencia
+    Selected Tournaments: Puntos sumados
+    Points CAT:
+      - Puntos Primera
+      - Puntos Segunda
+      - Puntos Tercera
+      - Puntos Cuarta
+      - Puntos Quinta
+
+activeplayer:
+    True: activo
+    False: inactivo
+
+roundnames:
+    final: final
+    champion: primero
+    second: segundo
+    third: tercero
+    fourth: cuarto
+    third place playoff: tercer puesto
+
+aux:
+    sanction factor: 0.5
+    rating factor: 2.0
+    category expected factor: 0.5
+    category unexpected factor: 1.5
+    tournament window to activate: 4
+    tournaments to activate: 2
+    tournament window to inactivate: 4
+    categories thresholds:
+      - 1500  # minimo de primera
+      - 1100  # minimo de segunda
+      - 800   # minimo de tercera
+      - 600   # minimo de cuarta
+    masters N tournaments to consider: 8
+    masters N classified to list: 10000
+    initial tid: S2020T00
+
+default:
+    tournament_name: Inicial 2020 - Liga Dos Orillas
+    date: 2020 01 01
+    location: No aplica
+    category:
