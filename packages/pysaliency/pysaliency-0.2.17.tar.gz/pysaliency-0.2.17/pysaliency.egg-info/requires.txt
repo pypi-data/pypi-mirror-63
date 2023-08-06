@@ -1,0 +1,12 @@
+boltons
+deprecation
+dill
+imageio
+natsort
+numba
+numpy
+requests
+schema
+scipy
+setuptools
+tqdm
