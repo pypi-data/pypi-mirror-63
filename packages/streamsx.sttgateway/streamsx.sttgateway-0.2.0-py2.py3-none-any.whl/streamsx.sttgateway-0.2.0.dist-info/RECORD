@@ -1,0 +1,10 @@
+streamsx/sttgateway/__init__.py,sha256=z7dDbBTzdxisL4brs9wh5j7MYEdYRtUk-MpLHpJawmM,239
+streamsx/sttgateway/_sttgateway.py,sha256=tuQwCJDaebPpozIBBlLMs8KVDbIoZBRa_pxRbCl5l2g,11777
+streamsx/sttgateway/schema.py,sha256=0euiJ79AXhC9O3cgOUSWoCngzqvGmrGE_8jLPDN-9z4,2597
+streamsx.sttgateway-0.2.0.dist-info/DESCRIPTION.rst,sha256=Sp73oQNSZGS1NbV908vvWwuLTX1iTJQfYvc6Yh58n98,670
+streamsx.sttgateway-0.2.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+streamsx.sttgateway-0.2.0.dist-info/METADATA,sha256=JEffqRTJe9XJqncCZvpZCOmVzrO8b7C6TFMGkBn1OAI,1395
+streamsx.sttgateway-0.2.0.dist-info/RECORD,,
+streamsx.sttgateway-0.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+streamsx.sttgateway-0.2.0.dist-info/metadata.json,sha256=stKzKw71HC0XqdnRELDUityMCepesiRi7zjhMLuig7E,1015
+streamsx.sttgateway-0.2.0.dist-info/top_level.txt,sha256=-HIIPsBc56LEpwY9WQHNMVJy2nOLXnKZ6slLXwmeZoY,9
