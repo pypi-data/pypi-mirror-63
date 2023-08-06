@@ -1,0 +1,8 @@
+aws_cdk/aws_certificatemanager/__init__.py,sha256=SYMuMJU3SCE5coho9QgbmW2sIXUDJ8C_SeZ6EU_NcC4,35084
+aws_cdk/aws_certificatemanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_certificatemanager/_jsii/__init__.py,sha256=EjmMnq--Pjn5YCsu-v7s8RwpTcFsl7bwLr8pxZj9F2M,287
+aws_cdk/aws_certificatemanager/_jsii/aws-certificatemanager@1.28.0.jsii.tgz,sha256=LeClTC29AT71By1j9tbWM8etnvHldswfbEm6uoquxxc,226368
+aws_cdk.aws_certificatemanager-1.28.0.dist-info/METADATA,sha256=xWbdfDqN4nCP1-YaTSJqepETwIlaRlDkYC_rUsXJ814,4276
+aws_cdk.aws_certificatemanager-1.28.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_certificatemanager-1.28.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_certificatemanager-1.28.0.dist-info/RECORD,,
