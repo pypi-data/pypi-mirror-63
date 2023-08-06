@@ -1,0 +1,9 @@
+README.md
+setup.py
+talentlms/__init__.py
+talentlms/talentlms.py
+talentlms.egg-info/PKG-INFO
+talentlms.egg-info/SOURCES.txt
+talentlms.egg-info/dependency_links.txt
+talentlms.egg-info/requires.txt
+talentlms.egg-info/top_level.txt

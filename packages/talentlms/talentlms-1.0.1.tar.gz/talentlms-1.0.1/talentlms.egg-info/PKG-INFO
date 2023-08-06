@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: talentlms
+Version: 1.0.1
+Summary: TalentLMS API Python library
+Home-page: https://github.com/ib1984/py-talentlms
+Author: Ivan Butorin
+Author-email: ibutorin@plesk.com
+License: MIT
+Description: # TalentLMS API Python library
+        
+        Python implementation of the [TalentLMS API](https://www.talentlms.com/pages/docs/TalentLMS-API-Documentation.pdf).
+        
+        Method names correspond one-to-one to API method names but have underscores separating words in API method names.
+        
+        ## Example use
+        
+        ```python
+        import talentlms
+        
+        API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+        
+        lms = talentlms.api('example.talentlms.com', API_KEY)
+        
+        try:
+            new_user = lms.user_signup({
+                'email': 'jsmith@example.com',
+                'first': 'John',
+                'last': 'Smith',
+                'login' 'jsmith',
+                'password': 'XXXXXXXXXXXXX'
+            })
+            lms.user_set_status(new_user['id'], 'active')
+        except talentlms.UserAlreadyExistsError:
+            pass
+        ```
+        
+        ## Requirements
+        
+        - Python >= 2.7
+        
+        ## License
+        
+        MIT
+        
+        ## Credits
+        
+        Written by [Ivan Butorin](https://github.com/ib1984)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
