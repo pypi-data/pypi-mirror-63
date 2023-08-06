@@ -1,0 +1,14 @@
+Sphinx>=0.6
+zope.interface
+
+[doc]
+sphinx-build
+
+[test]
+sphinx-testing
+pytest>=2.8.1
+pytest-cov>=2.2.0
+pytest-flake8
+coverage
+flake8
+pep8
