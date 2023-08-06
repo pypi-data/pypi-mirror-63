@@ -1,0 +1,8 @@
+setup.py
+django_trackmodels_xls_ritual.egg-info/PKG-INFO
+django_trackmodels_xls_ritual.egg-info/SOURCES.txt
+django_trackmodels_xls_ritual.egg-info/dependency_links.txt
+django_trackmodels_xls_ritual.egg-info/requires.txt
+django_trackmodels_xls_ritual.egg-info/top_level.txt
+grimoire/django/tracked_xls/__init__.py
+grimoire/django/tracked_xls/reports.py
