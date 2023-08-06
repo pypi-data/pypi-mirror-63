@@ -1,0 +1,10 @@
+README.md
+setup.py
+comut/__init__.py
+comut/comut.py
+comut/fileparsers.py
+comut.egg-info/PKG-INFO
+comut.egg-info/SOURCES.txt
+comut.egg-info/dependency_links.txt
+comut.egg-info/requires.txt
+comut.egg-info/top_level.txt
