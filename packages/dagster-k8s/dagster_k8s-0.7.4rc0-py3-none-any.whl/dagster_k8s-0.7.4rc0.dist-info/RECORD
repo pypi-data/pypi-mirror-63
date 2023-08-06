@@ -1,0 +1,14 @@
+dagster_k8s/__init__.py,sha256=SAWEjpxJfKqWiaKg_p1RuYQwT8yKMYwRQAH5jXVROHs,100
+dagster_k8s/launcher.py,sha256=bUavP9j54IlrArGtOks0DpQknwnUObpwkf12LYq5YgY,11383
+dagster_k8s/version.py,sha256=nNTQGvwkhFvoTJETcqQqKZxPeHErMDTBFP7J-i55X4U,55
+dagster_k8s_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagster_k8s_tests/conftest.py,sha256=9Ux0OZ8Z42YtsvTl_BfKnCy_7BIi0UVoQY54QwXkqNU,16895
+dagster_k8s_tests/test_integration.py,sha256=_adm84GkCeDpYRAKd7d_Wgr0d9-x_QaoqcyvbUvDeBM,1846
+dagster_k8s_tests/test_job_spec.py,sha256=-KwtN1EaQYqKjRebqmm8JhEhH0xvz8KB1DnVhHWqM-U,4568
+dagster_k8s_tests/test_version.py,sha256=XiJK5YeRWJzaBR8kKoj4WiW0EqXwdHcHsVNFBwea3_8,89
+dagster_k8s_tests/utils.py,sha256=zRYHmvhGv66RSduJZlLVWdUFpRQt57XEg2gR55SoYUY,6336
+dagster_k8s-0.7.4rc0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_k8s-0.7.4rc0.dist-info/METADATA,sha256=zyuqarUN24dtnvT7aeOKnUHxtDjHBlPel-QZfJw6kqA,623
+dagster_k8s-0.7.4rc0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_k8s-0.7.4rc0.dist-info/top_level.txt,sha256=uWTXMj4XRhYmO36hj-nPQeYV-yioE0GEPSD2SXUWVcI,30
+dagster_k8s-0.7.4rc0.dist-info/RECORD,,
