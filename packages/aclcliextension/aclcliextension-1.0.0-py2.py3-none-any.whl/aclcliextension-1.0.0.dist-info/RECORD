@@ -1,0 +1,10 @@
+aclcliextension/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aclcliextension/cli.py,sha256=oL9u-9oIH9ITneNPo3OfysEbbC-RzTr2G_lQp_68GGY,1000
+aclcliextension/dice.py,sha256=jYxiByZOFor2HgaS1amz-TQFP68e7wFhc1Hf3BfeViU,907
+aclcliextension-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+aclcliextension-1.0.0.dist-info/METADATA,sha256=mLpfW7yCjDo4k0EYtAOm7yKV-dgajvs5ABQffwIE7VM,456
+aclcliextension-1.0.0.dist-info/RECORD,,
+aclcliextension-1.0.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+aclcliextension-1.0.0.dist-info/entry_points.txt,sha256=FdnuqO3U7vlFwkjH9Je3RE_pRI_vXxeaOhM4QwjYW1U,50
+aclcliextension-1.0.0.dist-info/metadata.json,sha256=o66GYSRCS1SEW7nUZSXs9zGALZnvLVtN2T1tEo5U6x4,762
+aclcliextension-1.0.0.dist-info/top_level.txt,sha256=72JThPT826n9zcSUjcOLLPD4yXxRQra3NQU43xVafq8,16
