@@ -1,0 +1,3 @@
+[console_scripts]
+mygp-cli=mygp_cli.main:main
+
