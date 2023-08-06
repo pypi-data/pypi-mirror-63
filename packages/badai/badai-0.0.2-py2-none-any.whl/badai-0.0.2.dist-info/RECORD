@@ -1,0 +1,14 @@
+badai/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+badai/_nbdev.py,sha256=ys9uySRKA1DqT4hcUEFFK1nqcI7ovL8P5ulyyIR9IYo,886
+badai/core.py,sha256=tiYrTFrxtI-1cHp0fzeSzRvL4DX4qM8N42I9ixO2Hl0,1905
+badai/video/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+badai/video/core.py,sha256=GAmE6wn2aeWspuo6XEJs2MY_F0wgodoRMyg8ZFJvReM,911
+badai/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+badai/vision/core.py,sha256=K88qItPFKxt8kA_ag6rjeGDHS0WApLznMxMSBPdhqRA,733
+badai-0.0.2.dist-info/DESCRIPTION.rst,sha256=-dm6GJh_bcUYLXnE77MjRUrvYvUn0oi94sH4N30OQH8,158
+badai-0.0.2.dist-info/METADATA,sha256=ZzGC7nQ_TFj38W7LLnrWJnlA_VczN2NYcxOR7dKy0CI,892
+badai-0.0.2.dist-info/RECORD,,
+badai-0.0.2.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+badai-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+badai-0.0.2.dist-info/metadata.json,sha256=535kieOxSTN6sLnUpsoKJfPMBzW071Px3XUCKuyQrLQ,1060
+badai-0.0.2.dist-info/top_level.txt,sha256=hG_Z8Kw3tq60QMuXskd6DSl2d3PXrBBlYrFXMxw_pOQ,6
