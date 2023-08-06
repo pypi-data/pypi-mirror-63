@@ -1,0 +1,3 @@
+LOGGER = "deforest"
+EXIT_NOTFOUND = 1
+EXIT_PARSEERR = 2
