@@ -1,0 +1,14 @@
+gerrit_to_github_issues/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gerrit_to_github_issues/cli.py,sha256=lSo4ulwjCjmiYSFV70wYonUKLW1IUkImI-_w2YOZcXo,5139
+gerrit_to_github_issues/engine.py,sha256=A4PxiDOrzEBa5nSx2Tl30ezSzJSRENwd92L5EYxWfvs,6105
+gerrit_to_github_issues/errors.py,sha256=EQkAMhFGg0jeo7e8hy-cN4sQoFw33M6kzL1L_Ptkkys,764
+gerrit_to_github_issues/gerrit.py,sha256=nLRJ1IeVSKDGSfyRVu0S4rGAys8ZdvGJiJRAiqPzKCc,1185
+gerrit_to_github_issues/github_issues.py,sha256=TW_OZ1p7k4jGhKR6-mRBypO_v9W-zHvSGHqx3IIc_mE,2785
+gerrit_to_github_issues-0.0.4.dist-info/AUTHORS,sha256=VqR36ixI0PGvMR27QTy0r3ojXWdh50mmq5x5uomuFe8,76
+gerrit_to_github_issues-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gerrit_to_github_issues-0.0.4.dist-info/METADATA,sha256=aGzmjdhAU8yTapB-0KmCA-GXkKlbBlReuaYsRHx7hDQ,760
+gerrit_to_github_issues-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gerrit_to_github_issues-0.0.4.dist-info/entry_points.txt,sha256=xPvVRWE9PI15TgFTC5GWUZIzyzHgqUb1tSwnqp6fy_E,78
+gerrit_to_github_issues-0.0.4.dist-info/pbr.json,sha256=N8eLU44jDNRMDqNopBnaNJGpKw5zRbd0dTQUT0VirXg,47
+gerrit_to_github_issues-0.0.4.dist-info/top_level.txt,sha256=IY9htvn3Or62SQm4QOP2SWON12KXN0AKRSDUA9WRNZg,24
+gerrit_to_github_issues-0.0.4.dist-info/RECORD,,

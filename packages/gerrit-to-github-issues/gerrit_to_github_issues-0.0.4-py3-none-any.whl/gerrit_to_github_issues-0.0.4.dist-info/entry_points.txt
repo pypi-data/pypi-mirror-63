@@ -1,0 +1,3 @@
+[console_scripts]
+gerrit-to-github-issues = gerrit_to_github_issues.cli:main
+

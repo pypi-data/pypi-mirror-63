@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gerrit-to-github-issues
+Version: 0.0.4
+Summary: Updates Github Issues with new related Gerrit changes
+Home-page: https://github.com/ianpittwood/Gerrit-to-Github-Issues
+Author: Ian H. Pittwood
+Author-email: UNKNOWN
+License: Apache-2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PyGithub (==1.46)
+Requires-Dist: fabric (==2.5.0)
+
+A set of scripts that can be used to synchronize/update Github Issues with data from a Gerrit instance.
+
+
