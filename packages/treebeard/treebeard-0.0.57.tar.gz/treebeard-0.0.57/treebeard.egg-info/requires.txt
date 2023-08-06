@@ -1,0 +1,16 @@
+click
+halo
+papermill
+jupyter-repo2docker
+colorama
+ipykernel
+pathlib
+timeago
+humanfriendly
+sentry-sdk
+pyyaml
+pydantic
+docker
+python-magic
+nbstripout
+docker
