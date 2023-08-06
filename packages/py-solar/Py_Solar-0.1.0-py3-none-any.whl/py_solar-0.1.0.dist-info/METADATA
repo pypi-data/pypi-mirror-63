@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-solar
+Version: 0.1.0
+Summary: 
+Author: Danil
+Author-email: danilunrandom@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: mypy (>=0.770,<0.771)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: pygame (>=1.9.6,<2.0.0)
