@@ -1,0 +1,14 @@
+README.md
+setup.py
+pyavro/__init__.py
+pyavro/util.py
+pyavro.egg-info/PKG-INFO
+pyavro.egg-info/SOURCES.txt
+pyavro.egg-info/dependency_links.txt
+pyavro.egg-info/not-zip-safe
+pyavro.egg-info/requires.txt
+pyavro.egg-info/top_level.txt
+pyavro/field/__init__.py
+pyavro/field/field.py
+pyavro/schema/__init__.py
+pyavro/schema/schema.py

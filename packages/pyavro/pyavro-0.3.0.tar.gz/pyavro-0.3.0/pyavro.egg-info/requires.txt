@@ -1,0 +1,3 @@
+pydantic
+fastavro==0.22.13
+funcy==1.14
