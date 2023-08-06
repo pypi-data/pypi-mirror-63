@@ -1,0 +1,8 @@
+mygp_cli/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+mygp_cli/auth.py,sha256=SVNCCwZ5GeMw333tfM7VEJwdvLfnpxYRSCEAbaWOLow,5273
+mygp_cli/auth_info.py,sha256=G9ycy2crF_0zHHhbu-2FBVEJmGc2n3cyBh2f_Jf-B4g,1034
+mygp_cli/main.py,sha256=5MQQHiKLLmJqKJ40i-SBlU7DNzGCfk6cOe_NUWiulx0,625
+mygp_cli-0.0.4.dev1.dist-info/entry_points.txt,sha256=NcvmO6bKYbbDJM3esxlhqkqwytDIItFwo1bVFMNQGQg,47
+mygp_cli-0.0.4.dev1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+mygp_cli-0.0.4.dev1.dist-info/METADATA,sha256=c7Wo3Bl3uUgzeXd43rJ7HPr2RTSJv_Y58WPzpe30uGo,393
+mygp_cli-0.0.4.dev1.dist-info/RECORD,,
