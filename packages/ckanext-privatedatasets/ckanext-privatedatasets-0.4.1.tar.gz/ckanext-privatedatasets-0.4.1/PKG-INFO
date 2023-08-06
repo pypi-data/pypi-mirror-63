@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ckanext-privatedatasets
+Version: 0.4.1
+Summary: CKAN Extension - Private Datasets
+Home-page: https://conwet.fi.upm.es
+Author: Aitor Magan, Francisco de la Vega
+Author-email: fdelavega@ficodes.com
+License: UNKNOWN
+Download-URL: https://github.com/conwetlab/ckanext-privatedatasets/tarball/v0.4.1
+Description: 
+            This CKAN extension allows a user to create private datasets that only certain users will be able to see. When a dataset is being created, it's possible to specify the list of users that can see this dataset. In addition, the extension provides an HTTP API that allows to add users programatically.
+            
+Keywords: ckan,private,datasets
+Platform: UNKNOWN
