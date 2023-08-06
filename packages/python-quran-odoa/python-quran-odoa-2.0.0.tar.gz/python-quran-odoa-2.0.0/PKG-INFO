@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: python-quran-odoa
+Version: 2.0.0
+Summary: Library to get random ayah within quran including the translation.
+Home-page: https://github.com/Keda87/python-quran-odoa
+Author: Keda87
+Author-email: adiyatmubarak@gmail.com
+License: MIT
+Description: Library to get random ayah within quran including the translation.
+Keywords: development quran
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
