@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: simplepki
+Version: 0.0.3
+Summary: A simple CLI for making a pki
+Home-page: https://gitlab.com/digitalarc/simplepki
+Author: Jove Dahle
+License: MIT
+Description: # simplepki
+        
+        Simple Public Key Infrastructure intends to provide most of the components needed
+        to manage a PKI. (With a few missing tools as of right now)
+        
+        # CLI
+        
+        Get the CLI:
+        `pip install simplepki`
+        
+        > You can pass `--pass` to most of these and it will ask for a passphrase to use to protect the key
+        
+        ### Create the root CA:
+        ```bash
+        # You can also pass the following through arguments if you do not want to use env variables.
+        export SP_ROOT=/tmp/simplepki
+        export SP_CA=root
+        export SP_CN="Acme Inc. - Root CA"
+        export SP_ORGANIZATION="Acme Inc."
+        export SP_ORGANIZATIONAL_UNIT=IT
+        export SP_COUNTRY=US
+        export SP_LOCALITY="Agloe"
+        export SP_PROVINCE="New York"
+        
+        mkdir $SP_ROOT
+        simplepki create root
+        ```
+        
+        ### Create a server certificate for blog.acme.com and www.acme.com:
+        ```bash
+        # You can also pass the following through arguments if you do not want to use env variables.
+        export SP_ROOT=/tmp/simplepki
+        export SP_CA=root
+        export SP_ORGANIZATION="Acme Inc."
+        export SP_ORGANIZATIONAL_UNIT=IT
+        export SP_COUNTRY=US
+        export SP_LOCALITY="Agloe"
+        export SP_PROVINCE="New York"
+        
+        simplepki create cert www.acme.com --dns blog.acme.com --dns www.acme.com
+        ```
+        
+        ### Create an intermediate CA:
+        ```bash
+        # You can also pass the following through arguments if you do not want to use env variables.
+        export SP_ROOT=/tmp/simplepki
+        export SP_CA=root
+        export SP_CN="Acme Inc. - Internal CA"
+        export SP_INTERMEDIATE=intermedaite
+        export SP_ORGANIZATION="Acme Inc."
+        export SP_ORGANIZATIONAL_UNIT=IT
+        export SP_COUNTRY=US
+        export SP_LOCALITY="Agloe"
+        export SP_PROVINCE="New York"
+        
+        simplepki create intermediate
+        ```
+        
+        ### Create a wildcard certificate for internal use, signed by the intermediate ca:
+        ```bash
+        # You can also pass the following through arguments if you do not want to use env variables.
+        export SP_ROOT=/tmp/simplepki
+        export SP_CA=intermediate
+        export SP_ORGANIZATION="Acme Inc."
+        export SP_ORGANIZATIONAL_UNIT=IT
+        export SP_COUNTRY=US
+        export SP_LOCALITY="Agloe"
+        export SP_PROVINCE="New York"
+        
+        simplepki create cert *.internal.acme.com --dns *.internal.acme.com
+        ```
+        
+        ### After running all the commands above you will end up with this
+        ```text
+        /tmp/simplepki/
+        ├── [drwxrwxr-x]  intermediate
+        │   ├── [drwxrwxr-x]  certs
+        │   │   ├── [-rw-r--r--]  root.cert.pem
+        │   │   └── [-rw-r--r--]  wildcard_.internal.acme.com.cert.pem
+        │   └── [drwx------]  private
+        │       ├── [-r--------]  root.key.pem
+        │       └── [-r--------]  wildcard_.internal.acme.com.key.pem
+        └── [drwxrwxr-x]  root
+            ├── [drwxrwxr-x]  certs
+            │   ├── [-rw-r--r--]  root.cert.pem
+            │   └── [-rw-r--r--]  www.acme.com.cert.pem
+            └── [drwx------]  private
+                ├── [-r--------]  root.key.pem
+                └── [-r--------]  www.acme.com.key.pem
+        ```
+        
+        You will find the generated certificates in `$SP_ROOT/ca_name/certs/` and
+        private keys in `$SP_ROOT/ca_name/private/`
+        
+        For more info about available flags, checkout out the help `simplepki -h`.
+        
+        ### Contributions
+        Contributions are welcome.
+        Currently we have a few features missing that we would like to add
+        - client certificate
+        - publish crl
+        - sign csr with selected ca
+        - create csr
+        - that index.txt log file
+        - crlnumber file
+        - serial file
+        
+        ### Disclaimer
+        
+        This is based on the https://github.com/google/easypki which is written in golang
+        
+Keywords: simple pki tools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
