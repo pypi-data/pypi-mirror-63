@@ -1,0 +1,17 @@
+jibe/__init__.py,sha256=bvOJd-ODYqB0CiLJydwJV-lDbhD4iN6K9rwmtA7KKjQ,702
+jibe/app.css,sha256=n3i3fwdO_qiAYjZ2HrHkqgL9G11LQWu6ecsEzH3y0II,1628
+jibe/app.js,sha256=PdSXlbScmedJ33qJU-o-rykSRpIWkv8S63Zy_63OnsY,14801
+jibe/app.py,sha256=ryKqie53mQCd-3DntjilqlzJVZkq_Um3Glqj50IT_yA,10018
+jibe/page.html,sha256=PDFoML-GllfXhidZdj4sXsjPPWO6tHrMtuOyCvvgvMQ,1000
+jibe/page.py,sha256=4CkyvQPNhrJImtsvDeWciXEO28DGkIl8XEgc941nZ7M,489
+jibe/widget.py,sha256=dgS5kQyAfz-yPS_fyvblJpT5aNuAC6pGAW6mj3G7MNE,35444
+jibe/lib/backbone.js,sha256=xkIpwJw3H1oyUalNAJBCoz5a4jLippTx31y4gYOPTV0,77794
+jibe/lib/handlebars.js,sha256=hSzapznWRy_aOZkctlN03an9DxCLlN8ZCQS0lxntiHg,169513
+jibe/lib/jquery-1.12.4.js,sha256=Qw82-bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU,293430
+jibe/lib/underscore.js,sha256=O4179En8zabOlPYBNvGp8cF0uh0vnSZpW4Q6Ul1h-8c,58319
+jibe-0.1.2.dist-info/DESCRIPTION.rst,sha256=pPKID9nUfRUas5hwlsQNc_Cl88MrklcqlEaDIc53sNo,964
+jibe-0.1.2.dist-info/METADATA,sha256=r61BXV5LFbvsd223BtyEbCaxhKydXZSaG4zKuaAcDkk,1300
+jibe-0.1.2.dist-info/RECORD,,
+jibe-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+jibe-0.1.2.dist-info/metadata.json,sha256=n0CzCg6VkLMta4t9unY0uKKjTLJwwzkMCDTn06CIRhQ,475
+jibe-0.1.2.dist-info/top_level.txt,sha256=k3hP4xRRXsLdepaYszBv2EoK8xtNP-H5zSsdWwPP2S4,5
