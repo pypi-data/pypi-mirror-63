@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_queryset/__init__.py
+easy_queryset/easy_queryset.py
+easy_queryset.egg-info/PKG-INFO
+easy_queryset.egg-info/SOURCES.txt
+easy_queryset.egg-info/dependency_links.txt
+easy_queryset.egg-info/top_level.txt
