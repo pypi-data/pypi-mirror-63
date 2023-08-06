@@ -1,0 +1,8 @@
+gitignore_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitignore_cli/cli.py,sha256=GK3dvsL0b7nCCdtZbvo-xSuAZU0Mini6ymjOCHbW25w,1626
+gitignore_cli-1.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+gitignore_cli-1.0.4.dist-info/METADATA,sha256=t29b8Ot1_Z-ssvgVtvwLo2s2hGBJQRzTAp5KMws5fpM,1394
+gitignore_cli-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gitignore_cli-1.0.4.dist-info/entry_points.txt,sha256=qn8sme1V6lL0O5XaxF0R8PADeWVrA8guvYqxXLc7NjY,57
+gitignore_cli-1.0.4.dist-info/top_level.txt,sha256=GiIgJiPCmsyla9_guQq28EKhGpBhsdqybEgw05nfkqg,14
+gitignore_cli-1.0.4.dist-info/RECORD,,
