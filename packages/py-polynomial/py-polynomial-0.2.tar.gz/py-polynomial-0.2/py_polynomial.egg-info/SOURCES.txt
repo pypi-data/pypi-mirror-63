@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+polynomial/Binomial.py
+polynomial/Polynomial.py
+polynomial/Trinomial.py
+polynomial/__init__.py
+py_polynomial.egg-info/PKG-INFO
+py_polynomial.egg-info/SOURCES.txt
+py_polynomial.egg-info/dependency_links.txt
+py_polynomial.egg-info/top_level.txt
