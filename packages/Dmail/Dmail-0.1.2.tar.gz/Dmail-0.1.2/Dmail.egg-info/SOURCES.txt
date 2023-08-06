@@ -1,0 +1,11 @@
+README.md
+setup.py
+Dmail/_Email.py
+Dmail/_Gmail.py
+Dmail/_Hotmail.py
+Dmail/__init__.py
+Dmail.egg-info/PKG-INFO
+Dmail.egg-info/SOURCES.txt
+Dmail.egg-info/dependency_links.txt
+Dmail.egg-info/requires.txt
+Dmail.egg-info/top_level.txt
