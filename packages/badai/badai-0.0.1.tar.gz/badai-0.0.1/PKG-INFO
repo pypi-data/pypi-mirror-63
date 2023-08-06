@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: badai
+Version: 0.0.1
+Summary: Things created along the way
+Home-page: https://github.com/pattyhendrix/badai
+Author: pattyhendrix
+Author-email: jpatnick10@gmail.com
+License: Apache Software License 2.0
+Description: # badai
+        > some functions and deep learning
+        
+        
+        <br> created using [nbdev_template](https://github.com/fastai/nbdev_template)
+        
+        ## Install
+        
+        `pip install badai`
+        
+Keywords: b,a,d,a,i, ,d,e,e,p, ,l,e,a,r,n,i,n,g, ,m,a,c,h,i,n,e, ,l,e,a,r,n,i,n,g
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
