@@ -1,0 +1,3 @@
+[console_scripts]
+obs = obs.cli.main:cli
+
