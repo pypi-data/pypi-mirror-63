@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: coronaviruspy
+Version: 0.1.0
+Summary: CLI command for showing coronavirus info
+Author: Daniel Kukucz
+Author-email: daniel@kukucz.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: termgraph (>=0.2.1,<0.3.0)
