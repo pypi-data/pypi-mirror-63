@@ -1,0 +1,67 @@
+Metadata-Version: 1.2
+Name: sgipupdate
+Version: 0.1.0
+Summary: Python CLI to update a security group with the current public IP address
+Home-page: https://github.com/cvockrodt/sgipupdate
+Author: Casey Vockrodt
+Author-email: casey.vockrodt@gmail.com
+License: MIT license
+Description: ==========
+        SGIPUpdate
+        ==========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/sgipupdate.svg
+                :target: https://pypi.python.org/pypi/sgipupdate
+        
+        .. image:: https://img.shields.io/travis/cvockrodt/sgipupdate.svg
+                :target: https://travis-ci.com/cvockrodt/sgipupdate
+        
+        .. image:: https://readthedocs.org/projects/sgipupdate/badge/?version=latest
+                :target: https://sgipupdate.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Python CLI to update a security group with the current public IP address
+        
+        
+        * Free software: MIT license
+        * Documentation: https://sgipupdate.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-02-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
