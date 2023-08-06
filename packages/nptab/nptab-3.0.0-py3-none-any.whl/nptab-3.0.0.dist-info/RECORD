@@ -1,0 +1,12 @@
+nptab/__init__.py,sha256=W5Yvj0zNSvgE24XqICqwEmKpthJsZ7E7lnH2up14Wfo,383
+nptab/_version.py,sha256=EPmgXOdWKks5S__ZMH7Nu6xpAeVrZpfxaFy4pykuyeI,22
+nptab/git_version.py,sha256=zK4sCVjemwKrE2AoOv-fMAbDgzsnLQWO-zykJbxr9lw,109
+nptab/hashjoin.py,sha256=lFwBdYB6nt33TCakZnq6YXL8Rg0HnAIAgoKdNMVQ_sI,9852
+nptab/nptab.py,sha256=L4blQpwmE9zs9vSIQyinC9bPqAO2tpcGcVqLDnliOzM,34397
+nptab/numpy_types.py,sha256=8bHAsXO5D3McTZVp04Pt3KunPy9WRpcPf0ytRIKBSyg,362
+nptab/util.py,sha256=o_5fhuo6sO6ikJNWZyzCd_OUjj2SbDiWT0dv4WsQlik,803
+nptab-3.0.0.dist-info/LICENSE,sha256=j5DKCxlutMnedkyQhT4_ZB-94P67fC6_2BmGFFxJAgE,1077
+nptab-3.0.0.dist-info/METADATA,sha256=sAYhE0ZaK-f9_GFz96mR1_2XJjcvmR8IKWUGSb-xrKI,7604
+nptab-3.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nptab-3.0.0.dist-info/top_level.txt,sha256=CwGdFJIY941wDa0J6Ete5rB9YFn0NNGmQ7zno1vPcv4,6
+nptab-3.0.0.dist-info/RECORD,,
