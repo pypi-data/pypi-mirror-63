@@ -1,0 +1,8 @@
+README.md
+setup.py
+aio_mpv_jsonipc/MPV.py
+aio_mpv_jsonipc/__init__.py
+aio_mpv_jsonipc.egg-info/PKG-INFO
+aio_mpv_jsonipc.egg-info/SOURCES.txt
+aio_mpv_jsonipc.egg-info/dependency_links.txt
+aio_mpv_jsonipc.egg-info/top_level.txt
