@@ -1,0 +1,3 @@
+include behatrix/misc/viz.js
+include README.TXT
+include LICENSE.TXT
