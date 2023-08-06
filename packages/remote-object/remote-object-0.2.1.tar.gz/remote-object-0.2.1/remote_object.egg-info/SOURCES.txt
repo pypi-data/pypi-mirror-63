@@ -1,0 +1,10 @@
+README.md
+setup.py
+remote_object/__init__.py
+remote_object/client.py
+remote_object/errors.py
+remote_object/server.py
+remote_object.egg-info/PKG-INFO
+remote_object.egg-info/SOURCES.txt
+remote_object.egg-info/dependency_links.txt
+remote_object.egg-info/top_level.txt
