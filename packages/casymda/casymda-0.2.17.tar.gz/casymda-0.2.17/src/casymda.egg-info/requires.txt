@@ -1,0 +1,10 @@
+simpy
+xmltodict
+Pillow
+gym
+stable-baselines
+tensorflow==1.15.2
+black
+networkx
+flask
+flask-cors
