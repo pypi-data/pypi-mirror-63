@@ -1,0 +1,15 @@
+faststyle/__init__.py,sha256=avIyARPdTQj9CMDhat5jvVAqU6eQNazA67G8ObR5PZM,182
+faststyle/_nbdev.py,sha256=czANVdauH40lr-7kgYBUmmh-Qt5MfidqkZplnjiEYw0,1620
+faststyle/callback.py,sha256=HpocbdwfSchysNgOYtZp0yRvlcP3Jarg_TsLMJm2y6E,1147
+faststyle/core.py,sha256=2oGY4AhGz43gtRazLxi4Vt5mfqJ1aG-wuGigtEOV6r4,1375
+faststyle/data.py,sha256=0aylQdso6ZUrRrS2B-TpqjDlPQ-ieMYQavVXqAEvcXU,1647
+faststyle/layer_features.py,sha256=tBdf5nCCP-Wni3q2MS8GTzOqf_bvYCNebGlKagc2CHg,1525
+faststyle/learner.py,sha256=xKyfacF9f-oRaivGovml62SVw33Bz5c_D5_FmtBRaqw,587
+faststyle/loss.py,sha256=Sd5ZzM3j1VJO927_HPACj0tp4K6hcdK2CL8uOW8j5Bs,2788
+faststyle/models.py,sha256=V0sclV7KSXCH6god9uNGVTKFsYz5ALMi-v6bOfMkJZ4,3991
+faststyle-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+faststyle-0.0.3.dist-info/METADATA,sha256=EBn95fyQP2GMvidu1k10Qcmg_xNT5HMbJLkRMRyIqMY,2187
+faststyle-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+faststyle-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+faststyle-0.0.3.dist-info/top_level.txt,sha256=gHJCJGXAL1e0JRsrj3WzHIY_vhfTs3FfNM0s1RetPe0,10
+faststyle-0.0.3.dist-info/RECORD,,
