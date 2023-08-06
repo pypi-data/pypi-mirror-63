@@ -1,0 +1,47 @@
+calculation.name = scf
+
+calculation.control.lengthUnit = Bohr
+
+system.centralCellVector1 = [20.000,0.0,0.0]
+system.centralCellVector2 = [0.0,20.000,0.0]
+system.centralCellVector3 = [0.0,0.0,14.4468]
+system.atomCoordinateFormat = cartesian
+
+
+system.name = CarbonChain.Center
+
+system.atomBlock = 6
+AtomType   X   Y   Z
+C   10.0   10.0    1.2039
+C   10.0   10.0    3.6117
+C   10.0   10.0    6.0195
+C   10.0   10.0    8.4273
+C   10.0   10.0   10.8351
+C   10.0   10.0   13.2429
+end
+
+system.orbitalType = DZP
+system.neutralAtomDataDirectory = ..
+
+system.numberOfLeads = 2
+system.typeOfLead1 = Left
+system.voltageOfLead1 = 0.4
+system.objectOfLead1 = ../lead/NanodcalObject.mat
+system.typeOfLead2 = Right
+system.voltageOfLead2 = 0.0
+system.objectOfLead2 = ../lead/NanodcalObject.mat
+
+calculation.k_spacegrids.number = [20,20,100]
+
+calculation.SCF.startingMode = H
+calculation.SCF.mixingMode = H
+calculation.SCF.mixMethod = Broyden
+calculation.SCF.mixRate = 0.05
+calculation.SCF.maximumSteps = 500
+#calculation.control.precision  = high
+calculation.SCF.monitoredVariableName = {'hMatrix','rhoMatrix','totalEnergy','gridCharge','orbitalCharge'}
+calculation.SCF.convergenceCriteria = {1e-5,1e-5,1e-5,[],[]}
+
+#calculation.SCF.donatorObject = ../system_0V/NanodcalObject.mat
+
+

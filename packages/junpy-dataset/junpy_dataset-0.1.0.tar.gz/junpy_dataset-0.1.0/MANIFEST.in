@@ -1,0 +1,13 @@
+include *.md
+include MANIFEST.in
+graft junpy_dataset
+global-exclude .*
+global-exclude *.py[co]
+global-exclude *.so
+prune **/.*
+prune **/__pycache__
+
+# Somehow setuptools_scm packages everything into sdist without the effect
+# of gitignore. Here include the contents of gitignore.
+prune dist
+prune junpy_dataset.egg-info
