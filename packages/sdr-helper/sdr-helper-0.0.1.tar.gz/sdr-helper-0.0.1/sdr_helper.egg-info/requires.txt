@@ -1,0 +1,9 @@
+colorama
+scikit-dsp-comm
+numpy
+scipy
+pyaudio
+pyaudio-helper
+
+[rtlsdr]
+pyrtlsdr
