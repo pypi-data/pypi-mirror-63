@@ -1,0 +1,4 @@
+mnist
+matplotlib
+Pillow
+numpy
