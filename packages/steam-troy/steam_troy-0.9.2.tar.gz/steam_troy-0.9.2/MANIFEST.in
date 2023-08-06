@@ -1,0 +1,5 @@
+include steam_troy/client/*
+include steam_troy/core/*
+include steam_troy/enums/*
+include steam_troy/protobufs/*
+include steam_troy/util/*
