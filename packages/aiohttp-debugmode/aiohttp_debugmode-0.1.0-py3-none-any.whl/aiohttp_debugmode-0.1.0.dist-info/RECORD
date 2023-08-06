@@ -1,0 +1,12 @@
+aiohttp_debugmode/__init__.py,sha256=5ggyh5H8Vq5SZ6wfoIYPH6aXCiCLM4RhI5kkhT2S5cg,3781
+aiohttp_debugmode/debug.py,sha256=G9GnHWbsV5BrMuiYtkhiRL_LHSET0EW-kEqxgcBxxMU,3082
+aiohttp_debugmode/handler.py,sha256=kKxdryAyL7qYud9QofzWjPCE08hcOH5o9qQ1YDy74fQ,510
+aiohttp_debugmode/hlp.py,sha256=vMNUUxMvLOuZnQIivzJN27FTQKTssgXw3fizIAFpLIo,1900
+aiohttp_debugmode/manager.py,sha256=26k8rnwZTYJSLvUI_AHB5eDasxXJvwAGTFCQ6fhBxs0,1939
+aiohttp_debugmode/observe_stdout.py,sha256=gQenCwnmVuT9jPpmoLZ4onTq05lWKKWxYlYHUQzz1_o,397
+aiohttp_debugmode/pseudopty.py,sha256=Lg9TnM8FcjXP4xB2S5porUfoPeoeX8T_pjSXKiIg2J8,2572
+aiohttp_debugmode-0.1.0.dist-info/LICENCE,sha256=Ohr3sc6_4hm0xWxnCm0J8dXcgOn1f6S9Cfsf6itJphg,1101
+aiohttp_debugmode-0.1.0.dist-info/METADATA,sha256=NCwZoCQnRo3yyLKHWbOFa-Iatp-VNuyeZbr5-GI-ACQ,4338
+aiohttp_debugmode-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+aiohttp_debugmode-0.1.0.dist-info/top_level.txt,sha256=yUX52Ra9aYXW3v0I36RAzeC1Qi_Z6YWXrJMiWOm2uNI,18
+aiohttp_debugmode-0.1.0.dist-info/RECORD,,
