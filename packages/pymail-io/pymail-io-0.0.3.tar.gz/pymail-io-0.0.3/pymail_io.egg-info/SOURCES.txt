@@ -1,0 +1,15 @@
+README.md
+setup.py
+pymail_io/__init__.py
+pymail_io/callables.py
+pymail_io/email.py
+pymail_io/exceptions.py
+pymail_io/pymail_io.py
+pymail_io/pymailio_async.py
+pymail_io/pymailio_sync.py
+pymail_io/pymailio_task.py
+pymail_io.egg-info/PKG-INFO
+pymail_io.egg-info/SOURCES.txt
+pymail_io.egg-info/dependency_links.txt
+pymail_io.egg-info/requires.txt
+pymail_io.egg-info/top_level.txt
