@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+h5imagegenerator/__init__.py
+h5imagegenerator/generator.py
+h5imagegenerator.egg-info/PKG-INFO
+h5imagegenerator.egg-info/SOURCES.txt
+h5imagegenerator.egg-info/dependency_links.txt
+h5imagegenerator.egg-info/requires.txt
+h5imagegenerator.egg-info/top_level.txt
