@@ -1,0 +1,4 @@
+GitPython
+PyYAML
+boto3
+click
