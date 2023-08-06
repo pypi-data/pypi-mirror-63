@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: samplestamps
+Version: 0.2.0
+Summary: For converting between timestamps.
+Home-page: https://github.com/postpop/samplestamps
+License: UNKNOWN
+Author: Jan Clemens
+Author-email: clemensjan@googlemail.com
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+
+code for converting between time stamps and samples/frames
+
+todo:
+[ ] test
+[ ] usage examples (time from cycles, time from log, general usage of the object)
+
