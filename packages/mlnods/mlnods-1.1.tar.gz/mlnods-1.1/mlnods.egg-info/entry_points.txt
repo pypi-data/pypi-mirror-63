@@ -1,0 +1,3 @@
+[console_scripts]
+mlnods = mlnods.__main__:main
+
