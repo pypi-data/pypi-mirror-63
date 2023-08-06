@@ -1,0 +1,6 @@
+setup.py
+possible_english_words.egg-info/PKG-INFO
+possible_english_words.egg-info/SOURCES.txt
+possible_english_words.egg-info/dependency_links.txt
+possible_english_words.egg-info/top_level.txt
+possible_words/__init__.py
