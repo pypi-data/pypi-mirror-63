@@ -1,0 +1,10 @@
+piXnotify/NotifierBuilder.py,sha256=HuKTKvWFNrC10J6QbkOswBMXJn9aZDdvgX6fwbN9gLg,1002
+piXnotify/__init__.py,sha256=nteeLDVFFsaI5ooQQxCu75WMbQSmOFDBsh3PorXTDys,359
+piXnotify/OSNotifiers/AbstractNotifier.py,sha256=oZFZTC39hemK6L9sGRH4neqkcETzMbMcPu7rZiMvHz0,1730
+piXnotify/OSNotifiers/linux/LinuxNotifier.py,sha256=DkZiEDp2JQKWHOVY18eTwPDRBTBLPAG841yEhVFGPIQ,842
+piXnotify/OSNotifiers/macosx/MacNotifier.py,sha256=fL9XcV46ml53YRhHPrnvG5J-kbBAgOGTX8y9T-UqY3w,777
+piXnotify-0.0.1.dist-info/LICENSE.txt,sha256=M2DRLsvi_Yfn7dxmGdqs_LkTKy3vXD32QQlB4aLfa_s,1482
+piXnotify-0.0.1.dist-info/METADATA,sha256=nwPf_FIifIhS25nwOj9fPpuG2aA7GOFQeJBytJRjVls,2110
+piXnotify-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+piXnotify-0.0.1.dist-info/top_level.txt,sha256=qAd5KMfokiu0rY6tuxJEAnIILj8mVx7hOSv1gksGEBE,10
+piXnotify-0.0.1.dist-info/RECORD,,
