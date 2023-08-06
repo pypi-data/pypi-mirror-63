@@ -1,0 +1,9 @@
+setup.py
+there_is_no_spoon/__init__.py
+there_is_no_spoon/main.py
+there_is_no_spoon/utils.py
+there_is_no_spoon.egg-info/PKG-INFO
+there_is_no_spoon.egg-info/SOURCES.txt
+there_is_no_spoon.egg-info/dependency_links.txt
+there_is_no_spoon.egg-info/entry_points.txt
+there_is_no_spoon.egg-info/top_level.txt
