@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pigar
+Version: 0.10.0rc0
+Summary: A fantastic tool to generate requirements for your Python project, and more than that.
+Home-page: https://github.com/damnever/pigar
+Author: damnever
+Author-email: dxc.wolf@gmail.com
+License: The BSD 3-Clause License
+Keywords: requirements.txt,automation,tool,module-search
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+Requires-Dist: colorama (>=0.3.9)
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: nbformat (>=4.4.0)
+Requires-Dist: futures ; python_version < "3.2"
+
+
+[![](https://img.shields.io/github/workflow/status/damnever/pigar/PyCI?style=flat-square)](https://github.com/damnever/pigar/actions)
+
+
+- Generating requirements.txt for Python project.
+   - Handling the difference between different Python versions.
+   - Jupyter nodebook (`*.ipynb`) support.
+   - Including the import statements from `exec`/`eval`, doctest of docstring, etc.
+- Searching packages by import name.
+- Checking the latest versions for Python project.
+
+
+You can find more information on [GitHub](https://github.com/damnever/pigar).
+
+
