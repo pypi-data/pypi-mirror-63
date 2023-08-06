@@ -1,0 +1,6 @@
+include *.md
+recursive-include mlnods/legacy *
+global-exclude \
+  *.py[co] \
+  .DS_Store \
+  *.csv

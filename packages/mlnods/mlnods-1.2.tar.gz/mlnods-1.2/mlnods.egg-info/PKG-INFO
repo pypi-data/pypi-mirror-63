@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: mlnods
+Version: 1.2
+Summary: a python package to split machine learning data sets using graph partitioning
+Home-page: https://bitbucket.org/bromberglab/mlnods
+Author: Yana Bromberg, Maximilian Miller
+Author-email: mmiller@bromberglab.com
+License: NPOSL-3.0
+Project-URL: Bug Tracker, https://bitbucket.org/bromberglab/mlnods/issues
+Project-URL: Documentation, https://bitbucket.org/bromberglab/mlnods/wiki/docs
+Project-URL: Source Code, https://bitbucket.org/bromberglab/mlnods
+Description: # mlNODS
+        ### split machine learning data sets using graph partioning
+        
+        Appropriate assessments require appropriate splits of training and evaluation data sets and this in turn requires clustering. For many problems single-linkage clustering suffices toward this end. Encountering a problem that could not be solved by such a standard procedure, we developed a simple graph-based tool for the creation of unique data sets.
+        
+        mlNODS is a graph-based method which allows to split original data sets into non-overlapping sets that cannot be grouped without removing some of the data. mlNODS optimizes the following constraints: (1) retain as many data points as possible, and (2) remove any overlap between two split sets. The nodes of our graph are the original data points, and the connections are measures for the similarity between nodes (e.g. sequence similarity for protein sets). The method begins by building the full graph and proceeds by removing nodes in order to optimally fit the constraints to the similarity table. mlNODS is applicable to any prob- lem and has the additional benefit of allowing overlap within one set (i.e. training on homologues) while it is disal- lowed between two sets (i.e. training and testing do not overlap).
+        
+        ```bash
+        usage: mlnods [-h] -s SPLITS -c CUTOFF [-l LIMIT] -e EDGES_FILE
+                        [-f EDGES_FORMAT] -n NODES_FILE [-a] [-r RANDOM]
+                        [-o OUTFOLDER] [-v] [-q] [--version]
+        
+        This is a script that will create independent sets of data
+        
+        Version: 1.0 [03/14/20]
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -s SPLITS, --splits SPLITS
+                                number of splits required
+          -c CUTOFF, --cutoff CUTOFF
+                                similarity cutoff in the units of link scores
+          -l LIMIT, --limit LIMIT
+                                limit on the number of links for each node (default=0, infinity)
+          -e EDGES_FILE, --edges EDGES_FILE
+                                file containing a table of instances with link scores for each pair
+          -f EDGES_FORMAT, --format EDGES_FORMAT
+                                format of the table file
+        
+                                blast     : takes a list of -m 9 formated blast files and builds a table based on seqID
+                                hssp      : takes a list of -m 9 formated blast files, runs HSSP scoring script and builds an HSSP distance table
+                                self<int> : space/tab separated table file, similarity score in column <int>
+                                            eg "ID1 ID2 similarity_score" will be addressed as self3 (default=self5)
+          -n NODES_FILE, --nodes NODES_FILE
+                                instance file containing IDs of all instances being considered
+        
+                                IDs are case-independent (eg ABC = abc)
+                                IDs are always preceeded by ">" and followed by a white space.
+                                No white spaces are allowed in an ID.
+                                If score is provided for an ID, it should be surrounded by spaces and directly follow the ID
+                                (eg. >abl1_human 10 gene associated with ....)
+                                Everything between two IDs is printed in the junction files, but not considered in evaluation
+          -a, --abundance       the option to score
+        
+                                false : score retrieved from instance file, range [0-100], default=50 when missing
+                                true  : score approximated by actual number of times an ID appears in the instance file
+          -r RANDOM, --random RANDOM
+                                set a fixed random seed to generate consistent partitions
+          -o OUTFOLDER, --outfolder OUTFOLDER
+                                path to output folder (default=<current directory>
+          -v, --verbose         set verbosity level
+          -q, --quiet           no logging to stdout
+          --version             show program's version number and exit
+        
+        If an ID is present in the instance file, but not in the table file the ID is considered to not be linked to anything else
+        If an ID is present in the table file but not in the instance file, it is ignored
+        
+        mlnods was developed by Yana Bromberg and refactored by Maximilian Miller.
+        
+        Feel free to contact us for support at services@bromberglab.org.
+        This software is licensed under [NPOSL-3.0](http://opensource.org/licenses/NPOSL-3.0)
+        ```
+Keywords: graph partition,graph analysis,cross-validation dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
