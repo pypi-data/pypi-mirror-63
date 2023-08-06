@@ -1,0 +1,10 @@
+README.md
+setup.py
+AutoControl/__init__.py
+AutoControl/ctp_control.py
+AutoControl/share_control.py
+AutoControl/uf20_control.py
+auto_control.egg-info/PKG-INFO
+auto_control.egg-info/SOURCES.txt
+auto_control.egg-info/dependency_links.txt
+auto_control.egg-info/top_level.txt
