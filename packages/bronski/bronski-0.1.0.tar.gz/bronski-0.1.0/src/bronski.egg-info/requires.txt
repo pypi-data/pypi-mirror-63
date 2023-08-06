@@ -1,0 +1,2 @@
+coniter>=0.3.31
+django>=2.2
