@@ -1,0 +1,11 @@
+README.rst
+setup.py
+QGIS_plugins.xml.egg-info/PKG-INFO
+QGIS_plugins.xml.egg-info/SOURCES.txt
+QGIS_plugins.xml.egg-info/dependency_links.txt
+QGIS_plugins.xml.egg-info/entry_points.txt
+QGIS_plugins.xml.egg-info/not-zip-safe
+QGIS_plugins.xml.egg-info/requires.txt
+QGIS_plugins.xml.egg-info/top_level.txt
+qgis_plugins/__init__.py
+qgis_plugins/generate.py
