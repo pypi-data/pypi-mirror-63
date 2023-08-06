@@ -1,0 +1,7 @@
+setup.py
+moore_math_beta/__init__.py
+moore_math_beta.egg-info/PKG-INFO
+moore_math_beta.egg-info/SOURCES.txt
+moore_math_beta.egg-info/dependency_links.txt
+moore_math_beta.egg-info/not-zip-safe
+moore_math_beta.egg-info/top_level.txt
