@@ -1,0 +1,7 @@
+fileshard/__init__.py,sha256=kwE6BW8287FZknQ8O2luCRbC_4o_hb6BUZoXRwY4WlQ,288
+fileshard/file.py,sha256=rzWBYqYVRfXXa65ZAn1QrY62v10PykxBLpkOqHt1yOY,3070
+fileshard/shard.py,sha256=9HFbwRV5ktdgunNxbeX3TbSnKY5hu1ZIlfvXhTpUeN0,1361
+fileshard-1.0.5.dist-info/METADATA,sha256=iuL4vOpM_iEKUJf1CAV-6qWF33DxvET3KOb8xyAdp9I,421
+fileshard-1.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+fileshard-1.0.5.dist-info/top_level.txt,sha256=qmFEyHSE1ki1JJ89rFX16PMBPudzxKUPBHF5RZfNNK8,10
+fileshard-1.0.5.dist-info/RECORD,,
