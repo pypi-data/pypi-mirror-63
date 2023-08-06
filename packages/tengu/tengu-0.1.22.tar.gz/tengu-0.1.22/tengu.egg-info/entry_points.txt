@@ -1,0 +1,4 @@
+[console_scripts]
+tengu-fastapi = tengu.cli:fastapi_ep
+tengu-flask = tengu.cli:main_entrypoint
+
