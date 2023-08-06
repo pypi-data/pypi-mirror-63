@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: captcha2uploadcasesensitive
+Version: 0.2
+Summary: Upload your image and solve captche using the 2Captcha Service
+Home-page: https://github.com/headout/captcha2uploadcasesensitive/
+Author: Priyanka Biswas
+Author-email: priyanka.biswas@headout.com
+License: UNKNOWN
+Download-URL: https://github.com/Mirio/captcha2upload/tarball/0.1
+Keywords: 2captcha,captcha,Image Recognition
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Dist: requests
+
+UNKNOWN
+
+
