@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: ip2c
+Version: 0.1.0
+Summary: Another IPv4 address to Country Mapper, using IP2Location free database
+Home-page: https://github.com/itzmeanjan/ip2country
+Author: Anjan Roy
+Author-email: anjanroy@yandex.com
