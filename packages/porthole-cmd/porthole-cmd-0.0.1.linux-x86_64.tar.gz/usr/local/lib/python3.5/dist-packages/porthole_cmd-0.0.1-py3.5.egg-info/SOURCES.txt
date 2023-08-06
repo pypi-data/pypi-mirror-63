@@ -1,0 +1,13 @@
+README.md
+setup.py
+porthole/__init__.py
+porthole/client.py
+porthole/script.py
+porthole/server.py
+porthole/static/favicon.ico
+porthole/static/index.html
+porthole_cmd.egg-info/PKG-INFO
+porthole_cmd.egg-info/SOURCES.txt
+porthole_cmd.egg-info/dependency_links.txt
+porthole_cmd.egg-info/entry_points.txt
+porthole_cmd.egg-info/top_level.txt

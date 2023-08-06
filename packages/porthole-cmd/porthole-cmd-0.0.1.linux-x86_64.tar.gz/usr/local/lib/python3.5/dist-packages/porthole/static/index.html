@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            th,td {
+                border :1px solid;
+                padding : 2px;
+            }
+        </style>
+        <script>
+            var data;
+            var cpu;
+            var disks;
+            var $ = document.querySelector;
+            window.onload = ()=>{
+                //fetch df result
+                fetch("/df")
+                .then(res=> res.json())
+                .then(json => {
+                    data = json;
+                    document.querySelector("#diskTable .key").innerHTML = "";
+                    document.querySelector("#diskTable .values").innerHTML = "";
+                    for(key in data[0]){
+                        document.querySelector("#diskTable .key").innerHTML += "<th>"+key+"</th>";
+                    }
+                    for(value of data){
+                        document.querySelector("#diskTable .values").innerHTML += "<tr></tr>";
+                        for(key in data[0]){
+                            document.querySelector("#diskTable .values tr:last-child").innerHTML += "<td>"+value[key]+"</td>";
+                        }   
+                    }
+                }).catch(error => {
+                    console.error(error);
+                    alert("Failed fetching data;/df");
+                });
+                //fetch vmstat result
+                fetch("/vmstat")
+                .then(res=> res.json())
+                .then(json => {
+                    data = json;
+                    document.querySelector("#cpuTable .key").innerHTML = "";
+                    document.querySelector("#cpuTable .value").innerHTML = "";
+                    for(key in data){
+                        document.querySelector("#cpuTable .key").innerHTML += "<th>"+key+"</th>";
+                        document.querySelector("#cpuTable .value").innerHTML += "<td>"+data[key]+"</td>";
+                    }
+                }).catch(error => {
+                    console.error(error);
+                    alert("Failed fetching data;/vmstat");
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <h4>CPU / Memory</h4>
+            <table id="cpuTable">
+                <thead>
+                    <tr class="key">
+                        <th>a</th><th>a</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="value">
+                        <td>a</td><td>a</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+                <h4>Disk</h4>
+                <table id="diskTable">
+                        <thead>
+                            <tr class="key">
+                                <th>a</th><th>a</th>
+                            </tr>
+                        </thead>
+                        <tbody class="values">
+                            <tr>
+                                <td>a</td><td>a</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+    </body>
+</html>

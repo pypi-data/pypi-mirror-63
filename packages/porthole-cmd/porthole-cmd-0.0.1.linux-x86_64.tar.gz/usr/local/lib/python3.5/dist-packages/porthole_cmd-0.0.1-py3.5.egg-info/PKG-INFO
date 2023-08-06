@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: porthole-cmd
+Version: 0.0.1
+Summary: Simple OS monitoring server and client tool.
+Home-page: https://github.com/emuggie/porthole
+Author: emuggie
+Author-email: emuggie@gmail.com
+License: UNKNOWN
+Description: # porthole
+        Simple server reporting cpu and disk usage of os.
+        
+        ## Prerequistes.
+        Linux environments.
+        Python 2.7 and above.
+        
+        ## How to use.
+        #### Using pip
+        ---pypi distribution will be ready soon.
+        
+        #### Manual setup
+        Download distributes and extract and run.
+        ```
+        tar -xvf porthole-0.0.1.tar
+        cd porthole-0.0.1
+        python -m porthole.script serve
+        ```
+        ### Server
+        Run porthole server to OS which desired to be monitored.
+        #### pip 
+        ```
+        porthole serve -host [host/default:""] -p [port/default:8000]
+        ```
+        #### Manual setup
+        ```
+        python -m porthole.script serve -host [host/default:""] -p [port/default:8000]
+        ```
+        ### Client
+        #### Fetch response
+        Fetch
+        ```
+        porthole fetch -d [destination]
+        #OR
+        python -m porthole.script fetch -d [destination]
+        ```
+        
+        #### Test
+        Test
+        ```
+        porthole test -e [expr] -s [source] -d [destination]
+        #OR
+        python -m porthole.script test -e [expr] -s [source] -d [destination]
+        ```
+        
+        ### Help
+        ```
+        porthole -h
+        #OR
+        python -m porthole.script -h
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
