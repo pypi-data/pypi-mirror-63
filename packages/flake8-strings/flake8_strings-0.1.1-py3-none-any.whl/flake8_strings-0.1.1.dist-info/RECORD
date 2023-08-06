@@ -1,0 +1,9 @@
+flake8_strings/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+flake8_strings/errors.py,sha256=4YisWZcSjHmRbCjA_wHMriDDWT9OtNNQTJb_hBoOlNE,162
+flake8_strings/plugin.py,sha256=M-dIq7sr94gTbT5oGunoy0KdKSidqzmXVgNUG7z8iAg,443
+flake8_strings/visitor.py,sha256=Kxy2JZ3BnxpKAIDR24XluL7ir1Q2Aojd4UKoyNjXYOw,723
+flake8_strings-0.1.1.dist-info/entry_points.txt,sha256=oEtS_9VVb_ZN79TagnJZmef5UJcjLOEO3R3o0Qp9rLw,60
+flake8_strings-0.1.1.dist-info/LICENSE,sha256=WqPds9SuHfPsT_B7-bzp76FCpW-4s8SG86pHXfq0v1E,1064
+flake8_strings-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+flake8_strings-0.1.1.dist-info/METADATA,sha256=W8jEt3b3m-INekRP0u1oR6Ql2rUJhj2KVC3Dwsnta10,2160
+flake8_strings-0.1.1.dist-info/RECORD,,

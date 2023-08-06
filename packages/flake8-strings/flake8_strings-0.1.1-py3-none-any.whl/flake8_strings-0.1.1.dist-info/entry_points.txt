@@ -1,0 +1,3 @@
+[flake8.extension]
+STR=flake8_strings.plugin:StringsPlugin
+
