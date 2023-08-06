@@ -1,0 +1,3 @@
+[console_scripts]
+bakalari-token = bakalari_token:cli
+
