@@ -1,0 +1,3 @@
+recursive-include adsocket_transport_django *.py
+recursive-exclude adsocket_transport_django *.pyc
+recursive-exclude adsocket_transport_django * __pycache__

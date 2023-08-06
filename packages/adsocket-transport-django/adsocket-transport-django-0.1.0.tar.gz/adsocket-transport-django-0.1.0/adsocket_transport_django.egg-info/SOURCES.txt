@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adsocket_transport_django.egg-info/PKG-INFO
+adsocket_transport_django.egg-info/SOURCES.txt
+adsocket_transport_django.egg-info/dependency_links.txt
+adsocket_transport_django.egg-info/requires.txt
+adsocket_transport_django.egg-info/top_level.txt
+adsocket_transport_django.egg-info/zip-safe
