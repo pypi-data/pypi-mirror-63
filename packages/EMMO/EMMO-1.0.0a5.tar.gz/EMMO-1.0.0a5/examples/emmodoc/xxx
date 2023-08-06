@@ -1,0 +1,4668 @@
+--------------
+     Neutron isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleon isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Proton isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronCloud isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleus isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleus hasSpatialDirectPart some Nucleon
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Molecule isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BondedAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atom isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Subatomic isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandaloneAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Solid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Continuum isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     IonAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Fluid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NeutralAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gluon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massive isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Electron isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Photon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quark isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massless isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graviton isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vacuum isA Field
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Field isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Field hasTemporalPart only Field
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     Material isA Matter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA Material
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matter isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matter hasTemporalPart only Matter
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     AlgebricEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inequality isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equation isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialRelation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DefiningEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     FunctionDefinition isA DefiningEquation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Polynomial isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricExpression isA Expression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticExpression isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Existent isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Existent hasTemporalDirectPart some State
+    kw: {'color': 'magenta', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     Existent hasTemporalDirectPart only State
+    kw: {'color': 'magenta', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     PrefixedUnit isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     State isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIExactConstant isA ExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousEfficacy isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PlanckConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpeedOfLightInVacuum isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BoltzmannConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AvogadroConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ExactConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA ElectricCharge
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricResistance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Force isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radioactivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Frequency isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA Frequency
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricConductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Power isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pressure isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AbsorbedDose isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Illuminance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricPotential isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCharge isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CatalyticActivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQDerivedQuantity isA DerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Energy isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DoseEquivalent isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFluxDensity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CelsiusTemperature isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Capacitance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SolidAngle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Angle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mass isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ThermodynamicTemperature isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQBaseQuantity isA BaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Length isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountOfSubstance isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrent isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Time isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensity isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     OrdinalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ConventionalQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ModelledQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yocto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nano isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Giga isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mega isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pico isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yotta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIMetricPrefix isA MetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Peta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Centi isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zepto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zetta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deci isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tera isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hecto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Femto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exa isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deka isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilo isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubMultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIPrefixedUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Joule isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DegreeCelsius isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Steradian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lumen isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Siemens isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Watt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hertz isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Becquerel isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Farad isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Newton isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Henry isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ohm isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Volt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Coulomb isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Katal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tesla isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sievert isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lux isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gray isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pascal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Weber isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mole isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kelvin isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilogram isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Candela isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Second isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA MicroUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterM isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MicroUnit isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     GreekSmallLetterMu isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA LatinSmallLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA LatinCapitalLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Space isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinCapitalLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     OffSystemUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentDerivedUnit isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitOne isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedUnit isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit hasSpatialDirectPart exactly 1 UnitSymbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     NonPrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SINonCoherentDerivedUnit isA SINonCoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA DerivedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit Inverse(hasSign) some DerivedUnit
+    kw: {'color': 'orange', 'constraint': 'false', 'arrowhead': 'inv'}
+
+--------------
+     SINonCoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Real isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Integer isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Boolean isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     InternationalSystemOfQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalConstant isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerLengthSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DimensionOne isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityPerSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerAmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTemperatureSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CubicTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityCubicTimePerMassLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuarticTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TemperatureDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsDimension isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ReferenceUnit isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandardUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity hasReferenceUnit exactly 1 ReferenceUnit
+    kw: {'color': 'darkgreen', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     MetrologicalSymbol isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ProcedureUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exponent isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DifferentialOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Laplacian isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Multiplication isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gradient isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticOperator isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Division isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Minus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DataBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AtomisticModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsBasedModel hasSpatialPart some PhysicsEquation
+    kw: {'color': 'blue', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     MesoscopicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ContinuumModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Number isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalOperator isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equals isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant Inverse(hasVariable) only Numerical
+    kw: {'color': 'orange', 'constraint': 'false', 'style': 'dashed', 'arrowhead': 'inv'}
+
+--------------
+     Array isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matrix isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vector isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Parameter isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable Inverse(hasVariable) some Mathematical
+    kw: {'color': 'orange', 'constraint': 'false', 'style': 'dashed', 'arrowhead': 'inv'}
+
+--------------
+     MathematicalModel isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Unknown isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Numerical isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsDimension isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UTF8 isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetrologicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitOne isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Point isA 0-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sphere isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Circle isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     1-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     3-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Torus isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     2-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Curve isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     0-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plane isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Line isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     EuclideanSpace isA 3-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mathematical isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Language isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbol isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pictorial isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbolic isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition hasSpatialDirectPart some Symbolic
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Geometrical isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String hasSpatialDirectPart some Symbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     String hasSpatialDirectPart only Symbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Metrological isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Acoustical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graphical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Speech isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Noise isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Music isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Experiment isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Experiment hasParticipant some PhysicalPhenomenon
+    kw: {'color': 'red', 'constraint': 'false'}
+
+--------------
+     Theorization isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiosis isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observation isA Semiosis
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Measurement isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalPhenomenon isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Manufacturing isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalModel isA Model
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Model isA Icon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ConventionalQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ModelledQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ObjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NominalProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Parameter isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Theory isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Property isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Unknown isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NaturalLaw isA Theory
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA Constant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA Object
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementInstrument isA Observer
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observer isA Interpreter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Icon isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpretant isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Index isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Conventional isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Object isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sign isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpreter isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     System isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Engineered isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Component isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiotic isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Participant isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Participant Inverse(hasParticipant) some Process
+    kw: {'color': 'red', 'constraint': 'false', 'arrowhead': 'inv'}
+
+--------------
+     Process isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Process hasParticipant some Participant
+    kw: {'color': 'red', 'constraint': 'false'}
+
+--------------
+     Reductionistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physicalistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Holistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perceptual isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Elementary
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Elementary hasTemporalPart only Elementary
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     Quantum isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     EMMO hasPart some Quantum
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Collection isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Collection hasMember some Item
+    kw: {'color': 'blue', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     Item isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perspective isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physical isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physical hasPart some Elementary
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Physical hasTemporalPart only Physical
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     Void isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Void hasPart only Void
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Elementary isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Elementary hasTemporalPart only Elementary
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     semiotical isA EMMORelation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     mereotopological isA EMMORelation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasInterpretant isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasConvention isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperty isA hasConvention
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPhysicsDimension isA hasProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasModel isA hasIcon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasIcon isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasIndex isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasVariable isA hasConvention
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSign isA semiotical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperParticipant isA hasParticipant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperParticipant isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatioTemporalDirectPart isA hasSpatioTemporalPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasTemporalDirectPart isA hasTemporalPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasQuantityValue isA hasSpatialDirectPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatioTemporalPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasMember isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasReferenceUnit isA hasSpatialDirectPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasParticipant isA hasPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatialDirectPart isA hasSpatialPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatialPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperPart isA hasPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasTemporalPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     encloses isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasOverlapWith isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     overcrosses isA hasOverlapWith
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPart isA encloses
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPart isA hasOverlapWith
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasContactWith isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     disconnected isA mereotopological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     connected isA mereotopological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantum isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     EMMO hasPart some Quantum
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Collection isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Collection hasMember some Item
+    kw: {'color': 'blue', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     Item isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perspective isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physical isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physical hasPart some Elementary
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Physical hasTemporalPart only Physical
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     Void isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Void hasPart only Void
+    kw: {'color': 'blue', 'constraint': 'false'}
+
+--------------
+     Elementary isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Elementary hasTemporalPart only Elementary
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     OrdinalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousEfficacy isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DataBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Joule isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exponent isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ProcedureUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NominalProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Experiment isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Coulomb isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Theorization isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     3-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hecto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilogram isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equals isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ThermodynamicTemperature isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massless isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Molecule isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     OffSystemUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Division isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialRelation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ohm isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA Object
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementInstrument isA Observer
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Existent isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQBaseQuantity isA InternationalSystemOfQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQBaseQuantity isA BaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Circle isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NonPrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Electron isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetrologicalSymbol isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetrologicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Icon isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sign isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MicroUnit isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pascal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Capacitance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mole isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Real isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Length isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountOfSubstance isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Measurement isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AvogadroConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Illuminance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA Constant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Centi isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zetta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atom isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIPrefixedUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIPrefixedUnit isA SINonCoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleus isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpretant isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mass isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radioactivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbol isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matter isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Unknown isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiotic isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerAmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Volt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Speech isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuarticTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Theory isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Energy isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Model isA Icon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Solid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SINonCoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFluxDensity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perspective isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricPotential isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quark isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Boolean isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ConventionalQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Music isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pico isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     InternationalSystemOfQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AbsorbedDose isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTemperatureSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Material isA Matter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsDimension isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matrix isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA MicroUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Laplacian isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DoseEquivalent isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandaloneAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     GreekSmallLetterMu isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CelsiusTemperature isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deka isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIMetricPrefix isA MetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilo isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Angle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AtomisticModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lumen isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Siemens isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleon isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpeedOfLightInVacuum isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandardUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observer isA Interpreter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equation isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kelvin isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticExpression isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityPerSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalConstant isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensity isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Giga isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Elementary
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observation isA Semiosis
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Candela isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedUnit isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Reductionistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Field isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Array isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tera isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DifferentialOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Femto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalOperator isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plane isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Component isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BondedAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Force isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Multiplication isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Object isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA Frequency
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Collection isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hertz isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantum isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massive isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SINonCoherentDerivedUnit isA SINonCoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     2-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Curve isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     0-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Time isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Elementary isA Physical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA ElectricCharge
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gluon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UTF8 isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Subatomic isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Item isA EMMO
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrent isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA LatinSmallLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pressure isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalPhenomenon isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbolic isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Numerical isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graphical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     1-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Proton isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Polynomial isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Manufacturing isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Space isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerLengthSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ModelledQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Steradian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ObjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiosis isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricExpression isA Expression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitOne isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinCapitalLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubMultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Noise isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tesla isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpreter isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physicalistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Continuum isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MesoscopicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Engineered isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exa isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SolidAngle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yocto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Point isA 0-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Parameter isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Becquerel isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Farad isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     FunctionDefinition isA DefiningEquation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CubicTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zepto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CatalyticActivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA DerivedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticOperator isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TemperatureDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ContinuumModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BoltzmannConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metrological isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Weber isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perceptual isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIExactConstant isA ExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ReferenceUnit isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Participant isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricResistance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterM isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentDerivedUnit isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Fluid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     EuclideanSpace isA 3-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Neutron isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Katal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NaturalLaw isA Theory
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graviton isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sphere isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DegreeCelsius isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Torus isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yotta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricConductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DefiningEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vacuum isA Field
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deci isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Conventional isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     System isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Photon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Second isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ExactConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NeutralAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nano isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DimensionOne isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mega isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Frequency isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gradient isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Power isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inequality isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityCubicTimePerMassLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     State isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Minus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA Material
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Line isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PlanckConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronCloud isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Watt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physical isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Newton isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Process isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Henry isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Language isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQDerivedQuantity isA InternationalSystemOfQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQDerivedQuantity isA DerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Holistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalModel isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalModel isA Model
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sievert isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lux isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gray isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     IonAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA LatinCapitalLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Void isA Item
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Number isA Numerical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Number isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Index isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Property isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Integer isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pictorial isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Peta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Geometrical isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mathematical isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vector isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Acoustical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCharge isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     connected isA mereotopological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatioTemporalDirectPart isA hasSpatioTemporalPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasInterpretant isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     overcrosses isA hasOverlapWith
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasQuantityValue isA hasSpatialDirectPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatioTemporalPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperty isA hasConvention
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPhysicsDimension isA hasProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasReferenceUnit isA hasSpatialDirectPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasContactWith isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatialDirectPart isA hasSpatialPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasParticipant isA hasPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasIcon isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasOverlapWith isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperPart isA hasPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     semiotical isA EMMORelation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     mereotopological isA EMMORelation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     disconnected isA mereotopological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSign isA semiotical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperParticipant isA hasParticipant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasProperParticipant isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasTemporalDirectPart isA hasTemporalPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPart isA encloses
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasPart isA hasOverlapWith
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasConvention isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasMember isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasModel isA hasIcon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasSpatialPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     encloses isA connected
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasIndex isA hasSign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasVariable isA hasConvention
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     hasTemporalPart isA hasProperPart
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Neutron isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleon isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Proton isA Nucleon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronCloud isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleus isA Subatomic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nucleus hasSpatialDirectPart some Nucleon
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Molecule isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BondedAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atom isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Subatomic isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandaloneAtom isA Atom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Solid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Continuum isA MaterialState
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     IonAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Fluid isA Continuum
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NeutralAtom isA StandaloneAtom
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gluon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massive isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Electron isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Photon isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quark isA Massive
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Massless isA ElementaryParticle
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graviton isA Massless
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vacuum isA Field
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Field isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Field hasTemporalPart only Field
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     Material isA Matter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA Material
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matter isA Physicalistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matter hasTemporalPart only Matter
+    kw: {'color': 'magenta', 'constraint': 'false'}
+
+--------------
+     AlgebricEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inequality isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equation isA Formula
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialRelation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DefiningEquation isA Equation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     FunctionDefinition isA DefiningEquation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Polynomial isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricExpression isA Expression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticExpression isA AlgebricExpression
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Existent isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Existent hasTemporalDirectPart some State
+    kw: {'color': 'magenta', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     Existent hasTemporalDirectPart only State
+    kw: {'color': 'magenta', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     PrefixedUnit isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     State isA Reductionistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialState isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA State
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA SymbolicComposition
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIExactConstant isA ExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousEfficacy isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PlanckConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpeedOfLightInVacuum isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BoltzmannConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AvogadroConstant isA SIExactConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ExactConstant isA PhysicalConstant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryCharge isA ElectricCharge
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricResistance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Force isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radioactivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Frequency isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     HyperfineTransitionFrequencyOfCs isA Frequency
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricConductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Power isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pressure isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AbsorbedDose isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Illuminance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricPotential isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCharge isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CatalyticActivity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQDerivedQuantity isA DerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Energy isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DoseEquivalent isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MagneticFluxDensity isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CelsiusTemperature isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Capacitance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Inductance isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousFlux isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SolidAngle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Angle isA ISQDerivedQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mass isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ThermodynamicTemperature isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ISQBaseQuantity isA BaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Length isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountOfSubstance isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrent isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Time isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensity isA ISQBaseQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     OrdinalQuantity isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ConventionalQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ModelledQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA Quantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yocto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Nano isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Giga isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mega isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pico isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Yotta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIMetricPrefix isA MetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Peta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Centi isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zepto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Zetta isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deci isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tera isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hecto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Femto isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exa isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Deka isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilo isA SIMetricPrefix
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubMultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIPrefixedUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MultipleUnit isA PrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Joule isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DegreeCelsius isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Steradian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lumen isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Siemens isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Watt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Hertz isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Becquerel isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Farad isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Newton isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Henry isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ohm isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Radian isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Volt isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Coulomb isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Katal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Tesla isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sievert isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Lux isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gray isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pascal isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Weber isA SISpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mole isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kelvin isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Kilogram isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Candela isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Second isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA SIBaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Micro isA MicroUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Metre isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterM isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MicroUnit isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     GreekSmallLetterMu isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Milli isA LatinSmallLetterM
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Atto isA LatinSmallLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinSmallLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Ampere isA LatinCapitalLetterA
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Space isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LatinCapitalLetterA isA UTF8
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     OffSystemUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentDerivedUnit isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitOne isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SICoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedUnit isA NonPrefixedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA SICoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PrefixedUnit hasSpatialDirectPart exactly 1 UnitSymbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     NonPrefixedUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SINonCoherentDerivedUnit isA SINonCoherentUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA DerivedUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit Inverse(hasSign) some DerivedUnit
+    kw: {'color': 'orange', 'constraint': 'false', 'arrowhead': 'inv'}
+
+--------------
+     SINonCoherentUnit isA SIUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnit isA MeasurementUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Real isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Integer isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Boolean isA Number
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DerivedQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     InternationalSystemOfQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseQuantity isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalConstant isA PhysicalQuantity
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerLengthSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DimensionOne isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityPerSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassPerSquareTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerAmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeSquareCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTemperatureSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     CubicTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PerTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LuminousIntensityCubicTimePerMassLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuarticTimeSquareCurrentPerMassSquareLengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     LengthDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AmountDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     TemperatureDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerCubicTimeCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassSquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectricCurrentDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SquareLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MassLengthPerSquareTimeDimension isA PhysicsDimension
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsDimension isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ReferenceUnit isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     StandardUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Quantity hasReferenceUnit exactly 1 ReferenceUnit
+    kw: {'color': 'darkgreen', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     MetrologicalSymbol isA Metrological
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ProcedureUnit isA ReferenceUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Exponent isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DifferentialOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Laplacian isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Multiplication isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Gradient isA DifferentialOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ArithmeticOperator isA AlgebricOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Division isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Minus isA ArithmeticOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AlgebricOperator isA MathematicalOperator
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     DataBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     AtomisticModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElectronicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsBasedModel isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsBasedModel hasSpatialPart some PhysicsEquation
+    kw: {'color': 'blue', 'constraint': 'false', 'style': 'dashed'}
+
+--------------
+     MesoscopicModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsEquation isA MathematicalModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ContinuumModel isA PhysicsBasedModel
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Number isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalOperator isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Equals isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA MathematicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant Inverse(hasVariable) only Numerical
+    kw: {'color': 'orange', 'constraint': 'false', 'style': 'dashed', 'arrowhead': 'inv'}
+
+--------------
+     Array isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Matrix isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Vector isA Array
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Parameter isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable Inverse(hasVariable) some Mathematical
+    kw: {'color': 'orange', 'constraint': 'false', 'style': 'dashed', 'arrowhead': 'inv'}
+
+--------------
+     MathematicalModel isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Unknown isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalQuantity isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Formula isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Expression isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Numerical isA Mathematical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicsDimension isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitSymbol isA MetrologicalSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UTF8 isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetrologicalSymbol isA Symbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     BaseUnit isA UnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     UnitOne isA BaseUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Point isA 0-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sphere isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Circle isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     1-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     3-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Torus isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     2-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Curve isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     0-manifold isA Geometrical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Plane isA 2-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Line isA 1-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     EuclideanSpace isA 3-manifold
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Mathematical isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Language isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbol isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Pictorial isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Symbolic isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SymbolicComposition hasSpatialDirectPart some Symbolic
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Geometrical isA Graphical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String isA Symbolic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     String hasSpatialDirectPart some Symbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     String hasSpatialDirectPart only Symbol
+    kw: {'color': 'darkgreen', 'constraint': 'false'}
+
+--------------
+     Metrological isA Language
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Acoustical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Graphical isA Perceptual
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Speech isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Noise isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Music isA Acoustical
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Experiment isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Experiment hasParticipant some PhysicalPhenomenon
+    kw: {'color': 'red', 'constraint': 'false'}
+
+--------------
+     Theorization isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiosis isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observation isA Semiosis
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Measurement isA Observation
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalPhenomenon isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Manufacturing isA Process
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MathematicalModel isA Model
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Model isA Icon
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ConventionalQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ModelledQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     QuantitativeProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasuredQuantitativeProperty isA QuantitativeProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SubjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ObjectiveProperty isA Property
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NominalProperty isA ObjectiveProperty
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Constant isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Parameter isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Variable isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Theory isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Property isA Conventional
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Unknown isA Variable
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MaterialLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     NaturalLaw isA Theory
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     PhysicalLaw isA NaturalLaw
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MetricPrefix isA Constant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIUnitSymbol isA Object
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SIBaseUnit isA SIUnitSymbol
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     MeasurementInstrument isA Observer
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Observer isA Interpreter
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SISpecialUnit isA SpecialUnit
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Icon isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpretant isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Index isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Conventional isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     SpecialUnit isA Sign
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Object isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Sign isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Interpreter isA Semiotic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     System isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Engineered isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Component isA Engineered
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Semiotic isA Participant
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Participant isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Participant Inverse(hasParticipant) some Process
+    kw: {'color': 'red', 'constraint': 'false', 'arrowhead': 'inv'}
+
+--------------
+     Process isA Holistic
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Process hasParticipant some Participant
+    kw: {'color': 'red', 'constraint': 'false'}
+
+--------------
+     Reductionistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Physicalistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Holistic isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Perceptual isA Perspective
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     ElementaryParticle isA Elementary
+    kw: {'arrowhead': 'empty'}
+
+--------------
+     Elementary hasTemporalPart only Elementary
+    kw: {'color': 'magenta', 'constraint': 'false'}Error producing PDF.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7833 ...l -\textgreater{} T0 L0 M0 I0 \$\Uptheta
+
