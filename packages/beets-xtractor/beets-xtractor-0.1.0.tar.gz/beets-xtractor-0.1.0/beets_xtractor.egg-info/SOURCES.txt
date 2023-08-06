@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+beets_xtractor.egg-info/PKG-INFO
+beets_xtractor.egg-info/SOURCES.txt
+beets_xtractor.egg-info/dependency_links.txt
+beets_xtractor.egg-info/requires.txt
+beets_xtractor.egg-info/top_level.txt
+beetsplug/xtractor/__init__.py
+beetsplug/xtractor/command.py
+beetsplug/xtractor/helper.py
+beetsplug/xtractor/version.py
