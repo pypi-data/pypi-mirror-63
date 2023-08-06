@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: lg-linter
+Version: 0.1.2
+Summary: A pre commit linter for cpp, python and sh.
+Home-page: https://github.com/lgulich/lg-linter
+Author: Lionel Gulich
+Author-email: lgulich@ethz.ch
+License: GPL-3.0
+Download-URL: https://github.com/lgulich/lg-linter/archive/v0.1.2b.tar.gz
+Description: ## Installation
+        Install with
+        ```sh
+        pip3 install lg-linter
+        ```
+        **Note:** This will install / overwrite the linter config files in your home directory.
+        
+        ## How to use
+        Inside your git repo run
+        ```sh
+        init_lg_linter
+        ```
+        The linter is now active and will be run before every commit.
+        If you want to remove the linter from your repo use
+        ```
+        deinit_lg_linter
+        ```
+        
+        **Pro Tip:** If the linter complains about stuff which clearly is wrong you can override him with
+        ```
+        git commit --no-verify
+        ```
+        Use with care, with great power comes great responsibility!
+        
+        For feature requests or bugs please drop an issue at https://github.com/lgulich/lg-linter.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
