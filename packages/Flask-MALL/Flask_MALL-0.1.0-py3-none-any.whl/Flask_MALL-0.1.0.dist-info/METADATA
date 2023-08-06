@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Flask-MALL
+Version: 0.1.0
+Summary: 基于flask的电商商城系统
+Home-page: https://github.com/luxp4588/flask-mall.git
+Author: python-xp
+Author-email: luxp4588@126.com
+License: MIT
+Keywords: flask extension development
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: alipay
+
+UNKNOWN
+
+
