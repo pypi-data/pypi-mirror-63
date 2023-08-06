@@ -1,0 +1,10 @@
+_nnpy.abi3.so,sha256=mjHyild9HfV_p2XlKs6BAZW5eQSWDCDJC9e6LncqDE4,474224
+nnpy/__init__.py,sha256=K4wejcwjpvGPOodVVyHX56pFRqNMzlRKL2iO2mr05OI,518
+nnpy/constants.py,sha256=rwPeOYE8q_Oal-OQ5stFeNo6ZfX6ysENIWpbUSvrQdQ,2013
+nnpy/errors.py,sha256=XErbXBY_Hvt9aN-DbabQsI5FzVSbRVkHI5zM7sTv13I,476
+nnpy/socket.py,sha256=wDSpXTMkSBROW7IeG23xbMG7pTx5Fin_W8gIN_2Ubn8,3235
+nnpy/tests.py,sha256=EHyNZFq7VSR_tCGzax6TM3xJZVceNyVjRz1Voh35AFs,1247
+nnpy_bundle-1.4.2.dist-info/METADATA,sha256=oHkJjIIHg_ipzKnB3kl3GCUmh6Y5RuIH6cOhoB6USxo,1668
+nnpy_bundle-1.4.2.dist-info/RECORD,,
+nnpy_bundle-1.4.2.dist-info/WHEEL,sha256=i6k7eASF0PYkxTk8xYGDo2lgmvHxPOJop87WoO3c38E,104
+nnpy_bundle-1.4.2.dist-info/top_level.txt,sha256=J0-7yLrdOmVM4bEfRwXhOvOjDsB5FrQFHmRcIg481ao,11
