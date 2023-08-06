@@ -1,0 +1,15 @@
+{% comment %}
+    If you want to opt-in to all of qnc_crud's features, include this template on your pages.
+{% endcomment %}
+{% load static %}
+{% include "qnc_crud/reload_if_necessary.html" %}
+<script defer src="{% static "qnc_crud/reload_restoration.js" %}"></script>
+<script defer src="{% static "qnc_crud/ajax_all_forms.js" %}"></script>
+<script defer src="{% static "qnc_crud/set_form_errors.js" %}"></script>
+<script defer src="{% static "qnc_crud/smart_back_button.js" %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static "qnc_crud/qnc_crud.css" %}">
+
+{# utils.js is the only one of our scripts that requires jquery #}
+{# If you're already loading jquery, then don't use this template - load the scripts you want individually #}
+<script defer src="{% static "qnc_crud/jquery-3.4.1.min.js" %}"></script>
+<script defer src="{% static "qnc_crud/utils.js" %}"></script>
