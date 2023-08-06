@@ -1,0 +1,23 @@
+
+body{
+/*	background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+	background-repeat: no-repeat; */
+	background-size: cover;
+	/* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+
+	
+}
+h2{
+	margin: 0px; 
+	padding: 0px; 
+	color: #fff; 
+	text-align: center;
+}
+h3{
+        margin: 0px;
+        padding: 0px;
+        color: #fff;
+	    text-align: center;
+	    word-spacing: 10px;
+}
+

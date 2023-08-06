@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    {% load static %}
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{%static 'filesnow/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'filesnow/css/indexStyle.css' %}">
+
+    <title>FilesNow</title>
+  </head>
+  <body class="img-fluid" style="background-image: url({%static 'filesnow/img/ship.jpeg' %});">
+		   <div class="container" style="box-sizing: border-box; padding: 40px; position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%); width: 400px; box-sizing: border-box; background: rgba(0,0,0,.8); box-shadow: 0 15px 25px rgba(0,0,0,.5); border-radius: 10px;">
+        <div>
+          <span><img class="mx-auto rounded-circle d-block" style="background-color: white; margin-bottom: 14px;" src="{%static 'filesnow/img/s3.png' %}"></span>
+        </div> 
+			   <h3>FilesNow </h3>
+		<div class="input-group mt-5 mb-3">
+                      <input type="text" id="fill" class="form-control" placeholder="Tracking id ..." required="">
+                        <div class="input-group-append">
+                        <button class="btn btn-info" type="submit" id="SearchBtn"><i class="fas fa-search"></i>  Search</button>
+                	</div>
+		</div>
+    <div class="d-flex justify-content-center mt-5 mb-4" id="emptyTofill"></div>
+    <p class="d-flex justify-content-center" id=deltLogo></p>
+    <p class="d-flex justify-content-center" id=deltMsg></p>
+  	 </div>
+
+	<!--  <div class="container-sm border" style="background-color: #eee; width: 576px;"> -->
+
+<!--
+    <button type="button" id="SubBtn" class="btn btn-primary btn-lg">Submit</button>
+    <button type="button" id="ShowBtn" class="btn btn-secondary btn-lg">Show</button>
+    <div class="mx-auto" id="xyz" > </div>
+-->
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{%static 'filesnow/jquery/jquery-3.4.1.slim.min.js' %}"></script>
+    <script src="{%static 'filesnow/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{%static 'filesnow/js/ajax.js' %}"></script>
+
+
+  </body>
+</html>
