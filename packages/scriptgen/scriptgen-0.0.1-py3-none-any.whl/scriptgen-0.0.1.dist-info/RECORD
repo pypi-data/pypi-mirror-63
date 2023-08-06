@@ -1,0 +1,14 @@
+scriptgen/__init__.py,sha256=YMeCWzKZeRN_xL37-btnJ5H3W5Y3r8fBmhvI7-FjCe4,223
+scriptgen/core/__init__.py,sha256=Vgx5Mh5uwa-03mPgJtiBk3RNV03dfoMQ2g_mYKgqIFk,254
+scriptgen/core/_string_builder.py,sha256=V0CPNmj5u7t_BT-pqjSQHjN2fvOjjasDbjQI9LCfOAI,4140
+scriptgen/core/_utils.py,sha256=Y__c9wzbZyNJGMFJBPMyECvJcyMFiEod7wfvDgSosKM,2292
+scriptgen/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scriptgen/templates/csharp/__init__.py,sha256=zcDgeGK7tVFw9Q_rC3PBCjJWjSo3K5Y2r149eYdbamc,382
+scriptgen/templates/csharp/_csharp.py,sha256=jBPelfu6gYj1T1azSE8Bc1aIo9_sLoTtB8oZ_VIuvA0,5059
+scriptgen/templates/markdown/__init__.py,sha256=f6ItXrdRBCDYsdl11IkMI9FeN8EiLVWRgxZlg-Z97PM,168
+scriptgen/templates/markdown/_markdown.py,sha256=4wkGeGj9Ve3XhcVoXEo_w0t_CvnsRQcF9R2ZOjQAvXs,817
+scriptgen-0.0.1.dist-info/LICENSE.txt,sha256=9a-ZDYV1CNzGT2guWA6P2hnB9rHw0BZA9TUFa07QPMw,1066
+scriptgen-0.0.1.dist-info/METADATA,sha256=76sJ-uqxL7qAgUFhntBSv7IKH-bv7zYvQNVXE_ppZgo,5143
+scriptgen-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+scriptgen-0.0.1.dist-info/top_level.txt,sha256=_4r5HwgUvGP8CPVFgMwKlhvoa7tRbxLRelLJ3N4CDbo,10
+scriptgen-0.0.1.dist-info/RECORD,,
