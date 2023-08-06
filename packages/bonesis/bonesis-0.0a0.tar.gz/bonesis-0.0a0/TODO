@@ -1,0 +1,28 @@
+## Milestone 1
+
+Views:
+- bn with projections on nodes
+- bns + configurations
+
+General:
+- optimization statements
+
+Language:
+- equalities
+- shortcut for differentation trees
+
+Tests
+
+Jupyter menu
+
+## Milestone 2
+
+- properties under mutations
+- infer mutations
+
+Views:
+- diversity with project
+- diversity "try hard"
+- nodes
+- raw in files (with resume)
+
