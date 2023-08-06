@@ -1,0 +1,15 @@
+quare/__init__.py,sha256=_2wE1zyWheDhMsCccxtvV4E-EseAOpTtUSu2wGkTjuE,158
+quare/cli.py,sha256=JG92kSVYo3YwbWc-5nQR-gLFknjN6VjD7ky8f4_Os-0,5524
+quare/config.py,sha256=8FLB6XLXUGfLKGGXBKB_JvichWCnWTLTmIcKtSO3afQ,1452
+quare/exceptions.py,sha256=t794Y8gB8j8ipNtZ3ta-Qi5QnGLSWMRgcufiDzbg3DQ,301
+quare/quare.py,sha256=O6jgSRu6w_0ZON43zvU3mDEZXeh3-9YxAYtEd2JjseY,2409
+quare/quip.py,sha256=TG_5m0MKBjNQM0xS_A6iKxdXj_pgpVonI7_FtT_f0VQ,32980
+quare/quip_classes.py,sha256=cHueTEsXqzCR1azqnk_m6aOX5iPg-Zgxy-VYkHKwmgI,6399
+quare/quip_websocket.py,sha256=WjRfFNc5AwlklXw21QwwhQk63kLaoEgOMvv9CU8DfNw,1309
+quare/ui_messages.py,sha256=WqMqfTHIfUJxLPBIaKuDk8RSLS2axBi0pMTb4I5lfm4,739
+quare/utils.py,sha256=KL3-Z7TqMY52JgMJhQ1pp5ixuMigBsO3vFUAQiPlBaA,532
+quare-0.2.4.dist-info/entry_points.txt,sha256=hxb7V-xThaJAJa-jfjcgp4GHyvATvIVzSgHGqX4m_pA,40
+quare-0.2.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+quare-0.2.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+quare-0.2.4.dist-info/METADATA,sha256=8e8Htp6jUbA_FML8N5bgq4LSQhdx17NeibuDiflL0FY,6011
+quare-0.2.4.dist-info/RECORD,,
