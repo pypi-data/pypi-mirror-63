@@ -1,0 +1,9 @@
+README.md
+setup.py
+nikitapdf/__init__.py
+nikitapdf/pdf2image.py
+nikitapdf/pdf2text.py
+nikitapdf.egg-info/PKG-INFO
+nikitapdf.egg-info/SOURCES.txt
+nikitapdf.egg-info/dependency_links.txt
+nikitapdf.egg-info/top_level.txt
