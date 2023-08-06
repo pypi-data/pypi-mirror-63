@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: django-urlconf-export
+Version: 1.0.0
+Summary: Make URLs for your website from anywhere.
+Home-page: https://github.com/lyst/django-urlconf-export
+Author: Lyst Ltd.
+Author-email: devs@lyst.com
+License: UNKNOWN
+Description: Exports your Django website URLconf in a JSON format, and imports it in other services.
+Platform: UNKNOWN
+Requires-Python: >=3.6
