@@ -1,0 +1,7 @@
+setup.py
+kaiser/__init__.py
+kaiser.egg-info/PKG-INFO
+kaiser.egg-info/SOURCES.txt
+kaiser.egg-info/dependency_links.txt
+kaiser.egg-info/not-zip-safe
+kaiser.egg-info/top_level.txt
