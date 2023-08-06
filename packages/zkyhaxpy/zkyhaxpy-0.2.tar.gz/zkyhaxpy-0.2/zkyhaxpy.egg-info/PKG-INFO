@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zkyhaxpy
+Version: 0.2
+Summary: A python package for personal utilities
+Home-page: https://github.com/surasakcho/zkyhaxpy
+Author: Surasak Choedpasuporn
+Author-email: surasak.cho@gmail.com
+License: UNKNOWN
+Description: This is pierpy package.
+        zkyhax is a python package for personal usage.
+        It provides a lot of useful tools for working as data scientist.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
