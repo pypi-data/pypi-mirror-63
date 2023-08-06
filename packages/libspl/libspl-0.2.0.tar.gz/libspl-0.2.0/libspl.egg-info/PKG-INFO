@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: libspl
+Version: 0.2.0
+Summary: Python utility library for the SPLIWACA project
+Home-page: https://github.com/Starwort/LibSPLIWACA
+Author: Starwort
+License: GNU GPL 3
+Project-URL: Code, https://github.com/Starwort/LibSPLIWACA
+Project-URL: Issue tracker, https://github.com/Starwort/LibSPLIWACA/issues
+Description: UNKNOWN
+Keywords: LibSPLIWACA SPLIWACA splw
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0

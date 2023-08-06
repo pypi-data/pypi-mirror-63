@@ -1,0 +1,14 @@
+README.md
+setup.py
+libspl.egg-info/PKG-INFO
+libspl.egg-info/SOURCES.txt
+libspl.egg-info/dependency_links.txt
+libspl.egg-info/top_level.txt
+libsplw/__init__.py
+libsplw/constants.py
+libsplw/decorators.py
+libsplw/exceptions.py
+libsplw/functions.py
+libsplw/splw_types.py
+libsplw/structures.py
+libsplw/stdlib/__init__.py
