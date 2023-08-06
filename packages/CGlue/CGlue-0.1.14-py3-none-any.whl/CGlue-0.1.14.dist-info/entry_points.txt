@@ -1,0 +1,4 @@
+[console_scripts]
+cglue = cglue.cli:cli
+cglue-3.8 = cglue.cli:cli
+
