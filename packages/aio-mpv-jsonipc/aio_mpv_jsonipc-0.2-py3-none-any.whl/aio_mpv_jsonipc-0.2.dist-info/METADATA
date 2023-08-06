@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aio-mpv-jsonipc
+Version: 0.2
+Summary: Asyncio-compatible MPV JSON IPC client
+Home-page: https://github.com/marios8543/aio-mpv-jsonipc
+Author: marios8543
+Author-email: marios8543@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# aio-mpv-jsonipc
+## Check the docstrings for documentation
+
