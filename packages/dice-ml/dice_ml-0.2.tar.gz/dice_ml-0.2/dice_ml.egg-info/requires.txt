@@ -1,0 +1,5 @@
+numpy
+pandas
+scikit-learn
+tensorflow>=1.13
+h5py
