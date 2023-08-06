@@ -1,0 +1,11 @@
+tinydb_base.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinydb_base/__init__.py,sha256=tGf0PvvormI9zT5g5PawqOhtsogLmb9TFGjdv4cUSW0,113
+tinydb_base/cryptography.py,sha256=3mCR08KqyDnieSJKWQBVz7WatQ4RuaG_6GH4iEH4tqc,4668
+tinydb_base/data.py,sha256=TkVF6NKlSv_9JQKHx4IPIqNJ_tk_KXMgFWhB2qMx4qM,2399
+tinydb_base/factory.py,sha256=DlfhwynX2HiuBi09ahr-ghe8cpXe5IwBEVtiofbDn0g,655
+tinydb_base/output.py,sha256=aUHMRgoG0P2LO9L-0qbNzVWfFNCsYXJNBbRPLCD57f8,655
+tinydb_baseClass-0.0.2.dist-info/LICENSE.txt,sha256=edWqbvbq41YM-OEDcOVrqL8PGGUwNHjohXJpwN8svsU,1092
+tinydb_baseClass-0.0.2.dist-info/METADATA,sha256=mXv9FVrEO9d7shUyOQf7Jtra8rGi3PTW-JuvOJIVMwc,2495
+tinydb_baseClass-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tinydb_baseClass-0.0.2.dist-info/top_level.txt,sha256=HGvcjYm4PQq4GAfNpTUDXc-RpurzVW4F8DM-g1CBbtM,12
+tinydb_baseClass-0.0.2.dist-info/RECORD,,
