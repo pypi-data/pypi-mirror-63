@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kan-sdk
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/kan-fun/kan-python
+Author: kan
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Install Kan SDK
+```bash
+pip install kan-sdk
+```
+
+# Quick Start
+```python
+import kan_sdk
+
+kan = kan_sdk.Client(ak, sk)
+kan.email(topic='topic', msg='msg')
+```
+
