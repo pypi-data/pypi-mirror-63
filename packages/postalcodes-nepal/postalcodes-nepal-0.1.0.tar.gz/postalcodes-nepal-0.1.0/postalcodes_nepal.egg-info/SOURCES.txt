@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+postalcodes_nepal/__init__.py
+postalcodes_nepal/postalcodes.py
+postalcodes_nepal.egg-info/PKG-INFO
+postalcodes_nepal.egg-info/SOURCES.txt
+postalcodes_nepal.egg-info/dependency_links.txt
+postalcodes_nepal.egg-info/top_level.txt
+postalcodes_nepal/dataset/postalcodes.json
