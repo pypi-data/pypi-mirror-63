@@ -1,0 +1,3 @@
+[console_scripts]
+viewmask=bin.cli:cli
+
