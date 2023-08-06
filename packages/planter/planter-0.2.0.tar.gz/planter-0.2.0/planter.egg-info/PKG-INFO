@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: planter
+Version: 0.2.0
+Summary: compile dict (json/yaml/toml/everything) to tree
+Home-page: https://github.com/williamfzc/planter
+Author: williamfzc
+Author-email: fengzc@vip.qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
