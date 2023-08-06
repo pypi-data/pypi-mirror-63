@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+arcade/__init__.py
+arcade/commands.py
+arcade/create_artifacts.py
+arcade/definitions.py
+arcade/errors.py
+arcade/main.py
+arcade/parsing.py
+arcade/utils.py
+arcade_generator.egg-info/PKG-INFO
+arcade_generator.egg-info/SOURCES.txt
+arcade_generator.egg-info/dependency_links.txt
+arcade_generator.egg-info/entry_points.txt
+arcade_generator.egg-info/requires.txt
+arcade_generator.egg-info/top_level.txt
