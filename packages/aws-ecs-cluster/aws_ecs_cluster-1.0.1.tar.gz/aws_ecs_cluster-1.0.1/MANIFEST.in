@@ -1,0 +1,4 @@
+include *.txt
+recursive-include aws_ecs_cluster *.py
+recursive-include aws_ecs_cluster *.zip
+recursive-include aws_ecs_cluster *.yml
