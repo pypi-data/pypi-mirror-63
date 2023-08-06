@@ -1,0 +1,7 @@
+README.md
+setup.py
+elementally/__init__.py
+elementally.egg-info/PKG-INFO
+elementally.egg-info/SOURCES.txt
+elementally.egg-info/dependency_links.txt
+elementally.egg-info/top_level.txt
