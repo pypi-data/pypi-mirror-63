@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: modeanalytics
+Version: 0.0.1
+Summary: Django Mode Analytics Whitelabel
+Home-page: https://github.com/jesuejunior/django-modeanalytics
+Author: jesue Junior
+Author-email: jesuesousa@gmail.com
+License: MIT
+Description: # Django Mode Analytics
+        
+        
+        
+Keywords: mode analytics data dashboard bi
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
