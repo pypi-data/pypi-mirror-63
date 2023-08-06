@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+weatherlab/__init__.py
+weatherlab/extension.py
+weatherlab/magics.py
+weatherlab/version.py
+weatherlab.egg-info/PKG-INFO
+weatherlab.egg-info/SOURCES.txt
+weatherlab.egg-info/dependency_links.txt
+weatherlab.egg-info/not-zip-safe
+weatherlab.egg-info/requires.txt
+weatherlab.egg-info/top_level.txt

@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: weatherlab
+Version: 0.1.0
+Summary: Simple poker game in pure python
+Home-page: https://gitlab.com/zodiacfireworks/weatherlab-extension
+Author: Martin Vuelta
+Author-email: Martin Vuelta <zodiacfireworks@softbutterfly.io>
+License: UNKNOWN
+Download-URL: https://gitlab.com/zodiacfireworks/weatherlab-extension/archive/0.1.0.tar.gz
+Description: # WeatherLab
+        
+        An IPython kernel extension to interact with WeatherLab JupyterLab extension to check weather conditions with data from OpenWeatherMap.
+        
+        ![WeatherLab](https://gitlab.com/zodiacfireworks/weatherlab/-/raw/master/weatherlab.gif 'WeatherLab')
+        
+        ## Requirements
+        
+        - weatherlab >= 0.2.0
+        - ipython >= 7.13.0
+        
+        ## Install
+        
+        ```bash
+        pip install weatherlab
+        jupyter labextension install weatherlab
+        ```
+        
+        ## Usage
+        
+        This package can be loades using the following command
+        
+        ```
+        %load_ext weatherlab
+        ```
+        
+        You can access to the data fetched by WeaterLab extension using the magic line
+        
+        ```
+        %weather_lab_data
+        ```
+        
+        or accessing directy to the variable
+        
+        ```
+        WEATHER_LAB_DATA
+        ```
+        
+        ## Contributing
+        
+        ### Install
+        
+        ```bash
+        # Clone the repo to your local environment
+        # Move to weatherlab directory
+        # Install dependencies
+        poetry install
+        # Link your development version of the extension with JupyterLab
+        poetry run pip install -e .
+        # Launch jupyter and start making changes
+        jupyter lab
+        ```
+        
+Keywords: Poker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: ipython
+Description-Content-Type: text/markdown
