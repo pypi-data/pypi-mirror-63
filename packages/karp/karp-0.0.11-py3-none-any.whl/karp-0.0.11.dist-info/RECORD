@@ -1,0 +1,10 @@
+karp/__init__.py,sha256=C6HYIrMzmTrBPIwUCyC5x78r4alev7f5e3tQCHMORzo,19
+karp/client.py,sha256=--U3g7GN-aGoJZ1UMQFdTz4C-SnlVGVKqV02ssBqSXY,4250
+karp/request.py,sha256=QFLPmTcvup17OZSYroVfLw-8kQzbfX5oNYIero14vT8,3372
+karp/response.py,sha256=UH7JFnJNZyPSNy9hUj7iHfz8_nShH4sacgxZ3vZcHwA,2920
+karp/server.py,sha256=Av3caQejtPt_-uL46oG_x-LcgtDy_h7TruBr87hIS-U,6626
+karp/utils.py,sha256=231IBtg5ZHKLDaqfu-bDX7EVy1jKYhZZcskP0EoSjF8,1175
+karp-0.0.11.dist-info/METADATA,sha256=8XajS9dzcW-UB61Xuw04FAodRA4uguwwzdL-t3RbChs,3597
+karp-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+karp-0.0.11.dist-info/top_level.txt,sha256=HvVJZoKFVwIyoDagUenq-ALs9hWr63RJYnt_sFn6stI,5
+karp-0.0.11.dist-info/RECORD,,
