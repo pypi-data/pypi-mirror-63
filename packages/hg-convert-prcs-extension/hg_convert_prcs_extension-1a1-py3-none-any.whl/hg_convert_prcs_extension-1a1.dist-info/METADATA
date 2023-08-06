@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hg-convert-prcs-extension
+Version: 1a1
+Summary: PRCS source for the Mercurial convert extension.
+Home-page: https://vx68k.bitbucket.io/hg-convert-prcs/
+Author: Kaz Nishimura
+Author-email: kazssym@linuxfront.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: mercurial (>=4.7)
+Requires-Dist: prcslib (>=1.0b4)
+
+# Introduction
+
+This directory contains the source code for the
+[PRCS](http://prcs.sourceforge.net/) source add-on for the [Convert
+extension](http://mercurial.selenic.com/wiki/ConvertExtension) of
+[Mercurial](http://mercurial.selenic.com/).
+
+## Required software
+
+This extension requires the following software:
+
+-   A working PRCS command which is available
+    [here](https://bitbucket.org/kazssym/prcs), and
+-   Python module prcslib in
+    [prcs2hg](https://bitbucket.org/kazssym/prcs2hg) 2.0 which is not
+    released yet.
+
+
