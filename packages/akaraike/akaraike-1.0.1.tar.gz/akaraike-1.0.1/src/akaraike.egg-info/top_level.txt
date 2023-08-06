@@ -1,0 +1,3 @@
+generate_password
+set_charset_length
+set_charset_types
