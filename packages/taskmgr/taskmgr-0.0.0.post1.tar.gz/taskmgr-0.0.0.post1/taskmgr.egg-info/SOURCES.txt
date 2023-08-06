@@ -1,0 +1,10 @@
+README.md
+setup.py
+engine/__init__.py
+modules/Docker.py
+modules/__init__.py
+taskmgr.egg-info/PKG-INFO
+taskmgr.egg-info/SOURCES.txt
+taskmgr.egg-info/dependency_links.txt
+taskmgr.egg-info/requires.txt
+taskmgr.egg-info/top_level.txt
