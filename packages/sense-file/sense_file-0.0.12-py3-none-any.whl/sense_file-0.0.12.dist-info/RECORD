@@ -1,0 +1,9 @@
+sense_file/__init__.py,sha256=6P9Mr8D3GovC5u0XCM5oPo0t9nJ5EpPqjop1Mt77ah4,63
+sense_file/decorate.py,sha256=Itp_FjpQmmXyn1HcbH8Q7YTmwaRqHPQaSWBVTGgRZ9k,2313
+sense_file/load_file.py,sha256=Sw_S7Ii34IQEhfaQSEFQKLC4oFqwAnia-XLqBe64dO0,1657
+sense_file/s3_file.py,sha256=3yg99uTZKl8wcy9MrYXS8EwJmd6VDjdymHXxgHC7TPk,7217
+sense_file/ttt.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sense_file-0.0.12.dist-info/METADATA,sha256=uI0O7w_wj7yuf2Kpv-q-pE8BxxrKRje_loe69LauviY,645
+sense_file-0.0.12.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sense_file-0.0.12.dist-info/top_level.txt,sha256=opIToqIA9N2BmRXdoER0sadHTBkWaUQQApkAXYGpZ1o,11
+sense_file-0.0.12.dist-info/RECORD,,
