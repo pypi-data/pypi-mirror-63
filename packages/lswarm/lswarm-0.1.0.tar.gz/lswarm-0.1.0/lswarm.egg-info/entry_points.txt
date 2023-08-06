@@ -1,0 +1,3 @@
+[console_scripts]
+lswarm = lswarm.cli:main
+
