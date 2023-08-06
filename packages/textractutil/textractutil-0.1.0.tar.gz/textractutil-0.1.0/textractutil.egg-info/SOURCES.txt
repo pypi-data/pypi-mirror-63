@@ -1,0 +1,9 @@
+README.md
+setup.py
+textractutil/__init__.py
+textractutil/advance_parser.py
+textractutil/response_parser.py
+textractutil.egg-info/PKG-INFO
+textractutil.egg-info/SOURCES.txt
+textractutil.egg-info/dependency_links.txt
+textractutil.egg-info/top_level.txt
