@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: keniMotivate
+Version: 0.0.1
+Summary: a Python module to motivate you
+Home-page: UNKNOWN
+Author: keni
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Requires: guizero
