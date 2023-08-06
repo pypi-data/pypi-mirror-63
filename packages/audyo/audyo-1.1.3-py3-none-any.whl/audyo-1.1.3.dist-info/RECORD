@@ -1,0 +1,10 @@
+audyo/__init__.py,sha256=uvdErSe_V2EwozGYhWO8tNHLk6DGckwYbG0w57tVIDQ,363
+audyo/microphone.py,sha256=gk2_l8VBOOTgNEiXsGROXjXrv3iOcLRes_K1Rb1UIWo,5241
+audyo/speaker.py,sha256=-Vrwnxqt_3DNpmEEySCsTmhXUfODLN66OFWzHJ7EnZg,835
+audyo-1.1.3.dist-info/AUTHORS.rst,sha256=GF8QibYgye5z8L0AvCQCyCMMNOncKCRxYmP-gEHF6QI,88
+audyo-1.1.3.dist-info/LICENSE.txt,sha256=tZMIkrsZf205mZsWCQ5fRqjDXUXENxAHHjOHfCeUpNY,1081
+audyo-1.1.3.dist-info/METADATA,sha256=-4S3zjUz6pgXg0MHs7SmwZlmWdtvQeT93Fcz9QMgWIE,1701
+audyo-1.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+audyo-1.1.3.dist-info/entry_points.txt,sha256=_nCG99CV3_RILxqxtUssKw0Z-_t6aVuDqTVCzN-xdWY,85
+audyo-1.1.3.dist-info/top_level.txt,sha256=2TBDFNwC0NkFQ6VU4CNYo6DAhXeKkNsCJRs19gDD-9g,6
+audyo-1.1.3.dist-info/RECORD,,
