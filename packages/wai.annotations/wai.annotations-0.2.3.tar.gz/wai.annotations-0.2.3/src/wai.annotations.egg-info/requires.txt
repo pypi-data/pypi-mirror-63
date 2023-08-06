@@ -1,0 +1,10 @@
+wai.common==0.0.28
+wai.json<0.1,>=0.0.4
+Cython
+Pillow
+contextlib2
+numpy
+planar
+scikit-image
+pycocotools
+opencv-python
