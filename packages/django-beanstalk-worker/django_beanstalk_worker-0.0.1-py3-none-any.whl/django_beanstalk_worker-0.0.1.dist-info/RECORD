@@ -1,0 +1,9 @@
+beanstalk_worker/__init__.py,sha256=xEDJNCGECCHHkyx-WPXFs8R3cYkfjZxk8Wjq1oND8bw,659
+beanstalk_worker/services.py,sha256=toytl2TtYh_G0FF_R8B7tN9Tg9hE9JknNcAThN_MkuY,2801
+beanstalk_worker/urls.py,sha256=WLC3VWpPcAPB4b49klv2Qtq2Avs55sebWqV0iIrq5XY,325
+beanstalk_worker/views.py,sha256=i0W-rHODHqFYm_IDC2ANAWErWrGG4PVvpm7ysaDRtkM,490
+django_beanstalk_worker-0.0.1.dist-info/LICENSE,sha256=5BRkqbe7bHogzHnv9LJzKYmUv6y1Zm85fEG-FogetWc,1522
+django_beanstalk_worker-0.0.1.dist-info/METADATA,sha256=SFeAj9BCzQnJSthUa8xUYy_aQoDHrNL7_8eAWSAPEh0,5741
+django_beanstalk_worker-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+django_beanstalk_worker-0.0.1.dist-info/top_level.txt,sha256=6cyxpgQFGsFv-2CCpxypwfbH9a60mhEBK1hFNgm4KPg,17
+django_beanstalk_worker-0.0.1.dist-info/RECORD,,
