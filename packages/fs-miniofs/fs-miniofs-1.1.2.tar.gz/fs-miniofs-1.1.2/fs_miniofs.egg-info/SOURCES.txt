@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+fs_miniofs/__init__.py
+fs_miniofs/_miniofs.py
+fs_miniofs/_version.py
+fs_miniofs/opener.py
+fs_miniofs.egg-info/PKG-INFO
+fs_miniofs.egg-info/SOURCES.txt
+fs_miniofs.egg-info/dependency_links.txt
+fs_miniofs.egg-info/entry_points.txt
+fs_miniofs.egg-info/requires.txt
+fs_miniofs.egg-info/top_level.txt
