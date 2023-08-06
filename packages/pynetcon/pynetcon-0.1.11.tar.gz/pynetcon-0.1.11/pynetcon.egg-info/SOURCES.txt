@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+netcon/netcon.m
+netcon/netcon_nondisj_cpp.cpp
+netcon/netcon_nondisj_cpp.mex
+pynetcon/__init__.py
+pynetcon/netcon.py
+pynetcon.egg-info/PKG-INFO
+pynetcon.egg-info/SOURCES.txt
+pynetcon.egg-info/dependency_links.txt
+pynetcon.egg-info/requires.txt
+pynetcon.egg-info/top_level.txt
+pynetcon/../netcon/netcon.m
+pynetcon/../netcon/netcon_nondisj_cpp.cpp
+test/test_netcon.py
