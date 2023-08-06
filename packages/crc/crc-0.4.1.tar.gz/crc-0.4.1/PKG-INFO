@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: crc
+Version: 0.4.1
+Summary: TBD
+Home-page: https://github.com/Nicoretti/crc
+Author: Nicola Coretti
+Author-email: nico.coretti@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: CRC,CRC8,CRC16,CRC32
+Platform: UNKNOWN
