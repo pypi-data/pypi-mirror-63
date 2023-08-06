@@ -1,0 +1,9 @@
+setup.py
+dfsummary/__init__.py
+dfsummary/dfsummary.py
+dfsummary/dfsummary_helpers.py
+dfsummary.egg-info/PKG-INFO
+dfsummary.egg-info/SOURCES.txt
+dfsummary.egg-info/dependency_links.txt
+dfsummary.egg-info/not-zip-safe
+dfsummary.egg-info/top_level.txt
