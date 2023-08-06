@@ -1,0 +1,9 @@
+portage/__init__.py,sha256=dVmHG9jjAzIVRSbSOmTtdpgSYZuSrTwlHXilnt7s478,36
+portage/__main__.py,sha256=oe6EeGLgortPgGWl8ACxzu3KuLpCwPi6CmW51r4dwTU,578
+portage/portage.py,sha256=PH5F3C82Z2dJU681KeYTXa4INxwzodiivICGkdObFIc,831
+portage/portage_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xportage-0.0.1.dist-info/METADATA,sha256=NB84bn9gpc_7DY_OGbNCaf9a2flJReuZldy4yfMT6v0,431
+xportage-0.0.1.dist-info/RECORD,,
+xportage-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+xportage-0.0.1.dist-info/entry_points.txt,sha256=ml_wtm9Lrt84zfCB7AmHCLc5rbUxdrgsblwx4ArhbMU,51
+xportage-0.0.1.dist-info/top_level.txt,sha256=9WvENwlpOHxpbsb1eTirpLpCYNiLx6hK1T6RqHAYTVM,8
