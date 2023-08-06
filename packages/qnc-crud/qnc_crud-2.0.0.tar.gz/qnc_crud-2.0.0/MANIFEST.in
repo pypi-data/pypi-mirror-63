@@ -1,0 +1,4 @@
+include README.md
+recursive-include qnc_crud/static *
+recursive-include qnc_crud/templates *
+recursive-include qnc_crud/templatetags *
