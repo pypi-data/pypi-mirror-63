@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hashable_lru_cache
+Version: 0.1.1
+Summary: An extension of functools.lru_cache allowing unhashable objects to be
+Home-page: https://github.com/baowei521/hashable_lru_cache
+License: MIT
+Keywords: hashable lru cache lru_cache
+Author: Bao Wei
+Author-email: baowei.ur521@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bump2version >= 1.0 ; extra == "dev"
+Requires-Dist: pre-commit >= 2.0 ; extra == "dev"
+Requires-Dist: hypothesis >= 5.5 ; extra == "test"
+Requires-Dist: pytest >= 5.3 ; extra == "test"
+Requires-Dist: pytest-cov >= 2.8 ; extra == "test"
+Requires-Dist: pytest-randomly >= 3.2 ; extra == "test"
+Requires-Dist: pytest-xdist == 1.29 ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
