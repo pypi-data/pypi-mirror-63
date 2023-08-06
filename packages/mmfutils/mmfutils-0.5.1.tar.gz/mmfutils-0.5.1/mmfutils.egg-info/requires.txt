@@ -1,0 +1,9 @@
+zope.interface>=3.8.0
+husl
+pathlib
+backports.tempfile
+
+[doc]
+sphinxcontrib.zopeext
+numpy
+matplotlib
