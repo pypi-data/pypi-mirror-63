@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: azure-extras
+Version: 0.0.2
+Summary: The stuff Microsoft left out..
+Home-page: https://gitlab.com/tspub/py/azure_extras
+Author: Toby Slight
+Author-email: tslight@pm.me
+License: UNKNOWN
+Description: # THE STUFF MICROSOFT LEFT OUT
+        
+        ## INSTALLATION
+        
+        `pip install azure-extras`
+        
+        ## CONFIGURATION
+        
+        Copy [azure.example.ini](./azure.example.ini) to `$HOME/.azure.ini`, adding
+        your subscription and tenant details along the way.
+        
+        ## KUDU CLI FRONTEND
+        
+        ``` text
+        usage: az-kudu [-h] [-a NAME] [-C PATH] [-r NAME]
+        			   (-c COMMAND | -e SLUG | -z PATH | -Z SOURCE DESTINATION)
+        			   [-p PATH] [-v]
+        
+        CLI Kudu API fudger
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -a NAME, --app NAME   azure app name
+          -C PATH, --config PATH
+        						path to azure configuration file
+          -r NAME, --rg NAME    azure resource group
+          -c COMMAND, --cmd COMMAND
+        						command to run (use quotes for multi-word commands)
+          -e SLUG, --endpoint SLUG
+        						api endpoint slug
+          -z PATH, --deploy_zip PATH
+        						upload a zip to the server
+          -Z SOURCE DESTINATION, --download_zip SOURCE DESTINATION
+        						download a zip of a remote path
+          -p PATH, --cwd PATH   server current working directory
+          -v                    increase verbosity
+        ```
+        
+        ## APP SERVICE HEALTH CHECK
+        
+        ``` text
+        usage: az-health-check [-h] [-a NAME] [-r NAME] [-C PATH] [-v]
+        
+        Enable health check in Azure App Service
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -a NAME, --app NAME   azure app name
+          -r NAME, --rg NAME    azure resource group
+          -C PATH, --config PATH
+        						path to azure configuration file
+          -v                    increase verbosity
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
