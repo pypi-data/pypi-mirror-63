@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+nomnomdata/auth/__init__.py
+nomnomdata_auth.egg-info/PKG-INFO
+nomnomdata_auth.egg-info/SOURCES.txt
+nomnomdata_auth.egg-info/dependency_links.txt
+nomnomdata_auth.egg-info/not-zip-safe
+nomnomdata_auth.egg-info/requires.txt
+nomnomdata_auth.egg-info/top_level.txt

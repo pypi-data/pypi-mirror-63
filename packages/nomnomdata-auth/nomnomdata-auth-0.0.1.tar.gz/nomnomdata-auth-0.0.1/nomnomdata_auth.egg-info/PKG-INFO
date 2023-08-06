@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: nomnomdata-auth
+Version: 0.0.1
+Summary: Requests authorizer for HMAC signed payloads
+Home-page: UNKNOWN
+Author: Nom Nom Data Inc
+Author-email: info@nomnomdata.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
