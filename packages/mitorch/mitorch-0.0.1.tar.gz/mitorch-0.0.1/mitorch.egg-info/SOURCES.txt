@@ -1,0 +1,12 @@
+README.md
+setup.py
+mitorch/mimodel.py
+mitorch/train.py
+mitorch.egg-info/PKG-INFO
+mitorch.egg-info/SOURCES.txt
+mitorch.egg-info/dependency_links.txt
+mitorch.egg-info/entry_points.txt
+mitorch.egg-info/requires.txt
+mitorch.egg-info/top_level.txt
+mitorch/builders/__init__.py
+mitorch/datasets/__init__.py

@@ -1,0 +1,3 @@
+[console_scripts]
+mitrain = mitorch.train:main
+
