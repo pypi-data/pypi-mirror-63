@@ -1,0 +1,9 @@
+pywizlight/__init__.py,sha256=Vqf2YDR3kzAoQPYgw8Wm2wcn1BYOtM-mGIOrnNUrpGw,50
+pywizlight/_version.py,sha256=W0pW6Z6wvBlq6xm9BS0Q4Y5P7F1D6AWKA2USAsps_y0,42
+pywizlight/bulb.py,sha256=FojVjAHv0NYNIT2uGZdd8ddQ8S2l_7-YLULe5ycwVfo,10784
+pywizlight/scenes.py,sha256=scfC4uXte1UEj-H-v1EgNq4ujnJjSFqOwOxtP3VDDXM,879
+pywizlight-0.2.7.dist-info/LICENSE,sha256=rQgPqilGqLdBHjsPMEbqceUM1deiEWgNQMr8k6bfhV0,1070
+pywizlight-0.2.7.dist-info/METADATA,sha256=7cTvq43Vt8VOocMYXOByps_TUeDzq--1lJOiuTFc7Xc,7018
+pywizlight-0.2.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pywizlight-0.2.7.dist-info/top_level.txt,sha256=bkCwOm9W-DROg_cPIBzELIau-2eHXL_AOSjqfkkxIf8,11
+pywizlight-0.2.7.dist-info/RECORD,,
