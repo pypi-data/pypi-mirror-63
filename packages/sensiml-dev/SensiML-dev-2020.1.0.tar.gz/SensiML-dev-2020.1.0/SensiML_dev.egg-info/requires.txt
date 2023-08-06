@@ -1,0 +1,17 @@
+cookiejar==0.0.2
+requests>=2.14.2
+requests-oauthlib>=0.7.0
+appdirs==1.4.3
+semantic_version>=2.6.0
+numpy
+pandas
+matplotlib>=2.0.0
+seaborn
+wurlitzer
+pyserial
+
+[:python_version < "3"]
+prompt-toolkit<=1.0.4
+
+[:python_version >= "3"]
+prompt-toolkit>=2.0.5
