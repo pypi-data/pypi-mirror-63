@@ -1,0 +1,6 @@
+xlrd
+xlsxwriter
+pillow
+selenium
+injson
+requests_toolbelt
