@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Tunnel
+GenericName=Liberty Tunnel
+Comment=Set up a secure internet connection
+Exec=liberty setup tunnel --gui
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon=network-server
+Keywords=liberty;l1;librem one;tunnel
+

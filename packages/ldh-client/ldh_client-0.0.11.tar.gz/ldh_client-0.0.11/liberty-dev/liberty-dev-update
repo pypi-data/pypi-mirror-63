@@ -1,0 +1,4 @@
+#! /bin/bash
+pushd $HOME/.local/ldh_client
+git pull && pipenv sync --dev && liberty-dev setup dependencies --yes && liberty-dev setup prototype --yes --dev
+popd
