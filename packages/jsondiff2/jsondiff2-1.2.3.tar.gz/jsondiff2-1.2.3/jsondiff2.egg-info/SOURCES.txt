@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+jsondiff/__init__.py
+jsondiff/cli.py
+jsondiff/symbols.py
+jsondiff2.egg-info/PKG-INFO
+jsondiff2.egg-info/SOURCES.txt
+jsondiff2.egg-info/dependency_links.txt
+jsondiff2.egg-info/entry_points.txt
+jsondiff2.egg-info/top_level.txt
