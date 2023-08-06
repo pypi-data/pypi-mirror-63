@@ -1,0 +1,10 @@
+tglex/__init__.py,sha256=b3q4WcHi_fl4u-7Aw2lgfRsw376-xMYA8k2OGa_4fp4,381
+tglex/message.py,sha256=Gw9tjCpulJ5jhj1gB57r842AnQG8ypPo6JgChvtkhUQ,1203
+tglex/token.py,sha256=HomYIr3YL1-L8cbJ_X_Nx4uzzCtPSeHNr7Zaa6XpgLA,1033
+tglex/tokenize.py,sha256=zyg6EHcD85Elr6o3n5PAYZecmetIGZ9rKDj0LDZ0g6k,2576
+tglex-0.2.0.dist-info/LICENSE,sha256=f6uugfv9qQbSFVCqo4hpSXsrm80V2Sj3OKnUx3L-v8g,1070
+tglex-0.2.0.dist-info/METADATA,sha256=-OIfOOVo9fJG60JkAnoYC3hm8_S_bYCDMoHAFRha7CI,1740
+tglex-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tglex-0.2.0.dist-info/top_level.txt,sha256=tkjt0VJqKDACq8V4FhAy6onsSoABkII1SSuF3sCD04M,6
+tglex-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tglex-0.2.0.dist-info/RECORD,,
