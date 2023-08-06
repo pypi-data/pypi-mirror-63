@@ -1,0 +1,5 @@
+setup.py
+insta_autolikes.egg-info/PKG-INFO
+insta_autolikes.egg-info/SOURCES.txt
+insta_autolikes.egg-info/dependency_links.txt
+insta_autolikes.egg-info/top_level.txt
