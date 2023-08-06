@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+eoepca-uma/__init__.py
+eoepca-uma/main.py
+eoepca_uma.egg-info/PKG-INFO
+eoepca_uma.egg-info/SOURCES.txt
+eoepca_uma.egg-info/dependency_links.txt
+eoepca_uma.egg-info/top_level.txt
