@@ -1,0 +1,11 @@
+mcos/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+mcos/covariance_transformer.py,sha256=tgpebkqwDWtaaUFOnep3-Oi5ro-naeoWKekWppES_xM,8795
+mcos/error_estimator.py,sha256=b5Ug6zFCSayrx4gs3ay_5vmSEidVvOVe9tPtl0_wfAw,2370
+mcos/mcos.py,sha256=3ummyQ2bCD-cSGEmtf7XmunqtUi2d2vTG7EPSUV1Y8E,1516
+mcos/observation_simulator.py,sha256=axk-DPqW1ya9fxCgXbPe5vFtoCPPwKD8R1hWayNl6PQ,1388
+mcos/optimizer.py,sha256=OrFDgxlH3VvkO4O_pXtcjxW7tyI6h-MF7YcxdHX5q0Y,14370
+mcos-0.1.0.dist-info/LICENSE,sha256=h5doxqZZobdtKh_Tt5WHTN-_fmdyb8txaWH6G580ZIw,1063
+mcos-0.1.0.dist-info/METADATA,sha256=9AHmIDkez0aDwrLD5pKYjhzHpLKEFd_AjQQTF4D5byg,8040
+mcos-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mcos-0.1.0.dist-info/top_level.txt,sha256=yjr9tQnZgoUaUHH6u4yXhaduib77hWwmh6FCmY3WPzQ,5
+mcos-0.1.0.dist-info/RECORD,,
