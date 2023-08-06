@@ -1,0 +1,13 @@
+rcsb/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/app/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/app/chem/ElementSymbol.py,sha256=p9JgsqDHHALwCNl_fdoe4Wt8tYATSzXStK7J9eUkqRA,1652
+rcsb/app/chem/__init__.py,sha256=LVIQ2An9k_ZB4BNQ3ABQOqcVhyPRJ0Hf2EcTGc_2yyM,154
+rcsb/app/chem/descriptorMatch.py,sha256=pFSIg0MFltPjaGnVRouFVMoSr3E6eE6jbaty6tSaamo,3504
+rcsb/app/chem/formulaMatch.py,sha256=FbWsprVggIENT9FNspahNPjWOdIsQ5BfZ4JKnGR8Xdo,3900
+rcsb/app/chem/main.py,sha256=VFyOskvXHDGiF9Zn3EG9AzKv3bcRsxzgk0zJbHr7JIg,1128
+rcsb.app.chem-0.11.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rcsb.app.chem-0.11.dist-info/METADATA,sha256=RH0-ZhEK59HBDAyT3eWnHFU5k0Hmem2DpeVrrY-XKZU,887
+rcsb.app.chem-0.11.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+rcsb.app.chem-0.11.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rcsb.app.chem-0.11.dist-info/top_level.txt,sha256=o9JzKwjXZKvIt99MG_WvJuOnR1DZn6_CIPtgWgUB0E8,5
+rcsb.app.chem-0.11.dist-info/RECORD,,
