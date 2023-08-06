@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+collatz/__init__.py
+collatz/main.py
+collatz/version.py
+collatz.egg-info/PKG-INFO
+collatz.egg-info/SOURCES.txt
+collatz.egg-info/dependency_links.txt
+collatz.egg-info/top_level.txt
