@@ -1,0 +1,15 @@
+README.md
+setup.py
+autoinstallcmtpack.egg-info/PKG-INFO
+autoinstallcmtpack.egg-info/SOURCES.txt
+autoinstallcmtpack.egg-info/dependency_links.txt
+autoinstallcmtpack.egg-info/entry_points.txt
+autoinstallcmtpack.egg-info/top_level.txt
+configCmtPack/CheckBOSS.py
+configCmtPack/GitSvc.py
+configCmtPack/PackageSvc.py
+configCmtPack/ProcessRequire.py
+configCmtPack/RepoSet.py
+configCmtPack/__init__.py
+configCmtPack/main.py
+configCmtPack/util.py
