@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: alltime
+Version: 0.0.1
+Summary: A time-series predictive modeling package.
+Home-page: https://github.com/Kevin-Chen0/time-series.git
+Author: Kevin R. Chen
+License: Apache License 2.0
+Description: # time-series
+        General purpose time-series predictive modeling package.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
