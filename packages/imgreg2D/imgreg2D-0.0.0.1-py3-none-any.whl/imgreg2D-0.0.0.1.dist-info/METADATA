@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imgreg2D
+Version: 0.0.0.1
+Summary: easy 2D image registration in python
+Home-page: https://github.com/BrancoLab/imgreg2D
+Author: Federico Claudi, Philip Shamash
+Author-email: federicoclaudi@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: configparser
+Requires-Dist: napari
+
+UNKNOWN
+
+

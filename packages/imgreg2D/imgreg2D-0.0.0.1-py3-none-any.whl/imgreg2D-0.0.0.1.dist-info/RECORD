@@ -1,0 +1,10 @@
+arenaregistration/__init__.py,sha256=fVE-oydmc49HZp1JLrDlPChlr6-NC7cHBFYO7cjjlbU,207
+arenaregistration/affine.py,sha256=xA9xtJ1H1CEorE4xGN9v8ndafJHJzOXNb8IQQwZwekE,7304
+arenaregistration/points.py,sha256=iAsufDcnNW2PpO75uPO2dM1c_dsVFr6ne-VHxnax34w,4301
+arenaregistration/register.py,sha256=_XE-tULhk_EIEjUktYToDk-HhTsRmUyUiqS2qOmTPDg,2691
+arenaregistration/utils.py,sha256=CMJYAJueHS_kPqYbAfpMZjWkWWTWdGz2MikuZemS0VU,881
+imgreg2D-0.0.0.1.dist-info/LICENSE,sha256=RO0T65GM-VJ647VTwJWfosfk0NH5lxIyRywnUax6bds,1066
+imgreg2D-0.0.0.1.dist-info/METADATA,sha256=W3P1e_JtRthVuusrmffKrOcFzzqTPaKxsQdtHDLbLWU,379
+imgreg2D-0.0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+imgreg2D-0.0.0.1.dist-info/top_level.txt,sha256=t-HqYcbNbax6J9Lt4WCmZl_ZQaaU4X7SOo1y73mMI7c,24
+imgreg2D-0.0.0.1.dist-info/RECORD,,
