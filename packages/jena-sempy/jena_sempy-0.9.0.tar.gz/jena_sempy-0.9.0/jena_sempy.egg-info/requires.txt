@@ -1,0 +1,5 @@
+requests
+rdflib
+networkx
+secrets
+matplotlib<=2-2-4
