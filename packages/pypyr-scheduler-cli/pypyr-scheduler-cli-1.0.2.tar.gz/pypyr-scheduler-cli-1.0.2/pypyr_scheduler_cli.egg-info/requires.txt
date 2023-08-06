@@ -1,0 +1,3 @@
+pypyr-scheduler-rpc-client
+rich
+halo
