@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: junpy_dataset
+Version: 0.1.1
+Summary: JunPy-dataset is a collection of data used in JunPy tests and examples.
+Home-page: https://labstt.phy.ncu.edu.tw/junpy
+Author: Bao-Huei Huang
+Author-email: lise811020@gmail.com
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.6

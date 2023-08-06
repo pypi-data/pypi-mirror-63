@@ -1,0 +1,146 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 20161201).   ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                06-Mar-2017 13:33:29   ##########
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for self consistent field.
+
+The input file is scf.input.
+
+The length unit used is Bohr.
+The energy unit used is eV.
+
+
+initialization of the object ......
+        loading lead object data ......
+            data file loaded: ../lead/NanodcalObject.mat
+        ------ finished. time used: 000:00:00
+        loading neutral atomic data ......
+            data file loaded: /work/lise/nanodcal/CarbonChain/6C_6C_6C/C_DZP.nad
+        ------ finished. time used: 000:00:00
+        calculating adjacent matrix ...... :: finished. time used: 000:00:00
+------ calculation of initialization finished. time used: 000:00:05
+
+
+System Summary:
+                          System Name: CarbonChain.Center
+                          System Type: 2 probe, 1D lead, no spin
+                           # of Leads: 2
+                       Type of Lead 1: left
+            Voltage Applied on Lead 1: 0.3
+                       Type of Lead 2: right
+            Voltage Applied on Lead 2: 0
+           # of Atoms in Central Cell: 6
+ # of Electrons of Central Cell Atoms: 24
+     # of Basis of Central Cell Atoms: 78
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (2.000000e+01, 0.000000e+00, 0.000000e+00)
+                   v2 = (0.000000e+00, 2.000000e+01, 0.000000e+00)
+                   v3 = (0.000000e+00, 0.000000e+00, 1.444680e+01)
+               realspace grid numbers: [64 64 46]
+                realspace grid volume: 0.03067 Bohr^3
+                 k-space grid numbers: [1 1 1]
+         e-point # on complex contour: 40
+    lowest e-point on complex contour: -76.5592
+               e-point # on real axis: 22
+               electronic temperature: 0 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the rigid atomic field ......
+        calculating S, T, and Vnl ...... :: finished. time used: 000:00:00
+        calculating Vna ...... :: finished. time used: 000:00:01
+        calculating Rpc ....... :: finished. time used: 000:00:00
+        calculating Rna & initial Rho ...... :: finished. time used: 000:00:00
+        calculating real space XC potential ...... :: finished. time used: 000:00:00
+        calculating real space Vdh ...... :: finished. time used: 000:00:00
+        calculating real space Veff ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix, the leads part ...... :: finished. time used: 000:00:01
+        constructing static part of H ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix ...... :: finished. time used: 000:00:00
+        constructing Hamiltonian ...... :: finished. time used: 000:00:00
+------ calculation of rigidAtomicField finished. time used: 000:00:04
+
+
+calculation of the self-consistent field ......
+    Some parameters used:
+          The calculation is starting from hamiltonian matrix.
+          The physical quantity to be mixed is hamiltonian matrix.
+          The mixing is performed by class cMixerBroyden.
+    Self-Consistent Loops:
+    Loop #        time         hMatrix       rhoMatrix     totalEnergy      gridCharge   orbitalCharge
+         1   000:00:07      1.1454E+01      0.0000E+00     -2.4162E+02      1.3838E+00      1.6093E+00
+         2   000:00:02      8.0775E+00      5.3102E-02     -1.4673E+00      9.4753E-01      1.1072E+00
+         3   000:00:04      8.7045E-01      1.1984E-01      2.2433E+00     -7.6053E-02     -9.6175E-02
+         4   000:00:03      9.3044E-01     -4.7264E-03     -9.0282E-02     -4.9288E-02     -6.9959E-02
+         5   000:00:02      7.4213E-01      5.6153E-03      1.1447E-01     -4.9884E-02     -7.9112E-02
+         6   000:00:02      4.1425E-01      1.7824E-02      3.5650E-01     -3.9695E-02     -9.1577E-02
+         7   000:00:02      3.6732E-01     -1.7793E-03     -9.2597E-02     -3.3114E-02     -7.9035E-02
+         8   000:00:02      4.8435E-02     -1.1486E-02     -6.4657E-01      2.0284E-02      1.7894E-02
+         9   000:00:02      4.1308E-02     -7.6532E-04     -3.7037E-02      2.2224E-02      2.2387E-02
+        10   000:00:05      2.6535E-02     -8.6151E-04     -4.1594E-02      2.3656E-02      2.6708E-02
+        11   000:00:03      1.5366E-02     -1.6185E-03     -7.6278E-02      2.6455E-02      3.4791E-02
+        12   000:00:02      1.3744E-02     -9.0556E-05     -3.5336E-03      2.6579E-02      3.5189E-02
+        13   000:00:02      9.2350E-03     -6.1208E-04     -2.5711E-02      2.7361E-02      3.7891E-02
+        14   000:00:02      7.9594E-03     -2.2898E-04     -8.5605E-03      2.7387E-02      3.8613E-02
+        15   000:00:04     -3.9056E-03     -4.2073E-04     -1.4766E-02      2.7105E-02      3.9592E-02
+        16   000:00:02     -3.4207E-03     -2.0258E-04     -7.4882E-03      2.7036E-02      4.0141E-02
+        17   000:00:03     -2.3457E-03      5.4211E-05     -2.2667E-03      2.7050E-02      4.0327E-02
+        18   000:00:02      1.1714E-03     -1.3325E-04     -5.6114E-03      2.7066E-02      4.0782E-02
+        19   000:00:02      9.8521E-04      2.1064E-05      8.8442E-04      2.7047E-02      4.0698E-02
+        20   000:00:02      4.8260E-04      2.6022E-05      1.1976E-03      2.6975E-02      4.0549E-02
+        21   000:00:02     -4.4109E-04      2.5076E-05      1.2404E-03      2.6899E-02      4.0392E-02
+        22   000:00:05     -3.9967E-04      6.7155E-06      3.6760E-04      2.6878E-02      4.0346E-02
+        23   000:00:03     -3.4835E-04     -4.4471E-06      2.8544E-04      2.6857E-02      4.0304E-02
+        24   000:00:03     -3.2208E-04     -2.3913E-06      6.4412E-05      2.6848E-02      4.0289E-02
+        25   000:00:03     -2.8645E-04     -4.3167E-06     -3.3973E-05      2.6837E-02      4.0278E-02
+        26   000:00:03     -2.7998E-04     -1.0422E-06      2.3878E-05      2.6833E-02      4.0272E-02
+        27   000:00:02     -2.6642E-04     -1.3399E-06     -6.4425E-05      2.6838E-02      4.0281E-02
+        28   000:00:03     -2.3089E-04     -1.0721E-06      2.3418E-05      2.6839E-02      4.0278E-02
+        29   000:00:02      2.0876E-04      2.3357E-06      9.8622E-05      2.6838E-02      4.0269E-02
+        30   000:00:04      9.2574E-05      8.9823E-06      4.3706E-04      2.6830E-02      4.0222E-02
+        31   000:00:02      5.8284E-05      4.7292E-06      2.3408E-04      2.6826E-02      4.0196E-02
+        32   000:00:02      4.2680E-05      5.2121E-07      1.9146E-05      2.6825E-02      4.0195E-02
+        33   000:00:02     -1.8789E-05      3.4725E-06      1.5033E-04      2.6819E-02      4.0179E-02
+        34   000:00:02     -1.7065E-05      1.1346E-06      5.0641E-05      2.6818E-02      4.0173E-02
+        35   000:00:02     -1.5541E-05      2.7600E-07      1.0725E-05      2.6818E-02      4.0172E-02
+        36   000:00:02      1.3599E-05      1.6285E-07     -5.4335E-07      2.6819E-02      4.0173E-02
+        37   000:00:02      1.0012E-05      4.0625E-07     -1.3840E-05      2.6820E-02      4.0175E-02
+        38   000:00:02     -9.2347E-06     -3.5471E-07     -1.9256E-05      2.6820E-02      4.0178E-02
+        39   000:00:02     -9.0352E-06     -2.5509E-07     -1.3999E-05      2.6821E-02      4.0180E-02
+        40   000:00:02     -8.5518E-06      1.7902E-07      8.0579E-06      2.6821E-02      4.0179E-02
+------ calculation of the self-consistent field finished. total energy = -4716.1161. time used: 000:01:48
+
+saving calculated results ...... :: finished. time used: 000:00:05
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:01:59
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                06-Mar-2017 13:35:34   ##########
+###########################################################################
+
+
+
