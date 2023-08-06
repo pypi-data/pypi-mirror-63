@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+codedistutils2/__init__.py
+codedistutils2/__main__.py
+codedistutils2/cat.py
+codedistutils2/feed.py
+codedistutils2/viewer.py
+codedistutils2/qwerty2/__init__.py
+codedistutils2/qwerty2/dog.py
+pypidisttest2.egg-info/PKG-INFO
+pypidisttest2.egg-info/SOURCES.txt
+pypidisttest2.egg-info/dependency_links.txt
+pypidisttest2.egg-info/requires.txt
+pypidisttest2.egg-info/top_level.txt
