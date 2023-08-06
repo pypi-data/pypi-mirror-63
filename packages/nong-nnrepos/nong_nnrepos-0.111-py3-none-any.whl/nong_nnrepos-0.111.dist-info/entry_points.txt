@@ -1,0 +1,3 @@
+[console_scripts]
+nong = nong.nong:main
+

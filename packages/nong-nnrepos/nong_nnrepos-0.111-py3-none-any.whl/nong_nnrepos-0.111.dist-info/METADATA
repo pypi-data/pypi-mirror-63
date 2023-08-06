@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nong-nnrepos
+Version: 0.111
+Summary: a neural-network based pong game
+Home-page: https://github.com/NNRepos/nong
+Author: NN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (>=1.9)
+
+# nong
+neural networks exercise with pong
+![](images/example1.png)
+
+
