@@ -1,0 +1,3 @@
+[console_scripts]
+sfdc = sfdc_cli.cli:main
+

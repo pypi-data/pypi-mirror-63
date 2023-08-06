@@ -1,0 +1,14 @@
+requests[security]
+cryptography>=2.8
+XlsxWriter
+
+[tests]
+mock
+nose
+coverage
+yanc
+preggy
+tox
+ipdb
+coveralls
+sphinx
