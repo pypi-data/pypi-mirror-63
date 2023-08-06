@@ -1,0 +1,10 @@
+README.rst
+setup.py
+hrflow/__init__.py
+hrflow/client.py
+hrflow.egg-info/PKG-INFO
+hrflow.egg-info/SOURCES.txt
+hrflow.egg-info/dependency_links.txt
+hrflow.egg-info/not-zip-safe
+hrflow.egg-info/requires.txt
+hrflow.egg-info/top_level.txt
