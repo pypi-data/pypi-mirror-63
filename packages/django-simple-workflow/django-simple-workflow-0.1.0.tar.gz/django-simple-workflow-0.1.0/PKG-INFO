@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-simple-workflow
+Version: 0.1.0
+Summary: Simple workflow system based on django.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-simple-workflow
+        
+        Simple workflow system based on django.
+        
+        ## Releases
+        
+        ### v0.1.0 2020/03/17
+        
+        - First release.
+Keywords: django admin extentions,django simple workflow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

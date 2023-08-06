@@ -1,0 +1,8 @@
+include MANIFEST.in
+include README.md
+include requirements.txt
+graft django_simple_workflow
+exclude django_simple_workflow_demo
+exclude django_simple_workflow_example
+global-exclude __pycache__
+global-exclude *.py[co]
