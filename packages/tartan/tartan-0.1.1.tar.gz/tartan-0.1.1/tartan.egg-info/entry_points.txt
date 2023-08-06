@@ -1,0 +1,3 @@
+[console_scripts]
+tartan = tartan.cli:main
+
