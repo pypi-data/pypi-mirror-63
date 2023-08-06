@@ -1,0 +1,14 @@
+redis==3.3.11
+progress==1.5
+mypy==0.761
+hiredis==1.0.1
+click==7.1.1
+marshmallow-dataclass[enum,union]==7.3.0
+progress==1.5
+
+[dev]
+reorder-python-imports==1.9.0
+yapf==0.29.0
+pylint==2.4.4
+pytest==5.4.1
+twine==3.1.1
