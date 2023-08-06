@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: datadog-export
+Version: 0.6.0
+Summary: CLI and Lambda for exporting datadog metrics
+Home-page: https://github.com/binxio/datadog-exporter
+Author: Mark van Holsteijn
+Author-email: mark@binx.io
+License: Apache2
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: pytz
+Requires-Dist: durations
+Requires-Dist: tzlocal
+Requires-Dist: datadog
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+
+A simple command line utility to export datadog metrics.
+
+
+# credentials
+The file ~/.datadog.ini is a Python configuration file from which the Datadog connection parameters are read.  At least it will
+need the `api_key` and `api_app` attributes in the section DEFAULT::
+
+	[DEFAULT]
+	api_key=a77aaaaaaaaaaaaaaaaaaaaa
+	app_key=bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+
+
