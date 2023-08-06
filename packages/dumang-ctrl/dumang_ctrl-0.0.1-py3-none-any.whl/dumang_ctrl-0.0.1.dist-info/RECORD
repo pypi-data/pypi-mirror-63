@@ -1,0 +1,12 @@
+dumang_ctrl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dumang_ctrl/dumang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dumang_ctrl/dumang/common.py,sha256=9XkD9OrsE3MAEtM3w7WgkW1QQhjkkVnEWwBJkVh2Td4,19816
+dumang_ctrl/dumang/gui.py,sha256=5JQuRUO1pn353z5plMLppKQ_h5qcia9sR2DerT2FFOw,2939
+dumang_ctrl/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dumang_ctrl/tools/config.py,sha256=H157om74U-pHLDPsF9Tx-slVL0cpVQwlU2nKgtpAbAU,2826
+dumang_ctrl/tools/sync.py,sha256=yd8j_tALArWcKA4ioKucxgSB2UUQ0E64jK7dp32nXq4,2825
+dumang_ctrl-0.0.1.dist-info/METADATA,sha256=wRMEVTv15--aqze7yU3LLwtkSIfFvOmHoXtRK3rhStA,2576
+dumang_ctrl-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dumang_ctrl-0.0.1.dist-info/entry_points.txt,sha256=FGR-ePYbqwqHAoPSL9MwbUAs-NknQIoUrLPRz74SRdY,107
+dumang_ctrl-0.0.1.dist-info/top_level.txt,sha256=-I3IfzGKNxvf_2ZN2UteXbdbGOIXUh2xUD70nS2snFQ,12
+dumang_ctrl-0.0.1.dist-info/RECORD,,
