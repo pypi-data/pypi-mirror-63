@@ -1,0 +1,11 @@
+pubchem_api/__init__.py,sha256=MVHkkiaE_iPUnAZTwVf0sX4pjpp3d2t6B63LgYXsvZ4,137
+pubchem_api/api_get_data.py,sha256=phII39NBtpPDOAzGRktJjhLYfmWNlkEZOf1EeI7zMOI,1659
+pubchem_api/cli.py,sha256=oI16PUDjRgrwm_AnKMsZMlxr_e3qn-_UNVu4kZJyAqM,411
+pubchem_api/pubchem_api.py,sha256=HsxG9T5IjrxtHp-nad0XVOgb8_fszGdGO_DlasbgsgI,1538
+pubchem_api-1.0.1.dist-info/AUTHORS.rst,sha256=NeURRIo665585yK5DYxgXpr1-3XvruGJa-vzl3Vp4xs,164
+pubchem_api-1.0.1.dist-info/LICENSE,sha256=kusdIsB1AqpUFYPEW5vGsnUjeaMOO4ug-QrzBmHJHww,1073
+pubchem_api-1.0.1.dist-info/METADATA,sha256=7w2_tUF8vywcRkJUlY8eDtmCx-VMC66XBMvbZULN4k4,1922
+pubchem_api-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pubchem_api-1.0.1.dist-info/entry_points.txt,sha256=ZK8QGiMgNlfy506GG8s6WrpqUuKdXB31YcqnMPK8I-Q,54
+pubchem_api-1.0.1.dist-info/top_level.txt,sha256=_4nIKJR7TM5URaLI1MLbRTuXyQWcl-i8afhCn4SsZgg,12
+pubchem_api-1.0.1.dist-info/RECORD,,
