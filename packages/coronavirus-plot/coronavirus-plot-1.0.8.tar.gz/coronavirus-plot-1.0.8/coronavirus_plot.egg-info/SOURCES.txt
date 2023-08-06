@@ -1,0 +1,9 @@
+setup.py
+coronavirus-plot/__init__.py
+coronavirus-plot/coronaVars.py
+coronavirus_plot.egg-info/PKG-INFO
+coronavirus_plot.egg-info/SOURCES.txt
+coronavirus_plot.egg-info/dependency_links.txt
+coronavirus_plot.egg-info/not-zip-safe
+coronavirus_plot.egg-info/requires.txt
+coronavirus_plot.egg-info/top_level.txt
