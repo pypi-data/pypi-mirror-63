@@ -1,0 +1,6 @@
+graft dotez
+include *.py
+include *.txt
+include *.md
+prune .empty
+prune .idea
