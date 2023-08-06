@@ -1,0 +1,16 @@
+orient/__init__.py,sha256=HU61iL5r-wndhpTxGP80er9ntZNJq9Y6vcBWM05bQNw,48
+orient/hints.py,sha256=yqGvjQWUxrCI5G-jVGPxStObiMqK0BOX8mvu3xSKgro,227
+orient/planar.py,sha256=5NZ8p44RpKEtfEivqQCUsqQGK0vl2dhCYFUh9pecn14,8527
+orient/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orient/core/bounding_box.py,sha256=V9TZ8x6vy-5PIqTBfAhK0gWKTGAAHMWiVTvSJjxACF4,837
+orient/core/contour.py,sha256=yMNXKMtXUjnYXu0QAkSTdeN5MIjl6rTPKGV32YCxMQA,2016
+orient/core/event.py,sha256=IlCqlBCze-cegmOMxRNoXlB5eAPmmeqskH85UlAlr2Q,2470
+orient/core/events_queue.py,sha256=dJ7IrI2aZFKGh8LjM10U7IfFmB27W8wHXcojMUi80_g,3443
+orient/core/polygon.py,sha256=uN-T277B5ZdN3W9xCNsTYlVOdsf5vsDt7W3xN67z0PA,1348
+orient/core/sweep.py,sha256=RKEfLNQb6B5qCNUrMB_fozu6VilOKOiYp7qln34pGic,5773
+orient/core/sweep_line.py,sha256=q54QMjAQSi3_xlGHsifcY2jfV6yJm82bJxzh3UGBBmk,4473
+orient-0.1.0.dist-info/LICENSE,sha256=-W_qNLRoZO2-AnwtGfKupruYTfLtIk39IeMqidpeVOU,1069
+orient-0.1.0.dist-info/METADATA,sha256=asRIIQId6vTWyWGw90MYSm4Gj5OOD0XVz9wcKcDo0yA,6629
+orient-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+orient-0.1.0.dist-info/top_level.txt,sha256=USRAuOcfJMLrA7ljiBxpNw-L_ZHN4kqYrtTfFcv-MEQ,7
+orient-0.1.0.dist-info/RECORD,,
