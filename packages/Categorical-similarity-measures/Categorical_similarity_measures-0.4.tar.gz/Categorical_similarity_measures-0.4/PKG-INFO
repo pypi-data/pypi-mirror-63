@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Categorical_similarity_measures
+Version: 0.4
+Summary: Similarity Measures Utility Package
+Home-page: https://github.com/AjayMukundS/Categorical_similarity_measures
+Author: Ajay Mukund S
+Author-email: ajaymukund1998@gmail.com
+License: MIT
+Download-URL: https://github.com/AjayMukundS/Categorical_similarity_measures/archive/v_04.tar.gz
+Description: Determining similarity or distance between two objects is a key step for several data mining and knowledge discovery tasks. For quantitative data, Minkowski distance plays a major role in finding the distance between two entities. The prevalently known and used similarity measures are Manhattan distance which is the Minkowski distance of order 1 and the Euclidean distance which is the Minkowski distance of order 2. But, in the case of categorical data, we know that there does not exist an innate order and that makes it problematic to find the distance between two categorical points. This is a utility package for finding similarity measures such as Eskin, IOF, OF, Overlap (Simple Matching), Goodall1, Goodall2, Goodall3, Goodall4, Lin, Lin1, Morlini_Zani (S2), Variable Entropy and Variable Mutability. These similarity measures help in finding the distance between two or more objects or entities containing categorical data.
+Keywords: Similarity,Distance,Categorical data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
