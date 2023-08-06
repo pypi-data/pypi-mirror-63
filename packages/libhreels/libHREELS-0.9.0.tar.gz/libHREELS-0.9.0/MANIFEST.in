@@ -1,0 +1,5 @@
+global-include *.ui
+global-include *.pyw
+global-include *.f90
+global-include *.so
+global-include *.json
