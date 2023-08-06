@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_green_extension.egg-info/PKG-INFO
+aliyun_python_sdk_green_extension.egg-info/SOURCES.txt
+aliyun_python_sdk_green_extension.egg-info/dependency_links.txt
+aliyun_python_sdk_green_extension.egg-info/requires.txt
+aliyun_python_sdk_green_extension.egg-info/top_level.txt
+aliyunsdkgreenextension/__init__.py
+aliyunsdkgreenextension/request/__init__.py
+aliyunsdkgreenextension/request/extension/ClientUploader.py
+aliyunsdkgreenextension/request/extension/HttpContentHelper.py
+aliyunsdkgreenextension/request/extension/UploadCredentials.py
+aliyunsdkgreenextension/request/extension/__init__.py

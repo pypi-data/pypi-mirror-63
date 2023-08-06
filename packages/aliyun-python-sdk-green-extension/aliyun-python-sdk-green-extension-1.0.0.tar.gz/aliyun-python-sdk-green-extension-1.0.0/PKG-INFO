@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: aliyun-python-sdk-green-extension
+Version: 1.0.0
+Summary: The green extension module of Aliyun Python sdk.
+Home-page: http://develop.aliyun.com/sdk/python
+Author: Aliyun
+Author-email: aliyun-developers-efficiency@list.alibaba-inc.com
+License: Apache
+Description: UNKNOWN
+Keywords: aliyun,sdk,green-extension
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
