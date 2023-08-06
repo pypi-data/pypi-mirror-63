@@ -1,0 +1,11 @@
+snakehouse/__init__.py,sha256=HdbCsp3K9It8hAvi0l2ci1K9bMfbl34T6pBRDQCbX1k,87
+snakehouse/build.py,sha256=Qh_cT-L_PnoWTq9PGz2S0UmEmquctqGcrkPpJOwBwmg,231
+snakehouse/multibuild.py,sha256=xF2EDVCzIFN5WPfqRqMnADH4m9D7lH_zlsikRkNV1Iw,4844
+snakehouse/templates/bootstrap.mako,sha256=YQsFWfjPRgdPPc5iwe7psHdLccH2sfSoewc1ZG3rE0c,1826
+snakehouse/templates/hfile.mako,sha256=eWb1joawmAbL1pbh0OFnJTCvJoeV6GvTz7WXoEnIJ80,60
+snakehouse/templates/initpy.mako,sha256=5B1Ty5-8MsLsEg-MGrJNN9I3Akvm7U-j5bc7hyjP1Z4,99
+snakehouse-1.0.2.dist-info/LICENSE,sha256=YuhL4Jc-cZevQLGD6whZbE8BQi9tCVPI5nwn9qD5oi8,1065
+snakehouse-1.0.2.dist-info/METADATA,sha256=JI9iGpWXqRnHSL0eH53maQjLRfu4LbYzF6erADvYABI,2970
+snakehouse-1.0.2.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+snakehouse-1.0.2.dist-info/top_level.txt,sha256=JMhPnZNsZfmgFKwVTBwnhMrq5LTE63QghPgdpLSByk4,11
+snakehouse-1.0.2.dist-info/RECORD,,
