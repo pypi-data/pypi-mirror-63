@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: riskflow
+Version: 0.1.2.dev0
+Summary: An XVA quantitative library with AAD
+Home-page: https://github.com/sylam/riskflow
+Author: shuaib.osman
+Author-email: shuaib.osman@investec.co.za
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: scipy (>=1.3)
+Requires-Dist: pandas (>=0.24)
+Requires-Dist: matplotlib (>=2.0)
+Requires-Dist: tensorflow (==1.14.0)
+Requires-Dist: python-markdown-math (>=0.6)
+
+# RiskFlow
+An xVA quantitative library written in pure python using tensorflow.
+
+
+## Installation
+The easiest way to install riskflow is via pip
+
+```
+pip install riskflow
+```
+
+Note that this installs tensorflow 1.14 (the cpu version). If gpu's are available, please install tensorflow-gpu (also version 1.14)
+Downloading the source and running setup also works.
+
+```
+python setup.py install
+```
+
+## Documentation
+Documentation is available at [readthedocs](https://riskflow.readthedocs.io/en/latest/).
+
+
+## Usage
+
+There are 2 batch scripts installed :
+
+ - RF_Batch runs CVA, CollVA and FVA calculations on a folder of netting sets
+ - RF_Bootstrap currently only calculates hull white 2 factor parameters from swaption vols  
+
+
+## Known issues
+
+1. The hessian (matrix of second derivatives) does not always compute - this may be a bug in tensorflow
+
+
+
