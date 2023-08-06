@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+wip/wechaty/__init__.py
+wip/wechaty.egg-info/PKG-INFO
+wip/wechaty.egg-info/SOURCES.txt
+wip/wechaty.egg-info/dependency_links.txt
+wip/wechaty.egg-info/top_level.txt
