@@ -1,0 +1,7 @@
+README.md
+setup.py
+questgame.egg-info/PKG-INFO
+questgame.egg-info/SOURCES.txt
+questgame.egg-info/dependency_links.txt
+questgame.egg-info/requires.txt
+questgame.egg-info/top_level.txt
