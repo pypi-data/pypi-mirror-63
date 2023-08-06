@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: pyeccodes
+Version: 0.0.6
+Summary: Experimental pure Python version of eccodes
+Home-page: https://github.com/b8raoult/pyeccodes
+Author: ECMWF
+Author-email: software.support@ecmwf.int
+License: Apache 2.0
+Description: # pyeccodes
+        
+        This is an experiment of a pure Python GRIB decoder based on eccodes https://github.com/ecmwf/eccodes. The code is automatically generated from the definition files and tables.
+        
+        The package does not support encoding. 
+        
+        The difference with other Python bindings are:
+        
+        * All arrays and lists are returns as numpy arrays
+        * Missing data values are set to numpy.NaN
+        * Asking for a missing key is not an error. The value None is returned
+        * If a key returns a missing value  (e.g. 255), None is returned instead
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
