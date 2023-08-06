@@ -1,0 +1,3 @@
+torchsummaryX
+flyai
+torch>=1.0.0
