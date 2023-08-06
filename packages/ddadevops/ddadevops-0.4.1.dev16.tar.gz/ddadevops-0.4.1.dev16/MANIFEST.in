@@ -1,0 +1,1 @@
+include terraform/main/resources/terraform/*.tf
