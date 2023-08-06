@@ -1,0 +1,17 @@
+README.md
+setup.py
+mmanalyser/__init__.py
+mmanalyser/config.py
+mmanalyser/emotion_analyser.py
+mmanalyser/expression_analyser.py
+mmanalyser/fluctuation_detector.py
+mmanalyser/heart_rate_analyser.py
+mmanalyser.egg-info/PKG-INFO
+mmanalyser.egg-info/SOURCES.txt
+mmanalyser.egg-info/dependency_links.txt
+mmanalyser.egg-info/requires.txt
+mmanalyser.egg-info/top_level.txt
+mmanalyser/data/suffix.txt
+mmanalyser/utils/__init__.py
+mmanalyser/utils/nlu_tools.py
+mmanalyser/utils/suffix_remover.py
