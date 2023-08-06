@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: nlp-tools-py-lib
+Version: 0.1.1
+Summary: simple nlp library
+Home-page: https://github.com/thomas-marquis/nlp-tools-py-lib
+License: MIT
+Author: thomas.marquis.dev
+Author-email: thomas.marquis.dev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: nltk (>=3.4.5,<4.0.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Project-URL: Repository, https://github.com/thomas-marquis/nlp-tools-py-lib
+Description-Content-Type: text/markdown
+
+# nlp-tools-py-lib
+python simple nlp library
+
+## installation
+
+````shell script
+pip install nlp-tools-py-lib
+````
+
+## usage
+
+````python
+# main.py
+from nlp_tools.preprocessing import Preprocessing
+from nlp_tools.loaders import MdLoader
+from nlp_tools.representations import MergedMatrixRepresentation
+from nlp_tools.classifiers import ClassificationProcessor, NaiveBayseTfIdfClassifier
+
+TRAIN_PATH = 'demo_training.md'
+
+def build_classifier():
+    loader = MdLoader(TRAIN_PATH)
+    processor = Preprocessing(loader)
+    repres = MergedMatrixRepresentation(processor.data)
+    classifier = ClassificationProcessor(NaiveBayseTfIdfClassifier(), repres)
+    classifier.train()
+
+    def predict(text: str):
+        message = repres.process_new_data(processor.process_sentence(text))
+        intent, score = classifier.predict(message)
+        return intent, score
+    return predict
+````
+
+``training.md`` example :
+
+````markdown
+# intents
+
+## my_first_intent_name
+
+### responses
+
+- ...
+
+### example
+
+- ...
+````
