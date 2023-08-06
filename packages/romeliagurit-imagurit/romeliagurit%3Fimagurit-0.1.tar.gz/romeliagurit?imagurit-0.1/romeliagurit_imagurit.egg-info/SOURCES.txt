@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+romeliagurit_imagurit.egg-info/PKG-INFO
+romeliagurit_imagurit.egg-info/SOURCES.txt
+romeliagurit_imagurit.egg-info/dependency_links.txt
+romeliagurit_imagurit.egg-info/not-zip-safe
+romeliagurit_imagurit.egg-info/top_level.txt
