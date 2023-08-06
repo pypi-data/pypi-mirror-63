@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: flake8-no-fstring
+Version: 1.0.3
+Summary: A flake8 plugin to ban f-strings
+Home-page: https://github.com/seporaitis/flake8-no-fstring
+Author: Julius Seporaitis
+Author-email: julius@seporaitis.net
+License: ISCL
+Project-URL: Changelog, https://github.com/seporaitis/flake8-no-fstring/blob/master/HISTORY.rst
+Description: =================
+        flake8-no-fstring
+        =================
+        
+        .. image:: https://img.shields.io/pypi/v/flake8-no-fstring.svg
+                :target: https://pypi.python.org/pypi/flake8-no-fstring
+        
+        .. image:: https://img.shields.io/travis/seporaitis/flake8-no-fstring.svg
+                :target: https://travis-ci.org/seporaitis/flake8-no-fstring
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+            :target: https://github.com/python/black
+        
+        A `flake8 <https://flake8.readthedocs.io/en/latest/index.html>`_ plugin to ban
+        f-string.
+        
+        This can be useful in code bases where packages are shared between two different
+        python versions, one of which does not support f-strings.
+        
+        Installation
+        ------------
+        
+        Install from ``pip`` with:
+        
+        .. code-block:: sh
+        
+             python -m pip install flake8-no-fstring
+        
+        Python 3.6 to 3.8 supported.
+        
+        When installed it will automatically be run as part of ``flake8``; you can
+        check it is being picked up with:
+        
+        .. code-block:: sh
+        
+            $ flake8 --version
+            3.7.9 (flake8-no-fstring: 1.0.0, mccabe: 0.6.1, pycodestyle: 2.5.0, pyflakes: 2.1.1) CPython 3.8.0 on Darwin
+        
+        Rules
+        -----
+        
+        NF001: No f-string
+        ~~~~~~~~~~~~~~~~~~
+        
+        Complains about f-strings.
+        
+        =======
+        History
+        =======
+        
+        1.0.3 (2020-03-20)
+        ------------------
+        
+        * Remove redundant code (`PR #1 <https://github.com/seporaitis/flake8-no-fstring/pull/1>`__).
+        
+        1.0.2 (2020-03-20)
+        ------------------
+        
+        * Update documentation, links and badges.
+        
+        1.0.1 (2020-03-19)
+        ------------------
+        
+        * Update HISTORY.rst
+        
+        1.0.0 (2020-03-19)
+        ------------------
+        
+        * First release on PyPI.
+        * ``NF001`` rule that complains about f-strings.
+        
+Keywords: flake8
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
