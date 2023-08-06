@@ -1,0 +1,99 @@
+#!/usr/bin/env python3
+
+from datetime import date, datetime
+from typing import Optional
+import argparse
+import os
+import re
+
+ROOT = os.path.dirname(os.path.realpath(__file__))
+
+
+class File:
+    def __init__(self, d: date) -> None:
+        self.date = d
+
+    def strdate(self) -> str:
+        return self.date.strftime("%Y-%m-%d")
+
+    def title(self) -> str:
+        return f"# {self.strdate()}"
+
+    def path(self) -> str:
+        return self.date.strftime(f"{ROOT}/%Y/%m/%d.md")
+
+    def create(self) -> None:
+        os.makedirs(os.path.dirname(self.path()), exist_ok=True)
+
+        with open(self.path(), "w+") as f:
+            f.write(f"{self.title()}\n\n")
+
+    def add_entry(self, content: str) -> None:
+        with open(self.path(), "a+") as f:
+            f.write(f"* {content}\n")
+
+    def exists(self) -> bool:
+        return os.path.exists(self.path())
+
+    def show(self) -> str:
+        with open(self.path()) as f:
+            return f.read()
+        return ""
+
+
+def compile_date(datestr: str) -> Optional[date]:
+    today = date.today()
+    if re.match(r"^\d\d$", datestr):
+        day = int(datestr)
+        return today.replace(day=day)
+    elif re.match(r"^\d\d-\d\d$", datestr):
+        month, day = map(lambda x: int(x), datestr.split("-"))
+        return today.replace(month=month, day=day)
+    elif re.match(r"^\d\d\d\d-\d\d-\d\d$", datestr):
+        d = datetime.strptime(datestr, "%Y-%m-%d").date()
+        return d
+    print("The date should be in the %Y-%m-%d format")
+    return None
+
+
+def add(args):
+    if content := args.content:
+        today = File(date.today())
+        if not today.exists():
+            today.create()
+        today.add_entry(content)
+
+
+def show(args):
+    if date_to_show := args.date:
+        d = compile_date(date_to_show)
+        print(File(d).show())
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers()
+
+    add_parser = subparsers.add_parser("add", help="Add a new bullet point to today")
+    add_parser.set_defaults(func=add)
+    add_parser.add_argument("content", type=str, help="bar help")
+
+    show_parser = subparsers.add_parser(
+        "show",
+        help="Shows contents of file for a specific day (or today if none is provided)",
+    )
+    show_parser.set_defaults(func=show)
+    show_parser.add_argument(
+        "date",
+        type=str,
+        help="bar help",
+        nargs="?",
+        default=date.today().strftime("%Y-%m-%d"),
+    )
+
+    args = parser.parse_args()
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()
