@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+SQL_google_interface.egg-info/PKG-INFO
+SQL_google_interface.egg-info/SOURCES.txt
+SQL_google_interface.egg-info/dependency_links.txt
+SQL_google_interface.egg-info/requires.txt
+SQL_google_interface.egg-info/top_level.txt
+sql_google_interface/__init__.py
+sql_google_interface/interface.py
