@@ -1,0 +1,8 @@
+setuptools>=38.3.0
+Faker<5,>=1.0.8
+tabledata<2,>=0.10.3
+
+[test]
+Faker>=4.0.2
+pytablewriter>=0.46
+pytest
