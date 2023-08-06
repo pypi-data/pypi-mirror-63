@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: kakeibox-database-sqlite3
+Version: 0.0.5
+Summary: A persistent data plugin to store kakeibox data in SQLite 3.
+Home-page: https://gitlab.com/kakeibox/plugins/database/kakeibox-database-sqlite3
+Author: Jonathan López
+Author-email: jlopez@fipasoft.com.mx
+License: GNU General Public License v3
+Keywords: kakeibox_database_sqlite3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+===============================
+kakeibox_database_sqlite3
+===============================
+
+
+.. image:: https://img.shields.io/pypi/v/kakeibox_database_sqlite3.svg
+        :target: https://pypi.python.org/pypi/kakeibox-database-sqlite3
+
+
+
+Plugin to store the data into SQLite 3.
+
+
+* Free software: GNU General Public License v3
+
+
+Features
+--------
+
+* TODO
+
+
+
+=======
+History
+=======
+
+0.1.0 (2019-08-28)
+------------------
+
+* First release on PyPI. Basic operations in database.
+
+
