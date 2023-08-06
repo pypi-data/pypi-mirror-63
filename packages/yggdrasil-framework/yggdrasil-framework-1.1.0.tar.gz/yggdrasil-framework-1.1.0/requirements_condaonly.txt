@@ -1,0 +1,11 @@
+cmake
+czmq
+r-base
+r-bit64
+r-r6
+r-reticulate
+r-zeallot
+r-units
+zeromq
+c-compiler; platform_system == 'Windows'
+cxx-compiler; platform_system == 'Windows'
