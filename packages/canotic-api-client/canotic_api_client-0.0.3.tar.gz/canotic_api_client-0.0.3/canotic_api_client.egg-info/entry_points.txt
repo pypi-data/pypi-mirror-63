@@ -1,0 +1,3 @@
+[console_scripts]
+canotic-api-cli = canotic.cli:main
+
