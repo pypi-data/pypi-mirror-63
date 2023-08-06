@@ -1,0 +1,13 @@
+README.md
+setup.py
+taskpl/__init__.py
+taskpl/config.py
+taskpl/gate.py
+taskpl/manager.py
+taskpl/server.py
+taskpl/task.py
+taskpl.egg-info/PKG-INFO
+taskpl.egg-info/SOURCES.txt
+taskpl.egg-info/dependency_links.txt
+taskpl.egg-info/requires.txt
+taskpl.egg-info/top_level.txt
