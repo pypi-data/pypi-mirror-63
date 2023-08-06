@@ -1,0 +1,8 @@
+python-dateutil
+requests
+vcversioner
+swh.model
+
+[testing]
+pytest
+requests_mock
