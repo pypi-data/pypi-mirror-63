@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hoba
+Version: 0.1.1
+Summary: Yet another secrets management toolkit
+License: MIT
+Author: Michael Zaikin
+Author-email: mz@baking-bad.org
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: fire
+Requires-Dist: gitpython
+Requires-Dist: keyring
+Requires-Dist: keyrings.alt
+Requires-Dist: loguru
+Requires-Dist: pyaml
+Requires-Dist: python-gnupg
+Requires-Dist: shellingham
