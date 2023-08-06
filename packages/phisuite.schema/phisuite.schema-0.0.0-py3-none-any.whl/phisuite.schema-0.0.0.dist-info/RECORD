@@ -1,0 +1,14 @@
+phisuite/schema/__init__.py,sha256=OTTao9Hd9gJ1mJJpOnrFgdnkdayMVZjt2pTEwezptoA,198
+phisuite/schema/common_pb2.py,sha256=6-hrSPfJjIJ-WXLj3I-75f4XjXQFOlrV0FsNT1MJ03I,8886
+phisuite/schema/common_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+phisuite/schema/entity_pb2.py,sha256=ORPgp7zhUiLIIo7YcuA-FOGDPomGlfRQxy7rY3v0xII,5898
+phisuite/schema/entity_pb2_grpc.py,sha256=leM33jY2qSRCf9759G4PGaSVDveQ87dCRkkhfif1OCI,4922
+phisuite/schema/event_pb2.py,sha256=2cQ9vFUZWw4XPqEB8i7jrAWvB5_XJRZrPYwNkYTefNU,6298
+phisuite/schema/event_pb2_grpc.py,sha256=xk5m0vNVxBksMSTKnNrCw0FvMqM94cFMzzZ7Y7ydpAU,4870
+phisuite/schema/process_pb2.py,sha256=LXYXOjI69rrDTQFVNZ4I60vH-WE8iSPQuYtDwS6YVjY,8060
+phisuite/schema/process_pb2_grpc.py,sha256=WN5ZDlTsJsvRXewE5k5c6BBUtJeOfdBsKq9G3P-Ney0,4255
+phisuite.schema-0.0.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+phisuite.schema-0.0.0.dist-info/METADATA,sha256=i7NxP42iPnbkayVMax5xCY-J3JPVPNDxNm8DA4ez1as,2139
+phisuite.schema-0.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+phisuite.schema-0.0.0.dist-info/top_level.txt,sha256=IjkgKN8VAf3dNV-JCXT1qHNb84-1d1FL184NkfkmPFs,9
+phisuite.schema-0.0.0.dist-info/RECORD,,
