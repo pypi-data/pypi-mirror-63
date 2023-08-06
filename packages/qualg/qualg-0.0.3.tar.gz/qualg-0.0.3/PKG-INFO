@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: qualg
+Version: 0.0.3
+Summary: Symbolic linear algrebra for quantum mechanics
+Home-page: https://github.com/AckslD/QuAlg
+Author: Axel Dahlberg
+Author-email: axel.dahlberg12@gmail.com
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.org/AckslD/QuAlg.svg?branch=master)](https://travis-ci.org/AckslD/QuAlg)
+        
+        QuAlg (0.0.3)
+        =====================================================
+        
+        Welcome to QuAlg's README.
+        
+        Documentation
+        -------------
+        Full documentation can be found [here](https://acksld.github.io/QuAlg/).
+        The best way to get started is to have a look at the [quickstart-guide](https://acksld.github.io/QuAlg/quickstart.html).
+        The actual jupyter notebook of the quickstart-guide can be found [here](https://github.com/AckslD/QuAlg/blob/master/docs/quickstart.ipynb).
+        
+        Installation
+        ------------
+        To install the package do:
+        ```bash
+        make install
+        ```
+        
+        To verify the installation do:
+        ```
+        make verify
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
