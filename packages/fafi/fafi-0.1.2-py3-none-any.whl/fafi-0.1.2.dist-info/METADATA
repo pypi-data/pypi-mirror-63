@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fafi
+Version: 0.1.2
+Summary: CLI for indexing Firefox bookmarks.
+License: MIT
+Author: Sander van Dragt
+Author-email: sander@vandragt.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.3,<2.0.0)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: newspaper3k (>=0.2.8,<0.3.0)
