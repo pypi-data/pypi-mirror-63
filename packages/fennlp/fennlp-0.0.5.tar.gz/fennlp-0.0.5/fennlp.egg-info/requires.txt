@@ -1,0 +1,4 @@
+typeguard
+gensim
+tqdm
+sentencepiece
