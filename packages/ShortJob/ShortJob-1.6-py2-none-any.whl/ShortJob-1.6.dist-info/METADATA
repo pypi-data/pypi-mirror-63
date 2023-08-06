@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ShortJob
+Version: 1.6
+Summary: Multitask Multilanguage
+Home-page: UNKNOWN
+Author: Xin-Xin Ma
+License: UNKNOWN
+Project-URL: Source, https://github.com/xxmawhu/ShortJob
+Platform: UNKNOWN
+
+Multitask:
+    means doing similar thing many times, i.e change the mass window then fit
+    agian.
+Multilanguage:
+    In one task, we may use different language, such as bash and python or C++.
+
+
