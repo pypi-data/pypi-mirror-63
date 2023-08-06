@@ -1,0 +1,8 @@
+requests
+prs-utility
+
+[dev]
+pytest>=3
+coverage
+tox
+twine
