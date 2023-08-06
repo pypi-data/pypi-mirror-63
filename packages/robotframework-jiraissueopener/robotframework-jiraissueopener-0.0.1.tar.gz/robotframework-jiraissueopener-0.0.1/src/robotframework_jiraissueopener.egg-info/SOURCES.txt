@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/robotframework_jiraissueopener.egg-info/PKG-INFO
+src/robotframework_jiraissueopener.egg-info/SOURCES.txt
+src/robotframework_jiraissueopener.egg-info/dependency_links.txt
+src/robotframework_jiraissueopener.egg-info/requires.txt
+src/robotframework_jiraissueopener.egg-info/top_level.txt
