@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ecs-logging
+Version: 0
+Summary: Logging formatters for ECS in Python
+Home-page: https://github.com/elastic/ecs-logging-python
+License: UNKNOWN
+Author: Seth Michael Larson
+Author-email: seth.larson@elastic.co
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: pytest ; extra == "develop"
+Provides-Extra: develop
+
+# ecs-logging-python
+
+Please note that this is library is in a beta version and backwards-incompatible
+changes might be introduced in future releases.
+
+## Installation
+
+```console
+python -m pip install ecs-logging
+```
+
+## Getting Started
+
+```python
+import logging
+import ecs_logging
+
+# Get the Logger
+logger = logging.getLogger("app")
+logger.setLevel(logging.DEBUG)
+
+# Add an ECS formatter to the Handler
+handler = logging.StreamHandler()
+handler.setFormatter(ecs_logging.StdlibFormatter())
+logger.addHandler(handler)
+
+# Emit a log! :)
+logger.debug("Example message!")
+```
+
+## License
+
+Apache-2.0
+
