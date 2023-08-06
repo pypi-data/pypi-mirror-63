@@ -1,0 +1,11 @@
+ofxstatement_dutch-1.0.1-py3.8-nspkg.pth,sha256=_KjO6Cug2guaia44wgWxchIkQ093BqfLESrr12UogS4,1809
+ofxstatement/plugins/nl/__init__.py,sha256=97jNS4WZG7fnhey6vcTdSUFyhHC4qQ5xfMlXjlH6Gbw,57
+ofxstatement/plugins/nl/icscards.py,sha256=ywDFvNi2iWN6pOKdnkipCkldidTw32pHD4TZG27Z8h4,8452
+ofxstatement/plugins/nl/ing.py,sha256=QmN0fJVtZi6vekwUDNBTkzW7VFdVbHuwma35qyUm-38,6470
+ofxstatement_dutch-1.0.1.dist-info/METADATA,sha256=z-_lkPx7gT8Q2i3sGnu0jWrxONs8lzXd8uUmskNmkfE,3251
+ofxstatement_dutch-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ofxstatement_dutch-1.0.1.dist-info/entry_points.txt,sha256=XzL43wQWLEl9vNkRgdQ5V1LJcRnlADju8xnhRtqKaEk,114
+ofxstatement_dutch-1.0.1.dist-info/namespace_packages.txt,sha256=i29PY9ieDhHxwObljMcvZNQ_PHxIyAHVbzFlzcpcHn4,34
+ofxstatement_dutch-1.0.1.dist-info/top_level.txt,sha256=QULlVVrNlYwAPeKqH5xw5QYTOH04LNlME6axewv7XDs,13
+ofxstatement_dutch-1.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ofxstatement_dutch-1.0.1.dist-info/RECORD,,
