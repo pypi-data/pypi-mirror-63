@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: irispy
+Version: 1.1
+Summary: Async and fast api wrapper for IrisCallback API
+Home-page: https://github.com/zpodushkin/irispy
+Author: zpodushkin
+Author-email: UNKNOWN
+License: GPL-3.0
+Download-URL: https://github.com/zpodushkin/irispy/archive/1.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
