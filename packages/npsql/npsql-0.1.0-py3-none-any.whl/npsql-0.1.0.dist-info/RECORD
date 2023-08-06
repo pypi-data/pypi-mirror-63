@@ -1,0 +1,12 @@
+npsql/__init__.py,sha256=dtBfsDYvVXrWsMTmSmxQpKM6VbVjglVbC8-EZJApjNc,383
+npsql/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+npsql/git_version.py,sha256=zK4sCVjemwKrE2AoOv-fMAbDgzsnLQWO-zykJbxr9lw,109
+npsql/hashjoin.py,sha256=h9igCkTV3pNeK-3LuEr0ewoGrvcWkG-DOsN6eIZ91xA,9852
+npsql/npsql.py,sha256=3ElTOhr3T1AXNiIOdeeOzpIo_rluiKW6byj_b_qaejk,34397
+npsql/numpy_types.py,sha256=KXr05cXrDIdtgzYAyHLzBI4WG84P7HrddEzB1G9PdY8,362
+npsql/util.py,sha256=l5iX6KUQG61DX43cuFF8GaVrQCPPJlnhTm01PbsCb6I,803
+npsql-0.1.0.dist-info/LICENSE,sha256=j5DKCxlutMnedkyQhT4_ZB-94P67fC6_2BmGFFxJAgE,1077
+npsql-0.1.0.dist-info/METADATA,sha256=xQzC49IxqTAhtd_R05sRbDS0E0jeFj1mm4hK_he0gtk,7604
+npsql-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+npsql-0.1.0.dist-info/top_level.txt,sha256=QLx3bC83DWh_5L8LANsg8PKfXlnBGfI9BuTdSGTBeR4,6
+npsql-0.1.0.dist-info/RECORD,,
