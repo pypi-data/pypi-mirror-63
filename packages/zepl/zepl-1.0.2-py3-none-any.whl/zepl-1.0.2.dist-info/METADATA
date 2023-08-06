@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: zepl
+Version: 1.0.2
+Summary: Remote Mycropython WebREPL Console
+Home-page: https://gitlab.com/zepl1/zepl
+Author: Leonard Pollak
+Author-email: leonardp@tr-host.de
+License: AGPL-3.0-or-later
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyzmq
+Requires-Dist: zepl-device
+
+# Zepl
+Console application for MicroPython WebREPL
+
+## Usage
+[Set up WebREPL on your board(s).](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html#webrepl-a-prompt-over-wifi)
+```
+$ zepl 192.168.0.87 8266 -p <password>
+---  Quit: Ctrl+A followed by Ctrl+X  |  Help: Ctrl+A followed by h  ---
+
+<Ctrl+A followed by h>
+
+--- zmq (18.0.1) - zepl - help
+---
+--- Micropython hotkeys
+--- Ctrl+C Micropython Keyboard Interrupt
+--- Ctrl+D Micropython Soft Reset
+---
+--- Ctrl+A Menu escape key
+--- Menu keys:
+---    Ctrl+A Send the menu character itself to remote
+---    Ctrl+E encoding
+---    Ctrl+F edit filters
+---    Ctrl+L EOL mode
+---    Ctrl+X Exit program
+---    h Show help
+---    r Micropython Machine Reset
+---    v Get Version
+---    l List files
+---    u Upload file (prompt will be shown)
+---    d Download file (prompt will be shown)
+
+
+WebREPL connected
+>>> 
+
+<Ctrl+A followed by Ctrl+X>
+
+--- exit ---
+
+```
+```
+$ zepl -h
+Usage: zepl [-h] [-p PASSWORD] [--encoding CODEC] [-f NAME]
+            [--eol {CR,LF,CRLF}] [--raw] [--menu-char NUM] [--exit-char NUM]
+            [-q]
+            [ip] [port]
+
+Zepl - A simple remote terminal program for Micropython webREPL
+
+positional arguments:
+  ip                    hostname or ip
+  port                  set port, default: 8266
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+data handling:
+  -p PASSWORD, --password PASSWORD
+                        Password for WebREPL login
+  --encoding CODEC      set the encoding for the serial port (e.g. hexlify,
+                        Latin1, UTF-8), default: UTF-8
+  -f NAME, --filter NAME
+                        add text transformation
+  --eol {CR,LF,CRLF}    end of line mode
+  --raw                 Do no apply any encodings/transformations
+
+hotkeys:
+  --menu-char NUM       Unicode code of special character that is used as menu
+                        key, default: Ctrl+A
+  --exit-char NUM       Unicode code of special character that is used as exit
+                        key, default: Ctrl+X
+
+diagnostics:
+  -q, --quiet           suppress non-error messages
+```
+
+# Documentation
+read the [story](https://gitlab.com/zepl1/docs)
+
+
