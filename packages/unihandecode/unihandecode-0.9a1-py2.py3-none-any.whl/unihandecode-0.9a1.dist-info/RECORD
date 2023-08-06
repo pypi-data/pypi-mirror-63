@@ -1,0 +1,17 @@
+unihandecode/__init__.py,sha256=5Pn6PT_lv-HzH3qFoRTLYV5DD1ar7itbRvm82f3jEvc,4028
+unihandecode/jacodepoints.pickle,sha256=OkIAaGb5CZPYgAQRJXtF-ZNXs_TmbryUeHi4ZMOl--I,508797
+unihandecode/krcodepoints.pickle,sha256=2fIc8pgUPkoffOZMBA3EqCyrvznHOeC8dHPFbdXcCLc,508656
+unihandecode/unicodepoints.pickle,sha256=41TrbDQGl6Ck_rkM_EIwux_5JDnEepR2VljbUsyeMPY,230358
+unihandecode/vncodepoints.pickle,sha256=ZyTFPPHnEG_4sNL_AGmRXv6hDW2T7FeD3c-9DiwT9v4,508708
+unihandecode/yuecodepoints.pickle,sha256=9WfJij57TggZvd42gxBcWEJoywXUdcXMlSOI9FovHk0,513296
+unihandecode/zhcodepoints.pickle,sha256=9xhtcIOtOcuvXKIVtlIHPRLc0a-RR0C8hGsLo3oK3fM,508195
+unihandecode/data/UnicodeData.txt,sha256=kLRbd3NGvvAnVW-cbLPqXX10W9YNZ2KFXAjYoi0093E,1329401
+unihandecode/data/Unihan_Readings.txt,sha256=BYnzYshp_-so3JzTfLwuKM5R5tdCY-9z6fFvvpurMSk,5291801
+unihandecode/gencodemap/__init__.py,sha256=xf6cIY2qYYg69sYPUHz0ajes2vxGBtBikCA6Z-yHqxY,77
+unihandecode/gencodemap/unicodepoints.py,sha256=PFEqjIsKhT_kcoT75f9Tsx8Audv6Ntjb4Wq5w_Jokqo,187405
+unihandecode/gencodemap/unihan_conv.py,sha256=nKt1w3Fg4_VwSCbBQT2XulXKTkWQ2SZuac0VL4nUP8U,4249
+unihandecode-0.9a1.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+unihandecode-0.9a1.dist-info/METADATA,sha256=mCNv9K7VTYas7gqHTP8iS1MgyyKhCQ1InUCTSFWctcg,5946
+unihandecode-0.9a1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+unihandecode-0.9a1.dist-info/top_level.txt,sha256=WPMGccUP-TJXq2Gep66RD-GUkAMIjxf-uZJUYkOD0sY,13
+unihandecode-0.9a1.dist-info/RECORD,,
