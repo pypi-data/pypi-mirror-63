@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: spiderlibs
+Version: 0.0.9
+Summary: spider lib
+Home-page: UNKNOWN
+Author: wu chao
+Author-email: 377486624@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: lxml (==4.5.0)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: PyMySQL (==0.9.3)
+Requires-Dist: pyppeteer (==0.0.25)
+Requires-Dist: redis (==3.4.1)
+Requires-Dist: websockets (==6.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: twine (==3.1.1)
+Requires-Dist: wheel (==0.34.2)
+
+spiderlib
+=========
+
+爬虫，随便用，没有版权
+
+
