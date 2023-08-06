@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_grayli_2020/Binomialdistribution.py
+distributions_grayli_2020/Gaussiandistribution.py
+distributions_grayli_2020/Generaldistribution.py
+distributions_grayli_2020/__init__.py
+distributions_grayli_2020.egg-info/PKG-INFO
+distributions_grayli_2020.egg-info/SOURCES.txt
+distributions_grayli_2020.egg-info/dependency_links.txt
+distributions_grayli_2020.egg-info/not-zip-safe
+distributions_grayli_2020.egg-info/top_level.txt
