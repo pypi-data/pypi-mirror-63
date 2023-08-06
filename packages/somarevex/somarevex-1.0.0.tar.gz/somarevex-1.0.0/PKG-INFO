@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: somarevex
+Version: 1.0.0
+Summary: Soma dois valores e retorna o resultado
+Home-page: UNKNOWN
+Author: Tiago Batista
+Author-email: tiago1805@gmail.com
+License: MIT
+Description: Utiliza operações binárias avançadas a fim de realizar a computação necessária para a partir de dois valores, retornar a soma dos mesmos
+Keywords: soma sum calc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
