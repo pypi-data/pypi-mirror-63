@@ -1,0 +1,12 @@
+tmhmm.py-1.3.1.dist-info/entry_points.txt,sha256=KLbIPcpZrcSx9DZQjy8PjS63XE4NNotgw75q6quqddQ,41
+tmhmm.py-1.3.1.dist-info/top_level.txt,sha256=o6bRZqpq-LQJiH1zr5UvXJLkcNHcPmOnma6W4hbdlqY,6
+tmhmm.py-1.3.1.dist-info/RECORD,,
+tmhmm.py-1.3.1.dist-info/METADATA,sha256=-yVPhqAmAfE-xAVMS-Al0WPfIKtsbGRVJhA4Ut5SIT8,6421
+tmhmm.py-1.3.1.dist-info/WHEEL,sha256=Wzr7ustLd3r5KN3AVdAm7EECHYuYQiejXMdpS694wLU,112
+tmhmm/api.py,sha256=OLXJqkVjXzbn4u1uq4ojVa_9Is0RdJD2bnxyNR_KR5g,1197
+tmhmm/utils.py,sha256=mWEWeNJ0uH6aLNilcXI59qZe6DR9oJoL6wlRYQIJ2AU,1728
+tmhmm/__init__.py,sha256=A5LyTT0poQ5fkDmwOqgOPBe9ZNzFr3YI1f_rdS_XmYY,53
+tmhmm/TMHMM2.0.model,sha256=qlcway9gAO4wUYXYxYYDx_ZGPstByY0W0d_YAwL_qb4,22262
+tmhmm/model.py,sha256=tdY3rp02dGyypQwkKYSyVAOW7XWQcNt03wsKfhqxduM,5191
+tmhmm/hmm.cpython-37m-x86_64-linux-gnu.so,sha256=rp9SuVODQCdoAs8Y7ZNsS9sluBsONHIjgH6D6IjlD4U,528080
+tmhmm/cli.py,sha256=VEzSJ9B6QddCxpk4Q3H6l_zlTwpuMBUyHkBBH9sY9fg,3145
