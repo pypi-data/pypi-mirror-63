@@ -1,0 +1,8 @@
+README.md
+setup.py
+bad_framework/__init__.py
+bad_framework.egg-info/PKG-INFO
+bad_framework.egg-info/SOURCES.txt
+bad_framework.egg-info/dependency_links.txt
+bad_framework.egg-info/requires.txt
+bad_framework.egg-info/top_level.txt
