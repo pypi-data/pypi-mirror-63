@@ -1,0 +1,9 @@
+README.md
+setup.py
+aws_iam_tester/cli.py
+aws_iam_tester.egg-info/PKG-INFO
+aws_iam_tester.egg-info/SOURCES.txt
+aws_iam_tester.egg-info/dependency_links.txt
+aws_iam_tester.egg-info/entry_points.txt
+aws_iam_tester.egg-info/requires.txt
+aws_iam_tester.egg-info/top_level.txt
