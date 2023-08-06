@@ -1,0 +1,11 @@
+pdpc_decisions/__init__.py,sha256=KLVq9pRRV85GethPqNUkqPwJmCQkNq91dMy5TO2R1-E,47
+pdpc_decisions/download_file.py,sha256=F7OfC-CQgvEeRsW6YiDdUABQo0m7NkG0STfS-JVXn0Q,5541
+pdpc_decisions/pdpcdecision.py,sha256=CngpL55RpEIkiwvU_V0t9Tdfyq1v15gPHe4DFYOg7MM,2591
+pdpc_decisions/save_file.py,sha256=tgEhdnsRq6zAVsYzEzrigUeljv_r_jInHgl2fPogG88,1130
+pdpc_decisions/scraper.py,sha256=FsimTiIPznRGKirG4SrxVGdTLm3-1CkI81EfVC6lVSs,2939
+pdpc_decisions/scraper_extras.py,sha256=WBJlQYU3Cp096vco37c9nkZ8_-0Qg8sNIjxRhN-bob4,5445
+pdpc_decisions-1.1.0.dist-info/LICENSE,sha256=JV98fOQkVIsjDFRy9hVm_rCGsO4G6VXV_jL7scrbyzo,1909
+pdpc_decisions-1.1.0.dist-info/METADATA,sha256=XZOTz71np0lRE7_QfLhnjYAtkWBaLVEnjvfAKursnHM,5145
+pdpc_decisions-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pdpc_decisions-1.1.0.dist-info/top_level.txt,sha256=mCy_NTUKNNmPs1-xhbJQDeGOE4JwTpH8PlzY18Tuxic,15
+pdpc_decisions-1.1.0.dist-info/RECORD,,
