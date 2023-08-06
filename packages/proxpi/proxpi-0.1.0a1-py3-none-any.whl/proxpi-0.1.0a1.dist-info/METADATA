@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: proxpi
+Version: 0.1.0a1
+Summary: PyPI caching mirror
+Home-page: https://github.com/EpicWink/proxpi
+Author: Laurie O
+Author-email: laurie_opperman@hotmail.com
+License: MIT
+Keywords: pypi,index,mirror,cache
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# proxpi
+PyPI caching mirror
+
+* Host a proxy PyPI mirror server with caching
+* Use extra index URLs
+* Set index cache times-to-live (individually for each index)
+
+## Installation
+```bash
+pip install proxpi
+```
+
+## Usage
+```bash
+FLASK_APP=proxpi flask run
+```
+
+```bash
+pip install --index-url http://127.0.0.1:5000/index/ simplejson
+```
+
+### Environment variables
+* `PIP_INDEX_URL`: root index URL, default: https://pypi.org/simple/
+* `INDEX_TTL`: root index time-to-live (aka cache time-out) in seconds, default: 30
+   minutes
+* `PIP_EXTRA_INDEX_URL`: extra index URLs (white-space separated)
+* `EXTRA_INDEX_TTL`: corresponding extra index times-to-live in seconds (white-space
+   separated), default: 3 minutes
+
+
+### Docker
+```bash
+docker run -p 5000:5000 epicwink/proxpi
+```
+
+
