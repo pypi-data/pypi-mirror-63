@@ -1,0 +1,10 @@
+README.md
+setup.py
+readpe/__init__.py
+readpe/readpe.py
+readpe.egg-info/PKG-INFO
+readpe.egg-info/SOURCES.txt
+readpe.egg-info/dependency_links.txt
+readpe.egg-info/entry_points.txt
+readpe.egg-info/requires.txt
+readpe.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+readpe = readpe.readpe:main
+
