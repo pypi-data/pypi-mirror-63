@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: configs-adampippin
+Version: 0.0.6
+Summary: Tool for transforming and working with config files containing Mozilla SOPS secrets
+Home-page: https://adampippin.ca/
+Author: Adam Pippin
+Author-email: hello@adampippin.ca
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
