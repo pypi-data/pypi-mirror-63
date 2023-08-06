@@ -1,0 +1,17 @@
+autoextract/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+autoextract/__main__.py,sha256=Gf2EYl8P9twc1_OupFw4_ifJrd-PVEGypwTY9zccNMo,3712
+autoextract/__version__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+autoextract/apikey.py,sha256=sKJRNAIqfZIUQd4jl1-fwm-O7j17lyABgvxiMIobgUY,514
+autoextract/batching.py,sha256=8EUUNQK1x_TQNShxyElOIOY4uVWisaGW1bAiWNr33Vo,851
+autoextract/constants.py,sha256=4ajKZmqHYgzy5Ra0OOLVWfGiPNthF_-6LJLj3Bx9Hjk,335
+autoextract/sync.py,sha256=pWpSk3o878GQzp0pEBDFgWh2Uqo0O0VkZWlW2tX0v0g,1326
+autoextract/utils.py,sha256=IWbdLxO-9NLtljMpYl0IvHzotVjOfeSTOS15ZXnmjm4,355
+autoextract/aio/__init__.py,sha256=XGynarNDaE-K_P0SvieFel6yR_e7U2KJSO3sabBD_ug,120
+autoextract/aio/client.py,sha256=puhcNM6kORUTIbQTeRVe5JCWu284Tzr3fbS7qHRFnaA,5340
+autoextract/aio/errors.py,sha256=4T3UWUob2XEJCcdmnkA70Dkqj5cpXCxm8tDA3AQm0Mg,569
+autoextract/aio/retry.py,sha256=bikm-rnwcXHlctWQjq4ILdz_4goU2CuzWnAqHzDXRTY,3422
+scrapinghub_autoextract-0.1.1.dist-info/LICENSE,sha256=OwF91yZTgMQUkBEqH_5wV5MAzisd6zo3ATth7OmQNsU,1513
+scrapinghub_autoextract-0.1.1.dist-info/METADATA,sha256=F2g6AcUfEmr57Vlao2AxrmDnDiMFzGC8lIexO8yLjEI,5687
+scrapinghub_autoextract-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scrapinghub_autoextract-0.1.1.dist-info/top_level.txt,sha256=TTQh8fYJK6Ld_3N8ouND_UNp1TYWtuD_946WYWwDJio,12
+scrapinghub_autoextract-0.1.1.dist-info/RECORD,,
