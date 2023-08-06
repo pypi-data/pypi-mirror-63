@@ -1,0 +1,7 @@
+cryptography
+asn1crypto
+
+[test]
+coverage
+flake8
+tox
