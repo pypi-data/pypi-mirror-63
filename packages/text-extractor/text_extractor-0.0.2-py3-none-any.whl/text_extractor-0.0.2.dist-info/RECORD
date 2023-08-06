@@ -1,0 +1,10 @@
+text_extractor/__init__.py,sha256=7pZ1CURnclEaQS90SqadmdmoiKZX9CzNPRJIC4m1Ago,29
+text_extractor/main_extractor.py,sha256=z6q-ifqrMcNR6ZsrP0AdxRFjI41qmlVkDN2ReqkKNO8,1138
+text_extractor/utils.py,sha256=kUfRz3bQGFzJhxSI_d0YTogVW2te-21BkjcmJOgoAXY,566
+text_extractor/extractors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_extractor/extractors/pdf_extractor.py,sha256=FeorP8mTH2xaqUpUxASFNICV5X6fcWs_16U_C4PrBFY,7962
+text_extractor/extractors/txt_extractor.py,sha256=scpBqXqe_yoaXFiqinSf0n-VvE1YoIdQxkX7RlBeOHc,163
+text_extractor-0.0.2.dist-info/METADATA,sha256=d2rRpNGfShuhyriXuB8UixiLh0dgYWgS2QjsbP9-waE,956
+text_extractor-0.0.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+text_extractor-0.0.2.dist-info/top_level.txt,sha256=x65D0hFmAzla5Jaxwv88fSawfkGoLuKJLY7No6H-nN8,15
+text_extractor-0.0.2.dist-info/RECORD,,

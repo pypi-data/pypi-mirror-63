@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: text-extractor
+Version: 0.0.2
+Summary: Text extracting package from multiple file formats
+Home-page: UNKNOWN
+Author: Lee Ying Yang
+Author-email: overaneout@gmail.com
+License: Apache Software License (Apache License 2.0)
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pdfminer.six (>=20200124)
+
+# Text Extractor
+
+### Introduction
+Inspired by python textract, this text_extractor package aims to provide users an quick and easy way to extract text from multiple different file formats into python for further.
+It is also possible for more customized for extraction though using the extractors of specific file formats, or kwargs on the high level text_extraction function.
+
+```
+from text_extractor import text_extraction
+
+filepath = "mypdffile.pdf"
+
+output_text = text_extraction(filepath)
+
+```
+
+
+### Currently Supported File Formats
+- Document PDF (Not scanned or images)
+- txt
+
+
