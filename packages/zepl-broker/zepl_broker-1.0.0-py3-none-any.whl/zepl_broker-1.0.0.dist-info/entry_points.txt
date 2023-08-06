@@ -1,0 +1,4 @@
+[console_scripts]
+zepl-broker = zepl_broker.broker_cli:main
+zepl-client = zepl_broker.client_cli:main
+
