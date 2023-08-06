@@ -1,0 +1,14 @@
+*.pyc
+*.egg-info
+*.png
+!images/*.png
+.idea
+.vscode
+venv
+test
+build
+dist
+plots
+output
+sim
+output-sim
