@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: palmero
+Version: 0.2.2
+Summary: Easy and secure python encryption
+Home-page: https://github.com/SimLoads/palmero
+Author: PyGoose
+Author-email: sam@dbndesign.com
+License: MIT
+Keywords: encryption decryption security tool
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.4
+Requires-Dist: pycryptodome
+
+UNKNOWN
+
+
