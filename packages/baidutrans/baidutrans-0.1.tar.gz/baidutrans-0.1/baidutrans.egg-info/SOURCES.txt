@@ -1,0 +1,7 @@
+setup.py
+baidutrans/__init__.py
+baidutrans.egg-info/PKG-INFO
+baidutrans.egg-info/SOURCES.txt
+baidutrans.egg-info/dependency_links.txt
+baidutrans.egg-info/not-zip-safe
+baidutrans.egg-info/top_level.txt
