@@ -1,0 +1,3 @@
+[console_scripts]
+AutoInstall = configCmtPack.main:main
+
