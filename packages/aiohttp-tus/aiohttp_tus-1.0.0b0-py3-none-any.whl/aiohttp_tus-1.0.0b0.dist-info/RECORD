@@ -1,0 +1,14 @@
+CHANGELOG.rst,sha256=pWiGlNNGzjMJ4sgssJTz4h-vMzelH_DdKqTGBS1QqOY,751
+aiohttp_tus/__init__.py,sha256=LIR63Q5NTetgY1FGKauvh4xFe-L2eA9c8QZcVWzFpps,106
+aiohttp_tus/annotations.py,sha256=fDaPDXuhwnhcdvXnbubav5bNYqnAzsmi5esQ-5wb0c4,377
+aiohttp_tus/constants.py,sha256=dX9-WOGyy0aI0mEodNMqWcWZNSq2R_DT_qjugH-Hy6o,822
+aiohttp_tus/data.py,sha256=3iqSSJTNJups-hagzS9Jx9rBhdORx3KAPRp3EcvLQHo,6006
+aiohttp_tus/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_tus/tus.py,sha256=mxmplRPaMtZVwgwmSC5LYgc5xM8XLWdfs6GfqJgwDAU,2001
+aiohttp_tus/utils.py,sha256=lIui23KHEYAu0jk8wWhIebEFpiGndwqq1bFFRr50E40,1827
+aiohttp_tus/validators.py,sha256=zVEH0j2DKvn5g7hBWr46MjT3RZY-zpNa-8OmP3wW04U,625
+aiohttp_tus/views.py,sha256=kfAVH5hnRZRQG9m8b-7vWxfz0bwtkOI5zkEJUe8c28A,6617
+aiohttp_tus-1.0.0b0.dist-info/LICENSE,sha256=GXhRsWT10Cdulr6wnQWfVdlFl2_sHkHFN3GqjLfOEb4,1513
+aiohttp_tus-1.0.0b0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+aiohttp_tus-1.0.0b0.dist-info/METADATA,sha256=OQnj64p77_hII2pVSdXlr1lAxeUM1Nwk4mqFgLzUNwA,2124
+aiohttp_tus-1.0.0b0.dist-info/RECORD,,
