@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: casperdcl-test
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/casperdcl/test
+Author: Casper da Costa-Luis
+Author-email: casper.dcl@physics.org
+License: MPLv2.0
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+test
+====
+
+This package does nothing useful.
+
+
