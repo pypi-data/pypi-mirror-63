@@ -1,0 +1,9 @@
+bess/__init__.py,sha256=LmOhcHTGcVs10Z7wnib6I7abEHjztnshWvukwZLISL8,160
+bess/_cbess.cp36-win_amd64.pyd,sha256=DOUnpAg-9Mfj13xylIa3LJ6KYNe22g9Jfz8_d75jK9s,906752
+bess/bess.py,sha256=nSpfcyVnHGct4YhYkbbjJ-A_8rWbexS1v0PuUhOYhUQ,16788
+bess/cbess.py,sha256=wBRYj8HnfZJx5Ugou6E5NwduQzZH5nXCnp-iIpKLJxU,2660
+bess-0.0.6.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+bess-0.0.6.dist-info/METADATA,sha256=uuV9WjJ853tm4R7y6mwWAZBPQfWKSjTGvOFZC5tmNpI,4169
+bess-0.0.6.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+bess-0.0.6.dist-info/top_level.txt,sha256=Dt9mW2EvbA1p5mbk50Zc-VZ4xuPNNselDNP5qKG5lXw,5
+bess-0.0.6.dist-info/RECORD,,
