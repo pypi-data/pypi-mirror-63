@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+./scripts/rawproc
+RawProc/__init__.py
+RawProc/__main__.py
+RawProc/img_transfer.py
+RawProc/log_utils.py
+RawProc/raw_converter.py
+RawProc/str_utils.py
+RawProc.egg-info/PKG-INFO
+RawProc.egg-info/SOURCES.txt
+RawProc.egg-info/dependency_links.txt
+RawProc.egg-info/requires.txt
+RawProc.egg-info/top_level.txt
