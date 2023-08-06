@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+config-example.py,sha256=y6KnU61k0Lr_MR1p8i55K3P0y1SzQoRw5zKMVFnzQDM,25
+config.py,sha256=qy-7lzG0K49nHNIwZKDgYf6OkHtdUIc-yMaipC6_sbI,92
+soundcloud_dl.py,sha256=G08AUh7YXnuu23YVAuxekqvPR67ZtQSohIBmsitYZbE,2198
+downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+downloader/client.py,sha256=AA2ZWdNcH4QBp5r5U2ShWeBIlmwtgPQVMsMvugMA81k,1974
+downloader/config-example.py,sha256=UnlmXPyklkEXCag1i8N8g-3pFEp_-S6h8IiSxetMLHY,33
+downloader/context.py,sha256=TmAoOLXBuS8gfrFWmQDU1D5DmSsZYCij9M_6SRRSqso,137
+downloader/downloader.py,sha256=vNpABk4r7URKtwX9Y_b5mwmdEGMjVk70XQfWT2dedL0,7338
+downloader/utils.py,sha256=sAXhwnYV6sPq4hho8tXZepwzBomUXEL_ShtX6vjk_hs,2880
+soundcloud_dl-0.1.21.dist-info/METADATA,sha256=5ANDYequAIu-c3siEYeJW70aTFrQ20rDW76dQLAX5r8,3556
+soundcloud_dl-0.1.21.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+soundcloud_dl-0.1.21.dist-info/entry_points.txt,sha256=bhD9atNA0Egyezsv2OuOkAecOGuAfoxecSQ59qoTOwk,81
+soundcloud_dl-0.1.21.dist-info/top_level.txt,sha256=tKT6cw2vawuRo05pJib1P_VwvLMzSd2I0Ux1yCr5eHA,12
+soundcloud_dl-0.1.21.dist-info/RECORD,,
