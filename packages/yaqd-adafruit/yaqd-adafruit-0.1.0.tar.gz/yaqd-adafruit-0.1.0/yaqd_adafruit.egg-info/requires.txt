@@ -1,0 +1,7 @@
+yaqd-core
+yaqc
+adafruit-circuitpython-motorkit
+
+[dev]
+black
+pre-commit
