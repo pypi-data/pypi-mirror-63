@@ -1,0 +1,9 @@
+brymck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/dates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/dates/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brymck/dates/v1/date_pb2.py,sha256=ABkRDARt7mbwWRAi4-Pwrd_356MOwc4BLvgcn8UROUA,2999
+brymck/dates/v1/date_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+brymck_dates-0.0.5.dist-info/METADATA,sha256=dvUfIPr5nyTzJGhX00gkOgHHIKHxQu2YVaYZ-35s4DQ,483
+brymck_dates-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+brymck_dates-0.0.5.dist-info/top_level.txt,sha256=VY1fYcadKhoqppcYnzf84EVe73B3vbUak5rH25rlCM8,7
+brymck_dates-0.0.5.dist-info/RECORD,,
