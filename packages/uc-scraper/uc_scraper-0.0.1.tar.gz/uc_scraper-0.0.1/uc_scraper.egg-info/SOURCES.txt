@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+VERSION.txt
+setup.cfg
+setup.py
+uc/__init__.py
+uc/scraper.py
+uc/utils.py
+uc_scraper.egg-info/PKG-INFO
+uc_scraper.egg-info/SOURCES.txt
+uc_scraper.egg-info/dependency_links.txt
+uc_scraper.egg-info/not-zip-safe
+uc_scraper.egg-info/requires.txt
+uc_scraper.egg-info/top_level.txt
