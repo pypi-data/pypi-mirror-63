@@ -1,0 +1,9 @@
+kisters.network_store.model_library>=0.2.1
+kisters.water.rest_client>=0.0.4
+
+[test]
+kisters.network_store.model_library.water
+pytest
+
+[water]
+kisters.network_store.model_library.water
