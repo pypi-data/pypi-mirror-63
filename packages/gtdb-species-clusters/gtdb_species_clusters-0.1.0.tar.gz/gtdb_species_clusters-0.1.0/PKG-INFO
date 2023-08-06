@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gtdb_species_clusters
+Version: 0.1.0
+Summary: This toolkit provides functionality for establishing, updating, and validating the species clusters used in the Genome Taxonomy Database.
+Home-page: https://github.com/Ecogenomics/gtdb-species-clusters
+Author: Donovan Parks
+Author-email: donovan.parks@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
