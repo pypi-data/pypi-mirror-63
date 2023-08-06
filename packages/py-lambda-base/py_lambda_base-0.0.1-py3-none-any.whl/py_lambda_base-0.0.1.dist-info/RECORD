@@ -1,0 +1,11 @@
+lambda_base/__init__.py,sha256=I6P9CYmkTtoKRMBUtZ6eeC3r3gFFGZC1fAEJi3F4TLQ,99
+lambda_base/http_methods.py,sha256=KKHkieDU9IgWVq6SIZZAvC3rC8HFXTKRSas7i8RpvEY,650
+lambda_base/route.py,sha256=qRxJlGHhJE1b_LVFBsCHqvAzy_cFbH3qUTMHKIerl6M,348
+lambda_base/route_holder.py,sha256=RS-CvKh_EfSFPxArJ7X8IeTFYRfi-mZUQ_Sa1ZhwYq0,2079
+lambda_base/route_parser.py,sha256=EQNMrcRydNwPJWg5WfiqaMZ6QABkEuLWapA1F1H3Xg8,1155
+lambda_base/singleton.py,sha256=jNv4LQ5MW7gE99it4PtkKm2tHqG6oDtmQSPQPpN_GUg,219
+py_lambda_base-0.0.1.dist-info/LICENSE,sha256=YvZUn4WMKer_DWR-W3a_Fgmq7hRPpgoiDxkH0KSICTc,1079
+py_lambda_base-0.0.1.dist-info/METADATA,sha256=XHsu6V693hg_cB4M3FwV8CKso5dl1Zrawu39q8jvVn4,601
+py_lambda_base-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_lambda_base-0.0.1.dist-info/top_level.txt,sha256=pY7TZvRqkkumY7uDgl4U14BEgY13legClD1i62P8ZxM,12
+py_lambda_base-0.0.1.dist-info/RECORD,,
