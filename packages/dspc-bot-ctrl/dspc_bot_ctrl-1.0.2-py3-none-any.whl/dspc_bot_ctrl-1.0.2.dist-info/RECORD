@@ -1,0 +1,13 @@
+dspc_bot_ctrl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dspc_bot_ctrl/__main__.py,sha256=qwftm6kXxj93xMY5Ndzx1ALFh-RMCDtSr6l8zS-gPpc,119
+dspc_bot_ctrl/bot_functions.py,sha256=_3KvAz6pMk64LfdKAPG5gi6qseNPvycrBYRY3IPtoEI,12136
+dspc_bot_ctrl/dspc_bot.py,sha256=F9Ec0_6VjjMk7pNfleV4JkxR804lxfdzL3aYJCXBPU0,2863
+dspc_bot_ctrl/ss_stream.py,sha256=ZWObRPQPl4u9l6O1mbSgwBGXgej2We1REfoldiISyl8,1420
+dspc_bot_ctrl/telegram_poller.py,sha256=KZuEmP5MGxdNbw4g_dXvPGUxPeHqoP_nAQzSH-XVS7U,4796
+dspc_bot_ctrl/user_identifier.py,sha256=wil5t40FJey8EQKBfVtvh96UgyqXB424HgYwYejCGqA,2653
+dspc_bot_ctrl/window_manager.py,sha256=Y0smXWUb5LBLApqL9kNL1HWdc1QXNlb3_G36G9j42QQ,1389
+dspc_bot_ctrl-1.0.2.dist-info/LICENSE,sha256=Y_zDMUosI56de95GVglpC19GilDg_0qu5kgmy4XiwKE,33092
+dspc_bot_ctrl-1.0.2.dist-info/METADATA,sha256=os0Jx2ntrsAu9Wq11jkbO39_D6y2OtcG7ixU6i8UVYU,3913
+dspc_bot_ctrl-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dspc_bot_ctrl-1.0.2.dist-info/top_level.txt,sha256=2EWdkwwxf5E5DX4kBytQn6nMbMUdqHHe4O7LuM945qU,14
+dspc_bot_ctrl-1.0.2.dist-info/RECORD,,
