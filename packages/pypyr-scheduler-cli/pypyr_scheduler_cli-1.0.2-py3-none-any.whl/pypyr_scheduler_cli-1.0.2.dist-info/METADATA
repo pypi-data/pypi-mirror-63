@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pypyr-scheduler-cli
+Version: 1.0.2
+Summary: Command line Interface for pypyr-scheduler-server
+Home-page: https://github.com/pypyr-scheduler/pypyr-scheduler-cli
+Author: David Zerrenner
+Author-email: dazer017@gmail.com
+License: MIT
+Keywords: Pypyr,Scheduler,Taskrunner
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pypyr-scheduler-rpc-client
+Requires-Dist: rich
+Requires-Dist: halo
+
+# pypyr-scheduler-cli
+command line interface for the pypyr-scheduler
+
+
