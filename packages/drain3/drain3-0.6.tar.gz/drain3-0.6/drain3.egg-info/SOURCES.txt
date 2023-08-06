@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+drain3/__init__.py
+drain3/drain3_core.py
+drain3/drain3_main.py
+drain3/file_persist_utils.py
+drain3/kafka_utils.py
+drain3/masking.py
+drain3.egg-info/PKG-INFO
+drain3.egg-info/SOURCES.txt
+drain3.egg-info/dependency_links.txt
+drain3.egg-info/requires.txt
+drain3.egg-info/top_level.txt
