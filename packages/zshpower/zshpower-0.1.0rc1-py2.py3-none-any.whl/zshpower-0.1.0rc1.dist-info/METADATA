@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: zshpower
+Version: 0.1.0rc1
+Summary: ZSH Power is a theme for the terminal "ZSH" with the "Oh My ZSH" framework.
+Home-page: https://github.com/snakypy/zshpower
+Author: William C. Canin
+Author-email: william.costa.canin@gmail.com
+Maintainer: William C. Canin
+License: ('MIT license',)
+Keywords: zshpower
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >= 3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: click (==7.0)
+Requires-Dist: tomlkit (==0.5.11)
+Provides-Extra: dev
+Requires-Dist: twine (==3.1.1) ; extra == 'dev'
+Requires-Dist: wheel (==0.34.2) ; extra == 'dev'
+Requires-Dist: flake8 (==3.7.9) ; extra == 'dev'
+Requires-Dist: tox (==3.14.3) ; extra == 'dev'
+Requires-Dist: sphinx (==2.3.1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.4.3) ; extra == 'dev'
+Requires-Dist: recommonmark (==0.6.0) ; extra == 'dev'
+Requires-Dist: pytest (==5.3.5) ; extra == 'dev'
+Requires-Dist: pytest-runner (==5.2) ; extra == 'dev'
+
+=========
+ZSH Power
+=========
+
+Under Construction.
+
+

@@ -1,0 +1,11 @@
+zshpower/__init__.py,sha256=urz0kVVqZ4hfeuqKvOQYvofgsHY9Z3vwBK00V9NLLeg,617
+zshpower/__main__.py,sha256=uJlPXt5NDzQU6vPxVaenkRtexjgWgSbcEgqi25bRd74,15
+zshpower/cli.py,sha256=t1-ea5grgn1E3SdZmgVKb_dONVjAmvyhsg9fm_4MIlg,125
+zshpower/zshpower.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+zshpower-0.1.0rc1.dist-info/AUTHORS.rst,sha256=zIUckH_Foz3fhm_8vwHO6lmpSCZm8w9YgIKSegwsQOA,171
+zshpower-0.1.0rc1.dist-info/LICENSE,sha256=yP0GpPqpXKVpLiEoJWeizM6VUGey9MjM3jQT33CFgU0,1075
+zshpower-0.1.0rc1.dist-info/METADATA,sha256=f2B2QT0Sl9Pou9jbuT3cHwEqg3AAFbvx-kilJaiKz8Y,1281
+zshpower-0.1.0rc1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+zshpower-0.1.0rc1.dist-info/entry_points.txt,sha256=sxpc6LTgBbX8PwGPReXKqBkxb7LLlmwC2h2yzdKB96M,70
+zshpower-0.1.0rc1.dist-info/top_level.txt,sha256=uslQ4n2KCIzemlhhTk2WPt3w5cSiyazcwcmKspkoPYE,9
+zshpower-0.1.0rc1.dist-info/RECORD,,
