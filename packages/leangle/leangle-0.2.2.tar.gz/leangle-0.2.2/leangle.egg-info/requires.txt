@@ -1,0 +1,4 @@
+marshmallow-jsonschema
+
+[chalice]
+chalice==1.13.0
