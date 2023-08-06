@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+setup.py
+doc/README.md
+doc/zepl-model.png
+src/zepl/__init__.py
+src/zepl/console.py
+src/zepl/user.py
+src/zepl/zepl_cli.py
+src/zepl.egg-info/PKG-INFO
+src/zepl.egg-info/SOURCES.txt
+src/zepl.egg-info/dependency_links.txt
+src/zepl.egg-info/entry_points.txt
+src/zepl.egg-info/requires.txt
+src/zepl.egg-info/top_level.txt
