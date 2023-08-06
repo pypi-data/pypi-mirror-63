@@ -1,0 +1,4 @@
+[submodule "myoperator/apm"]
+	path = myoperator/apm
+	url = git@gitlab.com:myoperator-python/myoperator-packages/apm.git
+    branch = develop
