@@ -1,0 +1,14 @@
+rapidtables==0.1.10
+python-dateutil==2.7.3
+neotermcolor==2.0.7
+requests==2.23.0
+cachetools==3.1.1
+flask==1.1.1
+sqlalchemy==1.3.10
+psycopg2==2.8.4
+pyaltt2==0.0.61
+pyyaml==3.13
+gunicorn==20.0.4
+finac==0.4.15
+python-dateutil==2.7.3
+jsonschema==2.6.0
