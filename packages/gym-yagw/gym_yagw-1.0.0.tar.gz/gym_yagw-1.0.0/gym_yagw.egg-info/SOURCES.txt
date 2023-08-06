@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+gym_yagw.egg-info/PKG-INFO
+gym_yagw.egg-info/SOURCES.txt
+gym_yagw.egg-info/dependency_links.txt
+gym_yagw.egg-info/requires.txt
+gym_yagw.egg-info/top_level.txt

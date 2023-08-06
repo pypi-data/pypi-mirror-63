@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: gym-yagw
+Version: 1.0.0
+Summary: YAGW - Yet Another Grid World
+Home-page: https://github.com/Limmen/gym-yagw
+Author: Kim Hammar
+Author-email: hammar.kim@gmail.com
+License: MIT License
+Download-URL: https://github.com/Limmen/gym-yagw/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: Gridworld,reinforcement learning,Q-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
