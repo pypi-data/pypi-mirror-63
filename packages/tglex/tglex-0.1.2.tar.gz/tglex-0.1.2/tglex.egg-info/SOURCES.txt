@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tglex/__init__.py
+tglex/message.py
+tglex/token.py
+tglex/tokenize.py
+tglex.egg-info/PKG-INFO
+tglex.egg-info/SOURCES.txt
+tglex.egg-info/dependency_links.txt
+tglex.egg-info/top_level.txt
+tglex.egg-info/zip-safe
