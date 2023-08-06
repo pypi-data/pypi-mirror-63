@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: online-judge-template-generator
+Version: 2.4.1
+Summary: A simple template generator for competitive programming
+Home-page: https://github.com/kmyk/online-judge-template-generator
+Author: Kimiyuki Onaka
+Author-email: kimiyuki95@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: appdirs (>=1.4)
+Requires-Dist: beautifulsoup4 (>=4.8)
+Requires-Dist: Mako (>=1.1)
+Requires-Dist: online-judge-tools (>=9)
+Requires-Dist: ply (>=3)
+Requires-Dist: pyyaml (>=5)
+Requires-Dist: requests (>=2.23)
+Requires-Dist: sympy (>=1.5)
+Requires-Dist: toml (>=0.10)
+Provides-Extra: dev
+Requires-Dist: isort (==4.3.21); extra == 'dev'
+Requires-Dist: mypy (==0.740); extra == 'dev'
+Requires-Dist: pylint (==2.4.3); extra == 'dev'
+Requires-Dist: yapf (==0.28.0); extra == 'dev'
+
+UNKNOWN
+
+
