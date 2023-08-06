@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pybembel
+Version: 0.4.0
+Summary: A iPOPO based Distributed component framework
+Home-page: https://codeberg.org/bembel/pybembel_pkg
+Author: Matthias Leinweber
+Author-email: m.leinweber@datatactics.de
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
+Requires-Dist: iPOPO
+Requires-Dist: pyyaml
+Requires-Dist: logstash-formatter
+Requires-Dist: prometheus-client
+
+Bembel is a lightweight component application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.
+
+
