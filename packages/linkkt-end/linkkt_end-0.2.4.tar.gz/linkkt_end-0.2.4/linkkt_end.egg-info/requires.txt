@@ -1,0 +1,9 @@
+jamboree
+mlfinlab
+cvxpy
+sklearn
+cytoolz
+loguru
+maya
+crayons
+dask[dataframe]
