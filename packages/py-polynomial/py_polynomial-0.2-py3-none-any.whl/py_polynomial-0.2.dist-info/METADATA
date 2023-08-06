@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-polynomial
+Version: 0.2
+Summary: Package handling mathematical single-variable polynomials.
+Home-page: https://github.com/allexks/py-polynomial
+Author: Alexander Ignatov
+Author-email: yalishanda@abv.bg
+License: MIT
+Download-URL: https://github.com/allexks/py-polynomial/archive/0.2.tar.gz
+Keywords: polynomial,maths,derivative,roots,algebra,linear
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+UNKNOWN
+
+
