@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: covidtracking
+Version: 0.1
+Summary: Simple API to get data from https://covidtracking.com
+Home-page: https://gitlab.com/blfordham/covid-tracking
+Author: Bryan L. Fordham
+Author-email: bryan@nativesavannah.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Covid Tracking API
+
+Simple API to get data from https://covidtracking.com
+
+```python
+>>> import sys
+>>> sys.path.append('src')
+>>> from covidtracking import CovidTracking
+>>> c = CovidTracking()
+>>> x = c.states() # Get all states
+>>> ga = c.states('GA') # Get only Georgia data
+>>> twoStates = c.states('GA', 'SC') # You can pass multiple filters
+```
+
+The data is cached, since it's not updated constantly. To refresh, call `clear()` first.
+
+
