@@ -1,0 +1,17 @@
+mincepy>=0.10.4
+click
+tabulate
+
+[dev]
+ipython
+pip
+pytest>4
+pytest-cov
+pre-commit
+yapf
+prospector
+pylint
+twine
+
+[gui]
+mincepy[gui]
