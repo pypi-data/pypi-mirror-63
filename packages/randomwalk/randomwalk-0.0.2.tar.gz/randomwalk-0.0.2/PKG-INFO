@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: randomwalk
+Version: 0.0.2
+Summary: Package for automating various personal tasks
+Home-page: https://github.com/rahulrajpl/randomwalk
+Author: Rahul Raj
+Author-email: rahulrajpl@protonmail.com
+License: UNKNOWN
+Description: # RandomWalk
+        
+        This is my personal python library which automates various methods, procedures, code snippets, etc.
+        
+        Libraries available so far are as follows
+        - resume
+        - diffusion_map
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
