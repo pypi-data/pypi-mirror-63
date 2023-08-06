@@ -1,0 +1,9 @@
+hoba/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hoba/cli.py,sha256=ftkKgwT2iUs5HWabL6nwJjnQ_NhCV9opOM5C_IdLv1w,2038
+hoba/gen.py,sha256=8PgyoUkE04WZRTHGGtrYwNh7Z2tnSMlycX5RtfeMyWo,3389
+hoba/sync.py,sha256=aJKd_36CRqRqRWao7enAYtnGw5Nz-HEbXv9J-27JXwg,2769
+hoba-0.1.1.dist-info/entry_points.txt,sha256=nxHeJDxfl_bGKhkKEbYOfd_Nw4jgu87bvBQ754W5VSA,38
+hoba-0.1.1.dist-info/LICENSE,sha256=pS3Bf4Kl4IzYoHuJ5BjpA1fvFX_DeOB0SzlhvkIZxhw,1062
+hoba-0.1.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+hoba-0.1.1.dist-info/METADATA,sha256=GlFjRjXVX6kijA2vXqG-8iDpvpxQzu49MjSi3WmuVA8,585
+hoba-0.1.1.dist-info/RECORD,,
