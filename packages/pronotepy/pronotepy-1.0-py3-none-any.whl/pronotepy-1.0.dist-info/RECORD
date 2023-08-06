@@ -1,0 +1,10 @@
+pronotepy/__init__.py,sha256=dDAZBNgtvL1SmUkb0u4-HtaDYJmXiOR_ikFicq0dZjQ,58
+pronotepy/dataClasses.py,sha256=hqsl-LZePyAEtldaPnUQXak-BtUebELpvqbLfrO3Vn8,18357
+pronotepy/ent.py,sha256=5N2SBP93u7J_nzNpSjsLVlRGHim6TGBvg2XPpRaFGxM,4167
+pronotepy/pronoteAPI.py,sha256=cyNGRzQhKkfpok0Bor5KJFAcI6zB1C1dGq3Pfgg125I,18564
+pronotepy/test_pronotepy.py,sha256=BtGGn2C6ak0dd0-pT_w7KP7DX3zEjyrvV60cbj_S3hU,2036
+pronotepy-1.0.dist-info/LICENSE,sha256=TwdKt9zLsGVLaqaKq9gcWje0Rrx-_9X64IA0v4uqIHQ,1062
+pronotepy-1.0.dist-info/METADATA,sha256=2xqEYimxMMuvWj5dyVXXBTBU_bNrmJZ6MX04X5jb6wY,478
+pronotepy-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pronotepy-1.0.dist-info/top_level.txt,sha256=75gsmqik4l1RLIBGr703zB22R5L0o8KOmIBdP-OLEZ0,10
+pronotepy-1.0.dist-info/RECORD,,
