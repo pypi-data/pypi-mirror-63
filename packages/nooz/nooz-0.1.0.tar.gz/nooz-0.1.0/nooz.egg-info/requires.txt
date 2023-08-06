@@ -1,0 +1,8 @@
+mypy_extensions>=0.4
+requests>=2.23.0
+urwid==2.1.0
+urllib3>=1.25.8
+
+[linting]
+mypy==0.761
+pycodestyle==2.5.0
