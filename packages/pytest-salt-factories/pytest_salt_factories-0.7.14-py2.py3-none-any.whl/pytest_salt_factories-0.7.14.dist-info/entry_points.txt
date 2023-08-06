@@ -1,0 +1,5 @@
+[pytest11]
+salt-factories = saltfactories.plugin
+salt-factories-markers = saltfactories.markers
+salt-factories-stats = saltfactories.stats
+
