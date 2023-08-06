@@ -1,0 +1,8 @@
+cutty/__init__.py,sha256=2n8wONUC3jSwqqZHDqCCp1X2AK-v5Y_mLBWeqW4UWTY,340
+cutty/__main__.py,sha256=phMjicxyOGob_osCMPyFNgje9g5OY1rE3pYb9rQBw_4,75
+cutty/console.py,sha256=vRron2lA3OJenuV63XNd5gqtnXsfz-rYfFit_aAxmPA,169
+cutty-0.1.0.dist-info/entry_points.txt,sha256=Ehf5n_MsIqxi5Er8jI7d5ceLAG8UmohY_hocngsB7S0,44
+cutty-0.1.0.dist-info/LICENSE,sha256=Uwg5ZhoeolhSddt0eWnHn3SaqQaEpW8LgtTLpWYKAx0,1073
+cutty-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cutty-0.1.0.dist-info/METADATA,sha256=cS8WtVLbfWmV_3Q72lymdHk89sjdojLhS65b0nQnP7Q,1541
+cutty-0.1.0.dist-info/RECORD,,
