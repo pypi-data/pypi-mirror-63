@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "googleapiwrapper"
+version = "0.1.0"
+description = ""
+authors = ["ethan mak <ethan.mak@streetsine.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+google-api-python-client = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
