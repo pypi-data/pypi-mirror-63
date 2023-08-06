@@ -1,0 +1,14 @@
+
+[all]
+pyobjc
+PyGObject
+pyaudio
+
+[gstreamer]
+PyGObject
+
+[mac]
+pyobjc
+
+[pyaudio]
+pyaudio

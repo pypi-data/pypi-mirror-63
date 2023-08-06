@@ -1,0 +1,7 @@
+boombox.py
+setup.py
+boombox.egg-info/PKG-INFO
+boombox.egg-info/SOURCES.txt
+boombox.egg-info/dependency_links.txt
+boombox.egg-info/requires.txt
+boombox.egg-info/top_level.txt
