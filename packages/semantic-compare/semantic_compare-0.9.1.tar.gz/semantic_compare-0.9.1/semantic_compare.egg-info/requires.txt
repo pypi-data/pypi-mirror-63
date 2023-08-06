@@ -1,0 +1,4 @@
+tensorflow>=2.1.0
+tensorflow-hub>=0.7.0
+spacy>=2.2.3
+seaborn>=0.10.0
