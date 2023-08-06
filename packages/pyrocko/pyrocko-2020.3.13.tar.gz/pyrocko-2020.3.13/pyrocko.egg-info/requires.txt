@@ -1,0 +1,11 @@
+PyOpenGL
+matplotlib
+nose
+numpy>=1.8
+progressbar2
+pyyaml
+requests
+scipy
+
+[gui_scripts]
+PyQt5
