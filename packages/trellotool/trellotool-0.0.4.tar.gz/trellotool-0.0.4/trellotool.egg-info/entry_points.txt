@@ -1,0 +1,3 @@
+[console_scripts]
+trellotool = trellotool.trellotool:main
+
