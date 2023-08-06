@@ -1,0 +1,3 @@
+[console_scripts]
+symmetric=symmetric.command_line_interface:dispatcher
+
