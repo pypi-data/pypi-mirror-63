@@ -1,0 +1,11 @@
+README.rst
+setup.py
+dependency_track.egg-info/PKG-INFO
+dependency_track.egg-info/SOURCES.txt
+dependency_track.egg-info/dependency_links.txt
+dependency_track.egg-info/top_level.txt
+dependencytrack/__init__.py
+dependencytrack/components.py
+dependencytrack/exceptions.py
+dependencytrack/licenses.py
+dependencytrack/projects.py
