@@ -1,0 +1,13 @@
+genicam2
+numpy
+xarray
+toml
+tabulate
+zipfile36
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
+sphinx-rtd-theme
+sphinx-markdown-tables
+recommonmark
