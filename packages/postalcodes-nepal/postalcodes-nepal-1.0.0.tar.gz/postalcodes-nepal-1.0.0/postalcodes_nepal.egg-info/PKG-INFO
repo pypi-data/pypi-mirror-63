@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: postalcodes-nepal
+Version: 1.0.0
+Summary: A package for working with postal codes information of Nepal
+Home-page: https://github.com/beingbiplov/postalcodes-nepal
+Author: Biplov
+Author-email: sharmabiplov@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/beingbiplov/postalcodes-nepal/issues
+Project-URL: Source, https://github.com/beingbiplov/postalcodes-nepal
+Description: # postalcodes-nepal
+        
+        
+        postalcodes-nepal is a python package that helps you to work with postal codes (Zip codes) of Nepal.
+        Some of the functionality currently supported by postalcodes-nepal are:
+          - Query for the postal code of any city of Nepal.
+          - Check wheather a postal code is valid code of Nepal. 
+          - Find the post office information based on city or postal code.
+          - Find postal codes of all post office within a district.
+          - Find postal codes of all post office of Nepal
+           
+        
+        
+        # Installation
+        
+        Run the following to install:
+        
+          ```python
+        $ pip install postalcodes-nepal
+        ```
+        
+        
+        
+        
+        ## Usage 
+        
+        Some simple usecases of postalcodes-nepal
+        
+         ```python
+        from postalcodes_nepal.postalcodes import *
+        
+        #Validate postal code. Checks if the postal code is valid and return True or False accordingly.
+        validate(44660)
+        
+        #Find the postal code of particular city. Returns postal code or if the query didnot match any city returns None.
+        postal_code('Kathmandu')
+        
+        #Returns the post office informtion of the city ie. District, Post Office, Postal Code and Post Office Type. Returns None if data doesnot match.
+        city_po_info('Kathmandu')
+        
+        #Returns the city of the provided postal code. Returns None if data doesnot match.
+        postalcode_to_city(44600)
+        
+        #Returns the post office information of the postal code.  Returns None if data doesnot match.
+        `postalcode_info(44600)
+        
+        #Returns the city and postal codes of all post office of a district. Returns None if query doesnot match.
+        district_data('Jhapa')
+        
+        #Returns the city and postal codes of all post offices of Nepal.
+        country_data()
+        ```
+        
+        OR you can alternatively import as follows:
+        ```python
+        from postalcodes_nepal import postalcodes
+        
+        postalcodes.validate(44600)
+        
+        #OR import individually
+        from postalcodes_nepal.postalcodes import validate
+        
+        validate(44600)
+        ```
+        
+        # License
+        
+        This project is licensed under the MIT License - see the [LICENSE.md] file for details
+         
+        # Links
+        
+        - [Package home - PyPi]
+        - [Source]
+        
+        
+        
+            
+           [Source]: <https://github.com/beingbiplov/postalcodes-nepal>
+           [biplov]: <https://github.com/beingbiplov>
+           [LICENSE.md]: <https://github.com/beingbiplov/postalcodes-nepal/blob/master/LICENSE>
+           [Package home - PyPi]: <https://pypi.org/project/postalcodes-nepal/>
+           
+Keywords: postalcodes Nepal zipcodes postalcodes-nepal
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
