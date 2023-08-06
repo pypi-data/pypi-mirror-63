@@ -1,0 +1,8 @@
+setup.py
+covid_reports/__init__.py
+covid_reports/util.py
+covid_reports.egg-info/PKG-INFO
+covid_reports.egg-info/SOURCES.txt
+covid_reports.egg-info/dependency_links.txt
+covid_reports.egg-info/requires.txt
+covid_reports.egg-info/top_level.txt
