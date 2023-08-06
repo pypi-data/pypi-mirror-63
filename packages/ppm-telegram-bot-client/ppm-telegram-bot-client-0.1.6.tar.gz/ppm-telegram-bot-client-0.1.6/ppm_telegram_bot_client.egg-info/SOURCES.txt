@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+ppm_telegram_bot_client/__init__.py
+ppm_telegram_bot_client/api_client.py
+ppm_telegram_bot_client/exceptions.py
+ppm_telegram_bot_client/models.py
+ppm_telegram_bot_client/py.typed
+ppm_telegram_bot_client.egg-info/PKG-INFO
+ppm_telegram_bot_client.egg-info/SOURCES.txt
+ppm_telegram_bot_client.egg-info/dependency_links.txt
+ppm_telegram_bot_client.egg-info/requires.txt
+ppm_telegram_bot_client.egg-info/top_level.txt
+ppm_telegram_bot_client/api/__init__.py
+ppm_telegram_bot_client/api/telegram_api.py
+ppm_telegram_bot_client/api/triggers_api.py
