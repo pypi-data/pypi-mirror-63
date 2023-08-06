@@ -1,0 +1,8 @@
+README.md
+setup.py
+t/__init__.py
+t/t.py
+textprep.egg-info/PKG-INFO
+textprep.egg-info/SOURCES.txt
+textprep.egg-info/dependency_links.txt
+textprep.egg-info/top_level.txt
