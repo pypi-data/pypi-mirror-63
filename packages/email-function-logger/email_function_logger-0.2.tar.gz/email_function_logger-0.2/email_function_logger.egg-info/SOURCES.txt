@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+email-function-logger/__init__.py
+email-function-logger/function_logger.py
+email-function-logger/tests.py
+email_function_logger.egg-info/PKG-INFO
+email_function_logger.egg-info/SOURCES.txt
+email_function_logger.egg-info/dependency_links.txt
+email_function_logger.egg-info/top_level.txt
