@@ -1,0 +1,8 @@
+comodels/__init__.py,sha256=Owkr7rmIRlED5iO2djYkwLBiYololRtLw8Vdl00rIgA,39
+comodels/penn.py,sha256=5eCOBpY5TNLghDR_sFKPhhC_U5XqtEm449NGjAjlM-c,10676
+comodels/sir.py,sha256=3xtjfYYLBSEutL9N7_kSCqvH2BHEVCCltoOK5KstgE0,3216
+covid_modeling-0.0.8.dist-info/LICENSE.txt,sha256=sB8mn4TcS26PFjba4LUVThBg4qmntWiNxa3ucf0tRLM,1071
+covid_modeling-0.0.8.dist-info/METADATA,sha256=oMRlG0bZOCQv8Gyg_1Hjx7b5CxZfsdk1Q9YiM7yRvVs,1649
+covid_modeling-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+covid_modeling-0.0.8.dist-info/top_level.txt,sha256=l-tBxm5iTSkF4WBWbui_mi9oxkEFq1T_KcNCJBohY8U,9
+covid_modeling-0.0.8.dist-info/RECORD,,
