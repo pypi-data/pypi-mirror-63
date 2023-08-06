@@ -1,0 +1,12 @@
+SC16IS750/SC16IS750.py,sha256=ZzOGC7Pje2FVtp-eMGUnIqPDPi6RpdY_xyMHUrnZFlk,4425
+SC16IS750/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinaps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinaps/blinoParser.py,sha256=SfVM66sJ0TEwKjLg41mM1p4783_QyRb_8o6ycRYpMfs,12480
+pinaps/callbacks_inprogress.py,sha256=1F1Nff-YwExp0_KD74rFdqjsedV_uLbznqlGj_x0hFw,1714
+pinaps/console_inprogress.py,sha256=AHHXLYDn36rfAF92sALQltTr1Hr8D5WQRsAfapYe20M,3920
+pinaps/piNapsController.py,sha256=oSNWRDPUgPBesMPK0ZgS3mYhmeh82LYJQVO3DY7gjFU,12394
+pinaps-0.6.0.dist-info/LICENSE,sha256=2ZFZ3Cvpmmao3ZnW7j6h6Z9nMXHTHtrJhcILWm2vV-c,1048
+pinaps-0.6.0.dist-info/METADATA,sha256=Pu0J_5nfMU6KIxJrBqCh_kbd7n3ALBu0m0dXnJ2lIf0,2069
+pinaps-0.6.0.dist-info/WHEEL,sha256=DrhjayDOtpr3erxrrMGq8weE7EFGb-HGYtIdeN3fvnY,92
+pinaps-0.6.0.dist-info/top_level.txt,sha256=4m6BHj2kFBxgpbM4GBMNhcvsNFsmTw0yP0FMJC4jbEU,17
+pinaps-0.6.0.dist-info/RECORD,,
