@@ -1,0 +1,10 @@
+multiprocess
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+seaborn
+statsmodels
+plotnine
+pynndescent
