@@ -1,0 +1,15 @@
+aircraft: Airbus A380-800
+
+clean:
+  cd0:         0.028
+  k:           0.054
+  e:           0.781
+
+mach_crit:     0.692
+
+gears:         0.012
+
+flaps:
+  lambda_f:    0.900
+  cf/c:        0.150
+  Sf/S:        0.150

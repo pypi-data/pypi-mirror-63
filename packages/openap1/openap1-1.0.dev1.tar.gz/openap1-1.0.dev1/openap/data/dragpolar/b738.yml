@@ -1,0 +1,15 @@
+aircraft: Boeing 737-800
+
+clean:
+  cd0:         0.023
+  k:           0.044
+  e:           0.775
+
+mach_crit:     0.632
+
+gears:         0.017
+
+flaps:
+  lambda_f:    0.900
+  cf/c:        0.150
+  Sf/S:        0.150
