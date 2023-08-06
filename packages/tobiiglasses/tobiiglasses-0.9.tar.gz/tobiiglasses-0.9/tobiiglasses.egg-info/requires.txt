@@ -1,0 +1,8 @@
+tobiiglassesctrl>=2.2.5
+tornado
+nose
+pandas
+opencv-python>=4.2.0.32
+opencv-contrib-python>=4.2.0.32
+sortedcontainers==1.5.10
+dlib
