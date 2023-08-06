@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Test</title>
+    <link rel="stylesheet" type="text/css" href="{% static "qnc_crud/qnc_crud.css" %}">
+    <script src="{% static "qnc_crud/set_form_errors.js" %}"></script>
+    <script src="{% static "qnc_crud/ajax_all_forms.js" %}"></script>
+</head>
+<body>
+    {% include "qnc_crud/complete_form.html" %}
+</body>
+</html>
