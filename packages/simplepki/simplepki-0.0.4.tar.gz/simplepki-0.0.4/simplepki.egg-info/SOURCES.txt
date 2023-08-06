@@ -1,0 +1,10 @@
+README.md
+setup.py
+simplepki/__init__.py
+simplepki/simplepki.py
+simplepki.egg-info/PKG-INFO
+simplepki.egg-info/SOURCES.txt
+simplepki.egg-info/dependency_links.txt
+simplepki.egg-info/entry_points.txt
+simplepki.egg-info/requires.txt
+simplepki.egg-info/top_level.txt
