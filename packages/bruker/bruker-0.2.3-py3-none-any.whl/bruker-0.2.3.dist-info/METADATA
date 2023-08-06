@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bruker
+Version: 0.2.3
+Summary: Bruker PvDataset Loader
+Home-page: UNKNOWN
+Author: SungHo Lee
+Author-email: shlee@unc.edu
+License: GNLv3
+Keywords: bruker
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
