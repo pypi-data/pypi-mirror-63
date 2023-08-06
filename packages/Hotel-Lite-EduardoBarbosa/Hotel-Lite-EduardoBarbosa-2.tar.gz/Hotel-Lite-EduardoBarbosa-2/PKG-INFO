@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Hotel-Lite-EduardoBarbosa
+Version: 2
+Summary: School project for DI - IES Teis 
+Home-page: https://github.com/Baaarbz/Hotel-Lite-EduardoBarbosa
+Author: Eduardo Barbosa Tarrio
+Author-email: eduardob907@gmail.com
+License: apache-2.0
+Download-URL: https://github.com/Baaarbz/Hotel-Lite-EduardoBarbosa/archive/master.zip
+Description: UNKNOWN
+Keywords: PROJECT,HOTEL,MANAGE
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
