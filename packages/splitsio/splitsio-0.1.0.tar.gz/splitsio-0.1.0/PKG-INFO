@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: splitsio
+Version: 0.1.0
+Summary: A Python implementation of the splits.io REST API.
+License: MIT
+Author: Jeremy Silver
+Author-email: jeremyag@comcast.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dataclasses_json (>=0.4.2,<0.5.0)
+Requires-Dist: marshmallow (>=3.5.1,<4.0.0)
