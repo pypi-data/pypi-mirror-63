@@ -1,0 +1,11 @@
+pymana/__init__.py,sha256=Y-EzS2KfQ_4VgfQxeegQ-6B7uM0R7x2m8TK8NHIcxFc,378
+pymana/cli.py,sha256=fhauHgx3u87AV6Dfc37e1Bm__RXL0piP2TLd8JeKTCE,6060
+pymana/correction.py,sha256=XjnopksclMFEzf8vpjKw8SVv1F78GFF2R_NVLeUQUrs,2779
+pymana/detection.py,sha256=jcFpR4Tct-qD8ulxefIxHvBvilI62Duq1QPpC5TnaCU,4875
+pymana/separation.py,sha256=tPQRP4opns2uF0EF4QemwQG7kZMuvhOPr7APT10MyEc,2809
+pymana/utils.py,sha256=nOIMAF_k4rDhFXr4oZUuA-Ekw27sbPWKZpfu765j1yM,2400
+pymana-0.1.4.dist-info/entry_points.txt,sha256=mdg3lzUbSmgk2pkHx91EQ6inZM0Kau6CjPCfCdSwpxI,41
+pymana-0.1.4.dist-info/LICENSE,sha256=LLY-J501S7YfdUy5SCk9bTT2Uk2tipOTk4Hv66jNsxo,1070
+pymana-0.1.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pymana-0.1.4.dist-info/METADATA,sha256=EicrfAW-tQiyrBoOJTzRw0oxyzPyiLM1d1PCN0jrNQw,1063
+pymana-0.1.4.dist-info/RECORD,,
