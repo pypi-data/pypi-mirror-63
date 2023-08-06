@@ -1,0 +1,10 @@
+README.md
+setup.py
+thomas/client/__build__
+thomas/client/__init__.py
+thomas/client/_version.py
+thomas_client.egg-info/PKG-INFO
+thomas_client.egg-info/SOURCES.txt
+thomas_client.egg-info/dependency_links.txt
+thomas_client.egg-info/requires.txt
+thomas_client.egg-info/top_level.txt
