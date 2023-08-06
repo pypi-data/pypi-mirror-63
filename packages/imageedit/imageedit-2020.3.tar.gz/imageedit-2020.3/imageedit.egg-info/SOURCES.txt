@@ -1,0 +1,11 @@
+README.md
+setup.py
+imageedit/__init__.py
+imageedit/imageedit.py
+imageedit/imagegrab.py
+imageedit/imagetracer.py
+imageedit.egg-info/PKG-INFO
+imageedit.egg-info/SOURCES.txt
+imageedit.egg-info/dependency_links.txt
+imageedit.egg-info/top_level.txt
+test/test_lib_imageEdit.py
