@@ -1,0 +1,3 @@
+[console_scripts]
+pyrates = pyrates.pyrates_cli:main
+
