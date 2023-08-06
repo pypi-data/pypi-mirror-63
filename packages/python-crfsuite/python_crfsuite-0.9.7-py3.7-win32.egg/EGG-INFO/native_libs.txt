@@ -1,0 +1,1 @@
+pycrfsuite/_pycrfsuite.cp37-win32.pyd
