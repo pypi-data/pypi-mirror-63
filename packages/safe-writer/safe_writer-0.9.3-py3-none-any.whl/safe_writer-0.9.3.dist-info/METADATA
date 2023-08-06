@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: safe-writer
+Version: 0.9.3
+Summary: Try to import all modules below a given root
+Home-page: https://github.com/rec/safe_writer
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+License: MIT
+Keywords: testing,modules
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+
+✏️safe_writer ✏️
+----------------------
+
+A context for writing a file which leaves it unchanged if an exception is
+thrown.
+
+Example:
+
+.. code-block:: python
+
+   with safe_writer(filename) as fp:
+       for line in source():
+           print(line, file=fp)
+
+   # If there's an exception in the block, then `filename` is reverted
+   # to its initial state
+
+
