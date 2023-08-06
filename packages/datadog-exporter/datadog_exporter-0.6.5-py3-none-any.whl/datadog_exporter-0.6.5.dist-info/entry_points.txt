@@ -1,0 +1,3 @@
+[console_scripts]
+datadog-exporter = datadog_export.__main__:main
+
