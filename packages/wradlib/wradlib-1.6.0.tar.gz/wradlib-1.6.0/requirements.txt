@@ -1,0 +1,11 @@
+deprecation
+gdal>=3
+h5py
+h5netcdf>=0.8.0
+netCDF4
+numpy
+matplotlib
+scipy
+xarray>=0.15.0
+xmltodict
+requests
