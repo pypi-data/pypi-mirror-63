@@ -1,0 +1,15 @@
+README.md
+setup.py
+qnc_crud/__init__.py
+qnc_crud/js_response.py
+qnc_crud/multiform.py
+qnc_crud/page_invalidation.py
+qnc_crud/permissions.py
+qnc_crud/urls.py
+qnc_crud.egg-info/PKG-INFO
+qnc_crud.egg-info/SOURCES.txt
+qnc_crud.egg-info/dependency_links.txt
+qnc_crud.egg-info/requires.txt
+qnc_crud.egg-info/top_level.txt
+qnc_crud/tests/__init__.py
+qnc_crud/tests/test_permissions.py
