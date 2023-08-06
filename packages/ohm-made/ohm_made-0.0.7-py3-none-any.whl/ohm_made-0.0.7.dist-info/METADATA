@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ohm-made
+Version: 0.0.7
+Summary: A library to control Ohm-Made devices.
+Home-page: https://github.com/pypa/sampleproject
+Author: Julien Kauffmann
+Author-email: julien.kauffmann@freelan.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (>=3.6.0)
+Requires-Dist: aiodns (>=2.0.0)
+Requires-Dist: aiozeroconf (>=0.1.8)
+
+# ohm-made
+
+The Ohm-made interfacing library.
+
+Designed to be used by a [Home Assistant](https://www.home-assistant.io/) integration.
+
+
