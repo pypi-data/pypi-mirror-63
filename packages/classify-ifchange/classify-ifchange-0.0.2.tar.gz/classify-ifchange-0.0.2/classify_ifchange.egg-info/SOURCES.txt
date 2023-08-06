@@ -1,0 +1,8 @@
+README.md
+setup.py
+classify_ifchange.egg-info/PKG-INFO
+classify_ifchange.egg-info/SOURCES.txt
+classify_ifchange.egg-info/dependency_links.txt
+classify_ifchange.egg-info/not-zip-safe
+classify_ifchange.egg-info/requires.txt
+classify_ifchange.egg-info/top_level.txt
