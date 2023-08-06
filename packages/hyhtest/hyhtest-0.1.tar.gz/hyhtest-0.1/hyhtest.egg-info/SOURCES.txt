@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+hyhtest.egg-info/PKG-INFO
+hyhtest.egg-info/SOURCES.txt
+hyhtest.egg-info/dependency_links.txt
+hyhtest.egg-info/not-zip-safe
+hyhtest.egg-info/top_level.txt
