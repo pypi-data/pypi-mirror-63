@@ -1,0 +1,5 @@
+name: hashable_ndframes
+
+dependencies:
+  - python=3.6
+  - flit=2.2.*
