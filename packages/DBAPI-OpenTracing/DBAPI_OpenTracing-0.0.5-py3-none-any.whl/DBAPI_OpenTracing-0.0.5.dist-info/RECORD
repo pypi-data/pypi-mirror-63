@@ -1,0 +1,8 @@
+dbapi_opentracing/__init__.py,sha256=9C9UDk7UMXGOl067JlIczyVHlimvIMaafJqxzm6oK3Y,118
+dbapi_opentracing/psycopg2_tracing.py,sha256=6SaLRdRI6biP4wH-48oBXEOoDucrAoF-g9VXT_QjyCo,8194
+dbapi_opentracing/tracing.py,sha256=8t74xnFJxOPIzOyXISHDTfAotAdeZcIfL7jIGJ_ST-w,8418
+DBAPI_OpenTracing-0.0.5.dist-info/LICENSE,sha256=owbDII_c7gEveMZZaSqtfOPUOrYZWbWedFQ0sRLPYFg,585
+DBAPI_OpenTracing-0.0.5.dist-info/METADATA,sha256=skPucuwQb0pgON9jjMpawFXIw7nCgS7jHsU-09GmDKs,11540
+DBAPI_OpenTracing-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+DBAPI_OpenTracing-0.0.5.dist-info/top_level.txt,sha256=3jELYj2Q3uAGggBdjnnOtxXDpjvTiVRrRq41gZHL1ao,18
+DBAPI_OpenTracing-0.0.5.dist-info/RECORD,,
