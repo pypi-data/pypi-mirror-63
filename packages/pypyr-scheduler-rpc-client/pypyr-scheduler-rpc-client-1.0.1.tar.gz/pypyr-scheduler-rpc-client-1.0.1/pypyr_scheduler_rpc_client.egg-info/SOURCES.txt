@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypyr_scheduler_rpc_client.egg-info/PKG-INFO
+pypyr_scheduler_rpc_client.egg-info/SOURCES.txt
+pypyr_scheduler_rpc_client.egg-info/dependency_links.txt
+pypyr_scheduler_rpc_client.egg-info/namespace_packages.txt
+pypyr_scheduler_rpc_client.egg-info/top_level.txt
+pyrsched/rpc/__init__.py
