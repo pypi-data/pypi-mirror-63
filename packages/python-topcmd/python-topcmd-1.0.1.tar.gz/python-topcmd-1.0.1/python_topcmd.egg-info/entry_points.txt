@@ -1,0 +1,3 @@
+[console_scripts]
+topsis.py = topsis.topsis
+
