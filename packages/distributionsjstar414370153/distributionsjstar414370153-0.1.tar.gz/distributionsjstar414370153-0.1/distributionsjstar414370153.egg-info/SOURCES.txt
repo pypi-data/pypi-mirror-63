@@ -1,0 +1,10 @@
+setup.py
+distributionsjstar414370153/Binomialdistribution.py
+distributionsjstar414370153/Gaussiandistribution.py
+distributionsjstar414370153/Generaldistribution.py
+distributionsjstar414370153/__init__.py
+distributionsjstar414370153.egg-info/PKG-INFO
+distributionsjstar414370153.egg-info/SOURCES.txt
+distributionsjstar414370153.egg-info/dependency_links.txt
+distributionsjstar414370153.egg-info/not-zip-safe
+distributionsjstar414370153.egg-info/top_level.txt
