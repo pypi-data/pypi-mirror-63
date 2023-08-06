@@ -1,0 +1,9 @@
+compost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compost/compost.py,sha256=ca_LUqBuuNlj-W5Zg-NsDc8rAzERurfx52ZkSwLxWmI,916
+docker_compost-0.1.data/scripts/compost,sha256=j7hDckpLU0ksl3qI9hPDybIlBB-Wnar5Yjx7_LbDf7I,203
+docker_compost-0.1.data/scripts/docker-compost,sha256=3WFOqu_VQIAGysENKSoY9nf4WkWVTP5kNwa-RBFP6zg,50
+docker_compost-0.1.data/scripts/docker-compost.py,sha256=bPh4_gKP-ntR9fJrXVgn-d5WR8SMcXkZLBpcqmE74rM,1054
+docker_compost-0.1.dist-info/METADATA,sha256=PEYqRWk0jSGbW1wE-PWY6o-IobTXrmlaW_pibcxYNdg,248
+docker_compost-0.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+docker_compost-0.1.dist-info/top_level.txt,sha256=8m-JrB9ZVpCoEv9G9_2RgHpsZ2JkCWHwZZgJHyeW2S4,8
+docker_compost-0.1.dist-info/RECORD,,
