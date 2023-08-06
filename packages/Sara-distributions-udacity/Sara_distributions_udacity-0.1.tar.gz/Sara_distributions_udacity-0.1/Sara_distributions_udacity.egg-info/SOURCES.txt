@@ -1,0 +1,10 @@
+setup.py
+Sara_distributions_udacity/Binomialdistribution.py
+Sara_distributions_udacity/Gaussiandistribution.py
+Sara_distributions_udacity/Generaldistribution.py
+Sara_distributions_udacity/__init__.py
+Sara_distributions_udacity.egg-info/PKG-INFO
+Sara_distributions_udacity.egg-info/SOURCES.txt
+Sara_distributions_udacity.egg-info/dependency_links.txt
+Sara_distributions_udacity.egg-info/not-zip-safe
+Sara_distributions_udacity.egg-info/top_level.txt
