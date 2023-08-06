@@ -1,0 +1,35 @@
+---
+name: fipa
+author: fetchai
+version: 0.1.0
+license: Apache-2.0
+description: 'A protocol for FIPA ACL.'
+speech_acts:
+  cfp:
+    query: ct:Query
+  propose:
+    proposal: pt:list[ct:Description]
+  accept_w_inform:
+    info: pt:dict[pt:str, ct:Info]
+  match_accept_w_inform:
+    info: pt:dict[pt:str, ct:Info]
+  inform:
+    info: pt:dict[pt:str, ct:Info]
+  accept: {}
+  decline: {}
+  match_accept: {}
+...
+---
+ct:Query: |
+  message Nothing {
+  }
+  oneof query{
+      bytes bytes = 1;
+      Nothing nothing = 2;
+      bytes query_bytes = 3;
+  }
+ct:Description: |
+  bytes description = 1;
+ct:Info: |
+  bytes info = 1;
+...

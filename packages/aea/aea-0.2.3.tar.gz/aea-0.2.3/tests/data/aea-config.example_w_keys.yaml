@@ -1,0 +1,31 @@
+aea_version: 0.1.1
+agent_name: myagent
+author: fetchai
+version: 0.1.0
+license: Apache-2.0
+fingerprint: ""
+connections:
+- fetchai/oef:0.1.0
+default_connection: fetchai/oef:0.1.0
+default_ledger: fetchai
+private_key_paths:
+   fetchai: 'fet_private_key.txt'
+   ethereum: 'eth_private_key.txt'
+protocols:
+- fetchai/oef:0.1.0
+- fetchai/default:0.1.0
+- fetchai/tac:0.1.0
+- fetchai/fipa:0.1.0
+skills:
+- fetchai/echo:0.1.0
+description: "An example of agent configuration file for testing purposes."
+logging_config:
+  disable_existing_loggers: false
+  version: 1
+registry_path: ../../packages
+ledger_apis:
+   fetchai:
+     addr: example.fetch-ai.com
+     port: 8080
+   ethereum:
+     addr: example.ethereum.com
