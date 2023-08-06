@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: dsbox
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/dkedar7/dsbox
+Author: Kedar Dabhadkar
+Author-email: kdabhadk@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Data Science,Machine Learning
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Scientific/Engineering
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
