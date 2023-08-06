@@ -1,0 +1,8 @@
+clickclick>=0.10
+PyYAML
+requests
+pyperclip
+stups-zign>=1.1.26
+boto3>=1.12.0
+botocore>=1.4.10
+click>=1.2.2
