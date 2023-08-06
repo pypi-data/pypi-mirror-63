@@ -1,0 +1,10 @@
+{% load qnc_crud %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Required</title>
+</head>
+<body>
+    You must be logged in to view this page. <button type="button" onclick="window.open({{''|qnc_login_url|qnc_json}})">Log In</button>.
+</body>
+</html>

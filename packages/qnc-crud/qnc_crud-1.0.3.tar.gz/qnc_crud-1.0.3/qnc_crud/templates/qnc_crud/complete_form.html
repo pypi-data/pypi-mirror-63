@@ -1,0 +1,18 @@
+{% load qnc_crud %}
+
+{# Note - we think our error messages are friendlier than browser default error messages, so we set novalidate #}
+<form novalidate method="POST" class="limited-width-form">{% csrf_token %}
+    <div class="block error" data-form-errors aria-live="polite"></div>
+    <div class="wide-inputs">
+		{% include 'qnc_crud/form_fields.html' %}	
+    </div>
+
+	<div class="block">
+		<input type="submit" value="{{submit_button_text|default:'Save'}}" style="margin-right: 1rem;">
+		<button 
+			type="button" 
+			value="Cancel" 
+			onclick="history.back();"
+		>Cancel</button>
+	</div>
+</form>

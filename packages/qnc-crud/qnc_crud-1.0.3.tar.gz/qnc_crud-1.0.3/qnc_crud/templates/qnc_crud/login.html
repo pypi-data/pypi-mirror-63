@@ -1,0 +1,21 @@
+{% load qnc_crud %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In</title>
+    {% include "qnc_crud/all_scripts_and_styles.html" %}
+</head>
+<body>
+    <form method="POST" class="vertical-form-column">{% csrf_token %}
+        <div class="block error" data-form-errors aria-live="polite"></div>
+        {% include 'qnc_crud/form_fields.html' %}
+        <div class="block">
+            <input type="submit" value="Log In" style="margin-right: 1rem;">
+            {# This form is meant to be opened in a new window #}
+            {# On cancel, try to close the window. If still open, go to home page. #}
+            <button onclick="window.close();location='/';">Cancel</button>
+        </div>
+    </form>
+
+</body>
+</html>
