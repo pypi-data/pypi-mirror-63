@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: vlawyer
+Version: 0.1
+Summary: An unofficial vjudge.net statistics API
+Home-page: https://github.com/hoenchioma/vlawyer
+Author: Raheeb Hassan
+Author-email: raheeb@myself.com
+License: gpl-3.0
+Download-URL: https://github.com/hoenchioma/vlawyer/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: vjudge,virtualjudge,competitive-programming,contest
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
