@@ -1,0 +1,3 @@
+[console_scripts]
+log-viewer = log_viewer.main:main
+
