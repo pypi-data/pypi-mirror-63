@@ -1,0 +1,6 @@
+earthengine-api
+ipyleaflet>=0.12.2
+bqplot
+folium>=0.10.1
+click
+ipynb-py-convert
