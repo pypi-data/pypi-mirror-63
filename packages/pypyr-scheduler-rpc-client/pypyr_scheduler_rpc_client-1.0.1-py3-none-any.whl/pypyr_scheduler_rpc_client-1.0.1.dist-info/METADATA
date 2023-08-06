@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pypyr-scheduler-rpc-client
+Version: 1.0.1
+Summary: RPC client for pypyr-scheduler-server
+Home-page: https://github.com/pypyr-scheduler/pypyr-scheduler-rpc-client
+Author: David Zerrenner
+Author-email: dazer017@gmail.com
+License: MIT
+Keywords: Pypyr,Scheduler,Taskrunner
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# pypyr-scheduler-rpc-client
+RPC client to access the pypyr-scheduler-server. 
+
+
