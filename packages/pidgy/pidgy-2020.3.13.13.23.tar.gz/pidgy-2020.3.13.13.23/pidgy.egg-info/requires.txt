@@ -1,0 +1,11 @@
+nbconvert
+importnb
+IPython>7
+dataclasses
+pyyaml
+emoji
+htmlmin
+webcolors
+attrs>=17.4.0
+stringcase
+click
