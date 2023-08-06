@@ -1,0 +1,5 @@
+setup.py
+sdsheets.egg-info/PKG-INFO
+sdsheets.egg-info/SOURCES.txt
+sdsheets.egg-info/dependency_links.txt
+sdsheets.egg-info/top_level.txt
