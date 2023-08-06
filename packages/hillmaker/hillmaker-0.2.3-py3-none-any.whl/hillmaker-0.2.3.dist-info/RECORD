@@ -1,0 +1,10 @@
+hillmaker/__init__.py,sha256=vAogMPrQjButDpsZk6SpPyYfdqQWRSMP1E3yu_3xdZA,117
+hillmaker/bydatetime.py,sha256=yq65LJuEDWbPIKAX7WBLBKZ4nULsBD-6AsA6MuGCPQ0,15462
+hillmaker/hills.py,sha256=YypDR8TXip1-dnTPEIsVIJDY7qqhUXD-zPW9qWeg45Q,8534
+hillmaker/hmlib.py,sha256=UQW-JoNOd5_wmjxHWvvTl9hvKDyl-jIlRikVmoXVfwM,6987
+hillmaker/summarize.py,sha256=dlXdHg8eW58Euq6zrBLxp80gYRwvRA78F5aUa1D4E78,8238
+hillmaker-0.2.3.dist-info/LICENSE,sha256=vsfZAH-hrMVJFAMdTPGI2XQK74VgMeGblPLry_52fFg,11340
+hillmaker-0.2.3.dist-info/METADATA,sha256=ewSHsU07BaU8VPdjddnyHJ6-eDNWFBuhV183nG_HHjI,932
+hillmaker-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hillmaker-0.2.3.dist-info/top_level.txt,sha256=IviqEMGCeV7FGP2GNwfyJW8wBeVZqsSMytIH11YHoOc,10
+hillmaker-0.2.3.dist-info/RECORD,,
