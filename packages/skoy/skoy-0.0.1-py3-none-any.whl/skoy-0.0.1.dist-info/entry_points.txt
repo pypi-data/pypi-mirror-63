@@ -1,0 +1,3 @@
+[console_scripts]
+sk = sk.package.__main__:main
+

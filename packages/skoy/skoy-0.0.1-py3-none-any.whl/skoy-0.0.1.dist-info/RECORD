@@ -1,0 +1,16 @@
+sk/__init__.py,sha256=JPc5k3_iuoDAeh5pIJ5Dz23DSYKKnLVIH7MNdVxDYWE,53
+sk/mod1.py,sha256=Z75INuUtHrnSwRdllYaysUBzFTeWHBoSZR0OPCHXG5E,245
+sk/mod2.py,sha256=vish3Pnda0GxgyDIIpTo1GfYZqNmMexdbgzM7Z5Cy1M,19
+sk/package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sk/package/__main__.py,sha256=KJWmd-p8bbAKEeuqJBkwTL0a710mx1mb5dg-qsygHhA,248
+sk/package/mod1.py,sha256=OiUYb11KshttxfOsHknBpGu0Jehos03fWfG6umYQOpo,239
+sk/package/sk.py,sha256=A2jF1gNKrQhW-4HPwQ_7gcG477lf2y49IP-ZUW8wWkY,2731
+sk/package/upload.py,sha256=CvBH_9dYQDydFJ98UGqImVcDCMJSpD5X9GY-TzUyBa8,4295
+sk/package/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sk/package/lib/lib.py,sha256=6uXOlmQIXuvG9jLL8uOSdqvny_lPtCEcvi4TP1ZZDno,7272
+skoy-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+skoy-0.0.1.dist-info/METADATA,sha256=_r3qMN5omVSSlewBB2as9c-yR2VyhUBO-Hnphcev27c,1093
+skoy-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+skoy-0.0.1.dist-info/entry_points.txt,sha256=1bPvHFetXPFjbksb1NUXfr4Do_2XENVXb7SP9XAwePI,49
+skoy-0.0.1.dist-info/top_level.txt,sha256=6UjZbP4KSxOCCVekAgKmTnTYC-5V5IFeO0cRquIyZUM,3
+skoy-0.0.1.dist-info/RECORD,,
