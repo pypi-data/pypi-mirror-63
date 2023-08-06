@@ -1,0 +1,13 @@
+pythermalcomfort/__init__.py,sha256=y3tnngfh9D5OP51mv8acQQ5cm27S3VsOYGvf2C4eJIE,61
+pythermalcomfort/__main__.py,sha256=EhhmbMmCoYAaYk3cAMmwOd7dxv7nQaeqx5ui-RVCfQY,417
+pythermalcomfort/cli.py,sha256=rtBt7pRwYZR4peUzNwUY8vhLj_zxYdDQkofqbIgJuyM,868
+pythermalcomfort/models.py,sha256=glfd0NGyc79HWZiAXATUYoc_wu68cMfSk_FUIRfLaaI,62184
+pythermalcomfort/psychrometrics.py,sha256=shoO-v4U0UtpzWX2odhp3O3PbuQEWDsZXR1m1jh_Gm8,7861
+pythermalcomfort/utilities.py,sha256=ttRSPpXRQtFeXwgmCpKnDUXCmqkpdPPfO814RxzBQfA,6248
+pythermalcomfort-0.6.0.dist-info/AUTHORS.rst,sha256=3aHt8a79tCF2Pk6yBtVnlgfegPny8cz_6CVPo6dFueQ,98
+pythermalcomfort-0.6.0.dist-info/LICENSE,sha256=xkQR7-pLtrIbOtnRPC9A7dtkfVxXgAHSvAucrv54pMw,1119
+pythermalcomfort-0.6.0.dist-info/METADATA,sha256=5wd51uT1G_zM1HUseBh_1KH7Do-H-4nimwzyazMF5Vk,3868
+pythermalcomfort-0.6.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+pythermalcomfort-0.6.0.dist-info/entry_points.txt,sha256=WCl9v_HFBrFNA-kzZYpee9gwuVLbuA6ghi07cuEubIc,64
+pythermalcomfort-0.6.0.dist-info/top_level.txt,sha256=CCgRRczwdUkBV4jyVHT-56rNVnJ0TGxrNZDHJOTp6DU,17
+pythermalcomfort-0.6.0.dist-info/RECORD,,
