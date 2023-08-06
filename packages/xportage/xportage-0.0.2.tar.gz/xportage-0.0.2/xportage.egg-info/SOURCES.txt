@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+xportage/__init__.py
+xportage/__main__.py
+xportage/default_reference.py
+xportage/xportage.py
+xportage.egg-info/PKG-INFO
+xportage.egg-info/SOURCES.txt
+xportage.egg-info/dependency_links.txt
+xportage.egg-info/entry_points.txt
+xportage.egg-info/top_level.txt

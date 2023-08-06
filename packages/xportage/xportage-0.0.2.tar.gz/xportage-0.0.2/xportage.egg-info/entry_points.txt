@@ -1,0 +1,3 @@
+[console_scripts]
+xportage = xportage.__main__:main
+
