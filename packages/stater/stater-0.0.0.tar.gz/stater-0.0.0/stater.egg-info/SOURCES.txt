@@ -1,0 +1,7 @@
+README.md
+setup.py
+stater/__init__.py
+stater.egg-info/PKG-INFO
+stater.egg-info/SOURCES.txt
+stater.egg-info/dependency_links.txt
+stater.egg-info/top_level.txt
