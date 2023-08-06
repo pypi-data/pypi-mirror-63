@@ -1,0 +1,20 @@
+# Script name (a combination of lower case letters, numbers, and dashes - must be unique to user)
+name: {{ scaffold.name }}
+
+# Script title
+title: Awesome script in {{ scaffold.name }}
+
+# Script configuration parameters
+# see xyz for configuration docs
+config: [
+]
+
+# CURRENTLY UNUSED
+# additional_fields: True
+# language: python
+# docker_image: datapane-python-default
+# volatile: False
+# privileged: False
+# visibility: False
+# Persist the script between requests
+# persistent: True
