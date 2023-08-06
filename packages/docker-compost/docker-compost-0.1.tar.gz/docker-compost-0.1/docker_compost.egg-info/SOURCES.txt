@@ -1,0 +1,10 @@
+README.md
+setup.py
+compost/__init__.py
+compost/compost
+compost/compost.py
+docker_compost.egg-info/PKG-INFO
+docker_compost.egg-info/SOURCES.txt
+docker_compost.egg-info/dependency_links.txt
+docker_compost.egg-info/requires.txt
+docker_compost.egg-info/top_level.txt
