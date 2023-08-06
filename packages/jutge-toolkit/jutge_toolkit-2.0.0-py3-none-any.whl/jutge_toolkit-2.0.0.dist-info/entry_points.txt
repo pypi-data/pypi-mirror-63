@@ -1,0 +1,5 @@
+[console_scripts]
+list-compilers = jtoolkit:compilers.main
+make-problem = jtoolkit:problems.main
+make-quiz = jtoolkit:quizzes.main
+
