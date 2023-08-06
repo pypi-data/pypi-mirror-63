@@ -1,0 +1,7 @@
+private_pypi_backends/github/__init__.py,sha256=2BQJel-768RfSMtxEnIiDephyKdqjS2o2jMoPWd41Mo,539
+private_pypi_backends/github/impl.py,sha256=xvferlHE1eE4x1VJSAypW0vsQ-L1LZhtZhM0Pq06dAs,15716
+private_pypi_github-0.1.1a6.dist-info/entry_points.txt,sha256=yu0oeDS8zHCzj2FS6lGRorGWx-xIiivyoX1VZGhifI0,112
+private_pypi_github-0.1.1a6.dist-info/LICENSE,sha256=UkBJrTKVq0To5sCkVJ1g-eL5NpkImAH4tYjQbGrOfNQ,1101
+private_pypi_github-0.1.1a6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+private_pypi_github-0.1.1a6.dist-info/METADATA,sha256=ct30Uwxa0gEtWy9i5D4hirf_8WOIe53HTd-WyeNnhjs,863
+private_pypi_github-0.1.1a6.dist-info/RECORD,,
