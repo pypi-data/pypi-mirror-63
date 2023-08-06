@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: gendotmatrix
+Version: 1.1.2
+Summary: Generate dot matrix font from vector font
+Home-page: https://github.com/hmgle/gendotmatrix
+Author: hmgle
+Author-email: dustgle@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Pillow
+Requires-Dist: bitarray
+
+UNKNOWN
+
+
