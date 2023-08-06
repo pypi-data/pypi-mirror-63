@@ -1,0 +1,33 @@
+version: 1
+disable_existing_loggers: true
+
+formatters:
+    standard:
+      # format: '[%(levelname)-8s] %(filename)s:%(lineno)-5s  %(message)s'
+      format: "%(module)s:%(lineno)-4s %(message)s"
+    error:
+        format: "[%(asctime)s]:%(levelname)s <PID %(process)d:%(processName)s> %(name)s.%(funcName)s():\n %(message)s"
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        formatter: standard
+
+    colored:
+        class: livehttp.logx.ColoredHandler
+
+root:
+    level: ERROR
+    handlers: [colored,console]
+    propagate: no
+
+loggers:
+    logx:
+        level: ERROR
+        handlers: [colored,console]
+        propagate: no
+    werkzeug:
+        level: CRITICAL
+        handlers: [colored,console]
+        propagate: no
+
