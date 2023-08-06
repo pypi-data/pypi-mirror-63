@@ -1,0 +1,9 @@
+groundwork_spreadsheets/__init__.py,sha256=ORdP7D0RDecQHMlnOsL0l6z-T9iDoYdG-8GaWu6Dbuo,299
+groundwork_spreadsheets/patterns/ExcelValidationPattern/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+groundwork_spreadsheets/patterns/ExcelValidationPattern/assets/excel_config_schema.json,sha256=4s9UuMa_Q7KL9v7zmBh3fInP46q2-SV3cr5CsUMwtTg,6940
+groundwork_spreadsheets/patterns/ExcelValidationPattern/excel_validation_pattern.py,sha256=uSv5I3fU6KotHYhhvg9NAWiIgyW8cO-GURMuHMMA7dA,37381
+groundwork_spreadsheets/patterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+groundwork_spreadsheets-0.4.4.dist-info/LICENSE,sha256=4XF1EQY6Y4M_05e9Gxq-BxE0lDJOJDvdyiBilPjJovg,1066
+groundwork_spreadsheets-0.4.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+groundwork_spreadsheets-0.4.4.dist-info/METADATA,sha256=G3l7dfh4WHR3jTuvlNvn-8wNlk7yOB2tZCw6y6b4HXA,3528
+groundwork_spreadsheets-0.4.4.dist-info/RECORD,,
