@@ -1,0 +1,3 @@
+[console_scripts]
+helloworld_tc2_20200319 = helloworld_tc2_20200319.cli:main
+
