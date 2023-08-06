@@ -1,0 +1,4 @@
+appdaemon<5,>=3.0
+cached-property~=1.5
+observable~=1.0
+voluptuous~=0.11
