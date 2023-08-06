@@ -1,0 +1,7 @@
+PyInquirer
+click
+jinja2
+jsonschema>=3.0.0
+prompt_toolkit==1.0.14
+requests
+unidecode
