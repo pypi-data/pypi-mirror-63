@@ -1,0 +1,8 @@
+README.md
+setup.py
+hemlock_demographics/__init__.py
+hemlock_demographics/items.py
+hemlock_demographics.egg-info/PKG-INFO
+hemlock_demographics.egg-info/SOURCES.txt
+hemlock_demographics.egg-info/dependency_links.txt
+hemlock_demographics.egg-info/top_level.txt
