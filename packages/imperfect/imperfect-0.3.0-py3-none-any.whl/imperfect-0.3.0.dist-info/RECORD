@@ -1,0 +1,15 @@
+imperfect/__init__.py,sha256=xrlrRI38ViFtwqWdle21qCWrhqdQ95kZV4i6CLl2PLg,7926
+imperfect/__version__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+imperfect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imperfect/types.py,sha256=0Cg54h3w5L-Uv79iIcgVKnvV7ef3vdD7XRH0vgBTuuQ,5803
+imperfect/verify.py,sha256=LTIPxICTOmkP92hOiaWIxV0ZeTRwZ-c0pdH2z6PtiHY,1274
+imperfect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imperfect/tests/__main__.py,sha256=Nk18MTJ8KcjG_Drq-BMZxH8nGxrvp3ZWyyuLz34Jr4s,133
+imperfect/tests/editing.py,sha256=RJLb9W9_NHRazGY_0esp5MmWlEcGS-W6FD8GyAtRcfs,2941
+imperfect/tests/imperfect.py,sha256=t_jnMHhCDnZNJpLCrEsivF_cxCuNxR0tekVqh2y4wEs,6031
+imperfect/tests/imperfect_hypothesis.py,sha256=CtWh3UPQQse3ggKawL1bnWz1hHuhA0bUfaukTjflSuM,5062
+imperfect-0.3.0.dist-info/LICENSE,sha256=X5b-JdwjpfezIb_1mEPHzsdxo8Ewl6chUDQUdRsBI3I,1066
+imperfect-0.3.0.dist-info/METADATA,sha256=OhsRGoE3vhEvTfG0Qkry-7t33Xv-vAlZl_sBKnJTwkM,4895
+imperfect-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+imperfect-0.3.0.dist-info/top_level.txt,sha256=6DvnmNuUgkxz15cu2EzXywFA1OwcbtM5A9N1gDAwvW0,10
+imperfect-0.3.0.dist-info/RECORD,,
