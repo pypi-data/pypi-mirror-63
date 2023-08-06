@@ -1,0 +1,17 @@
+demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo/asgi.py,sha256=0puuAjlP_6bi_xtYySalfX0iMXEpmjdPEsj2uR_IySs,401
+demo/settings.py,sha256=gXx-zqI0yULWnGrgOn-e6Qe7Om2H3ggkEug1RacPZlM,2898
+demo/tests.py,sha256=tQ_cYcGLg48MAcwG3_ReAY6mvEZ5RmzKnMvI-f8UsYI,1862
+demo/urls.py,sha256=x4_EJxtVVQ3KqKqwbELAs7Xgfu74LWiJJyMLPAH-vro,162
+demo/views.py,sha256=6uwXXgYj-Zq62nLXmg1X1RjmfAkphzmjViZwib3TNTQ,103
+demo/wsgi.py,sha256=p8i64HVRzV0ehEsDMTRXxNK9YNJs_sPYTT_W9Me-XPo,172
+js_logger/__init__.py,sha256=NCfoj7pU6InMsj044KZ3sBfyRDrCJucKFYy7QH052TE,115
+js_logger/apps.py,sha256=30JsscHxMNvMAKOUugBLODs_DEOB-EHj5jU5BuyFbw8,91
+js_logger/urls.py,sha256=iOhKLJvyuimjt-ySaPEWb7PlfoM8UGzHbhUlGAbk7Og,156
+js_logger/views.py,sha256=gMKdwU1L1BF_GQ4wCsVDyMt1DJ4l6rR7cDSo75iPGCM,670
+js_logger/templates/js-logging/js-logging.html,sha256=HELe6FDr_Daro_8WNxr_XabwdVX9i34LedpC6GsO3lI,1422
+django_js_logger-0.1.0.dist-info/LICENSE,sha256=WcmaNzz7T04bfLG6KF58dKFfFcNO0v_V7Wrk-BsoTvg,1527
+django_js_logger-0.1.0.dist-info/METADATA,sha256=Lk9Ue2EfoRRiRMtQXhYYHGvuFCqp48JworRxd1QyqH8,5406
+django_js_logger-0.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+django_js_logger-0.1.0.dist-info/top_level.txt,sha256=h3lL7ih0m0uXbhcs5e0MRFaXdZcrxuio0ZJQjfRSDgo,15
+django_js_logger-0.1.0.dist-info/RECORD,,
