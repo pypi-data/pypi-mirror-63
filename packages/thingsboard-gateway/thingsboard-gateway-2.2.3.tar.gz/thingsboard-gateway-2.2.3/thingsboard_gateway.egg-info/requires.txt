@@ -1,0 +1,15 @@
+PyYAML
+cffi
+jsonpath-rw
+jsonschema==3.1.1
+lxml
+opcua
+paho-mqtt
+pip
+pymodbus>=2.3.0
+pyrsistent
+pyserial
+pytz
+regex
+requests
+simplejson
