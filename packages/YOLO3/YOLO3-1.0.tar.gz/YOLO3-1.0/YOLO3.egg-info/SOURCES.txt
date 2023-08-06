@@ -1,0 +1,5 @@
+setup.py
+YOLO3.egg-info/PKG-INFO
+YOLO3.egg-info/SOURCES.txt
+YOLO3.egg-info/dependency_links.txt
+YOLO3.egg-info/top_level.txt
