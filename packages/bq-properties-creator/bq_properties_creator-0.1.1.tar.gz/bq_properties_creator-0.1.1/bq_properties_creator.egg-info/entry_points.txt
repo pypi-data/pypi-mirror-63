@@ -1,0 +1,3 @@
+[console_scripts]
+bq_properties_creator = bq_properties_creator.cli:main
+
