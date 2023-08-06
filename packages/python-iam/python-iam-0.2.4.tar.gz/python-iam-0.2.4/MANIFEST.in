@@ -1,0 +1,3 @@
+recursive-include iam/ext/django/fixtures *
+include iam/VERSION
+include requirements.txt
