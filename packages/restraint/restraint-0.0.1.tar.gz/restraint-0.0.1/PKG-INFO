@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: restraint
+Version: 0.0.1
+Summary: Rate Limiting Module
+Home-page: https://github.com/KyleJamesWalker/restraint-py
+Author: Kyle James Walker
+Author-email: KyleJamesWalker@gmail.com
+License: MIT
+Description: Restraint
+        ---------
+        
+        .. image:: https://travis-ci.org/KyleJamesWalker/restraint-py.svg?branch=master
+            :target: https://travis-ci.org/KyleJamesWalker/restraint-py
+        
+        .. image:: https://codecov.io/gh/KyleJamesWalker/restraint-py/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/KyleJamesWalker/restraint-py
+        
+        Simple Rate Limit Library.
+        
+        Example setup
+        ^^^^^^^^^^^^^
+        
+        .. code-block:: python
+        
+         from restraint import restrain, Limit, add
+        
+         add('example', Limit(second=1, minute=5))
+        
+         @restrain('example')
+         def hello():
+             print(f'Hello World')
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: package
+Provides-Extra: test
+Provides-Extra: setup
+Provides-Extra: all
