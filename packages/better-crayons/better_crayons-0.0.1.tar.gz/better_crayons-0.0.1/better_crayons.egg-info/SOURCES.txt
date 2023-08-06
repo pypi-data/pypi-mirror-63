@@ -1,0 +1,7 @@
+README.md
+setup.py
+better_crayons.egg-info/PKG-INFO
+better_crayons.egg-info/SOURCES.txt
+better_crayons.egg-info/dependency_links.txt
+better_crayons.egg-info/requires.txt
+better_crayons.egg-info/top_level.txt
