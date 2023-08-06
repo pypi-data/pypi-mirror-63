@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: easy-queryset
+Version: 0.0.1
+Summary: django queryset for script
+Home-page: https://github.com/funnyang/easy_queryset
+Author: funnyang
+Author-email: 2funnyang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Easy QuerySet
+
+只是为了方便地使用 Django Models 来写脚本
+
