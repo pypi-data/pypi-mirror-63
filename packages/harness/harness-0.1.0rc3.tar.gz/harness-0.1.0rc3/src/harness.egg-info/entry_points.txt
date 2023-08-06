@@ -1,0 +1,4 @@
+[console_scripts]
+harness = harness.cli.main:main
+protoc-gen-harness = harness.plugin.main:main
+
