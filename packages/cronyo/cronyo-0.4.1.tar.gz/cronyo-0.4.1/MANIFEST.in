@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include cronyo/VERSION
+include cronyo/config.yml.template
+recursive-include cronyo/vendor *
+
+exclude requirements.in
+exclude requirements.txt
