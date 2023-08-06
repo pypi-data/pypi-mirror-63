@@ -1,0 +1,7 @@
+README.md
+setup.py
+zenframe.egg-info/PKG-INFO
+zenframe.egg-info/SOURCES.txt
+zenframe.egg-info/dependency_links.txt
+zenframe.egg-info/requires.txt
+zenframe.egg-info/top_level.txt
