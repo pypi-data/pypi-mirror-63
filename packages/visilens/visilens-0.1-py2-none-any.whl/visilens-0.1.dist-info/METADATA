@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: visilens
+Version: 0.1
+Summary: Module for modeling gravitational lensing systems in which the data are not images but interferometric visibilities.
+Home-page: http://github.com/masolimano/visilens
+Author: jspilker
+Author-email: UNKNOWN
+License: MIT
+Keywords: visilens interferometry alma casa mc mc radioastronomy
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: Pillow
+Requires-Dist: emcee
+
+UNKNOWN
+
+
