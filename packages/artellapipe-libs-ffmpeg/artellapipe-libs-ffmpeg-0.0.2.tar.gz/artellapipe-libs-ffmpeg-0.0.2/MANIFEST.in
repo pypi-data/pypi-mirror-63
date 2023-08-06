@@ -1,0 +1,2 @@
+include artellapipe/libs/ffmpeg/__logging__.ini
+recursive-include artellapipe/libs/ffmpeg/externals/* *.*
