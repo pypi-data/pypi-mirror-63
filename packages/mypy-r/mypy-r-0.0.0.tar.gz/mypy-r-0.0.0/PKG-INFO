@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mypy-r
+Version: 0.0.0
+Summary: Recursive mypy that find package directories
+Home-page: UNKNOWN
+Author: Joe Ceresini
+Author-email: joe@ceresini.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
