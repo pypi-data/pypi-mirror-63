@@ -1,0 +1,2 @@
+include artellapipe/tools/artellauploader/__logging__.ini
+recursive-include artellapipe/tools/artellauploader/resources/* *.*
