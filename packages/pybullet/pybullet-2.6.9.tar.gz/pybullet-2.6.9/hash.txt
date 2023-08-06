@@ -1,0 +1,128 @@
+diff --git a/src/BulletSoftBody/btSparseSDF.h b/src/BulletSoftBody/btSparseSDF.h
+index 37e657d62..d7ec8f36a 100644
+--- a/src/BulletSoftBody/btSparseSDF.h
++++ b/src/BulletSoftBody/btSparseSDF.h
+@@ -19,28 +19,45 @@ subject to the following restrictions:
+ 
+ #include "BulletCollision/CollisionDispatch/btCollisionObject.h"
+ #include "BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
++#include <string>
++#include "LinearMath/btQuickprof.h"
+ 
+-// Modified Paul Hsieh hash
+-template <const int DWORDLEN>
+-unsigned int HsiehHash(const void* pdata)
+-{
+-	const unsigned short* data = (const unsigned short*)pdata;
+-	unsigned hash = DWORDLEN << 2, tmp;
+-	for (int i = 0; i < DWORDLEN; ++i)
+-	{
+-		hash += data[0];
+-		tmp = (data[1] << 11) ^ hash;
+-		hash = (hash << 16) ^ tmp;
+-		data += 2;
+-		hash += hash >> 11;
+-	}
+-	hash ^= hash << 3;
+-	hash += hash >> 5;
+-	hash ^= hash << 4;
+-	hash += hash >> 17;
+-	hash ^= hash << 25;
+-	hash += hash >> 6;
+-	return (hash);
++typedef unsigned int uint32;
++typedef unsigned char uint8;
++typedef unsigned short uint16;
++
++// Fast Hash
++
++#if !defined (get16bits)
++#define get16bits(d) ((((uint32)(((const uint8 *)(d))[1])) << 8)\
+++(uint32)(((const uint8 *)(d))[0]) )
++#endif
++//
++// super hash function by Paul Hsieh
++//
++inline uint32 HsiehHash (const char * data, int len) {
++  uint32 hash = len, tmp;
++  len>>=2;
++
++    /* Main loop */
++    for (;len > 0; len--) {
++        hash  += get16bits (data);
++        tmp    = (get16bits (data+2) << 11) ^ hash;
++        hash   = (hash << 16) ^ tmp;
++        data  += 2*sizeof (uint16);
++        hash  += hash >> 11;
++    }
++
++
++    /* Force "avalanching" of final 127 bits */
++    hash ^= hash << 3;
++    hash += hash >> 5;
++    hash ^= hash << 4;
++    hash += hash >> 17;
++    hash ^= hash << 25;
++    hash += hash >> 6;
++
++    return hash;
+ }
+ 
+ template <const int CELLSIZE>
+@@ -187,6 +204,7 @@ struct btSparseSdf
+ 					  btVector3& normal,
+ 					  btScalar margin)
+ 	{
++		BT_PROFILE("evaluate");
+ 		/* Lookup cell			*/
+ 		const btVector3 scx = x / voxelsz;
+ 		const IntFrac ix = Decompose(scx.x());
+@@ -209,16 +227,21 @@ struct btSparseSdf
+ 			}
+ 			else
+ 			{
++				// printf("c->hash/c[0][1][2]=%d,%d,%d,%d\n", c->hash, c->c[0], c->c[1],c->c[2]);
++                        //printf("h,ixb,iyb,izb=%d,%d,%d,%d\n", h,ix.b, iy.b, iz.b);
++
+ 				c = c->next;
+ 			}
+ 		}
+ 		if (!c)
+ 		{
++			BT_PROFILE("no c");
+ 			++nprobes;
+ 			++ncells;
+ 			//int sz = sizeof(Cell);
+ 			if (ncells > m_clampCells)
+ 			{
++				BT_PROFILE("reset");
+ 				static int numResets = 0;
+ 				numResets++;
+ 				//				printf("numResets=%d\n",numResets);
+@@ -334,22 +357,21 @@ struct btSparseSdf
+ 	{
+ 		struct btS
+ 		{
+-			int x, y, z, w;
++			int x, y, z;
+ 			void* p;
+ 		};
+ 
+ 		btS myset;
+ 		//memset may be needed in case of additional (uninitialized) padding!
+-		//memset(myset, 0, sizeof(btS));
++		memset(&myset, 0, sizeof(btS));
+ 
+ 		myset.x = x;
+ 		myset.y = y;
+ 		myset.z = z;
+-		myset.w = 0;
+ 		myset.p = (void*)shape;
+-		const void* ptr = &myset;
++		const char* ptr = (const char*)&myset;
+ 
+-		unsigned int result = HsiehHash<sizeof(btS) / 4>(ptr);
++		unsigned int result = HsiehHash(ptr, sizeof(btS) );
+ 
+ 		return result;
+ 	}
