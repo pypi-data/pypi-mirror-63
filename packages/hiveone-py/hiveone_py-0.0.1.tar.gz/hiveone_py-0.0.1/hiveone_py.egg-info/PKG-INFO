@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hiveone-py
+Version: 0.0.1
+Summary: Python SDK for Hive.one API
+Home-page: https://github.com/hive-one/hive-py
+Author: Danny Aziz
+Author-email: danny@hive.one
+License: UNKNOWN
+Description: # Hive Py
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
