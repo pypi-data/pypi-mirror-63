@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SmileLog
+Version: 1.0.0
+Summary: Log and Consoler assistant
+Home-page: https://github.com/sitthykun/smilelog
+Author: Sitthykun LY
+Author-email: ly.sitthykun@gmail.com
+License: MIT License
+Keywords: smilelog,log,logger,console,consoler
+Platform: All
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+SmileLog is smart tracking library
+
+
