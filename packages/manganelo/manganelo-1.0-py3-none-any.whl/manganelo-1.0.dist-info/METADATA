@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: manganelo
+Version: 1.0
+Summary: Unofficial API for the Manganelo (and Mangakakalot) website.
+Home-page: https://github.com/nixonjoshua98/manganelo
+Author: Joshua Nixon
+Author-email: nixonjoshua98@gmail.com
+License: MIT
+Download-URL: https://github.com/nixonjoshua98/manganelo/archive/v1.0.tar.gz
+Keywords: manga,manganelo,scrapper,web,mangakakalot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests
+
+# Unofficial Manganelo API
+
+Package to scrape the website Manganelo (and Mangakakalot).
+
+_nixonjoshua98@gmail.com_
+
+## Installation
+
+**Python 3.7.x**
+```cmd
+pip install manganelo
+```
+
+## Example
+
+```python
+with MangaSearch("Naruto") as search_object:
+    results = list(search_object.results())
+
+    naruto = results[0]
+
+with ChapterList(naruto.url) as chap_list:
+    chapters = list(chap_list.results())
+
+with MangaInfo(naruto.url) as info:
+    naruto_info = info.result()
+
+print("Title:", naruto_info.title)
+print("Authors:", ",".join(naruto_info.authors))
+print("Total Chapters:", len(chapters))
+print("Latest Chapter URL:", chapters[-1].url)
+```
+
