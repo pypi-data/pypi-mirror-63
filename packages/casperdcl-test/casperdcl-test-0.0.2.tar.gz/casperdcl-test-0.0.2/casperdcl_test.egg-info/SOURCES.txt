@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+casperdcl_test.egg-info/PKG-INFO
+casperdcl_test.egg-info/SOURCES.txt
+casperdcl_test.egg-info/dependency_links.txt
+casperdcl_test.egg-info/top_level.txt
