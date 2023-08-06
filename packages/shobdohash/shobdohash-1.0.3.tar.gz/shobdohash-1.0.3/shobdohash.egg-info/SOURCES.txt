@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+shobdohash/__init__.py
+shobdohash.egg-info/PKG-INFO
+shobdohash.egg-info/SOURCES.txt
+shobdohash.egg-info/dependency_links.txt
+shobdohash.egg-info/top_level.txt
