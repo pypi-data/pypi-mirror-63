@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Usage &mdash; Meta Package Manager 2.9.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Falsehoods Programmers Believe About Package Managers" href="falsehoods.html" />
+    <link rel="prev" title="Installation" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Meta Package Manager
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.9.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mpm"><code class="docutils literal notranslate"><span class="pre">mpm</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-installed"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">installed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-managers"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">managers</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-outdated"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">outdated</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-search"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">search</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-sync"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">sync</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mpm-upgrade"><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">upgrade</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="falsehoods.html">Falsehoods Programmers Believe About Package Managers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bitbar.html">BitBar Plugin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/index.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="todolist.html">Todo list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Meta Package Manager</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="mpm">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span></code><a class="headerlink" href="#mpm" title="Permalink to this headline">¶</a></h2>
+<p>List global options and commands:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm --help
+<span class="go">Usage: mpm [OPTIONS] COMMAND [ARGS]...</span>
+
+<span class="go">  CLI for multi-package manager upgrades.</span>
+
+<span class="go">Options:</span>
+<span class="go">  -v, --verbosity LEVEL           Either CRITICAL, ERROR, WARNING, INFO or</span>
+<span class="go">                                  DEBUG. Defaults to INFO.</span>
+<span class="go">  -m, --manager [apm|apt|brew|cask|composer|gem|mas|npm|pip2|pip3]</span>
+<span class="go">                                  Restrict sub-command to a subset of package</span>
+<span class="go">                                  managers. Repeat to select multiple</span>
+<span class="go">                                  managers. Defaults to all.</span>
+<span class="go">  --ignore-auto-updates / --include-auto-updates</span>
+<span class="go">                                  Report all outdated packages, including</span>
+<span class="go">                                  those tagged as auto-updating. Defaults to</span>
+<span class="go">                                  include all packages. Only applies for</span>
+<span class="go">                                  &#39;outdated&#39; and &#39;upgrade&#39; commands.</span>
+<span class="go">  -o, --output-format [ascii|csv|csv-tab|double|fancy_grid|github|grid|html|jira|json|latex|latex_booktabs|mediawiki|moinmoin|orgtbl|pipe|plain|psql|rst|simple|textile|tsv|vertical]</span>
+<span class="go">                                  Rendering mode of the output. Defaults to</span>
+<span class="go">                                  fancy-grid.</span>
+<span class="go">  --stats / --no-stats            Print statistics or not at the end of</span>
+<span class="go">                                  output. Active by default.</span>
+<span class="go">  --stop-on-error / --continue-on-error</span>
+<span class="go">                                  Stop right away or continue operations on</span>
+<span class="go">                                  manager CLI error. Defaults to stop.</span>
+<span class="go">  --version                       Show the version and exit.</span>
+<span class="go">  --help                          Show this message and exit.</span>
+
+<span class="go">Commands:</span>
+<span class="go">  installed  List installed packages.</span>
+<span class="go">  managers   List supported package managers and their location.</span>
+<span class="go">  outdated   List outdated packages.</span>
+<span class="go">  search     Search packages.</span>
+<span class="go">  sync       Sync local package info.</span>
+<span class="go">  upgrade    Upgrade all packages.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-installed">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">installed</span></code><a class="headerlink" href="#mpm-installed" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm installed --help
+<span class="go">Usage: mpm installed [OPTIONS]</span>
+
+<span class="go">  List all packages installed on the system from all managers.</span>
+
+<span class="go">Options:</span>
+<span class="go">  --help  Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-managers">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">managers</span></code><a class="headerlink" href="#mpm-managers" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm managers --help
+<span class="go">Usage: mpm managers [OPTIONS]</span>
+
+<span class="go">  List all supported package managers and their presence on the system.</span>
+
+<span class="go">Options:</span>
+<span class="go">  --help  Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-outdated">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">outdated</span></code><a class="headerlink" href="#mpm-outdated" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm outdated --help
+<span class="go">Usage: mpm outdated [OPTIONS]</span>
+
+<span class="go">  List available package upgrades and their versions for each manager.</span>
+
+<span class="go">Options:</span>
+<span class="go">  -c, --cli-format [plain|fragments|bitbar]</span>
+<span class="go">                                  Format of CLI fields in JSON output.</span>
+<span class="go">                                  Defaults to plain.</span>
+<span class="go">  --help                          Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-search">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">search</span></code><a class="headerlink" href="#mpm-search" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm search --help
+<span class="go">Usage: mpm search [OPTIONS] QUERY</span>
+
+<span class="go">  Search packages from all managers.</span>
+
+<span class="go">Options:</span>
+<span class="go">  --help  Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-sync">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">sync</span></code><a class="headerlink" href="#mpm-sync" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm sync --help
+<span class="go">Usage: mpm sync [OPTIONS]</span>
+
+<span class="go">  Sync local package metadata and info from external sources.</span>
+
+<span class="go">Options:</span>
+<span class="go">  --help  Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpm-upgrade">
+<h2><code class="docutils literal notranslate"><span class="pre">mpm</span> <span class="pre">upgrade</span></code><a class="headerlink" href="#mpm-upgrade" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> mpm upgrade --help
+<span class="go">Usage: mpm upgrade [OPTIONS]</span>
+
+<span class="go">  Perform a full package upgrade on all available managers.</span>
+
+<span class="go">Options:</span>
+<span class="go">  -d, --dry-run  Do not actually perform any upgrade, just simulate CLI calls.</span>
+<span class="go">  --help         Show this message and exit.</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="falsehoods.html" class="btn btn-neutral float-right" title="Falsehoods Programmers Believe About Package Managers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="install.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+      <span class="lastupdated">
+        Last updated on YYYY-MM-dd.
+      </span>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <div role="contentinfo">
+        <p>
+            &copy; Copyright 2016-2020, <a href='https://kevin.deldycke.com'>Kevin Deldycke</a> and <a href='https://github.com/kdeldycke/meta-package-manager/graphs/contributors'>contributors</a>.
+        </p>
+    </div>
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
