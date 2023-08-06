@@ -1,0 +1,11 @@
+gitpython
+requests
+validate_version_code
+pathlib
+pypandoc
+userinput
+
+[test]
+pytest
+pytest-cov
+coveralls
