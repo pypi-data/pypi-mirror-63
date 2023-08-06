@@ -1,0 +1,10 @@
+pycaptchagen/__init__.py,sha256=U9MCktDs8hrQ7jiiOiVlIAqCgScVGKJxPdTqaggj9tU,71
+pycaptchagen/__main__.py,sha256=NucAhP5XIck8SkFmx9ghibyfFXGcx34VxXVD2t3Qx1s,88
+pycaptchagen/pycaptchagen.py,sha256=66ZOjXQBwa8F7VlrrYaGZpLSSfQC--lq1xWERA9qSGQ,2331
+pycaptchagen-0.1.0.data/data/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pycaptchagen-0.1.0.data/scripts/pycaptchagen,sha256=Nub39BBNvmqZZAeU3wthHKP3AkZjSV7ATLmuC1bmtLA,85
+pycaptchagen-0.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pycaptchagen-0.1.0.dist-info/METADATA,sha256=3UJ-9y2CBSoJSNNl1n279qOjjsCj-CGxcKUNOa5hnys,3719
+pycaptchagen-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pycaptchagen-0.1.0.dist-info/top_level.txt,sha256=kuvalyzn6zH5EFzzR4C0QxLXghrdXt3pvcgmhNrHAgw,13
+pycaptchagen-0.1.0.dist-info/RECORD,,

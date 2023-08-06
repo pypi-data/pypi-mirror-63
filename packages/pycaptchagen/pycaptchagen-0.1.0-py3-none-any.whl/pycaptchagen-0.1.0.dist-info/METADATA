@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pycaptchagen
+Version: 0.1.0
+Summary: Generate once-off "CAPTCHA"-type images and audio files from the command line.
+Home-page: UNKNOWN
+Author: Christopher Hackmeyer
+Author-email: cbhackmeyer@allisforall.dedyn.io
+License: The Unlicense (Public Domain)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.2
+Description-Content-Type: text/x-rst
+Requires-Dist: captcha
+
+============
+PyCAPTCHAGen
+============
+
+PyCAPTCHAGen is a very basic command line utility for generating once-off "CAPTCHA"-type image and audio files to help deter abuse by bots on the web. Normally, these distorted text and audio challenges are generated dynamically and automatically on-the-fly for each request. However, this can be somewhat complicated to implement, and many off-the-shelf solutions rely on third-party services that some of us would prefer not to deal with. Say you're just managing a simple, low-traffic site and have a contact form or email address that you want to hide from casual scraping by spam bots (the author's original use case). In this case, just generating a single "CAPTCHA"-style challenge is easier to implement and may be reasonably effective, depending on your needs.
+
+Basic usage::
+
+	pycaptchagen 'text to garble' outputname
+
+At this time, the only supported image format is PNG with a resolution of 160 x 60 pixels. A ".png" file extension is appended automatically to the output name you provide. Note that it is advisable to enclose your text input in quote marks, and you must do so if it contains spaces or characters that are treated specially by your shell.
+
+To also generate an audio file for accessibility by visually impaired users::
+
+	pycaptchagen --audio 'text to garble' outputname
+
+At this time, the only supported audio format is WAV (mono, 8-bit, 8 kHz = 64 kbps). The same output name is used for the image and audio files, and a ".wav" file extension is automatically appended for the audio file.
+
+If you want just the audio file without a matching image::
+
+	pycaptchagen --audio --noimage 'text to garble' outputname
+
+You can use the default font and voice, or you may specify others of your choosing as follows::
+
+	pycaptchagen --font /path/to/font.ttf --voicedir /path/to/voicedata 'text to garble' outputname
+
+The font can be any TrueType font, as long as it includes all the characters used in your input. You may also specify multiple fonts by invoking the ``--font`` option multiple times, and the image generator will use a random mix of the different fonts for different characters.
+
+The voice data directory you specify must contain a subdirectory with the name of each character, with each of these subdirectories containing a single 8-bit, 8 kHz mono WAV file (with a .wav file extension) for that character. See the `Python captcha library source code`_ for an example. At the time of this writing, the default voice data only contains the numerals 0-9, so unless your input is just a non-negative integer, you will get an error without specifying your own voice directory. This may (hopefully) be fixed in a future version of the captcha library.
+
+License
+-----------
+
+PyCAPTCHAGen is public domain software available under `The Unlicense`_. Feel free to use, study, share, and modify the code as you see fit. :)
+
+Acknowledgements
+----------------------------
+
+PyCAPTCHAGen uses Hsiaoming Yang's `Python captcha library`_.
+
+.. _Python captcha library source code: https://github.com/lepture/captcha/tree/master/captcha/data
+.. _The Unlicense: https://unlicense.org/
+.. _Python captcha library: https://github.com/lepture/captcha
+
+
