@@ -1,0 +1,11 @@
+README.md
+setup.py
+coverage_shield/__init__.py
+coverage_shield/__main__.py
+coverage_shield/badges.py
+coverage_shield/slug.py
+coverage_shield.egg-info/PKG-INFO
+coverage_shield.egg-info/SOURCES.txt
+coverage_shield.egg-info/dependency_links.txt
+coverage_shield.egg-info/requires.txt
+coverage_shield.egg-info/top_level.txt
