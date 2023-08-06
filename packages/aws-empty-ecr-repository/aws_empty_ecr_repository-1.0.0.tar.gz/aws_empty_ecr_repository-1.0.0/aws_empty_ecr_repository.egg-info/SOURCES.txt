@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+aws_empty_ecr_repository/__init__.py
+aws_empty_ecr_repository/empty_ecr_repository.py
+aws_empty_ecr_repository.egg-info/PKG-INFO
+aws_empty_ecr_repository.egg-info/SOURCES.txt
+aws_empty_ecr_repository.egg-info/dependency_links.txt
+aws_empty_ecr_repository.egg-info/requires.txt
+aws_empty_ecr_repository.egg-info/top_level.txt
+aws_empty_ecr_repository/package/__init__.py
+aws_empty_ecr_repository/package/action.py
+aws_empty_ecr_repository/package/cfnresponse.py
+aws_empty_ecr_repository/package/index.py
