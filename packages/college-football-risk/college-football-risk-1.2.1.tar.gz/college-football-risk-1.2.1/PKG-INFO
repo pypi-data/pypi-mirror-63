@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: college-football-risk
+Version: 1.2.1
+Summary: College Football Risk API
+Home-page: https://github.com/bluescar/college-football-risk-python
+Author: OpenAPI Generator community
+Author-email: admin@collegefootballdata.com
+License: UNKNOWN
+Description:     Companion API for College Football Risk  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,College Football Risk API
+Platform: UNKNOWN
