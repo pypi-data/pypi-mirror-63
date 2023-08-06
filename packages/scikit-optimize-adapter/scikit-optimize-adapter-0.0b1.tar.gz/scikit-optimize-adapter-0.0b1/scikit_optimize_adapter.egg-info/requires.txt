@@ -1,0 +1,3 @@
+scikit-optimize>=0.7.4
+dask
+distributed
