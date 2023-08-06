@@ -1,0 +1,15 @@
+causalimpact/__init__.py,sha256=faf6N8ilPTUkS4sas2JYnJ8wC-xmXTpgb4hHMp_Ebbk,306
+causalimpact/analysis.py,sha256=OCltO5dzgLW7j2bjTPbZQMH5TDlp0IF_vgpB1w1Qgmc,31804
+causalimpact/inferences.py,sha256=TsUh3_kl7zUc7ZHnfHlnZy8sI-wvlmtVvYrz3TYwfso,4400
+causalimpact/misc.py,sha256=XPzTaU3za0djdZ24XOaJLK8ak48ea-c4YaHOqALLjsU,1279
+causalimpact/model.py,sha256=qpuQgmDsChyC6C2baB5S2fnM4kCNN9ITmf9R-kFEhiI,3414
+causalimpact/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+causalimpact/tests/test.py,sha256=TF_-ESkMt9UKObEXC2p2_yzRhOBKGhpIvfNBfSj2RPU,1284
+causalimpact/tests/test_analysis.py,sha256=5zOnYees152sf9MLPMtEzULzI0Lg2EFw1mjiJdwqB4k,14349
+causalimpact/tests/test_misc.py,sha256=ecJHynRsljtchhOX7G4YJCZa20BWbHCuJQjk6V51l8o,1569
+causalimpact-0.1.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+causalimpact-0.1.5.dist-info/METADATA,sha256=9sXilecoLxcN0uxAUWa8GUx-8yAGEVgZGr3Nk5glKBc,522
+causalimpact-0.1.5.dist-info/RECORD,,
+causalimpact-0.1.5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+causalimpact-0.1.5.dist-info/metadata.json,sha256=gkVtE0kqG1c1cXNwnnGQ8uRl6U9DSEpyk4nJJzeVon0,699
+causalimpact-0.1.5.dist-info/top_level.txt,sha256=WPCTnIZxw0uCSdg6-AYjuLz2WWR4sXyvor6X7H5j3tw,13
