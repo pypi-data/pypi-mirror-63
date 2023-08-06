@@ -1,0 +1,9 @@
+setup.py
+schmecko/__init__.py
+schmecko/echo_server.py
+schmecko.egg-info/PKG-INFO
+schmecko.egg-info/SOURCES.txt
+schmecko.egg-info/dependency_links.txt
+schmecko.egg-info/entry_points.txt
+schmecko.egg-info/requires.txt
+schmecko.egg-info/top_level.txt
