@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+caio/__init__.py
+caio/asyncio_adapter.py
+caio/linux_aio.c
+caio.egg-info/PKG-INFO
+caio.egg-info/SOURCES.txt
+caio.egg-info/dependency_links.txt
+caio.egg-info/top_level.txt
