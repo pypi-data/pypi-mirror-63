@@ -1,0 +1,7 @@
+README.md
+setup.py
+coax.egg-info/PKG-INFO
+coax.egg-info/SOURCES.txt
+coax.egg-info/dependency_links.txt
+coax.egg-info/top_level.txt
+coax.egg-info/zip-safe
