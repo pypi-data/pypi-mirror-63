@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: dalex
+Version: 0.1.0
+Summary: DALEX in Python
+Home-page: https://github.com/ModelOriented/DALEX
+Author: Wojciech Kretowicz, Hubert Baniecki, Przemyslaw Biecek
+Author-email: wojtekkretowicz@gmail.com, hbaniecki@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: plotly (>=4.5.2)
+Requires-Dist: tqdm (>=4.42.1)
+
+moDel Agnostic Language for Exploration and eXplanation
+
+
