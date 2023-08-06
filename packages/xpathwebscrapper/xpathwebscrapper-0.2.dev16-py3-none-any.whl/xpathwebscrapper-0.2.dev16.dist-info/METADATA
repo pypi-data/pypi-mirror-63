@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xpathwebscrapper
+Version: 0.2.dev16
+Summary: Simple and easy configurable web scrapper
+Home-page: https://github.com/antonzolotukhin/XpathWebScrapper
+Author: Anton Zolotukhin
+Author-email: anton.i.zolotukhin@gmail.com
+License: MIT
+Download-URL: https://github.com/antonzolotukhin/XpathWebScrapper.git
+Keywords: goverenment-data,lxml,website-scrapping
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: lxml
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: pyYAML
+Requires-Dist: certifi
+
+About XpathWebScrapper: https://github.com/antonzolotukhin/XpathWebScrapper
+
+

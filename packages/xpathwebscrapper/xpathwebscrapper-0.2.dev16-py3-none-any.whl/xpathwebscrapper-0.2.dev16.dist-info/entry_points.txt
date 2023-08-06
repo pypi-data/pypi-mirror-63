@@ -1,0 +1,3 @@
+[console_scripts]
+xpathwebscrapper = xpathwebscrapper.grab:main
+
