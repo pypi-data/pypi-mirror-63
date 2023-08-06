@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: daliuge-runtime
+Version: 1.0.0
+Summary: Data Activated 流 (flow) Graph Engine - Runtime
+Home-page: https://github.com/ICRAR/daliuge
+Author: ICRAR DIA Group
+Author-email: dfms_prototype@googlegroups.com
+License: LGPLv2+
+Description: The SKA-SDK prototype for the Execution Framework component
+Platform: UNKNOWN
+Provides-Extra: spead
+Provides-Extra: pyro
+Provides-Extra: rpyc
+Provides-Extra: drive-casa
+Provides-Extra: MPI
+Provides-Extra: aws
