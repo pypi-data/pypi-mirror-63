@@ -1,0 +1,11 @@
+gan_pytorch/__init__.py,sha256=gpk9dCDn2jlwj9RWGCUAKn4II64vpOnjcoT6WvpHXLA,769
+gan_pytorch/model.py,sha256=5Jeh2mXDl8gskTvQW4Iwg4F5IcoJs_sFrW4gGxtQ1Y4,5535
+gan_pytorch/utils.py,sha256=S_YTkbyxeaOMkoNfBOlksRRqPxS0EDK3iMKuUOe_0ZE,3593
+utils/__init__.py,sha256=faCjjOMN-Lw5_FKyOWbynqOonwpbKVii3D63Vft7Y5E,795
+utils/inception_score.py,sha256=yFb9TUqPMAJml5Kjgbpp6a0-P-YvKr84g9z-0U1rR8s,4199
+utils/utils.py,sha256=ZwxWQ37WW2s_L7NQjxjbdNG9p1mymeBwDRt2ueA1kj8,1364
+gan_pytorch-0.4.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+gan_pytorch-0.4.0.dist-info/METADATA,sha256=2MtuFCVMNDaH7cZj5f6Gbmsak7P0IBslNFqCMyafIeQ,5334
+gan_pytorch-0.4.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gan_pytorch-0.4.0.dist-info/top_level.txt,sha256=EY9IjC5KpfzdexDiSUkhHWAoUHYGa-U9vG0iPzM7uLo,18
+gan_pytorch-0.4.0.dist-info/RECORD,,
