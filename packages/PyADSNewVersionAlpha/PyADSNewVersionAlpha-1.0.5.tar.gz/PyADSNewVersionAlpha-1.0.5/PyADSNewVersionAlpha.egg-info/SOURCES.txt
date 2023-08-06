@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+PyADSNewVersionAlpha/__init__.py
+PyADSNewVersionAlpha/create.py
+PyADSNewVersionAlpha/eltProject.py
+PyADSNewVersionAlpha.egg-info/PKG-INFO
+PyADSNewVersionAlpha.egg-info/SOURCES.txt
+PyADSNewVersionAlpha.egg-info/dependency_links.txt
+PyADSNewVersionAlpha.egg-info/requires.txt
+PyADSNewVersionAlpha.egg-info/top_level.txt
