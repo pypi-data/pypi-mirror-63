@@ -1,0 +1,11 @@
+sticky_marshmallow/__init__.py,sha256=Cjshs-8UfaDQwVNLTC9tdjQ7DQZPiZDNs_ktB9rkt6k,148
+sticky_marshmallow/connection.py,sha256=5ThAIi8_9SW8eLM0rOP876g9P-2mo3Q-3ppYqLB1YSQ,576
+sticky_marshmallow/core.py,sha256=3n0mmagDfh2Kcyar9BBhyl5jNkiW40xJ77KAa3CRpoA,2277
+sticky_marshmallow/cursor.py,sha256=tZCYQlCgjRkSV9Wlc6SpBLdWkM24M-oxqd9u6knkAzM,1901
+sticky_marshmallow/repository.py,sha256=4a7XNFj5C0-rSrrXQKTMnvD56vCcsM0vxxCAqKCwAsU,4584
+sticky_marshmallow/utils/case.py,sha256=prUFAag4StqTPCSNlydPC1p4C6yXQTE8E28Ox_VfQts,285
+sticky_marshmallow-0.1.2.dist-info/LICENSE,sha256=niaq7mDyQAYAEAWZtzQUZEysSyIMD6z7O0EVLiYFiXA,1075
+sticky_marshmallow-0.1.2.dist-info/METADATA,sha256=Pvndk22ngvHIn1WI1z6oFau3psU6w09KllMnQBuaXzw,807
+sticky_marshmallow-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sticky_marshmallow-0.1.2.dist-info/top_level.txt,sha256=ovH7cPAqHCqhdTWwwpD-L-6REdBeQK0Imbm92X90L4I,19
+sticky_marshmallow-0.1.2.dist-info/RECORD,,
