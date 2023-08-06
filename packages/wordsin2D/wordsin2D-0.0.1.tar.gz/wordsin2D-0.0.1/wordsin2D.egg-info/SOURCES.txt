@@ -1,0 +1,7 @@
+setup.py
+test/test_for_wordgrid.py
+wordin2D/__init__.py
+wordsin2D.egg-info/PKG-INFO
+wordsin2D.egg-info/SOURCES.txt
+wordsin2D.egg-info/dependency_links.txt
+wordsin2D.egg-info/top_level.txt
