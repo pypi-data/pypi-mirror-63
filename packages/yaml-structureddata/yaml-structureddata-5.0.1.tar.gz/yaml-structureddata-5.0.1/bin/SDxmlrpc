@@ -1,0 +1,226 @@
+#! /usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+"""implement a StructuredData XML-RPC server."""
+
+from optparse import OptionParser
+#import string
+import os.path
+import sys
+import socket
+
+import xmlrpc.server as SRPC
+from StructuredData import SDshellrpclib
+
+import StructuredData.SDshelllibBase as base
+import StructuredData.SDshelllibFun as fun
+
+from StructuredData.internal import processes
+
+# pylint: disable=invalid-name
+
+# version of the program:
+__version__= "5.0.1" #VERSION#
+
+assert __version__==SDshellrpclib.__version__
+assert __version__==base.__version__
+assert __version__==fun.__version__
+
+def _SDtype():
+    """return the software stack on which we are running."""
+    return "SDxmlrpc"
+
+class RequestHandler(SRPC.SimpleXMLRPCRequestHandler):
+    """class to use XML-RPC v.2"""
+    rpc_paths = ('/RPC2',)
+
+#install more hooks:
+fun.SDtype= _SDtype
+
+def write_info(long_format, args, hostname, port, pid):
+    """write info to stderr."""
+    if not long_format:
+        sys.stderr.write("starting StructuredData XML-RPC server on %s port %d\n" % \
+                         (hostname, port))
+    else:
+        sys.stderr.write("command %s\n" % (" ".join(args)))
+        sys.stderr.write("host %s\n" % hostname)
+        sys.stderr.write("port %s\n" % port)
+        sys.stderr.write("pid %s\n" % pid)
+
+def process(options,_,original_args):
+    """process the command line arguments."""
+    # pylint: disable=too-many-branches, too-many-locals
+    # Create server
+    if options.port is None:
+        port= 8000
+    else:
+        port= options.port
+    if options.localhost:
+        host= "localhost"
+    else:
+        host= socket.getfqdn()
+
+    if options.precmd is not None:
+        # pylint: disable=exec-used
+        exec(options.precmd, globals())
+    if options.precmdfile is not None:
+        # pylint: disable=exec-used
+        stream= open(options.precmdfile, 'r')
+        exec(stream.read(), globals())
+        stream.close()
+
+    try:
+        server = SRPC.SimpleXMLRPCServer((host, port),
+                                         requestHandler=RequestHandler)
+    except socket.gaierror as e:
+        if "[Errno -2]" in str(e):
+            sys.exit(("Your reported hostname '%s' seems to be invalid, " +\
+                      "try to start the program with '--localhost'.") % \
+                      host)
+        raise
+    server.register_introspection_functions()
+
+    syms= SDshellrpclib.symbol_list
+
+    if options.searchpath:
+        for p in options.searchpath:
+            sys.path.insert(0, p)
+    if options.module:
+        extra_symbol_list= {}
+        extra_modules={}
+        for module in options.module:
+            __import__(module)
+            extra_modules[module]= sys.modules[module]
+        extra_symbol_list= base.module_functions(extra_modules)
+        syms.update(extra_symbol_list)
+
+    for (name,sym) in syms.items():
+        #print "register: ",name
+        server.register_function(sym, name)
+
+    (server_ip, server_port)= server.socket.getsockname()
+    server_name= socket.gethostbyaddr(server_ip)[0]
+    write_info(options.info, original_args, server_name, server_port,
+               processes.my_pid())
+    server.serve_forever()
+
+def script_shortname():
+    """return the name of this script without a path component."""
+    return os.path.basename(sys.argv[0])
+
+def print_summary():
+    """print a short summary of the scripts function."""
+    print("%-20s: an xmlrpc server for StructuredData\n" % script_shortname())
+
+def main():
+    """The main function.
+
+    parse the command-line options and perform the command
+    """
+    # command-line options and command-line help:
+    usage = "usage: %prog [options] {files}"
+
+    parser = OptionParser(usage=usage,
+                          version="%%prog %s" % __version__,
+                          description="This program implements an "+\
+                                      "XML-RPC server that provides "+\
+                                      "routines to handle StructuredData."
+                         )
+
+    parser.add_option("--summary",
+                      action="store_true",
+                      help="print a summary of the function of the program",
+                     )
+    parser.add_option("--info",
+                      action="store_true",
+                      help="Show ip, port and process ID on stderr."
+                     )
+    parser.add_option("--localhost",
+                      action="store_true",
+                      help="start server on 'localhost' instead of "+\
+                           "DNSDOMAINNAME. In this case the server "+\
+                           "can only be contacted from applications "+\
+                           "running on the same host."
+                     )
+    parser.add_option("--port",
+                      action="store",
+                      type="int",
+                      help="start xmlserver on port PORT. If port is 0, "
+                           "select a port automatically and print it to "
+                           "the console.",
+                      metavar="PORT"
+                     )
+    parser.add_option("-p", "--precmd",
+                      action="store",
+                      type="string",
+                      help="specify COMMANDS to perform before "+\
+                           "any other action",
+                      metavar="COMMANDS"
+                     )
+    parser.add_option("--precmdfile",
+                      action="store",
+                      type="string",
+                      help="specify a FILE to execute before "+\
+                           "any other action",
+                      metavar="FILE"
+                     )
+    parser.add_option("-M", "--module",
+                      action="append",
+                      type="string",
+                      help="specify a MODULE to import at make its "+\
+                           "functions accessible by XMLRPC",
+                      metavar="MODULE"
+                     )
+    parser.add_option("-I", "--searchpath",
+                      action="append",
+                      type="string",
+                      help="specify a DIRECTORY to prepend "+\
+                           "it to the module search path.",
+                      metavar="DIRECTORY"
+                     )
+    parser.add_option("--no-locking",
+                      action="store_true",
+                      help="do not lock file accesses",
+                     )
+    parser.add_option("--pidfile",
+                      action="store",
+                      type="string",
+                      help="specify the PIDFILE where PID's of "+\
+                           "sub processes will be stored",
+                      metavar="PIDFILE"
+                     )
+    parser.add_option("--kill",
+                      action="store_true",
+                      help="just kill old servers, do not start "+\
+                           "new ones.",
+                     )
+
+    original_args= sys.argv
+    # print "ARGS:",repr(original_args)
+    # sys.exit(0)
+    (options, args) = parser.parse_args()
+    # options: the options-object
+    # args: list of left-over args
+
+    if options.summary:
+        print_summary()
+        sys.exit(0)
+
+    if options.no_locking:
+        base.use_file_lock(False)
+
+    if options.kill:
+        if options.pidfile is None:
+            sys.exit("error: --pidfile is mandatory")
+        processes.kill_pids(options.pidfile)
+        os.remove(options.pidfile)
+        sys.exit(0)
+
+    processes.kill_pids(options.pidfile)
+    processes.write_pid_cmd(options.pidfile, original_args)
+    process(options,args, original_args)
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()

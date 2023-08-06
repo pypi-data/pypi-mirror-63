@@ -1,0 +1,775 @@
+#! /usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+"""StructuredData graphical query tool.
+"""
+
+# note: if on Fedora systems the program doesn't terminate on
+# exceptions this may be caused by the abrt daemon not running. You
+# can temporarily fix this by activating the original exception hook
+# function with these two lines:
+# import sys
+# sys.excepthook= sys.__excepthook__
+
+# naming conventions:
+# ivVarname : a Tix integer variable
+# svVarname : a Tix string variable
+# FrName    : a Tix frame or an object derived from Tix frame
+# TrName    : a Tix Tree
+# LbName    : a Tix label
+# EnName    : a Tix entry
+# BtName    : a Tix button
+# CkName    : a Tix checkbutton
+# CmName    : a Tix combobox
+# var_name  : ordinary python variables
+# vName     : complex python objects
+
+import sys
+from optparse import OptionParser
+import re
+
+# pylint: disable=invalid-name
+
+_no_check= len(sys.argv)==2 and (sys.argv[1] in ("-h","--help","--summary"))
+try:
+    import tkinter.tix
+except ImportError:
+    if _no_check:
+        sys.stderr.write("WARNING: (in %s) mandatory module Tix not found\n" %\
+                         sys.argv[0])
+    else:
+        raise
+try:
+    import tkinter.filedialog
+except ImportError:
+    if _no_check:
+        sys.stderr.write(\
+                "WARNING: (in %s) mandatory module tkFileDialog not found\n" %\
+                sys.argv[0])
+    else:
+        raise
+
+# pylint: disable= wrong-import-position
+
+import tkinter.messagebox
+
+import os.path
+import os
+import pprint
+
+import StructuredData.Classes as SD
+
+__version__="5.0.1" #VERSION#
+
+assert __version__==SD.__version__
+
+scriptname= "SDview"
+
+info_heading= "%s version %s\n\ndisplay StructuredData" % \
+              (scriptname, __version__)
+
+info_copyright= \
+r"""HZB Berlin 2015, written by by Goetz Pfeiffer
+<Goetz.Pfeiffer@helmholtz-berlin.de>. """
+
+info_descr= \
+r"""%s is a simple GUI browser for StructuredData.""" % scriptname
+
+root= None
+
+search_opts= ["pattern","ipattern","regexp",
+              "find value", "ipattern find value", "regexp find value"]
+# find value is unsafe due to the usage of guess_type. For example you
+# cannot find the string "150" with "find value" since this string
+# is interpreted as a number.
+
+window_opts= ["no", "show paths", "show paths and values"]
+
+_re_br= re.compile(r'(?<!\\)(\[)')
+
+def path2treepath(path):
+    r"""translate a StructuredData path to a Tix. Tree path.
+
+    The rule for a Tix.Tree path is that the separation character must be
+    unique in the string. This is not the case for StructuredData paths. When
+    it's separation character, ".", occurs in the string it is prepended with a
+    backslash. Also, a "[" (not following a backslash) is also a separation
+    character.
+
+    This function transforms such strings in a way that the separation
+    character, "." is unique. It replaces all "<" characters with "\<" and all
+    ">" characters with "\>". It replaces all dots following a backslash with
+    the string "<dot>". It prepends "[" when it doesn't follow a backslash,
+    with a dot. At the end, a "." is prepended to the string.
+
+    Here are some examples:
+    >>> path2treepath(None)
+    '.'
+    >>> print path2treepath(r"ab")
+    .ab
+    >>> print path2treepath(r"ab.cd")
+    .ab.cd
+    >>> print path2treepath(r"ab[5].cd")
+    .ab.[5].cd
+    >>> print path2treepath(r"a\[7\]b[5].cd")
+    .a\[7\]b.[5].cd
+    >>> print path2treepath(r"a\.bc.de")
+    .a<dot>bc.de
+    >>> print path2treepath(r"a<dot>b\.cd.ef")
+    .a\<dot\>b<dot>cd.ef
+    >>> print path2treepath(r"a<dot>b\\.cd.ef")
+    .a\<dot\>b\<dot>cd.ef
+    """
+    if path is None:
+        return "."
+    path= path.replace("<",r"\<").replace(">",r"\>")
+    path= path.replace(r"\.", "<dot>")
+    return "."+_re_br.sub(r".[", path)
+
+def treepath2path(path):
+    r"""translate a Tix.Tree path to a StructuredData path.
+
+    The rule for a Tix.Tree path is that the separation character must be
+    unique in the string. This is not the case for StructuredData paths. When
+    it's separation character, ".", occurs in the string it is prepended with a
+    backslash. Also, a "[" (not following a backslash) is also a separation
+    character.
+
+    This function restores the StructuredData path from a Tix.Tree path. First
+    it removes the leading dot ".". Then it replaces all strings ".[" with "[".
+    It then replaces all "<dot>" strings with ".". It then replaces all "\<"
+    with "<" and all "\>" with ">".
+
+    Here are some examples:
+    >>> print treepath2path(r".")
+    None
+    >>> print treepath2path(r".ab")
+    ab
+    >>> print treepath2path(r".ab.cd")
+    ab.cd
+    >>> print treepath2path(r".ab.[5].cd")
+    ab[5].cd
+    >>> print treepath2path(r".a\[7\]b.[5].cd")
+    a\[7\]b[5].cd
+    >>> print treepath2path(r".a<dot>bc.de")
+    a\.bc.de
+    >>> print treepath2path(r".a\<dot\>b<dot>cd.ef")
+    a<dot>b\.cd.ef
+    >>> print treepath2path(r".a\<dot\>b\<dot>cd.ef")
+    a<dot>b\\.cd.ef
+    """
+    if path==".":
+        return None
+    path= path[1:]
+    path= path.replace(".[", "[")
+    path= path.replace("<dot>",r"\.")
+    path= path.replace(r"\<","<").replace(r"\>",">")
+    return path
+
+def pr(val):
+    """print a repr string of a value."""
+    print(repr(val))
+
+class FrDataDisplay(tkinter.tix.Frame):
+    """class for the hierarchical display of the data.
+    """
+    # pylint: disable=too-many-ancestors
+    _verbose= False
+    _dry_run= False
+    def __init__(self, parent,
+                 filename):
+        tkinter.tix.Frame.__init__(self, parent, borderwidth=2,relief='raised')
+        self.TrTree= tkinter.tix.Tree(self)
+        # self.TrTree['opencmd'] = lambda dir=None, \
+        #            w=self.TrTree: opendir(w, dir)
+
+        self.TrTree.hlist.configure(selectmode="single")
+        self.TrTree.hlist.configure(selectforeground="red")
+
+        self.SearchWindow= None
+
+        # pylint: disable=unnecessary-lambda
+        root.bind("<MouseWheel>", lambda e: self._wheel(e))
+        # only needed for X11:
+        root.bind("<Button-4>", lambda e: self._wheel(e))
+        root.bind("<Button-5>", lambda e: self._wheel(e))
+        # pylint: enable=unnecessary-lambda
+
+        self.TrTree.hlist.bind("+",
+                               lambda e: self.anchor_selected("+"))
+        self.TrTree.hlist.bind("-",
+                               lambda e: self.anchor_selected("-"))
+
+        self.var_folder_image= self.tk.call('tix', 'getimage', 'folder')
+        self.var_file_image  = self.tk.call('tix', 'getimage', 'file')
+        self.var_close_level= 1
+
+        if filename:
+            if not os.path.isfile(filename):
+                tkinter.messagebox.showerror(\
+                            "file open error",
+                            "\"%s\" is not a file" % filename)
+            else:
+                try:
+                    self.loadfile(filename)
+                except ValueError as e:
+                    tkinter.messagebox.showerror("file format error", str(e))
+        self.TrTree.pack(expand=1, fill=tkinter.tix.BOTH, side="left")
+    def loadfile(self, filename):
+        """load a file."""
+        self.vSDcontainer= SD.StructuredDataContainer.from_yaml_file(filename)
+        self.vSDstore= self.vSDcontainer.store()
+        self.TrTree.hlist.delete_all()
+        self.add(None,"#",None)
+        for (path,keys,val) in self.vSDstore.universal_iter(\
+                                        patterns= None,
+                                        path_list= None,
+                                        only_leaves= False,
+                                        sorted_= True,
+                                        show_links= False):
+            self.add(path, keys, val)
+
+    def _wheel(self, event):
+        """mouse wheel event handler."""
+        if event.num == 5 or event.delta <0:
+            delta= 1
+        if event.num == 4 or event.delta >0:
+            delta= -1
+        self.TrTree.hlist.yview("scroll", delta, "units")
+    def add(self, path, keys, val):
+        """add a new value to the tree.
+        """
+        if path is None:
+            level=0
+        else:
+            level= len(keys)
+        mypath= path2treepath(path)
+        mytext= keys[-1]
+        mystate= None
+        if isinstance(mytext, int):
+            mytext= "[%d]" % mytext
+        if hasattr(val, "__iter__") or (path is None):
+            myimage= self.var_folder_image
+            if level>=self.var_close_level:
+                mystate= "open"
+            else:
+                mystate= "close"
+        else:
+            mytext= "%s: %s" % (mytext, repr(val))
+            myimage= self.var_file_image
+        self.TrTree.hlist.add(mypath,
+                              itemtype= tkinter.tix.IMAGETEXT,
+                              image=myimage,
+                              text= mytext,
+                              data= path)
+        # note: the value ("data") is only stored as a string!!
+        if mystate:
+            self.TrTree.setmode(mypath, mystate)
+        if level>self.var_close_level:
+            self.TrTree.hlist.hide_entry(mypath)
+        else:
+            self.TrTree.hlist.show_entry(mypath)
+    def max_levels(self):
+        """returns (maxlevel, max_displayed_level."""
+        max_displayed= 0
+        max_level=0
+        path= "."
+        while True:
+            if path==".":
+                level= 0
+            else:
+                level= path.count(".")
+            if level>max_level:
+                max_level= level
+            # info_hidden returns "0" or "1" as strings:
+            parent= self.TrTree.hlist.info_parent(path)
+            if parent=="":
+                hidden= False
+            else:
+                hidden= bool(int(self.TrTree.hlist.info_hidden(parent)))
+            if not hidden:
+                hidden= bool(int(self.TrTree.hlist.info_hidden(path)))
+            if not hidden:
+                if level>max_displayed:
+                    max_displayed= level
+            path= self.TrTree.hlist.info_next(path)
+            if not path:
+                break
+        return (max_level, max_displayed)
+    def plusminus_callback(self, level):
+        """changes the level of the tree expansion.
+
+        level: change flag
+               "+": expand more
+               "-": expand less (collapse)
+               "expand all": expand all
+               "collapse all": collapse all
+        """
+        # pylint: disable=too-many-branches
+        (max_level, max_displayed_level)= self.max_levels()
+        if level== "expand all":
+            self.var_close_level= max_level
+        elif level== "collapse all":
+            self.var_close_level= 0
+        elif level== "+":
+            self.var_close_level= min(max_displayed_level+1, max_level)
+        elif level== "-":
+            self.var_close_level= max(max_displayed_level-1, 0)
+        else:
+            raise AssertionError("wrong level: %s" % level)
+
+        path= "."
+        while True:
+            if path==".":
+                level= 0
+            else:
+                level= path.count(".")
+            children= self.TrTree.hlist.info_children(path)
+            # if "open more folders", do not close
+            # folders that are already open
+            if children:
+                if level<self.var_close_level:
+                    # display with "-" in "opened" state
+                    self.TrTree.setmode(path, "close")
+                else:
+                    # display with "+" in "closed" state
+                    self.TrTree.setmode(path, "open")
+            if level<=self.var_close_level:
+                self.TrTree.hlist.show_entry(path)
+            else:
+                self.TrTree.hlist.hide_entry(path)
+            path= self.TrTree.hlist.info_next(path)
+            if not path:
+                break
+    def yshow_entry(self, path):
+        """path is a treepath.
+
+        Makes an entry visible by expanding it if necessary,
+        putting the anchor on it an scroll vertical until it
+        is visible.
+        """
+        SDpath= treepath2path(path)
+        self.expand_entry(SDpath, select_it= False)
+        self.TrTree.hlist.anchor_set(path)
+        self.TrTree.hlist.yview(path)
+    def anchor_selected(self, direction):
+        """make the next item of selected items visible.
+        """
+        # pylint: disable=too-many-branches
+        sel= self.TrTree.hlist.info_selection()
+        if not sel:
+            return # nothing selected
+        anchor= self.TrTree.hlist.info_anchor()
+        if direction not in ("+","-"):
+            raise AssertionError("unexpected direction %s" % direction)
+        if not anchor:
+            if direction=="+":
+                anchor= sel[0]
+            else:
+                anchor= sel[-1]
+        else:
+            while True:
+                if direction=="+":
+                    anchor= self.TrTree.hlist.info_next(anchor)
+                else:
+                    anchor= self.TrTree.hlist.info_prev(anchor)
+                if not anchor:     # reached the last entry
+                    if direction=="+":
+                        anchor= sel[0]
+                    else:
+                        anchor= sel[-1]
+                    break
+                if anchor in sel:
+                    break
+        self.yshow_entry(anchor)
+
+    def lookup_entries(self, path, searchtype, svWindowType, svOnlyLeaves):
+        """lookup entries."""
+        # pylint: disable=too-many-branches, too-many-locals
+        def guess_type(val):
+            """guess the type."""
+            if val.startswith('"') and val.endswith('"'):
+                # assume a quoted string, remove the quotes
+                return val[1:-1]
+            # pylint: disable=unused-variable
+            try:
+                return float(val)
+            except ValueError as e:
+                pass
+            try:
+                return int(val)
+            except ValueError as e:
+                return str(val)
+            # pylint: enable=unused-variable
+        window_type= svWindowType.get()
+        if searchtype=="pattern":
+            m= self.vSDstore.simple_search(path_patterns= path,
+                                           add_values= True,
+                                           only_leaves= svOnlyLeaves.get(),
+                                           show_links= False)
+        elif searchtype=="ipattern":
+            m= self.vSDstore.i_search(i_pattern= path,
+                                      add_values= True,
+                                      only_leaves= svOnlyLeaves.get(),
+                                      show_links= False)
+        elif searchtype=="regexp":
+            m= self.vSDstore.regexp_search(regexp_pattern= path,
+                                           add_values= True,
+                                           only_leaves= svOnlyLeaves.get(),
+                                           show_links= False)
+        elif searchtype=="find value":
+            m= self.vSDstore.value_search(value= guess_type(path),
+                                          add_values= True,
+                                          show_links= False)
+        elif searchtype=="ipattern find value":
+            m= self.vSDstore.value_i_search(i_pattern= path,
+                                            add_values= True,
+                                            show_links= False)
+        elif searchtype=="regexp find value":
+            m= self.vSDstore.value_regexp_search(regexp_pattern= path,
+                                                 add_values= True,
+                                                 show_links= False)
+        else:
+            raise AssertionError("unknown searchtype: %s" % searchtype)
+
+        self.TrTree.hlist.selection_clear()
+        for (p,_) in m:
+            self.expand_entry(p)
+        if window_type!= "no":
+            dummy= tkinter.tix.IntVar()
+            self.SearchWindow= LogWindow(dummy)
+            lines= []
+            d= dict(m)
+            maxlen= 0
+            for p in d.keys():
+                if len(p)>maxlen:
+                    maxlen= len(p)
+            for p in sorted(d.keys()):
+                if window_type=="show paths":
+                    lines.append(p)
+                else:
+                    format_= "%%-%ds: %%s" % maxlen
+                    lines.append(format_ % (p, pprint.pformat(d[p])))
+            self.SearchWindow.display_text("%s: %s" % (searchtype,path),
+                                           lines)
+
+    def expand_entry(self, path, select_it= True):
+        """Note: path must be a StructuredData path.
+
+        Opens all folders in order to make <path> visible.
+        """
+        treepath= path2treepath(path)
+        if not int(self.TrTree.hlist.info_exists(treepath)):
+            tkinter.messagebox.showerror("lookup error",
+                                         "path \"%s\" doesn't exist" % path)
+            return
+
+        parts= treepath.split(".")
+        self.TrTree.open(".")
+        for i in range(1, len(parts)):
+            pp= ".".join(parts[0:i+1])
+            self.TrTree.open(pp)
+        if select_it:
+            self.TrTree.hlist.selection_set(treepath)
+
+    def file_selection_dialog(self):
+        """open a FileDialog window to select a new data file."""
+        filename= tkinter.filedialog.askopenfilename(title="please select a "+\
+                                        "StructuredDataContainer file")
+        if filename in ('', ()):
+            # nothing selected
+            return
+        self.loadfile(filename)
+        return
+    def incr_cursor(self):
+        """increment the cursor."""
+        self.TrTree.hlist.info_selection()
+
+
+class FrHeadClass(tkinter.tix.LabelFrame):
+    """class for the head window."""
+    # pylint: disable=too-many-ancestors
+    def __init__(self, parent,
+                 dataframe):
+        tkinter.tix.LabelFrame.__init__(self, parent, borderwidth=2,relief='raised',
+                                        label= "Tree display")
+        self.FrData= dataframe
+        self.BtPlus  = tkinter.tix.Button(\
+                    self.frame, text="expand",\
+                    command= lambda: self.FrData.plusminus_callback("+"))
+        self.BtPlus.pack  (side="left", padx=5, pady=5)
+        self.BtMinus = tkinter.tix.Button(\
+                    self.frame, text="collapse",\
+                    command= lambda: self.FrData.plusminus_callback("-"))
+        self.BtMinus.pack (side="left", padx=5, pady=5)
+        self.BtExpandAll = tkinter.tix.Button(\
+                self.frame, text="expand all",\
+                command= lambda: self.FrData.plusminus_callback("expand all"))
+        self.BtExpandAll.pack (side="left", padx=5, pady=5)
+        self.BtCollapseAll = tkinter.tix.Button(\
+            self.frame, text="collapse all",\
+            command= lambda: self.FrData.plusminus_callback("collapse all"))
+        self.BtCollapseAll.pack (side="left", padx=5, pady=5)
+
+class FrSearchClass(tkinter.tix.LabelFrame):
+    """Class for the search window."""
+    # pylint: disable=too-many-ancestors
+    # pylint: disable=too-many-instance-attributes
+    def __init__(self, parent,
+                 dataframe):
+        tkinter.tix.LabelFrame.__init__(self, parent, borderwidth=2,relief='raised',
+                                        label="Search")
+        self.FrData= dataframe
+
+        padx= 5
+        pady= 2
+
+        self.frame.columnconfigure(1, weight=1)
+
+        self.LbSearch= tkinter.tix.Label(self.frame, text="pattern:")
+        self.LbSearch.grid(row=0, column= 0, padx= padx, pady= pady,
+                           sticky=tkinter.tix.W)
+
+        self.svEntry= tkinter.tix.StringVar()
+        self.svEntry.set("")
+        self.EnPattern= tkinter.tix.Entry(self.frame, textvariable= self.svEntry)
+        self.EnPattern.bind("<Return>", lambda e: self.entrycb())
+        self.EnPattern.grid(row=0, column= 1, padx= padx, pady= pady,
+                            sticky=tkinter.tix.W+tkinter.tix.E)
+
+        # pylint: disable=unnecessary-lambda
+        self.BtSearchGo= tkinter.tix.Button(self.frame, text="search", anchor="w", \
+                                    command= lambda : self.entrycb())
+        self.BtSearchGo.grid(row=0, column=2, padx= padx, pady= pady)
+
+        self.BtSearchUp= tkinter.tix.Button(self.frame, text="up", anchor="w",\
+                        command= lambda : self.FrData.anchor_selected("-"))
+        self.BtSearchUp.grid(row=1, column=2, padx= padx, pady= pady)
+
+        self.BtSearchDn= tkinter.tix.Button(self.frame, \
+                        text="down", anchor="w", \
+                        command= lambda : self.FrData.anchor_selected("+"))
+        self.BtSearchDn.grid(row=2, column=2, padx= padx, pady= pady)
+
+        self.LbPattern= tkinter.tix.Label(self.frame, text="type:")
+        self.LbPattern.grid(row=1, column=0,
+                            padx= padx, pady= pady, sticky= tkinter.tix.W)
+
+        self.svPatternType= tkinter.tix.StringVar()
+        self.CmPatternType= tkinter.tix.ComboBox(self.frame,
+                                                 variable= self.svPatternType,
+                                                 dropdown=True,
+                                                 editable=False,
+                                                )
+        #self.CmPatternType.configure(listwidth= "50p")
+        for l in search_opts:
+            self.CmPatternType.insert(tkinter.tix.END, l)
+        self.svPatternType.set(search_opts[0])
+        self.CmPatternType.entry.configure(disabledforeground="black",
+                                           width= 10)
+        self.CmPatternType.grid(row=1, column= 1, padx= padx, pady= pady,
+                                sticky= tkinter.tix.W+tkinter.tix.E)
+
+        self.LbWindowType= tkinter.tix.Label(self.frame, text="result window:")
+        self.LbWindowType.grid(row= 2, column=0, padx= padx, pady= pady,
+                               sticky=tkinter.tix.W)
+
+        self.svWindowType= tkinter.tix.StringVar()
+        self.CmWindowType= tkinter.tix.ComboBox(self.frame,
+                                                variable= self.svWindowType,
+                                                dropdown= True,
+                                                editable= False,
+                                               )
+        self.CmWindowType.entry.configure(disabledforeground="black",
+                                          width= 18)
+        for l in window_opts:
+            self.CmWindowType.insert(tkinter.tix.END, l)
+        self.svWindowType.set(window_opts[0])
+        self.CmWindowType.grid(row= 2, column=1, padx= padx, pady= pady,
+                               sticky= tkinter.tix.W+tkinter.tix.E)
+
+        self.ivOnlyLeaves= tkinter.tix.IntVar()
+        self.CkOnlyLeaves  = tkinter.tix.Checkbutton(self.frame, \
+                               text="report only leaves", \
+                               variable= self.ivOnlyLeaves)
+        self.CkOnlyLeaves.grid(row= 3, column=0, padx= padx, pady= pady,
+                               sticky= tkinter.tix.W)
+
+    def entrycb(self):
+        """callback for an entry."""
+        self.FrData.lookup_entries(self.svEntry.get(),
+                                   self.svPatternType.get(),
+                                   self.svWindowType,
+                                   self.ivOnlyLeaves)
+
+class TextWindow():
+    """class for a simple text window."""
+    def __init__(self, switch_var):
+        """initialize the object."""
+        self.opened= False
+        self.switch_var= switch_var
+        self.top= None
+        self.scrollbar= None
+        self.txt= None
+        # switch_var is coupled with the switch in the GUI
+        # that toggles the display of the logwindow
+    def is_opened(self):
+        """return if the window is opened."""
+        return self.opened
+    def display_text(self, title, lines):
+        """display some text."""
+        if not self.opened:
+            self.top= tkinter.tix.Toplevel()
+            # pylint: disable=unnecessary-lambda
+            self.top.protocol("WM_DELETE_WINDOW",
+                              lambda: self.destroy_handler())
+            self.scrollbar= tkinter.tix.Scrollbar(self.top)
+            self.scrollbar.pack(side=tkinter.tix.RIGHT, fill="y")
+            self.txt= tkinter.tix.Text(self.top, yscrollcommand= self.scrollbar.set)
+            self.txt.pack(side='top', fill='both', expand='y')
+            self.scrollbar.config(command=self.txt.yview)
+            self.opened= True
+        self.top.title(title)
+        self._fill(lines)
+    def close(self):
+        """close the window."""
+        self.destroy_handler()
+    def destroy_handler(self):
+        """destroy handler."""
+        self.top.destroy()
+        self.switch_var.set(0)
+        self.opened= False
+    def _fill(self, lines):
+        """fill in the text."""
+        if not self.opened:
+            self.display_text("",[])
+        self.txt.config(state=tkinter.tix.NORMAL)
+        self.txt.delete(1.0,tkinter.tix.END)
+        self.txt.insert(tkinter.tix.END, "\n".join(lines))
+        self.txt.config(state=tkinter.tix.DISABLED)
+
+class LogWindow(TextWindow):
+    """class for the log window."""
+    def __init__(self, switch_var, lines=None):
+        if lines is None:
+            lines= []
+        TextWindow.__init__(self, switch_var)
+    def display_text(self, title, lines):
+        TextWindow.display_text(self, title, lines)
+
+class App():
+    """The class for the whole application."""
+    # pylint: disable=too-many-instance-attributes
+    def __init__(self, Top, options):
+        self.verbose= options.verbose
+        self.dry_run= options.dry_run
+        Top.title(scriptname)
+
+
+        self.FrData= FrDataDisplay(Top,
+                                   options.file)
+
+        self.FrHead= FrHeadClass(Top, self.FrData)
+
+        self.FrSearch= FrSearchClass(Top,
+                                     self.FrData)
+
+        self.FrSearch.pack(side='top', fill='x')
+        self.FrHead.pack(side='top', fill='x')
+        self.FrData.pack(side='top', fill=tkinter.tix.BOTH, expand=1)
+
+        self.aboutWindow= None
+
+        # Top menue
+        self.Menu= tkinter.tix.Menu(Top)
+        self.FileMenu= tkinter.tix.Menu(self.Menu)
+        self.Menu.add_cascade(label="File", menu= self.FileMenu)
+        self.FileMenu.add_command(\
+                        label="open file",
+                        command= self.FrData.file_selection_dialog)
+        self.FileMenu.add_separator()
+        self.FileMenu.add_command(label="quit", command= Top.quit)
+
+        self.HelpMenu= tkinter.tix.Menu(self.Menu)
+        self.Menu.add_cascade(label="Help", menu= self.HelpMenu)
+        # pylint: disable=unnecessary-lambda
+        self.HelpMenu.add_command(label="about",
+                                  command= lambda: self.about_cb())
+
+        Top.config(menu= self.Menu)
+    def about_cb(self):
+        """callback for the "about" window."""
+        if not self.aboutWindow is None:
+            self.aboutWindow.lift()
+            return
+        top= tkinter.tix.Toplevel()
+        # pylint: disable=unnecessary-lambda
+        top.protocol("WM_DELETE_WINDOW",
+                     lambda: self.about_destroy_cb())
+        top.title("about %s" % scriptname)
+        msg= tkinter.tix.Text(top, height=8)
+        msg.insert(tkinter.tix.END, info_heading)
+        msg.insert(tkinter.tix.END, "\n\n")
+        msg.insert(tkinter.tix.END, info_copyright)
+        msg.configure(state="disabled")
+        msg.pack(fill="both", expand="y") #(padx=10,pady=10)
+        button = tkinter.tix.Button(top, text="Dismiss",
+                                    command= lambda: self.about_destroy_cb())
+        button.pack()
+        self.aboutWindow= top
+    def about_destroy_cb(self):
+        """utility to destroy the window."""
+        self.aboutWindow.destroy()
+        self.aboutWindow= None
+
+def main():
+    """The main function.
+
+    parse the command-line options and perform the command
+    """
+    # pylint: disable=global-statement
+    global root
+
+    # command-line options and command-line help:
+    parser = OptionParser(usage= "usage: %prog [options] {file list}\n\n" +\
+                                  info_descr + "\n\n" +\
+                                  info_copyright,
+                          version="%%prog %s" % __version__)
+                          # description left out here
+
+    parser.add_option("--dry-run",
+                      action="store_true",
+                      help="do not execute commands, just show them",
+                     )
+    parser.add_option("-v", "--verbose",
+                      action="store_true",
+                      help="increase verbosity",
+                     )
+    parser.add_option("-f", "--file",
+                      action="store",
+                      type="string",
+                      help="specify the FILE to use.",
+                      metavar="FILE"
+                     )
+    # pylint: disable=unused-variable
+    (options, args) = parser.parse_args()
+    # options: the options-object
+    # args: list of left-over args
+
+    # pylint: enable=unused-variable
+
+    # use no lockfile by default:
+    SD.use_lockfile= False
+
+    root = tkinter.tix.Tk()
+
+    App(root, options)
+
+    root.mainloop()
+
+    #_system_cleanup(True)
+
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()

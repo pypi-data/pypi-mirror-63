@@ -1,0 +1,886 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Various ways of accessing the data &mdash; YAML-StructuredData 5.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/bootstrap.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Python Modules" href="python_modules.html" />
+    <link rel="prev" title="SDview" href="SDview.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> YAML-StructuredData
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                5.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installing StructuredData</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#parts-of-structureddata">Parts of StructuredData</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#install-from-pypi-with-pip">Install from pypi with pip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#install-from-source-tar-gz-or-zip-file">Install from source (tar.gz or zip file)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install.html#install-as-root-to-default-directories">Install as root to default directories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#install-to-a-separate-directory">Install to a separate directory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#install-in-your-home">Install in your home</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#what-is-structureddata">What is StructuredData ?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#the-concept">The concept</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#what-kind-of-data-can-be-stored">What kind of data can be stored ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#how-is-the-data-stored">How is the data stored ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#how-do-i-address-parts-of-the-data">How do I address parts of the data ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#how-can-i-test-the-validity-of-the-data">How can I test the validity of the data ?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#the-software-package">The software package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#what-does-it-do">What does it do ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="introduction.html#do-i-always-have-to-use-the-software-package">Do I always have to use the software package ?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#applications-of-structureddata">Applications of StructuredData</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#where-can-structureddata-be-useful">Where can StructuredData be useful ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#how-does-structureddata-support-collaboration">How does StructuredData support collaboration ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#can-graphs-be-represented-in-structureddata">Can graphs be represented in StructuredData ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#can-trees-be-represented-in-structureddata">Can trees be represented in StructuredData ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html#can-the-data-of-a-relational-database-represented-in-structureddata">Can the data of a relational database represented in StructuredData ?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html#comparisons-to-other-concepts">Comparisons to other concepts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#advantages-of-structureddata-compared-to-a-database">Advantages of StructuredData compared to a database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#advantages-of-structureddata-compared-to-other-text-file-formats">Advantages of StructuredData compared to other text file formats</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#structureddata-in-general">StructuredData in general</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#structureddata-terminology">StructuredData terminology</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#references-and-links">References and links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#relation-of-structured-data-to-python-data-structures">Relation of Structured Data to python data structures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#paths">Paths</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#joining-a-keylist-to-a-path">Joining a keylist to a path</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#escape-rules">Escape rules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#patterns">Patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#id1">Example</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#structureddatastore">StructuredDataStore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#structureddatatypes">StructuredDataTypes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#differences-to-programming-language-type-declarations">Differences to programming language type declarations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#typepatterns">Typepatterns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#typepattern-matching">Typepattern matching</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html#type-declarations">Type declarations</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#boolean">boolean</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#integer">integer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#real">real</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#string">string</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#optional-struct">optional struct</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#open-struct">open struct</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#struct">struct</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#typed-map">typed map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#map">map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#optional-list">optional list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#typed-list">typed list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reference.html#list">list</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#structureddatacontainer">StructuredDataContainer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SDpyshell.html">SDpyshell</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#basic-syntax">Basic Syntax</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#function-calls">function calls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#procedure-calls">procedure calls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#string-literals">string literals</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#basic-function">Basic function</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#command-layers">Command layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#format-specifications">Format Specifications</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#structure-formats">Structure Formats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#text-formats">Text formats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#marking-links">Marking links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#flat-format">Flat format</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#dry-run">Dry run</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#commands-and-functions">Commands and Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#generic-functions">Generic functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#help">help</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id1">help()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-help">txt.help()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-help">fun.help()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#sdtype">SDtype</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-sdtype">fun.SDtype()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#string-and-path-functions">String and path functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#format">format</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id2">format()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-format">txt.format()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#string2pathkey">string2pathkey</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id3">string2pathkey()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-string2pathkey">txt.string2pathkey()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-string2pathkey">fun.string2pathkey()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#pathkey2string">pathkey2string</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id4">pathkey2string()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-pathkey2string">txt.pathkey2string()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-pathkey2string">fun.pathkey2string()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#splitpath">splitpath</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id5">splitpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-splitpath">txt.splitpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-splitpath">fun.splitpath()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#joinpath">joinpath</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id6">joinpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-joinpath">txt.joinpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-joinpath">fun.joinpath()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#combinepaths">combinepaths</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id7">combinepaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-combinepaths">txt.combinepaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-combinepaths">fun.combinepaths()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#addpaths">addpaths</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id8">addpaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-addpaths">txt.addpaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-addpaths">fun.addpaths()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#poppath">poppath</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id9">poppath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-poppath">txt.poppath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-poppath">fun.poppath()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#substpath">substpath</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id10">substpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-substpath">txt.substpath()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-substpath">fun.substpath()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#functions-for-the-structureddatacontainer">Functions for the StructuredDataContainer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#newsdc">newsdc</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-newsdc">fun.newsdc()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#namedsdc">namedsdc</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-namedsdc">fun.namedsdc()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#locksdc">locksdc</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-locksdc">fun.locksdc()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#copy">copy</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id11">copy()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-copy">txt.copy()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-copy">fun.copy()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#file-i-o">File I/O</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#lockfile">lockfile</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-lockfile">fun.lockfile()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#lockdir">lockdir</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-lockdir">fun.lockdir()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#read">read</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id12">read()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-read">txt.read()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-read">fun.read()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#write">write</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id13">write()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-write">txt.write()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-write">fun.write()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#rewrite">rewrite</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id14">rewrite()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#printing">Printing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#pr">pr</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id15">pr()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#generic-functions-for-the-structureddatastore">Generic functions for the StructuredDataStore</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#clear-store">clear_store</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id16">clear_store()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-clear-store">txt.clear_store()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-clear-store">fun.clear_store()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#refresh-links">refresh_links</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id17">refresh_links()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-refresh-links">txt.refresh_links()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-refresh-links">fun.refresh_links()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#generic-functions-for-structureddatatypes">Generic functions for StructuredDataTypes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#clear-types">clear_types</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id18">clear_types()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-clear-types">txt.clear_types()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-clear-types">fun.clear_types()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#querying-the-data">Querying the data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#paths">paths</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id19">paths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-paths">txt.paths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-paths">fun.paths()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#find">find</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id20">find()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-find">txt.find()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-find">fun.find()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#ifind">ifind</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id21">ifind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-ifind">txt.ifind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-ifind">fun.ifind()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#rxfind">rxfind</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id22">rxfind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-rxfind">txt.rxfind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-rxfind">fun.rxfind()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#findval">findval</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id24">findval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-findval">txt.findval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-findval">fun.findval()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#ifindval">ifindval</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id25">ifindval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-ifindval">txt.ifindval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-ifindval">fun.ifindval()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#rxfindval">rxfindval</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id26">rxfindval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-rxfindval">txt.rxfindval()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-rxfindval">fun.rxfindval()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#get">get</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id29">get()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-get">txt.get()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-get">fun.get()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#getlinks">getlinks</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id30">getlinks()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-getlinks">txt.getlinks()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-getlinks">fun.getlinks()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#findlinks">findlinks</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id31">findlinks()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-findlinks">txt.findlinks()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-findlinks">fun.findlinks()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#modifying-the-data">Modifying the data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#filter-out">filter_out</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id32">filter_out()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-filter-out">txt.filter_out()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-filter-out">fun.filter_out()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#change">change</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id33">change()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-change">txt.change()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-change">fun.change()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#put">put</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id34">put()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-put">txt.put()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-put">fun.put()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#delete">delete</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id35">delete()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-delete">txt.delete()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-delete">fun.delete()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#link">link</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id36">link()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-link">txt.link()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-link">fun.link()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#querying-types">Querying types</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typepaths">typepaths</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id37">typepaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typepaths">txt.typepaths()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typepaths">fun.typepaths()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typefind">typefind</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id38">typefind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typefind">txt.typefind()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typefind">fun.typefind()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typeget">typeget</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id39">typeget()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typeget">txt.typeget()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typeget">fun.typeget()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#modifying-types">Modifying types</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typeput">typeput</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id40">typeput()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typeput">txt.typeput()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typeput">fun.typeput()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typeadditem">typeadditem</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id41">typeadditem()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typeadditem">txt.typeadditem()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typeadditem">fun.typeadditem()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typedelete">typedelete</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id42">typedelete()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typedelete">txt.typedelete()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typedelete">fun.typedelete()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typedeleteitem">typedeleteitem</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id43">typedeleteitem()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typedeleteitem">txt.typedeleteitem()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typedeleteitem">fun.typedeleteitem()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#typechecking">Typechecking</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typecheck">typecheck</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id44">typecheck()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typecheck">txt.typecheck()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typecheck">fun.typecheck()</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="SDpyshell.html#typematch">typematch</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#id45">typematch()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#txt-typematch">txt.typematch()</a></li>
+<li class="toctree-l5"><a class="reference internal" href="SDpyshell.html#fun-typematch">fun.typematch()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#command-aliases">Command aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell.html#invoking-sdpyshell">Invoking SDpyshell</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#precommands">Precommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#extensions">Extensions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#server-mode">Server mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#server-password">Server password</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDpyshell.html#process-management">Process management</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SDpyshell_examples.html">SDpyshell Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#start-the-sdpyshell-and-read-the-data-file">Start the SDpyshell and read the data file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-get">Reports with get</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-find">Reports with find</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-rxfind">Reports with rxfind</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-findval">Reports with findval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-rxfindval">Reports with rxfindval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#reports-with-pr">Reports with pr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#changing-a-single-value-with-change">Changing a single value with change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#adding-a-value-with-put">Adding a value with put</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#working-with-links">Working with links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#working-with-types">Working with types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#a-change-of-many-parameters-with-export-and-re-import">A change of many parameters with export and re-import</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#converting-a-python-structure-to-structureddata">Converting a python structure to StructuredData</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDpyshell_examples.html#converting-a-perl-structure-to-structureddata">Converting a perl structure to StructuredData</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SDxmlrpc.html">SDxmlrpc</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="SDxmlrpc.html#introduction">Introduction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#what-is-xml-rpc">What is XML-RPC ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#what-is-the-difference-between-sdxmlrpc-and-sdpyshell">What is the difference between SDxmlrpc and SDpyshell ?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDxmlrpc.html#basic-function">Basic function</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#the-structureddatacontainer-key">The StructuredDataContainer key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#return-values">Return values</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDxmlrpc.html#functions">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDxmlrpc.html#examples">Examples</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#python">Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#perl">Perl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#c">C</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#id1">C++</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDxmlrpc.html#invoking-sdxmlrpc">Invoking SDxmlrpc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#precommands">Precommands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#extensions">Extensions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDxmlrpc.html#process-management">Process management</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SDview.html">SDview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="SDview.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDview.html#the-start-screen">The start screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDview.html#the-tree-frame">The tree frame</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SDview.html#the-tree-display-frame">The tree display frame</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#collapse-all">collapse all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#expand-all">expand all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#collapse">collapse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#expand">expand</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SDview.html#the-search-frame">The search frame</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#the-search-type">The search type</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#pattern">pattern</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#ipattern">ipattern</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#regexp">regexp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#find-value">find value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#ipattern-find-value">ipattern find value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#regexp-find-value">regexp find value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#report-only-leaves">report only leaves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="SDview.html#result-window">result window</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#no">no</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#show-paths">show paths</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SDview.html#show-paths-and-values">show paths and values</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Various ways of accessing the data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#an-example-with-sdpyshell">An example with SDpyshell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#an-example-using-the-sdshellib">An example using the SDshellib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#an-example-using-structureddata-classes">An example using StructuredData.Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#an-example-with-python-and-pure-yaml">An example with python and pure yaml</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#an-example-with-perl-and-pure-yaml">An example with perl and pure yaml</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="python_modules.html">Python Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.SDshelllib">SDshelllib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.SDshelllibTxt">SDshelllibTxt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.SDshelllibFun">SDshelllibFun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.SDshelllibBase">SDshelllibBase</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.SDshellrpclib">SDshellrpclib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_modules.html#module-StructuredData.Classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">StructuredData License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">YAML-StructuredData</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Various ways of accessing the data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/examples.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="various-ways-of-accessing-the-data">
+<h1>Various ways of accessing the data<a class="headerlink" href="#various-ways-of-accessing-the-data" title="Permalink to this headline">¶</a></h1>
+<p>Here we show how StructuredData can be accessed with and without the usage of
+SDpyshell.</p>
+<p>Note that the examples are ordered from the simple ones that use SDpyshell down
+to examples that do not use StructuredData libraries at all but just the pure
+YAML libraries. All examples assume that you are in the directory “samples” and
+that the file idcp_db.cache.SDCyml is present there. You can get “samples”
+directory by checking out the source from the mercurial repository.</p>
+<div class="section" id="an-example-with-sdpyshell">
+<h2>An example with SDpyshell<a class="headerlink" href="#an-example-with-sdpyshell" title="Permalink to this headline">¶</a></h2>
+<p>Hepyre is the same example using the SDshell::
+Here is the same example using the SDshell:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SDpyshell</span>
+<span class="o">&gt;</span> <span class="n">r</span><span class="p">(</span><span class="s2">&quot;idcp_db.cache.SDCyml&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global.id-key&quot;</span><span class="p">)</span>
+<span class="mi">96</span>
+<span class="o">&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">,</span> <span class="s2">&quot;py&quot;</span><span class="p">)</span>
+<span class="p">{</span><span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1 ,U125IV   ,idcp96,currently disabled&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;device_status&#39;</span><span class="p">:</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;id-key&#39;</span><span class="p">:</span> <span class="mi">96</span><span class="p">,</span>
+ <span class="s1">&#39;instance_no&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s1">&#39;primary_key&#39;</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span>
+ <span class="s1">&#39;undulator&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1&#39;</span><span class="p">}</span>
+<span class="o">&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">,</span> <span class="s2">&quot;yaml&quot;</span><span class="p">)</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="mi">96</span>
+<span class="n">instance_no</span><span class="p">:</span> <span class="mi">0</span>
+<span class="n">primary_key</span><span class="p">:</span> <span class="mi">29</span>
+<span class="n">undulator</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+<span class="o">&gt;</span> <span class="n">find</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global.**&quot;</span><span class="p">)</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">description</span>  <span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">id</span><span class="o">-</span><span class="n">key</span>       <span class="p">:</span> <span class="mi">96</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">instance_no</span>  <span class="p">:</span> <span class="mi">0</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">primary_key</span>  <span class="p">:</span> <span class="mi">29</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">undulator</span>    <span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="an-example-using-the-sdshellib">
+<h2>An example using the SDshellib<a class="headerlink" href="#an-example-using-the-sdshellib" title="Permalink to this headline">¶</a></h2>
+<p>Here is the same example using the python shell and the SDshelllib:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">StructuredData.SDshelllib</span> <span class="k">import</span> <span class="o">*</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;idcp_db.cache.SDCyml&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global.id-key&quot;</span><span class="p">)</span>
+<span class="mi">96</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">,</span> <span class="s2">&quot;py&quot;</span><span class="p">)</span>
+<span class="p">{</span><span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1 ,U125IV   ,idcp96,currently disabled&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;device_status&#39;</span><span class="p">:</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;id-key&#39;</span><span class="p">:</span> <span class="mi">96</span><span class="p">,</span>
+ <span class="s1">&#39;instance_no&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s1">&#39;primary_key&#39;</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span>
+ <span class="s1">&#39;undulator&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">,</span> <span class="s2">&quot;yaml&quot;</span><span class="p">)</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="mi">96</span>
+<span class="n">instance_no</span><span class="p">:</span> <span class="mi">0</span>
+<span class="n">primary_key</span><span class="p">:</span> <span class="mi">29</span>
+<span class="n">undulator</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">find</span><span class="p">(</span><span class="s2">&quot;id-data.U125/1.global.**&quot;</span><span class="p">)</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">description</span>  <span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">id</span><span class="o">-</span><span class="n">key</span>       <span class="p">:</span> <span class="mi">96</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">instance_no</span>  <span class="p">:</span> <span class="mi">0</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">primary_key</span>  <span class="p">:</span> <span class="mi">29</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">data</span><span class="o">.</span><span class="n">U125</span><span class="o">/</span><span class="mf">1.</span><span class="k">global</span><span class="o">.</span><span class="n">undulator</span>    <span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="an-example-using-structureddata-classes">
+<h2>An example using StructuredData.Classes<a class="headerlink" href="#an-example-using-structureddata-classes" title="Permalink to this headline">¶</a></h2>
+<p>Here is a simple example of using StructuredData in the python shell with
+StructuredData.Classes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pprint</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">yaml</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">StructuredData.Classes</span> <span class="k">as</span> <span class="nn">SD</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">sdc</span><span class="o">=</span> <span class="n">SD</span><span class="o">.</span><span class="n">StructuredDataContainer</span><span class="o">.</span><span class="n">from_yaml_file</span><span class="p">(</span><span class="s2">&quot;idcp_db.cache.SDCyml&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">sds</span><span class="o">=</span> <span class="n">sdc</span><span class="o">.</span><span class="n">store</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">sds</span><span class="p">[</span><span class="s2">&quot;id-data.U125/1.global.id-key&quot;</span><span class="p">]</span>
+<span class="mi">96</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">sds</span><span class="p">[</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">])</span>
+<span class="p">{</span><span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1 ,U125IV   ,idcp96,currently disabled&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;device_status&#39;</span><span class="p">:</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;id-key&#39;</span><span class="p">:</span> <span class="mi">96</span><span class="p">,</span>
+ <span class="s1">&#39;instance_no&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s1">&#39;primary_key&#39;</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span>
+ <span class="s1">&#39;undulator&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span> <span class="n">yaml</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">sds</span><span class="p">[</span><span class="s2">&quot;id-data.U125/1.global&quot;</span><span class="p">],</span>
+<span class="o">...</span>                 <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">default_flow_style</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="mi">96</span>
+<span class="n">instance_no</span><span class="p">:</span> <span class="mi">0</span>
+<span class="n">primary_key</span><span class="p">:</span> <span class="mi">29</span>
+<span class="n">undulator</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="an-example-with-python-and-pure-yaml">
+<h2>An example with python and pure yaml<a class="headerlink" href="#an-example-with-python-and-pure-yaml" title="Permalink to this headline">¶</a></h2>
+<p>This example uses python and just YAML:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pprint</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">yaml</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">stream</span><span class="o">=</span> <span class="n">file</span><span class="p">(</span><span class="s2">&quot;idcp_db.cache.SDCyml&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">container</span><span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">store</span><span class="o">=</span><span class="n">container</span><span class="p">[</span><span class="s2">&quot;**SDC-Store**&quot;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">store</span><span class="p">[</span><span class="s2">&quot;id-data&quot;</span><span class="p">][</span><span class="s2">&quot;U125/1&quot;</span><span class="p">][</span><span class="s2">&quot;global&quot;</span><span class="p">][</span><span class="s2">&quot;id-key&quot;</span><span class="p">]</span>
+<span class="mi">96</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">store</span><span class="p">[</span><span class="s2">&quot;id-data&quot;</span><span class="p">][</span><span class="s2">&quot;U125/1&quot;</span><span class="p">][</span><span class="s2">&quot;global&quot;</span><span class="p">])</span>
+<span class="p">{</span><span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1 ,U125IV   ,idcp96,currently disabled&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;device_status&#39;</span><span class="p">:</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;id-key&#39;</span><span class="p">:</span> <span class="mi">96</span><span class="p">,</span>
+ <span class="s1">&#39;instance_no&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s1">&#39;primary_key&#39;</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span>
+ <span class="s1">&#39;undulator&#39;</span><span class="p">:</span> <span class="s1">&#39;U125/1&#39;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span> <span class="n">yaml</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">store</span><span class="p">[</span><span class="s2">&quot;id-data&quot;</span><span class="p">][</span><span class="s2">&quot;U125/1&quot;</span><span class="p">][</span><span class="s2">&quot;global&quot;</span><span class="p">],</span>
+<span class="o">...</span>                 <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">default_flow_style</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span> <span class="p">,</span><span class="n">U125IV</span>   <span class="p">,</span><span class="n">idcp96</span><span class="p">,</span><span class="n">currently</span> <span class="n">disabled</span>
+<span class="n">device_status</span><span class="p">:</span> <span class="n">test</span>
+<span class="nb">id</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="mi">96</span>
+<span class="n">instance_no</span><span class="p">:</span> <span class="mi">0</span>
+<span class="n">primary_key</span><span class="p">:</span> <span class="mi">29</span>
+<span class="n">undulator</span><span class="p">:</span> <span class="n">U125</span><span class="o">/</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="an-example-with-perl-and-pure-yaml">
+<h2>An example with perl and pure yaml<a class="headerlink" href="#an-example-with-perl-and-pure-yaml" title="Permalink to this headline">¶</a></h2>
+<p>Since perl has no interactive shell, you have to create a file “SDtest.pl” with
+this content:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>use Data::Dumper;
+use YAML::XS;
+use strict;
+$YAML::Syck::ImplicitTyping = 1;
+my $container= YAML::XS::LoadFile(&quot;idcp_db.cache.SDCyml&quot;);
+my $store= $container-&gt;{&quot;**SDC-Store**&quot;};
+print $store-&gt;{&quot;id-data&quot;}{&quot;U125/1&quot;}{&quot;global&quot;}{&quot;id-key&quot;},&quot;\n&quot;;
+print Dumper($store-&gt;{&quot;id-data&quot;}{&quot;U125/1&quot;}{&quot;global&quot;});
+</pre></div>
+</div>
+<p>If you start this file with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">perl</span> <span class="n">SDtest</span><span class="o">.</span><span class="n">pl</span>
+</pre></div>
+</div>
+<p>you get this output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>96
+$VAR1 = {
+          &#39;primary_key&#39; =&gt; 29,
+          &#39;instance_no&#39; =&gt; 0,
+          &#39;id-key&#39; =&gt; 96,
+          &#39;undulator&#39; =&gt; &#39;U125/1&#39;,
+          &#39;device_status&#39; =&gt; &#39;test&#39;,
+          &#39;description&#39; =&gt; &#39;U125/1 ,U125IV   ,idcp96,currently disabled&#39;
+        };
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python_modules.html" class="btn btn-neutral float-right" title="Python Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="SDview.html" class="btn btn-neutral float-left" title="SDview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Helmholtz-Zentrum Berlin GmbH
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

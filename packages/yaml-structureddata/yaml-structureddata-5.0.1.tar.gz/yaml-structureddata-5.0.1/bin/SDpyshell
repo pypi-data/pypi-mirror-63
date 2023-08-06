@@ -1,0 +1,310 @@
+#!/usr/bin/env python3
+
+"""StructuredData python shell.
+"""
+
+from optparse import OptionParser
+
+import sys
+import os.path
+import code
+
+from StructuredData import SDshelllibBase
+from StructuredData import SDshelllibFun
+from StructuredData import SDshelllibTxt
+from StructuredData import SDshelllib
+
+from StructuredData.internal import telnetserver
+from StructuredData.internal import processes
+
+from StructuredData.internal import password
+
+__version__="5.0.1" #VERSION#
+
+assert __version__==SDshelllibBase.__version__
+assert __version__==SDshelllibFun.__version__
+assert __version__==SDshelllibTxt.__version__
+assert __version__==SDshelllib.__version__
+assert __version__==telnetserver.__version__
+assert __version__==processes.__version__
+assert __version__==password.__version__
+
+#install hooks:
+SDshelllibFun.error= SDshelllib.error
+SDshelllibTxt.error= SDshelllib.error
+
+def script_shortname():
+    """return the name of this script without a path component."""
+    return os.path.basename(sys.argv[0])
+
+SCRIPTNAME= script_shortname()
+
+INFO_DESCR= \
+r"""%s is a shell to manage Structured data.
+
+The program supports several commands for handling StructuredData.
+Print "help" at the command prompt to get more help.
+""" % SCRIPTNAME
+
+def print_summary():
+    """print a short summary of the scripts function."""
+    print("%-20s: a utility for Yaml-TypedSD files...\n" % script_shortname())
+
+# pylint: disable=invalid-name
+
+symbols= SDshelllibBase.module_functions({"": SDshelllib})
+symbols.update(SDshelllib.exported_vars)
+symbols["txt"]= SDshelllibTxt
+symbols["fun"]= SDshelllibFun
+
+def _SDtype():
+    """return the software stack on which we are running."""
+    return "SDpyshell"
+
+#install more hooks:
+SDshelllibFun.SDtype= _SDtype
+
+def precommands(options):
+    """preform pre-commands.
+    """
+    # pylint: disable=exec-used
+    old= SDshelllib.interactive
+    SDshelllib.interactive= False
+    if options.precmd is not None:
+        codeObj= code.compile_command(options.precmd+"\n",
+                                      "<precommand>", "exec")
+        if codeObj is not None:
+            exec(codeObj, symbols)
+        else:
+            sys.exit("syntax error in python code provided by '--precmd' "
+                     "or '--precmdfile' option: The command is probably "
+                     "incomplete. Maybe you forgot a closing bracket?")
+    if options.precmdfile is not None:
+        stream= open(options.precmdfile, 'rt')
+        try:
+            exec(stream.read(), symbols)
+        finally:
+            stream.close()
+    SDshelllib.interactive= old
+
+def process(options,args):
+    """do the actual processing.
+    """
+    # pylint: disable=exec-used
+    SDshelllib.interactive= False
+    precommands(options)
+
+    if options.cmd is not None:
+        codeObj= code.compile_command(options.cmd+"\n", "<cmd>", "exec")
+        if codeObj is not None:
+            exec(codeObj, symbols)
+        else:
+            sys.exit("syntax error in python code provided by '--cmd' "
+                     "option: The command is probably incomplete. "
+                     "Maybe you forgot a closing bracket?")
+    elif len(args)==1:
+        # invoked by shebang "#!"
+        stream= open(args[0], 'rt')
+        try:
+            exec(stream.read(), symbols)
+        finally:
+            stream.close()
+    elif not args:
+        # "readline" prints some terminal control characters to
+        # the console at program start when it is imported. Since this is
+        # not wanted when the shell is started in non-interactive mode,
+        # we import the readline module only for the interactive mode:
+        # pylint: disable=unused-variable
+        import readline
+        # pylint: enable=unused-variable
+        SDshelllib.interactive= True
+        console= code.InteractiveConsole(symbols)
+        console.interact("SDpython shell")
+    sys.exit(0)
+
+def interactive_shell(use_readline, interactive):
+    """run the interactive shell."""
+    # pylint: disable=unused-variable
+    if use_readline:
+        import readline
+    # pylint: enable=unused-variable
+    SDshelllib.interactive= interactive
+    console= code.InteractiveConsole(symbols)
+    console.interact("SDpython shell")
+
+def main():
+    """The main function.
+
+    parse the command-line options and perform the command
+    """
+    # pylint: disable=too-many-branches, too-many-statements
+    # command-line options and command-line help:
+    parser = OptionParser(usage="usage: %prog [options] {files}\n\n" +\
+                          INFO_DESCR,
+                          version="%%prog %s" % __version__,
+                          # description left out here
+                         )
+
+    parser.add_option("--summary",
+                      action="store_true",
+                      help="Print a summary of the function of the program.",
+                     )
+    parser.add_option("-p", "--precmd",
+                      action="store",
+                      type="string",
+                      help="specify COMMANDS to perform before "+\
+                           "any other action",
+                      metavar="COMMANDS"
+                     )
+    parser.add_option("--precmdfile",
+                      action="store",
+                      type="string",
+                      help="specify a FILE to execute before "+\
+                           "any other action",
+                      metavar="FILE"
+                     )
+    parser.add_option("-c", "--cmd",
+                      action="store",
+                      type="string",
+                      help="specify COMMANDS to perform",
+                      metavar="COMMANDS"
+                     )
+    parser.add_option("-f", "--file",
+                      action="store",
+                      type="string",
+                      help="load the specified StructuredData FILE. You "+\
+                           "may add the formatspec directly with a comma.",
+                      metavar="FILE"
+                     )
+    parser.add_option("-M", "--module",
+                      action="append",
+                      type="string",
+                      help="specify a MODULE to import at make its "+\
+                           "functions accessible by XMLRPC",
+                      metavar="MODULE"
+                     )
+    parser.add_option("-I", "--searchpath",
+                      action="append",
+                      type="string",
+                      help="specify a DIRECTORY to prepend "+\
+                           "it to the module search path.",
+                      metavar="DIRECTORY"
+                     )
+    parser.add_option("--no-locking",
+                      action="store_true",
+                      help="do not lock file accesses",
+                     )
+    parser.add_option("--server",
+                      action="store",
+                      type="int",
+                      help="start in telnetserver mode on port PORT",
+                      metavar="PORT"
+                     )
+    parser.add_option("--localhost",
+                      action="store_true",
+                      help="start server on 'localhost' instead of "+\
+                           "DNSDOMAINNAME. In this case the server "+\
+                           "can only be contacted from applications "+\
+                           "running on the same host."
+                     )
+    parser.add_option("--pidfile",
+                      action="store",
+                      type="string",
+                      help="specify the PIDFILE where PID's of "+\
+                           "sub processes will be stored",
+                      metavar="PIDFILE"
+                     )
+    parser.add_option("--kill",
+                      action="store_true",
+                      help="just kill old servers, do not start "+\
+                           "new ones.",
+                     )
+    parser.add_option("--password",
+                      action="store_true",
+                      help="specify the password needed to log onto "+\
+                           "the server interactively",
+                     )
+    parser.add_option("--password-hash",
+                      action="store",
+                      type="string",
+                      help="specify the HASH of the password "+\
+                           "needed to log onto the server",
+                      metavar="HASH"
+                     )
+    parser.add_option("--gen-password-hash",
+                      action="store",
+                      type="string",
+                      help="generate a password HASH from the given "+\
+                           "string.",
+                      metavar="HASH"
+                     )
+
+    original_args= sys.argv
+    # print "ARGS:",repr(original_args)
+    # sys.exit(0)
+    (options, args) = parser.parse_args()
+    # options: the options-object
+    # args: list of left-over args
+
+    if options.summary:
+        print_summary()
+        sys.exit(0)
+
+    if options.no_locking:
+        SDshelllibBase.use_file_lock(False)
+
+    if options.kill:
+        if options.pidfile is None:
+            sys.exit("error: --pidfile is mandatory")
+        processes.kill_pids(options.pidfile)
+        os.remove(options.pidfile)
+        sys.exit(0)
+
+    if options.gen_password_hash:
+        print(password.password_to_hash(options.gen_password_hash))
+        sys.exit(0)
+
+    if options.password:
+        options.password_hash= password.define_password()
+        if options.password_hash is None: # error
+            sys.exit(0)
+
+    if options.searchpath:
+        for p in options.searchpath:
+            sys.path.insert(0, p)
+    if options.module:
+        for module in options.module:
+            __import__(module)
+            symbols[module]= sys.modules[module]
+
+    if options.file:
+        lst= options.file.split(",")
+        if len(lst)>1:
+            fmt= lst[1]
+        else:
+            fmt= ""
+        SDshelllibFun.read(options.file, fmt)
+
+    if options.server:
+        if options.password_hash is None:
+            sys.exit("error: specifying a password is mandatory "+\
+                     "for the server")
+        consoleObj= code.InteractiveConsole(symbols)
+        def s():
+            """simple local interactive shell function."""
+            consoleObj.interact("SDpython shell")
+        processes.kill_pids(options.pidfile)
+        processes.write_pid_cmd(options.pidfile, original_args)
+        precommands(options)
+        SDshelllib.interactive= True
+        host= None
+        if options.localhost:
+            host= "localhost"
+        telnetserver.start(host,options.server, s,
+                           options.password_hash)
+    else:
+        process(options,args)
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()

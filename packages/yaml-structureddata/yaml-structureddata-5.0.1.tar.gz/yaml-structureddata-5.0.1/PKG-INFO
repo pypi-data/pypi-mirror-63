@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: yaml-structureddata
+Version: 5.0.1
+Summary: Python support for StructuredData
+Home-page: http://www-csr.bessy.de/control/StructuredData
+Author: Goetz Pfeiffer
+Author-email: Goetz.Pfeiffer@helmholtz-berlin.de
+License: GPLv3
+Download-URL: http://www-csr.bessy.de/control/StructuredData/StructuredData-dist
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.2.3
