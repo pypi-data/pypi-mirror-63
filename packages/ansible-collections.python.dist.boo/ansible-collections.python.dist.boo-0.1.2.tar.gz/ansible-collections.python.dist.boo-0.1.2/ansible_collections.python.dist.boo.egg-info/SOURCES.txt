@@ -1,0 +1,17 @@
+.git_archival.txt
+.gitattributes
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+./ansible_collections/python/dist/plugins/modules/boo.py
+.github/FUNDING.yml
+.github/workflows/publish-to-test-pypi.yml
+ansible_collections.python.dist.boo.egg-info/PKG-INFO
+ansible_collections.python.dist.boo.egg-info/SOURCES.txt
+ansible_collections.python.dist.boo.egg-info/dependency_links.txt
+ansible_collections.python.dist.boo.egg-info/requires.txt
+ansible_collections.python.dist.boo.egg-info/top_level.txt
+ansible_collections.python.dist.boo.egg-info/zip-safe
+ansible_collections/python/dist/plugins/modules/boo.py
