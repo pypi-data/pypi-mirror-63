@@ -1,0 +1,7 @@
+sqlalchemy>=1.0.14
+
+[dev]
+flake8
+pep8-naming
+wheel
+twine
