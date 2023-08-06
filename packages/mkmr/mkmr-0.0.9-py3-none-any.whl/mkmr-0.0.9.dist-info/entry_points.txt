@@ -1,0 +1,3 @@
+[console_scripts]
+mkmr=mkmr.mkmr:main
+

@@ -1,0 +1,9 @@
+mkmr/__init__.py,sha256=zg7bEsE7mElR-6MmGFo2qdH9za5QKQLj65K-UNFe4vM,74
+mkmr/api.py,sha256=fOSHUfdTjQZk86xTZ4zdUt4PYFUCLeokDzrvdBE9QOM,2979
+mkmr/config.py,sha256=LiYTKntUZuTK8lwhvrjJTaH8GnSJLXxMqYdh6e_NPP0,3517
+mkmr/mkmr.py,sha256=scOIw35dYvb73457wIfT_Dlyc5egylnJy3EY_9vJzeo,9005
+mkmr/utils.py,sha256=Q9h0eyIXTC0helN4gIdj9ti1m3EaCca5J6MAHk7uWic,1267
+mkmr-0.0.9.dist-info/entry_points.txt,sha256=p4McJe01lfe4I3ly95o8IdJwp3zaishpHig49gf4qEw,39
+mkmr-0.0.9.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+mkmr-0.0.9.dist-info/METADATA,sha256=MAxE4DYatVooSlKjJzh-VePHGPTZJ-KuZ6wd0GA890Q,5126
+mkmr-0.0.9.dist-info/RECORD,,
