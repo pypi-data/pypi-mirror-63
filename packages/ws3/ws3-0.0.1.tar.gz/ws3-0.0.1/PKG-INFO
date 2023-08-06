@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ws3
+Version: 0.0.1
+Summary: Wood Supply Simulation System
+Home-page: http://github.com/gparadis/ws3
+Author: Gregory Paradis
+Author-email: 0@01101.io
+License: UNKNOWN
+Description: # ws3
+        
+        ws3 (Wood Supply Simulation System) is a Python package for modelling landscale-level wood supply planning problems.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
