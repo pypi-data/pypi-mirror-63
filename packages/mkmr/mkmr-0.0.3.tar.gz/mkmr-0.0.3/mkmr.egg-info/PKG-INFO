@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mkmr
+Version: 0.0.3
+Summary: Convenient tools to make merge requests to any GitLab host
+Home-page: https://github.com/maxice8/mkmr
+Author: Leo
+Author-email: thinkabit.ukim@gmail.com
+License: GPL-3.0-or-later
+Description: UNKNOWN
+Platform: posix
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX

@@ -1,0 +1,12 @@
+README.md
+setup.py
+mkmr/__init__.py
+mkmr/api.py
+mkmr/mkmr.py
+mkmr.egg-info/PKG-INFO
+mkmr.egg-info/SOURCES.txt
+mkmr.egg-info/dependency_links.txt
+mkmr.egg-info/entry_points.txt
+mkmr.egg-info/not-zip-safe
+mkmr.egg-info/requires.txt
+mkmr.egg-info/top_level.txt
