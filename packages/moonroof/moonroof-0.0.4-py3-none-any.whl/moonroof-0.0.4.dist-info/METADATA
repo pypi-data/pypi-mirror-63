@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: moonroof
+Version: 0.0.4
+Summary: Client library for moonroof
+Home-page: https://github.com/inputlogic/moonroof-django
+Author: Input Logic
+Author-email: adriaan@inputlogic.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Django
+Classifier: Topic :: System :: Monitoring
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Moonroof Django Client Library
+
+Coming soon... this is not production ready!
+
+Visit `https://moonroof.io/get-started` to get an API Key
+
+## Install & Setup
+
+Download the package
+
+```
+pip install moonroof
+```
+
+and update Django settings
+
+```
+MIDDLEWARE = [
+  ...,
+  'moonroof.MoonroofMiddleware',
+  ...
+]
+
+MOONROOF_API_KEY = '<Your API Key Here>'
+```
+
+## TODO
+
+- Add Tests
+
+
