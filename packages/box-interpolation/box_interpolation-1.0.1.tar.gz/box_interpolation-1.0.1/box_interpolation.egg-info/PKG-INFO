@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: box-interpolation
+Version: 1.0.1
+Summary: Simple fast box interpolation powered by Cython.
+Home-page: https://pypi.org/project/box_interpolation/
+Author: Vladimir Starostin
+Author-email: vladimir.starostin@uni-tuebingen.de
+License: MIT
+Description: # Box interpolation
+        
+        One-function package for fast box interpolation powered by Cython.
+        
+        Made for interpolating arbitrarily located 2D data to 2D grid.
+        
+        ### Installation
+        
+        Install via pip:
+        
+        ```sh
+        pip install box_interpolation
+        ```
+        
+        
+        
+Keywords: non-grid interpolation box_interpolation cython
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown
