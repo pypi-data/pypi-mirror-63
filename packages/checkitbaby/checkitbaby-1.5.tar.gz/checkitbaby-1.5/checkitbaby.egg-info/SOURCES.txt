@@ -1,0 +1,6 @@
+README.md
+setup.py
+checkitbaby.egg-info/PKG-INFO
+checkitbaby.egg-info/SOURCES.txt
+checkitbaby.egg-info/dependency_links.txt
+checkitbaby.egg-info/top_level.txt
