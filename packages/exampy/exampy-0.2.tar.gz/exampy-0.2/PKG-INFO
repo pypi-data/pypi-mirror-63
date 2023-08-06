@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: exampy
+Version: 0.2
+Summary: A small example Python package
+Home-page: UNKNOWN
+Author: Jo Bovy
+Author-email: bovy@astro.utoronto.ca
+License: UNKNOWN
+Description: # exampy
+        
+        This is an example Python package to illustrate a set of notes on code
+        development and packaging.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+exampy/__init__.py
+exampy/_math.py
+exampy.egg-info/PKG-INFO
+exampy.egg-info/SOURCES.txt
+exampy.egg-info/dependency_links.txt
+exampy.egg-info/requires.txt
+exampy.egg-info/top_level.txt
+exampy/integrate/__init__.py
+exampy/integrate/_integrate.py
