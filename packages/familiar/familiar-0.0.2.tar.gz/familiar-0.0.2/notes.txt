@@ -1,0 +1,2 @@
+python setup.py bdist_wheel sdist # update stuff
+twine upload dist/*  upload to pip

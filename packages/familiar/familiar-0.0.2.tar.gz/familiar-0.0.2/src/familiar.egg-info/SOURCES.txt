@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+notes.txt
+setup.py
+src/familiar.py
+src/familiar.egg-info/PKG-INFO
+src/familiar.egg-info/SOURCES.txt
+src/familiar.egg-info/dependency_links.txt
+src/familiar.egg-info/top_level.txt
+test/test_familiar.py
