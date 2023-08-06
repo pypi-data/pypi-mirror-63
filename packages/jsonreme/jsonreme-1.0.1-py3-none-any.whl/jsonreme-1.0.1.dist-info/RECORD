@@ -1,0 +1,11 @@
+jsonreme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonreme/consts.py,sha256=Vnzo8uvS2XOd9BXCsrwp5vzDmbwViM9YljRZU568Q2A,285
+jsonreme/drift.py,sha256=9Gwn3HEABgc48ONGzV9Ns9v6vD3BAvNEgVOiFoPSGgY,1029
+jsonreme/exception.py,sha256=3M1oXr6rQGW9z7oZ4FxbcyZw_nuGi3-b8yatumgHlpA,472
+jsonreme/remediator.py,sha256=c3BVcEpM7qi9TF8KBoi8LwfvDTzHPAAC5Z6XcDCha0o,13653
+jsonreme-1.0.1.dist-info/DESCRIPTION.rst,sha256=D0PjKrdt-aBc37KNTvCOlwFrKuoIty-7HYJoekcyYOU,19
+jsonreme-1.0.1.dist-info/METADATA,sha256=GpIZzw8Q5Z0OXfkQkOTn-jF7C1zro8T275DCEdh0HWo,395
+jsonreme-1.0.1.dist-info/RECORD,,
+jsonreme-1.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+jsonreme-1.0.1.dist-info/metadata.json,sha256=HzJDqIoCg_qDrscfSz68_oZD2mZX65nzYmNKlfz44J4,498
+jsonreme-1.0.1.dist-info/top_level.txt,sha256=imKYxXF9a0dS2AQnt0MDoZlOJv0Ztz2F5J9ntCSXFJI,9
