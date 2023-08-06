@@ -1,0 +1,3 @@
+[console_scripts]
+check-assets = imaps.scripts.check_assets:main
+
