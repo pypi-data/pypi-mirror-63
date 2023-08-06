@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: django-json-schema-validator
+Version: 0.1
+Summary: A Django app used to validate request and response objects for django apis.
+Home-page: UNKNOWN
+Author: KIRA009
+Author-email: shohanduttaroy99@gmail.com
+License: BSD-3-Clause
+Description: Validator
+        =========
+        
+        Validator is a Django app used to validate request and response objects for django apis.
+        
+        Quick start
+        -----------
+        
+        1. Add "validator" to your INSTALLED_APPS setting like this before your apps::
+        
+            INSTALLED_APPS = [
+                ...
+                'validator',
+            ]
+        
+        2. Add "validator.middleware.Validator" to your MIDDLEWARE setting like this::
+        
+            MIDDLEWARE = [
+                ...
+                'validator.middleware.Validator',
+                'django.middleware.common.CommonMiddleware',
+                ...
+            ]
+        
+        3. Add SCHEMA variable in settings.py, which gives the location of the schema.json file.
+        
+            SCHEMA = 'ext_app/schema.json'
+           
+        4. Add DOCUMENTATION variable in settings.py, which gives the location of the DOC.md file to be generated.
+        
+            DOCUMENTATION = 'ext_app/DOC.md'
+        
+        5. To generate api documentation from schema.json, run
+        
+           ``python3 manage.py gen_docs``
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
