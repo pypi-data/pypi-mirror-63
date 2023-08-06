@@ -1,0 +1,9 @@
+hdfe/__init__.py,sha256=_AS-Kk6qywVF3Rvf5fzS90GyBWVlLn_0XDSe35mrLs8,215
+hdfe/groupby.py,sha256=p9UQ39frPTiCaKRFgn_QSKZs8Ig283QxlhTQJIGgTrA,5805
+hdfe/hdfe.py,sha256=Bq7smelnkysV9kR3JoK4DbFJu7EIWOD98St985iqmS0,10340
+hdfe/multicollinearity.py,sha256=yH_NBn3hbV2ZDj_0A3x1M2OBfHJrQ9QwUTb2ADdkgxg,4383
+hdfe-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+hdfe-0.0.4.dist-info/METADATA,sha256=_NhRmgRPlWkfjp1G4Hits1GtsVlGbtp4yqmj7QfwIo0,1239
+hdfe-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hdfe-0.0.4.dist-info/top_level.txt,sha256=enbJ9fjWBwmMw0hjRC6g9dFdLyeDcO9ss9BOhvz7YDs,5
+hdfe-0.0.4.dist-info/RECORD,,
