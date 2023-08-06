@@ -1,0 +1,3 @@
+[console_scripts]
+tara = tara.__main__:main
+
