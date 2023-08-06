@@ -1,0 +1,11 @@
+ansiformat/__init__.py,sha256=ZIKoT2m_WNaHM0n-NkVDZmzDJ_WsMwTKgelmmfO4U7Y,652
+ansiformat/__version__.py,sha256=rQT1jADf6WAY68JN1j25zSqJL42D33nIbjMVCTVKaq4,470
+ansiformat/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansiformat/utils/__init__.py,sha256=KAAx4zXhU6Ok36ER3FJJgvPSfmEonSj2Q_o3UiBNMxo,36
+ansiformat/utils/log.py,sha256=8hHDnkPSajqgu7OLABRyBGNAMsl1JyW8U6OdNGQyWR4,182
+ansiformat-0.0.1.dev1.dist-info/LICENSE,sha256=vgY-dyTLBqd3scXicI-AmGFY5Il8woxwXiuzLQcI1DI,1515
+ansiformat-0.0.1.dev1.dist-info/METADATA,sha256=1haYNmp3YUiwtBm456HpLgyOl5iFwoDHQF-ZGw4cDm4,1473
+ansiformat-0.0.1.dev1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ansiformat-0.0.1.dev1.dist-info/entry_points.txt,sha256=mEaeoWJrwd7nkAIaOp9C1DoPbNxQAA6Lc6y8dVw949E,52
+ansiformat-0.0.1.dev1.dist-info/top_level.txt,sha256=KXBOOfyC70E3rMUivcJqt1vysiNree8oXwpP1KzQzX4,11
+ansiformat-0.0.1.dev1.dist-info/RECORD,,

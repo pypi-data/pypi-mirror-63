@@ -1,0 +1,3 @@
+[console_scripts]
+ansiformat = ansiformat.cli:main
+
