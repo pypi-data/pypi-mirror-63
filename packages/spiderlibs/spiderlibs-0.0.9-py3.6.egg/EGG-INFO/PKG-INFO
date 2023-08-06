@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spiderlibs
+Version: 0.0.9
+Summary: spider lib
+Home-page: UNKNOWN
+Author: wu chao
+Author-email: 377486624@qq.com
+License: MIT License
+Description: spiderlib
+        =========
+        
+        爬虫，随便用，没有版权
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
