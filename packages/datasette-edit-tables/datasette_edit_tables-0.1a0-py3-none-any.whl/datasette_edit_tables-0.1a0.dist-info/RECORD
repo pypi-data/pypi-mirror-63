@@ -1,0 +1,11 @@
+datasette_edit_tables/__init__.py,sha256=aer4h438zxIC4wwmcQydm9sWRyEg_n_GivmRCdpxCKc,511
+datasette_edit_tables/app.py,sha256=tK5ayPJkXRVjyFCpfO7VDWxK2QGV61GW4zREWX8_4Ys,5837
+datasette_edit_tables/templates/edit_tables_database.html,sha256=EYHg7hIoGWERHUGmu1UlGgDpCXZP9Fn0ZPobCIRo0XQ,520
+datasette_edit_tables/templates/edit_tables_index.html,sha256=h5TQ_EC5AjoVu7Xs0k6pdZwWszeEkqTRA2uVB4t01Vs,595
+datasette_edit_tables/templates/edit_tables_table.html,sha256=m8hW6l3fXDqIDmdl4VMjlDnqxsV1-JzEbuovCgTfhqc,760
+datasette_edit_tables-0.1a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_edit_tables-0.1a0.dist-info/METADATA,sha256=3sGIWr6la8q9Rnfw40AVER_xrDeDgiOQwZSTow2u2PM,1598
+datasette_edit_tables-0.1a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_edit_tables-0.1a0.dist-info/entry_points.txt,sha256=qyQ38YBiaL3QKlEtTtCGKG7pKYR8N5iAhu2I-7eRmcg,49
+datasette_edit_tables-0.1a0.dist-info/top_level.txt,sha256=1qYGXPBav87tg5W47vTHO6ewcGWQlOG5l4Etl9EJ1Ac,22
+datasette_edit_tables-0.1a0.dist-info/RECORD,,
