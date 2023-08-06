@@ -1,0 +1,4 @@
+[console_scripts]
+j2cli = j2cli.cli:main
+j2y = j2cli.cli:main_deprecated
+
