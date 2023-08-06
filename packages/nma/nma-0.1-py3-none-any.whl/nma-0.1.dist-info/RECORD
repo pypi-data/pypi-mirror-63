@@ -1,0 +1,13 @@
+nma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nma/__main__.py,sha256=mxwyvq-FGPPPSiuaoOKitCzm9-Glx19HcW2lfBGdA6s,146
+nma/exclamation-mark.png,sha256=cAnfH4X6t9aBZGfGpredybnGqPWP4Aa_l3XIuA5NTU8,1078
+nma/hourglass.png,sha256=s5mkDB5AsoNa8IOnZUX_6gQgKNvzsc1X1DIQENsXoLE,2017
+nma/main.py,sha256=U3YNrAEqZt876UUREPsyIjNvADER-6UILx-TTsfunnM,1066
+nma/notify_decorator.py,sha256=TAMJUUhpAPaU5k0_h9_1WlWB1S-NFZez1qY1-4Ks4tE,975
+nma/send_notification.py,sha256=NbpHt8-WFf89A-zss9sXdkO1T7054PAku-G2V2dOcZM,2149
+nma-0.1.data/scripts/nma,sha256=M9Y3TgWJWz-4htCzssJM45LqLjSWNV8pf31zNt6zpeI,135
+nma-0.1.dist-info/LICENSE,sha256=mLOTv5eylXjt9Okhg32wyEXc9gvGHfa4eUOvZkWhDBk,1068
+nma-0.1.dist-info/METADATA,sha256=89mTT88t5Hc_XqLuoRnb80NnSTPe9AjRN2ON7F06dGY,1739
+nma-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nma-0.1.dist-info/top_level.txt,sha256=swpvO22ySfNj3piF9EN6zwhKm-khP04WEa65bwdN2RM,4
+nma-0.1.dist-info/RECORD,,
