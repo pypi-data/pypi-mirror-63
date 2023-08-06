@@ -1,0 +1,3 @@
+[console_scripts]
+magpurify = magpurify.cli:cli
+
