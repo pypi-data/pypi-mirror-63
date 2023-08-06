@@ -1,0 +1,14 @@
+README.md
+setup.py
+dspc_bot_ctrl/__init__.py
+dspc_bot_ctrl/__main__.py
+dspc_bot_ctrl/bot_functions.py
+dspc_bot_ctrl/dspc_bot.py
+dspc_bot_ctrl/ss_stream.py
+dspc_bot_ctrl/telegram_poller.py
+dspc_bot_ctrl/user_identifier.py
+dspc_bot_ctrl/window_manager.py
+dspc_bot_ctrl.egg-info/PKG-INFO
+dspc_bot_ctrl.egg-info/SOURCES.txt
+dspc_bot_ctrl.egg-info/dependency_links.txt
+dspc_bot_ctrl.egg-info/top_level.txt
