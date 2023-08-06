@@ -1,0 +1,15 @@
+CHANGELOG
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+c_src/gpiod.cpp
+py_src/gpiod/__init__.py
+py_src/gpiod.egg-info/PKG-INFO
+py_src/gpiod.egg-info/SOURCES.txt
+py_src/gpiod.egg-info/dependency_links.txt
+py_src/gpiod.egg-info/not-zip-safe
+py_src/gpiod.egg-info/requires.txt
+py_src/gpiod.egg-info/top_level.txt
+test/.keep
