@@ -1,0 +1,15 @@
+{% extends 'djangoadmin/base/body/index_cric.html' %}
+
+
+{% block mainbody %}
+<div class="container p-0">
+    {% include "djangoadmin/widgets/info.html" %}
+    {% include "djangoadmin/widgets/unique_id_searchbar.html" %}
+
+    <div class="col-6 offset-3 text-center mt-3">
+    {% if query %}
+      <a class="btn btn-outline-primary font-weight-bold" href="{% url 'djangocric:match_summary_detail' query %}" target="_blank" role="button">Check API</a>
+    {% endif %}
+    </div>
+</div>
+{% endblock mainbody %}
