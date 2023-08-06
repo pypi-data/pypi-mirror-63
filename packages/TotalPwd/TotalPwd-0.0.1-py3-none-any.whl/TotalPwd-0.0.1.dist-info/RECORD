@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=YUs9l9DgMzFdPgJwREYdrU_aL_BjlzdKaZBtrGfEJs0,46
+tests/test_main.py,sha256=9Hg2AE0JhtWn29aLu7YfFHFZqUHa-m248SD9v0qKXiY,123
+totalpwd/__init__.py,sha256=DsdP486GVUBKLqx2Q8pqj2PxfT6AWhcfXeJPcOh11pA,112
+totalpwd/__main__.py,sha256=moJAdVgW0FYoK5_1OruFkquI0b6tu-dufKoS_1v97vk,142
+totalpwd/__version__.py,sha256=9bGZBpuxGKRHbQNT3nZWsqnKTOoENNaQl_FA_HV0Zcw,306
+TotalPwd-0.0.1.dist-info/LICENSE,sha256=CGWSNtAuHMpDj4U9Hb6M3vK66cQqLteY6tesvmLUegw,1060
+TotalPwd-0.0.1.dist-info/METADATA,sha256=owo6FOd5nnjuQLbIsmj3udP8AmmbYFhNHlTNkmrgb78,1058
+TotalPwd-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+TotalPwd-0.0.1.dist-info/entry_points.txt,sha256=54zRu2QXo0nH8Vv7GuSLPoDJbhN8mDCYV0PnL-aD9Lk,53
+TotalPwd-0.0.1.dist-info/top_level.txt,sha256=s6JpRf1BWYo2GpMUPDRwTRB8r768yY-r_2-7NEp7--k,15
+TotalPwd-0.0.1.dist-info/RECORD,,
