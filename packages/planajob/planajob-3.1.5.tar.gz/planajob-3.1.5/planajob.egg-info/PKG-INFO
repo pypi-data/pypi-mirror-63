@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: planajob
+Version: 3.1.5
+Summary: A sales order and purchasing package
+Home-page: UNKNOWN
+Author: Terry Hughes
+Author-email: terryhugheskirkcudbright@yahoo.co.uk
+License: UNKNOWN
+Description: This is a sales order and purchasin package
+        
+        Download to a directory of your choice and cd to that directory.
+        
+        edit line 8 of planajob3.py to point to your directory
+        
+        type python planajob.py or whatever the .py file is called.
+        
+        the main menu will appear
+        
+        click on setup and again setup on the sub menu This will set up the database file in your directory
+        
+        The other menu options should be obvious but note that when addin a new record you will see a box with a number of line
+        
+        Enter the details as prompted at the top
+        
+        Any problems please email to
+        
+        terryhugheskirkcudbright@yahoo.co.uk
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

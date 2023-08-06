@@ -1,0 +1,6 @@
+README.md
+setup.py
+planajob.egg-info/PKG-INFO
+planajob.egg-info/SOURCES.txt
+planajob.egg-info/dependency_links.txt
+planajob.egg-info/top_level.txt
