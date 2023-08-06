@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: dataprocessor
+Version: 0.0.11
+Summary: Data piping system for a pandas DataFrame with a DateTimeIndex
+Home-page: https://github.com/hraoyama/dataprocessor
+Author: Hans Roggeman
+Author-email: hansroggeman2@gmail.com
+License: MIT
+Download-URL: https://github.com/hraoyama/dataprocessor/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: data pipe,DataFrame,DateTimeIndex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
