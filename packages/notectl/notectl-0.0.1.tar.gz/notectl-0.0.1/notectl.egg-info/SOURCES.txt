@@ -1,0 +1,9 @@
+setup.py
+notectl.egg-info/PKG-INFO
+notectl.egg-info/SOURCES.txt
+notectl.egg-info/dependency_links.txt
+notectl.egg-info/entry_points.txt
+notectl.egg-info/top_level.txt
+noteworthy/notectl/__init__.py
+noteworthy/notectl/__main__.py
+noteworthy/notectl/plugins.py
