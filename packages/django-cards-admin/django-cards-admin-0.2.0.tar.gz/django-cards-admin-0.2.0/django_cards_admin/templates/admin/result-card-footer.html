@@ -1,0 +1,3 @@
+{% load i18n admin_urls %}
+{% url cl.opts|admin_urlname:'change' item.pk as item_detail_url %}
+<a href="{{item_detail_url}}">{% trans "View" %}</a>
