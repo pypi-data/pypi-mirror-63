@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: aiida-wannier90-workflows
+Version: 1.0.0
+Summary: Advanced AiiDA workflows for Wannier90
+Home-page: https://github.com/aiidateam/aiida-wannier90-workflows
+Author: Antimo Marrazzo, Giovanni Pizzi, Junfeng Qiao
+Author-email: developers@aiida.net
+License: Private code
+Description: UNKNOWN
+Keywords: w,a,n,n,i,e,r,9,0, ,a,i,i,d,a, ,w,o,r,k,f,l,o,w,s
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Framework :: AiiDA
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
