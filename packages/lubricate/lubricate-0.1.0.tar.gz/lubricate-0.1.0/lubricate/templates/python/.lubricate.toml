@@ -1,0 +1,3 @@
+title = "Python Package Template"
+
+plugins = ["VirtualEnv"]

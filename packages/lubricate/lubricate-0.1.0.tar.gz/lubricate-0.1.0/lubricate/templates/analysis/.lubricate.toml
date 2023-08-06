@@ -1,0 +1,3 @@
+title = "Research analysis template"
+
+plugins = ["VirtualEnv"]
