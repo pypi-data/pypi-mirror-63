@@ -1,0 +1,171 @@
+# W3bch3ck
+
+**W3bch3ck** check http(s) domain status and title of html-page.
+
+## Description
+
+**W3bch3ck**:
+ - check domain work: 
+   - hostname of source domain
+   - ip of source domain hostname
+   - response HTTP-status code (200, 404, 500, etc.)
+   - response HTML-page title (<title>...</title>)
+   - response url (if domain was redirecting)
+   - hostname of response url
+   - ip of response url hostname
+ - lets to make it with multiprocess usage
+ - lets to make it at a time for multiple domains names
+
+You can use **W3bch3ck** for print result data in console or saving it at file or database.
+Just realize this business logic at your callback function.
+
+## Install
+
+```bash
+$ pip install w3bch3ck
+```
+
+## Example
+
+Native usage:
+
+```python
+from w3bch3ck import pooled_check
+from pprint import pprint
+
+
+if __name__ == '__main__':
+    def your_callback(data):
+        pprint(data)
+
+
+    pooled_check(
+        domains=[
+            'https://ya.ru',
+            'http://ya.ru',
+            'ya.ru',
+            'http://yandx.ru',
+            'http://yondx.ru',
+            'https://market.yandex.ru',
+            'https://radio.yandex.ru',
+            'https://taxi.yandex.ru',
+            'https://www.bing.com',
+            'https://www.google.ru',
+        ],
+        processes_count=4,
+        callback_method=your_callback
+    )
+```
+
+result:
+
+```text
+Add pool check for: https://ya.ru
+Add pool check for: http://ya.ru
+Add pool check for: ya.ru
+Add pool check for: http://yandx.ru
+Add pool check for: http://yondx.ru
+Add pool check for: https://market.yandex.ru
+Add pool check for: https://radio.yandex.ru
+Add pool check for: https://taxi.yandex.ru
+Add pool check for: https://www.bing.com
+Add pool check for: https://www.google.ru
+Start...
+{'error': None,
+ 'response_hostname': 'ya.ru',
+ 'response_ip': '87.250.250.242',
+ 'response_page_title': 'Яндекс',
+ 'response_status': 200,
+ 'response_url': 'https://ya.ru/',
+ 'source_domain': 'https://ya.ru',
+ 'source_hostname': 'ya.ru',
+ 'source_ip': '87.250.250.242'}
+{'error': 'ConnectionError(MaxRetryError("HTTPConnectionPool(host=\'yondx.ru\', '
+          'port=80): Max retries exceeded with url: / (Caused by '
+          "NewConnectionError('<urllib3.connection.HTTPConnection object at "
+          '0x7f8c6c163bb0>: Failed to establish a new connection: [Errno -2] '
+          'Name or service not known\'))"))',
+ 'response_hostname': None,
+ 'response_ip': None,
+ 'response_page_title': None,
+ 'response_status': None,
+ 'response_url': None,
+ 'source_domain': 'http://yondx.ru',
+ 'source_hostname': None,
+ 'source_ip': None}
+{'error': None,
+ 'response_hostname': 'ya.ru',
+ 'response_ip': '87.250.250.242',
+ 'response_page_title': 'Яндекс',
+ 'response_status': 200,
+ 'response_url': 'https://ya.ru/',
+ 'source_domain': 'ya.ru',
+ 'source_hostname': None,
+ 'source_ip': None}
+{'error': None,
+ 'response_hostname': 'ya.ru',
+ 'response_ip': '87.250.250.242',
+ 'response_page_title': 'Яндекс',
+ 'response_status': 200,
+ 'response_url': 'https://ya.ru/',
+ 'source_domain': 'http://ya.ru',
+ 'source_hostname': 'ya.ru',
+ 'source_ip': '87.250.250.242'}
+{'error': None,
+ 'response_hostname': 'taxi.yandex.ru',
+ 'response_ip': '5.45.217.5',
+ 'response_page_title': 'Яндекс.Такси — заказ такси онлайн',
+ 'response_status': 200,
+ 'response_url': 'https://taxi.yandex.ru/',
+ 'source_domain': 'https://taxi.yandex.ru',
+ 'source_hostname': 'taxi.yandex.ru',
+ 'source_ip': '5.45.217.5'}
+{'error': None,
+ 'response_hostname': 'radio.yandex.ru',
+ 'response_ip': '77.88.21.186',
+ 'response_page_title': 'Яндекс.Радио',
+ 'response_status': 200,
+ 'response_url': 'https://radio.yandex.ru/',
+ 'source_domain': 'https://radio.yandex.ru',
+ 'source_hostname': 'radio.yandex.ru',
+ 'source_ip': '77.88.21.186'}
+{'error': None,
+ 'response_hostname': 'market.yandex.ru',
+ 'response_ip': '87.250.250.22',
+ 'response_page_title': 'Яндекс.Маркет — выбор и покупка товаров из '
+                        'проверенных интернет-магазинов',
+ 'response_status': 200,
+ 'response_url': 'https://market.yandex.ru/',
+ 'source_domain': 'https://market.yandex.ru',
+ 'source_hostname': 'market.yandex.ru',
+ 'source_ip': '87.250.250.22'}
+{'error': None,
+ 'response_hostname': 'www.google.ru',
+ 'response_ip': '64.233.161.94',
+ 'response_page_title': 'Google',
+ 'response_status': 200,
+ 'response_url': 'https://www.google.ru/',
+ 'source_domain': 'https://www.google.ru',
+ 'source_hostname': 'www.google.ru',
+ 'source_ip': '64.233.161.94'}
+{'error': None,
+ 'response_hostname': 'yandex.ru',
+ 'response_ip': '5.255.255.50',
+ 'response_page_title': 'Яндекс',
+ 'response_status': 200,
+ 'response_url': 'https://yandex.ru',
+ 'source_domain': 'http://yandx.ru',
+ 'source_hostname': 'yandx.ru',
+ 'source_ip': '213.180.204.242'}
+{'error': None,
+ 'response_hostname': 'www.bing.com',
+ 'response_ip': '13.107.21.200',
+ 'response_page_title': 'Bing',
+ 'response_status': 200,
+ 'response_url': 'https://www.bing.com/',
+ 'source_domain': 'https://www.bing.com',
+ 'source_hostname': 'www.bing.com',
+ 'source_ip': '204.79.197.200'}
+End.
+```
+## To be continue...
