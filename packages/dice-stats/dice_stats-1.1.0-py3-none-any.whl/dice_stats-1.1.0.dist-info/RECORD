@@ -1,0 +1,16 @@
+dice_stats/__init__.py,sha256=-KMp_pxrM4Up31Nn4OJAGwggEajQTrNEIew54OCoL4Q,185
+dice_stats/_types.py,sha256=TgO-5uxroxs-p14RkMs53MpFGW0pukCJppjeyq04PHs,853
+dice_stats/dice.py,sha256=2vRrHIcp_nJ8k-fs6QEcuLF6kphJ_erY3aIC0neOJiU,18511
+dice_stats/display.py,sha256=wvQwkGQcWAmfuf_w6Lh12AtFMh6rR3bWtuPbv-Lzfvo,2117
+dice_stats/py.typed,sha256=-iPtxftU8G1qwXw8jhb2RRoV38oTBriahST6CMXv_qY,60
+dice_stats/range.py,sha256=EDlFVDlEtuyUwIMbQJ5BWjdlBiNNKY7OPc7-jmHLXqY,3506
+dice_stats/_magic/__init__.py,sha256=0acZtMyxG3v6_zQe_YRjIknGDlJa8THEE6ibwHjA6hE,424
+dice_stats/_magic/base_dice.py,sha256=LIDagmBOLUYMleZdJpcbasui3GAAcJTCXOaSz75AK3Q,5149
+dice_stats/_magic/basic.py,sha256=laBLGRnqrSae8RIYeVSal_L0w9St4zoaZnlGHFCQc5c,2263
+dice_stats/_magic/mapping.py,sha256=eRDnN24YkCOPtGEb-UUClgGugRUf2VWBBR2bAlRiwWE,1040
+dice_stats/_magic/numeric.py,sha256=L_YsjPw7KmtOmdNENSRVIiTrVe-NM2JTqMQdXTgDhtg,9528
+dice_stats-1.1.0.dist-info/LICENSE,sha256=lh-QVHoLAp5Y7WLCrbjZKVR3-RuhTP6kmpx1cWEqfpY,1088
+dice_stats-1.1.0.dist-info/METADATA,sha256=e8QI5mCP7iO0hWOXwItHVnphyubG2PsQSvZt_15HXCU,1986
+dice_stats-1.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dice_stats-1.1.0.dist-info/top_level.txt,sha256=K1EYHJ_oAPlb6h2sC3SOEWyomM4DkNYbFmKxdURo-Jw,11
+dice_stats-1.1.0.dist-info/RECORD,,
