@@ -1,0 +1,10 @@
+bouillon/__init__.py,sha256=GYBIHyt-fc0SdIY5_9aOTay5hst_sWdr69WxUsQTFOI,725
+bouillon/bouillon.py,sha256=VEIIhNDcOsaZVtN0j5iv6Fd9_Ciu7nSrZTQ2P7OnsMs,2335
+bouillon/docker.py,sha256=BJTUOfOSxqiLoMA0GmK6qaVhvIWAF04dD3JcLZsftyg,602
+bouillon/git.py,sha256=6y5cJrbhw_8whXMO4Pnwn5jxbgHbO6rY1s9BuGGMv3k,1367
+bouillon-0.0.5.dist-info/LICENSE.txt,sha256=vFM7rP1tag5mLhDtia7SqDbE2Ygd_wkilo3PvFpN-HM,1520
+bouillon-0.0.5.dist-info/METADATA,sha256=YWikVrcMCkC5ZfGPzITEXw4XVuZClsETxklgkGrUyxs,5567
+bouillon-0.0.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+bouillon-0.0.5.dist-info/entry_points.txt,sha256=6KqDDl4JMSIuZR5PUq6RKAlRRWJSGJj9zckvb49u9Lc,44
+bouillon-0.0.5.dist-info/top_level.txt,sha256=M6Ut7CwziAsuFTdfLDAYGYDAE3RhZcB6kqTx8-9K9ng,9
+bouillon-0.0.5.dist-info/RECORD,,
