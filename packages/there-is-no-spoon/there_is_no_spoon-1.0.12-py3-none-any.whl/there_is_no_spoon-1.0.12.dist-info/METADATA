@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: there-is-no-spoon
+Version: 1.0.12
+Summary: An application to generate adversarial examples
+Home-page: UNKNOWN
+Author: Tiffany Souterre
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: keras (==2.3.1)
+Requires-Dist: Pillow (==7.0.0)
+Requires-Dist: tensorflow (==2.1.0)
+Requires-Dist: tqdm (==4.43.0)
+
+UNKNOWN
+
+
