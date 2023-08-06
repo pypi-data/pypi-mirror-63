@@ -1,0 +1,12 @@
+README.md
+setup.py
+search/__init__.py
+search/main.py
+search/main_search.py
+search/search_google.py
+search/search_yandex.py
+web_searcher_cli.egg-info/PKG-INFO
+web_searcher_cli.egg-info/SOURCES.txt
+web_searcher_cli.egg-info/dependency_links.txt
+web_searcher_cli.egg-info/entry_points.txt
+web_searcher_cli.egg-info/top_level.txt
