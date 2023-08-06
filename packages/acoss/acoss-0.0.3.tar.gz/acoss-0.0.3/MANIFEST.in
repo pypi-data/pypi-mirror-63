@@ -1,0 +1,6 @@
+# Include the README and LICENSE
+include README.md LICENSE.txt
+
+# Include csv annotation files
+include acoss/data/covers80_annotations.csv
+include acoss/data/da-tacos_benchmark_subset.csv
