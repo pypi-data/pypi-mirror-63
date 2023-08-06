@@ -1,0 +1,8 @@
+setup.py
+jcconv3/__init__.py
+jcconv3/jcconv3.py
+jcconv3/jcconv3_test.py
+jcconv3.egg-info/PKG-INFO
+jcconv3.egg-info/SOURCES.txt
+jcconv3.egg-info/dependency_links.txt
+jcconv3.egg-info/top_level.txt
