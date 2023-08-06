@@ -1,0 +1,16 @@
+proclamation/__init__.py,sha256=6JUjindazWM55NHQf8sOxSWu1dDcB4NvdGNcWffQDE0,133
+proclamation/main.py,sha256=n0WQnLnPXPdxzkDyR4sCgdtwPmc7PBQeHVClHmkHa5I,7417
+proclamation/project.py,sha256=4ba9Yo7efNDE4DAGy_pFpB6usynhEiQ4tbFCpehaXQw,2364
+proclamation/render.py,sha256=k7iSXOWCG4EXB-tSR2MdKT7-t8Tog-CWG0hX1GgfPq4,4930
+proclamation/settings.py,sha256=T82T4RAMdORkv9N2SNDp7WOONtxO7wCCEqBK1WvrCLs,4653
+proclamation/types.py,sha256=qtQBmmU9hAgzYO84nc2GgWg4QzegJR5CG0d0olLlaKk,12826
+proclamation/test/__init__.py,sha256=6JUjindazWM55NHQf8sOxSWu1dDcB4NvdGNcWffQDE0,133
+proclamation/test/test_project.py,sha256=PkjzhHsl5zgYnfmga_B8TjYzEqBg4QQgmThB7gxt7nc,164
+proclamation/test/test_render.py,sha256=ISaEe-cUF3dYpPKj06qqbU8FxiSkGQbweLN-3D52mxc,2571
+proclamation/test/test_settings.py,sha256=NkVY3rHNY3wpYACwlgSf8B4UoqqMVr8NQ7Mls7aePEE,1310
+proclamation/test/test_types.py,sha256=iOr7A05lK9X2xleEelMWK_cnNDOSHQ7ExINb6f836vg,3360
+proclamation-1.0.2.dist-info/METADATA,sha256=fSBC7_QiT4X_IChvVTX3ozlMkYgJRPj7btQZdUSUj-Q,11226
+proclamation-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+proclamation-1.0.2.dist-info/entry_points.txt,sha256=qb43jb5ufvppsV95NbQ6mIL_Bl-xhBnMHlhHtGn7F68,56
+proclamation-1.0.2.dist-info/top_level.txt,sha256=KXmT3l9o25EMN9eANEpcT7uELXs3gBjLeab6sxG8l9Y,13
+proclamation-1.0.2.dist-info/RECORD,,
