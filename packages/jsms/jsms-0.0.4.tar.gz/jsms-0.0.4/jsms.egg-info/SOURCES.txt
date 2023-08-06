@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+jsms.py
+setup.cfg
+setup.py
+jsms.egg-info/PKG-INFO
+jsms.egg-info/SOURCES.txt
+jsms.egg-info/dependency_links.txt
+jsms.egg-info/not-zip-safe
+jsms.egg-info/requires.txt
+jsms.egg-info/top_level.txt
