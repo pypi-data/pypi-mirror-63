@@ -1,0 +1,3 @@
+[console_scripts]
+posce = posce.__main__:main
+
