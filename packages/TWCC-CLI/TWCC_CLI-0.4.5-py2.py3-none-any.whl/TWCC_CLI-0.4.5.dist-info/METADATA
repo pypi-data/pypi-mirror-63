@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: TWCC-CLI
+Version: 0.4.5
+Summary: TWCC-CLI is a toolkit for operating TWCC resources.
+Home-page: https://github.com/TW-NCHC/TWCC-CLI
+Author: TWCC SREr
+Author-email: isupport@narlabs.org.tw
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: netaddr
+Requires-Dist: pytz
+Requires-Dist: boto3 (==1.11.17)
+Requires-Dist: botocore (==1.14.17)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: colorclass (==2.2.0)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: idna (==2.8)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: prompt-toolkit
+Requires-Dist: Pygments (==2.5.2)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: PyYAML (==5.3)
+Requires-Dist: regex (==2020.1.8)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: s3transfer (==0.3.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: terminaltables (==3.1.0)
+Requires-Dist: tqdm (==4.42.1)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: wcwidth (==0.1.8)
+
+# TWCC-CLI Project
+
+
+## REQUIRED PARAMETERS
+
+> these parameters are required in environments
+
+| key | meaning | example |
+| -- | -- | -- |
+| TWCC_API_KEY | TWCC api key | API_KEY_FROM_TWCC |
+| TWCC_PROJ_CODE | TWCC Project Code | GOV108029 |
+
+
+
+> **NOTE**:
+>
+> Please update your TWCC-CLI constantly to make sure all functionalities works up-to-date, thanks! 
+> 
+> any questions: please check [TWCC-CLI Manual](https://www.twcc.ai/doc?page=deploy_env_cli) or email to isupport@narlabs.org.tw THANKS!
+
+
+UPDATED:
+- Please follow instructions in [TWCC MANUAL](https://www.twcc.ai/doc?page=deploy_env_cli), thanks!
+
+
