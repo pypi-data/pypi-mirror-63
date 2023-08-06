@@ -1,0 +1,13 @@
+numpy
+obspy>=1.2.1
+h5py
+colorama
+pytest
+prov
+dill
+
+[mpi]
+mpi4py
+
+[tests]
+pytest
