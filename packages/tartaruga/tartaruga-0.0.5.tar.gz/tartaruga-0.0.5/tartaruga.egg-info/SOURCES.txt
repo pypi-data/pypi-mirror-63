@@ -1,0 +1,10 @@
+README.md
+setup.py
+tartaruga/__init__.py
+tartaruga/tartaruga.lua
+tartaruga/tartaruga.py
+tartaruga.egg-info/PKG-INFO
+tartaruga.egg-info/SOURCES.txt
+tartaruga.egg-info/dependency_links.txt
+tartaruga.egg-info/requires.txt
+tartaruga.egg-info/top_level.txt
