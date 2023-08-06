@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: keniProject2
+Version: 0.0.1
+Summary: a Python module to motivate you
+Home-page: UNKNOWN
+Author: kenny388
+Author-email: kenny388@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: Arabic
+Classifier: Operating System :: Other OS
+Requires: guizero

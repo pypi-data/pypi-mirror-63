@@ -1,0 +1,7 @@
+setup.py
+keniProject2/__init__.py
+keniProject2/me.py
+keniProject2.egg-info/PKG-INFO
+keniProject2.egg-info/SOURCES.txt
+keniProject2.egg-info/dependency_links.txt
+keniProject2.egg-info/top_level.txt
