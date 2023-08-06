@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: qmap-interpolation
+Version: 0.0.1
+Summary: Interpolation of diffraction images to reciprocal space.
+Home-page: UNKNOWN
+Author: Vladimir Starostin
+Author-email: vladimir.starostin@uni-tuebingen.de
+License: MIT
+Description: # Q map interpolation
+        
+        Interpolation of diffraction images to reciprocal space
+        
+        ### Installation
+        
+        Install via pip:
+        
+        ```shell script
+        pip install qmap_interpolation
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown
