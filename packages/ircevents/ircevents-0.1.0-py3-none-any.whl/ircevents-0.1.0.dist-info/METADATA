@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ircevents
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/aewens/ircevents
+Author: aewens
+Author-email: email@aewens.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ircstates
+
+[![Build Status](https://travis-ci.org/aewens/ircevents.svg?branch=master)](https://travis-ci.org/aewens/ircevents)
+
+## usage
+
+### example code
+```python
+import ircstates, ircevents, socket
+
+NICK = "nickname"
+CHAN = "#chan"
+HOST = "127.0.0.1"
+POST = 6667
+
+server = ircstates.Server("freenode")
+sock   = socket.socket()
+
+sock.connect((HOST, POST))
+
+def _send(s):
+    line = irctokens.tokenise(s)
+    server.send(line)
+
+_send("USER test 0 * :test")
+_send("NICK test321")
+
+while True:
+    while server.pending():
+        send_lines = server.sent(sock.send(server.pending()))
+        for line in send_lines:
+            print(f"> {line.format()}")
+
+    recv_lines = server.recv(sock.recv(1024))
+    for line in recv_lines:
+        print(f"< {line.format()}")
+
+        # user defined behaviors...
+        if line.command == "001" and not "#test321" in server.channels:
+            _send("JOIN #test321")
+```
+
+
