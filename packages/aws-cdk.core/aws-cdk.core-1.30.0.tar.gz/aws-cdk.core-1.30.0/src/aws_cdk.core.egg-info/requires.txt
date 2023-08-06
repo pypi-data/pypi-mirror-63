@@ -1,0 +1,4 @@
+jsii~=0.22.0
+publication>=0.0.3
+aws-cdk.cx-api==1.30.0
+constructs<2.0.0,>=1.1.2
