@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+import sys
+
+from pysense.client import Client
+
+client = Client()
+
+command = sys.argv[1]
+
+if command == 'remember':
+    if len(sys.argv) == 3:
+        value = input("what? ")
+    else:
+        value = sys.argv[3]
+    print(client.remember(sys.argv[2], value))
+elif command == 'remind':
+    print(client.remind(sys.argv[2]))
+elif command == 'rethink':
+    print(client.rethink())
+elif command == 'learn':
+    print(client.learn())
+elif command == 'thoughts':
+    for thought in client.thoughts():
+        print(thought)
+elif command in client.thoughts():
+    print(client.call(command, sys.argv))
+else:
+    print('could not think of it')
+
