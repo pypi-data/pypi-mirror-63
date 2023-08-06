@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lubricate
+Version: 0.0.3
+Summary: # lubricate
+
+Lubricate helps you decrease friction when stuck at starting a project, no
+matter if it's a scientific analysis or a Python package. It will initialise a
+ready-to-use project structure with decent defaults.
+
+## To get started:
+
+    pip install lubricate
+    lubricate new analysis the_analysis
+
+Home-page: https://github.com/tamasgal/lubricate/
+Author: Zineb Aly and Tamas Gal
+Author-email: zaly@km3net.de, tgal@km3net.de
+License: UNKNOWN
+Description: # lubricate
+        
+        Lubricate helps you decrease friction when stuck at starting a project, no
+        matter if it's a scientific analysis or a Python package. It will initialise a
+        ready-to-use project structure with decent defaults.
+        
+        ## To get started:
+        
+            pip install lubricate
+            lubricate new analysis the_analysis
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

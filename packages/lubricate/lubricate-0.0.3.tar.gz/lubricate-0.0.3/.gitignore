@@ -1,0 +1,32 @@
+# Versioning
+lubricate/version.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+sdist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+*.log
+
+# Sphinx documentation
+docs/_build/
