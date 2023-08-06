@@ -1,0 +1,11 @@
+tiimaweb/__init__.py,sha256=NafuAmQTR1g-GCI_MAuEDvbIyOZdXmELbnLYJ335N8c,56
+tiimaweb/__main__.py,sha256=84_S8skgwpyChkXoftZHQ9Vnqq73-6ehXSx9f4CU-R8,61
+tiimaweb/cli.py,sha256=y4_QjXiH5Ldx4Xd5ep0kWPs8JTtWthkXvvthDvcoLB0,756
+tiimaweb/client.py,sha256=JpMm3s8RSy6AgN-vz2TESVlgMcRHVnBswVKoppPlH5k,15941
+tiimaweb/exceptions.py,sha256=yW3zcH0815YZVGf0Fvs1CPlhRzvTO-6s9w-T96wr2sI,150
+tiimaweb/types.py,sha256=5j_GPkBy2rtBWAdS629K4RkmPc_ViEGcsdwTvTYaI4o,1334
+tiimaweb-0.2.0.dist-info/entry_points.txt,sha256=pchshq1oXAjixo6UWIIjLNuAlLVi7dDQBoW4C1d24y8,46
+tiimaweb-0.2.0.dist-info/LICENSE,sha256=GjRTwwR5uehxaJyP_N0X7PFwztoW1AdCxRkbv98wxKY,1071
+tiimaweb-0.2.0.dist-info/WHEEL,sha256=kvwuEKnRH6O8i0OndiTtSFFMuXs9x3oJYWvW5x4ISEE,87
+tiimaweb-0.2.0.dist-info/METADATA,sha256=kGl0oJd-R9omtEgSV9cZ9T8d2xcfBaIQb58NffQwbT4,2012
+tiimaweb-0.2.0.dist-info/RECORD,,
