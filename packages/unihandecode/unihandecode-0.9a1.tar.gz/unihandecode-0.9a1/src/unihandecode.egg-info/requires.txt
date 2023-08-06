@@ -1,0 +1,11 @@
+pykakasi
+
+[dev]
+flake8
+coverage
+coveralls
+pytest
+pytest-cov
+tox
+wheel
+twine
