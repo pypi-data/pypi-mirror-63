@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+emuemuJP/__init__.py
+emuemuJP.egg-info/PKG-INFO
+emuemuJP.egg-info/SOURCES.txt
+emuemuJP.egg-info/dependency_links.txt
+emuemuJP.egg-info/top_level.txt
