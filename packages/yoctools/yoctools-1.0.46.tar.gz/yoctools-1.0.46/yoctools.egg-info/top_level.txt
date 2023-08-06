@@ -1,0 +1,3 @@
+csky-toolchain
+git
+yoctools

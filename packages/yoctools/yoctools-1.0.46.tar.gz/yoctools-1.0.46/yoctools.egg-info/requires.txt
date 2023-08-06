@@ -1,0 +1,6 @@
+pyyaml>=3.0.0
+import-scons>=2.0.0
+scons>=3.0.0
+requests_toolbelt>=0.0.0
+threadpool>=0.0.0
+gitdb<5,>=4.0.1
