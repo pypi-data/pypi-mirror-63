@@ -1,0 +1,3 @@
+[console_scripts]
+roc = roc_tools:main
+
