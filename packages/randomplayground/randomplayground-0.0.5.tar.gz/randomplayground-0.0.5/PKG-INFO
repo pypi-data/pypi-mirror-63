@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: randomplayground
+Version: 0.0.5
+Summary: A package to help with random generator methods
+Home-page: https://github.com/RandomPlayGround/random-play-ground
+Author: @PyOctoCat
+Author-email: davidinco@gmail.com
+License: UNKNOWN
+Description: # random-play-ground
+        Collection of random generator type items that should be generally useful
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
