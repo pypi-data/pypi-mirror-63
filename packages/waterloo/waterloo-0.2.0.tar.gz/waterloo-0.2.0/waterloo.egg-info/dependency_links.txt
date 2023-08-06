@@ -1,0 +1,1 @@
+https://github.com/anentropic/Bowler/tarball/0.8.0-post2#egg=bowler-0.8.0-post2
