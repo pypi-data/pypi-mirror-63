@@ -1,0 +1,6 @@
+astropy
+scipy
+numpy
+pyyaml
+wheel
+synphot
