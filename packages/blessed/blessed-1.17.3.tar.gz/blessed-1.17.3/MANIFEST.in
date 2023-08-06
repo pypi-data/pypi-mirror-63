@@ -1,0 +1,6 @@
+include docs/*.rst
+include LICENSE
+include version.json
+include *.txt
+include tox.ini
+recursive-include tests *.py *.ans
