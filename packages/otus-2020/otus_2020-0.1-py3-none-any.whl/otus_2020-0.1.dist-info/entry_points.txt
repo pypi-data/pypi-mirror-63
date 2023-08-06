@@ -1,0 +1,3 @@
+[console_scripts]
+quote = otus.main:main
+
