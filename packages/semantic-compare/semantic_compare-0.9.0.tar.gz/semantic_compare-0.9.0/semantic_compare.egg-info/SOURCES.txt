@@ -1,0 +1,11 @@
+README.md
+setup.py
+semantic_compare/__init__.py
+semantic_compare/main.py
+semantic_compare.egg-info/PKG-INFO
+semantic_compare.egg-info/SOURCES.txt
+semantic_compare.egg-info/dependency_links.txt
+semantic_compare.egg-info/requires.txt
+semantic_compare.egg-info/top_level.txt
+semantic_compare/tests/__init__.py
+semantic_compare/tests/tests.py
