@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Plate.egg-info/PKG-INFO
+Plate.egg-info/SOURCES.txt
+Plate.egg-info/dependency_links.txt
+Plate.egg-info/not-zip-safe
+Plate.egg-info/top_level.txt
+plate/__init__.py
+plate/emojipedia.py
+plate/languages.py
+plate/plate.py
