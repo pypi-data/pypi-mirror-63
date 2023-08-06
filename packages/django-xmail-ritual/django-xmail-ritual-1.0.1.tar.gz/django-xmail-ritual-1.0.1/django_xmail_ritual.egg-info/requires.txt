@@ -1,0 +1,2 @@
+python-cantrips>=1.0.0
+Django>=2.2
