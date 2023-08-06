@@ -1,0 +1,3 @@
+[console_scripts]
+there_is_no_spoon = there_is_no_spoon.main:main
+
