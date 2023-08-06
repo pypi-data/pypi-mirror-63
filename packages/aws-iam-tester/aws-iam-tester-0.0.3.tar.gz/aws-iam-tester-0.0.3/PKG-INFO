@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aws-iam-tester
+Version: 0.0.3
+Summary: AWS IAM tester - simple command-line tool to check permissions handed out to IAM users and roles.
+Author: Gerco Grandia
+Author-email: gerco.grandia@4synergy.nl
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (==1.12.22)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: pyyaml (>=5.3,<6.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
