@@ -1,0 +1,11 @@
+MultiprocessingSpider/__init__.py,sha256=wFrpXAsmaKuVg9GPnNO73HADcVOru1a6WPpWCXKSJM4,706
+MultiprocessingSpider/utils.py,sha256=Ts558t7cq-HRnb7SSdTAoQ2ttYgV5YPz5SPjOoTO8AI,5025
+MultiprocessingSpider/packages/__init__.py,sha256=h3Az0rxpS63tWdhI-OihQn2MuFayQC7CQB5IwKLPIZQ,784
+MultiprocessingSpider/packages/packages.py,sha256=3A8NyAJG9_MaQYwJQ7Xe5MKRqHPf88yqrcG9LECuYz0,2839
+MultiprocessingSpider/spiders/__init__.py,sha256=l7zbubIcnLBtf1YryKe1MxDDxZ5RFNv0wtcOplL3ApA,778
+MultiprocessingSpider/spiders/spiders.py,sha256=rVrMa7FRLn7tVCIsxDJvLNURmG2OANl05vWy5j-7AzE,22647
+MultiprocessingSpider-1.1.0.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+MultiprocessingSpider-1.1.0.dist-info/METADATA,sha256=F5j_g4hduYFwNWUdaYiEouix1tJ-sEGqXilqUbA35Dk,5898
+MultiprocessingSpider-1.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+MultiprocessingSpider-1.1.0.dist-info/top_level.txt,sha256=0arE2kcPg60vHNt1X8PPQ-EKawAMd5lkxUfNTxRGBzc,22
+MultiprocessingSpider-1.1.0.dist-info/RECORD,,
