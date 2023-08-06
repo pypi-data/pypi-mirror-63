@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: pysamples
+Version: 0.0.1
+Summary: Python samples package
+Home-page: https://github.com/mdjdot/pysamples
+Author: Dejian Meng
+Author-email: medean@live.cn
+License: MIT
+Description: # Pysamples Package
+        
+        This is a python simples collection package.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
