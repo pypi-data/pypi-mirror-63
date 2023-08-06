@@ -1,0 +1,5 @@
+neotermcolor
+pyaltt2>=0.0.58
+pyyaml
+rapidtables
+requests
