@@ -1,0 +1,10 @@
+setup.py
+qz_testpypi/Binomialdistribution.py
+qz_testpypi/Gaussiandistribution.py
+qz_testpypi/Generaldistribution.py
+qz_testpypi/__init__.py
+qz_testpypi.egg-info/PKG-INFO
+qz_testpypi.egg-info/SOURCES.txt
+qz_testpypi.egg-info/dependency_links.txt
+qz_testpypi.egg-info/not-zip-safe
+qz_testpypi.egg-info/top_level.txt
