@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyos
+Version: 0.1.1
+Summary: Browse python objects as if they were files on disk
+Home-page: https://github.com/muhrin/pyos.git
+Author: Martin Uhrin
+Author-email: martin.uhrin.10@ucl.ac.uk
+License: GPLv3 and MIT, see LICENSE file
+Description: PyOS
+        ====
+        
+        A fresh way to interact with your python objects as though they were files on your filesystem.
+Keywords: database schemaless nosql object-store
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: gui
+Provides-Extra: dev
