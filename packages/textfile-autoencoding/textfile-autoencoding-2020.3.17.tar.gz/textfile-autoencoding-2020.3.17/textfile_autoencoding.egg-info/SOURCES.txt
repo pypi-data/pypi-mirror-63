@@ -1,0 +1,13 @@
+README.md
+setup.py
+autofile/__init__.py
+autofile/auto_detect.py
+autofile/wrappers.py
+tests/__init__.py
+tests/test_detect.py
+tests/test_read.py
+textfile_autoencoding.egg-info/PKG-INFO
+textfile_autoencoding.egg-info/SOURCES.txt
+textfile_autoencoding.egg-info/dependency_links.txt
+textfile_autoencoding.egg-info/requires.txt
+textfile_autoencoding.egg-info/top_level.txt
