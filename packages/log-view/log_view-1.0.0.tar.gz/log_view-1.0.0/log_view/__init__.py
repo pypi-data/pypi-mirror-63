@@ -1,0 +1,1 @@
+from log_view.handel import log_error, log_info
