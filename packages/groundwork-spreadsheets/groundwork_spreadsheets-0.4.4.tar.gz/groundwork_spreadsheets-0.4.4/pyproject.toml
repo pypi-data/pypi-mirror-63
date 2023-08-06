@@ -1,0 +1,48 @@
+[tool.poetry]
+name = 'groundwork_spreadsheets'
+version = '0.4.4'
+description = 'Patterns for reading writing spreadsheet documents'
+authors = [
+    'Marco Heinemann <marco.heinemann@useblocks.com>',
+]
+maintainers = []
+license = 'MIT'
+readme = 'README.rst'
+homepage = 'https://pypi.org/project/groundwork-spreadsheets/'
+repository = 'https://github.com/useblocks/groundwork-spreadsheets'
+documentation = 'https://groundwork-spreadsheets.readthedocs.io/en/latest'
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8'
+    ]
+
+[tool.poetry.dependencies]
+python = '^3.6'
+groundwork = '>=0.1.10'
+jsonschema = '*'
+openpyxl = '*'
+
+[tool.poetry.dev-dependencies]
+# testing
+pytest = '*'
+pytest-cov = '*'
+tox = '*'
+
+# linters / formatting
+flake8 = '3.5.0'
+
+# docs
+sphinx = '*'
+sphinxcontrib-plantuml = '*'
+groundwork-sphinx-theme = '*'
+
+[build-system]
+requires = ['poetry>=0.12']
+build-backend = 'poetry.masonry.api'
