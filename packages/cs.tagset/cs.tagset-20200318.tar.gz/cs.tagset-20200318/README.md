@@ -1,0 +1,119 @@
+Tags and sets of tags.
+
+
+*Latest release 20200318*:
+*Note that the TagsOntology stuff is in flux and totally alpha.*
+Tag.prefix_name factory returning a new tag if prefix is not empty, ptherwise self.
+TagSet.update: accept an optional prefix for inserting "foreign" tags with a distinguishing name prefix.
+Tag.as_json: turn sets and tuples into lists for encoding.
+Backport for Python < 3.7 (no fromisoformat functions).
+TagSet: drop unused and illplaced .titleify, .episode_title and .title methods.
+TagSet: remove "defaults", unused.
+Make TagSet a direct subclass of dict, adjust uses of .update etc.
+New ExtendedNamespace class which is a SimpleNamespace with some inferred attributes and a partial mapping API (keys and __getitem__).
+New TagSet.ns() returning the Tags as an ExtendedNamespace, which doubles as a mapping for str.format_map; TagSet.format_kwargs is now an alias for this.
+New Tag.from_string factory to parse a str into a Tag.
+New TagsOntology and TypedTag classes to provide type and value-detail information; very very alpha and subject to change.
+
+Tags and sets of tags.
+
+## Class `ExtendedNamespace(types.SimpleNamespace)`
+
+Subclass `SimpleNamespace` with inferred attributes.
+This also presents attributes as `[]` elements via `__getitem__`.
+
+## Class `Tag(Tag,builtins.tuple)`
+
+A Tag has a `.name` (`str`) and a `.value`.
+
+The `name` must be a dotted identifier.
+
+A "bare" `Tag` has a `value` of `None`.
+
+## Class `TagChoice(TagChoice,builtins.tuple)`
+
+A "tag choice", an apply/reject flag and a `Tag`,
+used to apply changes to a `TagSet`
+or as a criterion for a tag search.
+
+Attributes:
+* `spec`: the source text from which this choice was parsed,
+  possibly `None`
+* `choice`: the apply/reject flag
+* `tag`: the `Tag` representing the criterion
+
+## Class `TagSet(builtins.dict,cs.lex.FormatableMixin)`
+
+A setlike class associating a set of tag names with values.
+
+### Method `TagSet.__init__(self)`
+
+Initialise the `TagSet`.
+
+## Class `TagsOntology(cs.obj.SingletonMixin)`
+
+An ontology for tag names.
+
+This is based around a mapping of tag names
+to ontological information expressed as a `TagSet`.
+
+A `cs.fstags.FSTags` uses ontologies initialised from `TagFile`s
+containing ontology mappings.
+
+## Class `TypedTag(cs.lex.FormatableMixin)`
+
+A `Tag`like object linked to a `TagOntology`,
+providing associated detail about a `Tag`.
+
+Like `Tag`, this has a `.name` and `.value`.
+
+Additionally it has the following attributes:
+* `ontology`: the supporting `TagOntology`
+* `tag`: the originating `Tag`
+  (computed from the `(name,value)` tuple if supplied)
+* `defn`: the `TagSet` from `.ontology`
+  which defines this
+* `type`: `defn['type']`
+* `member_type`: `defn['member_type']` if present;
+  we expect `type` to be a list or mapping type name
+
+Indexing a `TypedTag` indexes its `.value`
+and returns a tuple `(element,TagSet)`
+where the `TagSet` is information from the ontology
+about the element's value (if `element` is a `str`).
+
+If the `.value` looks like a mapping
+.ie. it has a `.keys()` method
+then a `TypedTag` has `.keys()` and `.items()` methods.
+The `.keys()` call returns `.value.keys()`.
+The `.items()` call yields `(key,self[key])`
+for each of `self.keys()`.
+
+Iterating over a `TypedTag`
+yields its keys if it has a `.keys()` method,
+otherwise values from `range(len(self.value))`.
+
+### Method `TypedTag.__init__(self, name, value=None, *, ontology)`
+
+Prepare the `TypedTag` from a `Tag` or `(name,value)` tuple.
+
+
+
+# Release Log
+
+*Release 20200318*:
+*Note that the TagsOntology stuff is in flux and totally alpha.*
+Tag.prefix_name factory returning a new tag if prefix is not empty, ptherwise self.
+TagSet.update: accept an optional prefix for inserting "foreign" tags with a distinguishing name prefix.
+Tag.as_json: turn sets and tuples into lists for encoding.
+Backport for Python < 3.7 (no fromisoformat functions).
+TagSet: drop unused and illplaced .titleify, .episode_title and .title methods.
+TagSet: remove "defaults", unused.
+Make TagSet a direct subclass of dict, adjust uses of .update etc.
+New ExtendedNamespace class which is a SimpleNamespace with some inferred attributes and a partial mapping API (keys and __getitem__).
+New TagSet.ns() returning the Tags as an ExtendedNamespace, which doubles as a mapping for str.format_map; TagSet.format_kwargs is now an alias for this.
+New Tag.from_string factory to parse a str into a Tag.
+New TagsOntology and TypedTag classes to provide type and value-detail information; very very alpha and subject to change.
+
+*Release 20200229.1*:
+Initial release: pull TagSet, Tag, TagChoice from cs.fstags for independent use.
