@@ -1,0 +1,4 @@
+pipelinewise-singer-python==1.*
+
+[test]
+nose==1.3
