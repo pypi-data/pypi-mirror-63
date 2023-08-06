@@ -1,0 +1,10 @@
+recursive-include newsboard/templates *
+recursive-include newsboard/templates/newsboard *
+recursive-include newsboard/locales *.po *.mo
+
+include requirements*.txt
+include README.rst
+include LICENSE.txt
+
+global-exclude *.pyc *.pyo __pycache__ *.swp
+global-exclude .git

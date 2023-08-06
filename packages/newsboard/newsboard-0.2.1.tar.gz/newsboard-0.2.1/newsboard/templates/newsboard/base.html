@@ -1,0 +1,110 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="robots" content="NONE,NOARCHIVE">
+    <title>{% if title %}{{ title }} | {% endif %}Newsbroad</title>
+    <style type="text/css">
+      html * { padding:0; margin:0; }
+      body * { padding:10px 20px; }
+      body * * { padding:0; }
+      body { font:small sans-serif; }
+      body>div { border-bottom:1px solid #ddd; }
+      h1 { font-weight:normal; }
+      h2 { margin-bottom:.8em; }
+      h2 span { font-size:80%; color:#666; font-weight:normal; }
+      h3 { margin:1em 0 .5em 0; }
+      h4 { margin:0 0 .5em 0; font-weight: normal; }
+      a {
+        color: #808080;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #606060;
+      }
+      table { border:1px solid #ccc; border-collapse: collapse; width:100%; background:white; }
+      tbody td, tbody th { vertical-align:top; padding:2px 3px; }
+      thead th {
+        padding:1px 6px 1px 3px; background:#fefefe; text-align:left;
+        font-weight:normal; font-size:11px; border:1px solid #ddd;
+      }
+      tbody th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+      #summary { background: #e0ebff; }
+      #summary h2 { font-weight: normal; color: #666; }
+      #content {
+        background:#eee;
+        overflow: auto;
+      }
+      #messages ul{list-style: none;}
+      #messages li{
+        padding: 5px;
+        font-weight: bold;
+      }
+      #summary table { border:none; background:transparent; }
+      #footer { background:#f6f6f6; }
+      ul.streams {list-style: none;}
+      ul.streams>li {
+        width: 22%;
+        float: left;
+        border-width: 3px;
+        border: #cec8c8;
+        border-style: double;
+        padding: 1%;
+      }
+      ul.streams ul {list-style: none;}
+      ul.posts {list-style: none;}
+      ul.posts li {
+        width: 24%;
+        float: left;
+      }
+      .posts .post {
+        border-width: 3px;
+        border: #cec8c8;
+        border-style: double;
+        margin: 3%;
+        padding: 3%;
+      }
+      .wro-container {
+        overflow: auto;
+      }
+      .wro-container .wro-image-container {
+        text-align: center;
+      }
+      .wro-container .wro-image-container img {
+        max-width: 90%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="summary">
+      <h1>Newsboard</h1>
+      {% if title %}
+      <h2>{{ title }}</h2>
+      {% endif %}
+      <p>
+       <a href="{% url "stream-list" %}">{% trans "Streams" %}</a> |
+       <a href="{% url "post-list" %}">{% trans "Posts" %}</a>
+      </p>
+      <br>
+      {% block newsboard_action %}{% endblock %}
+
+      <div id="messages">
+       <ul>
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+       </ul>
+      </div>
+    </div>
+    
+    <div id="content">
+      {% block newsboard_content %}{% endblock %}
+    </div>
+    
+    <div id="footer">
+     <p>Newsboard - {% trans "Under BSD License" %}</p>
+    </div>
+  </body>
+</html>

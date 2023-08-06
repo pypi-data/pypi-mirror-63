@@ -1,0 +1,9 @@
+<ul id="posts-page-{{ page|default:1 }}" class="posts-page">
+{% for post in post_list %}
+  {% include "newsboard/_post.html" %}
+{% empty %}
+<li>
+    <p>Sorry, no more news...</p>
+</li>
+{% endfor %}
+</ul>
