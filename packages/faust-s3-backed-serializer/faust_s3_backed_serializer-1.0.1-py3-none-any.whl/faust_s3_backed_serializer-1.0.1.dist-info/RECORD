@@ -1,0 +1,6 @@
+faust_s3_backed_serializer/__init__.py,sha256=NGAPwMh60lLMuYkgvb7Y6-ZnMzEy-iFpR0zMlXw55nQ,1345
+faust_s3_backed_serializer/s3_serializer.py,sha256=x5g_MxtFnKEhD3P8BfzEb8FAjoWLbfBkccyiXJNl-Yg,6983
+faust_s3_backed_serializer-1.0.1.dist-info/LICENSE,sha256=Su-YqcDHS7Tg2uVX1ABOydGAJoo373p0_LAuBzIZeNA,1064
+faust_s3_backed_serializer-1.0.1.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+faust_s3_backed_serializer-1.0.1.dist-info/METADATA,sha256=pUKNXhdiCgx37SmcVpEUvMS_fqAtulRBMFOpvHKk7ZQ,4722
+faust_s3_backed_serializer-1.0.1.dist-info/RECORD,,
