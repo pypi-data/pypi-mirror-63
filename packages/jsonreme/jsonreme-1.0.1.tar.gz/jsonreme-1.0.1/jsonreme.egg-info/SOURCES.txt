@@ -1,0 +1,10 @@
+setup.py
+jsonreme/__init__.py
+jsonreme/consts.py
+jsonreme/drift.py
+jsonreme/exception.py
+jsonreme/remediator.py
+jsonreme.egg-info/PKG-INFO
+jsonreme.egg-info/SOURCES.txt
+jsonreme.egg-info/dependency_links.txt
+jsonreme.egg-info/top_level.txt
