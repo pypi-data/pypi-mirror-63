@@ -1,0 +1,11 @@
+functional_itertools/__init__.py,sha256=KnPwbZKQSDZc45kgj1FolgRKrbbWoodZtX1inqRMy2w,571
+functional_itertools/cattrs.py,sha256=E5lVWcy7iPEeQKEgZROuSsAhF8vgcY6-7XXxSKlZQNc,2239
+functional_itertools/classes.py,sha256=7c1MS_7Uxiwas7DIBoJ7KlBOzauNT9gGFwxlm7n0W8Y,37603
+functional_itertools/compat.py,sha256=85UZj3p5stEO3HhlnLp8mnObUMxCwjR07i_ESH6NIvk,787
+functional_itertools/errors.py,sha256=epaX2Q3gpZlU-989eONOenBNQPuHylDdRRgRbRBsghI,320
+functional_itertools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+functional_itertools/utilities.py,sha256=-aYV4-bRDDh31mofgeopC1QUPiI9TVoUAY4ydkfrNFE,2660
+functional_itertools-0.5.19.dist-info/LICENSE,sha256=B640BkplM0HSKVcm0UHaHkMAOTc7Crih4r8Fpj6RJPI,1066
+functional_itertools-0.5.19.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+functional_itertools-0.5.19.dist-info/METADATA,sha256=fA4s2UhlBEBEOnbMwx6bqbR4ZENx1XGoUhO8WZDfbLc,1036
+functional_itertools-0.5.19.dist-info/RECORD,,
