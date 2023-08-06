@@ -1,0 +1,7 @@
+wsgi_microservice_middleware/__init__.py,sha256=CFib_3M7ifEdBCqbasTtQRlVW3pJKxHsGYAhwbBd1t4,357
+wsgi_microservice_middleware/cors.py,sha256=H-BnZM-KHKHrdCbQMj7y_ZPBVQs6rXgzZpxRLeQKGfk,1286
+wsgi_microservice_middleware/request_id.py,sha256=1xwbdKQpQ-W46ELjo30S1wd9u9JWy1NALWicPnV225g,3118
+wsgi_microservice_middleware-0.1.0.dist-info/METADATA,sha256=IlB0ckAOCWAnHw_e0NVtaxEG8FGG0Os5Qvv0Gs56NfI,5092
+wsgi_microservice_middleware-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+wsgi_microservice_middleware-0.1.0.dist-info/top_level.txt,sha256=gMvjpfNm0_ZxDtb5KopG-g-efkOlp8ih07hlqnsPOws,29
+wsgi_microservice_middleware-0.1.0.dist-info/RECORD,,
