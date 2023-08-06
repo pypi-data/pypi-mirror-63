@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/datasetops/__init__.py
+src/datasetops/abstract.py
+src/datasetops/compose.py
+src/datasetops/dataset.py
+src/datasetops/examples.py
+src/datasetops/function_dataset.py
+src/datasetops/loaders.py
+src/datasetops/types.py
+src/datasetops.egg-info/PKG-INFO
+src/datasetops.egg-info/SOURCES.txt
+src/datasetops.egg-info/dependency_links.txt
+src/datasetops.egg-info/requires.txt
+src/datasetops.egg-info/top_level.txt
