@@ -1,0 +1,2 @@
+Sclera Platform Administration Tool
+Copyright 2012 - 2020 Sclera, Inc.
