@@ -1,0 +1,7 @@
+[asreview.entry_points]
+create-config = asreviewcontrib.hyperopt:CreateConfigEntryPoint
+hyper-active = asreviewcontrib.hyperopt:HyperActiveEntryPoint
+hyper-cluster = asreviewcontrib.hyperopt:HyperClusterEntryPoint
+hyper-passive = asreviewcontrib.hyperopt:HyperPassiveEntryPoint
+show = asreviewcontrib.hyperopt:ShowTrialsEntryPoint
+
