@@ -1,0 +1,9 @@
+kube_cli/__init__.py,sha256=W2qP-zkoI6QObQkC9cATBASYpVb5QH8JCm2dQKsY62o,66
+kube_cli/__main__.py,sha256=nfFUOQd70FekrCoGmBRT6PpDU2DT0m2GyqeraKFdJjg,43
+kube_cli/main.py,sha256=MgPaXirxMsBZaaOgVUelHgxz0gfo6NEVGNnONaAXSC0,12614
+kube_cli-0.0.6.dist-info/LICENSE,sha256=fxxPsnWhROD8_AGfjdLZ88X1zo-ULNQMLZopJUEGLog,1069
+kube_cli-0.0.6.dist-info/METADATA,sha256=_AIojxYHCxu_Y8oQGV0srpyyLJ7j6SGYRx89mgV62Ws,2356
+kube_cli-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kube_cli-0.0.6.dist-info/entry_points.txt,sha256=_qW88PnlW1RTKhYHtjw53Vy83Ei5N751shOjeKV4dEY,45
+kube_cli-0.0.6.dist-info/top_level.txt,sha256=_UHrxIh1YYdk8weRDz3snKTxuGE0-XHoUd6CLrTuves,9
+kube_cli-0.0.6.dist-info/RECORD,,
