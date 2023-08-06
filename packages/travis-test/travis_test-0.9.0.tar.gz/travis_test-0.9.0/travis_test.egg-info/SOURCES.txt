@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+src/pylink.cpp
+travis_test.egg-info/PKG-INFO
+travis_test.egg-info/SOURCES.txt
+travis_test.egg-info/dependency_links.txt
+travis_test.egg-info/top_level.txt
