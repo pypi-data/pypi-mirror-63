@@ -1,0 +1,12 @@
+tululu_offline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tululu_offline/app.py,sha256=zTCNblym4bl-0KlbOnP4Adar1sXeIccz9wpavvVHqrc,2817
+tululu_offline/book.py,sha256=e9l3_NrZM2jc5Zet7Cq2x-iJzgIaXzZ14yLJR07LduA,1067
+tululu_offline/download_files.py,sha256=Iu0FpxNwsqt8I6vhOR_wwdEPNOHcMQieVTu4rd6tAA4,3214
+tululu_offline/get_args.py,sha256=CVFOix1sx9GfRalB7u8-gyDnsJXr8Ds05cF3NRBu7DM,1425
+tululu_offline/parse_tululu_category.py,sha256=vUoWZKOY_EfDl0RltjFdZQ3Aolg5TZCkuVmBrLiFME8,1051
+tululu_offline/render_website.py,sha256=B21DUbdc2rcvgY-7TjhkzxWJ2sYw63-9G8zBLWcbICE,2013
+tululu_offline-1.0.4.dist-info/entry_points.txt,sha256=wLbFGbpTQDDV8TQ304M9p8o9Gf3ftO5r4dcfqoraVd8,58
+tululu_offline-1.0.4.dist-info/LICENSE,sha256=TmkH8MkMauX3hWDtpf2MJDC2SzG8MRtU8i8F-c8kBek,1072
+tululu_offline-1.0.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+tululu_offline-1.0.4.dist-info/METADATA,sha256=Ay1Bt6J4aR9Tfr3cy2UR_ebncixk3JjUad8iROWP5SM,3562
+tululu_offline-1.0.4.dist-info/RECORD,,
