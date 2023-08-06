@@ -1,0 +1,10 @@
+README.md
+setup.py
+prsample/__init__.py
+prsample/examples.py
+prsample/prsample.py
+prsample/version.py
+prsample.egg-info/PKG-INFO
+prsample.egg-info/SOURCES.txt
+prsample.egg-info/dependency_links.txt
+prsample.egg-info/top_level.txt
