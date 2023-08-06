@@ -1,0 +1,11 @@
+aws_consoler/__init__.py,sha256=KqoT4D38OtzII_e68JIj47B2ukYKVtNmy93vs5r8ErQ,160
+aws_consoler/cli.py,sha256=guZXpnzLGsp1P64bzOtIgqy6NnE_kiMbsWfi7ZIPbK4,5238
+aws_consoler/logic.py,sha256=EqDmVKqVcxBwIc4bkM9ORkZ7J0yPSPXQNr-vI-ykT3s,5492
+aws_consoler-1.0.0.dist-info/AUTHORS.rst,sha256=q0u0XcQ7IaUbIX0XWaq3TMcuJZwDDSfD_iWgMQ6IOz8,174
+aws_consoler-1.0.0.dist-info/LICENSE,sha256=WrHhFqEHvofn4uQbVdlA5hrlb1UWEy16ToSd14T2Q5U,1505
+aws_consoler-1.0.0.dist-info/METADATA,sha256=SR7636tP_m6mWwkgPX5Lw9f4z0Qvlq-6ZE_VFfQ67jA,2741
+aws_consoler-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+aws_consoler-1.0.0.dist-info/entry_points.txt,sha256=d-TmPlC5YTwbre1JylWb6pxr4Gxgjr-CsUMLPoux-qw,56
+aws_consoler-1.0.0.dist-info/top_level.txt,sha256=rJcFJIHG1cTun_bGiBzLT7r7KTITxa1PTOanJsHN2Qk,13
+aws_consoler-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_consoler-1.0.0.dist-info/RECORD,,
