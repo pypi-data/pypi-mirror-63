@@ -1,0 +1,10 @@
+cvemanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvemanager/cve_dbms.py,sha256=p8oVwCAIJ4cs4mt3-ysNMJQtyQNJlYd2R5mAQAp2Grk,5945
+cvemanager/cve_manager2.py,sha256=jB83MN1hXAyEHIPSoOkteLdJzLt1SoAXOCTJZIO5rew,17117
+cvemanager/main.py,sha256=Vz9nPprWbSV-5XQGyFKHUgdvMZNUX47H704jVWj8wpo,2968
+cvemanager-0.0.1.dist-info/LICENCE,sha256=AhtrFuA1_j5ja6GnoHYOjmXxAzzmPC6uDoHMAtA0eoc,1038
+cvemanager-0.0.1.dist-info/METADATA,sha256=GKkdnx2fnLjaQekuDMxNuxWAEjEXZHzTH8pnwZuAYC0,4196
+cvemanager-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cvemanager-0.0.1.dist-info/entry_points.txt,sha256=VBMM98icd1RFcrRKVljSAsemr9E4WjldulpQ57D9KYY,53
+cvemanager-0.0.1.dist-info/top_level.txt,sha256=0Pg4J7NmbCPo8yb4nuBNjUaZZWrNFxBSKwb1cF1COtE,11
+cvemanager-0.0.1.dist-info/RECORD,,
