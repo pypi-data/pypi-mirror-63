@@ -1,0 +1,16 @@
+README.md
+setup.py
+higgsboom/DatabaseManager.py
+higgsboom/Exceptions.py
+higgsboom/FactorsGeneratorBase.py
+higgsboom/MarketDataUtils.py
+higgsboom/TrainingUtils.py
+higgsboom/__init__.py
+higgsboom.egg-info/PKG-INFO
+higgsboom.egg-info/SOURCES.txt
+higgsboom.egg-info/dependency_links.txt
+higgsboom.egg-info/requires.txt
+higgsboom.egg-info/top_level.txt
+higgsboom/TrainingUtils/MultiInstrumentTickTrainingUtils.py
+higgsboom/TrainingUtils/TrainingUtils.py
+higgsboom/TrainingUtils/__init__.py
