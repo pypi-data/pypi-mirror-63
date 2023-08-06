@@ -1,0 +1,11 @@
+gimmebio.covid-0.2.0-py3.6-nspkg.pth,sha256=pxTb1jWsCspdqoPmV2TGBVot_a6QmHbVwKXbDN4rHTs,549
+gimmebio/covid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimmebio/covid/api.py,sha256=sfBZpkjGCQiWS8nCeXplIwXr3uPEOlzSMk2YtXfjEQ8,3342
+gimmebio/covid/cli.py,sha256=wFk032Iq-q8QXbv-xkU45KXCWTEKyM103-bArktR3FI,2538
+gimmebio/covid/constants.py,sha256=1Tw49CN7OASOo7xx2V1LmMM2pL4YMyY3AqkiFutBBsk,5451
+gimmebio/covid/plots.py,sha256=AH7Po_NY-vAYFikpR80Fqa_Ol3CusUmBtJ1PlwVxuK4,2704
+gimmebio.covid-0.2.0.dist-info/METADATA,sha256=Wcmm8-oSKi2urdbHlzyEWwfAoFoeDFkQ0eO46IGOcVg,446
+gimmebio.covid-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gimmebio.covid-0.2.0.dist-info/namespace_packages.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.covid-0.2.0.dist-info/top_level.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.covid-0.2.0.dist-info/RECORD,,
