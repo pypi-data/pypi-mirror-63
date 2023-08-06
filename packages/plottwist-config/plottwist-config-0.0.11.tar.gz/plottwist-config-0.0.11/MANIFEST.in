@@ -1,0 +1,2 @@
+recursive-include plottwist/config/* *.json
+recursive-include plottwist/config/* *.yml
