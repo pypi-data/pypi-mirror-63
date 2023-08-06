@@ -1,0 +1,14 @@
+file_stream/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_stream/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_stream/executor.py,sha256=ozKQ7ewDt5YJsyzf_ChlddIuFOJLKxyp2lKe7vZtO4o,1738
+file_stream/filter.py,sha256=XglLadIjTDByQBZyfuAfr_P7u2wb7bTvuViwRvsY2L8,4475
+file_stream/logic.py,sha256=qg8ybaN2wQQ4KpoSPqtDkgv8CJ0XB7lOGUOkIruov2E,2039
+file_stream/source.py,sha256=s_qDnwXJ2IIFAfauzrOjZ3TGX9f7UJDy-zd_QixtIAc,4783
+file_stream/stastic.py,sha256=YesA4xCmzRLVJCmfRauU74mGoPYmvv5zppiLo0DkxhQ,258
+file_stream/utils.py,sha256=gxl2wX-USc_G3FuguR5qhgAXVRwcXa_GJLosm_R6jnY,1062
+file_stream/writer.py,sha256=jW5PWi4cI-n6pOiHd2Yhj5oFZ8g_jfF2FsPgsgNth6w,2903
+file_stream-0.1.2.dist-info/LICENSE,sha256=7GuRxKyNg1Eh2RJ2lOwLWaTwc1DVRxhAxSRMmn0XPiM,1063
+file_stream-0.1.2.dist-info/METADATA,sha256=kcWM8u2w_Pf7qHeZ_bPcbSAQ4G3HXPpAjS-IcoIpuY0,2859
+file_stream-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+file_stream-0.1.2.dist-info/top_level.txt,sha256=4twv4PPRCXEIDzN1hETS4sxIYLD1qyXm0gmLqwp_-Yk,12
+file_stream-0.1.2.dist-info/RECORD,,
