@@ -1,0 +1,18 @@
+Version 0.4.0 2020-03-16
+	* Remove Methionine from N-terminus
+	* Fix for when no smORFs are present
+	* Add --keep-negatives flag
+	* Add warning for longer sequences
+
+Version 0.3.1 2020-01-24
+	* Fix for Python 2.7
+
+Version 0.3.0 2020-01-24
+	* Add get-examples command
+	* Add get-smorfs command
+	* Convert to scikit-learn
+	* Updated training sets
+	* Fix license (must be GPL because of Peptides)
+
+Version 0.2.0 2020-01-14
+	* Complete release
