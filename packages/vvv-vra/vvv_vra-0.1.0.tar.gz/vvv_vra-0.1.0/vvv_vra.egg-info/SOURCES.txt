@@ -1,0 +1,8 @@
+README
+setup.py
+vvv_vra/__init__.py
+vvv_vra.egg-info/PKG-INFO
+vvv_vra.egg-info/SOURCES.txt
+vvv_vra.egg-info/dependency_links.txt
+vvv_vra.egg-info/requires.txt
+vvv_vra.egg-info/top_level.txt
