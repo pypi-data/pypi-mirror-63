@@ -1,0 +1,11 @@
+README.md
+setup.py
+check_glue_catalog/__init__.py
+check_glue_catalog/check_glue_catalog.py
+check_glue_catalog/utils.py
+check_glue_catalog.egg-info/PKG-INFO
+check_glue_catalog.egg-info/SOURCES.txt
+check_glue_catalog.egg-info/dependency_links.txt
+check_glue_catalog.egg-info/not-zip-safe
+check_glue_catalog.egg-info/requires.txt
+check_glue_catalog.egg-info/top_level.txt
