@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sentry-feishu
+Version: 0.0.4
+Summary: A Sentry extension which send errors stats to DingDing
+Home-page: https://github.com/jnchenfeng/sentry_feishu
+Author: feng.chen
+Author-email: jnchenfeng123@163.com
+License: MIT
+Description: # sentry_feishu
+        飞书 sentry 插件
+        
+        > 该工程参考https://github.com/anshengme/sentry-dingding
+Keywords: sentry feishu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
