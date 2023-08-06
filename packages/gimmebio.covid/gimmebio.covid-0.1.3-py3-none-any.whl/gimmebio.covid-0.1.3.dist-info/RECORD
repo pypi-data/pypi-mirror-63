@@ -1,0 +1,10 @@
+gimmebio.covid-0.1.3-py3.6-nspkg.pth,sha256=pxTb1jWsCspdqoPmV2TGBVot_a6QmHbVwKXbDN4rHTs,549
+gimmebio/covid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimmebio/covid/api.py,sha256=qh_ZVcY7lkLuzbzKU4dO-q3VvmypdaR5mzPfZv2Xb40,2489
+gimmebio/covid/cli.py,sha256=hEnDZe0GITuCepSVNQaSVyvMr4IAM5bGRj9cTH0yq4M,2150
+gimmebio/covid/constants.py,sha256=brYkjB6yN52rbpcAE5BhL-X-m4vSBLDa70cmSGm-9yM,5360
+gimmebio.covid-0.1.3.dist-info/METADATA,sha256=VbCKtvd6FQE5fe0WTGUeWErhNoD8qRjix3e8Ul1RqEs,422
+gimmebio.covid-0.1.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gimmebio.covid-0.1.3.dist-info/namespace_packages.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.covid-0.1.3.dist-info/top_level.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.covid-0.1.3.dist-info/RECORD,,
