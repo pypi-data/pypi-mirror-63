@@ -1,0 +1,15 @@
+autoinstallcmtpack-1.1.0.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+configCmtPack/CheckBOSS.py,sha256=4d81J3QjRzhHcdZbvqIlkvgNppgCoV8oXOAhr1Rldyw,1125
+configCmtPack/GitSvc.py,sha256=tmArdZUaWSYuV7TQ4_16HmlXF6TR8PfU6MHHZQ6_0X4,4108
+configCmtPack/PackageSvc.py,sha256=-thJrBSK6H-MasQ5SDjQFLrVxRzfUWlASPr5bqiWoHw,17
+configCmtPack/ProcessRequire.py,sha256=f_GBuIgNobvH-jT7xKhUmNt2jBcYeuEGPY3HfRBAPWk,2664
+configCmtPack/RepoSet.py,sha256=nGjeuwZKyi4IVHyq6seNbleyKDKR9PMKkrFOLparwyM,1959
+configCmtPack/__init__.py,sha256=f4WwpG6Fbz-ecSSAlOFvVIGdWpAaSQzQ3Y7EYPhssmc,278
+configCmtPack/main.py,sha256=BqisX7wi7hyKIQaTQxGfYgUUsjRizDVOYBCuX9ZwqJw,1352
+configCmtPack/util.py,sha256=KBsMBrzSO8aaky3R5zUO7tg4RyYW5l9_bo3w8LpktdA,822
+autoinstallcmtpack-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+autoinstallcmtpack-1.1.0.dist-info/METADATA,sha256=Ybx4AEO2-ejuzNzw6RJGyaztWmPv793MSJEaJT35aXo,237
+autoinstallcmtpack-1.1.0.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+autoinstallcmtpack-1.1.0.dist-info/entry_points.txt,sha256=FX-ghs1zMi-MYesFTNuWrfc2ca3_g_rOZh6i86awdoE,57
+autoinstallcmtpack-1.1.0.dist-info/top_level.txt,sha256=TI-co1XORbtc0lMxpVP36hSJ1NfY4o0g6My6E6x0YQ8,14
+autoinstallcmtpack-1.1.0.dist-info/RECORD,,
