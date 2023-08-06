@@ -1,0 +1,7 @@
+include distruct/_diSTruct.pyx
+include distruct/src/*
+include distruct/src/aux/*
+include distruct/tests/*
+include distruct/share/*
+include distruct/share/tests/*
+include distruct/share/tests/test.ff/*
