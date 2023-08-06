@@ -1,0 +1,7 @@
+rotest
+tqdm
+tkscrolledframe
+
+[dev]
+flake8
+pylint

@@ -1,0 +1,5 @@
+[rotest.result_handlers]
+full_progress = rotest_progress:FullProgressHandler
+progress = rotest_progress:CurrentProgressHandler
+tk_progress = rotest_progress:TkinterProgressHandler
+
