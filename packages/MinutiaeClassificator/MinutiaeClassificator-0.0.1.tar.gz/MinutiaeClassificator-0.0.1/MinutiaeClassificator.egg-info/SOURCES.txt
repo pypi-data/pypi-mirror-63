@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+MinutiaeClassificator/App.py
+MinutiaeClassificator/ClassifyNetWrapper.py
+MinutiaeClassificator/MinutiaeExtractorWrapper.py
+MinutiaeClassificator/MinutiaeNetWrapper.py
+MinutiaeClassificator.egg-info/PKG-INFO
+MinutiaeClassificator.egg-info/SOURCES.txt
+MinutiaeClassificator.egg-info/dependency_links.txt
+MinutiaeClassificator.egg-info/top_level.txt
