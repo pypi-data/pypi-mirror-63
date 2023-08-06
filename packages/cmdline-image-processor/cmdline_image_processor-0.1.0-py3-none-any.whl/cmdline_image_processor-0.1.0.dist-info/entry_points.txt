@@ -1,0 +1,3 @@
+[console_scripts]
+ipl = ipl.image_processor:main
+

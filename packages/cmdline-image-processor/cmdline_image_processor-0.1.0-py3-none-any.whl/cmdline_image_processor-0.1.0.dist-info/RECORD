@@ -1,0 +1,17 @@
+ipl/__init__.py,sha256=cWnvqtJKo-C2gxqNtdeczPEXjORJA2gIWtxMVeEs61M,115
+ipl/__main__.py,sha256=uhdlddjEqjakvTJji2x25_CzWa87lNXCCyBJDPc3t0E,77
+ipl/_logging.py,sha256=8mMNl8X-YdiYkM7rmh8kiYHQ2AdLtlwD0XY4e22Epyo,1010
+ipl/errors.py,sha256=FEgxc9A_1PzsD1-4AYPoIYLRZ4q7abYdJQf-hkcxqmY,225
+ipl/image_analysis.py,sha256=dFT_36wuQVUJGlfBjpnwFTAPrE6mn1deQyv5qbGZzKw,2329
+ipl/image_processor.py,sha256=wb3lqkCFXCRdJNg0nKdMkOaNHFZ-lwX9naiiDaSlFfg,11031
+ipl/importexport.py,sha256=Cb-nemligVdNO9-gstlRd-mxWDfwBq2w7GXZEeQxmsM,3579
+ipl/visualization.py,sha256=tAZGfLJGARThIChX7jMI8moxZCMqv0ILeq45eHG3KFA,7025
+ipl/workflows.py,sha256=Cdt0O_jVE77cn-m2eb7zeohmaXdMFjX10omvTZ54Yyg,15739
+ipl/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipl/database/image_db.py,sha256=oWo181EQqsCbi84zM7jGuDxPY58TNociMb3w0cMI2Ls,8162
+cmdline_image_processor-0.1.0.dist-info/LICENCE.txt,sha256=U7iknsKjAtNMk1Cg1Anx-DmPwX5TvxPygbWHQjGLxBc,1094
+cmdline_image_processor-0.1.0.dist-info/METADATA,sha256=WVxR9IeQP7wfVilBepM2FIo6t2tkAHgDaFd-jTp9yI4,2055
+cmdline_image_processor-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cmdline_image_processor-0.1.0.dist-info/entry_points.txt,sha256=e5YPooF16TijBkhkLDDgDD0JWEdh-rk3e3fmb2-ItSI,50
+cmdline_image_processor-0.1.0.dist-info/top_level.txt,sha256=pLGVEWC4RPIz6jgRIOw7wyWGP5AGXiTJnZTq8iPYFVg,4
+cmdline_image_processor-0.1.0.dist-info/RECORD,,
