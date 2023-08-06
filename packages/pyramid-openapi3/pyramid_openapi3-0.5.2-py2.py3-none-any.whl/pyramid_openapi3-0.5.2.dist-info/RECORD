@@ -1,0 +1,16 @@
+pyramid_openapi3/__init__.py,sha256=9J2ELAAbZCxrdNdGpCIoYlAZiVIzYhSsRrzkuLJfyck,7670
+pyramid_openapi3/exceptions.py,sha256=7ITS87tKDqIk0NxWL4xD_5kq9WNPsggCJdGW-8_UgGw,3654
+pyramid_openapi3/tween.py,sha256=xnAvikuwyfTwwvnvX0v4iWiK7kk3oMQBVhAtWg0NkgE,1929
+pyramid_openapi3/wrappers.py,sha256=kx6yfrCLLrITzagSSjP3s63CcdOrhn6qjzBidfPUKCU,1648
+pyramid_openapi3/static/index.html,sha256=7saJp0XXkqouIkQWxsZdFcmNdKRa7VQqgtWvDrpdoFs,3645
+pyramid_openapi3/tests/__init__.py,sha256=mJkaZzvYgBnxsBAGv8y_P1yzonHqWgw6VF2Zs4rmJEA,7
+pyramid_openapi3/tests/test_add_formatter.py,sha256=QvJi3fw3AGaW6CLVqW_e8l8ISlu425RumBswFVvqGso,564
+pyramid_openapi3/tests/test_extract_errors.py,sha256=Yn3yyXuicO5sPjz2m-0e7QrK4hAhO4yI7FqSQY0AeCI,15756
+pyramid_openapi3/tests/test_validation.py,sha256=skU_Z39S1diTO0imdXMhjNfBjPGj7vufllFWpI8DHnE,7498
+pyramid_openapi3/tests/test_views.py,sha256=t_FVRcR_-WW2U7PkpOYJWNWNUVdkJSm1VTzRMsTz1Ls,11496
+pyramid_openapi3/tests/test_wrappers.py,sha256=hvwr6AhBjo0Ue5wIFSDsZsxkTaZnMSQ_eC9yo7AkPSU,2360
+pyramid_openapi3-0.5.2.dist-info/LICENSE,sha256=4ue-2ZopieofUKd-F6Bb7I3wqGboU1_wCFqbGkpmG4I,1076
+pyramid_openapi3-0.5.2.dist-info/METADATA,sha256=yOY-FMPIxn8hcYlkt4djvqTekIFc4bF8Vvk4v-Hfj5w,12213
+pyramid_openapi3-0.5.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyramid_openapi3-0.5.2.dist-info/top_level.txt,sha256=ypW5z9gCw8evw_q3wZaS3R0Xy8fyvaSmPQ-pGcggCaE,17
+pyramid_openapi3-0.5.2.dist-info/RECORD,,
