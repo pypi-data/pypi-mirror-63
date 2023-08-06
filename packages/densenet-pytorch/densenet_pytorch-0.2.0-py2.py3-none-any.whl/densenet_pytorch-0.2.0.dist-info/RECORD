@@ -1,0 +1,8 @@
+densenet_pytorch/__init__.py,sha256=j0MUWp0XXCU8z4V3uO-kTtRnmpt-wuf30D_WPn9avJU,831
+densenet_pytorch/model.py,sha256=Iz9LcfZLOsPdHlEcS007LaOeLfloyRQoj4CysnUUVPo,9898
+densenet_pytorch/utils.py,sha256=tJRh12J824Mw1tOLbnPRATeRUARa27-yUeodR9XNCtU,4886
+densenet_pytorch-0.2.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+densenet_pytorch-0.2.0.dist-info/METADATA,sha256=k2ZqIi867HI15XCHK_pXGhjT-voaw-IdM4RWeu_F8VY,9444
+densenet_pytorch-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+densenet_pytorch-0.2.0.dist-info/top_level.txt,sha256=OfnDkmV2Bg-EJT49fzJD9v8XsjnnRcIZxCxWTRIhC84,17
+densenet_pytorch-0.2.0.dist-info/RECORD,,
