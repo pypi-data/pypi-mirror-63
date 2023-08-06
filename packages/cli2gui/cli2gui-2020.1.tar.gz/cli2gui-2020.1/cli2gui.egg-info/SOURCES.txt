@@ -1,0 +1,8 @@
+README.md
+setup.py
+cli2gui/__init__.py
+cli2gui/decorators.py
+cli2gui.egg-info/PKG-INFO
+cli2gui.egg-info/SOURCES.txt
+cli2gui.egg-info/dependency_links.txt
+cli2gui.egg-info/top_level.txt
