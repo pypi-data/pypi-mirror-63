@@ -1,0 +1,12 @@
+README.md
+setup.py
+VkBotLib.egg-info/PKG-INFO
+VkBotLib.egg-info/SOURCES.txt
+VkBotLib.egg-info/dependency_links.txt
+VkBotLib.egg-info/requires.txt
+VkBotLib.egg-info/top_level.txt
+test/test_bot_pytest.py
+vk_bot/__init__.py
+vk_bot/logging.py
+vk_bot/types.py
+vk_bot/vk_bot.py
