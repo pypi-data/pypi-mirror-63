@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: jsonnet_docblock_parser
+Version: 0.1.2
+Summary: Simple, powerfull jsonnet docblock parser that returns a JSON representation to work with.
+Home-page: https://github.com/legovaer/jsonnet-docblock-parser
+Author: Levi Govaerts
+Author-email: legovaer@me.com
+License: MIT
+Download-URL: https://github.com/legovaer/jsonnet-docblock-parser
+Description: UNKNOWN
+Keywords: jsonnet,docblock,json,parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
