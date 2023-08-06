@@ -1,0 +1,12 @@
+click
+sqlalchemy
+pandas
+policyuniverse
+PyYAML
+beautifulsoup4
+html5lib
+lxml
+jinja2
+requests
+schema
+click_log
