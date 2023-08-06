@@ -1,0 +1,10 @@
+setup.py
+distributions_jesus/Binomialdistribution.py
+distributions_jesus/Gaussiandistribution.py
+distributions_jesus/Generaldistribution.py
+distributions_jesus/__init__.py
+distributions_jesus.egg-info/PKG-INFO
+distributions_jesus.egg-info/SOURCES.txt
+distributions_jesus.egg-info/dependency_links.txt
+distributions_jesus.egg-info/not-zip-safe
+distributions_jesus.egg-info/top_level.txt
