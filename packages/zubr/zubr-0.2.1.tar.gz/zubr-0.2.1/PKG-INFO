@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: zubr
+Version: 0.2.1
+Summary: Zubr exchange SDK
+Home-page: http://github.com/zubr/sdk
+Author: Zubr Exchange Developers
+Author-email: developer@zubr.io
+License: MIT
+Description: # Zubr exchange SDK
+        ## Simple example
+        ```python
+        from zubr import ZubrSDK
+        
+        zubr = ZubrSDK(
+            api_key='YOUR-API-KEY-HERE',
+            api_secret='YOUR-API-SECRET-HERE',
+            default_callback=lambda message: (
+                print('New message: ', message)
+            )
+        )
+        
+        def on_instruments(message):
+            for value in message['value'].values():
+                print(f'instrument {value["symbol"]}, {value["id"]}')
+        
+        zubr.subscribe_instruments(on_instruments)
+        zubr.run_forever()
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
