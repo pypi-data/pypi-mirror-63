@@ -1,0 +1,10 @@
+README.md
+setup.py
+xpandas/__init__.py
+xpandas/main.py
+xtalpi_pandas.egg-info/PKG-INFO
+xtalpi_pandas.egg-info/SOURCES.txt
+xtalpi_pandas.egg-info/dependency_links.txt
+xtalpi_pandas.egg-info/entry_points.txt
+xtalpi_pandas.egg-info/requires.txt
+xtalpi_pandas.egg-info/top_level.txt
