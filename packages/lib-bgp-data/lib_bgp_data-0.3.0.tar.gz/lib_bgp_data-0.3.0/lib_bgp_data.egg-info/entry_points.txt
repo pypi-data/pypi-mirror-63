@@ -1,0 +1,3 @@
+[console_scripts]
+lib_bgp_data = lib_bgp_data.__main__:main
+
