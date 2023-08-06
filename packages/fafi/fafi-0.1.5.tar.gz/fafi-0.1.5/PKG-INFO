@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: fafi
+Version: 0.1.5
+Summary: CLI for indexing Firefox bookmarks.
+License: MIT
+Author: Sander van Dragt
+Author-email: sander@vandragt.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.3,<2.0.0)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: newspaper3k (>=0.2.8,<0.3.0)
+Description-Content-Type: text/x-rst
+
+
+Fafi
+====
+
+Search Firefox bookmark contents, with this commandline client. Fafi extracts the content of the bookmarks and stores them into a searchable SQLite database.
+
+Things it does:
+
+
+* Detects your places database from the Firefox profile folder.
+* Extract main text content from all bookmarks into ``./data/faff.sqlite``.
+* Skips .local domains
+* Skips pages that are already indexed.
+* Search results are ranked by relevance and displayed with snippets.
+
+URLs are stored together with the main page context as determined by `Newspaper <https://github.com/codelucas/newspaper>`_.
+
+Users
+-----
+
+.. code-block::
+
+   pipx install fafi
+   fafi index
+   fafi search 'linux'
+
+Developers
+----------
+
+.. code-block::
+
+   # Install project requirements.
+   poetry install
+
+   # Log in to a python shell
+   poetry shell
+
+   # Make faff executable
+   chmod +x fafi.py
+
+   # Index bookmarks
+   ./fafi.py index
+
+   # Search for linux
+   ./fafi.py search 'linux'
+
+
+.. image:: https://user-images.githubusercontent.com/594871/76201330-ffcba880-61ea-11ea-9fdd-cc32a90deecd.png
+   :target: https://user-images.githubusercontent.com/594871/76201330-ffcba880-61ea-11ea-9fdd-cc32a90deecd.png
+   :alt: search query
+
+
