@@ -1,0 +1,6 @@
+README.md
+setup.py
+pybuildutils.egg-info/PKG-INFO
+pybuildutils.egg-info/SOURCES.txt
+pybuildutils.egg-info/dependency_links.txt
+pybuildutils.egg-info/top_level.txt
