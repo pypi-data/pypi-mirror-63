@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        intermine_boot=intermine_boot:cli
+    

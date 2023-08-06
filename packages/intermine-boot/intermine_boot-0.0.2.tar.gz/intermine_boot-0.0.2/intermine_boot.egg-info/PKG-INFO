@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: intermine-boot
+Version: 0.0.2
+Summary: A CLI tool to spin up local containers in which to build an InterMine.
+Home-page: http://www.intermine.org
+Author: InterMine team
+Author-email: all@intermine.org
+License: LGPL
+Project-URL: Bug Reports, https://github.com/intermine/intermine_boot/issues
+Project-URL: Source, https://github.com/intermine/intermine_boot
+Description: intermine_boot
+        --------------
+        A CLI tool to spin up local containers in which to build an InterMine.
+        
+Keywords: genomic,bioinformatics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
