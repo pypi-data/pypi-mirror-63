@@ -1,0 +1,8 @@
+README.md
+setup.py
+algonautsutils.egg-info/PKG-INFO
+algonautsutils.egg-info/SOURCES.txt
+algonautsutils.egg-info/dependency_links.txt
+algonautsutils.egg-info/not-zip-safe
+algonautsutils.egg-info/requires.txt
+algonautsutils.egg-info/top_level.txt
