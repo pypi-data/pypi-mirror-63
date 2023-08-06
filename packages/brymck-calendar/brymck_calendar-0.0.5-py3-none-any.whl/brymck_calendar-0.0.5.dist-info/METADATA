@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: brymck-calendar
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/brymck/proto
+Author: Bryan Lee McKelvey
+Author-email: bryan.mckelvey@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: grpcio (<2.0,>=1.0)
+Requires-Dist: grpcio-tools (<2.0,>=1.0)
+Requires-Dist: protobuf (<4.0,>=3.0)
+Requires-Dist: brymck-dates
+
+UNKNOWN
+
+
