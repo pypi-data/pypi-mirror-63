@@ -1,0 +1,8 @@
+setup.py
+read_edf/__init__.py
+read_edf/edf_reader.py
+read_edf.egg-info/PKG-INFO
+read_edf.egg-info/SOURCES.txt
+read_edf.egg-info/dependency_links.txt
+read_edf.egg-info/requires.txt
+read_edf.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: read-edf
+Version: 0.0.1
+Summary: Simple .edf reader.
+Home-page: UNKNOWN
+Author: Vladimir Starostin
+Author-email: vladimir.starostin@uni-tuebingen.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
