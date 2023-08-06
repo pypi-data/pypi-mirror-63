@@ -1,0 +1,16 @@
+amdgpu_pptable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amdgpu_pptable/dump.py,sha256=5a3OUn6gLvjB7zgnZJkKvvLQYtT9VRJivwrVlW6By-c,1314
+amdgpu_pptable/pptable_v1_0.py,sha256=rxLJhBtfXFdjzQuQL4oFTv1U2Ib7liENRwpeS0yUuVw,2915
+amdgpu_pptable/smu_v11_0_pptable_navi10.py,sha256=OWALIZpFeQ0G6JYtvb9FVB5M-n_-PM384yPYLefszzU,2652
+amdgpu_pptable/vega10_pptable.py,sha256=dvjXx6M25sQHD8oAAFBsVTfZTG8HblkHOxFNYcEcAp4,3741
+amdgpu_pptable/version.py,sha256=k8i4ekp3tc61PT-m99fAag5NE98HVkeBvkcz8Rzn1KA,116
+amdgpu_pptable/version_detect.py,sha256=vwgQzS86UbL747XEyJggwlUTuJLIQQ1jpJDarOx_Epw,693
+amdgpu_pptable/generated/__init__.py,sha256=3pp-ji5LKPLSDI8WgqwFjbm0Lrs0D9tTQh-yPospjNY,60
+amdgpu_pptable/generated/pptable_v1_0.py,sha256=O_Yaa1Dsaro2HoVcZGTsLuOf8Fa1KLi7aRCRbRrXMbA,22053
+amdgpu_pptable/generated/smu_v11_0_pptable_navi10.py,sha256=biOaOFZfk7KibjzYE-mF_DYeYcSXyy-rkgdzkvuqA0E,21375
+amdgpu_pptable/generated/vega10_pptable.py,sha256=5A3wirTRxqnRVWXC9vBC3J0XBpZAJY_UsnsBYVXuMBs,24572
+amdgpu_pptable-0.9.1.dist-info/LICENSE.txt,sha256=KvP5G7PZ-BiioFmSKt7dTSBg2OHh-M5Gm4RQIxssPqo,1072
+amdgpu_pptable-0.9.1.dist-info/METADATA,sha256=VP8Ha3MslellEuGiVO7_WAILAcwp5ONVNEfaHnklozU,1853
+amdgpu_pptable-0.9.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+amdgpu_pptable-0.9.1.dist-info/top_level.txt,sha256=Q6YBJzBMkRwDf6Eh_IQCJp4DM1imHuaq0rKq_1sFViQ,15
+amdgpu_pptable-0.9.1.dist-info/RECORD,,
