@@ -1,0 +1,8 @@
+vgg_pytorch/__init__.py,sha256=eFC3C8H7DUpnMB0DIXLIPzyEyIjVQgoqe8w-x2XOYEY,730
+vgg_pytorch/model.py,sha256=0JVd6hlj7x6PCgv0h4BjvmB2Hpa38K-aS5xXDrbHXm8,4747
+vgg_pytorch/utils.py,sha256=P5VUPnBFOQz_HIzJbmls1yiE7A7rFS1dmdsBBGdM6Os,3965
+vgg_pytorch-0.3.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+vgg_pytorch-0.3.0.dist-info/METADATA,sha256=9Ns4b7rDrIseVMv6s1HfKXUBge8eKCYTaJlInOdBfWU,9848
+vgg_pytorch-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+vgg_pytorch-0.3.0.dist-info/top_level.txt,sha256=jFARLAbG0jtsmJpbfjjlTMo-obbWDEBnLTWli6Z7SR8,12
+vgg_pytorch-0.3.0.dist-info/RECORD,,
