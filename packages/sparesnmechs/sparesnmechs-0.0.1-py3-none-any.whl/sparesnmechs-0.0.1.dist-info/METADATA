@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: sparesnmechs
+Version: 0.0.1
+Summary: Sparesnmechs project
+Home-page: https://pypi.org/manage/projects/sparesnmechs/
+Author: Kenneth Mathenge
+Author-email: mathenge362@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: Pillow (~=6.2.1)
+Requires-Dist: django-crispy-forms (~=1.8.1)
+Requires-Dist: django-environ (~=0.4.5)
+Requires-Dist: django-filter (~=2.2.0)
+Requires-Dist: django-heroku (~=0.3.1)
+Requires-Dist: django (~=2.2.10)
+Requires-Dist: flake8 (~=3.7.9)
+Requires-Dist: gunicorn (~=20.0.4)
+Requires-Dist: model-bakery (~=1.0.2)
+Requires-Dist: psycopg2 (~=2.8.4)
+Requires-Dist: pytest-cov (~=2.8.1)
+Requires-Dist: pytest-django (~=3.7.0)
+Requires-Dist: tox (~=3.14.1)
+Requires-Dist: twine (~=3.1.1)
+Requires-Dist: wheel (~=0.34.2)
+
+Sparesnmechs
+============
+This is a platform that connects car owners to spare part dealers and mechanics.
+
+How to install the project
+--------------------------
+Prerequisites
+~~~~~~~~~~~~~
+Make sure you have the following before beginning:
+
+	- python3-dev
+	- git
+	- pip
+	- virtualenv
+	- postgresql
+
+Cloning from Github
+~~~~~~~~~~~~~~~~~~~
+From your terminal got to the directory you want to clone your project into.
+
+.. code:: bash
+
+	$ cd path/to/your/directory
+
+Clone the project
+
+.. code:: bash
+
+	$ cd git clone git@github.com:sparesnmechs/sparesnmechs.git
+
+Set up the environment variables
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a env.sh file in your parent project directory
+
+.. code:: bash
+
+	$ cd path/to/your/directory/sparesnmechs
+	$ touch env.sh
+
+Add these environment variables to your ``env.sh`` file:
+
+.. code:: bash
+
+	#!/usr/bin/env bash
+
+	export SECRET_KEY="your-secret-key"
+	export DEBUG="true"  #For development only
+	export DB_NAME="db_name"
+	export DB_USER="db_user"
+	export DB_PASS="db_pass"
+	export DB_HOST="127.0.0.1"
+	export DB_PORT="5432"
+
+Setting up the projects dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Navigate into the projects directory from the terminal.
+
+.. code:: bash
+
+	$ cd path/to/your/directory/sparesnmechs
+
+Create a virtual environment for your project
+
+.. code:: bash
+
+	$ python3 -m venv name-of-your-virtualenv
+
+Activate your virtual environment.
+
+.. code:: bash
+
+	$ source name-of-your-virtualenv/bin/activate
+
+Source your env.sh file.
+
+.. code:: bash
+
+	$ source env.sh
+
+Install the requirements.
+
+.. code:: bash
+
+	(name-of-your-virtualenv)$ pip install -r requirements.txt
+
+Running and testing the project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a ``postgresql`` database with the information in ``env.sh``.
+
+Make the initial migrations:
+
+.. code:: bash
+
+	(name-of-your-virtualenv)$ ./manage.py makemigrations
+	(name-of-your-virtualenv)$ ./manage.py migrate
+
+To run the project:
+
+.. code:: bash
+
+	(name-of-your-virtualenv)$ ./manage.py runserver # the information below will be displayed if everything is okay
+	Performing system checks...
+
+	System check identified no issues (0 silenced).
+	December 7, 2019 - 18:55:56
+	Django version 3.0, using settings 'config.settings'
+	Starting development server at http://127.0.0.1:8000/
+	Quit the server with CONTROL-C.
+
+To test the project:
+
+.. code:: bash
+
+	(name-of-your-virtualenv)$ tox -r # This will run all the tests in the project
+
+Credits
+-------
+Developed by **Kenneth Mathenge**
+
+
