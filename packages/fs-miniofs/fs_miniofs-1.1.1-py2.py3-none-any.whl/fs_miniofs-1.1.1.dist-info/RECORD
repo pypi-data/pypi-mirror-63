@@ -1,0 +1,10 @@
+fs_miniofs/__init__.py,sha256=C3nhQ6hgEwKyGA9S0po47y7t1bb-CYo5WpGaoYfWTyU,64
+fs_miniofs/_miniofs.py,sha256=-QUBk0w8y_JLbHyJHO8Qzyj6Qh0SibsAXgA_ZAhXW4U,26680
+fs_miniofs/_version.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+fs_miniofs/opener.py,sha256=Y3sop7EH2ekRZBtVjy2rj1bhv20PVgvhbKi1nXg6yFc,1225
+fs_miniofs-1.1.1.dist-info/LICENSE,sha256=l19sSKIIAqX04EEKC1Wbt_B9z0Kh7jGBUpgbEw_0FA8,1069
+fs_miniofs-1.1.1.dist-info/METADATA,sha256=n6ANnWWYGVUhfvKWkr_yDHGJVFjGNCM-JlOextCwgK4,4106
+fs_miniofs-1.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+fs_miniofs-1.1.1.dist-info/entry_points.txt,sha256=U8_Kr28ehM71LvdzpoPF-ut560bcw_wEYQeTg8BJ7No,53
+fs_miniofs-1.1.1.dist-info/top_level.txt,sha256=HMoTqLSDRe4s9f42HqihbNTd-be1chszyxpica-E65U,11
+fs_miniofs-1.1.1.dist-info/RECORD,,

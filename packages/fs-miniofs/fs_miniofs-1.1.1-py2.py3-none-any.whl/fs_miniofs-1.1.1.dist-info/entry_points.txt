@@ -1,0 +1,3 @@
+[fs.opener]
+minio = fs_miniofs.opener:MINIOFSOpener
+
