@@ -1,0 +1,264 @@
+*, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
+}
+
+.monospace {
+    font-family: 'Courier New', 'Courier';
+    background: #efefef;
+    padding: 2px;
+}
+
+.grid-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1, .h1 {
+    color: #3bafda;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+h2, .h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+h3, .h3 {
+    font-size: 1.25rem;
+    margin-top: 2.0rem;
+    margin-bottom: 0.5em;
+    padding: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+h4, .h4 {
+    font-size: 1.0rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+.blue h2{ background: #3bafda;}
+.blue h3{ color: #3bafda; border-bottom: 2px solid #3bafda;}
+.green h2{ background: #2ad7b0;}
+.green h3{ color: #2ad7b0; border-bottom: 2px solid #2ad7b0; }
+.purple h2{ background: #da3baf; }
+.purple h3{ color: #da3baf; border-bottom: 2px solid #da3baf; }
+.orange h2{ background: #f6bb42; }
+.orange h3{ color: #f6bb42; border-bottom: 2px solid #f6bb42; }
+.red h2 { background: #fe174b; }
+.red h3 { color: #fe174b; border-bottom: 2px solid #fe174b; }
+
+p, div, label { color: #333; }
+
+form { text-align: left; }
+label { font-weight: bold; }
+textarea { height: 100px; }
+
+#submit {
+    margin-top: 1rem;
+}
+
+p.before-list {
+    margin-bottom: 0;
+}
+
+pre {
+    font-family: 'Courier New', 'Courier';
+    background: #f6f6f6;
+    padding: 0.5rem;
+    overflow: visible;
+    border-radius: 0.3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 1rem;
+}
+ul, ol {
+    margin-bottom: 1rem;
+}
+
+/* table of contents */
+.toc {
+    background: #f6f6f6;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.section:nth-child(even) .toc h3 {
+    color: #333;
+    font-size: 1.0rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-color: #ccc;
+    border-width: 1px;
+}
+.toc a {
+    color: #333;
+}
+.toc a:hover {
+    color: #3bafda;
+}
+.toc ul li{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 120%;
+}
+.toc ul ul li {
+    margin-top: 0;
+    font-size: 0.85rem;
+    line-height: 120%;
+}
+
+/* sections */
+.section:nth-child(even) h2 { background: #f6bb42; }
+.section:nth-child(even) h3 { color: #f6bb42; border-bottom: 2px solid #f6bb42; }
+
+.section:nth-child(odd) h2 { background: #3bafda;}
+.section:nth-child(odd) h3 { color: #3bafda; border-bottom: 2px solid #3bafda;}
+
+/* lists */
+li {
+    margin-top: 0.125rem;
+}
+li.highlight {
+    list-style-type: circle;
+}
+.vertically-spaced-list > li {
+    margin-top: 0.5rem;
+}
+
+/* tables */
+thead th, thead td, tbody th, tbody td {
+    padding: .2rem .3125rem .3125rem;
+}
+
+/* example schema */
+table.example-tabular-schema thead tr:first-child {
+    background-color: rgb(180, 180, 180);
+}
+table.example-tabular-schema thead tr:nth-child(2) {
+    background-color: rgb(220, 220, 220);
+}
+
+table.example-tabular-schema tbody {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+table.example-tabular-schema tbody tr:first-child td {
+    height: 1.5rem;
+    font-size: 2px;
+}
+table.example-tabular-schema tbody tr:nth-child(2) {
+    border-top: 1px solid #f1f1f1;
+    background-color: rgb(220, 220, 220);
+    font-weight: bold;
+}
+table.example-tabular-schema tbody tr:not(:first-child) {
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+
+/* data types */
+thead.data-type-title tr {
+    background-color: rgb(180, 180, 180);
+}
+thead.data-type-title th {
+    white-space: nowrap;
+}
+
+thead.data-type-section-head {
+    background: none;
+    border: none;
+}
+thead.data-type-section-head tr:first-child th {
+    height: 2rem;
+}
+thead.data-type-section-head tr:nth-child(2) {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid #f1f1f1;
+}
+
+tbody.data-type-section tr:nth-child(4n+0),
+tbody.data-type-section tr:nth-child(4n+3),
+tbody.data-type-section tr:nth-child(even),
+tbody.data-type-section tr:nth-child(odd) {
+    background: none;
+}
+tbody.data-type-section tr:nth-child(4n+1),
+tbody.data-type-section tr:nth-child(4n+2) {
+    background-color: rgb(241, 241, 241);
+}
+tbody.data-type-section tr:nth-child(4n+1) td,
+tbody.data-type-section tr:nth-child(4n+3) td{
+    padding-bottom: 0;
+}
+tbody.data-type-section tr:nth-child(4n+0) td,
+tbody.data-type-section tr:nth-child(4n+2) td {
+    padding-top: 0;
+}
+tbody.data-type-section tr:nth-child(4n+0) td:first-child,
+tbody.data-type-section tr:nth-child(4n+2) td:first-child {
+    font-style: italic;
+}
+tbody.data-type-section tr:nth-child(4n+1) td:first-child,
+tbody.data-type-section tr:nth-child(4n+3) td:first-child,
+tbody.data-type-section tr:nth-child(4n+1) td:nth-child(2),
+tbody.data-type-section tr:nth-child(4n+3) td:nth-child(2) {
+    font-family: 'Courier New', 'Courier';
+}
+tbody.data-type-section td .monospace {
+    background: none;
+}
+
+/* example dataset */
+.example-tabular-dataset .doc-head th {
+    background: rgb(180, 180, 180);
+}
+.example-tabular-dataset .class-head th {
+    background: rgb(200, 200, 200);
+}
+.example-tabular-dataset .col-head th {
+    background: rgb(220, 220, 220);
+}
+.example-tabular-dataset .col-head:nth-child(2) th:not(.empty) {
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+.example-tabular-dataset tbody th {
+    text-align: left;
+    background: rgb(220, 220, 220);
+}
+.example-tabular-dataset tbody th[rowspan="5"] {
+    border-right: 1px solid #999;
+    max-width: calc(22px + 2 * 0.3125rem);
+    padding-top: 2rem;
+}
+.example-tabular-dataset tbody th:first-child div {
+    transform: rotate(-90deg);
+}
+
+/* example files */
+table.examples th, table.examples td {
+    white-space: nowrap;
+}
+table.examples td.indent {
+    padding-left: 1.325rem;
+}
+table.examples td.indent-x2 {
+    padding-left: 2.325rem;
+}
