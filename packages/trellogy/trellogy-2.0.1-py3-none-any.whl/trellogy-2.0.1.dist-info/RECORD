@@ -1,0 +1,16 @@
+trellogy/__init__.py,sha256=zduLqv-leZGwOBSrjS5bTjzuZ63eOdm2KssKKZNrUNA,83
+trellogy/api.py,sha256=EDg1JA_oxhTlPGYMG2FKHOfU4Ry9acn7RThupyyzqLk,4507
+trellogy/attachment.py,sha256=BKT5uqegGApZcjvhnYyakptDENwkBYwlBLuHeGBaSd8,1282
+trellogy/board.py,sha256=GT_lvMWYwRJjmBZ99fOxntMtBbTYdDDZ8TP80fMs6zA,9419
+trellogy/card.py,sha256=hsp3vNrc2c_bPM9g-WVaW-OlTszbewF5ConvFD095p8,6220
+trellogy/component.py,sha256=lCj3Xk74m1J45L8z1TqXpSwbonl1MAvF37FQybDVHRI,2332
+trellogy/components.py,sha256=6ViMrXJBKz2D6sROdeKoGj3HOelaqSrcWs8pgYRigK0,10191
+trellogy/error.py,sha256=dmpoBeHG3brj5iraGFF0JtMtlgpVdoiJR3gaOp4LwVM,522
+trellogy/label.py,sha256=OIgStst4FYnvBKOSGW_GhLkCp8Vzl1sn9px0kICJQCk,3620
+trellogy/list.py,sha256=foYady7bCTHpH2euhsowFfMo3RxQYg-cBJZ-3uggDnw,6706
+trellogy/trash_bin.py,sha256=lWT_07yT1FYUBESmpzVtdvhQexxQMkjeLOOJ9oeCrs4,2148
+trellogy/trellogy.py,sha256=ybntoEJxkauu4M50Jw9w6W4Owt-r7usinP2yBhBvrPY,2138
+trellogy-2.0.1.dist-info/METADATA,sha256=lAYEx2HgstYBuCQ7Okv9ODWyogeOd0ljxEwNFytyM8E,445
+trellogy-2.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+trellogy-2.0.1.dist-info/top_level.txt,sha256=vSaYP4K9y7idiuibhwST8llAhoMinl2IVS5LsqwnPX4,9
+trellogy-2.0.1.dist-info/RECORD,,
