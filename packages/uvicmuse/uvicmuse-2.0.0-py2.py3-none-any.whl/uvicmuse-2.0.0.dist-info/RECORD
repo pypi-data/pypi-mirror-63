@@ -1,0 +1,14 @@
+uvicmuse/Backend.py,sha256=e1O_QOvKNCl_X4Xqnygy4AXVBtKJgeEOub2iKBBxiJ8,9203
+uvicmuse/__init__.py,sha256=ZhzQKWZ8RFrTIkj7z87B144DI95e8LMfA5w8NDWQDtg,23
+uvicmuse/__main__.py,sha256=p0tv5AMqrJH92jmAWGlE32f-7Y5fz6DojLeflKPAef4,114
+uvicmuse/constants.py,sha256=hU08c5w96nqUwylK0Ucao9qHI5V-TJw-l5Z3DJQVku0,1384
+uvicmuse/helper.py,sha256=7UjiCjPk-4_r81QAqPXPS357ujmuosdUjqq59Yw-dLI,1877
+uvicmuse/interface.py,sha256=9HNpyQyu4JaCj6GBiHNbZGioQeEDcOlCvHQWrMZweqY,19609
+uvicmuse/muse.py,sha256=2k__9pvz_w62oeEO3HYfok5OhHW3ImIpZ_43aic0N-g,19002
+uvicmuse/docs/Header.png,sha256=ATLt06FH8LIW_ty5wMnQtKY3s7e4_yDNH92bB620ZWU,46822
+uvicmuse-2.0.0.dist-info/LICENSE.txt,sha256=WP4V7YXJaEwZl172Zy4wdNl0n99EtA5y_NtPbtSt0xU,1518
+uvicmuse-2.0.0.dist-info/METADATA,sha256=4zqAVDrGUsYEuIG-u2frbfzh7ZCWIQg8xmwvkWYLp60,6907
+uvicmuse-2.0.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+uvicmuse-2.0.0.dist-info/entry_points.txt,sha256=Ri4i12SgC3fvvxpOS63Is5wpcrqudsPCX3bCQ2vWUrI,53
+uvicmuse-2.0.0.dist-info/top_level.txt,sha256=pqpd0YYWfw4nfcdzvUUq0FUobOYtRyo1vvLsI0AQKZ4,9
+uvicmuse-2.0.0.dist-info/RECORD,,
