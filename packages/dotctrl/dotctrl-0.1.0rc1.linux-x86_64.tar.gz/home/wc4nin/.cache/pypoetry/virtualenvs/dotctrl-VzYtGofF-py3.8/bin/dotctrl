@@ -1,0 +1,12 @@
+#!/home/wc4nin/.cache/pypoetry/virtualenvs/dotctrl-VzYtGofF-py3.8/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'dotctrl==0.1.0rc1','console_scripts','dotctrl'
+__requires__ = 'dotctrl==0.1.0rc1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('dotctrl==0.1.0rc1', 'console_scripts', 'dotctrl')()
+    )
