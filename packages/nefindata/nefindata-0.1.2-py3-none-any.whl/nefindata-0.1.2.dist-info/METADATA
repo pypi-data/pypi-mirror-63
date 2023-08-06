@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: nefindata
+Version: 0.1.2
+Summary: Download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
+Home-page: https://github.com/fernandoramacciotti/nefindata
+Author: Fernando Ramacciotti
+Author-email: fernandoramacciotti@gmail.com
+License: MIT
+Keywords: NEFIN,financial,time series,financial market,risk factors,fama french,fama factors,Brazilian market
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.24.2)
+
+# nefindata
+Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
+
+# Installation
+The python package can be installed via pip. Run the following command:
+```sh
+pip install nefindata
+```
+
+# Risk Factors
+Collect data of risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free.
+
+Usage example:
+```python
+from nefindata.risk_factors import get_risk_factors
+
+factors = ['Mkt', 'SMB'] # for all factors, set it to 'all' or None
+df = get_risk_factors(factors)
+df_agg = get_risk_factors(factors, agg='month', agg_func='last')
+```
+
+# Cost of Capital
+Collect data of cost of capital for industrial sectors such as Basic Products, Construction, Consumer, Energy, Finance, Manufacturing and Other.
+Data is available for 1, 5, 10 and 20-year projects.
+
+Usage example:
+```python
+from nefindata.cost_capital import get_sector_cost_of_capital
+
+sector = 'Basic'
+df = get_sector_cost_of_capital(sector)
+df_agg = get_sector_cost_of_capital(sector, agg='year', agg_func='last')
+```
+
+# Other data
+Similar functions get other data such as. The syntax is similar as above.
+* [Dividend Yield](http://www.nefin.com.br/dividend_yield.html): `get_dividend_yield()`
+* [Illiquidity Index](http://www.nefin.com.br/illiquidity_index.html): `get_illiquidity_index()`
+* [Loan Fees](http://www.nefin.com.br/loan_fees.html): `get_load_fees()`
+* [Short Interest](http://www.nefin.com.br/short_interest.html): `get_short_interest()`
+
+# Next Steps
+Include data downloaders from
+* [Portfolios](http://www.nefin.com.br/portfolios.html)
+* [Spot Rate Curve](http://www.nefin.com.br/spot_rate_curve.html)
+* [Volatility Index](http://www.nefin.com.br/volatility_index.html)
+
