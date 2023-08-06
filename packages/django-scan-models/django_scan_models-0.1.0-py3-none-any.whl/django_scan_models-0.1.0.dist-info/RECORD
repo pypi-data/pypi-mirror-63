@@ -1,0 +1,14 @@
+scan_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan_models/apps.py,sha256=NtozxRzEGIg7vreGIE1lyuJcbcQRycc5xWqhGQYeipo,101
+scan_models/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan_models/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan_models/management/commands/scan_model.py,sha256=tHWGksatLH566PckQisvGkwartHTnwLQQD0tRk71AUc,1561
+scan_models/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan_models/parser.py,sha256=5DSezusUD3cIjvXkSkEC8iE3YWJpWa5W3D7y7tS9Yhg,2344
+scan_models/validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan_models/validators/base_validator.py,sha256=VE9N04HZXvMmFMvPA1pAeWcFpsVqN_6qqUQ_TEHvWbk,274
+scan_models/validators/factory.py,sha256=BPzlOHA_ZjkJMbq-hRlvmm91WCjp3xTjcnVe7h-Ew-k,295
+scan_models/validators/vee-validate.py,sha256=Qvu-MeTO9rPc3tXO10F1MlQjPMSMuoOSnVe9A3Gu164,196
+django_scan_models-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_scan_models-0.1.0.dist-info/METADATA,sha256=UgBqzExgm3MaeJFxzuzQwLyyUS1B6dg6WXVeK2sDkwM,370
+django_scan_models-0.1.0.dist-info/RECORD,,
