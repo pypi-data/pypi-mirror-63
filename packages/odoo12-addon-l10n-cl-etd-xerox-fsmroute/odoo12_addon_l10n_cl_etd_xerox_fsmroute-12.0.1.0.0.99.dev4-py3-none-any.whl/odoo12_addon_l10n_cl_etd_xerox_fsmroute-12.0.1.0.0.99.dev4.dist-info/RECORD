@@ -1,0 +1,16 @@
+odoo/addons/l10n_cl_etd_xerox_fsmroute/README.rst,sha256=4ShqAhau-n8x5_M2Y05WCLi12Apo6t-M_dHrRUuIaSU,3533
+odoo/addons/l10n_cl_etd_xerox_fsmroute/__init__.py,sha256=1JKwZrodRrV2p-DXg0NSSsUfZadaOguWKaz8pm-gTsI,193
+odoo/addons/l10n_cl_etd_xerox_fsmroute/__manifest__.py,sha256=JKt42A4Rd5Hn_vnFJWKAARuh19JYT8rgGxkANVbz3Po,710
+odoo/addons/l10n_cl_etd_xerox_fsmroute/i18n/es_CL.po,sha256=ph1Z1ohJnxoHOAuUUCZSkahwdXi423FBXzk935MXxQU,899
+odoo/addons/l10n_cl_etd_xerox_fsmroute/i18n/l10n_cl_etd_xerox_fsmroute.pot,sha256=Zpj6MEYwqJqpxU2VyTbvfuzOlnYLX8qdXQArGQAwrEE,671
+odoo/addons/l10n_cl_etd_xerox_fsmroute/models/__init__.py,sha256=saGVPa_D5WeN-OTI1kMsjkaxhNmbknoLABEFqpm_9Lc,221
+odoo/addons/l10n_cl_etd_xerox_fsmroute/models/etd_mixin.py,sha256=g_amM4t8TX64kC1TKxr6wghEM9JUob2Cat9lIf-6n1Y,605
+odoo/addons/l10n_cl_etd_xerox_fsmroute/models/fsm_route.py,sha256=_TKhPezw2uPL056CbP6TP90Ql9M8GdfA1blg4TswfgY,295
+odoo/addons/l10n_cl_etd_xerox_fsmroute/readme/CONTRIBUTORS.rst,sha256=js25LLUDfZNIpHhyapyJWPqgUdQypSmACu8s4V12Gx8,254
+odoo/addons/l10n_cl_etd_xerox_fsmroute/readme/DESCRIPTION.rst,sha256=7-QzYvR1QE8OEMmjdeCzlujLxqp6M6xksZLQnGNSr94,454
+odoo/addons/l10n_cl_etd_xerox_fsmroute/static/description/icon.png,sha256=B8QeOPg4E5G7UIO4aOsHY1IrJ7Fpgk8T8rDNhr5o3OQ,1590
+odoo/addons/l10n_cl_etd_xerox_fsmroute/static/description/index.html,sha256=wo6BDXSRPaHOrSBH-QjfRqdLFb0v5dII6GvD1nI8J38,13107
+odoo12_addon_l10n_cl_etd_xerox_fsmroute-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=QXR1P7RwZaKYsomoal6xQg9FmileccqGDyULPQI08U4,4320
+odoo12_addon_l10n_cl_etd_xerox_fsmroute-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_l10n_cl_etd_xerox_fsmroute-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_cl_etd_xerox_fsmroute-12.0.1.0.0.99.dev4.dist-info/RECORD,,
