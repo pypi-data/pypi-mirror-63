@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tfdbonas
+Version: 0.1.0
+Summary: Tensorflow Deep Bayes Optimization for Neural Network Architecture Search (tfDBONAS)
+Home-page: https://github.com/0h-n0/tfdbonas
+Author: Koji Ono
+Author-email: kbu94982@gmail.com
+License: UNKNOWN
+Description: ![Github CI/CD](https://github.com/0h-n0/tfdbonas/workflows/Github%20CI/CD/badge.svg)
+        # Tensorflow(1.x) Deep Bayes Optimization for Neural Network Architecture Search (tfDBONAS)
+        
+        ## Installation
+        
+        ```shell
+        $ # Not yet provided.
+        $ pip install tfdbonas
+        ```
+        
+        ## Requirements
+        
+        * tnng >= 0.3.0
+        * tfcg
+        * stellargraph
+        
+        ## References
+        * https://arxiv.org/abs/1502.05700
+        * https://arxiv.org/abs/1905.13403
+        * https://arxiv.org/abs/1905.06159
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Provides-Extra: docs
