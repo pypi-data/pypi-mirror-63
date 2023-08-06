@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django_jsignature3"
+packages = [
+    {include = "jsignature"}
+]
+version = "0.9.0"
+description = "Provides a simple way to handle jSignature jQuery plugin through a django form."
+authors = ["Florent Lebreton <lebreton.florent@wanadoo.fr>"]
+maintainers = ["Adremides <adremides@gmail.com>"]
+license = "LGPL-3.0+"
+repository = "https://gitlab.com/adremides/django_jsignature3/"
+
+[tool.poetry.dependencies]
+python = ">3.6"
+pillow = ">5.0.0"
+pyquery = ">1.0"
+django = ">3.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
