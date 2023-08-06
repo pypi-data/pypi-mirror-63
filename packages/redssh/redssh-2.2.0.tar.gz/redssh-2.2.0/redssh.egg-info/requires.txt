@@ -1,0 +1,13 @@
+ssh2-python
+
+[docs]
+ssh2-python
+sphinx
+sphinx_rtd_theme
+
+[tests]
+pytest-cov
+ssh2-python
+requests[socks]
+jinja2
+coveralls
