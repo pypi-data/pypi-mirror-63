@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: DataSuper
+Version: 0.11.1
+Summary: Organization for scientific projects.
+Home-page: https://github.com/dcdanko/DataSuper
+Author: David C. Danko
+Author-email: dcdanko@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: click (>=6.7)
+Requires-Dist: py-archy (~=1.0.1)
+Requires-Dist: PyYAML (~=3.12)
+Requires-Dist: tinydb (~=3.5.0)
+Requires-Dist: ujson (~=1.35)
+Requires-Dist: yaml-backed-structs (~=1.0.0)
+
+UNKNOWN
+
+
