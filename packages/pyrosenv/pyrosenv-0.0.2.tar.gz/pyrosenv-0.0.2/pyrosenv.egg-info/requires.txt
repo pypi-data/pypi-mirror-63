@@ -1,0 +1,3 @@
+pyros_setup
+rospkg
+defusedxml
