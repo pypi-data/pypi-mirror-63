@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: nss3
+Version: 4.5.16
+Summary: Simple and fast database operation
+Home-page: https://pypi.org/
+Author: Jingrui Zhu
+Author-email: 870239526@qq.com
+License: UNKNOWN
+Description: NSS3 is a database operation module made by Nanshan team.
+        It is simple and fast to use nssql.
+        The module can create database, create list, read database, change database, associate operation, import and export.
+        Functions included in this module: 
+        new_sql(sql_name='default_sql',password='None',existet=False): create a new database 
+        cursor(name=1): create cursor 
+        new_list(sql_name='default_sql',list_name='list0',existet=False,password='None'): create list 
+        new_position(sql_name='default_sql',list_name='list0',position_name='position0',data='NanShanSQL',password='None'): create location and add data 
+        new_position_file(sql_name='default_sql',list_name='list0',position_name='position2',file='File',password='None'):Add files to a position
+        open_position_file(sql_name='default_sql',list_name='list0',position_name='position2',password='None'):Open a file in a position
+        del_position(sql_name='default_sql',obj='default_sql\\list1\\position0',password='None'):Delete a position
+        close_sql(sql='default_sql'): close the database to open a new database 
+        open_sql(sql='default_sql',password='None'): get the contents of the database 
+        change_sql(sql_name='default_sql',list_name='list0',position_name='position0',new_data='NanShanSQL',password='None'): change the contents of the database 
+        change_password(sql='default_sql',new_password='None'): if there is a password, this function can change the password 
+        new_relation(sql='default_sql',obj1='default_sql\\list0\\position0',obj2='default_sql\\list1\\position0',password='None'): create a new relation 
+        open_relation(sql='default_sql',obj='default_sql\\list0\\position0',password='None'): open the data corresponding to the Association 
+        del_relation(sql='default_sql',obj='default_sql\\list0\\position0',password='None'):Delete a relation
+        del_sql(sql_name='default_sql',password='None'): delete database 
+        export_sql(ea='nssea',sql_name='default_sql',file_position='D:\\',password='None'): export the database to a file 
+        import_sql(file='D:\\default_sql.nss',sql_name='default_sql',existet=False,password='None'): import the database file 
+        open_sql_set():Get which databases in the database set
+        del_every_sql(): delete all databases
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

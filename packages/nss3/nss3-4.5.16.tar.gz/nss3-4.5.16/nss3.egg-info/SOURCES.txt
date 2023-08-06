@@ -1,0 +1,7 @@
+README.rst
+setup.py
+nss3/__init__.py
+nss3.egg-info/PKG-INFO
+nss3.egg-info/SOURCES.txt
+nss3.egg-info/dependency_links.txt
+nss3.egg-info/top_level.txt
