@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+django_with_extra_context_admin/__init__.py
+django_with_extra_context_admin/admin.py
+django_with_extra_context_admin/apps.py
+django_with_extra_context_admin/models.py
+django_with_extra_context_admin/tests.py
+django_with_extra_context_admin/views.py
+django_with_extra_context_admin.egg-info/PKG-INFO
+django_with_extra_context_admin.egg-info/SOURCES.txt
+django_with_extra_context_admin.egg-info/dependency_links.txt
+django_with_extra_context_admin.egg-info/not-zip-safe
+django_with_extra_context_admin.egg-info/requires.txt
+django_with_extra_context_admin.egg-info/top_level.txt
+django_with_extra_context_admin/migrations/__init__.py
