@@ -1,0 +1,6 @@
+wrapt==1.12.0
+autowrapt==1.0
+requests
+simplejson
+six
+future
