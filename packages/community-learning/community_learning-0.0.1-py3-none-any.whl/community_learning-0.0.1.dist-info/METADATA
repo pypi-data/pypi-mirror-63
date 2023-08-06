@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: community-learning
+Version: 0.0.1
+Summary: A poc for learning in a community.
+Home-page: https://github.com/WFR/community_learning
+Author: Wilhelm Fritsche
+Author-email: wilhelm.fritsche@gmail.com
+License: Apache Software License 2.0
+Keywords: federated learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter
+Requires-Dist: jupyter-contrib-nbextensions
+Requires-Dist: gdown
+Requires-Dist: pandas
+
+# CommunityLearning
+This project is an example of transfer learning.
+
+## Baseline 
+Die Daten werden
+
+## Variante 1
+Prediktoren werden ausgetauscht.
+
+## Variante 2
+Ein Model wird für beide Banken trainiert
+
+
