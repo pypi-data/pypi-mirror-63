@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: flake8-import-order-jwodder
+Version: 0.1.0
+Summary: Yet another import order style
+Home-page: https://github.com/jwodder/flake8-import-order-jwodder
+Author: John Thorvald Wodder II
+Author-email: flake8-import-order-jwodder@varonathe.org
+License: MIT
+Project-URL: Source Code, https://github.com/jwodder/flake8-import-order-jwodder
+Project-URL: Bug Tracker, https://github.com/jwodder/flake8-import-order-jwodder/issues
+Project-URL: Say Thanks!, https://saythanks.io/to/jwodder
+Keywords: code style,flake8,import,import order,linter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,<4,>=2.7
+Description-Content-Type: text/x-rst
+Requires-Dist: flake8-import-order (~=0.18)
+
+.. image:: http://www.repostatus.org/badges/latest/active.svg
+    :target: http://www.repostatus.org/#active
+    :alt: Project Status: Active — The project has reached a stable, usable
+          state and is being actively developed.
+
+.. image:: https://travis-ci.com/jwodder/flake8-import-order-jwodder.svg?branch=master
+    :target: https://travis-ci.com/jwodder/flake8-import-order-jwodder
+
+.. image:: https://codecov.io/gh/jwodder/flake8-import-order-jwodder/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/jwodder/flake8-import-order-jwodder
+
+.. image:: https://img.shields.io/pypi/pyversions/flake8-import-order-jwodder.svg
+    :target: https://pypi.org/project/flake8-import-order-jwodder/
+
+.. image:: https://img.shields.io/github/license/jwodder/flake8-import-order-jwodder.svg
+    :target: https://opensource.org/licenses/MIT
+    :alt: MIT License
+
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+    :target: https://saythanks.io/to/jwodder
+
+`GitHub <https://github.com/jwodder/flake8-import-order-jwodder>`_
+| `PyPI <https://pypi.org/project/flake8-import-order-jwodder/>`_
+| `Issues <https://github.com/jwodder/flake8-import-order-jwodder/issues>`_
+
+``flake8-import-order-jwodder`` defines an import order style ``jwodder`` for
+use with `flake8-import-order
+<https://pypi.org/project/flake8-import-order/>`_.  The ``jwodder`` style is
+the same as the ``appnexus`` style bundled with ``flake8-import-order``, except
+that names in ``from X import ...`` lines are sorted case-sensitively.
+
+Installation
+============
+Just use `pip <https://pip.pypa.io>`_ (You have pip, right?) to install
+``flake8-import-order-jwodder`` and its dependencies::
+
+    pip install flake8-import-order-jwodder
+
+
+Example
+=======
+An example of imports sorted according to the ``jwodder`` style::
+
+    from __future__ import absolute_import
+
+    import ast
+    from functools import *
+    import os
+    from os import path
+    import StringIO
+    import sys
+
+    import X
+    from X import *
+    from X import A
+    from X import B, C, b, d
+    import Y
+    from Y import *
+    from Y import A
+    from Y import B, C, D
+    from Y import e
+    import Z
+    from Z import A
+    from Z.A import A
+    from Z.A.B import A
+
+    from localpackage import A, b
+
+    import flake8_import_order
+    from flake8_import_order import *
+    from . import A
+    from . import B
+    from .A import A
+    from .B import B
+    from .. import A
+    from .. import B
+    from ..A import A
+    from ..B import B
+
+
