@@ -1,0 +1,3 @@
+[console_scripts]
+mimseq = mim_seq:mimseq.main
+
