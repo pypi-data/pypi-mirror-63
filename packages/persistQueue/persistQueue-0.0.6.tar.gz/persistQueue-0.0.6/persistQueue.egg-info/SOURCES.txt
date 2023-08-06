@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+persistQueue/__init__.py
+persistQueue/persistQueue.py
+persistQueue.egg-info/PKG-INFO
+persistQueue.egg-info/SOURCES.txt
+persistQueue.egg-info/dependency_links.txt
+persistQueue.egg-info/requires.txt
+persistQueue.egg-info/top_level.txt
