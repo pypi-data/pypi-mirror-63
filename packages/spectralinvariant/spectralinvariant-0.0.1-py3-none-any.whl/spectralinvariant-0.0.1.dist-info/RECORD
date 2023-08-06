@@ -1,0 +1,11 @@
+spectralinvariant/__init__.py,sha256=g8sD1FaqDnnmkPGi8HC6GsEj6p4sPdsR0AXxeDl7lno,37
+spectralinvariant/hypdatatools_algorithms.py,sha256=oH1y-CzOtGmM2JZSZaTFAB9uwy1pZwoqNlFGqH1yD3k,54799
+spectralinvariant/hypdatatools_img.py,sha256=GCgiqkI8_HSpX2JSPJbvXvQb1Bq3L9fhVJvevb7MfnE,58660
+spectralinvariant/hypdatatools_utils.py,sha256=oiYIAyHGfW6wVv3LSe_eJO0Iw0Q5waS2LARmwhWxCcM,6963
+spectralinvariant/prospect.py,sha256=OdtFfK9WgzaRe4RkGK7-yWTGW8Vx0WGn-v4_BdMpJ58,1238101
+spectralinvariant/spectralinvariants.py,sha256=75p5cdd3KU99dF_Z5PMliW-spF7UX4V1pzvWRAs0O7U,14329
+spectralinvariant-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spectralinvariant-0.0.1.dist-info/METADATA,sha256=kabjQIWmq_roQ_CdAGV4O3VzNfAwb5a7VeVj9lii9rs,1514
+spectralinvariant-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spectralinvariant-0.0.1.dist-info/top_level.txt,sha256=RsTame7ISXnvU1GWYMuUP6VlHsbZ1Nyy3Br9Z2r-f0Y,18
+spectralinvariant-0.0.1.dist-info/RECORD,,
