@@ -1,0 +1,16 @@
+octopus_python_client/__init__.py,sha256=dEMmU_NCbj9Ya8fXyS08WB0mWHOIpj13ev95OKqCdmo,82
+octopus_python_client/common.py,sha256=FJvUFY7M_VMjqniqpZDvjKVFXJ6Nvc5KuE3VOvTNoZE,41074
+octopus_python_client/hello_world.py,sha256=bhNy8I7k3d4UP3eXPlJoudrlNqlSzB1LhEPB4FgWwV8,304
+octopus_python_client/helper.py,sha256=AVmiSQG6xQI0Jro-KOqMi6Vu0Fg7v1x9ajYXTLx-IHg,4964
+octopus_python_client/main.py,sha256=lPO20kUjGacKkqIaTRFI-6cj-KP_u9qLenWPhzPI8sA,13449
+octopus_python_client/migration.py,sha256=4bNG0lf1HK3OfXHtV01INM8u_7nD0bZxqnpKuLNjotg,25676
+octopus_python_client/processes.py,sha256=CHv_c65FiAm7rYFrbItH8wuCBAmy1t-hi0RvaqDU_WY,4045
+octopus_python_client/projects.py,sha256=BMd-4g37ySurCHIdSUiGRkrTdlMuih4MDEwzjoI-k6U,4089
+octopus_python_client/send_requests_to_octopus.py,sha256=lUn_uTE-STYK9HetJgonGipxJBo0XHT-ZA0Y0Ywu2jA,3080
+octopus_python_client/configurations/configuration.json,sha256=YpWbNJXQ8ZajwlUWob494mLOkMzbaWrMCib4XvbY178,170
+octopus_python_client-1.0.3.dist-info/LICENSE,sha256=XUCNKgvthR1vY3xgQOelnXKqO0UtieXiPRoNhA7e5oE,1064
+octopus_python_client-1.0.3.dist-info/METADATA,sha256=IkT3MB64w04Ne3pTucvLPz_7aLgXkjIMw7z_0YM-LXI,2968
+octopus_python_client-1.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+octopus_python_client-1.0.3.dist-info/entry_points.txt,sha256=JbP1U82w2Xn4knmcdLPue_rz7z5FShnuO__VOBI3TEs,74
+octopus_python_client-1.0.3.dist-info/top_level.txt,sha256=ml4JbwJ1LshQIgJikEEIvNRYtvAWk14f0DStkKGpa4w,22
+octopus_python_client-1.0.3.dist-info/RECORD,,
