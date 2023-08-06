@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+aws_ecs_service/__init__.py
+aws_ecs_service/ecs_service.py
+aws_ecs_service.egg-info/PKG-INFO
+aws_ecs_service.egg-info/SOURCES.txt
+aws_ecs_service.egg-info/dependency_links.txt
+aws_ecs_service.egg-info/requires.txt
+aws_ecs_service.egg-info/top_level.txt
+aws_ecs_service/package/__init__.py
+aws_ecs_service/package/action.py
+aws_ecs_service/package/cfnresponse.py
+aws_ecs_service/package/fix_kwargs.py
+aws_ecs_service/package/index.py
+aws_ecs_service/package/response.py
