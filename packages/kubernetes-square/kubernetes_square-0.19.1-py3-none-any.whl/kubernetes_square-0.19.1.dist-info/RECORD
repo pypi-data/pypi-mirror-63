@@ -1,0 +1,13 @@
+square/__init__.py,sha256=hyC9YsMvlhLLjq9Hsgi-23_zOdHC05Zmf6XuLSwkJaQ,221
+square/dotdict.py,sha256=I-aP7zKPhf_2itQZ4p9tIoyoKq2nk4OpY3ELZho39rE,1850
+square/dtypes.py,sha256=xTDfiVcoWTBbnSeMmMhaTrgHv-NXK6iALFauaCu2dY0,5848
+square/k8s.py,sha256=MDbFCVjJmWN7vmwRwr02S_wovWTirD21XBFDkyoGYrk,23054
+square/main.py,sha256=e9MzcjRXI0EpPNE5YnCh21fHOdr4vNGnRtsHV2nCOiI,10912
+square/manio.py,sha256=zqbtPLq9lvEv0jJzd7yVGXft3p10G5-KGD-RGEG_vVQ,35689
+square/schemas.py,sha256=9KJtnU3fflctr1ILUm-CNvTyL_pe_ghzRQOmWXufIhk,3640
+square/square.py,sha256=4eMU5QG5ifZJfBfEmySjM7gsGVf_ptU8o81fFTE63zA,19472
+kubernetes_square-0.19.1.dist-info/entry_points.txt,sha256=GHSD8ASMw7tyF8n04S8RMrftWU-xb-O3zaohFe3OMoU,43
+kubernetes_square-0.19.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kubernetes_square-0.19.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+kubernetes_square-0.19.1.dist-info/METADATA,sha256=HOeKr4lRV3M4UZQjMHbS91U3Z4trApw18XoT_YQPxYo,531
+kubernetes_square-0.19.1.dist-info/RECORD,,
