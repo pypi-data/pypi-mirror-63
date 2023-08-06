@@ -1,0 +1,3 @@
+[console_scripts]
+squad-client-manage = squad_client.manage:main
+
