@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+
+import bushi
+import math
+import threading
+import time
+
+message_thread = None
+try:
+
+  if bushi.io.argc < 2:
+    bushi.io.terminate()
+
+  bushi.cmd.run_muted("tmux set-option status-style fg=black,bg=blue")
+  bushi.cmd.run_muted("tmux set-option window-status-current-format ''")
+  bushi.cmd.run_muted("tmux set-option status-left-length 48")
+  bushi.cmd.run_muted("tmux set-option status-left ''")
+
+  message_terminate = False
+  def message_callback():
+    process_index = 0
+    process_symbols = ['\u280f', '\u2847', '\u28c6', '\u28e4', '\u28f0', '\u28b8', '\u2839', '\u281b']
+
+    message = ""
+    for character in bushi.io.argv[1]:
+      if character != '*':
+        message += character
+
+    time_start = time.time()
+    while not message_terminate:
+      message_status = "[" + process_symbols[process_index] + "] " + message
+
+      elapsed = time.time() - time_start
+      if elapsed > 1.0:
+        message_status += " ("
+
+        if elapsed >= 3600.0:
+          hour = math.floor(elapsed / 3600.0)
+          message_status += str(hour) + "h "
+          elapsed -= hour * 3600.0
+
+          if elapsed < 60.0:
+            message_status += "0m "
+
+        if elapsed >= 60.0:
+          minute = math.floor(elapsed / 60.0)
+          message_status += str(minute) + "m "
+          elapsed -= minute * 60.0
+
+        message_status += str(math.floor(elapsed)) + "s)"
+
+      bushi.cmd.run_muted("tmux set-option status-left '" + message_status + "'")
+      process_index = (process_index + 1) % len(process_symbols)
+      time.sleep(0.10)
+
+  message_thread = threading.Thread(target=message_callback)
+  message_thread.start()
+
+  first = True
+  command = ""
+  for arg in bushi.io.argv[1:]:
+    if first:
+      first = False
+    else:
+      command += arg + " "
+
+  result = bushi.cmd.run(command)
+
+  while message_thread.is_alive():
+    message_terminate = True
+
+  if not result:
+    bushi.cmd.run_muted("tmux set-option status-left 'failed, press ENTER to continue'")
+    bushi.io.press_enter()
+    bushi.tmux.detach()
+    bushi.io.press_enter()
+
+except KeyboardInterrupt:
+  if message_thread != None:
+    while message_thread.is_alive():
+      message_terminate = True
+
+  bushi.tmux.detach()
+  bushi.io.press_enter()
