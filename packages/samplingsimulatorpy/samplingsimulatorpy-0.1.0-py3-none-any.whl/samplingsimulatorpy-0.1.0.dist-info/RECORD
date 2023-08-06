@@ -1,0 +1,11 @@
+samplingsimulatorpy/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+samplingsimulatorpy/draw_samples.py,sha256=7LLj0zwnNLq7BSp6fRZm59P02xSGu7cVX7bGORfzdfM,2533
+samplingsimulatorpy/generate_virtual_pop.py,sha256=gFud3TE-Sy7SDBlGqj9n6zLk_mch-MXQMpnAN1k3VM4,1498
+samplingsimulatorpy/plot_sample_hist.py,sha256=SnzFN8L1hdFPLkm5dXA8_Ho8d-XHz59vXk1tfBmsc18,2399
+samplingsimulatorpy/plot_sampling_hist.py,sha256=QKqweDIxGBpAZl9soEfNntWxe8pmtpuBVGjPq_2WCPk,2638
+samplingsimulatorpy/samplingsimulatorpy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samplingsimulatorpy/stat_summary.py,sha256=KDyyrqG7y90ZQ53_uMnkeDiAkIk6S_Kq2jrXyrTRb-k,1808
+samplingsimulatorpy-0.1.0.dist-info/LICENSE,sha256=vAchBySipqU6rtdF_vkk0-WxDwwSIUswSdT-nCRYFCI,1066
+samplingsimulatorpy-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+samplingsimulatorpy-0.1.0.dist-info/METADATA,sha256=GpL-48JGZGL2s6msjBinxboGbRqJjHe1T3y8dtAbl2o,7266
+samplingsimulatorpy-0.1.0.dist-info/RECORD,,
