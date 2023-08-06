@@ -1,0 +1,8 @@
+README.rst
+gray_elf.py
+setup.cfg
+setup.py
+gray_elf.egg-info/PKG-INFO
+gray_elf.egg-info/SOURCES.txt
+gray_elf.egg-info/dependency_links.txt
+gray_elf.egg-info/top_level.txt
