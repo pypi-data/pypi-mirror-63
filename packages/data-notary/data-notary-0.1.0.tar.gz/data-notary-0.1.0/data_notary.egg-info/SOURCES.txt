@@ -1,0 +1,8 @@
+README.md
+setup.py
+data_notary.egg-info/PKG-INFO
+data_notary.egg-info/SOURCES.txt
+data_notary.egg-info/dependency_links.txt
+data_notary.egg-info/top_level.txt
+notary/__init__.py
+notary/validator.py
