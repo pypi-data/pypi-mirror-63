@@ -1,0 +1,5 @@
+aishow_model_app
+config
+docs
+manage
+tests
