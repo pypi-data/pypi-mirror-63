@@ -1,0 +1,4 @@
+- encryption
+- auto fetch/merge/overwrite local from remote
+- add ways to manage remote
+- auto push to remote
