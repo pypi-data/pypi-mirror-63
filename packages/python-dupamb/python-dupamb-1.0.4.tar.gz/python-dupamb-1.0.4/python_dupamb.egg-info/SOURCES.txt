@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+dupambi/dupambi.py
+python_dupamb.egg-info/PKG-INFO
+python_dupamb.egg-info/SOURCES.txt
+python_dupamb.egg-info/dependency_links.txt
+python_dupamb.egg-info/entry_points.txt
+python_dupamb.egg-info/requires.txt
+python_dupamb.egg-info/top_level.txt
