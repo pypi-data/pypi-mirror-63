@@ -1,0 +1,12 @@
+catd/Doc.py,sha256=gYqpb_3Sv3U8HggKe3pG4aE1yTd7X3s4AEIT3lRrxOI,1024
+catd/WordNet.py,sha256=7ygo4uy8ZseEXzafFN5GIZqcnCPoKhH21SGnmmfoJug,9030
+catd/WordNode.py,sha256=ZELHsX5WrUfY2JS7iah_zOusuZeC5gYMhrcw5g5hV-0,571
+catd/__init__.py,sha256=MlGjOfqA4FEoluu4MtkoiJ0_EhAh32a4HH2ZmSbcA0w,139
+catd/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+catd/util/__init__.py,sha256=IwfhcGu98S7ppmplSR_LYvi-M7__eAzoJCaMu9HqHJU,20
+catd/util/util.py,sha256=VZ39d7BitIYwo6FhHtzyn081NDnZITtXqWNV85xnIKo,5455
+catd-0.2.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+catd-0.2.0.dist-info/METADATA,sha256=-EA03DlYOmRsKdpH7Wt5dFM4VrNXSIt0TYIdR5XBJJ4,2362
+catd-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+catd-0.2.0.dist-info/top_level.txt,sha256=a_bYUx2fkjRExfmI3oqvPtymTbBhK6r-RF4TEe-RgT8,5
+catd-0.2.0.dist-info/RECORD,,
