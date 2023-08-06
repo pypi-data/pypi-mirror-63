@@ -1,0 +1,3 @@
+[console_scripts]
+json_process = json_processor.__main__:main
+
