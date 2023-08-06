@@ -1,0 +1,7 @@
+pandas
+pyarrow
+numpy
+matplotlib
+seaborn
+mlflow>=1.7.0
+plotly
