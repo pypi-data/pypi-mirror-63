@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: textfile-autoencoding
+Version: 2020.3.17
+Summary: A small wrapper to open files without knowing the encoding
+Home-page: https://github.com/hargikas/textfile-autoencoding
+Author: Charalampos Gkikas
+Author-email: hargikas@gmail.com
+License: MIT
+Project-URL: Say Thanks!, https://saythanks.io/to/hargikas%40gmail.com
+Project-URL: Source, https://github.com/hargikas/textfile-autoencoding
+Project-URL: Tracker, https://github.com/hargikas/textfile-autoencoding/issues
+Keywords: file open encoding
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: chardet
+
+# textfile-autoenconding
+Open a text file in python without knowing the enconding
+
+

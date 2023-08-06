@@ -1,0 +1,11 @@
+autofile/__init__.py,sha256=cJA57kWAm9DDzqZ883udVZho5WG0dvzahnT_BcTNDYM,100
+autofile/auto_detect.py,sha256=ZycLE9oe0jQBXJXcg6m-BbjC1ykOFFPOddQCmzZukFM,737
+autofile/wrappers.py,sha256=OLCTpFB0KIpFRPYMJAllhJe3te5NNaWM3VlQK0xc5WA,589
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_detect.py,sha256=MYtjits3oVrGZgjo2baZtJvaxvv25chCgK5LAIRxLwM,1575
+tests/test_read.py,sha256=jTNswEYGqrJ_et1Swy8ZCdpbSuRm21PqTzAbi6zTe0w,824
+textfile_autoencoding-2020.3.17.dist-info/LICENSE,sha256=md50wR1x6r46o1OvrO1nO7nABjqcmCcMinnGscKfHYA,1075
+textfile_autoencoding-2020.3.17.dist-info/METADATA,sha256=CRrOSlinX5A5mCxZ79gKN5JXI-pSDqXvvYmYakGPot0,850
+textfile_autoencoding-2020.3.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+textfile_autoencoding-2020.3.17.dist-info/top_level.txt,sha256=tWp8AkBR4f949gDzFjxsZex43zuJT_2sNo4n3apLL1k,15
+textfile_autoencoding-2020.3.17.dist-info/RECORD,,
