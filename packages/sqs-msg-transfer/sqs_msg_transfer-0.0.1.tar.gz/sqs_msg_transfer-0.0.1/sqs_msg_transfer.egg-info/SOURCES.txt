@@ -1,0 +1,9 @@
+README.md
+setup.py
+sqs_msg_transfer/__init__.py
+sqs_msg_transfer/sqs_move_msg.py
+sqs_msg_transfer.egg-info/PKG-INFO
+sqs_msg_transfer.egg-info/SOURCES.txt
+sqs_msg_transfer.egg-info/dependency_links.txt
+sqs_msg_transfer.egg-info/requires.txt
+sqs_msg_transfer.egg-info/top_level.txt
