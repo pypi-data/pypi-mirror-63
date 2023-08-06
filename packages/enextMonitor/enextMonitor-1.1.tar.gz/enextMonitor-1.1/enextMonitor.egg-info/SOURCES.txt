@@ -1,0 +1,7 @@
+setup.py
+enextMonitor.egg-info/PKG-INFO
+enextMonitor.egg-info/SOURCES.txt
+enextMonitor.egg-info/dependency_links.txt
+enextMonitor.egg-info/not-zip-safe
+enextMonitor.egg-info/requires.txt
+enextMonitor.egg-info/top_level.txt

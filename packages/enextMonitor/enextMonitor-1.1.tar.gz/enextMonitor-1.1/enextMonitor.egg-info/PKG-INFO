@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: enextMonitor
+Version: 1.1
+Summary: Package that manage task-events in Enext Monitor
+Home-page: https://bitbucket.org/enext/monitor-python-pip-package/src
+Author: João Casagrande
+Author-email: back@enext.com.br
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
