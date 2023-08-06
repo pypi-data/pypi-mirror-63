@@ -1,0 +1,3 @@
+[caaalle]
+caaalle = caaalle.entry_points:main
+
