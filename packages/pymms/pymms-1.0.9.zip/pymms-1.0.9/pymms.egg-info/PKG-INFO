@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pymms
+Version: 1.0.9
+Summary: Simulation of the Minkowski metric  for Python
+Home-page: https://vgurianov.github.io/srt/mms/
+Author: Vasyliy I. Gurianov
+Author-email: vg2007sns@rambler.ru
+License: MIT
+Description: This is demonstration code for simulation to effects of special relativity.
+Platform: UNKNOWN
