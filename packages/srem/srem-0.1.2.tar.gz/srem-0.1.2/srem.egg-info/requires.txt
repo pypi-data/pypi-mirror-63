@@ -1,0 +1,6 @@
+numpy>=1.7
+
+[test]
+flake8
+mypy
+pytest>=5.3

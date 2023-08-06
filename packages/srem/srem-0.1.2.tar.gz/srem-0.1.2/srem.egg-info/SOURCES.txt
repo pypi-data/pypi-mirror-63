@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+srem/__init__.py
+srem/srem.py
+srem.egg-info/PKG-INFO
+srem.egg-info/SOURCES.txt
+srem.egg-info/dependency_links.txt
+srem.egg-info/requires.txt
+srem.egg-info/top_level.txt
