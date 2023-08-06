@@ -1,0 +1,15 @@
+aircraft: Airbus A330-200
+
+clean:
+  cd0:         0.029
+  k:           0.044
+  e:           0.728
+
+mach_crit:     0.642
+
+gears:         0.014
+
+flaps:
+  lambda_f:    0.900
+  cf/c:        0.150
+  Sf/S:        0.150
