@@ -1,0 +1,6 @@
+gevent>=1.4.0
+requests>=2.23.0
+
+[selector]
+lxml>=4.3.0
+cssselect>=1.0.3
