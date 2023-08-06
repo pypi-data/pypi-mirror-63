@@ -1,0 +1,12 @@
+portion/__init__.py,sha256=MjWdBHiDF5WZ2fMZ-U3a5l1TShIXMm7OcyMy0CXtCH4,498
+portion/const.py,sha256=hEp26BKcEg1Js4DfZsBHmDtJJts83Tl1HWQ0CNJNwEc,1588
+portion/dict.py,sha256=qlWBcGvxBPLb31XwVNL8Bj6HBWeOp7FycQqj0q_uy78,9570
+portion/func.py,sha256=3TkQtFKLfsqntwd27HSGHceFhnXHmT-EbNMqktElC5Q,2174
+portion/interval.py,sha256=8WhLJmomWHBi4n0AzQ2OTgpHMmV1W5LfuVTimyWNrQ4,19707
+portion/io.py,sha256=ppNeRpiLNrocF1yzGeuEUIhYMf2LfsR-cji3d0nmvUs,6371
+portion-2.0.1.dist-info/LICENSE.txt,sha256=on0-JC2RSDzFXNNaNgWq6sLZpt98BqX_4k6ryeDsnRc,7558
+portion-2.0.1.dist-info/METADATA,sha256=0ZhKN7UwiXFvWvS2wXFfPMtFjUTYBkJiNocnbG9qiV0,26957
+portion-2.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+portion-2.0.1.dist-info/top_level.txt,sha256=08-yis9FueTZONmtrCF9k8pR9EDuyWJ5gzjtHD-Ad1A,8
+portion-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+portion-2.0.1.dist-info/RECORD,,
