@@ -1,0 +1,12 @@
+getproxies/__init__.py,sha256=26Jyt0nljZU4vAkZuBAwgI-V5doR7nInDDJ0xvg5Xm8,99
+getproxies/cli.py,sha256=FUpE6Ra6XpjgSju5-RQG7P64Z2Pj_K6VbnxXktRxJ3E,929
+getproxies/proxies.py,sha256=2aT2Mfffa1iL01IQSnSmWmdannl4TJrtUEVYvNZ_hEA,1439
+getproxies/proxy.py,sha256=XrnhA0ZzBCfXBn99r1RdYHQ-lE4uNQe5xiGyqzR-azk,546
+getproxies/spiders/__init__.py,sha256=fJhP7rOmEictZgiYh1kcW4cY-wvbWgHOGCn_2M1Qxnc,241
+getproxies/spiders/base.py,sha256=LqX3mDQqt7XwdQyIcPaG9iJe9nVk26fXpiagqt-SgRE,503
+getproxies/spiders/freeproxylist.py,sha256=W0qcEXVjcQXnIcmp1AGqWxfZ17iVLMXrQKyLqTVJAz8,1476
+getproxies/spiders/proxydaily.py,sha256=Hudq9k3XKdYxNLd3uNlzwd3Uo_ndJTK8MVcWmbd_sus,1200
+getproxies-1.0.0.dist-info/entry_points.txt,sha256=mUripW5J35DnrEHJX3NHoAJwLwQoqk-rNOIKm-66zH4,50
+getproxies-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+getproxies-1.0.0.dist-info/METADATA,sha256=OGKvBymC8dNG-5RAYCJ_1VGOCCuaCimfese3RUlA9yw,3143
+getproxies-1.0.0.dist-info/RECORD,,
