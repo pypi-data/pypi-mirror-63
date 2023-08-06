@@ -1,0 +1,10 @@
+README.rst
+setup.py
+spiderlib/__init__.py
+spiderlib/test01.py
+spiderlib/test02.py
+spiderlibs.egg-info/PKG-INFO
+spiderlibs.egg-info/SOURCES.txt
+spiderlibs.egg-info/dependency_links.txt
+spiderlibs.egg-info/requires.txt
+spiderlibs.egg-info/top_level.txt
