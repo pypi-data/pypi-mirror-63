@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: abidrive
+Version: 0.4.11
+Summary: Control utilities for the AbiDrive high performance motor controller
+Home-page: https://github.com/madcowswe/AbiDrive
+Author: Oskar Weigl
+Author-email: oskar.weigl@odriverobotics.com
+License: MIT
+Keywords: abidrive,motor,motor control
+Platform: UNKNOWN
+Requires-Dist: ipython
+Requires-Dist: PyUSB
+Requires-Dist: PySerial
+Requires-Dist: requests
+Requires-Dist: IntelHex
+Requires-Dist: matplotlib
+Requires-Dist: monotonic
+Requires-Dist: pywin32 (>=222); platform_system == "Windows"
+
+UNKNOWN
+
+
