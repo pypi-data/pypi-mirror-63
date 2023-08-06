@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+filename_transencoding.py
+requirements.txt
+setup.py
+filename_transencoding.egg-info/PKG-INFO
+filename_transencoding.egg-info/SOURCES.txt
+filename_transencoding.egg-info/dependency_links.txt
+filename_transencoding.egg-info/entry_points.txt
+filename_transencoding.egg-info/not-zip-safe
+filename_transencoding.egg-info/requires.txt
+filename_transencoding.egg-info/top_level.txt
