@@ -1,0 +1,10 @@
+tc2_hw/__init__.py,sha256=ZjqWWyYQvTFeUrCaDc_bmjLQKwHAPhyY8qiFGO0lW7Y,116
+tc2_hw/cli.py,sha256=krPbaAXV1oFQ8ywhHSWTuWL9HsxXVbSxdOU0cSbRJZI,396
+tc2_hw/tc2_hw.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tc2_hw-0.1.0.dist-info/AUTHORS.rst,sha256=SgpQJ-96H0XLh0qrJIl8zgndGsHqK7orm7c-C0P4AkI,148
+tc2_hw-0.1.0.dist-info/LICENSE,sha256=CNrcjd8wKsE9hb2h9NCNQ45eKvn8zckHX5SXOtfj46o,1070
+tc2_hw-0.1.0.dist-info/METADATA,sha256=sp9CpHr_25g_r2H3LHwJfCtaEUudbIOSt5gKWIlHnqk,1756
+tc2_hw-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tc2_hw-0.1.0.dist-info/entry_points.txt,sha256=Fo5ICXSlobOgbo56cK3RoAWNeQ31Q6LlHPr471aYqzM,44
+tc2_hw-0.1.0.dist-info/top_level.txt,sha256=wbVmXTimYdZateCbVAvEydpUPjRom1m7bbgpNnR2ux4,7
+tc2_hw-0.1.0.dist-info/RECORD,,
