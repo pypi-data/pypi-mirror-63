@@ -1,0 +1,14 @@
+bfinn/__init__.py,sha256=6Qcnsd-8pFUivEbsxKk3owVuGuI5T97MLO6vrQVN7Dg,148
+bfinn/bfinn.py,sha256=pjWwCQoi04cDwEV6sXBBhABePItQBeP4fbIbtMIwqFM,10840
+bfinn/data/BFINN-111.txt,sha256=RwPhTtXOfLc1kQN88hogLAvfi9rAY5KAih1WBuz3egY,28093
+bfinn/data/BFINN-96.txt,sha256=DFYIpZIRoOh5IJBHGE76sGpp1_Bh5EFSKRhIb3oceKM,16253
+bfinn/data/BFINN-da-32.txt,sha256=PACtfZziT_VAAWrj8JLqh6QExQGLRGTvITbWKkxPL6E,44943
+bfinn/data/BFINN-emoticon-8.txt,sha256=OsYB43GCsLoYPOkNexrUG-0e03H1y3WL9XfwKF50bhc,694
+bfinn/data/BFINN-en-165.txt,sha256=jDxDX7qdRMDOYMaYrT2i5jIfxJ-rQ2sIHvewVVC1228,72631
+bfinn/data/BFINN-fr-165.txt,sha256=hBGA1WlENufFuyeYYhh-pVq_lxvBgeEtBq1SFdn4GCo,26484
+bfinn/data/BFINN-sv-165.txt,sha256=egR1cPS9F4scw_tkNMNFNQpLI-xrGCqkDOiA8sqgVrg,39894
+bfinn-0.2.dist-info/LICENSE,sha256=rVrqxbdNacVtb-SLL1t15bD8oSKycwaCR77Z_I9iYVE,11385
+bfinn-0.2.dist-info/METADATA,sha256=PcGbsKKYgkja_tV9FVhhg0B01LWkLwj7DF0gx3GKCUk,308
+bfinn-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bfinn-0.2.dist-info/top_level.txt,sha256=1RykYBHKJqgfVyO63C6wBGnkOhMlvKpxFWpYBTJmW6g,6
+bfinn-0.2.dist-info/RECORD,,
