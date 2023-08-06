@@ -1,0 +1,16 @@
+eisen_cli/__init__.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+eisen_cli/main.py,sha256=Ow1Z9ktA0ki61Kh2MvuS6Vtw-iVQCq5a4IJzU_-hkyo,1637
+eisen_cli/utils.py,sha256=oYWykYqX3CPqGFvds9eNFvlcMXACkq0sDkVeYkKzD1I,1237
+eisen_cli/serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eisen_cli/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eisen_cli/test/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eisen_cli/train/__init__.py,sha256=jUAA37ZYWbejqdGVohj3Wk6MHG8x3K3CUN2rHFLeAjM,21
+eisen_cli/train/train.py,sha256=zL26zkxwS9mg2HO7hsSZXZWyIGbCpu8ltQ-2JnY4UYw,6187
+eisen_cli/validate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eisen_cli/validate/validate.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eisen_cli-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eisen_cli-0.0.4.dist-info/METADATA,sha256=m1d24OetGhPTUcEB4Vrosi-s1GeRUkkVAFsr8Igrpeg,359
+eisen_cli-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eisen_cli-0.0.4.dist-info/entry_points.txt,sha256=iZrbmkkSkAiBCW_np5ClVFaWfVvEYBuJ2zsKTINH5Nc,46
+eisen_cli-0.0.4.dist-info/top_level.txt,sha256=pe6Xg0tjSLYcb62kFXD3q83WdSGgaAoa1FtlKbBJx7Q,10
+eisen_cli-0.0.4.dist-info/RECORD,,
