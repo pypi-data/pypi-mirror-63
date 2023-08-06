@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+mplcursors
+pandas
+h5py
+PyYAML>=3.13
+lxml
