@@ -1,0 +1,16 @@
+python-dateutil<3.0
+
+[:python_version == "3.6"]
+dataclasses==0.6
+
+[dev]
+Sphinx==2.3.1
+black
+flake8
+ipython
+mypy
+pytest
+sphinxcontrib-apidoc==0.3.0
+tox
+twine
+wheel
