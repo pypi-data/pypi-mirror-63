@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/robogerctl
+roboger_manager/__init__.py
+robogerctl.egg-info/PKG-INFO
+robogerctl.egg-info/SOURCES.txt
+robogerctl.egg-info/dependency_links.txt
+robogerctl.egg-info/requires.txt
+robogerctl.egg-info/top_level.txt

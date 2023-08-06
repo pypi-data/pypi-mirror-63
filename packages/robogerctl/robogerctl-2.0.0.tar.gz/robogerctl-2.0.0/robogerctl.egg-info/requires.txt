@@ -1,0 +1,4 @@
+neotermcolor
+pyyaml
+rapidtables
+requests
