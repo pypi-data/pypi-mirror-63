@@ -1,0 +1,17 @@
+gdascore/__init__.py,sha256=lS0OrWgBKmOpcPeWHXgZc4IELJwEZ3oF3IJGUWhbwYg,608
+gdascore/cli.py,sha256=4HX13ldbBOjWIUZtE2ACZ6pw2AOFYzhzBMARl420cqU,5657
+gdascore/gdaAttack.py,sha256=512JYeojFvSRMol5gnEdvUlD58EKKNeab_u4MPZHdug,64012
+gdascore/gdaQuery.py,sha256=IBkbnQq-ybJXzNgfYNIqj_7GMV2fmbkwv6nD984E4AU,25961
+gdascore/gdaScore.py,sha256=vQMjjTBJODmeuzro3pC9KxCbe54Nl_Y0m-DDj9EFxqY,11839
+gdascore/gdaTools.py,sha256=3FpBVVxIMxG-4H3LT6pKomysFKVV48rVJRBYrtb6ONM,21617
+gdascore/sampleConfig.py,sha256=FeLOIPV9Urw-kiJqEl03cPT31Og5hiCNeRkdI6861X8,335
+gdascore/global_config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdascore/global_config/config_var.json,sha256=C-Bpip2EySjE9_xFSbnjGqkxKGXutHdhYeEXgF1dRls,86
+gdascore/global_config/master.json,sha256=_nAlVeJgufMkkfzSZ0S7IfhSwXLuq5vH7wtWLWpUeHs,6345
+gdascore/global_config/myCredentials.json,sha256=gYrlMJYSdw1sLHGDvfnAj_rue6-n2xQM9IDJdKLokeI,174
+gda_score_code-2.3.4.dist-info/LICENSE,sha256=PUA7nYWiYHmZFwOIaHWY4ewEEinkJn5g3cBc83tJLok,1087
+gda_score_code-2.3.4.dist-info/METADATA,sha256=O_B4_JXTHMKLFeKssdHfkZCD6pKccxbhsW-NBpl_Ar0,5738
+gda_score_code-2.3.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+gda_score_code-2.3.4.dist-info/entry_points.txt,sha256=oibKTBlWKiz2Q1PNy9zlPidWq1-EBkWOzxDBS6laCgI,53
+gda_score_code-2.3.4.dist-info/top_level.txt,sha256=3x5xwEHpA83oqHvod_GfVFQIXkhiNSOB8m3L9PMOnYg,9
+gda_score_code-2.3.4.dist-info/RECORD,,
