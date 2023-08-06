@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: msftfdnepy
+Version: 0.2.8
+Summary: data testing and processing tools
+Home-page: https://microsoft.com
+Author: Phil Bennett
+Author-email: phbennet@microsoft.com
+License: UNKNOWN
+Description: not filled out yet...
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
