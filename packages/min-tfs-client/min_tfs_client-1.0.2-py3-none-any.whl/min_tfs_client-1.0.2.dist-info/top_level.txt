@@ -1,0 +1,3 @@
+min_tfs_client
+tensorflow
+tensorflow_serving
