@@ -1,0 +1,6 @@
+setup.py
+easymail/__init__.py
+easymailsender.egg-info/PKG-INFO
+easymailsender.egg-info/SOURCES.txt
+easymailsender.egg-info/dependency_links.txt
+easymailsender.egg-info/top_level.txt
