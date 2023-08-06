@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+EOEPCA_PyLibraryTemplate.egg-info/PKG-INFO
+EOEPCA_PyLibraryTemplate.egg-info/SOURCES.txt
+EOEPCA_PyLibraryTemplate.egg-info/dependency_links.txt
+EOEPCA_PyLibraryTemplate.egg-info/top_level.txt
+PyLibraryTemplate/__init__.py
+PyLibraryTemplate/main.py
