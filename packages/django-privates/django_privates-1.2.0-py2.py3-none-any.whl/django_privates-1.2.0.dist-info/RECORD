@@ -1,0 +1,13 @@
+django_privates-1.2.0.dist-info/METADATA,sha256=fpVQjqTicaCsMO9zOj79WsbtmSOm0FHS7e6PtHy0CaU,3904
+django_privates-1.2.0.dist-info/RECORD,,
+django_privates-1.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_privates-1.2.0.dist-info/top_level.txt,sha256=Gc99IQmzSWp0k2xZhuVsvVMF5_xGl278ysAGloYNcFg,9
+privates/__init__.py,sha256=-_aHj_7aQ0DVg_MxZtZ-bdo1tEYaXov8cBHyAGmCPZY,52
+privates/admin.py,sha256=iXkPy-5XFAX1J6z9wlOj3YVW2a_pwoSRCieqwP8SctA,2548
+privates/apps.py,sha256=SO2-XmGFyPbIKAFb1YxvqtUQtboEWgYbDd9k-oNnheY,91
+privates/fields.py,sha256=q7vS4JJua80GCbEIt_PMZ7gApDhTFla0pYJ95jkgeC0,468
+privates/storages.py,sha256=AtK83gIMxqzZhcFaO0fVrpYzBXE07XEHmX328A3mszA,1216
+privates/test.py,sha256=FUHWjVhYHWFmhqoG7TMwttE1wmBLEgiHnbJTUXddUwo,298
+privates/views.py,sha256=tsFcR6ABhPJA-0-0HaI8rq5nY0PYSijaaF8QUMpfm0Y,896
+privates/widgets.py,sha256=4-ZWXzWC0YfSjvwe1j54UeSTh9SCWTlVuw0zrL_dqK4,813
+privates/templates/admin/widgets/clearable_private_file_input.html,sha256=Faiozfgbk225tlC8vGfSd0oA3ZHSo0cGqGPTVE9U8hU,563
