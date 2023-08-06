@@ -1,0 +1,10 @@
+README.md
+git_code_review.py
+setup.cfg
+setup.py
+git_code_review.egg-info/PKG-INFO
+git_code_review.egg-info/SOURCES.txt
+git_code_review.egg-info/dependency_links.txt
+git_code_review.egg-info/entry_points.txt
+git_code_review.egg-info/requires.txt
+git_code_review.egg-info/top_level.txt
