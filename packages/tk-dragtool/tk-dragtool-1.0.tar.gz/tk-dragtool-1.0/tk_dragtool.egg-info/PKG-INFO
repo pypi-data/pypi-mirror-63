@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: tk-dragtool
+Version: 1.0
+Summary: 提供拖动tkinter控件工具的模块。 A module supplies tools to drag tkinter window and widgets.
+Home-page: UNKNOWN
+Author: qfcy
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: 提供拖动tkinter控件工具的模块。 A module supplies tools to drag tkinter window and widgets.  注:由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: tkinter,drag,tool
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
