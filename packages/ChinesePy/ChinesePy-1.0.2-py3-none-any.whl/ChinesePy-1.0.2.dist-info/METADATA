@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ChinesePy
+Version: 1.0.2
+Summary: 中文函数，适合初学菜鸟……
+Home-page: UNKNOWN
+Author: pythonnlgs
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+# ChinesePy v1.0.2
+
+## ChBase
+
+_base_
+
+```
+打印
+```
+
+_data_type_
+```
+'二进制', '八进制', '十六进制', '十进制', '整型', '浮点型', '绝对值', '字符串'
+```
+
+_list_func_
+```
+'最大值', '最小值', '元组转列表','第_项', '第_至_项'
+```
+
