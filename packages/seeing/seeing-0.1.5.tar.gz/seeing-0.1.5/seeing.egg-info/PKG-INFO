@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: seeing
+Version: 0.1.5
+Summary: Monitor & auto execute single script(go py c) after modify.
+Home-page: https://github.com/toyourheart163/seeing
+Author: Mikele
+Author-email: blive200@gmail.com
+License: UNKNOWN
+Description: # Monitor and auto execute single script after modify
+        
+        support go, python, c++, c.
+        filename endswith .py .c .cpp .go
+        extend other.
+        
+        [zh_cn] 自动执行修改后的脚本
+        
+        ## install
+        
+        ```bash
+        pip install seeing
+        ```
+        
+        ## use
+        
+        ```bash
+        seeing hello.py
+        seeing -s 3 hello.go  # execute script after hello.go modified 3 seconds.
+        seeing hello.cpp      # it will run g++ hello.cpp && ./a.out
+        seeing hello.c        # same as cpp
+        ```
+        
+        ## extend other
+        
+        ```bash
+        seeing -c sh hello.sh
+        seeing -c open hello.html
+        seeing -c node hello.js
+        seeing -c scrapy spider.py
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

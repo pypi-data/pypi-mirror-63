@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/seeing
+seeing/__init__.py
+seeing.egg-info/PKG-INFO
+seeing.egg-info/SOURCES.txt
+seeing.egg-info/dependency_links.txt
+seeing.egg-info/top_level.txt
