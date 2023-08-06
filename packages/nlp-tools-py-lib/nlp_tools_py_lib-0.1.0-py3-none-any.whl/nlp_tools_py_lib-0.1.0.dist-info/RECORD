@@ -1,0 +1,12 @@
+nlp_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_tools/classifiers.py,sha256=3OGNAz5E8VLqffdIn6p44LwaxoNWlRT17qEdvR-gSAU,3943
+nlp_tools/constants.py,sha256=3PFcUd-lnx3n4-YfYggChlukHtzane4OC5fjIIsB2sE,133
+nlp_tools/dump.py,sha256=f6LN9qKByoPLFABuaywTGj3OWP-SR0ViDD3aJ8jToBE,525
+nlp_tools/loaders.py,sha256=7p1CEKshC88fEm_LeRbZPTFmMeLJ309GbDH6FbbiKqM,2371
+nlp_tools/preprocessing.py,sha256=mzeD6abCRdGhFm_G7b9HsUawHzUxEFv8yK7nwQllmG0,2330
+nlp_tools/representations.py,sha256=p2iBphvbXmmQaJezUpqSa5h8NS0UmmtQp0BYjbOY2IY,3440
+nlp_tools/utils.py,sha256=NmeCDSLdRhUapIHDvCaRcZy7YweYm8htuA3AO1PvKjk,288
+nlp_tools_py_lib-0.1.0.dist-info/LICENSE,sha256=ESD55GeLuY0ufDSl0xZSLZN6gFN4lbNy4_EzMLqbtKM,1092
+nlp_tools_py_lib-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+nlp_tools_py_lib-0.1.0.dist-info/METADATA,sha256=ncWd7Weq2k08udUAbr2TcZV4Yt73Tx79qUoTqFcLB0M,1694
+nlp_tools_py_lib-0.1.0.dist-info/RECORD,,
