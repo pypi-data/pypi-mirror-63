@@ -1,0 +1,16 @@
+covid/__init__.py,sha256=7Dsry4EeAfSUxjywbALbtihDLHpRrwOtBbtuUkMGZ0U,34
+covid/api.py,sha256=WqzfyocIepBtEuX1Z7cu2iQImk_jb7B7qPHCDUbUVyk,2309
+covid/main.py,sha256=WqzfyocIepBtEuX1Z7cu2iQImk_jb7B7qPHCDUbUVyk,2309
+covid/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covid/lib/covid_request.py,sha256=ukrjtqUocfIrQusKqtxtPuDFRVnsfGMVjjjpaf9955o,5767
+covid/lib/errors.py,sha256=N-laXjlV5mXnEKHUyjOkbDu37-wbEjqZ8XuepCR0s54,269
+covid/lib/helper.py,sha256=nd4NlGJOTOfZIQoCr3iNMPMoQi258ARz9w0OGOVogzc,936
+covid/lib/loader.py,sha256=YpGPaJa1YO9YFJJpfG18OtD47fHUxNV62qPWqEpuuZo,1129
+covid/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covid/model/country.py,sha256=VNnniIiEsGtNuJB4Pzs19gpN4XlClZJw6jowdQrXQoc,5859
+covid/model/history.py,sha256=jq9pQBeQn62DcSl2Tqm1e2Ok0ED6H8ZU7d5tTDtMOQs,4733
+covid_data_api-1.1.dist-info/LICENSE,sha256=ya30CRw3pzJuUSVIx755EiQpRTzjfr_tOmlTes2u3co,1068
+covid_data_api-1.1.dist-info/METADATA,sha256=ZmMKY2FsIN6Mng_TBh5V7siIDhjY6PXAdpf_HPRJyjQ,3753
+covid_data_api-1.1.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+covid_data_api-1.1.dist-info/top_level.txt,sha256=SZzf9r0zYXyr0zNzrSumsTLvaw3zH19MNnS1J2MkMgw,6
+covid_data_api-1.1.dist-info/RECORD,,
