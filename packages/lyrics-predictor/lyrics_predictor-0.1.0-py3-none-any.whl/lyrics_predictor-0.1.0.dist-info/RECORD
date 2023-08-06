@@ -1,0 +1,11 @@
+lyrics_predictor/__init__.py,sha256=jWt6Ay-BIQRuE_3CPokl5HB7pG4YymQjrk4vh5pLnEI,172
+lyrics_predictor/clean_and_save.py,sha256=I1-nzoaH77cRbWsSr6eZBUneSN74ye9nizJbl6Y4vaQ,1055
+lyrics_predictor/get_urls_and_scrape.py,sha256=E0tnBYkhEEzWVguWJQZmULu5zojxuLOj4TWv85QdyM8,2174
+lyrics_predictor/lyrics_predictor.py,sha256=mgLAexKnb92K8C4uOmAeLXJmAjS9yUdEdfBoygVBeEw,1472
+lyrics_predictor/vectorize_and_train.py,sha256=AV-ZW4MWehIs5lFSNZ2oxBdOSmdY71QhxOIw8FDPCXM,1139
+lyrics_predictor-0.1.0.dist-info/AUTHORS.rst,sha256=P7jhTv1eR0GkwumvBunUGBmy_fWjy0UwtDrkmrQ892M,175
+lyrics_predictor-0.1.0.dist-info/LICENSE,sha256=2YHrngQnreOYvXucE_EOHvHsan34GLGn_ax_QeVgvGI,1094
+lyrics_predictor-0.1.0.dist-info/METADATA,sha256=3GuPn1OXCIul0WYRICX56ZrabsyIJrGp1C8FW39EsT4,1437
+lyrics_predictor-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+lyrics_predictor-0.1.0.dist-info/top_level.txt,sha256=ygCzuNvcTJqfgZYuzpPMhEa8Hk_kE-zqVlPMsfcA2so,17
+lyrics_predictor-0.1.0.dist-info/RECORD,,
