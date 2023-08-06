@@ -1,0 +1,20 @@
+def template_prompt():
+    data = {
+        "prompt.zsh": """#!/usr/bin/env zsh
+function prompt() {
+PROMPT="${SNAKYPY__JUMPLINE}\\
+$SNAKYPY__APPLY_USERNAME\\
+$SNAKYPY__APPLY_HOSTNAME\\
+$SNAKYPY__APPLY_PATH_DIR\\
+$SNAKYPY__APPLY_PYPROJECT\\
+$SNAKYPY__APPLY_VIRTUALENV\\
+$SNAKYPY__APPLY_PY_VERSION\\
+$SNAKYPY__APPLY_GIT_STATUS\\
+$SNAKYPY__APPLY_SSH\\
+$SNAKYPY__JUMPLINE"
+PROMPT+="$SNAKYPY__APPLY_INPUT_PROMPT"
+export PROMPT
+}
+"""
+    }
+    return data
