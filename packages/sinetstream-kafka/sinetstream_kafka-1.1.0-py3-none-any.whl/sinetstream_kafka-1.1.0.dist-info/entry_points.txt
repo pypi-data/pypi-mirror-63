@@ -1,0 +1,6 @@
+[sinetstream.reader]
+kafka = sinetstreamplugin.kafka:KafkaReader
+
+[sinetstream.writer]
+kafka = sinetstreamplugin.kafka:KafkaWriter
+
