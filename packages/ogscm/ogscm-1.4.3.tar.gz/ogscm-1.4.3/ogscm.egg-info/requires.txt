@@ -1,0 +1,6 @@
+enum34
+six
+requests
+hpccm
+pyyaml
+packaging
