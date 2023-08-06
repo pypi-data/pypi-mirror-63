@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-bonk = certbot_dns_bonk:Authenticator
+
