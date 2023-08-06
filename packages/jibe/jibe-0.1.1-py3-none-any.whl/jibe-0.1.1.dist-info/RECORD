@@ -1,0 +1,12 @@
+jibe/__init__.py,sha256=0_HDQKRvinb928c2DSEe1xCHSUy5Ifm0Noiyuc787m4,624
+jibe/app.css,sha256=n3i3fwdO_qiAYjZ2HrHkqgL9G11LQWu6ecsEzH3y0II,1628
+jibe/app.js,sha256=PdSXlbScmedJ33qJU-o-rykSRpIWkv8S63Zy_63OnsY,14801
+jibe/app.py,sha256=mIviZGPDRFv8Ux-q07QFYhBBOS48XgH9gPtamCGcNFE,8251
+jibe/page.html,sha256=PDFoML-GllfXhidZdj4sXsjPPWO6tHrMtuOyCvvgvMQ,1000
+jibe/page.py,sha256=4CkyvQPNhrJImtsvDeWciXEO28DGkIl8XEgc941nZ7M,489
+jibe/widget.py,sha256=dgS5kQyAfz-yPS_fyvblJpT5aNuAC6pGAW6mj3G7MNE,35444
+jibe-0.1.1.dist-info/LICENSE.txt,sha256=-xw79pEyuv5-nAXpq31UysLy_msx2eVSTztgSZh24TM,16895
+jibe-0.1.1.dist-info/METADATA,sha256=naEtP15IDx3kTtgkFIK_ixIehSldyx-JX40vpeUjkuI,1323
+jibe-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jibe-0.1.1.dist-info/top_level.txt,sha256=k3hP4xRRXsLdepaYszBv2EoK8xtNP-H5zSsdWwPP2S4,5
+jibe-0.1.1.dist-info/RECORD,,
