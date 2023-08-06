@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sanic-function-deps
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Erik Lilja
+Author-email: erikvlilja@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: sanic (>=19.12.2,<20.0.0)
