@@ -1,0 +1,12 @@
+README.md
+setup.py
+eiprest/__init__.py
+eiprest/__main__.py
+eiprest/eiprest.py
+eiprest.egg-info/PKG-INFO
+eiprest.egg-info/SOURCES.txt
+eiprest.egg-info/dependency_links.txt
+eiprest.egg-info/requires.txt
+eiprest.egg-info/top_level.txt
+tests/__init__.py
+tests/test_eiprest.py
