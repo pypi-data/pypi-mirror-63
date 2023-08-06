@@ -1,0 +1,7 @@
+README.md
+setup.py
+ibex_codegen.egg-info/PKG-INFO
+ibex_codegen.egg-info/SOURCES.txt
+ibex_codegen.egg-info/dependency_links.txt
+ibex_codegen.egg-info/requires.txt
+ibex_codegen.egg-info/top_level.txt
