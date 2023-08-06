@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: resin-release-tool
+Version: 0.2.0
+Summary: Release tool to have canary in resin.io
+Home-page: https://github.com/mobilityhouse/resin-release-tool
+License: MIT
+Keywords: resin,deploy
+Author: roger
+Author-email: roger.duran@mobilityhouse.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: balena-sdk (>=9.2.0,<10.0.0)
+Requires-Dist: click (>=6.7,<7.0)
+Description-Content-Type: text/markdown
+
+# resin-release-tool
+This tool is to set release canary in resin.io
+
+## Installation
+```
+pip install resin-release-tool
+```
+
+## Build / Run locally
+You need poetry to build the project https://poetry.eustace.io/
+```
+poetry install
+poetry build
+poetry run resin-release-tool
+etc..
+```
+
+
+## Usage
+```
+Usage: resin-release-tool [OPTIONS] COMMAND [ARGS]...
+
+  You can set app and token as an environment variable, using RESIN_APP and
+  RESIN_TOKEN
+
+Options:
+  --token TOKEN  Resin.io auth token  [required]
+  --app APP_ID   Resin App name  [required]
+  --help         Show this message and exit.
+
+Commands:
+  disable_rolling      Disables rolling releases in the application
+  enable_rolling       Enables rolling releases in the application
+  info                 Information of the application
+  release              Sets release and canary commits
+  releases             Show success releases of the application
+  show_devices_status  Enables rolling releases in the application
+```
+
