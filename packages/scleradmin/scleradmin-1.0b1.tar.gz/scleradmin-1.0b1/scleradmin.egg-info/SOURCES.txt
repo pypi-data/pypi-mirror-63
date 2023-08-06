@@ -1,0 +1,13 @@
+README.md
+setup.py
+scleradmin.egg-info/PKG-INFO
+scleradmin.egg-info/SOURCES.txt
+scleradmin.egg-info/dependency_links.txt
+scleradmin.egg-info/entry_points.txt
+scleradmin.egg-info/requires.txt
+scleradmin.egg-info/top_level.txt
+src/__init__.py
+src/artifacts.py
+src/bootconfig.py
+src/install.py
+src/versionmap.py
