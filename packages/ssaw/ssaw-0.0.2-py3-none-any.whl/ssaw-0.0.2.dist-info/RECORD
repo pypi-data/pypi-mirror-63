@@ -1,0 +1,15 @@
+ssaw/headquarters/__init__.py,sha256=5ybBxLpqwt8ygwMlQQ9s1COBtIMp1zB2DhWxznPZfzU,877
+ssaw/headquarters/assignments.py,sha256=_NZfjLHLAF8KkWLcCrHkYWNYLCgmq7su4KfsMhKobno,1207
+ssaw/headquarters/base.py,sha256=PkxeSDz0r7Fj-DN1aFDg_RFY7Y30He0v9BglQErPk_s,2330
+ssaw/headquarters/exceptions.py,sha256=FfuB9DrTbElsB5G_MsiN3LiKr0Vx55pdFoEyxnYELP4,648
+ssaw/headquarters/export.py,sha256=NdjLnkY8VrLXzGUO0KzGddRp08K8BSbJPzjwxlNS8T4,1817
+ssaw/headquarters/interviews.py,sha256=_-lcqdYzmv3ckRgVJNBSl2VU7URhKyg1Vmvk8nbID4g,2684
+ssaw/headquarters/models.py,sha256=WG2bd2yPbtGJ1ZNitpEtfFIQsfYvySzr3iUHLzR1Ing,1502
+ssaw/headquarters/questionnaires.py,sha256=4d35M4-iZHNHl_csoBcV99avMPaHh-2bnSRSsGJgihE,1024
+ssaw/headquarters/settings.py,sha256=wCvKh-QEm_tbyIenSTVUySKQgaqGtFqs4LyeajhqwX0,766
+ssaw/headquarters/statistics.py,sha256=zSWVc0urbUh55CPJGAm_Rmk_zbMzBaoA_5H8srxvEno,25
+ssaw/headquarters/users.py,sha256=ODPFeZjZm6go0QhfArGFYPy-tMm_pqLRyYWI6eQYjtQ,1198
+ssaw-0.0.2.dist-info/METADATA,sha256=nmH7GIUkSoq1JeVBgHhEdz7hxdpezSZnbG3P1020Yg4,616
+ssaw-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ssaw-0.0.2.dist-info/top_level.txt,sha256=hF86mSnsjJ53-rXOj5ZHczJRnZESNV_FpGL-COD7kZ8,5
+ssaw-0.0.2.dist-info/RECORD,,
