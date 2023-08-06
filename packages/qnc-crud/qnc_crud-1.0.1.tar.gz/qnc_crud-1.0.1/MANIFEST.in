@@ -1,0 +1,3 @@
+include README.md
+include qnc_crud/static/*
+include qnc_crud/templates/*
