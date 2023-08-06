@@ -1,0 +1,8 @@
+README.md
+setup.py
+my_awesome_package_amway/__init__.py
+my_awesome_package_amway.egg-info/PKG-INFO
+my_awesome_package_amway.egg-info/SOURCES.txt
+my_awesome_package_amway.egg-info/dependency_links.txt
+my_awesome_package_amway.egg-info/not-zip-safe
+my_awesome_package_amway.egg-info/top_level.txt
