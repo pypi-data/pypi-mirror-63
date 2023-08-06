@@ -1,0 +1,2 @@
+collect_offline_app
+django_collect_offline
