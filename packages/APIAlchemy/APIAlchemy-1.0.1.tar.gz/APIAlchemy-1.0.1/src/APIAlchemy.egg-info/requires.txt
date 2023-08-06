@@ -1,0 +1,4 @@
+AppDynamicsREST@ git+https://github.com/homedepot/AppDynamicsREST#egg=AppDynamicsREST
+prometheus_client
+PyGithub
+splunk-sdk
