@@ -1,0 +1,9 @@
+README.md
+setup.py
+minerva/__init__.py
+minerva/client.py
+minerva_py.egg-info/PKG-INFO
+minerva_py.egg-info/SOURCES.txt
+minerva_py.egg-info/dependency_links.txt
+minerva_py.egg-info/requires.txt
+minerva_py.egg-info/top_level.txt
