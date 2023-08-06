@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+
+###############################################################################
+#                                                                             #
+#    This program is free software: you can redistribute it and/or modify     #
+#    it under the terms of the GNU General Public License as published by     #
+#    the Free Software Foundation, either version 3 of the License, or        #
+#    (at your option) any later version.                                      #
+#                                                                             #
+#    This program is distributed in the hope that it will be useful,          #
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of           #
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            #
+#    GNU General Public License for more details.                             #
+#                                                                             #
+#    You should have received a copy of the GNU General Public License        #
+#    along with this program. If not, see <http://www.gnu.org/licenses/>.     #
+#                                                                             #
+###############################################################################
+
+__author__ = "Donovan Parks"
+__copyright__ = "Copyright 2015"
+__credits__ = ["Donovan Parks"]
+__license__ = "GPL3"
+__maintainer__ = "Donovan Parks"
+__email__ = "donovan.parks@gmail.com"
+__status__ = "Development"
+
+import os
+import sys
+import ntpath
+import argparse
+import logging
+
+from genometk.main import OptionsParser
+
+from biolib.common import make_sure_path_exists
+from biolib.logger import logger_setup
+from biolib.misc.custom_help_formatter import CustomHelpFormatter
+
+
+def version():
+    """Read program version from file."""
+    bin_dir = os.path.dirname(os.path.realpath(__file__))
+    version_file = open(os.path.join(bin_dir, '..', 'genometk', 'VERSION'))
+    return version_file.readline().strip()
+
+
+def print_help():
+    """Help menu."""
+
+    print('')
+    print('                ...::: GenomeTk v' + version() + ' :::...''')
+    print('''\
+
+    Calculate genomic properties:
+      nucleotide -> Calculate nucleotide properties of genome.
+      gene       -> Calculate gene properties of genome.
+
+    Calculate ribosomal RNA properties:
+      rna -> Identify, extract, and (optionally) classify rRNA genes.
+
+  Use: genometk <command> -h for command specific help.
+
+  Feature requests or bug reports can be sent to Donovan Parks (donovan.parks@gmail.com)
+    or posted on GitHub (https://github.com/dparks1134/GenomeTk).
+    ''')
+
+if __name__ == '__main__':
+
+    # initialize the options parser
+    parser = argparse.ArgumentParser(add_help=False)
+    subparsers = parser.add_subparsers(help="--", dest='subparser_name')
+
+    # calculate nucleotide properties of genome
+    nucleotide_parser = subparsers.add_parser('nucleotide',
+                                        formatter_class=CustomHelpFormatter,
+                                        description='Calculate nucleotide properties of genome.')
+    nucleotide_parser.add_argument('genome_file', help="fasta file of nucleotide sequences comprising genome")
+    nucleotide_parser.add_argument('output_dir', help="output directory")
+    nucleotide_parser.add_argument('--contig_break', help="minimum number of ambiguous bases for defining contigs", type=int, default=10)
+    nucleotide_parser.add_argument('--silent', help="suppress output", action='store_true')
+
+    # calculate gene properties of genome
+    gene_parser = subparsers.add_parser('gene',
+                                        formatter_class=CustomHelpFormatter,
+                                        description='Calculate gene properties of genome.')
+    gene_parser.add_argument('genome_file', help="fasta file of nucleotide sequences comprising genome")
+    gene_parser.add_argument('gff_file', help="generic feature file describing identified genes")
+    gene_parser.add_argument('output_dir', help="output directory")
+    gene_parser.add_argument('--silent', help="suppress output", action='store_true')
+
+    # identify, extract, and classify rRNA genes
+    rna_parser = subparsers.add_parser('rna',
+                                        formatter_class=CustomHelpFormatter,
+                                        description='Identify, extract, and classify rRNA genes.')
+    rna_parser.add_argument('genome_file', help="fasta file of nucleotide sequences comprising genome")
+    rna_parser.add_argument('rna_gene', choices=['ssu', 'lsu_23S', 'lsu_5S'], help="rRNA gene to process")
+    rna_parser.add_argument('output_dir', help="output directory")
+    rna_parser.add_argument('--db', help="BLAST database for classifying rRNA genes")
+    rna_parser.add_argument('--taxonomy_file', help="taxonomy file for rRNA genes in the specified database")
+    rna_parser.add_argument('--rrna_file', help="FASTA file with rRNA genes identified in genome if previously identified")
+    rna_parser.add_argument('--evalue', help='e-value threshold for identifying rRNA genes', type=float, default=1e-6)
+    rna_parser.add_argument('--min_len', help='minimum length to report rRNA genes', type=int, default=200)
+    rna_parser.add_argument('--concatenate', help='concatenate hits within the specified number of base pairs', type=int, default=300)
+    rna_parser.add_argument('--cpus', help='number of cpus to use', type=int, default=1)
+    rna_parser.add_argument('--silent', help="suppress output", action='store_true')
+
+    # get and check options
+    args = None
+    if(len(sys.argv) == 1 or sys.argv[1] == '-h' or sys.argv[1] == '--help'):
+        print_help()
+        sys.exit(0)
+    else:
+        args = parser.parse_args()
+
+    # setup logging
+    if hasattr(args, 'output_dir'):
+        logger_setup(args.output_dir, "genometk.log", "GenomeTk", version(), args.silent)
+    else:
+        logger_setup(None, "genometk.log", "GenomeTk", version(), args.silent)
+
+    # do what we came here to do
+    try:
+        parser = OptionsParser()
+        if(False):
+            # import pstats
+            # p = pstats.Stats('prof')
+            # p.sort_stats('cumulative').print_stats(10)
+            # p.sort_stats('time').print_stats(10)
+            import cProfile
+            cProfile.run('parser.parse_options(args)', 'prof')
+        elif False:
+            import pdb
+            pdb.run(parser.parse_options(args))
+        else:
+            parser.parse_options(args)
+    except SystemExit:
+        print("\n  Controlled exit resulting from an unrecoverable error or warning.")
+    except:
+        print("\nUnexpected error:", sys.exc_info()[0])
+        raise
