@@ -1,0 +1,37 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}
+table{border-collapse:collapse;border-spacing:0}
+html{color:#424242;font-family:"Roboto",Helvetica,Arial,sans-serif;font-size:14px}
+h1{font-size:32px;font-weight:400;line-height:38px;letter-spacing:-0.3px;font-family:"Lato",Helvetica,Arial,sans-serif;color:#62769d;margin-bottom:10px;text-align:center}
+h2{font-size:24px;font-weight:300;line-height:32px;letter-spacing:-0.22px;color:#424242;padding-bottom:20px;border-bottom:1px solid #e8e8e8;margin-top:40px;margin-bottom:30px}
+h3{font-size:18px;font-weight:300;line-height:27px;letter-spacing:0;color:#424242;margin-bottom:20px;margin-left:10px}
+p,li{font-size:14px;font-weight:400;line-height:21px;letter-spacing:0;color:#616161;word-wrap:break-word;word-break:break-word;}
+table{width:100%}
+ul{margin-left:20px;list-style-type:"▸";margin-bottom:20px}
+ol{margin-left:60px;list-style-type:decimal}
+ol li{color:#005fc4;font-weight:500;font-family:"Roboto Mono",monospace}
+ol li ul li{font-weight:400}
+li{padding-left:10px}
+li>span,li>strong{color:#005fc4;font-family:"Roboto Mono",monospace}
+.Table__sans li{color:#a1adc4}
+.Table__sans li>span{font-family:"Roboto",Helvetica,Arial,sans-serif;color:#616161}
+strong{font-weight:500}
+.Table__left{margin-right:17px;margin-left:20px;text-align:left;}
+.Table__right{margin-left:17px;margin-right:20px;text-align:right;}
+.Table__full{text-align:center}
+.Table__full img{padding-bottom:20px;margin:auto}
+#Header{width:900px;height:80px}
+#Header table{width:100%;height:80px;text-align:right;border-bottom:1px solid #c2c2c2}
+#Header img{width:100px;margin-top:28px}
+#Body{width:900px;height:1122px;padding:80px 0}
+#Body table{min-width:100%;width:100%}
+.ProductStats {text-align:center}
+.DataStats td{vertical-align:middle}
+.ProductStatsDiagram {width: 550px}
+#Footer{width:900px;height:80px;padding-top:20px}
+#Footer p{color:#949494;font-weight:300}
+.ProductName { white-space: nowrap }
