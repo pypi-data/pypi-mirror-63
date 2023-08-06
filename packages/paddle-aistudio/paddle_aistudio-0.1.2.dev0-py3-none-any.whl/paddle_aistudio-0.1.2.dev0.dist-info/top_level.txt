@@ -1,0 +1,9 @@
+paddle-aistudio/01fit_a_line
+paddle-aistudio/02recognize_digits
+paddle-aistudio/03image_classification
+paddle-aistudio/04word2vec
+paddle-aistudio/05recommender_system
+paddle-aistudio/06understand_sentiment
+paddle-aistudio/07label_semantic_roles
+paddle-aistudio/08machine_translation
+paddle-aistudio/09gan
