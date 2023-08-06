@@ -1,0 +1,15 @@
+README.md
+setup.py
+scikit_fairness.egg-info/PKG-INFO
+scikit_fairness.egg-info/SOURCES.txt
+scikit_fairness.egg-info/dependency_links.txt
+scikit_fairness.egg-info/requires.txt
+scikit_fairness.egg-info/top_level.txt
+skfair/__init__.py
+skfair/common.py
+skfair/datasets.py
+skfair/data/arrests.zip
+skfair/preprocessing/__init__.py
+skfair/preprocessing/informationfilter.py
+tests/__init__.py
+tests/conftest.py
