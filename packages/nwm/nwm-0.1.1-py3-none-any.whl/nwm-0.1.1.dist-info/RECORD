@@ -1,0 +1,11 @@
+nwm/__init__.py,sha256=W2aw1wQT2uMVDUSSuPF15bWOd5ad9tSSgWuqva45PsE,183
+nwm/_version.py,sha256=VzV15iNamGncrMseOIV5Z4xtcepzjrcgVS3aa0yHu-k,498
+nwm/bmi.py,sha256=CMlgrGCtrhnpI4vw6dcBNo8oBk6yT6cHf5wQBjTv7zg,22581
+nwm/cli.py,sha256=_wX5q6uq8ARq51O7KgmHQY83PBIAwsF0g1grBwvbJKM,2313
+nwm/nwm.py,sha256=Vcu6YQWXZfF5RcvQt_hDucVSHp9YUL1FUEJTpf0uRvQ,9828
+nwm-0.1.1.dist-info/LICENSE.txt,sha256=zwNUSn0Lb5nAGQrXNiuTlkygEWZ6mcT30PGsmG1IbKM,1065
+nwm-0.1.1.dist-info/METADATA,sha256=NI-TDRZaW_k9ca2TpmdB2H977oVgW7XwQbQcpBrPekk,3394
+nwm-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nwm-0.1.1.dist-info/entry_points.txt,sha256=his237kdkg1gqgtC8ssaFrecjv3AhMM0RPWlAsb37S4,38
+nwm-0.1.1.dist-info/top_level.txt,sha256=O1CV9Qvjp-kgKMslPVmuJWyUpOlL8t8ib6TyjMji1js,4
+nwm-0.1.1.dist-info/RECORD,,
