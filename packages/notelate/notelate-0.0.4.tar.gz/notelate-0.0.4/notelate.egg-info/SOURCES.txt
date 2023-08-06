@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+notelate/__init__.py
+notelate.egg-info/PKG-INFO
+notelate.egg-info/SOURCES.txt
+notelate.egg-info/dependency_links.txt
+notelate.egg-info/entry_points.txt
+notelate.egg-info/requires.txt
+notelate.egg-info/top_level.txt
+notelate/scripts/__init__.py
+notelate/scripts/app.py
+notelate/scripts/notelate.py
+notelate/templates/__init__.py
