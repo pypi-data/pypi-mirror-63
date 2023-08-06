@@ -1,0 +1,17 @@
+README.md
+setup.py
+covid/__init__.py
+covid/api.py
+covid/lib/__init__.py
+covid/lib/covid_request.py
+covid/lib/errors.py
+covid/lib/helper.py
+covid/lib/loader.py
+covid/model/__init__.py
+covid/model/country.py
+covid/model/history.py
+covid_data_api.egg-info/PKG-INFO
+covid_data_api.egg-info/SOURCES.txt
+covid_data_api.egg-info/dependency_links.txt
+covid_data_api.egg-info/requires.txt
+covid_data_api.egg-info/top_level.txt
