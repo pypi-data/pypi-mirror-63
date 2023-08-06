@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: tartaruga
+Version: 0.0.5
+Summary: tartaruga ratelimiter
+Home-page: UNKNOWN
+Author: Devmons s.r.o.
+License: GPL3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: redis (>=3.3.11)
+
+# tartaruga
+
+Tartaruga is another ratelimiter library, based on Redis. It allows for distributed rate-limiting accross different processess, or even hosts.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Python 3.x, PIP, Redis server up and running
+
+### Installing
+
+Library can be installed simply with pip:
+
+```
+pip install tartaruga
+```
+
+or by running:
+```
+make install
+```
+
+### Usage examples
+
+Example usage.
+Ratelimiting 10 requests per second + 120 requests per minute + 240 requests
+per hour:
+```
+from tartaruga.ratelimiter import rate_limit
+
+limits = [(1, 10), (60, 120), (3600, 240)]
+
+@rate_limit(api_id='MyShinyAPI', limits=limits)
+def somefunction():
+    # here you can call the API
+
+```
+
+## Contributing
+
+TBD
+
+## Authors
+
+* **Devmons s.r.o. - *Initial work* - [crypkit](https://github.com/crypkit)
+
+## License
+
+Commercial
+
+
