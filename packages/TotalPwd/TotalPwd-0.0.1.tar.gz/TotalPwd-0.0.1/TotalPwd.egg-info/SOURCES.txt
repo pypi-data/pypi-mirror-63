@@ -1,0 +1,12 @@
+README.md
+setup.py
+TotalPwd.egg-info/PKG-INFO
+TotalPwd.egg-info/SOURCES.txt
+TotalPwd.egg-info/dependency_links.txt
+TotalPwd.egg-info/entry_points.txt
+TotalPwd.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
+totalpwd/__init__.py
+totalpwd/__main__.py
+totalpwd/__version__.py

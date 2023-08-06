@@ -1,0 +1,3 @@
+[console_scripts]
+totalpwd = totalpwd.__main__:main
+
