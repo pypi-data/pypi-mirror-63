@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: your-package
+Version: 0.1
+Summary: ac library
+Home-page: UNKNOWN
+Author: ac
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
