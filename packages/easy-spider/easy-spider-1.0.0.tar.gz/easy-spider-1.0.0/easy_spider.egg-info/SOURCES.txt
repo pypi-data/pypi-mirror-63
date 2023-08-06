@@ -1,0 +1,15 @@
+setup.py
+easy_spider/__init__.py
+easy_spider/log.py
+easy_spider/tool.py
+easy_spider.egg-info/PKG-INFO
+easy_spider.egg-info/SOURCES.txt
+easy_spider.egg-info/dependency_links.txt
+easy_spider.egg-info/requires.txt
+easy_spider.egg-info/top_level.txt
+test/test_env.py
+test/test_extractor.py
+test/test_filter.py
+test/test_network.py
+test/test_spider.py
+test/test_tool.py
