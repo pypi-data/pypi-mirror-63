@@ -1,0 +1,10 @@
+foca/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foca/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foca/config/config_parser.py,sha256=Nz6W8oRPsaOnOY6_lMMrvSsr_oSxQyq0g5wpobWPBXM,6127
+foca/config/log_config.py,sha256=pY5TdfbDKreW2mh3Q3mR5pKubfvKI5FSxgLiWQaEfdc,1600
+foca/config/log_config.yaml,sha256=GRWvPMtcfLo3pRvej9rhS4UAukRUi81mCoehKJm_ULY,897
+foca-0.1.0.dist-info/LICENSE,sha256=Hrb_j1frvgz7kJ-LQWHGciXZsJgOwUXyzVca5FaFq04,11348
+foca-0.1.0.dist-info/METADATA,sha256=7jem4yl5Og8IMDzHBGwquvrIplVBrG7x-WoWkSQgbFA,2084
+foca-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+foca-0.1.0.dist-info/top_level.txt,sha256=YcMVEwYid5qp4Q2PV3nGF8X3JhzEbpgDGz7ceLkbcfs,5
+foca-0.1.0.dist-info/RECORD,,
