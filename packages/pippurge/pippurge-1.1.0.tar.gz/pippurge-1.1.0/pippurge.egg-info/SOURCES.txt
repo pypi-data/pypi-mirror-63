@@ -1,0 +1,9 @@
+README.rst
+pippurge.py
+setup.py
+pippurge.egg-info/PKG-INFO
+pippurge.egg-info/SOURCES.txt
+pippurge.egg-info/dependency_links.txt
+pippurge.egg-info/entry_points.txt
+pippurge.egg-info/not-zip-safe
+pippurge.egg-info/top_level.txt
