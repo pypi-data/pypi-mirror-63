@@ -1,0 +1,7 @@
+setup.py
+pyaugment.egg-info/PKG-INFO
+pyaugment.egg-info/SOURCES.txt
+pyaugment.egg-info/dependency_links.txt
+pyaugment.egg-info/not-zip-safe
+pyaugment.egg-info/requires.txt
+pyaugment.egg-info/top_level.txt
