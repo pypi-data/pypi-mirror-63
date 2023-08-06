@@ -1,0 +1,3 @@
+[console_scripts]
+topper = topper.__main__:main
+
