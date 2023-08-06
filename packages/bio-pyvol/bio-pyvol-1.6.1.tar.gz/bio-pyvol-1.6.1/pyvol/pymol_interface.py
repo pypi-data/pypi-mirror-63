@@ -1,0 +1,163 @@
+
+from . import configuration
+from . import identify
+from . import pymol_utilities
+from .spheres import Spheres
+from . import utilities
+import logging
+import numpy as np
+import os
+import shutil
+
+
+logger = logging.getLogger(__name__)
+
+try:
+    from pymol import cgo, cmd, CmdException
+except:
+    logger.error("PyMOL not imported")
+
+
+def display_pockets(pockets, **opts):
+    """ Display a list of pockets
+
+    """
+
+    opts["palette"] = pymol_utilities.construct_palette(color_list=opts.get("palette"), max_value=len(pockets))
+
+    if len(pockets) == 0:
+        logger.info("No pockets found to display.")
+
+    for index, pocket in enumerate(pockets):
+        logger.info("Pocket {0} ({1}) Volume: \t{2} A^3\t({3})".format(index, pocket.name, np.round(pocket.mesh.volume), opts.get("palette")[index]))
+        pymol_utilities.display_spheres_object(pocket, pocket.name, state=1, color=opts.get("palette")[index], alpha=opts.get("alpha"), mode=opts.get("display_mode"))
+
+
+def load_calculation_cmdline(data_dir, prefix=None, display_mode=None, palette=None, alpha=None):
+    """ Loads a pocket from memory and displays it in PyMOL
+
+    Args:
+      spheres_file (str): filename
+      name (str): internal display name (Default value = None)
+      display_mode (str): display mode (Default value = "solid")
+      color (str): PyMOL color string (Default value = 'marine')
+      alpha (float): transparency value (Default value = 0.85)
+
+    """
+
+    if not os.path.isdir(data_dir):
+        if os.path.isfile(data_dir):
+            data_dir = os.path.dirname(data_dir)
+        else:
+            logger.error("Ambiguous/unparseable data_dir input: {0}".format(data_dir))
+            raise ValueError
+
+    input_opts = {}
+    if prefix is not None:
+        input_opts["display_prefix"] = prefix
+    if display_mode is not None:
+        input_opts["display_mode"] = display_mode
+    if palette is not None:
+        input_opts["palette"] = palette
+    if alpha is not None:
+        input_opts["alpha"] = alpha
+
+
+    pockets, opts = identify.load_calculation(data_dir, input_opts=input_opts)
+    display_pockets(pockets, **opts)
+    logger.info("Loading {0} with mode {1}".format(spheres.name, display_mode))
+
+
+def pymol_pocket_cmdline(protein=None, ligand=None, prot_file=None, lig_file=None, min_rad=1.4, max_rad=3.4, constrain_radii=True, mode="largest", coordinates=None, residue=None, resid=None, lig_excl_rad=None, lig_incl_rad=None, min_volume=200, subdivide=False, max_clusters=None, min_subpocket_rad=1.7, max_subpocket_rad=3.4, min_subpocket_surf_rad=1.0, radial_sampling=0.1, inclusion_radius_buffer=1.0, min_cluster_size=50, project_dir=None, output_dir=None, prefix=None, logger_stream_level="INFO", logger_file_level="DEBUG", protein_only=False, display_mode="solid", alpha=0.85, palette=None):
+    """ PyMOL-compatible command line entry point
+
+    """
+
+    opts = {
+        "protein": protein,
+        "ligand": ligand,
+        "prot_file": prot_file,
+        "lig_file": lig_file,
+        "min_rad": min_rad,
+        "max_rad": max_rad,
+        "constrain_radii": constrain_radii,
+        "mode": mode,
+        "residue": residue,
+        "resid": resid,
+        "coordinates": coordinates,
+        "lig_excl_rad": lig_excl_rad,
+        "lig_incl_rad": lig_incl_rad,
+        "min_volume": min_volume,
+        "subdivide": subdivide,
+        "max_clusters": max_clusters,
+        "min_subpocket_rad": min_subpocket_rad,
+        "max_subpocket_rad": max_subpocket_rad,
+        "min_subpocket_surf_rad": min_subpocket_surf_rad,
+        "radial_sampling": radial_sampling,
+        "inclusion_radius_buffer": inclusion_radius_buffer,
+        "min_cluster_size": min_cluster_size,
+        "project_dir": project_dir,
+        "output_dir": output_dir,
+        "prefix": prefix,
+        "logger_stream_level": logger_stream_level,
+        "logger_file_level": logger_file_level,
+        "protein_only": protein_only,
+        "display_mode": display_mode,
+        "alpha": alpha,
+        "palette": palette
+    }
+
+    pymol_pocket(**opts)
+
+def pymol_pocket(**opts):
+
+    boolean_args = ["constrain_radii", "subdivide", "protein_only"]
+    for arg in boolean_args:
+        if not isinstance(opts.get(arg), bool):
+            if opts.get(arg) in ["True", "true", "t", "1"]:
+                opts[arg] = True
+            elif opts.get(arg) in ["False", "false", "f", "0"]:
+                opts[arg] = False
+            else:
+                logger.warning("Boolean argument {0} ({1}) not parsed correctly and reverting to default".format(arg, opts[arg]))
+
+    opts = configuration.clean_opts(opts)
+
+    if opts.get("protein") is None:
+        if opts.get("prot_file") is None:
+            logger.error("No protein input: prot_file and protein inputs are empty")
+            raise ValueError
+        else:
+            logger.debug("Protein file already specified on disk; skipping protein processing.")
+    else:
+        if opts.get("protein_only"):
+            opts["protein"] = "({0}) and (poly)".format(opts.get("protein"))
+
+        if opts.get("ligand") is not None:
+            opts["protein"] = "({0}) and not ({1})".format(opts.get("protein"), opts.get("ligand"))
+
+        logger.debug("Final protein selection: {0}".format(opts.get("protein")))
+        prot_atoms = cmd.count_atoms(opts.get("protein"))
+        if prot_atoms == 0:
+            logger.error("No atoms included in protein selection--ending calculation")
+            return
+        elif prot_atoms < 100:
+            logger.warning("Only {0} atoms included in protein selection".format(prot_atoms))
+
+        cmd.save(opts.get("prot_file"), opts.get("protein"))
+        logger.debug("Protein '{0}' saved to {1}".format(opts.get("protein"), opts.get("prot_file")))
+
+    if opts.get("ligand") is not None:
+        cmd.save(opts.get("lig_file"), opts.get("ligand"))
+        logger.debug("Ligand selection: {0}".format(opts.get("ligand")))
+
+    if opts.get("coordinates") is not None:
+        opts["residue"] = None
+    else:
+        if opts.get("residue") is not None:
+            opts["coordinates"] = cmd.get_coords(opts.get("residue"), 1)
+
+    pockets, output_opts = identify.pocket_wrapper(**opts)
+
+    display_pockets(pockets, **output_opts)
+    return pockets, output_opts
