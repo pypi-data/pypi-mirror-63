@@ -1,0 +1,24 @@
+#
+# Example of xxh config file ~/.xxh/.xxhc
+#
+# The `hosts` section contains host names or regular expression patterns to match hostname.
+#
+# If hostname in xxh command is matched with many sections the options will be added from all
+# sections and the options with same name will be overwritten by the last matched section.
+#
+# Options without argument should be added in appropriate yaml format but empty.
+# Example for `+if` mode below.
+#
+#--------------------------------------------------------------------------------------------------
+# Example ~/.xxh/.xxhc
+#--------------------------------------------------------------------------------------------------
+#hosts:
+#  myhost:                     # settings for myhost
+#    -p: 2222                    # set special port
+#    +s: xxh-shell-zsh           # set zsh shell
+#    +e: ZSH_THEME="clean"       # set xxh-plugin-zsh-ohmyzsh theme
+#
+#  "company-.*":        # for all hosts by regex pattern
+#    +if:                 # don't asking about install (++install-force)
+#    +hh: /tmp/.xxh       # use special xxh home directory (++host-xxh-home)
+#    +hhr:                # remove host xxh home after disconnect (++host-xxh-home-remove)
