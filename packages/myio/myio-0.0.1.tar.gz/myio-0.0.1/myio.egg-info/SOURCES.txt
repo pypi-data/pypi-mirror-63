@@ -1,0 +1,8 @@
+README.md
+setup.py
+myio/__init__.py
+myio/comms_thread.py
+myio.egg-info/PKG-INFO
+myio.egg-info/SOURCES.txt
+myio.egg-info/dependency_links.txt
+myio.egg-info/top_level.txt
