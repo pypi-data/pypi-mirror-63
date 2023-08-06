@@ -1,0 +1,4 @@
+gitpython<4,>=3.0.0
+python-gitlab<3,>=2.0.0
+python-editor<2,>=1.0.0
+inquirer<3,>=2.6.0
