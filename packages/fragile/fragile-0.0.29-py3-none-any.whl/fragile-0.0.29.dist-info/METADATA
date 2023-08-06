@@ -1,0 +1,192 @@
+Metadata-Version: 2.1
+Name: fragile
+Version: 0.0.29
+Summary: Framework for developing FractalAI based algorithms.
+Home-page: https://github.com/Guillemdb/fragile
+Author: Guillem Duran Ballester
+Author-email: guillem.db@gmail.com
+License: AGPLv3.0
+Download-URL: https://github.com/Guillemdb/fragile
+Keywords: reinforcement learning,artificial intelligence,monte carlo,planning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: attrs
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: pillow-simd
+Requires-Dist: psycopg2-binary
+Requires-Dist: pyarrow
+Requires-Dist: scikit-learn
+Requires-Dist: numba
+Provides-Extra: all
+Requires-Dist: atari-py (==0.1.1) ; extra == 'all'
+Requires-Dist: Pillow ; extra == 'all'
+Requires-Dist: opencv-python ; extra == 'all'
+Requires-Dist: gym ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: bokeh (<2.0.0) ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: panel ; extra == 'all'
+Requires-Dist: holoviews ; extra == 'all'
+Requires-Dist: hvplot ; extra == 'all'
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: streamz ; extra == 'all'
+Requires-Dist: param ; extra == 'all'
+Requires-Dist: pytest (>=5.3.5) ; extra == 'all'
+Requires-Dist: hypothesis (==5.6.0) ; extra == 'all'
+Requires-Dist: ray ; extra == 'all'
+Requires-Dist: setproctitle ; extra == 'all'
+Provides-Extra: atari
+Requires-Dist: atari-py (==0.1.1) ; extra == 'atari'
+Requires-Dist: Pillow ; extra == 'atari'
+Requires-Dist: opencv-python ; extra == 'atari'
+Requires-Dist: gym ; extra == 'atari'
+Provides-Extra: dataviz
+Requires-Dist: matplotlib ; extra == 'dataviz'
+Requires-Dist: bokeh (<2.0.0) ; extra == 'dataviz'
+Requires-Dist: pandas ; extra == 'dataviz'
+Requires-Dist: panel ; extra == 'dataviz'
+Requires-Dist: holoviews ; extra == 'dataviz'
+Requires-Dist: hvplot ; extra == 'dataviz'
+Requires-Dist: plotly ; extra == 'dataviz'
+Requires-Dist: streamz ; extra == 'dataviz'
+Requires-Dist: param ; extra == 'dataviz'
+Provides-Extra: ray
+Requires-Dist: ray ; extra == 'ray'
+Requires-Dist: setproctitle ; extra == 'ray'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.3.5) ; extra == 'test'
+Requires-Dist: hypothesis (==5.6.0) ; extra == 'test'
+
+# Fragile
+[![Travis build status](https://travis-ci.com/FragileTech/fragile.svg)](https://travis-ci.com/FragileTech/fragile)
+[![Code coverage](https://codecov.io/github/FragileTech/fragile/coverage.svg)](https://codecov.io/github/FragileTech/fragile)
+[![PyPI package](https://badgen.net/pypi/v/fragile)](https://pypi.org/project/fragile/)
+[![Latest docker image](https://badgen.net/docker/pulls/fragiletech/fragile)](https://hub.docker.com/r/fragiletech/fragile/tags)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![license: AGPL v3](https://img.shields.io/badge/license-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![unstable](https://badgen.net/badge/stability/unstable/E5AE13)](http://github.com/badges/stability-badges)
+
+Fragile is a framework for developing algorithms inspired by the Fractal AI theory and testing them at scale.
+
+## Features
+
+- Provides classes and an API for easily developing planning algorithms
+- Provides an classes and an API for function optimization
+- Build in visuzalizations of the sampling process
+- Fully documented and tested
+- Support for parallelization and distributed search processes
+
+
+## About FractalAI
+
+FractalAI is based on the framework of non-equilibrium thermodynamics, and It allows to derive new 
+mathematical tools for efficiently exploring state spaces.
+
+ The principles of our work are accessible online:
+
+- [Arxiv](https://arxiv.org/abs/1803.05049) manuscript describing the fundamental principles of our work.
+- [Blog](http://entropicai.blogspot.com) that describes our early research process.
+- [Youtube channel](https://www.youtube.com/user/finaysergio/videos) with videos showing how different prototypes work.
+- [GitHub repository](https://github.com/FragileTech/FractalAI) containing a prototype that solves most Atari games.
+
+## Getting started 
+
+Check out the [Getting started with Atari games](https://fragiletech.github.io/fragile/resources/examples/examples_index.html#getting-started) 
+section of the docs, or check out the examples folder.
+
+## Running in docker
+The docker container will execute a Jupyter notebook accessible on port 8080 with password: `fragile`
+
+```bash
+   make docker build
+   docker run -d -p 8080:8080 -v PATH_TO_REPO/fragile fragile 
+```
+
+You can also run the tests inside the docker container
+```bash
+    make docker-test
+```
+
+## Installation
+This framework has been tested in Ubuntu 18.04 and supports Python 3.6, 3.7 and 3.8. 
+If you find any problems running it in a different OS or Python version please open an issue.
+
+It can be install with `pip install fragile`.
+
+### Building from source
+
+Please take a look at the Dockerfile to find out about all the dependencies, and the detailed 
+installation process.
+
+```bash
+   git clone https://github.com/FragileTech/fragile.git
+   cd fragile
+   pip3 install -r requirements.txt
+   pip3 install -r requirements-viz.txt
+   pip3 install -e .
+```
+
+## Documentation
+
+You can access the documentation on [GitHub Pages](https://fragiletech.github.io/fragile/).
+
+* Building the documentation:
+
+```bash
+  cd fragile/docs
+  make html
+``` 
+
+* Accessing the documentation locally:
+    - Launch an http server:
+    ```bash
+      cd build/html # assuming you are inside fragile/docs
+      python3 -m http.server      
+    ```
+    - Visit [http://0.0.0.0:8000](http://0.0.0.0:8000) to display the documentation.
+
+## Roadmap
+
+Upcoming features: (Not necessary in order)
+- Add support for saving visualizations.
+- Fix documentation and add examples for the `distributed` module
+- Upload Montezuma solver
+- Add new algorithms to sample different state spaces.
+- Add a module to generate data for training deep learning models
+- Add a benchmarking module
+- Add deep learning API
+
+## Contributing
+
+Contribution are welcome. Please take a look at [contributining](docsrc/markdown/CONTRIBUTING.md) 
+and respect the [code of conduct](docsrc/markdown/CODE_OF_CONDUCT.md).
+
+## Cite us
+If you use this framework in your research please cite us as:
+
+    @misc{1803.05049,
+        Author = {Sergio Hernández Cerezo and Guillem Duran Ballester},
+        Title = {Fractal AI: A fragile theory of intelligence},
+        Year = {2018},
+        Eprint = {arXiv:1803.05049},
+      }
+
+## License
+
+This project is currently licensed under AGPLv3.0. 
+
+However, if you are considering using it for applications that require a more permissive license, 
+please let me know in this [Issue](https://github.com/Guillemdb/fragile/issues/5)
+
+
