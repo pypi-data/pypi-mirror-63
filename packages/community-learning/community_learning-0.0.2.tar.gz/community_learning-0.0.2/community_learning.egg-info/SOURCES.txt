@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+community_learning/__init__.py
+community_learning/_nbdev.py
+community_learning/data.py
+community_learning.egg-info/PKG-INFO
+community_learning.egg-info/SOURCES.txt
+community_learning.egg-info/dependency_links.txt
+community_learning.egg-info/entry_points.txt
+community_learning.egg-info/not-zip-safe
+community_learning.egg-info/requires.txt
+community_learning.egg-info/top_level.txt
