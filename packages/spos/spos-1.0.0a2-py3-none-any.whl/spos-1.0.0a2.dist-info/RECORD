@@ -1,0 +1,12 @@
+spos/__init__.py,sha256=jmrZi4URTOUDiOnMfMdI6ECZjRlsiNqwkJR9xrfXccU,14501
+spos/decoders.py,sha256=6XhT9GMoTOpKj2Y-zJbLcMG_hC-u3aBJDxHifC7567o,4450
+spos/encoders.py,sha256=1o2EjnlMG1L5eN8uQRZkwCXGcf0dNov5JI7ET9bIp0s,5155
+spos/validators.py,sha256=8l3rvNc665fPEIqWCRDAye02p_QldjvdFaUudESysYc,1925
+spos-1.0.0a2.data/scripts/spos,sha256=UFVWpoi3g2xL1Rdy7MyXQSaWmy8owqUldxouAUg9kZs,2552
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_spos.py,sha256=dughC0TcmAZm0c2g-6FLA6652rVTNgKq3Y7Yi6vsG6w,30729
+spos-1.0.0a2.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+spos-1.0.0a2.dist-info/METADATA,sha256=tt2jqfokSXpkAVjZPE8Axqdf4qmMGaWYicCqQRvT6qo,10624
+spos-1.0.0a2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spos-1.0.0a2.dist-info/top_level.txt,sha256=s1PDgDOz9Hs_sxCmBhmaOq15_SCMj-u7qEMpbi7ndfw,10
+spos-1.0.0a2.dist-info/RECORD,,
