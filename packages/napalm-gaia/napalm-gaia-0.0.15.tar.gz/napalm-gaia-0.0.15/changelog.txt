@@ -1,0 +1,19 @@
+0.0.15
+- fixed issues in get facts()
+0.0.14
+- extended re in get_arp_table()
+0.0.13
+-updated MANIFEST.in
+0.0.12
+-updated get_interfaces && get_interfaces_ip
+-added fw_get_policy()
+-added get_virtual_systems()
+0.0.11
+-changed exit behavior of get_users() to have consistent behavior
+-added changelog
+-updated docstrings
+-added get_facts()
+0.0.10
+-corrected get_interfaces && get_interfaces_ip
+0.0.9
+-fixed issue with python wheel
