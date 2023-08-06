@@ -1,0 +1,11 @@
+sphinx_c_autodoc/__init__.py,sha256=XAKZg-0w51mfBUAAmm4cTyAg_f8N0YL9-O7OHtjmY0M,23129
+sphinx_c_autodoc/loader.py,sha256=f7som3KzujTcyP59XtpqFf0hT1W4yL_dOEg-jUaDNK0,26872
+sphinx_c_autodoc/clang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_c_autodoc/clang/comments.py,sha256=ygzZ-jfo1aMsVj6s0xGKyoeYx8mdpKmGUKEW7bd8TLA,538
+sphinx_c_autodoc/clang/patches.py,sha256=oIOXHTBaiaIg9VSgayVKfZkNMFuvIuJ_-fKFhKDnuvM,5833
+sphinx_c_autodoc/napoleon/__init__.py,sha256=Vttw6exPyGeH4rQSIrAy_8IuiijvKrt8zNsVLjAbQbs,6152
+sphinx_c_autodoc-0.1.1.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+sphinx_c_autodoc-0.1.1.dist-info/METADATA,sha256=0OF5U4B97KxEhspT6YQhwIJPdUDhr5cMDV2hMz-Eiao,3071
+sphinx_c_autodoc-0.1.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+sphinx_c_autodoc-0.1.1.dist-info/top_level.txt,sha256=6pYIXwyBfJ4RfwvWnmVW-SMhQUX04SNwTAms2bTEsuY,17
+sphinx_c_autodoc-0.1.1.dist-info/RECORD,,
