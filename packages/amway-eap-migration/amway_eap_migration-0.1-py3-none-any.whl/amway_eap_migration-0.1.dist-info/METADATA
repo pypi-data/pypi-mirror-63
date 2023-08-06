@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: amway-eap-migration
+Version: 0.1
+Summary: This is an Example Package
+Home-page: UNKNOWN
+Author: Jeff Allard
+Author-email: me@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: docutils (>=0.3)
+Requires-Dist: boto3 (>=1.10.45)
+Requires-Dist: psycopg2 (==2.8.4)
+
+UNKNOWN
+
+
