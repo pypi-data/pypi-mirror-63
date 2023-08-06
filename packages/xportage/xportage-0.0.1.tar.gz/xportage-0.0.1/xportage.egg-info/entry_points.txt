@@ -1,0 +1,3 @@
+[console_scripts]
+portage = portage.__main__:main
+

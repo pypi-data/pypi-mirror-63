@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+portage/__init__.py
+portage/__main__.py
+portage/portage.py
+xportage.egg-info/PKG-INFO
+xportage.egg-info/SOURCES.txt
+xportage.egg-info/dependency_links.txt
+xportage.egg-info/entry_points.txt
+xportage.egg-info/top_level.txt
