@@ -1,0 +1,6 @@
+README.md
+setup.py
+vk_bots.egg-info/PKG-INFO
+vk_bots.egg-info/SOURCES.txt
+vk_bots.egg-info/dependency_links.txt
+vk_bots.egg-info/top_level.txt
