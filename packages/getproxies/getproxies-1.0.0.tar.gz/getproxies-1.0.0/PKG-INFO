@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: getproxies
+Version: 1.0.0
+Summary: Scraper of free online proxies
+Home-page: https://github.com/granitosaurus/getproxies
+License: LGPL-3.0-or-later
+Keywords: proxies,web-crawling,cli
+Author: granitosaurus
+Author-email: bernardas.alisauskas@pm.me
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: parsel (>=1.5.2,<2.0.0)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
+Project-URL: Repository, https://github.com/granitosaurus/getproxies
+Description-Content-Type: text/markdown
+
+# getproxies
+
+Get some free proxies scraped from free proxy sources.
+
+```python
+from getproxies import get_proxies
+
+proxies = get_proxies()
+print(proxies[:10])
+# [http://196.18.215.153:3128, https://36.67.89.179:65205, http://35.247.192.53:3128, socks5://113.54.158.40:1080, https://180.122.51.154:9999, socks4://117.44.28.152:9201, https://178.20.137.178:43980, https://109.86.121.118:46333, https://148.77.34.194:39175, socks4://114.99.16.195:1080]
+```
+
+or using cli:
+
+```shell script
+$ poetry run getproxies --help
+Usage: getproxies [OPTIONS]
+
+  scrape free proxies from all sources and put it to STDOUT
+
+Options:
+  -p, --protocol [https|http|socks4|socks5]
+                                  restrict to specific protocol
+  -c, --country TEXT              only proxies from specified country (ISO
+                                  double char code, e.g. US)
+
+  -l, --limit INTEGER             limit proxy retrieval - increases
+                                  performance
+
+  -f, --format TEXT               proxy output format, available variables: ho
+                                  st,port,protocol,code,country,anonymous,sour
+                                  ce  [default: {protocol}://{host}:{port}]
+
+  --help                          Show this message and exit.
+```
+
+## Install
+
+```shell script
+$ pip install getproxies
+or for latest code
+$ pip install -U git+https://github.com/granitosaurus/getproxies
+```
+
+## Sources
+
+Currently these sources are supported 
+
+|source|spider|
+|---|---|
+|[http://free-proxy-list.net](http://free-proxy-list.net)|[FreeProxyListSpider](./getproxies/spiders/freeproxylist.py)|
+|[http://proxy-daily.com](http://proxy-daily.com)|[ProxyDailySpider](./getproxies/spiders/proxydaily.py)|
+
+## extended usage
+
+For more detailed proxy query a `ProxyManager` can be used:
+
+```python
+from getproxies import ProxyManager
+
+proxies = ProxyManager(
+    limit=10,  # only 10 proxies
+    protocol='socks5',  # only socks5 proxies
+    country='us',  # only us proxies
+)
+```
+
+_limit parameter can reduce retrieval time_
+
+`Proxy` objects also have extended attributes:
+
+```python
+class Proxy:
+    host: str
+    port: str
+    protocol: str
+    code: str = ''
+    country: str = ''
+    anonymous: bool = False
+    source: str = ''
+```
+
+as strings they resolve to `protocol://host:port` template.
+
+
