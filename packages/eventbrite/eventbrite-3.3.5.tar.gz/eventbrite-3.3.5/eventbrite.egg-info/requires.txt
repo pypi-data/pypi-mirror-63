@@ -1,0 +1,9 @@
+requests>=2.0
+
+[testing]
+coverage
+flake8
+pytest
+
+[testing:python_version < "3"]
+mock
