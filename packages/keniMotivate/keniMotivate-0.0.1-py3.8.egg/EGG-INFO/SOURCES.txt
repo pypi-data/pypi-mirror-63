@@ -1,0 +1,7 @@
+setup.py
+keniMotivate/__init__.py
+keniMotivate/me.py
+keniMotivate.egg-info/PKG-INFO
+keniMotivate.egg-info/SOURCES.txt
+keniMotivate.egg-info/dependency_links.txt
+keniMotivate.egg-info/top_level.txt
