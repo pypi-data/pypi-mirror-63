@@ -1,0 +1,10 @@
+
+Changelog
+=========
+
+0.0.4 (2019-12-06)
+------------------
+
+* Improved documentation
+* Full support of OEP-Metadata 1.4
+* Support for optional fields in metadata strings
