@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: sqller
+Version: 1.1.0
+Summary: ORM library to build SQLite based application in format model/dao/service.
+Home-page: https://github.com/VoIlAlex
+Author: Ilya Vouk
+Author-email: ilya.vouk@gmail.com
+License: MIT
+Download-URL: https://github.com/VoIlAlex/sqller/archive/v1.1.0.tag.gz
+Description: UNKNOWN
+Keywords: orm,sql,sqlite,query,generation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
