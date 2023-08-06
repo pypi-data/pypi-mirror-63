@@ -1,0 +1,3 @@
+[console_scripts]
+tinned_python = tinned_python.cli:main
+
