@@ -1,0 +1,9 @@
+class ExitCode:
+    OK = 0
+    INVALID_RLI_CONFIG = 1
+    NO_RLI_CONFIG = 2
+    GITHUB_ERROR = 3
+    DEPLOY_FAILED = 4
+    NO_DEPLOY_JSON = 5
+    GIT_ERROR = 6
+    INVALID_DEPLOY_CONFIG = 7
