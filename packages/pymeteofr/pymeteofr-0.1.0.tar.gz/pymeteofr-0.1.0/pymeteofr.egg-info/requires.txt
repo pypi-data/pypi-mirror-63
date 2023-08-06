@@ -1,0 +1,13 @@
+requests
+matplotlib
+numpy
+pandas
+xmltodict
+rasterio
+scipy
+xarray
+imageio
+colorcet
+geopandas
+descartes
+pygifsicle
