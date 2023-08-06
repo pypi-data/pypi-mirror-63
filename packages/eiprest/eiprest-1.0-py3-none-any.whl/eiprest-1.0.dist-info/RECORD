@@ -1,0 +1,10 @@
+eiprest/__init__.py,sha256=nGuXf9lwzm2kk7_qNpyoEpu1YUxJK8579FX0-35u1QM,46
+eiprest/__main__.py,sha256=apfpEZ983wk3Fwz7hHInwMjjgG814OvkcYQFxydpWFU,1359
+eiprest/eiprest.py,sha256=1uvlWl25n3yxEWBiQJc5GpVf_6RbRTffWUT__Y2O9mM,5701
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eiprest.py,sha256=cV-tbX3RwaTwXGOq6vfyzGkWpf_rlMrASpZtKv3p6qk,1271
+eiprest-1.0.dist-info/LICENSE,sha256=y6OfAdvrfkPI3XslErYBqH657_kk6gxCwQ3oKN4YgW8,1043
+eiprest-1.0.dist-info/METADATA,sha256=rUs1sVfweBkWLnTRhArc8-frhXFkVwnhHqgyEVI_7OM,1057
+eiprest-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eiprest-1.0.dist-info/top_level.txt,sha256=4oORpEtAToC5sA6NkdJaZ9OkUNPdA9Lu8u4HAE4_reU,14
+eiprest-1.0.dist-info/RECORD,,

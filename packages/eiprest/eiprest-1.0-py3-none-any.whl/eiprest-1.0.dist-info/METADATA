@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: eiprest
+Version: 1.0
+Summary: Python module for SOLIDserver REST API
+Home-page: https://gitlab.com/charlyhong/eiprest
+Author: Charles Hong
+Author-email: ch@efficientip.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# eiprest
+
+Python implementation of SOLIDserver REST client.
+
+## Usage
+
+As standalone executable script:
+
+  - Using simple parameter format
+    `eiprest.py -s solidserver.test.com dns_server_info dns_id=3`
+  - Using json format
+    `eiprest.py --server 10.0.99.99 dns_server_info '{"dns_id":3}'`
+
+As python module in another script:
+
+```
+from eiprest import EipRest
+rest = EipRest(host='10.0.99.99', user='ipmadmin', password='admin', debug=True)
+params = {'dns_id': 3}
+rest.query('GET', 'dns_server_info',  params)
+rest.show_result()
+```
+
+Run eiprest.py -h to see all command line options.
+
