@@ -1,0 +1,7 @@
+requests
+cryptography
+exifread
+pillow
+gpsphoto
+piexif
+opencv-python
