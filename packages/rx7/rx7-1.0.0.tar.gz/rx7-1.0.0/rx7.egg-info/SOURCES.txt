@@ -1,0 +1,5 @@
+setup.py
+rx7.egg-info/PKG-INFO
+rx7.egg-info/SOURCES.txt
+rx7.egg-info/dependency_links.txt
+rx7.egg-info/top_level.txt
