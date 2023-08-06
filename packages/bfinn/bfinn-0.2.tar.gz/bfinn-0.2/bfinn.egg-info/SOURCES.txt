@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+bfinn/__init__.py
+bfinn/bfinn.py
+bfinn.egg-info/PKG-INFO
+bfinn.egg-info/SOURCES.txt
+bfinn.egg-info/dependency_links.txt
+bfinn.egg-info/top_level.txt
+bfinn/data/BFINN-111.txt
+bfinn/data/BFINN-96.txt
+bfinn/data/BFINN-da-32.txt
+bfinn/data/BFINN-emoticon-8.txt
+bfinn/data/BFINN-en-165.txt
+bfinn/data/BFINN-fr-165.txt
+bfinn/data/BFINN-sv-165.txt
