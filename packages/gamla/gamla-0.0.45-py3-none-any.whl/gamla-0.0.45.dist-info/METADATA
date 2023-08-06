@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gamla
+Version: 0.0.45
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: async-timeout
+Requires-Dist: heapq-max
+Requires-Dist: pytest-asyncio
+Requires-Dist: pytest
+Requires-Dist: requests
+Requires-Dist: toolz
+
+[![Build Status](https://travis-ci.com/hyroai/gamla.svg?branch=master)](https://travis-ci.com/hyroai/gamla)
+
+Gamla is a functional programming library for python.
+
+`pip install gamla`
+
+To deploy: `python setup.py sdist bdist_wheel; twine upload dist/*; rm dist/ -r;`
+
+
