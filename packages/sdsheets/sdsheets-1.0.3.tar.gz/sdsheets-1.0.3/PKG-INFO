@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sdsheets
+Version: 1.0.3
+Summary: Lib para recuperar informações de planilhas do Google Spreadsheets
+Home-page: https://bitbucket.org/santodigital/sdsheets
+Author: Rodrigo Gonçalves
+Author-email: rodrigo@santodigital.com.br
+License: UNKNOWN
+Description: 
+        # Objetivo
+        Lib para recuperar informações de planilhas do Google Spreadsheets através de API
+        
+        # Utilização
+        
+        1. Habilitar a API do Google Spreadsheets no console do GCP > APIs & Services > Libraries > Google Sheets API > Enable
+        
+        2. Criar uma key no console do GCP para autenticação na API através de IAM & Admin > Service Accounts > Create Key
+           2.1. Baixar o arquivo no formato JSON e armazenar em uma das pastas do projeto
+        
+        3. Instanciar a classe Sheets, informando 2 parâmetros:
+        
+           keyPath: Caminho e nome do arquivo que contém a chave de acesso para a API do Google Sheets
+           Exemplo: 'credentials/project-0456d0f0cd6a.json'
+           
+           spreadsheetId: Id da planilha que será consultada
+           Exemplo: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'
+        
+        4. Executar o método getRangeData, passando como parâmetro o range de células que deseja recuperar.
+           
+           Exemplo: `res = getRangeData('Class Data!A2:E')`
+        
+        ## Requisitos
+        
+        Instalar as libs abaixo:
+        
+        `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+        `pip install oauth2client`
+        
+        ## Manutenção
+        
+        Após executar o clone deste código, executar o comando abaixo, para baixar todas as dependências:
+        
+        `make install`
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
