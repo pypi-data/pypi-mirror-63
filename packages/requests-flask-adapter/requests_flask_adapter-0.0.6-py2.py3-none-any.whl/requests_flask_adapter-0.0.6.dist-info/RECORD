@@ -1,0 +1,10 @@
+requests_flask_adapter/__init__.py,sha256=rVbotwaWTmB4mpetEptzHsZMTDezJXTwj_w5ryS6Syo,63
+requests_flask_adapter/adapter.py,sha256=oDJsSHa3d9BSsrOD7LptXZGNc-xlPwlYH7UVGzlxuYM,2101
+requests_flask_adapter/helpers.py,sha256=oquLcxUebreJLvG_vZk0ZGKyp_TGrj66cb5V46Yz4_o,592
+requests_flask_adapter-0.0.6.dist-info/AUTHORS,sha256=SZxTEBMLWMIyb5e8uvHFGBr3rTpEW-BktFDNjXOy-6U,142
+requests_flask_adapter-0.0.6.dist-info/LICENSE,sha256=4Wp6QkRSoLvJ13T0Ttgd4fA7CtEY4qIRouoXypgak24,1154
+requests_flask_adapter-0.0.6.dist-info/METADATA,sha256=fevYsiWppP3XhwjiPzsHvSn6zntEMh0sZTy6ChY7xJE,6473
+requests_flask_adapter-0.0.6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+requests_flask_adapter-0.0.6.dist-info/pbr.json,sha256=xYn7sHcWg5Wd0OxLHO8kf3BDfI3kddYG68LgRZWAw_8,47
+requests_flask_adapter-0.0.6.dist-info/top_level.txt,sha256=AvlZqPN0LDvxFSa7II8admhAP6ExS4Tw4a8pnpk26i8,23
+requests_flask_adapter-0.0.6.dist-info/RECORD,,
