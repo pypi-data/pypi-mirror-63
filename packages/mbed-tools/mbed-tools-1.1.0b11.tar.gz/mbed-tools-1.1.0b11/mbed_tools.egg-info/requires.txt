@@ -1,0 +1,4 @@
+python-dotenv
+Click==7.0
+mbed-devices
+mbed_tools_lib
