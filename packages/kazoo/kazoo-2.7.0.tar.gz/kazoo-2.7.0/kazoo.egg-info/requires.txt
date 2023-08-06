@@ -1,0 +1,12 @@
+six
+
+[sasl]
+pure-sasl==0.5.1
+
+[test]
+six
+coverage
+mock
+nose
+flake8
+objgraph
