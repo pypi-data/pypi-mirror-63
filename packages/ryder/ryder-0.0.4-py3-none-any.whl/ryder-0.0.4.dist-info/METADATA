@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ryder
+Version: 0.0.4
+Summary: News reader for Python
+Home-page: https://github.com/kerighan/ryder
+Author: Maixent Chenebaux
+Author-email: max.chbx@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: langdetect
+Requires-Dist: dateparser
+
+# Scrape any news outlet
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+
+### Installing
+
+You can install the method by typing:
+```
+pip install ryder
+```
+
+### Basic usage
+
+```python
+import ryder
+
+#: get all valid urls on the homepage
+articles = ryder.source("https://lemonde.fr")
+
+for article in articles[:5]:
+    #: scrape content of the article
+    # lang is True by default: whether to infer the language
+    # of the article (using langdetect)
+    news = ryder.read(article["url"], lang=True)
+    print(news)
+
+```
+
+## Authors
+
+Maixent Chenebaux
+

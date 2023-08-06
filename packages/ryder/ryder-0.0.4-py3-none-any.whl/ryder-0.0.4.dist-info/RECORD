@@ -1,0 +1,13 @@
+ryder/__init__.py,sha256=y8bzs0MpQixriq1nDCHv2379NsusNr2KWFKSVeuEGWE,135
+ryder/articles.py,sha256=0CpqR3wUHaFY-_BQx6Xs4iA5k52vTlYBF2OYzNcxLnY,6116
+ryder/clean.py,sha256=iW_yVuednl3zk4JNb1gVFhnuT8xilW3ZDdxdJOmlOTQ,1718
+ryder/errors.py,sha256=92E5i2frv5hj9wxObJZsZqj5T6bglvPzvdvco_vW1Zk,38
+ryder/sources.py,sha256=LDlc9mRjgdbZXpQdvCkBzvX73ZEe_DjDfdsQACVLRaA,800
+ryder/utils.py,sha256=QgFPdi1e5QbNQJrbmj5HxPbkhL0AFR5aviOyNJOWw_U,2239
+ryder/ressources/headers.json,sha256=GSYIwCgZu2CYA2552vEGJTkF4TWVjeLN1-kUTgYUIAc,342
+ryder/ressources/medias.fr,sha256=pzyjr_MyV9bPP6tV8UoV4flTtA5Oj2AGqod9KbZ7Qak,3360
+ryder/ressources/stop_urls.txt,sha256=Oy7NBUGRMexCiT7v5B15pjX_bmjiI1YIyWThnnRgwgU,282
+ryder-0.0.4.dist-info/METADATA,sha256=VPafDIfo-BoH6-eMYdHr53bCcqbTzA58eTERt3bIZqQ,1185
+ryder-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ryder-0.0.4.dist-info/top_level.txt,sha256=NFiAf713f8yUfoYukNqNyWB6B58MjBcOY7MKcBsSL2o,6
+ryder-0.0.4.dist-info/RECORD,,
