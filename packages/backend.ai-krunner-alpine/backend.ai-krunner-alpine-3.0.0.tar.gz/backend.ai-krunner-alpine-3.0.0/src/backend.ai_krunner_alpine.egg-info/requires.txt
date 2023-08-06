@@ -1,0 +1,15 @@
+Click>=7.0
+
+[build]
+wheel>=0.33.4
+twine>=1.13.0
+
+[ci]
+
+[dev]
+pytest-sugar
+
+[test]
+pytest>=5.0.1
+flake8>=3.7.0
+codecov
