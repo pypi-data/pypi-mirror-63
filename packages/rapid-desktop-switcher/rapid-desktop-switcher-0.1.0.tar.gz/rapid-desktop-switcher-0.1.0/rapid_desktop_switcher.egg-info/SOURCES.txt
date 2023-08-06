@@ -1,0 +1,8 @@
+README.md
+setup.py
+rapid_desktop_switcher/__init__.py
+rapid_desktop_switcher/config.py
+rapid_desktop_switcher.egg-info/PKG-INFO
+rapid_desktop_switcher.egg-info/SOURCES.txt
+rapid_desktop_switcher.egg-info/dependency_links.txt
+rapid_desktop_switcher.egg-info/top_level.txt
