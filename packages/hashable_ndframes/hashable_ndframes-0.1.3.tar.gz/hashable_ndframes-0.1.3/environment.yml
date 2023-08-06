@@ -1,0 +1,15 @@
+name: hashable_ndframes
+
+dependencies:
+  - python=3.6
+
+  - pip
+  - pip:
+    - hypothesis
+    - pytest
+    - pytest-xdist
+
+    - bump2version
+    - pre-commit
+
+    - flit
