@@ -1,0 +1,5 @@
+dbnd==0.25.6
+mlflow~=1.6
+six
+
+[tests]
