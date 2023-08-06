@@ -1,0 +1,16 @@
+name: functional_itertools
+
+dependencies:
+  - python=3.6
+
+  - pip
+  - pip:
+    - flit
+
+    - bump2version
+    - pre-commit
+
+    - hypothesis
+    - pytest
+    - pytest-randomly
+    - pytest-xdist
