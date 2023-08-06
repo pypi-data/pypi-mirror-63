@@ -1,0 +1,9 @@
+remote_object/__init__.py,sha256=uz69BFRbg8UaaRoqrZCJoS-HnwXYzXfXNwzYqdTtBAo,112
+remote_object/client.py,sha256=GGXnRaSsKhnrb6csqNwUFcoukSALXZAJN-PJF3CK6Xs,5000
+remote_object/errors.py,sha256=Jlu5jIwDmI8dYXvvQExeT5VO8UQuBBhfDP6iPXw7L2w,2214
+remote_object/server.py,sha256=3CWF-GG0Trrrvyix-e-3ZsqhZxxf8eFg5sAFk2SjjMA,4725
+remote_object-0.2.1.dist-info/LICENSE,sha256=z8gvEOM3PfCw_oeHyhSgcnJJXb-Uv3iUBDkRFrIP9Es,1075
+remote_object-0.2.1.dist-info/METADATA,sha256=yr7owex2zVfX2Xwvoz6cD0a8XFvCkgEn6eFiws1lWpQ,3781
+remote_object-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+remote_object-0.2.1.dist-info/top_level.txt,sha256=8fl1JYYBE5-cAaeBfQ-iHs9918RhsSAgfXRfALalFe4,14
+remote_object-0.2.1.dist-info/RECORD,,
