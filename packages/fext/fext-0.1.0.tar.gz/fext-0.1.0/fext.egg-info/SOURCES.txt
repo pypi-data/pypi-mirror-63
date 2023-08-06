@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+fext/common.hpp
+fext/edict.cpp
+fext/edict.hpp
+fext/eheapq.cpp
+fext/eheapq.hpp
+fext.egg-info/PKG-INFO
+fext.egg-info/SOURCES.txt
+fext.egg-info/dependency_links.txt
+fext.egg-info/top_level.txt
