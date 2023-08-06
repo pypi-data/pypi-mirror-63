@@ -1,0 +1,179 @@
+CHANGES
+=======
+
+1.9.36
+------
+
+* dynamic tunnel ID fix
+* Add -Z root
+* Don't do complex stack config change comparison
+* FaucetUntaggedExpireIPv4InterVLANRouteTest could use wrong test host
+* pylint
+* Test mirror/unmirror operation
+* pylint
+* Also tunnel IDs not deterministic
+* Make tunnel\_ids deterministic
+* Test unmirroring
+* Detect mirror changes
+* Wait for config to be applied after a cold start
+* force cold start on VLAN involving routing
+* Fix changes to DP level only config are not detected. Don't pollute stack config structure with graph. Explicitly check for port VLAN moves
+* Ordered ACL output actions and tunnel improvements
+* drop\_bpdu no longer exists
+
+1.9.35
+------
+
+* When adding a link fault, check that the controller sees the same fault on the same link. Apart from being yet another check that the test suite is correct, it also reduces the test suite's load sensitivity (by not trying to verify connectivity until we are certain the controller knows the desired link state)
+* Description only change is not an DP impactful change
+* Remove requirement for drop\_spoofed\_faucet\_mac workaround
+* Consolidate common MACs in MAC spoofing
+* When stacking is enabled, only FAUCET MAC spoofing should only affect non-stack ports
+* placate pytype
+
+1.9.34
+------
+
+* Modify LACP state machine
+* Update dependency pytype to v2020.2.20
+* stickler
+* Should continue to switch even after receiving non Ethernet II/DTP frame
+* Improve no response error message
+* update() -> \_update() for prom pollers
+
+1.9.33
+------
+
+* Update prom/prometheus-pi Docker tag to v2.16.0
+* Revert to actor state NONE if no phys is up
+* port attr
+* config
+* count\_untag\_vlan\_miss
+* pylint
+* Test explicit untagged traffic dropped
+* Add explicit untagged drop rule when no tagged in use
+* Update prom/prometheus Docker tag to v2.16.0
+* Install lacp flowrules on cold-start
+* Flood to stack ports for inter-VLAN routing
+* Update dependency pytype to v2020.2.6
+* Add unit tests
+* Iterate through modules when expanding tests
+* Update grafana/grafana Docker tag to v6.6.1
+* Update grafana/grafana-arm32v7-linux Docker tag to v6.6.1
+* Update dependency exabgp to v4.2.6
+* added slowpath\_meter and fixed meterdel
+* Delete changelog
+* Add config check for invalid meter\_ids
+* Only have some LACP links sync, collecting & distributing for a LAG, this is based on the DPID
+* Add multidp LAG tests
+
+1.9.32
+------
+
+* add metering warm reloads
+* metering tests
+* Should check version in old logfile, if it exists
+* Prevent some multiDP tests from running on hardware
+* Stickler
+* Log version on startup. Verify Gauge has no exceptions also
+* LRU caching for flood rule priority
+* Cache ND/ARP creation
+* Cache matches
+* Add more LRU caching
+* typo
+* Allow transit stack switches to know VLANs
+* Need to explicitly install pip3 build dependencies first
+
+1.9.31
+------
+
+* Update grafana/grafana-arm32v7-linux Docker tag to v6.6.0
+* Update grafana/grafana Docker tag to v6.6.0
+* Edge-learn to root algorithm
+* Update dependency pytype to v2020.1.24
+* jobs/include makes Travis run serial now
+* stickler
+* Avoid getting stuck in flowtable filename loop
+* Print host info when debugging multidp tests
+* Update dependency exabgp to v4.2.4
+* Add chained stack test case
+
+1.9.30
+------
+
+* Don't do a delete all on disconnect
+* Should be using captured not received by filter
+* Correct test for edge learning - remote port must be up
+* Send delete all on controller initiated OF disconnect
+* Implement forwarding/non forwarding status for non-stack ports
+* re packet match
+* Document multimirror restriction and change tests to accomodate only one copy of traffic mirrored between ports
+* Add comments for linty
+* edge\_learn\_port test
+* Need test verifying set\_field action for ICMPV4\_TYPE, IPV4\_DST, IPV4\_SRC, IP\_DSCP
+* fix test suite stack links overwriting redundant host links
+* Update grafana/grafana-arm32v7-linux Docker tag to v6.5.3
+* Update grafana/grafana Docker tag to v6.5.3
+* Need test to verify switches can match IP\_DSCP field
+
+1.9.29
+------
+
+* Convert to stderr
+* Move table dump to fkeoftable
+* Update dependency pytype to v2020.1.8
+* Cleanup
+* Adding unit test for learning
+* test all topologies
+* Reset vlan cache on cold-start
+* Update dependency pytype to v2020
+* stickler
+* Simplify update\_stack\_topo by removing unused no-port code
+* Missing now for tests
+* stickler
+* Use now from Ryu
+* Need to relearn a host even if it didn't move from a port, if the port recently changed status
+* Smarter handling of clearing port LIVE flag (ignore it when already up because we're expecting a down message)
+* Update pyyaml version in debian/control
+* Update dependency pyyaml to v5.3
+* Add test for port move event
+* Keep VLAN host cache on port status change
+* marginal unit test performance under travis
+* pylint,
+* Update prom/prometheus-pi Docker tag to v2.15.2
+* pylint
+* Update prom/prometheus Docker tag to v2.15.2
+* pylint
+* Flood actions is tuple for stacking also
+* flowmod()
+* move output actions splitter staticmethod to valve\_of
+* Increase performance of packet in parsing and flood rule generation with LRU cache
+* Make dedupe and building match\_dict less expensive
+* Add test
+* Update dependency sphinx to v2.3.1
+
+1.9.28
+------
+
+* Re-add fault-tolerance tests + optimizations
+* Remove debug
+* Change to learned\_l2\_port
+* Adding l2 learning varz
+* Update dependency pytype to v2019.12.17
+* Towards root port should be the port along the chosen shortest path
+* Smoke test faucet to make sure installation was successful at build time. Speed up installation with parallel unit tests
+* Clear swap file
+* label fix for dp\_root\_hop\_port
+* Update grafana/grafana-arm32v7-linux Docker tag to v6.5.2
+* Update grafana/grafana Docker tag to v6.5.2
+* Add dummy ports to tutorial to workaround issue #3383
+* Modify the tutorial to go incremental with two routers instead of one super router as suggested by Brad Cowie
+
+1.9.27
+------
+
+* pylint
+* Document test debug mode
+* Implement debug mode for single test runner
+* Authenticate to pypi with API token instead of user/pass
+* Upgrade to beka v0.3.4
