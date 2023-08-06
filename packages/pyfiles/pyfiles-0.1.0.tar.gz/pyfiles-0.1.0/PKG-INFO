@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pyfiles
+Version: 0.1.0
+Summary: manage for files with python
+Home-page: https://github.com/tba91/pyfiles
+Author: TBA
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/tba91/pyfiles/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: files,management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
