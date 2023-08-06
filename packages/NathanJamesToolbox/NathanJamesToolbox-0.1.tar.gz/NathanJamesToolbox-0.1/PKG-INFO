@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: NathanJamesToolbox
+Version: 0.1
+Summary: Package for NJ scripts
+Home-page: https://github.com/pfajardo-nj/NathanJamesToolbox
+Author: Paulo Fajardo
+Author-email: paulo.fajardo@nathanjames.com
+License: UNKNOWN
+Description: # NathanJamesToolbox
+         
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
