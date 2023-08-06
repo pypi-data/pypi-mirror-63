@@ -1,0 +1,14 @@
+avanza/__init__.py,sha256=y2vTVWYavKiZZ_a3sk1N_u0IxJU6rQ2RBrmILwrFEa0,169
+avanza/_version.py,sha256=op0YgbBDjpD8XP_2_aEIvFkIRz9w0nlrOp56GUt0XxQ,23
+avanza/base.py,sha256=GyL-0MaYiDm9NmNCauYsrMd_iOqYYHsNwhR_YEzk9eY,2247
+avanza/chartdata.py,sha256=9PdH0amD5AcBHzrkxy9TQ6rP6iRi0H4o_wbeNiejzd0,2556
+avanza/collection.py,sha256=dD74RIglJXwo4yIESgDWGKtydiqNA6aZ4I0RhroJ0ww,3047
+avanza/constants.py,sha256=dKGuZKm18YqNsksx1MjYcfJ2Fpo4mq9--UjKVHEV32o,3602
+avanza/news.py,sha256=IRfgpqqF7TqKUdii1SsasU7ISclgKBKap9WWevZo8hg,1382
+avanza/search.py,sha256=qTicjMTHBLinfGm9Jl2AWbC3jm_6K82o-U_EZaQdnAU,1843
+avanza/ticker.py,sha256=bXdg1WhYm6nV7xHPRCjmbkDf_T4Eu3Y4wtaQXH2KVck,4039
+Avanza-0.0.10.dist-info/LICENSE,sha256=UHbDQp0iCH-MvWW2_1VFQ9p3O816s8-vll9WkMP8keY,1064
+Avanza-0.0.10.dist-info/METADATA,sha256=Sbqa4rYVXMM1K1-2828UgmyIoPKYYVByV10kh7srNJc,2618
+Avanza-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Avanza-0.0.10.dist-info/top_level.txt,sha256=4Sxe4l1ohC6D4OwzO5FC4r_cP1xkGKsFHS4IOrXnOeE,7
+Avanza-0.0.10.dist-info/RECORD,,
