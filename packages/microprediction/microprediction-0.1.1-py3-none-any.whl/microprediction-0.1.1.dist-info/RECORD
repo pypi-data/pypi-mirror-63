@@ -1,0 +1,14 @@
+microprediction/__init__.py,sha256=bL6zhn9di8aRh_zjgAQZ0bZw1eugE-PzOtakeS-nQg4,208
+microprediction/client.py,sha256=HognSp0vu3sphzJybupVy_mllbSA2JGO4MXZzBS2kXE,4814
+microprediction/collider.py,sha256=Sjtx5S-AA4HDcHbqQOXfn9RrZaF0iTum5xbiEinOtjE,1447
+microprediction/conventions.py,sha256=cudHxAwruCEZSQYnswL4tir4-s4KLJACGIMXWOn_7fg,2413
+microprediction/crawler.py,sha256=4NCOogLZQE5cHI1JPJOnUL4mHNgKDBtUxQ0Pk8ALO74,2062
+microprediction/mining.py,sha256=J_XIUJcxVWxFuReF_9xp-kLjSZWSzYpjkV1XnHVF_vg,824
+microprediction/reader.py,sha256=OXVwqHV8SNamPlpeIXYo83xA6R99lUIagRcrTDkl3HE,2977
+microprediction/samplers.py,sha256=waW2cL3OshSeSZSQw2M4zyeyLOyTVjUzUpMbYaWyPVI,4187
+microprediction/writer.py,sha256=r5eRYv06D2vabfHxQcJ2Eg8I-DSg95GN4GyPq8sehpE,2231
+microprediction-0.1.1.dist-info/METADATA,sha256=yixkAVMfpiR3gB5uGdRQnwX6cjq8IyKKtHrwlI577Pg,6685
+microprediction-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+microprediction-0.1.1.dist-info/entry_points.txt,sha256=T2rad4JBuVN0LbvJWEYPXVcjmJNPc6RLjRG_HFKE368,67
+microprediction-0.1.1.dist-info/top_level.txt,sha256=05d9Leu3k9O2citJCjv2fTadggNS7LEH5EZn2PFnMpk,16
+microprediction-0.1.1.dist-info/RECORD,,
