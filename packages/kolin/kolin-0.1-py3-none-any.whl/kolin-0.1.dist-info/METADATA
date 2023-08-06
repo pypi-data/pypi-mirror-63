@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kolin
+Version: 0.1
+Summary: Allows you to use kolin langua
+Home-page: UNKNOWN
+Author: Downey
+Author-email: xsumagravity@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+![Windows_Terminal_Logo_256x256](https://storage.googleapis.com/replit/images/1584107512084_8181280afcbe6d3f852b5b8e27d3feab.png)
+
+Pyshell is a UNIX shell coding language. The logo of the language is the picture above. Use pyshell.run to run the code from a .kn file.
+
