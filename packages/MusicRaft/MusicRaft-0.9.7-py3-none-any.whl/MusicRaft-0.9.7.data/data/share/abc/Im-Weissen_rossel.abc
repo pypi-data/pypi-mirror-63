@@ -1,0 +1,56 @@
+%format Euphonia.fmt
+%%format MEW.fmt
+X:1
+%%scale 0.7
+T:Im Weissen Rössl Selectie
+C:Benatzki
+C:Mollema
+L:1/16
+G:Horn F-3
+M:2/4
+U:K = !marcato!
+U:M = !tenuto!
+U:L = !emphasis!
+K:Eb
+%Q:1/4=88
+%Q:1/4 = 92
+[M:3/4] z4z4 !f!!<(! B4| LB8!<)! !ff!LB4|LB4LB4LB4|LB8LA4|LA8LA4|LG8LG4| L=A4LA4LA4|\
+!fermata!B8LB4| LA8LA4|LA4LA4LA4| LG4LE4LG4|!fermata!B8 !f!Lc4|
+LB4LG4LG4|!>(!A4=A4_A4!>)!| !mf!G8G4| !>(!(F4G4^G4|=A8)!>)!"//"z4||\
+[P:1] "^Landler"[K:Bb] !p! z4F8| z4G8| z4F4F4|z4F4F4|z4F4F4|z4F4F4|\
+LE4LD4LD4|LD2z2z4z4| 
+[|:!mf!"^Poco Mosso"z4F4F4| F4z4z4|z4F4F4| F4z4z4|z4F4F4|z4F4F4|
+!<(!z4F4F4|[1 F4A4B4  !<)!| !f!z4G4G4|z4G4G4|z4F4F4| F4z4z4|z4A4A4|z4F4F4| F4z4z4|z4F4F4| F4z4z4:|]
+[2!<(!F4A4B4  !<)!| !f!z4B4B4|z4B4B4|z4B4B4| F4F8|G4G4G4|B4B4B4||[P:2][M:C|] "^Slow Fox Tempo"\
+ !mf! _A4A4A4A4|_A4A4A4A4| !<(!e4e4f4f4!<)!| "_rie"e4f4!fermata!_d4z4|
+[|:[K:Ab] !mf! z4G4z4G4|z4G4z4G4|z4A4z4A4|z4A4z4A4|z4G4z4G4|z4G4z4G4|z4A4z4A4|\
+[1z4A4z4A4|z4A4z4A4|z4A4z4A4|z4A4z4A4|z4A4z8|
+z4G4z8|z4LE4(G4F4)|z4E4z4E4|z4E4z4E4:|][2!<(!z4A4z8!<)!| !f!z4A4z4A4|\
+z4A4z8|z4A4z4A4|z4.F4"_rit".=A4z4| !mf!z4A4z4A4|z4=B4z4B4||
+[M:3/4]"^Tempo di Valse" c4 !f!z4 e2e2| e12| =d4z2G2G4|G2=A2 G2^G2 A2_B2|\
+[P:3][|:[K:C] !f!  Lc2z2 G2G2 G2z2|LG2z2 G2G2 G2z2| !mf!z4G4G4|z4G4G4|
+"^Décidé" !f!Lc2z2 G2G2 G2z2|Lc2z2 G2G2 G2z2|[1 !mf!z4G4G4|z4G4G4:|][2!mf!z4G4G4|G4z4z2 !ff!G2|!fermata!G4z4z4||\
+[P:4][M:C|][K:F] !mf!z4A4z4A4| !<(!z4F4F2z2z4!<)!|
+z4E4z4E4|z4E4z4E4|z4E4z4F4|z4A4z4B4|z4A4z4A4|z4.A4z8|z4A4z4A4|z4!<(!F2z2z8!<)!|\
+z4.G4.E4.G4|!<(!.A4.G4.F4.E4!<)!|LA4z4z4A4|
+L=B4z4z4B4|G4.C2.D2 .E2.F2.G2.A2|.B4"^//"z4 !p!"_rit" MC8| "^Meno"z4(F4D8)|-(D8F8)|z4(C4A8)|-(A8F8)|z4G4B4G4|z4B4A4G4|!>(!z4A4A4A4!>)!|
+A4z4"^Mosso"!<)!D8|!mf!G4G4G8| "_cresc>>"L_A4A4A8|L=A4A4A8|-A2z2z4"??"z8| !mf!"_rit"F4F4F4F4|!<(!F4F4F4F4!<)!| !f!B4LG4LG4LG4|LG4z4!<(!(LB8!<)!||
+[P:5][M:3/4]!f!G2)z2{=B}c8|-c4F4F4|z4=B4B4|z4=B4B4| =B2z2{^c}c8|-c4E4E4|z4F4F4|z4 !mf!(A4B4|d6)(A2d4)|-d4(A4c4|d6)(B2d4)|
+-d4(B4d4|e6)(c2e4)|-e4!<(!MB4Mc4|Mc4!<)!Me4!>(!Mc4|MB4MD4!>)! !f!E4||[P:6]z4 {=B}c8|-c4F4F4|z4=B4B4|z4=B4B4|
+LG2z2{=B}c8|-c4e8| z4A4A4|A2z2z4z4[| "^allargando" !mf!!<(!z4F4F4!<)!|z4F4F4|!>(!z4F4F4!>)!|[1"_rit"F4z4z4|z4E4E4|z4E4E4|z4F4F4|F4z4z4:|]
+[2F4!<(!^G2A2"_rit" G2A2!<)!|!f!z4d4B4|B4B4B4||[P:7]"^landler" KA12|KA12|LG4z2c2c4|c4z4z4[|:!ff! z4A4A4|z4A4A4|"^stampen"a4a4a4& !mf!z4A4A4|a4z4z4&z4B4B4|
+!f!z4B4B4|z4E4E4|[1"^stampen"a4a4a4& !mf!z4E4E4|a4z4z4& !mf!z4F4F4:|][2z4E4E4|F4z4z4|:[K:Bb] !mf!z4F4F4|z4F4F4|z4E4E4|z4E4E4|[1z4F4F4|z4F4F4|
+z4F4F4|F4z4z4:|][2z4A4A4|z4A4A4|B4z4A4|B4LB4 !fermata!z4||[M:C|] !mf!"^Moderato"d12z4| c12z4| .c2Mc4.c2 (_A4c4)|=B4"//" !p!"_rit"Mc12||
+[P:8][K:C][M:4/8]F2F2 "^Tango Tempo"  F2F2|F2F2 F2F2| (F2E2) E2E2|E2z2E4| ^G2G2 G2G2|^G2G2 G2G2|E2E2 E2E2|!<(!E2z2=G4!<)!|
+F2F2 F2F2|F2F2 F2F2|G2G2 G2G2| !>(!A2c2 c4!>)!| !p! .c2z2.c2z2|.B2z2.B2z2|c2(e2_e4| d2) "//" !fermata!c2!fermata!c2!fermata!c2| B2B2 B2B2|
+B2B2 B2B2| G2E2 G2E2|!>(!G8 !>)!| !pp!.d2.d2 .d2.d2|.d2.d2 .d2.d2|.c2.c2 .c2.c2|.c2.A2!<(! G4"_rit"!<)!|F2F2 F2F2|_A2A2 A2A2| 
+G2G2 G2G2| ^F2 "//"z2z4| !p!.E2.E2 .E2.E2|.F2.F2 .F2LF2"//"|| [P:9][M:3/4] z4z4"^moderato" !p!(E3F| G6)(E2 G2c2|e8)(e3f)|d6(G2 d2e2)|c8(G3A|G6)(E2 G2c2)|
+e8(c4|d6B2c4)||[M:C|] B2z2 !f!!fermata!G4!fermata!^F4!fermata!G4|| "^Foxtrot" G4G4z4G4| z4G4z4G4|.G4LB8.G4| F4G4^F4G4| z4G4z4G4|z4B4z4B4|z4c4z4c4|z4c4z4c4|
+z4^c4z4c4|z4^c4z4c4|z4c4z4c4|z4(F4=F4^F4)|Lc4c4c4(^F4|Lc4)c4c4^F4|F4LB4LA4L_A4|LG4!<(!G4^F4G4!<)!| !f! Lc4z4z8| z4E4F4E4|z4F4z4F4|!<(!z4F4z4F4!<)!| !f!LG4z4!fermata!z8|
+z4F4F4F4|z4E4z4E4|z4E4z4E4|z4G4z4G4|z4G4z4G4|z4A4z4A4|z4F4F4F4|c4z4z4c4|B4z4z4B4|c4z4Ld4z4|lc4z4!fermata!z8||
+[P:10][M:3/4][K:Bb] A8 "^Tempo di Valse"A2A2||A8A2A2|A4B4=B4|C4z4z4 || !p! z4 "^Wiener Wals"B4B4|z4B4B4|z4A4A4|z4A4A4|z4B4B4|z4B4G4|z4A4A4|
+z4A4A4|z4G4G4|z4G4G4|z4B4B4|z4B4F4|z4A4B4|z4G4G4|A4z4A4|| "^con brio" z4F4F4|z4F4F4|z4F4F4|z4F4F4|z4G4F4|z4_E4E4|z4F4F4|z4F4F4|
+!<(!"_rit"z4B4B4|B4B4B4 !<)!| LB4LF4LB4!>(!|Ld8!>)! "//" !p!B4|(B8G4|A4G4A4)||[M:C|] !f! F16|=F4_A2A2(3A4A4A4|
+ _A16|(3-A4B4=A4 !<(!(3_A4G4F4!<)!||[P:11][M:C|][K:Eb] !ff!"^Marcia" G4G4z4G4| z4G4z4G4| z4A4z4A4| LD4LF4LF8| z4c4z4c4|z4B4z4A4| z4B4z4B4| LB4LE4LG8|
+z4B4z4B4|z4B4z4B4|z4G4z4A4| z4A4z4G4| z4B4z4B4| z4B4B8|| [M:3/4] !ff! G8G4|LB4LA4G4| Ld8LB4| LB8LB4||
+ [M:C|] "^Mosso"  c4 A2A2 (3A4A4A4|(3c4c4c4 (3c4c4c4|(Le16| LB4) !fff! "^Plus Large" z4 LB8|lLB8LG8|"_Mosso rit" LF4LF4LF8| LB8L_d8| Le8L=d8| z8LB8|-B16|-LB4z4z8|]
