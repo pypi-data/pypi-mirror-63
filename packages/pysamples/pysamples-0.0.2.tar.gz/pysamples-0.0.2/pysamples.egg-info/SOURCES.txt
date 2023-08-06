@@ -1,0 +1,7 @@
+README.md
+setup.py
+pysamples/__init__.py
+pysamples.egg-info/PKG-INFO
+pysamples.egg-info/SOURCES.txt
+pysamples.egg-info/dependency_links.txt
+pysamples.egg-info/top_level.txt
