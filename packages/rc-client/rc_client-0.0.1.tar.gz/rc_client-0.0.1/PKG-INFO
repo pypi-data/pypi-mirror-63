@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rc_client
+Version: 0.0.1
+Summary: Ringcentral API wrapper for Python
+Home-page: https://github.com/aarozhkov/rc_client.git
+Author: Aleksandr Rozhkov
+Author-email: alexander.rozhkov@nordigy.ru
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
