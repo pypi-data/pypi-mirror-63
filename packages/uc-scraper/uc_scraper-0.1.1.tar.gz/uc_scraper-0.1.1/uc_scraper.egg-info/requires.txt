@@ -1,0 +1,3 @@
+statscraper
+requests
+beautifulsoup4
