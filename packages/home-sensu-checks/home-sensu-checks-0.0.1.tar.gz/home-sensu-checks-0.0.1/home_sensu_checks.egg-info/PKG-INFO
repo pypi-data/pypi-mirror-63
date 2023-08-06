@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: home-sensu-checks
+Version: 0.0.1
+Summary: Custom checks/metrics for use with Sensu
+Home-page: https://github.com/susrik/home_sensu_checks
+Author: Erik Reid
+Author-email: merikreid@gmail.com
+License: UNKNOWN
+Description: # home-sensu-checks
+        
+        a collection of miscellaneous sensu checks & utilities for use at home
+        
+        there's actually only a trivial checking FRITZ!Box status
+        and fetching interface counters
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
