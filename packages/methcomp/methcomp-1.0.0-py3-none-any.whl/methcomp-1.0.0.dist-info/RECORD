@@ -1,0 +1,10 @@
+methcomp/__init__.py,sha256=I4wLTNHkvE_bi2YnoQBaqbexFzL9JvLT6gBUU50Sqtw,260
+methcomp/blandaltman.py,sha256=S2-Wxx8sV4jVmdKw4aEHGw4uVrnA6YCXOfTvKeQqTPE,8722
+methcomp/glucose.py,sha256=g-7TJERbbGJF41EL4r0V5eoCEo12dC-JRrjjZXJtQME,30673
+methcomp/regression.py,sha256=llZovrHkQ2dqOxIXApa2pm7cvGwALdCmZtHvTPCqQiI,20227
+methcomp-1.0.0.dist-info/DESCRIPTION.rst,sha256=FouhWgAvJP_AacATUp6IKPKTDRxi4p6_KlV3dpzQFtY,507
+methcomp-1.0.0.dist-info/METADATA,sha256=_GEsYQbxP2ZuF46jDmXJGQYbfj_muByEooUkgjrM-Ak,1502
+methcomp-1.0.0.dist-info/RECORD,,
+methcomp-1.0.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+methcomp-1.0.0.dist-info/metadata.json,sha256=pSKKBoW4VcsgBqtR25S3SVSs5v6qAH0Cir_-0z-Iwbw,1124
+methcomp-1.0.0.dist-info/top_level.txt,sha256=SgiuKlcNXuTwFaHj-uOQ1-HGm_XbIU_2B019zTw2gDA,9
