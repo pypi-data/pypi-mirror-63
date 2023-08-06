@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: canvs-toolbox-canvsUser
+Version: 0.1.0
+Summary: A package for custom canvs analytics
+Home-page: https://github.com/dbproductionsLTD/canvs_tools
+Author: Janet Huang
+Author-email: janet.huang@canvs.ai
+License: UNKNOWN
+Description: # Canvs Toolbox Package
+        
+        ### Import Statement
+        from canvs_toolbox import explore as ex
+        
+        ### Date Formatting
+        "MM/DD/YYYY" 
+        
+        ## Canvs TV Tools
+        - ex.tv_twitter_daily(api_key, data_mode, start_date, end_date)
+        - ex.tv_airings_backfill(api_key, data_mode, start_date, end_date)
+        - ex.tv_facebook_backfill(api_key, data_mode, start_date, end_date)
+        
+        ## Canvs Watch Tools
+        - ex.watch_post_backfill(api_key, data_mode, start_date, end_date)
+        - ex.watch_series_backfill(api_key, data_mode, start_date, end_date)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
