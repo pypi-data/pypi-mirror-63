@@ -1,0 +1,16 @@
+bcrypt
+flask-collect>=1.3.2
+flask-cors>=2.1.2
+flask-jwt-extended>=3.24.1
+flask-security>=3.0.0
+flask-smorest>=0.18.2
+
+[all]
+peewee-migrate>=1.1.6
+flask-mongoengine
+
+[mongo]
+flask-mongoengine
+
+[sql]
+peewee-migrate>=1.1.6
