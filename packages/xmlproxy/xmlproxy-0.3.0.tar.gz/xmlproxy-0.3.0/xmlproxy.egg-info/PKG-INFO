@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xmlproxy
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/Cologler/xmlproxy-python
+License: MIT License
+Description: # xmlproxy
+        
+        ``` py
+        import xml.etree.ElementTree as et
+        
+        r = et.Element('root')
+        s = et.SubElement(r, 'tagname')
+        s.text = '123'
+        
+        # use xmlproxy:
+        
+        class Root(et.Element):
+            tagname = text_property('tagname')
+        
+        r = Root('root')
+        r.abc = '123'
+        ```
+        
+        forgot tag name and enjoy type hit!
+        
+Keywords: xml
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
