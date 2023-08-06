@@ -1,0 +1,3 @@
+[console_scripts]
+private_pypi=private_pypi_bundles:main
+
