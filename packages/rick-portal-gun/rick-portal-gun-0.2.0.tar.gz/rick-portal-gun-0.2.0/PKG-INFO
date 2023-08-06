@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: rick-portal-gun
+Version: 0.2.0
+Summary: 
+Author: Sebastián Ramírez
+Author-email: tiangolo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: typer[all] (>=0.0.11,<0.0.12)
+Description-Content-Type: text/markdown
+
+# `callback`
+
+Awesome Portal Gun
+
+**Usage**:
+
+```console
+$ callback [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `load`: Load the portal gun
+* `shoot`: Shoot the portal gun
+
+## `callback load`
+
+Load the portal gun
+
+**Usage**:
+
+```console
+$ callback load [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `callback shoot`
+
+Shoot the portal gun
+
+**Usage**:
+
+```console
+$ callback shoot [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
