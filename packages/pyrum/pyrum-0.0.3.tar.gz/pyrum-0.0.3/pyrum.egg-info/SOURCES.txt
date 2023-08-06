@@ -1,0 +1,7 @@
+README.md
+pyrum.py
+setup.py
+pyrum.egg-info/PKG-INFO
+pyrum.egg-info/SOURCES.txt
+pyrum.egg-info/dependency_links.txt
+pyrum.egg-info/top_level.txt
