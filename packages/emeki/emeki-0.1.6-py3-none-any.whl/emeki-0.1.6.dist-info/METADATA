@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: emeki
+Version: 0.1.6
+Summary: Test
+Home-page: https://github.com/chbauman/emeki
+Author: Christian Baumann
+Author-email: chris.python.notifyer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# emeki
+
+This is my first python package published on PyPI.
+Install as follows.
+
+```
+$ pip install emeki
+```
+
+After a successful installation, it can be run from
+the command line.
+
+```
+$ emeki
+```
+
+Alternatively, it can be used as a python library.
+
+```python
+from emeki.util import str2bool
+
+b = str2bool("true")
+print(b)
+```
+
+[![CircleCI](https://circleci.com/gh/chbauman/emeki.svg?style=svg)](https://circleci.com/gh/chbauman/emeki)
+
+

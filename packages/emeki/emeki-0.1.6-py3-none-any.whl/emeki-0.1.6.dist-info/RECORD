@@ -1,0 +1,12 @@
+emeki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emeki/main.py,sha256=ikV4OVSfKYJp8wF-6zGsdAEuoOJnu0wXvq2Xm7DWmy4,546
+emeki/project_setup.py,sha256=1RRn-fKX-qxl-gqNIx7u9j9_kzjUdUTD_v9jrTnKC-w,4090
+emeki/testing.py,sha256=dkQWxjeuGaMF5Cg2AACDrWcfvBTOSc6se68Fz9cqDPg,1729
+emeki/util.py,sha256=suaZut9fsI1Sx4wbUbgztwPCW2fQDC9qNVg6wrsfNDg,1506
+emeki/template/template.zip,sha256=OdJ42xIV2bafnM8QC1K7z6e1XCDAQ3SD3RQc9UnsT2A,60211
+emeki-0.1.6.dist-info/LICENSE,sha256=7F-gPjXSUxASYUJj8XVLQCSFuIFBX6OXrsIQpiHOV_Q,1095
+emeki-0.1.6.dist-info/METADATA,sha256=pV76thuMcnVJzly_tbw7dAumxI6yc--UQCR4zHJ0Zh4,884
+emeki-0.1.6.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+emeki-0.1.6.dist-info/entry_points.txt,sha256=gOnuFo-ib6OY-Yg5U_ZCjCY91I3oxi4R2wPcwXPeinw,49
+emeki-0.1.6.dist-info/top_level.txt,sha256=zJMmDn0LXwJOu6Z8uVFLtZ9dT76MzwtiDV_zsJReAWw,6
+emeki-0.1.6.dist-info/RECORD,,
