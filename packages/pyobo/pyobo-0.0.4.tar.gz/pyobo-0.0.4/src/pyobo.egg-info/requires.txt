@@ -1,0 +1,10 @@
+obonet
+click
+tqdm
+pyyaml
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
