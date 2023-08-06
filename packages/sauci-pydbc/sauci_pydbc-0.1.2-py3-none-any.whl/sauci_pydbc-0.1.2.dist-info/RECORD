@@ -1,0 +1,11 @@
+pydbc/parser/__init__.py,sha256=NTIh1baw_7NFxjA76j22IMNtbfH3UTmUSmirj7fJUOM,53
+pydbc/parser/exception.py,sha256=-Mewh0GjO9pTXhLJrStLRyhQfr1IuCnr4CwIOsigOX8,643
+pydbc/parser/lexer.py,sha256=seK6HlfnC4AFX4xRLP4-09pQchAx8si3ct2wRZxFkiQ,2930
+pydbc/parser/node.py,sha256=6boEkq1SAx4V7KRaCFCqVa8tUCClo82dR94ix15y1ng,8611
+pydbc/parser/parsetab.py,sha256=FI1ajlFin-Py2YBF-HEkzFUfkB3HzNwjmBuDfYOqTEc,52572
+pydbc/parser/scanner.py,sha256=CXfyYl5dM8I9ulbulIj0MOOUzdLre1OKQIi7Z0zM1-o,19717
+sauci_pydbc-0.1.2.dist-info/LICENSE.md,sha256=BUHRPtiPSBRkJXe-nsLxYNtDVjzgGMW0mOfyNLcgUc0,1543
+sauci_pydbc-0.1.2.dist-info/METADATA,sha256=kCVBypWh6BQ2YW4B_JuYJplWfm6iO77KDXF3gfw6rYs,319
+sauci_pydbc-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sauci_pydbc-0.1.2.dist-info/top_level.txt,sha256=U7lPiKyGWxDI4IqIpI7RVteR93mBuugs9jMKfsLMAAE,6
+sauci_pydbc-0.1.2.dist-info/RECORD,,
