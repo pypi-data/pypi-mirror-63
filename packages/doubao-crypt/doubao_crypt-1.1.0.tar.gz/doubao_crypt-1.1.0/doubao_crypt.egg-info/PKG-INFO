@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: doubao-crypt
+Version: 1.1.0
+Summary: doubao crypt python library
+Home-page: UNKNOWN
+Author: biao.xu
+Author-email: biao.xu@baodanyun-inc.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5.3
