@@ -1,0 +1,15 @@
+# Logs and temporary stuff
+*.log
+tmp/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+venv/
+
+# Other project files
+data/
+papers/
+plots/
