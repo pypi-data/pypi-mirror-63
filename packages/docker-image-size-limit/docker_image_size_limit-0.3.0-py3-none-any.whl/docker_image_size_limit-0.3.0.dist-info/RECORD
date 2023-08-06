@@ -1,0 +1,7 @@
+docker_image_size_limit/__init__.py,sha256=PWr8zZIvAyYb96mDwQ84Rl0huTSZkC_xJ29dsLdKT10,2170
+docker_image_size_limit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_image_size_limit-0.3.0.dist-info/entry_points.txt,sha256=JT_0s8dQsN6ufn6ldVDfrp2IpLwP7BKHGcbrnKJzv7g,53
+docker_image_size_limit-0.3.0.dist-info/LICENSE,sha256=9VlZSbrT53SchTqz8SgGEU24WjRaqolA6WDUbAIUa6E,1072
+docker_image_size_limit-0.3.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+docker_image_size_limit-0.3.0.dist-info/METADATA,sha256=_2kMkePinb36V9DG4i8QnL499ygEAwDZMh4wyR49Y4w,4877
+docker_image_size_limit-0.3.0.dist-info/RECORD,,
