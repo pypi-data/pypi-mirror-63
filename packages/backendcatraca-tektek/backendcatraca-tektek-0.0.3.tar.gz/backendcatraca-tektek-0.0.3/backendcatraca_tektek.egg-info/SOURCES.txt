@@ -1,0 +1,6 @@
+README.md
+setup.py
+backendcatraca_tektek.egg-info/PKG-INFO
+backendcatraca_tektek.egg-info/SOURCES.txt
+backendcatraca_tektek.egg-info/dependency_links.txt
+backendcatraca_tektek.egg-info/top_level.txt
