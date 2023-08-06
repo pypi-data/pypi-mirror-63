@@ -1,0 +1,3 @@
+[console_scripts]
+world_weather_report = world_weather_report.cli:main
+
