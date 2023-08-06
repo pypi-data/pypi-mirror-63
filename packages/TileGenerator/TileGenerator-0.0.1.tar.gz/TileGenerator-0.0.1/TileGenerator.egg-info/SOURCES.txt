@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+TileGenerator/__init__.py
+TileGenerator/_nbdev.py
+TileGenerator/core.py
+TileGenerator/tile_generator.py
+TileGenerator.egg-info/PKG-INFO
+TileGenerator.egg-info/SOURCES.txt
+TileGenerator.egg-info/dependency_links.txt
+TileGenerator.egg-info/entry_points.txt
+TileGenerator.egg-info/not-zip-safe
+TileGenerator.egg-info/requires.txt
+TileGenerator.egg-info/top_level.txt
