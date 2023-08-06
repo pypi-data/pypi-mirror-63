@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+guenv.egg-info/PKG-INFO
+guenv.egg-info/SOURCES.txt
+guenv.egg-info/dependency_links.txt
+guenv.egg-info/entry_points.txt
+guenv.egg-info/requires.txt
+guenv.egg-info/top_level.txt
