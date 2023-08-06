@@ -1,0 +1,13 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+Makefile
+README.rst
+enviable.py
+setup.cfg
+setup.py
+enviable.egg-info/PKG-INFO
+enviable.egg-info/SOURCES.txt
+enviable.egg-info/dependency_links.txt
+enviable.egg-info/not-zip-safe
+enviable.egg-info/top_level.txt

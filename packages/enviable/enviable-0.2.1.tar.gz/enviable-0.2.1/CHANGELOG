@@ -1,0 +1,21 @@
+Change history for enviable
+---------------------------
+0.2.1
+^^^^^^
+* Feature: Testing if a key exists in the environment can now be done using ``"KEYNAME" in env``
+* Bugfix: using ``env.one_of(key, default="", choices="")`` without providing a custom converter no longer throws a ``TypeError``
+* Misc: Updated type hints across the module to keep `mypy`_ happy, and me deeply unhappy.
+* Misc: Before executing tests when doing ``python -m enviable``, try and run `mypy`_
+
+0.2.0
+^^^^^^
+* Bugfix: Resolved issue where by default it wasn't stripping leading/trailing whitespace from incoming strings
+* Feature: Added new convienience method ``env.one_of(key, default="", choices="", converter=None)`` for providing a constrainted list of options which are valid.
+* Misc: Updated the default converter for iterables to be a ``partial``
+* Bugfix: Resolved issue where ``str()`` and ``repr()`` for an ``Environment`` would leave duplicate values in if the same variable is searched for multiple times with different example/default values.
+
+0.1.0
+^^^^^
+* Initial export
+
+.. _mypy: https://mypy.readthedocs.io/en/latest/
