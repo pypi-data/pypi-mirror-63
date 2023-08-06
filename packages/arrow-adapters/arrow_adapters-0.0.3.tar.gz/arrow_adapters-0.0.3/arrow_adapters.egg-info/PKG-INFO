@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: arrow-adapters
+Version: 0.0.3
+Summary: arrow adapters
+Home-page: https://github.com/dpep/py_arrow_adapters
+Author: Daniel Pepper
+License: MIT
+Description: arrow-adapters
+        ======
+        Making the arrow time library play nice with others, so that every timestamp can have a timezone.  Support for: postgres, sqlite, sqlalchemy, graphene.
+        
+        Automatically converts time values to UTC before persisting in the DB and loads back with local timezone.
+        
+        
+        ### Install
+        ```pip install arrow-adapters```
+        
+        
+        ### Usage
+        ```python
+        import arrow_adapters.auto
+        ```
+        
+        ----
+        [![installs](https://img.shields.io/pypi/dm/time_adapters.svg?label=installs)](https://pypi.org/project/time_adapters)
+        
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
