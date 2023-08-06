@@ -1,0 +1,2 @@
+include orangecontrib/chemometry/tutorials/*.ows
+include orangecontrib/chemometry/widgets/icons/*
