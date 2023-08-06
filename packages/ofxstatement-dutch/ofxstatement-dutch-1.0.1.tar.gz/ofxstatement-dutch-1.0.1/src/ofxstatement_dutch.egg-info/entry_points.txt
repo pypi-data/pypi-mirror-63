@@ -1,0 +1,4 @@
+[ofxstatement]
+nl-icscards = ofxstatement.plugins.nl.icscards:Plugin
+nl-ing = ofxstatement.plugins.nl.ing:Plugin
+
