@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pymeshview
+Version: 0.0.2
+Summary: Minimalist mesh viewer for python powered by opengl
+Home-page: UNKNOWN
+Author: Stefan Jeske
+Author-email: jeske@cs.rwth-aachen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: meshio
+
+UNKNOWN
+
+
