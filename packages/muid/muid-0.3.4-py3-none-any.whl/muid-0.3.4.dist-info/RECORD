@@ -1,0 +1,14 @@
+muid/__init__.py,sha256=tb9-pjID7pzcVFfy2cABlBxngQDqucaNf_8MJM1e5xY,210
+muid/corpus.py,sha256=jsmOYqe7wSnUawRWPBsJu-vtiRUjPe7Qndj2PzK0z-c,1402
+muid/crypto.py,sha256=n4pdcoI0djN9RIBVfKcLANcCEACIwEZqW_u_J1g7unc,525
+muid/economics.py,sha256=xkkBOfcxTMIVqDkqOQXmk03kUGdwPDnfbtFVou92Fhg,5519
+muid/explanation.py,sha256=fnBeSS0ugSTAQFr7yKQbQaL7QTjAMHz9DNi5qNDHU9s,24331
+muid/memorable.py,sha256=c82MpJvdojbQ9t2NhpOKEjSUF_Ht1pkAhhj_AOT22KM,7349
+muid/mining.py,sha256=rWx6k137RdPway_jLHggizwcDuGV79b6IYKqXYS8pxY,4503
+muid/stupid_dog_tricks.py,sha256=AVAAdi0pRyo4pu41I-k6NrOdOT8KuV54ZD0NmStDwDA,525
+muid/validation.py,sha256=puFZnM0cxXtp4L4oJyyu46THmQmRZIrPaMQyCIB8M_4,314
+muid-0.3.4.dist-info/METADATA,sha256=RTO5rVMAMHiywSxUOKRGkFx6HJx-_61nk7fTzua9bW8,3626
+muid-0.3.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+muid-0.3.4.dist-info/entry_points.txt,sha256=8TARaD5ygbWPE7cEU_xFv8WxANurjmh1ylavk9obubs,45
+muid-0.3.4.dist-info/top_level.txt,sha256=MZrgmWTdG-siWGRwfqrV-wsUgZIe5dGYgnpKL_j8es0,5
+muid-0.3.4.dist-info/RECORD,,
