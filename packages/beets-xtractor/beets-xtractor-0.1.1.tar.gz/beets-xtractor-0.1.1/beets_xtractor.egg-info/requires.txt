@@ -1,0 +1,3 @@
+beets>=1.4.9
+confuse
+PyYAML
