@@ -1,0 +1,7 @@
+flask
+jsonschema
+pyaltt2
+python-rapidjson
+pyyaml
+requests
+sqlalchemy
