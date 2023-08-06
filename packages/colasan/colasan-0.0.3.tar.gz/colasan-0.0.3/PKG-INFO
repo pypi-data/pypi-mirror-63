@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: colasan
+Version: 0.0.3
+Summary: Show Cola Name Jaaa
+Home-page: UNKNOWN
+Author: New Panuwat
+Author-email: dibzy.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/UncleEngineer/loongtu/archive/0.0.2.zip
+Description: plese read in: https://github.com/newzpanuwat
+Keywords: COLA,Doll
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
