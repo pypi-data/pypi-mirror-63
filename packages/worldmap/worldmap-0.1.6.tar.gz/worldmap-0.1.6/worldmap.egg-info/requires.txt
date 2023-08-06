@@ -1,0 +1,9 @@
+wget
+matplotlib
+numpy
+pandas
+svgpathtools
+colourmap
+tqdm
+fuzzywuzzy[speedup]
+sklearn

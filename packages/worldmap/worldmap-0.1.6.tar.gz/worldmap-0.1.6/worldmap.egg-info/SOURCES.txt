@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+worldmap/__init__.py
+worldmap/examples.py
+worldmap/worldmap.py
+worldmap.egg-info/PKG-INFO
+worldmap.egg-info/SOURCES.txt
+worldmap.egg-info/dependency_links.txt
+worldmap.egg-info/requires.txt
+worldmap.egg-info/top_level.txt
+worldmap/data/__init__.py
+worldmap/utils/__init__.py
+worldmap/utils/deepStringMatching.py
+worldmap/utils/stringPreprocessing.py
+worldmap/utils/strtricks.py
+worldmap/utils/zip_extract.py
