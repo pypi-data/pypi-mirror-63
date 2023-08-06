@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+jupyterplot/__init__.py
+jupyterplot/_nbdev.py
+jupyterplot/jupyterplot.py
+jupyterplot.egg-info/PKG-INFO
+jupyterplot.egg-info/SOURCES.txt
+jupyterplot.egg-info/dependency_links.txt
+jupyterplot.egg-info/entry_points.txt
+jupyterplot.egg-info/not-zip-safe
+jupyterplot.egg-info/requires.txt
+jupyterplot.egg-info/top_level.txt
