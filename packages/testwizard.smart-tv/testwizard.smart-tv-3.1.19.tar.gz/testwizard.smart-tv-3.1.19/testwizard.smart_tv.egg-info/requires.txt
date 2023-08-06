@@ -1,0 +1,8 @@
+testwizard.core==3.1.19
+testwizard.testobjects-core==3.1.19
+testwizard.commands-audio==3.1.19
+testwizard.commands-mobile==3.1.19
+testwizard.commands-powerswitch==3.1.19
+testwizard.commands-remotecontrol==3.1.19
+testwizard.commands-video==3.1.19
+testwizard.commands-camera==3.1.19
