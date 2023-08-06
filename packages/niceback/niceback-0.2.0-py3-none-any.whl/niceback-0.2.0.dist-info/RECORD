@@ -1,0 +1,10 @@
+niceback/__init__.py,sha256=SCzlxnja1XriJ8QlFH9rmTGl5CcsBMRG0B9bGXg1xPo,93
+niceback/html.py,sha256=qKsJcusIFkghie_aqNuG-O_LVOrPXGGzKQPNawoEMX4,4088
+niceback/inspector.py,sha256=gQAvj_2qezvrTTJMnGGicUBpbQMypp_c-Rwco8E5W3M,2728
+niceback/logging.py,sha256=qeAA-K8sI8DyO_kWz8Ahiw4XTF-JGxBUuPzvhs4s-20,85
+niceback/on_notebook.py,sha256=gWPFZiyXy1RdOBDUEDY3c5sk0ZFNSejftQ8Bm_YKa-M,947
+niceback/trace.py,sha256=tYJmsOu9BGP4zUQbmQvg9oG6TSPrDXGj28asbXE_ZGw,5154
+niceback-0.2.0.dist-info/METADATA,sha256=1OdPqlLLQ7DHRwyCXxsfdargDqCVkiXl3QJEWu-xFFk,3605
+niceback-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+niceback-0.2.0.dist-info/top_level.txt,sha256=OrLWJg0Mgk3QLnd7Kw_AjPGG38UxRVRzLytr8jF8PPI,9
+niceback-0.2.0.dist-info/RECORD,,
