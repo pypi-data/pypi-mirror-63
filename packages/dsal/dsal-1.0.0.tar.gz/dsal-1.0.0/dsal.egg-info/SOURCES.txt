@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+datastructures/singlylinkedlist.py
+dsal.egg-info/PKG-INFO
+dsal.egg-info/SOURCES.txt
+dsal.egg-info/dependency_links.txt
+dsal.egg-info/top_level.txt
