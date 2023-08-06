@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+SmileLog.egg-info/PKG-INFO
+SmileLog.egg-info/SOURCES.txt
+SmileLog.egg-info/dependency_links.txt
+SmileLog.egg-info/top_level.txt
+src/Consoler.py
+src/Logger.py
+src/__init__.py
