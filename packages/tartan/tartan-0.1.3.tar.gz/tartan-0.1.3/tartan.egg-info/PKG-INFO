@@ -1,0 +1,84 @@
+Metadata-Version: 1.2
+Name: tartan
+Version: 0.1.3
+Summary: Generates tartan images from threadcount definitions
+Home-page: https://github.com/paul-butcher/tartan
+Author: Paul Butcher
+Author-email: paul.butcher@gmail.com
+License: MIT license
+Description: ======
+        tartan
+        ======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/tartan.svg
+                :target: https://pypi.python.org/pypi/tartan
+        
+        .. image:: https://img.shields.io/travis/paul-butcher/tartan.svg
+                :target: https://travis-ci.com/paul-butcher/tartan
+        
+        .. image:: https://readthedocs.org/projects/tartan/badge/?version=latest
+                :target: https://tartan.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        Renders tartan images from threadcount definitions.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://tartan.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Command line interface to generate a PNG image from a threadcount.
+        * Generate a PIL image in memory.
+        * Generate images with your preferred size.
+        * Repeating and reflective setts.
+        
+        See also
+        --------
+        
+        * `Guidance about threadcounts <https://www.tartanregister.gov.uk/threadcount>`_  from the Scottish Register of Tartans.
+        * `@RandomTartan, <https://twitter.com/RandomTartan>`_ a Twitter bot that uses this library.
+        * `filly-more, <https://github.com/paul-butcher/filly-more>`_ a Glitch project that demonstrates this application.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-03-03)
+        ------------------
+        
+        * First release on PyPI.
+        
+        0.1.1 (2020-03-07)
+        ------------------
+        
+        * threadcount_to_image can now be imported from tartan, rather than tartan.tartan
+        * Better CLI help
+        
+Keywords: tartan
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Artistic Software
+Requires-Python: >=3.5
