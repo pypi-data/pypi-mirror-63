@@ -1,0 +1,14 @@
+spiralsort/__init__.py,sha256=kp6bw-eSYijVjnFgQUGYiK2y7aBZPTli2dmgxVP0CCM,896
+spiralsort/__main__.py,sha256=BlUaoZEU_A-K7-IDJcJxm6FNlvXRWazGaqDjeIpiZ2U,2193
+spiralsort/config.py,sha256=hafK58CGNpdUm384hUxSoKfDjb8EaXDdo0BMCIfZwT8,755
+spiralsort/core.py,sha256=sPL18TmtJSPf9GfAucMOEUV2dmvAUZUYTcOTFG_PMVE,13451
+spiralsort/io.py,sha256=6PN2j3WuSh0c7YJkZEN7TuUQUXxOdrdwZjpTItCRPVI,2221
+spiralsort/spiralsort_post.py,sha256=3FnFArU-6f8sjedHaW8S8h6bssE7BEMGK3dPDYs37QI,14394
+spiralsort/utilities.py,sha256=ZWd57wdjo4pJEUvwo5rAhwbwWSCkLHFO8QpaMqe8H_k,3244
+spiralsort/utils.py,sha256=obZwF7TpzwEPTdxR8bFo7Cyc_W88GB7vt56MY8zYwnA,3524
+spiralsort-0.1.2.dist-info/COPYING,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+spiralsort-0.1.2.dist-info/METADATA,sha256=MPIiwh1kNdfZ4eMCM_6FMvP0NyOkkhqVhu1e7HK463c,4948
+spiralsort-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spiralsort-0.1.2.dist-info/entry_points.txt,sha256=cWM7kRejz1PUl9yR9YKlD7lnk6sWy-ARIoQtv_HCA5g,57
+spiralsort-0.1.2.dist-info/top_level.txt,sha256=eGwWeHrp1mcpDQvw93i_xhhxe-HVIxIFrIUfpolgWXU,11
+spiralsort-0.1.2.dist-info/RECORD,,
