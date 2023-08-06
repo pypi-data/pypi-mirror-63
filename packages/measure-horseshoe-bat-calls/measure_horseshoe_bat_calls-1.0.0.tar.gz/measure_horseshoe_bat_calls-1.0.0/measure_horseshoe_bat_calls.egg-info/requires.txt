@@ -1,0 +1,7 @@
+numpy>1.15
+pandas
+soundfile
+peakutils
+scipy
+matplotlib
+PyWavelets
