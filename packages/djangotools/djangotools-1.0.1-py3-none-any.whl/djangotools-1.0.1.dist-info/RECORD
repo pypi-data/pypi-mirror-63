@@ -1,0 +1,16 @@
+djangotools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangotools/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+djangotools/apps.py,sha256=N5mvEveNH_C4700B4sAAHaVtFy6DXTKLwDI3SaLCnQg,102
+djangotools/decorators.py,sha256=WW4XCbW-biyGoP90J_5UuSGSRtqddMtP0RtIbDLLuk4,651
+djangotools/mixins.py,sha256=vSLyVSOdO4oGuVrHXXilxRl4VZ6eT2N4EeoQU9JmqbQ,448
+djangotools/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+djangotools/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+djangotools/tools.py,sha256=bN-xnfY7k7yDQwrULgZimQ50M-ULPGTPTnT936uYPYA,238
+djangotools/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+djangotools/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangotools/migrations/__pycache__/__init__.cpython-37.pyc,sha256=Ckg58RK6IQ3xFLUKABUdefZXKbkSWJWO6uoX7miDCis,193
+djangotools-1.0.1.dist-info/License,sha256=dYHjBiv9OJ4Lao2opkH3bvliwnNQDmX9j9Pl8QV_Xmo,1092
+djangotools-1.0.1.dist-info/METADATA,sha256=W3tY2Zu4bfaxT3zG6ACvQzt4qJ7rYWFAOB3da7W-7KY,1525
+djangotools-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+djangotools-1.0.1.dist-info/top_level.txt,sha256=4am16urWnUxh6ax3ow6WmXPk3OtaplIjCM9BvMDALhQ,12
+djangotools-1.0.1.dist-info/RECORD,,
