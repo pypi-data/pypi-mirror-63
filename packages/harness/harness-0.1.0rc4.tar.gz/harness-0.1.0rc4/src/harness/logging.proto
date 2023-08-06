@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package harness.logging;
+
+enum Level {
+    NOTSET = 0;
+    DEBUG = 1;
+    INFO = 2;
+    WARNING = 3;
+    ERROR = 4;
+    CRITICAL = 5;
+}
+
+message Console {
+    enum Stream {
+        STDERR = 0;
+        STDOUT = 1;
+    }
+    Stream stream = 1;
+    Level level = 2;
+}
+
+message Syslog {
+    enum Facility {
+        NOTSET = 0;
+        USER = 2;
+        LOCAL0 = 17;
+        LOCAL1 = 18;
+        LOCAL2 = 19;
+        LOCAL3 = 20;
+        LOCAL4 = 21;
+        LOCAL5 = 22;
+        LOCAL6 = 23;
+        LOCAL7 = 24;
+    }
+    string app = 1;
+    Facility facility = 2;
+    Level level = 3;
+}

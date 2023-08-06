@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: harness
+Version: 0.1.0rc4
+Summary: Language-neutral meta-framework for server-less style services
+Home-page: https://github.com/vmagamedov/harness
+Author: Vladimir Magamedov
+Author-email: vladimir@magamedov.com
+License: BSD-3-Clause
+Description: Harness
+        =======
+        
+        Harness is a language-neutral meta-framework for building a serverless-style
+        services.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        .. code-block:: console
+        
+          $ pip3 install harness
+          $ brew install protobuf
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst

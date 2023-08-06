@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package harness.net;
+
+import "harness/wire.proto";
+import "validate/validate.proto";
+
+message Socket {
+    string host = 1 [(validate.rules).string.min_len = 1];
+    uint32 port = 2 [(validate.rules).uint32.gt = 0];
+}
+
+message Pipe {
+    string name = 1;
+    uint32 mode = 2;
+}
+
+message Address {
+    oneof type {
+        Socket socket = 1;
+        string pipe = 2;
+    }
+}
+
+message Server {
+    Socket bind = 1 [(harness.mark).protocol = TCP];
+}
