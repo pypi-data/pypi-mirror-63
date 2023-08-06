@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: familiar
+Version: 0.0.1
+Summary: Dungeons and Dragons helper functions
+Home-page: https://github.com/JDSalisbury/familiar
+Author: Jeff Salisbury
+Author-email: pip.familiar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Role-Playing
+Description-Content-Type: text/markdown
+
+# Familiar
+
+A list of tools to help create D&D applications.
+
+## Installation
+
+Run the following to install:
+
+```python
+
+pip install familiar
+```
+
+## Usage
+
+```python
+from familiar import dice_roll
+
+# dice_roll takes a number of dice to roll, number of sides on dice, and a modifier and returns a random result.
+
+roll = dice_roll(2,6, 1)
+print(roll)
+```
+
+
