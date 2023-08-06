@@ -1,0 +1,10 @@
+textractutil/__init__.py,sha256=VAvLc19xMfC62vLASwa2fyKyuU0XX3mIMiiwPigwwaM,263
+textractutil/advance_parser.py,sha256=BarAs1N39At1gmLSHFuXMuDXxlWMmmXiADwyNB6hTrY,3256
+textractutil/input_validator.py,sha256=-WiaGTjWtZGSfWVUY63y4UTJbatXHaPJ6hTLnV1Xdd8,916
+textractutil/parser.py,sha256=2jODeWDnju9TG8VqdGu2vEDlDoAARY2fSAqITXzTS2g,2869
+textractutil/response_parser.py,sha256=_c5rwyJyT2mS8vKqIi38RgWOyJlndoQq6zwD6jTqNM4,13799
+textractutil-0.1.0.dist-info/LICENSE,sha256=nRRaF5Pc8yYDhBGV-GKsR-spzHhbGpmsP8yVKD8YP3k,1065
+textractutil-0.1.0.dist-info/METADATA,sha256=Pz5coAOUm3ezMDzlW4uXg9epEqwq67LRsL8lYdaE-vo,1084
+textractutil-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+textractutil-0.1.0.dist-info/top_level.txt,sha256=E92XTn8Cda-w1hvjmVUg14rF0e2l73nv4q0vrygSIUE,13
+textractutil-0.1.0.dist-info/RECORD,,
