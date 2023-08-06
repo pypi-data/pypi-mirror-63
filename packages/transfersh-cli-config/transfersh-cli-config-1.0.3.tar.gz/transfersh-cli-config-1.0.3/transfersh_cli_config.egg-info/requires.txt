@@ -1,0 +1,4 @@
+Click>=6.7
+pyperclip>=1.6.4
+requests>=2.19.1
+appdirs>=1.4.3
