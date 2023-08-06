@@ -1,0 +1,10 @@
+iscard/__init__.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+iscard/__main__.py,sha256=HJVNtX608KmRaJt4VMiFt6fqivvTLRQIf9xsQHhUZTg,6014
+iscard/core.py,sha256=e7UWUDiUQ_J0Ubd3o_Hn397VX8zpMQgRhyDjsGY2xTQ,10829
+iscard/model.py,sha256=IZSL14F7fMPaj2Ksj1CyVCNOc-BSPee3Hr6OBZt6FYs,14198
+iscard-0.0.5.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+iscard-0.0.5.dist-info/METADATA,sha256=sKuXEmrzLN2imXNR9j5MrBtx0sEv9CrzzXZSz7gsHpU,1006
+iscard-0.0.5.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+iscard-0.0.5.dist-info/entry_points.txt,sha256=KUkiKOAZ5dmnlIHTovXfJJinj1Npdu-dFmxBL1ttbVw,44
+iscard-0.0.5.dist-info/top_level.txt,sha256=jLKxHbjwQcpXTnkaX2YZG2DAjRJ4iKul0yqouZFYNGg,7
+iscard-0.0.5.dist-info/RECORD,,

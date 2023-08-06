@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: iscard
+Version: 0.0.5
+Summary: simple CNV caller for NGS
+Home-page: https://github.com/dridk/iscard
+Author: Sacha Schutz
+Author-email: sacha@labsquare.org
+License: GPL
+Keywords: GUI,health
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: tables (>=3.6.1)
+Requires-Dist: pysamstats (==1.1.2)
+Requires-Dist: pysam (==0.15.4)
+Requires-Dist: scikit-learn (>=0.22.1)
+Requires-Dist: matplotlib (>=3.1.2)
+Requires-Dist: tqdm (>=4.42.0)
+Provides-Extra: dev
+Requires-Dist: pytest-cov (==2.6.1) ; extra == 'dev'
+Requires-Dist: pytest (==4.0.1) ; extra == 'dev'
+Requires-Dist: pytest-runner ; extra == 'dev'
+
+# iscard
+Intra Sample Analysis of Read Depth 
+
+
