@@ -1,0 +1,15 @@
+clipping/__init__.py,sha256=dELkr9ie2xo29KEMGvJL1oJhEG2qOrShbTpjCjzGF5E,94
+clipping/hints.py,sha256=FHga7bN0IxdKvEfaNWBmBkF_R6IVaWJph8zKERRiZeY,443
+clipping/planar.py,sha256=5ju57eyGvwhQU3t-kjL3OrHv8DEbUYhyRipdt1xypKc,6207
+clipping/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clipping/core/enums.py,sha256=hkUhHEN27dV_FC_QqqhyG9OrykKuLjqr_UkgwMvheLg,181
+clipping/core/event.py,sha256=cA_eoBZFyX0JJ4YoWiBJy-N8AoDTPdIv3YqjkVMMD0Q,2605
+clipping/core/events_queue.py,sha256=Cy3vqKcUH0dmhHnw8qOM53BX2kV5uRb2rm1UYj1JFsA,2230
+clipping/core/operation.py,sha256=M9bRYFpeofvqQDAfn2s9Qk9KbEtKFeJGsiplKIeSQHI,20231
+clipping/core/sweep_line.py,sha256=ImLdRoN-EJIqRpwpbBkR5S_Lpuq86K7XDLgI50U_gJs,4551
+clipping/core/utils.py,sha256=AxF_AMcJg9lTnevLVw_PN8tRGdWBoHFz7UTDhwnnJ9U,3227
+clipping-0.5.1a0.dist-info/LICENSE,sha256=-W_qNLRoZO2-AnwtGfKupruYTfLtIk39IeMqidpeVOU,1069
+clipping-0.5.1a0.dist-info/METADATA,sha256=XxqWgkB2lDg4V-bVcTwD1p2hgb_Wf4sovKZlziCzpe8,6040
+clipping-0.5.1a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+clipping-0.5.1a0.dist-info/top_level.txt,sha256=sRYoQhsiSvY8iqLvj6y4hDrGA9CJIlSnyHCieBUnMNo,9
+clipping-0.5.1a0.dist-info/RECORD,,
