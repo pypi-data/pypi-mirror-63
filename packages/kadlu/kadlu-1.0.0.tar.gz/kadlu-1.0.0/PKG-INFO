@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kadlu
+Version: 1.0.0
+Summary: MERIDIAN Python package for ocean ambient noise modelling
+Home-page: https://gitlab.meridian.cs.dal.ca/public_projects/kadlu
+Author: Matthew Smith, Oliver Kirsebom
+Author-email: matthew.smith@dal.ca, oliver.kirsebom@dal.ca
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Platform: UNKNOWN
