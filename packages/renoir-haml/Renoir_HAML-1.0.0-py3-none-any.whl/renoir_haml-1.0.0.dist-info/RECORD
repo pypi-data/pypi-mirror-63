@@ -1,0 +1,11 @@
+LICENSE,sha256=WJ7YJHTW79Zs8O0GvxJCLMt9-AM2tMmWgdgRytdeHrU,1684
+renoir_haml/__init__.py,sha256=7ZJYQjCkr98IXU9xfWw0y6QC1mdikeUg80qQCiqD_gM,22
+renoir_haml/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+renoir_haml/elements.py,sha256=qlAeNWr5WwA_ARdbfwPVe0d3jAG-nJu15Uj_7dAxi4I,6031
+renoir_haml/ext.py,sha256=mqHKWoCC_vooWv1U2jaLluBTN3rnyQgnKDVRBh1cN9Q,2236
+renoir_haml/hamlpy.py,sha256=RcMgpBm-WD_aAarf5Orvjcncf7mrr_bc-bFnvuESDkw,1993
+renoir_haml/nodes.py,sha256=TE2DOxXMD53UXgBeq6yLNlKVeIHXls1HwZyOQ7_9Nbc,18345
+renoir_haml-1.0.0.dist-info/LICENSE,sha256=WJ7YJHTW79Zs8O0GvxJCLMt9-AM2tMmWgdgRytdeHrU,1684
+renoir_haml-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+renoir_haml-1.0.0.dist-info/METADATA,sha256=nyPjrfvE8fVDCXEz-DIbLhRKZSCHB1vCWcmcXp3vyRI,1964
+renoir_haml-1.0.0.dist-info/RECORD,,
