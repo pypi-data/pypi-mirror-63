@@ -1,0 +1,8 @@
+argparse
+pytest
+natsort
+PyYAML
+h5py
+numpy
+Cython
+keras
