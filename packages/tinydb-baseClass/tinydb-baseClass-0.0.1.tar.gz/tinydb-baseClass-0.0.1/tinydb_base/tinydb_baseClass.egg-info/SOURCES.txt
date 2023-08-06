@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+readme.md
+setup.py
+test_tinyDbBase.py
+tests/testCryptography.py
+tests/testData.py
+tests/testFactory.py
+tests/testOutput.py
+tinydb_base/tinydb_baseClass.egg-info/PKG-INFO
+tinydb_base/tinydb_baseClass.egg-info/SOURCES.txt
+tinydb_base/tinydb_baseClass.egg-info/dependency_links.txt
+tinydb_base/tinydb_baseClass.egg-info/top_level.txt
