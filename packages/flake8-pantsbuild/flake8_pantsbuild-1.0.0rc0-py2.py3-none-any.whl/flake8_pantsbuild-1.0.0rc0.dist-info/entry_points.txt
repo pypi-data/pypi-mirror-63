@@ -1,0 +1,6 @@
+[flake8.extension]
+PB1=flake8_pantsbuild:Plugin
+PB2=flake8_pantsbuild:IndentationPlugin
+PB3=flake8_pantsbuild:TrailingSlashesPlugin
+PB6=flake8_pantsbuild:SixPlugin
+
