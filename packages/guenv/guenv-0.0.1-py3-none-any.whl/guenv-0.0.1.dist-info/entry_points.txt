@@ -1,0 +1,4 @@
+[console_scripts]
+guenv = guenv.cli:cli
+guenv_dev = guenv.cli:cli [develop]
+
