@@ -1,0 +1,11 @@
+ip2c/__init__.py,sha256=T-aioiKz3eWWMQbYRR_zVFT3Q8CdVQa01nFhk19crMs,174
+ip2c/main.py,sha256=2qDMEQSzREWu48537WNgLbgt07WDg9EqmeLAzRxSMGo,213
+ip2c/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ip2c/serve.py,sha256=hwJ8ldN0WXfTnIQIBRxXZ8Z1MBM5toVxgD4Z4VOdoFA,3163
+ip2c/model/ip2country.py,sha256=rJFT3rAx5oKvOIUuUrLKZOypJPEn4_NJgKGAI86nSFA,3198
+ip2c/model/iprange.py,sha256=dWr6QZilcMjWLZ6LcTQkrP0EtKayV20i3x0ebY9I4nU,884
+ip2c-0.1.1.dist-info/entry_points.txt,sha256=wj0uE4qB_RfLCMR1EFbFJtSzulci1WZd23CBa1SDGL4,39
+ip2c-0.1.1.dist-info/LICENSE,sha256=umlgZ2px5YWsgjjKKoGaUQ-rPVPr-7Wzvms-gfDBm6s,1066
+ip2c-0.1.1.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+ip2c-0.1.1.dist-info/METADATA,sha256=k6_5A6OdqHaM_ojX5udF-2A3UKLmWi4eUIL47ARnp6c,452
+ip2c-0.1.1.dist-info/RECORD,,
