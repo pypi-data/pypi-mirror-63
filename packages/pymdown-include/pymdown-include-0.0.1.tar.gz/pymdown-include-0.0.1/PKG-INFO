@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pymdown-include
+Version: 0.0.1
+Summary: Include...
+Home-page: https://github.com/supcik/pymdown-include/
+Author: Jacques Supcik
+Author-email: jacques@supcik.net
+License: UNKNOWN
+Description: Pymdown-Include
+        ===============
+        
+        …
+        
+Keywords: Markdown,include,extension
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5

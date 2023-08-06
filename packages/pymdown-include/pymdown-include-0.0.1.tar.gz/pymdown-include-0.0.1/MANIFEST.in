@@ -1,0 +1,4 @@
+include README.rst LICENSE-2.0.txt requirements.txt
+include tests/*.txt
+include tests/*.md
+recursive-include scripts
