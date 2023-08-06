@@ -1,0 +1,3 @@
+# zepl-device
+
+zepl devices
