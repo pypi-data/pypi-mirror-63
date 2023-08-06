@@ -1,0 +1,3 @@
+[console_scripts]
+awshelper = aws_helper.cmd_line:main
+

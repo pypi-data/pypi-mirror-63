@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+aws_helper/__init__.py
+aws_helper/cmd_line.py
+awshelper.egg-info/PKG-INFO
+awshelper.egg-info/SOURCES.txt
+awshelper.egg-info/dependency_links.txt
+awshelper.egg-info/entry_points.txt
+awshelper.egg-info/not-zip-safe
+awshelper.egg-info/top_level.txt
