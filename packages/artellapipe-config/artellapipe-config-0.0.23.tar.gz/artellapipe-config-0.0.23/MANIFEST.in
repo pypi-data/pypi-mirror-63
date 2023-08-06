@@ -1,0 +1,2 @@
+recursive-include artellapipe/config/* *.json
+recursive-include artellapipe/config/* *.yml
