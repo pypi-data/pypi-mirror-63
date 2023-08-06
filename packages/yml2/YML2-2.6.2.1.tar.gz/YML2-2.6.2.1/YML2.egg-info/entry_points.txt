@@ -1,0 +1,4 @@
+[console_scripts]
+yml2c = yml2.yml2c:main
+yml2proc = yml2.yml2proc:main
+
