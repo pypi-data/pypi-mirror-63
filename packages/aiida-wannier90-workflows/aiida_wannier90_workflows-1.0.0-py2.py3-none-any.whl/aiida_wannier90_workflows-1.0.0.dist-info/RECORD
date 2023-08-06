@@ -1,0 +1,10 @@
+aiida_wannier90_workflows/__init__.py,sha256=6ZS8gJBX3fRW4GmsvQ3coFsdL5PvYSiSgyMWKrzzuw0,235
+aiida_wannier90_workflows/workflows/__init__.py,sha256=X13srAucnl8MjmlN_4wqGbG_VmdRWmOQUsM27P4KCDI,315
+aiida_wannier90_workflows/workflows/band_structure.py,sha256=FUgVDng4gpcS4TzpKiaBA_TI2kNMcQQtLplhJPpZGks,8092
+aiida_wannier90_workflows/workflows/bands.py,sha256=3zQN3xeE0lqSSHnH3tuJ-PLvXCoQ_S6aebOjzGneXBA,30079
+aiida_wannier90_workflows/workflows/wannier.py,sha256=YUZL7vheHxQB9TuMJMbaTUxnAgaT8UO9-cZWex_BIwo,40410
+aiida_wannier90_workflows-1.0.0.dist-info/METADATA,sha256=vqgIOkL6ie1abTdpQGb_RZpQAki87Q6WjhE0lPDOYSc,904
+aiida_wannier90_workflows-1.0.0.dist-info/RECORD,,
+aiida_wannier90_workflows-1.0.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+aiida_wannier90_workflows-1.0.0.dist-info/entry_points.txt,sha256=oUyDxtZgI6LwaLLbJADBLswV8MrxR1cJbdeFDUaBLxM,220
+aiida_wannier90_workflows-1.0.0.dist-info/top_level.txt,sha256=vEXnoAf9_9zNCGHTbpIXwPK8rMTlscgqB_Mn6gFuOQ0,26
