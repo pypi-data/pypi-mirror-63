@@ -1,0 +1,5 @@
+include LICENSE
+include *.rst NOTICE
+include ped/*.sh
+include ped/*.zsh
+include *.py
