@@ -1,0 +1,10 @@
+phovea_security_store_ldap/__init__.py,sha256=UQd0Zt7gHogG0CfYx0kZ4Pszo9BmmGMbLwtfhB_vtBs,931
+phovea_security_store_ldap/config.json,sha256=DZsrMkCSdTGV8-T1f3IRBYMYwiyEMCOrNtu0gPLHsDQ,2128
+phovea_security_store_ldap/ldap.py,sha256=6xuVZTMISqIyTHYiloEPKz3u0RoJIearPOkuRMF7XT0,22743
+phovea_security_store_ldap/main.py,sha256=_EAdnxgNClvYOxs9dSkmW3PBD3DBil9Fg-vGAVNOo_Y,550
+phovea_security_store_ldap-5.0.0.dist-info/LICENSE,sha256=zUOWuB3YdRESNBX1f-SrJQr-aFhEz2TWP35S5DTJXBg,1484
+phovea_security_store_ldap-5.0.0.dist-info/METADATA,sha256=tZq9HaAWHBzFX_3_gvxzr9TKEXtx8MKInBrmbdcqT7Y,2182
+phovea_security_store_ldap-5.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+phovea_security_store_ldap-5.0.0.dist-info/entry_points.txt,sha256=LD2YtExfdocqXtSFJVDOYWjrAQPolE1rl78BSL1e9Iw,169
+phovea_security_store_ldap-5.0.0.dist-info/top_level.txt,sha256=wAw_X92bMZRm3hptntJw-SoxHDlLwqk5oHQotOLqri0,27
+phovea_security_store_ldap-5.0.0.dist-info/RECORD,,
