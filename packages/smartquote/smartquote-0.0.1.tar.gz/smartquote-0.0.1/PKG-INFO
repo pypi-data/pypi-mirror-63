@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: smartquote
+Version: 0.0.1
+Summary: substitute or remove “smart” quotes
+Home-page: https://github.com/kylebgorman/smartquote
+Author: Kyle Gorman
+Author-email: kylebgorman@gmail.com
+License: Apache 2.0
+Description: # Smartquote
+        
+        [![PyPI
+        version](https://badge.fury.io/py/smart.svg)](https://pypi.org/project/smart)
+        [![Supported Python
+        versions](https://img.shields.io/pypi/pyversions/smart.svg)](https://pypi.org/project/smart)
+        
+        `smartquote` is a very small Python 3.6+ module that does two things:
+        
+        * its `substitute` method replaces the four Microsoft "smart quotes" characters
+          with their ASCII equivalents
+        * its `remove` method removes the smart quotes altogether.
+        
+        It is written by [Kyle Gorman](kylebgorman@gmail.com).
+Keywords: computational linguistics,natural language processing,language
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

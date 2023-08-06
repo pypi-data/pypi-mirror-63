@@ -1,0 +1,7 @@
+README.md
+setup.py
+smartquote.py
+smartquote.egg-info/PKG-INFO
+smartquote.egg-info/SOURCES.txt
+smartquote.egg-info/dependency_links.txt
+smartquote.egg-info/top_level.txt
