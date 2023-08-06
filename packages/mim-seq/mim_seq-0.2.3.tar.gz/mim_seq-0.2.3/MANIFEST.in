@@ -1,0 +1,8 @@
+include README.md
+include mim_seq/deseq.R
+include mim_seq/coveragePlot.R
+include mim_seq/ccaPlots.R
+include mim_seq/modPlot.R
+include mim_seq/modifications
+include mim_seq/facet_share.R
+include sampleData_HEKvsK562.txt
