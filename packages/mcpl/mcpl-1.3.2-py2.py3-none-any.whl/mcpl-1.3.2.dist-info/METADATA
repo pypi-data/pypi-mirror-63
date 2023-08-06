@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: mcpl
+Version: 1.3.2
+Summary: Monte Carlo Particle Lists : MCPL
+Home-page: https://mctools.github.io/mcpl/
+Author: Thomas Kittelmann
+Author-email: thomas.kittelmann@esss.se
+License: CC0 1.0 Universal
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
