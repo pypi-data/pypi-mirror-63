@@ -1,0 +1,8 @@
+mapel/__init__.py,sha256=Hvt3peEEPEbcGgQJAK7QxgaIjIkRjwAlt8ei3e8uX7E,211
+mapel/voting/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+mapel/voting/modern.py,sha256=k3aqebxFa-KKc46w7uOLgUbkfZNkevj-Vi5kv1QwrI0,8053
+mapel/voting/objects.py,sha256=d6Ze06qvaRSgLYrE2Xe3U8NGq98lSCk1jxpuv7luYno,7161
+mapel-1.0.2.dist-info/METADATA,sha256=dY87r7XSIkkbBFutxMghar936m9W62UX4bvKblSMxW0,587
+mapel-1.0.2.dist-info/RECORD,,
+mapel-1.0.2.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+mapel-1.0.2.dist-info/top_level.txt,sha256=Ov-eXk2A-G1wjlvjVJ-ZsmFvTmRVwgUFREIJu3K6hBI,6
