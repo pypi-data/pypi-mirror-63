@@ -1,0 +1,14 @@
+gwx_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core/services/abstract_serializer_service.py,sha256=MWU-kmx4SzRGVQRKcbfBMnEULipOpb3mJNvlBjNR56k,1859
+gwx_core/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwx_core/utils/extractor.py,sha256=uF490V4J6NmBzqBQOzZgI5WFAup4Y5yryAMG9hNpBk4,1218
+gwx_core/utils/response.py,sha256=WOwwztjoHXNlqWgO0F22Xr1dfxvQ2dIPSpgPJUZP7j8,3171
+gwx_core/utils/stringify.py,sha256=TfX08WwAmbX5jtEu1A5ad8UsNwK5kB0GSavFk5vGugk,1324
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utils_test_case.py,sha256=jLiND1i9SBsn8XzfZibPouYmc2kTNKN8SP47MtxK4pM,1561
+gwx_core-0.0.6.dist-info/LICENSE,sha256=hpP6iunZI-2CiX7j5kbsSTP7RKjYXtwUclunwPG5kGs,1080
+gwx_core-0.0.6.dist-info/METADATA,sha256=iUmO5CEwe4KGUAiMlBvBSLI7bY_nizeGI0ff6mrszdc,1151
+gwx_core-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gwx_core-0.0.6.dist-info/top_level.txt,sha256=RZwDkuOKwTFrL_uuzuRzKa9OJx3DJP6Ay1BsilFtLEI,15
+gwx_core-0.0.6.dist-info/RECORD,,
