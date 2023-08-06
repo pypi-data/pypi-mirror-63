@@ -1,0 +1,10 @@
+matplotlib
+cycler
+scipy
+numpy
+jupyter
+h5py
+pynwb
+pyintan
+nwbn-conversion-tools
+ndx-fret
