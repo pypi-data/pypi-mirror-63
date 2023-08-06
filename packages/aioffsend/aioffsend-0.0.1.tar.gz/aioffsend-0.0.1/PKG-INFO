@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: aioffsend
+Version: 0.0.1
+Summary: a asyncio port for firefox send.
+Home-page: https://github.com/Chenwe-i-lin/aioffsend
+Author: Chenwe-i-lin
+Author-email: Chenwe_i_lin@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: oicq qq qqbot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
