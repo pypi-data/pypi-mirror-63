@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xraydawgz
+Version: 0.2
+Summary: XRayDawgz XRD image pattern classifier
+Home-page: https://github.com/X-ray-Dawgz/XRayDawgz
+Author: Rick, Alex, Robert, Kevin
+Author-email: rbiegaj@uw.edu
+License: MIT
+Download-URL: https://github.com/X-ray-Dawgz/XRayDawgz/archive/v02.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Requires-Dist: tensorflow
+Requires-Dist: keras.preprocessing
+Requires-Dist: numpy
+
+UNKNOWN
+
+

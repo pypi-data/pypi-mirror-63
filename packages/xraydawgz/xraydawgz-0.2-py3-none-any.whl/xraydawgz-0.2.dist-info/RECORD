@@ -1,0 +1,12 @@
+xraydawgz/Core.py,sha256=DsfDUU11jeo2B7Ayjg40jAUTGQ29MHEg3GMnzsPvnuA,5603
+xraydawgz/Predict.py,sha256=99OfnCjyTenWlMHc55H_cU2sYsmtQ0gdpZEBhpxdv1A,999
+xraydawgz/__init__.py,sha256=3DDkv4oiq9MYEu5E5a1jPNuwm_c6Joxeka9mkfU3d84,101
+xraydawgz/version.py,sha256=vq-H_9kCS3kQkWywoCH5AJKfmmznmDg96ur6WNsTAf0,21
+xraydawgz/tests/__init__.py,sha256=vq-H_9kCS3kQkWywoCH5AJKfmmznmDg96ur6WNsTAf0,21
+xraydawgz/tests/core.py,sha256=PbYMdALz3oa0lxtNW36rcQerF-Msrj2g6H35RQIyOpE,5461
+xraydawgz/tests/core_test.py,sha256=Sxwoo9jhzFZV1eqgxEZwie1VEAiVXKWJ-LqQpri0Kt4,465
+xraydawgz-0.2.dist-info/LICENSE,sha256=K_lLqpm8f0dzh_kdpS86zFylAuH0UoFO5q8KGYitmW4,1090
+xraydawgz-0.2.dist-info/METADATA,sha256=M7EY64CmU9mfKp8i168Rm2I2BlcSU2sj-E7MCMZ2PiM,581
+xraydawgz-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xraydawgz-0.2.dist-info/top_level.txt,sha256=FrGWngpP2SPVdKBjz1sSoHeiG7rPsFdyGi1NtZmoSig,10
+xraydawgz-0.2.dist-info/RECORD,,
