@@ -1,0 +1,10 @@
+README.txt
+setup.cfg
+setup.py
+AutoSphereExcel/AutoSphereExcel.py
+AutoSphereExcel/__init__.py
+autosphere_excel.egg-info/PKG-INFO
+autosphere_excel.egg-info/SOURCES.txt
+autosphere_excel.egg-info/dependency_links.txt
+autosphere_excel.egg-info/requires.txt
+autosphere_excel.egg-info/top_level.txt
