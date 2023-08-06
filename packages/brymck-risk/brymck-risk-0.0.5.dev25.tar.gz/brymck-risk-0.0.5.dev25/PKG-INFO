@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: brymck-risk
+Version: 0.0.5.dev25
+Summary: UNKNOWN
+Home-page: https://github.com/brymck/proto
+Author: Bryan Lee McKelvey
+Author-email: bryan.mckelvey@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
