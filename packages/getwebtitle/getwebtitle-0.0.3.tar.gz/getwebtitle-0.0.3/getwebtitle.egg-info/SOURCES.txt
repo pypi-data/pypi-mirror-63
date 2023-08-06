@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+getwebtitle.py
+setup.py
+getwebtitle.egg-info/PKG-INFO
+getwebtitle.egg-info/SOURCES.txt
+getwebtitle.egg-info/dependency_links.txt
+getwebtitle.egg-info/requires.txt
+getwebtitle.egg-info/top_level.txt
