@@ -1,0 +1,8 @@
+.gitignore
+README.md
+html5tagger.py
+setup.py
+html5tagger.egg-info/PKG-INFO
+html5tagger.egg-info/SOURCES.txt
+html5tagger.egg-info/dependency_links.txt
+html5tagger.egg-info/top_level.txt
