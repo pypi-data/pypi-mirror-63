@@ -1,0 +1,9 @@
+pymysql_kits/__init__.py,sha256=J1U22Q5q2Cz3fRpLNO3WcB7z2Vn5TM-7pXE9PS4TC2M,112
+pymysql_kits/_connector.py,sha256=XhT1Otrprt0O2kqbk5t_cw32h_v5bTFLE3w16a4oR3o,6640
+pymysql_kits/errors.py,sha256=8y9il5PHcr54kDuNjSI5Hx9DTqLBMetepMr5ypS8cDY,65
+pymysql_kits/pooling.py,sha256=YT4ZUCTw9fXD-FQJvaA-oK3nAZJZAe87NPlTUkejJTo,10471
+pymysql_kits-0.1.0.dist-info/LICENSE,sha256=yie1HsgR6OYhtI1pcEtQ4UayuLA2pR5Hrl_bOeTBTwI,1062
+pymysql_kits-0.1.0.dist-info/METADATA,sha256=LzR8R3307G1uSIdeWNwmnwJwsCYRQmWHjF8X9ouSQaY,4345
+pymysql_kits-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pymysql_kits-0.1.0.dist-info/top_level.txt,sha256=oKz19aD1knsNO0cSwp4PDd225S4-hXowPl4yEQAihVE,13
+pymysql_kits-0.1.0.dist-info/RECORD,,
