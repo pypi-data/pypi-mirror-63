@@ -1,0 +1,17 @@
+diffcapanalyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffcapanalyzer/app_helper_functions.py,sha256=qm_pMVifxJ2NuZMvZbTCtGFBU1b-_RkXN6YQi1iStbQ,5635
+diffcapanalyzer/chachifuncs.py,sha256=qHCM8z4lfeFPbOOyQIBpBiJSrqLk3vC6pJUzOc_BdmQ,11120
+diffcapanalyzer/databasefuncs.py,sha256=_l45J8UtBpL9WVN5td9OhhhG8j363eTowj3DfrfRids,2912
+diffcapanalyzer/databasewrappers.py,sha256=owCjWmlvu1FX-iii_xnsEOCerbilAn5SK22AbKDYH3U,5734
+diffcapanalyzer/descriptors.py,sha256=5bQVIf546UiytV9Nl0lVTrXAu6nSEkNQZ08ddCX0ovY,26531
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_app_helper_functions.py,sha256=iqGVY2bVaJSlZvz1yAsWGhp5RokaLAumpUfjdQX0D44,2309
+tests/test_chachifuncs.py,sha256=9xboyw119kLojlwIeZlBnCmUVhBEg03gjjOXAZub6EI,11263
+tests/test_databasefuncs.py,sha256=VK7TMkTVwlcEi86r1wvALeU4yVumMpBIJVAaQlkVu5I,3477
+tests/test_databasewrappers.py,sha256=9VXPrwS2NpMEiq0cFowIh0wDKzAUXm_sDTPpIdole34,6919
+tests/test_descriptors.py,sha256=fTEEIfLc_v64rqR6bbnIfNQdUybEPe7gkW0T8yOk9Ww,16157
+DiffCapAnalyzer-0.0.1.dist-info/LICENSE,sha256=2Ust0T01mpAZv1lkA19RM_epF6-2Y1HvVOFwqPvwk_M,1088
+DiffCapAnalyzer-0.0.1.dist-info/METADATA,sha256=b8FZ8P-GQRzYXd1K1ctnkTiOu6npWoogZdmeUDFvXlE,4832
+DiffCapAnalyzer-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+DiffCapAnalyzer-0.0.1.dist-info/top_level.txt,sha256=2LM3ZyvkOtVIIb1XvcFX00sXOa9wHyOgda2Y8HARU9k,22
+DiffCapAnalyzer-0.0.1.dist-info/RECORD,,
