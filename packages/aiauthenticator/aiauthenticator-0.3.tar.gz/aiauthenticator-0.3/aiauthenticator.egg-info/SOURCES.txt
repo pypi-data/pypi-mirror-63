@@ -1,0 +1,8 @@
+README.md
+setup.py
+aiauthenticator/__init__.py
+aiauthenticator/aiauthenticator.py
+aiauthenticator.egg-info/PKG-INFO
+aiauthenticator.egg-info/SOURCES.txt
+aiauthenticator.egg-info/dependency_links.txt
+aiauthenticator.egg-info/top_level.txt
