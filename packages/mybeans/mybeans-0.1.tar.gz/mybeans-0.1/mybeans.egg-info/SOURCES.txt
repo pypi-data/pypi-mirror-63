@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+beans/Cuenta.py
+mybeans.egg-info/PKG-INFO
+mybeans.egg-info/SOURCES.txt
+mybeans.egg-info/dependency_links.txt
+mybeans.egg-info/top_level.txt
