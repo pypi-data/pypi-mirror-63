@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: KubeGrade
+Version: 0.0.1
+Summary: A python library for scoring kubernetes
+Home-page: https://github.com/KubeOperator/KubeGrade
+Author: KubeOperator
+Author-email: support@fit2cloud.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
