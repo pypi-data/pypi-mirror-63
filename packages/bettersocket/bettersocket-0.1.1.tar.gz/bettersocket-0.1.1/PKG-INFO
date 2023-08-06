@@ -1,0 +1,78 @@
+Metadata-Version: 1.2
+Name: bettersocket
+Version: 0.1.1
+Summary: Better socket handling for Python3
+Home-page: https://github.com/marcsello/bettersocket
+Author: Marcsello Hooves
+Author-email: punkosdmarcell@rocketmail.com
+License: MIT license
+Description: ============
+        bettersocket
+        ============
+        
+        
+        .. image:: https://img.shields.io/pypi/v/bettersocket.svg
+                :target: https://pypi.python.org/pypi/bettersocket
+        
+        .. image:: https://img.shields.io/travis/marcsello/bettersocket.svg
+                :target: https://travis-ci.com/marcsello/bettersocket
+        
+        .. image:: https://readthedocs.org/projects/bettersocket/badge/?version=latest
+                :target: https://bettersocket.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Painless socket handing for Python
+        
+        
+        * Free software: MIT license
+        * Documentation: https://bettersocket.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        - Implements a framing mechanism over raw sockets using delimiters.
+        - Works with both blocking and nonblocking sockets.
+        
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.1 (2020-03-19)
+        ------------------
+        
+        * Removed the exposed fileio, as it were confusing (see. https://github.com/marcsello/bettersocket/issues/1)
+        * Fixed `__str__` and `__repr__` functions on `BetterSocketIO` class to support other address families than INET
+        * Exposed `reset` call in `BetterSocketIO` class
+        * Various cleanups, and bugfixes
+        * Removed support for Python 3.5
+        
+        0.1.0 (2020-02-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: bettersocket
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
