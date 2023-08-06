@@ -1,0 +1,81 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<h3>Your camera</h3>
+
+<table class="table table-hover">
+    <tr>
+        <td>Acquired</td>
+        <td>{{ object.acquired }}</td>
+    </tr>
+    <tr>
+        <td>Cost</td>
+        <td>{{ object.cost }}</td>
+    </tr>
+    <tr>
+        <td>Serial</td>
+        <td>{{ object.serial }}</td>
+    </tr>
+    <tr>
+        <td>Datecode</td>
+        <td>{{ object.datecode }}</td>
+    </tr>
+    <tr>
+        <td>Manufactured</td>
+        <td>{{ object.manufactured }}</td>
+    </tr>
+    <tr>
+        <td>Own</td>
+        <td>{{ object.own }}</td>
+    </tr>
+    <tr>
+        <td>Lens</td>
+        <td>{{ object.lens }}</td>
+    </tr>
+    <tr>
+        <td>Notes</td>
+        <td>{{ object.notes }}</td>
+    </tr>
+    <tr>
+        <td>Lost</td>
+        <td>{{ object.lost }}</td>
+    </tr>
+    <tr>
+        <td>Lost price</td>
+        <td>{{ object.lost_price }}</td>
+    </tr>
+    <tr>
+        <td>Source</td>
+        <td>{{ object.source }}</td>
+    </tr>
+    <tr>
+        <td>Condition</td>
+        <td>{{ object.condition }}</td>
+    </tr>
+    <tr>
+        <td>Condition notes</td>
+        <td>{{ object.condition_notes }}</td>
+    </tr>
+    <tr>
+        <td>Display lens</td>
+        <td>{{ object.display_lens }}</td>
+    </tr>
+</table>
+
+<h3>The camera model</strong></h3>
+
+<table class="table table-hover">
+    <tr>
+        <th>Camera model</th>
+        <td>{% if object.cameramodel is not None %}<a href="{% url 'cameramodel-detail' object.cameramodel.id %}">{{ object.cameramodel }}</a>{% endif %}</td>
+    </tr>
+    <tr>
+        <th>Introduced</th>
+        <td>{{object.cameramodel.introduced }}</td>
+    </tr>
+</table>
+{% endblock %}
+
+{% block moreactions %}
+<li>Load film, or something</li>
+{%endblock%}

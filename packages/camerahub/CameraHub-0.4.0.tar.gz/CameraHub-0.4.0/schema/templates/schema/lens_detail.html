@@ -1,0 +1,58 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Lens model</td>
+    <td>{% if object.lensmodel is not None %}<a href="{% url 'lensmodel-detail' object.lensmodel.id %}">{{ object.lensmodel }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Serial number</td>
+    <td>{{ object.serial }}</td>
+  </tr>
+  <tr>
+    <td>Date code</td>
+    <td>{{ object.date_code }}</td>
+  </tr>
+  <tr>
+    <td>Date manufactured</td>
+    <td>{{ object.manufactured }}</td>
+  </tr>
+  <tr>
+    <td>Acquired</td>
+    <td>{{ object.acquired }}</td>
+  </tr>
+  <tr>
+    <td>Cost</td>
+    <td>{{ object.cost }}</td>
+  </tr>
+  <tr>
+    <td>Notes</td>
+    <td>{{ object.notes }}</td>
+  </tr>
+  <tr>
+    <td>Own</td>
+    <td>{{ object.own }}</td>
+  </tr>
+  <tr>
+    <td>Lost</td>
+    <td>{{ object.lost }}</td>
+  </tr>
+  <tr>
+    <td>Lost price</td>
+    <td>{{ object.lost_price }}</td>
+  </tr>
+  <tr>
+    <td>Source</td>
+    <td>{{ object.source }}</td>
+  </tr>
+  <tr>
+    <td>Condition</td>
+    <td>{{ object.condition }}</td>
+  </tr>
+  <tr>
+    <td>Condition notes</td>
+    <td>{{ object.condition_notes }}</td>
+  </tr>
+</table>
+{% endblock %}

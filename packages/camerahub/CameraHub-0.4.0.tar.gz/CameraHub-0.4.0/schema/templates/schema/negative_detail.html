@@ -1,0 +1,98 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Film</td>
+    <td>{{ object.film }}</td>
+    <td>{% if object.film is not None %}<a href="{% url 'film-detail' object.film.id %}">{{ object.film }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Frame</td>
+    <td>{{ object.frame }}</td>
+  </tr>
+  <tr>
+    <td>Caption</td>
+    <td>{{ object.caption }}</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>{{ object.date }}</td>
+  </tr>
+  <tr>
+    <td>Lens</td>
+    <td>{{ object.lens }}</td>
+  </tr>
+  <tr>
+    <td>Shutter speed</td>
+    <td>{{ object.shutter_speed }}</td>
+  </tr>
+  <tr>
+    <td>Aperture</td>
+    <td>{{ object.aperture }}</td>
+  </tr>
+  <tr>
+    <td>Filter</td>
+    <td>{{ object.filter }}</td>
+  </tr>
+  <tr>
+    <td>Teleconverter</td>
+    <td>{{ object.teleconverter }}</td>
+  </tr>
+  <tr>
+    <td>Notes</td>
+    <td>{{ object.notes }}</td>
+  </tr>
+  <tr>
+    <td>Adapter</td>
+    <td>{{ object.mount_adapter }}</td>
+  </tr>
+  <tr>
+    <td>Focal length</td>
+    <td>{{ object.focal_length }}</td>
+  </tr>
+  <tr>
+    <td>Latitude</td>
+    <td>{{ object.latitude }}</td>
+  </tr>
+  <tr>
+    <td>Longitude</td>
+    <td>{{ object.longitude }}</td>
+  </tr>
+  <tr>
+    <td>Flash</td>
+    <td>{{ object.flash }}</td>
+  </tr>
+  <tr>
+    <td>Metering mode</td>
+    <td>{{ object.metering_mode }}</td>
+  </tr>
+  <tr>
+    <td>Exposure program</td>
+    <td>{{ object.exposure_program }}</td>
+  </tr>
+  <tr>
+    <td>Photographer</td>
+    <td>{{ object.photographer }}</td>
+  </tr>
+  <tr>
+    <td>Copy of</td>
+    <td>{{ object.copy_of }}</td>
+  </tr>
+</table>
+
+<a data-toggle="collapse" href="#collapsePrints" role="button" aria-expanded="false" aria-controls="collapsePrints">
+  Prints</a>
+<div class="collapse" id="collapsePrints">
+  <table class="table table-hover">
+    <tr>
+      <th>ID</th>
+    </tr>
+    {% for print in negative.print_set.all %}
+    <tr>
+      <td>{{ print }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}

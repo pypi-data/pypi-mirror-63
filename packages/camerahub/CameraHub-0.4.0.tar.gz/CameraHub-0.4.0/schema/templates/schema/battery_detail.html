@@ -1,0 +1,22 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Battery name</td>
+    <td>{{ object.name }}</td>
+  </tr>
+  <tr>
+    <td>Voltage</td>
+    <td>{{ object.voltage }}</td>
+  </tr>
+  <tr>
+    <td>Chemistry</td>
+    <td>{{ object.chemistry }}</td>
+  </tr>
+  <tr>
+    <td>Compatible with</td>
+    <td>{{ object.compatible_with.all|join:", " }}</td>
+  </tr>
+</table>
+{% endblock %}

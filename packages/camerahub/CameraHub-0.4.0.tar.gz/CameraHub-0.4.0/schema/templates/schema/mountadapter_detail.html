@@ -1,0 +1,26 @@
+{% extends "schema/detail.html" %}
+
+{% block content %}
+<table class="table table-hover">
+  <tr>
+    <td>Camera mount</td>
+    <td>{% if object.camera_mount is not None %}<a href="{% url 'mount-detail' object.camera_mount.id %}">{{ object.camera_mount }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Lens mount</td>
+    <td>{% if object.lens_mount is not None %}<a href="{% url 'mount-detail' object.lens_mount.id %}">{{ object.lens_mount }}</a>{% endif %}</td>
+  </tr>
+  <tr>
+    <td>Has optics</td>
+    <td>{{ object.has_optics }}</td>
+  </tr>
+  <tr>
+    <td>Infinity focus</td>
+    <td>{{ object.infinity_focus }}</td>
+  </tr>
+  <tr>
+    <td>Notes</td>
+    <td>{{ object.notes }}</td>
+  </tr>
+</table>
+{% endblock %}
