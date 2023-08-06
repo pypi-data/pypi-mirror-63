@@ -1,0 +1,6 @@
+pytrends
+requests
+numpy
+pandas>=0.25
+lxml
+matplotlib
