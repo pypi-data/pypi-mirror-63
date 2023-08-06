@@ -1,0 +1,16 @@
+marshmallow>=3.0.0
+PyYAML>=3.12
+
+[dev]
+flake8
+autoflake
+autopep8
+coverage
+pytest>=3
+tox
+sphinx
+sphinx_rtd_theme
+
+[doc]
+sphinx
+sphinx_rtd_theme
