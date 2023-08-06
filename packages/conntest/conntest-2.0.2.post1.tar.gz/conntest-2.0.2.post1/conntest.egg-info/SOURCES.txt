@@ -1,0 +1,14 @@
+README.rst
+setup.py
+conntest/__init__.py
+conntest/__init__.sync-conflict-20191202-234802-BIWO2ZU.py
+conntest/conntest.py
+conntest/conntest.sync-conflict-20191202-234801-BIWO2ZU.py
+conntest.egg-info/PKG-INFO
+conntest.egg-info/PKG-INFO.sync-conflict-20191202-234801-BIWO2ZU
+conntest.egg-info/SOURCES.txt
+conntest.egg-info/dependency_links.txt
+conntest.egg-info/entry_points.txt
+conntest.egg-info/requires.sync-conflict-20191202-234802-BIWO2ZU.txt
+conntest.egg-info/requires.txt
+conntest.egg-info/top_level.txt
