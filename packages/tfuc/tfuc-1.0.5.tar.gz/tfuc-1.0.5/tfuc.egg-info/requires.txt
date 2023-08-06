@@ -1,0 +1,7 @@
+bs4
+fake_useragent
+openpyxl
+sqlalchemy
+selenium
+requests
+urllib3
