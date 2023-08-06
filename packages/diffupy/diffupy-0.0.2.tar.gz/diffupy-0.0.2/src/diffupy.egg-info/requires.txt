@@ -1,0 +1,10 @@
+networkx>=2.1
+numpy
+scipy
+pybel==0.13.2
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
