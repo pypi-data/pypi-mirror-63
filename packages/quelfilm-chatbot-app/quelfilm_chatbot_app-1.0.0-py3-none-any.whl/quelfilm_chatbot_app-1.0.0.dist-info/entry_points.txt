@@ -1,0 +1,3 @@
+[console_scripts]
+start=quelfilm.app:start
+

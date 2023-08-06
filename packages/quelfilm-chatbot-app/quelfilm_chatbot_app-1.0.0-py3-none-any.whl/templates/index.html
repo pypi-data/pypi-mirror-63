@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quelfilm</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+</head>
+<body>
+
+<div class="ui container">
+    <form id="inputform" class="ui form">
+        <div class="ui big input fluid focus field">
+            <input type="text" id="input" type="submit" placeholder="dire un truc...">
+        </div>
+        <button class="ui secondary button" id="send">Send</button>
+    </form>
+    <div class="ui icon message">
+        <i class="smile outline icon"></i>
+        <div class="content">
+            <p class="header" id="response"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(() => {
+        function handleSubmit(event) {
+            event.preventDefault()
+            text = $('#input')[0].value
+            $.ajax({
+                url: '/predict?text=' + text
+            }).then(({response, intent, score}) => {
+                console.log(intent, score);
+                $('#response')[0].innerText = response
+                $('#input')[0].value = ""
+            })
+        }
+
+        $('#send').on('click', handleSubmit)
+        $('#inputform').on('submit', handleSubmit)
+    })
+</script>
+</body>
+</html>

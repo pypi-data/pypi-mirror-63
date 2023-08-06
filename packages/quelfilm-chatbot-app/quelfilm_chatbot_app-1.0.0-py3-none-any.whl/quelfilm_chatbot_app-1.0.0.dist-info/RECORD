@@ -1,0 +1,11 @@
+quelfilm/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+quelfilm/app.py,sha256=oFY7xEJmFFjgCD12na-nQthKpp1IUyWgUCtsal49W3Y,628
+quelfilm/engine.py,sha256=daBN-kseMfA9CJzNhx8gkb_PbNXKMtcRlUnhoOzOARM,1006
+quelfilm/settings.py,sha256=rsFxZwwkTMOqrSqeGtLVw6pywHS1p7VvLKj8zGNSDmc,207
+resources/training.md,sha256=3BsQpOwF2WPKnHpm3KpWuCB_RJ-EJcC1CPrMrmLJRa4,3252
+templates/index.html,sha256=H7Hcot4h3GAhSgVeTqGGDTHC21607ZwLR4quEdFjnjA,1609
+quelfilm_chatbot_app-1.0.0.dist-info/entry_points.txt,sha256=UhwRgMShGJKPmEXiZMcJVXERN5PoHEMWlkmglkaYZng,44
+quelfilm_chatbot_app-1.0.0.dist-info/LICENSE,sha256=ESD55GeLuY0ufDSl0xZSLZN6gFN4lbNy4_EzMLqbtKM,1092
+quelfilm_chatbot_app-1.0.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+quelfilm_chatbot_app-1.0.0.dist-info/METADATA,sha256=UVsZmQeKYAbXwNhCc2sGHhXZ5SGm83e7RYeGCEUpyGo,425
+quelfilm_chatbot_app-1.0.0.dist-info/RECORD,,
