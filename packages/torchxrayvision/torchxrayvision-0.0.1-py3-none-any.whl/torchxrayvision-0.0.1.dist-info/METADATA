@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torchxrayvision
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/mlmed/torchxrayvision
+Author: Joseph Paul Cohen
+Author-email: joseph@josephpcohen.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# torchxrayvision
+
+This code is still under development
+
+
