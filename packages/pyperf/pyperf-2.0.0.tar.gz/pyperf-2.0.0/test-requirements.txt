@@ -1,0 +1,2 @@
+nose
+psutil; platform_python_implementation != "PyPy"
