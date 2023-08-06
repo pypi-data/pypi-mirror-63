@@ -1,0 +1,10 @@
+README.md
+setup.py
+pudo/__init__.py
+pudo/disclaimer.py
+pudo/pudo.c
+pudo/pudo.py
+pudo.egg-info/PKG-INFO
+pudo.egg-info/SOURCES.txt
+pudo.egg-info/dependency_links.txt
+pudo.egg-info/top_level.txt
