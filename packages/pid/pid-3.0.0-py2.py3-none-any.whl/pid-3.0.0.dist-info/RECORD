@@ -1,0 +1,13 @@
+pid/__init__.py,sha256=PA-qQfY7K0gFryaoY4pD9BDc-ImyiF7RKi2gD6TUqdo,744
+pid/base.py,sha256=qDs0019zYLkjGlvVzG-rQJo86vwYwXiRw3tNgGXxWuE,7394
+pid/decorator.py,sha256=z19vwbQS9h2eeUBEqH1-ChAeIzT8UrIoPgqu3xGSUmU,508
+pid/posix.py,sha256=6xGOgikpijEppHOvkPAj9Kz02PSBvCF5EHbprXz1hw0,747
+pid/utils.py,sha256=XHfXOTJLJsR2YPXKnuRIWU2FQ8duNqQLkoC1qJtsvYg,723
+pid/win32.py,sha256=F0hvYlbuwv3DpymS0jdOhYvrbKVq5oLKM0e3lr8fPl8,1510
+pid-3.0.0.dist-info/AUTHORS,sha256=WG7aYwI83luicquemhw7w3B38dVbfZL2u_9IwQfoV2s,71
+pid-3.0.0.dist-info/LICENSE,sha256=GFdAzNGc2b3olv3SOfTh3fyt9WLjvn8iLXzvgICOkLs,11335
+pid-3.0.0.dist-info/METADATA,sha256=1bo80BQ_gPTRAqxeXQLYyvMlS_HRnm8kBsS-Ohpbmo4,3473
+pid-3.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pid-3.0.0.dist-info/pbr.json,sha256=EywZ4bpqpociQif1OUIpZwMFQ2xw-_xTpD5c1_p-QU8,47
+pid-3.0.0.dist-info/top_level.txt,sha256=tCORKJA9qz_3PelgsSehaT6wbm_b2znyUhIoQiGb7XU,4
+pid-3.0.0.dist-info/RECORD,,
