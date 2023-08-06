@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyaudio_helper/__init__.py
+pyaudio_helper/__version__.py
+pyaudio_helper/pyaudio_helper.py
+pyaudio_helper.egg-info/PKG-INFO
+pyaudio_helper.egg-info/SOURCES.txt
+pyaudio_helper.egg-info/dependency_links.txt
+pyaudio_helper.egg-info/requires.txt
+pyaudio_helper.egg-info/top_level.txt
