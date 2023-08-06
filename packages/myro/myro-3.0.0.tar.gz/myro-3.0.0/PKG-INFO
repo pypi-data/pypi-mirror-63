@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: myro
+Version: 3.0.0
+Summary: A robot communication library for Scribbler / Scribbler 2
+Home-page: https://github.com/jarulsamy/myro
+Author: Joshua Arulsamy
+Author-email: joshua.gf.arul@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
