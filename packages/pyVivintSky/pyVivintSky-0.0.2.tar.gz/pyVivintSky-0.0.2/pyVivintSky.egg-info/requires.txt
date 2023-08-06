@@ -1,0 +1,2 @@
+aiohttp>=3.6
+pubnub>=4.5
