@@ -1,0 +1,12 @@
+gdrove/__init__.py,sha256=JOJxrd2AXD9mxRCYlTiFBfLFCiUG6UY9CrWVf4Qybhw,9716
+gdrove/drivetodrive.py,sha256=pWTRPQuuKrgY9iKxacPoLk_TpNhwPjLWWatBES6IxKw,1549
+gdrove/drivetolocal.py,sha256=rvQveYXZdbagX2oCXxYlWGXn_DIJZLz1COoeE-xegF4,4650
+gdrove/helpers.py,sha256=N2q2LZGC0LcxAtkSyLJxqClUw7fRmZ1d0eGNAfA3IN4,7803
+gdrove/localtodrive.py,sha256=Nz1yOlUTdJsYNw26DUB4a1woohZGXCb8no7xXnQabnM,3411
+gdrove/run.py,sha256=ML9KRzRFyx8lvbsqHcuoYyXnNNvPHxAxqUrlF66jQjY,5586
+GDrove-1.1.0.dist-info/LICENSE,sha256=Ie_5vA1ZcBXsM6e_Yuq3_8AOkaQS8eO5QHd4b6TPols,1064
+GDrove-1.1.0.dist-info/METADATA,sha256=qBRTu-xeW5L5JoIIpdZHVAPPZc1Mpp6hhqPJ_PxpkDE,611
+GDrove-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+GDrove-1.1.0.dist-info/entry_points.txt,sha256=J45u3POWT0DI8LJCwNKPKi48n5zaQgZnrd0LpuiTVGg,65
+GDrove-1.1.0.dist-info/top_level.txt,sha256=Jelz7FU2vwpee9DXz6A_wn0I-bexPWvEG8SocGo2V-4,7
+GDrove-1.1.0.dist-info/RECORD,,
