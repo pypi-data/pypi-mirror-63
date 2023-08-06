@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+vlawyer/__init__.py
+vlawyer/submissions.py
+vlawyer.egg-info/PKG-INFO
+vlawyer.egg-info/SOURCES.txt
+vlawyer.egg-info/dependency_links.txt
+vlawyer.egg-info/requires.txt
+vlawyer.egg-info/top_level.txt
