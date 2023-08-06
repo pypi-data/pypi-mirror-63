@@ -1,0 +1,5 @@
+include *.txt
+recursive-include aws_lambda_deployment_package *.py
+recursive-include aws_lambda_deployment_package *.zip
+recursive-include aws_lambda_deployment_package *.yml
+recursive-include aws_lambda_deployment_package *.sh
