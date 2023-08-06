@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+xraydawgz/Core.py
+xraydawgz/Predict.py
+xraydawgz/__init__.py
+xraydawgz/version.py
+xraydawgz.egg-info/PKG-INFO
+xraydawgz.egg-info/SOURCES.txt
+xraydawgz.egg-info/dependency_links.txt
+xraydawgz.egg-info/requires.txt
+xraydawgz.egg-info/top_level.txt
+xraydawgz/tests/__init__.py
+xraydawgz/tests/core.py
+xraydawgz/tests/core_test.py
