@@ -1,0 +1,3 @@
+[console_scripts]
+fst = fst2.main:entry
+
