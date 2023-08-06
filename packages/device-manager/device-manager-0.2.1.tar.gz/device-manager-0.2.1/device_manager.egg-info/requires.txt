@@ -1,0 +1,9 @@
+
+[:sys_platform == "linux"]
+pyudev>=0.21.0
+
+[:sys_platform == "win32"]
+pywin32>=227
+
+[nmap]
+python-nmap>=0.6.1
