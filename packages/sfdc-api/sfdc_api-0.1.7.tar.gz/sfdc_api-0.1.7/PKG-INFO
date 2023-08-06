@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sfdc_api
+Version: 0.1.7
+Summary: A Salesforce API wrapper focused on a zero dependency development workflow
+Home-page: UNKNOWN
+License: MIT
+Download-URL: https://github.com/FernandoPicazo/sfdc_api.git
+Description: # sfdc_api
+        A python wrapper for Salesforce APIs
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
