@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+allmath/__init__.py
+allmath/add.py
+allmath/subtract.py
+allmath.egg-info/PKG-INFO
+allmath.egg-info/SOURCES.txt
+allmath.egg-info/dependency_links.txt
+allmath.egg-info/not-zip-safe
+allmath.egg-info/top_level.txt
