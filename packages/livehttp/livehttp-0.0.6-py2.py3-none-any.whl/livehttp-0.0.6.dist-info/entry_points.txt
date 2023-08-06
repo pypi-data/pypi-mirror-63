@@ -1,0 +1,3 @@
+[console_scripts]
+livehttp = livehttp:entry_point
+
