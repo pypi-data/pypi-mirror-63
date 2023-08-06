@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: py-timer
+Version: 1.1.1
+Summary: A simple python timer module.一个简单的Python计时器模块,其中包含Timer类。
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: A simple python timer module.一个简单的Python计时器模块,其中包含Timer类。示例1:import timert=timer.Timer() #初始化Timer对象do_something()t.printtime() #输出执行do_something()所用时间 (使用t.gettime()获取所用时间更快)示例2:import timerwith timer.Timer(): #在这里开始计时    do_something()#退出with语句时自动打印出所用时间。  注:由于上传问题,说明暂无法正常显示。详见模块内的文档字符串。See doc string in this module for more info.
+Keywords: timer,performance analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
