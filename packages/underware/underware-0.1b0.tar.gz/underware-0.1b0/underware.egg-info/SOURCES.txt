@@ -1,0 +1,12 @@
+README.md
+setup.py
+underware/__init__.py
+underware/function_classes.py
+underware/math.py
+underware/misc.py
+underware/stats.py
+underware.egg-info/PKG-INFO
+underware.egg-info/SOURCES.txt
+underware.egg-info/dependency_links.txt
+underware.egg-info/requires.txt
+underware.egg-info/top_level.txt

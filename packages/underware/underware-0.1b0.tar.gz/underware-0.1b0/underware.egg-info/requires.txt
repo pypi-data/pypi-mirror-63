@@ -1,0 +1,7 @@
+numpy>=1.16.0
+scipy>=1.0.0
+stripy>=1.2
+petsc4py
+mpi4py
+h5py
+pint

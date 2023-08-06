@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: underware
+Version: 0.1b0
+Summary: Common Core for Underworld / Quagmire etc
+Home-page: https://github.com/underworldcode/underware
+Author: Louis Moresi
+Author-email: louis.moresi@anu.edu.au
+License: UNKNOWN
+Description: # Underware
+        
+        _Python base layer_
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
