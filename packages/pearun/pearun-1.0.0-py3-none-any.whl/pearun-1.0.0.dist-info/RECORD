@@ -1,0 +1,10 @@
+pearun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pearun/__main__.py,sha256=nNH2vpeuhtJP_ubmOte3F4t7fhW7uPkGwPsY8jiYMWo,2577
+pearun/exceptions.py,sha256=iB8LyDHAAmpamOooDRd-1pOs8YV0OMkKvagJcXXRt-o,149
+pearun/pearunfile.py,sha256=06u0bVwUGFX8aePBzcG8O_KTp-AjNIy-7oS2J1wOeEo,2169
+pearun-1.0.0.dist-info/LICENSE,sha256=-b4VhmE6a1F_NAKLI1obAqzZXCRwTPy3SXLKC_MLwSg,1070
+pearun-1.0.0.dist-info/METADATA,sha256=6XWdm07o5hjsA_CgEzfGLNS8O31Vnf3ODpyiDWAI4PE,2035
+pearun-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pearun-1.0.0.dist-info/entry_points.txt,sha256=NiTGItIicb1EMJpQhSYfQxhcLoBXBIvLyyUT5MhVe4Y,49
+pearun-1.0.0.dist-info/top_level.txt,sha256=DQ60UPldG4iFdgPlzleUYCrwhrLF1XCJd17wD7f2qtk,7
+pearun-1.0.0.dist-info/RECORD,,
