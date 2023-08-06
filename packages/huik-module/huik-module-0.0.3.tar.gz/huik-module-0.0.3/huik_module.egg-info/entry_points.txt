@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        ok=cli:menu
+        tl=cli:toollist
+    
