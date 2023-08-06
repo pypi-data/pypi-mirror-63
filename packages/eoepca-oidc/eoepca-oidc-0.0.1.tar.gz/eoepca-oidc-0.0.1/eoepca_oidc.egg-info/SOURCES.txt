@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+eoepca-oidc/__init__.py
+eoepca-oidc/main.py
+eoepca_oidc.egg-info/PKG-INFO
+eoepca_oidc.egg-info/SOURCES.txt
+eoepca_oidc.egg-info/dependency_links.txt
+eoepca_oidc.egg-info/top_level.txt
