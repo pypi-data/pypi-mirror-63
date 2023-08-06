@@ -1,0 +1,13 @@
+py_tools_ds>=0.14.25
+numpy
+matplotlib
+six
+gdal
+shapely
+pandas
+dill
+mpld3
+geojson
+folium
+scikit-image
+dask>=0.15.0
