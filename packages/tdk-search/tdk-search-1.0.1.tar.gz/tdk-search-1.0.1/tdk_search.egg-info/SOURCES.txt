@@ -1,0 +1,9 @@
+README.md
+setup.py
+tdk/__init__.py
+tdk/tdk.py
+tdk_search.egg-info/PKG-INFO
+tdk_search.egg-info/SOURCES.txt
+tdk_search.egg-info/dependency_links.txt
+tdk_search.egg-info/requires.txt
+tdk_search.egg-info/top_level.txt
