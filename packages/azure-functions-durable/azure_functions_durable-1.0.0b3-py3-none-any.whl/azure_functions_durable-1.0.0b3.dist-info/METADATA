@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: azure-functions-durable
+Version: 1.0.0b3
+Summary: Durable Functions For Python
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6,<4
+Requires-Dist: azure-functions (>=1.2.0)
+Requires-Dist: aiohttp (>=3.6.2)
+Requires-Dist: requests (==2.*)
+Requires-Dist: python-dateutil (>=2.8.0)
+Requires-Dist: furl (>=2.1.0)
+
+UNKNOWN
+
+
