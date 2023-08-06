@@ -1,0 +1,56 @@
+{% cache cache_duration, 'reuse-card', reuse.id|string, g.lang_code %}
+{% set features = features or [] %}
+<a class="card reuse-card {% if 'preview' in features %}card--with-cover{% endif %}"
+    href="{{ url_for('reuses.show', reuse=reuse, _external=True) }}"
+    title="{{ reuse.title }}">
+    {% if reuse.organization %}
+        <div class="card-logo">
+            <img alt="{{ reuse.organization.name }}"
+                src="{{ reuse.organization.logo(70, external=True)|placeholder('organization', external=True) }}"
+                width="70" height="70">
+        </div>
+    {% else %}
+    <div class="card-logo">
+        <img src="{{ ''|placeholder('organization', external=True) }}" alt="">
+    </div>
+    {% endif %}
+
+    <div class="card-body">
+        <h4>{{ reuse.title }}</h4>
+        <div class="clamp-3">{{ reuse.description|mdstrip(180) }}</div>
+    </div>
+
+    {% if 'footer' in features or 'no-footer' not in features %}
+    <footer class="card-footer">
+        <ul>
+            <li v-tooltip title="{{ _('Type') }}">
+                <span class="fa fa-file fa-fw"></span>
+                {{ reuse.type_label }}
+            </li>
+            <li v-tooltip title="{{ _('Number of datasets used') }}">
+                <span class="fa fa-cubes fa-fw"></span>
+                {{ reuse.datasets|length or 0 }}
+            </li>
+
+            <li v-tooltip title="{{ _('Stars') }}">
+                <span class="fa fa-star fa-fw"></span>
+                {{ reuse.metrics.followers or 0 }}
+            </li>
+
+            <li v-tooltip title="{{ _('Published on %(date)s',
+                date=reuse.created_at|dateformat(format='long')) }}">
+                <span class="fa fa-calendar fa-fw"></span>
+                {{ reuse.created_at|dateformat(format='YYYY') }}
+            </li>
+
+            {% if 'preview' in features %}
+            <li v-tooltip title="{{ _('Created by %(user)s', user=owner_name(reuse)) }}">
+                <span class="fa fa-user fa-fw"></span>
+                {{ owner_name_acronym(reuse) }}
+            </li>
+            {% endif %}
+        </ul>
+    </footer>
+    {% endif %}
+</a>
+{% endcache %}

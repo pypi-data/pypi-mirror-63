@@ -1,0 +1,113 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner {
+  background-image: url(/_themes/koumoul/img/smart-city.jpg);
+
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 16px;
+}
+
+.header {
+  height: 64px;
+  background-color: #1E88E5;
+}
+
+.navbar-brand .logo-container {
+  float: left;
+  width: 96px;
+  height: 96px;
+  background-color: white;
+  border-radius: 54px;
+  margin-top: -4px;
+  border: 6px solid #1E88E5;
+}
+
+.navbar-brand .logo-container img{
+  height: 75px;
+  margin: 5px;
+  width: 90%;
+}
+
+.navbar-brand > .navbar-slogan {
+    float: right;
+    color: white;
+    /*margin-left: -16px;*/
+    margin-top: -24px;
+    margin-left: 16px;
+}
+
+.navbar-brand > .navbar-slogan > h2 {
+  margin-bottom: 0px
+}
+
+.header nav > ul > li > a{
+    color: white;
+    font-size: 16px;
+}
+
+.header nav > ul > li{
+    margin-top: 10px;
+}
+
+.subheader {
+  margin-top: 48px;
+}
+
+.subheader nav > ul > li > a,
+body a.top-button{
+    color: #616161;
+}
+
+.section-title{
+  color: #d84315;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #424242;
+  margin-bottom: 0;
+}
+
+.footer h3, .footer a {
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+@media (min-width: 992px) {
+  .banner .container{
+    padding: 64px 96px;
+  }
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 16px;
+  padding: 12px 16px;
+}
+
+.jumbotron h2, .jumbotron h4, .jumbotron p {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+   .banner .container {
+      width: 100%;
+      padding: 96px 16px;
+   }
+}
+
+@media (max-width: 750px) {
+   .subheader ul {
+      margin-top: -24px;
+   }
+}

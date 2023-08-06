@@ -1,0 +1,106 @@
+{% macro datasets_section(nb=5) %}
+{% from theme('macros/certified.html') import badge_if_certified with context %}
+{% if recent_datasets %}
+<section  class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <h3 class="section-title">Jeu de données à la Une</h3>
+                {% for dataset in current_site.settings.home_datasets[:1] %}
+                <div class="card">
+                  {% if dataset.organization %}
+                      <div class="card-logo">
+                          <img alt="{{ dataset.organization.name }}"
+                              src="{{ dataset.organization.logo(70, external=True)|placeholder('organization', external=True) }}"
+                              width="70" height="70">
+                      </div>
+                      {{ badge_if_certified(dataset.organization) }}
+                  {% else %}
+                  <div class="card-logo">
+                      <img src="{{ ''|placeholder('organization', external=True) }}" alt="">
+                  </div>
+                  {% endif %}
+                  <div class="card-body">
+                      <h4><a href="{{ url_for('datasets.show', dataset=dataset, _external=True) }}">{{ dataset.full_title }}</a></h4>
+                      <div class="clamp-3">{{ dataset.description|mdstrip(180) }}</div>
+                  </div>
+
+
+                  {% for resource in dataset.resources %}
+                    {% if resource.type == 'main' and resource.preview_url %}
+                    <iframe width="100%" height="540" frameborder="0" src="{{ resource.preview_url }}"></iframe>
+                    {% else %}
+                    <!-- <div class="resource-card-description">{{ resource.description|mdstrip(180) }}</div> -->
+                    <!-- {% include theme('dataset/card.html') %} -->
+                    {% endif %}
+                  {% endfor %}
+
+                  <footer class="card-footer">
+                    <ul>
+                        <li v-tooltip title="{{ _('Number of resources') }}">
+                            <span class="{{ ficon('fa-cubes') }} fa-fw"></span>
+                            {{ dataset.resources | length  }}
+                        </li>
+                        {% if dataset.metrics %}
+                        <li v-tooltip title="{{ _('Reuses') }}">
+                            <span class="{{ ficon('fa-retweet') }} fa-fw"></span>
+                            {{ dataset.metrics.reuses or 0 }}
+                        </li>
+                        <li v-tooltip title="{{ _('Stars') }}">
+                            <span class="{{ ficon('fa-star') }} fa-fw"></span>
+                            {{ dataset.metrics.followers or 0 }}
+                        </li>
+                        {% endif %}
+
+                        {# Temporal coverage #}
+                        {% if dataset.temporal_coverage %}
+                        <li v-tooltip title="{{ _('Temporal coverage') }}">
+                            <span class="fa fa-calendar fa-fw"></span>
+                            {{ dataset.temporal_coverage|daterange }}
+                        </li>
+                        {% endif %}
+
+                        {# Territorial coverage #}
+                        {% if dataset.spatial.zones %}
+                        <li v-tooltip title="{{ _('Territorial coverage') }}">
+                            <span class="fa fa-map-marker fa-fw"></span>
+                            {{ dataset.spatial.top_label }}
+                        </li>
+                        {% endif %}
+
+                        {# Territorial granularity #}
+                        {% if dataset.spatial and dataset.spatial.granularity and dataset.spatial.granularity != 'other' %}
+                        <li v-tooltip title="{{ _('Territorial coverage granularity') }}">
+                            <span class="fa fa-bullseye fa-fw"></span>
+                            {{ dataset.spatial.granularity_label }}
+                        </li>
+                        {% endif %}
+                    </ul>
+                  </footer>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h3 class="section-title">Dernières contributions</h3>
+                <div class="row">
+                  {% for dataset in recent_datasets[:nb] %}
+                  <div class="col-md-12 col-sm-6 col-xs-12">
+                  {% include theme('dataset/card.html') %}
+                  </div>
+                  {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col-xs-12 text-center">
+                <a href="{{ url_for('datasets.list', sort='-created') }}" class="btn btn-link">
+                    <span class="fa fa-fw fa-list" ></span>
+                    {{ _('See more') }}
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+{# End datasets section #}
+{% endif %}
+{% endmacro %}

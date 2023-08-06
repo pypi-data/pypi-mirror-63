@@ -1,0 +1,75 @@
+{% macro reuses_section(nb=4) %}
+{% if current_site.settings.home_reuses %}
+<!-- Latest reuses -->
+<section class="home-section">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 col-xs-12">
+              <h3 class="section-title">Réutilisation à la Une</h3>
+              {% for reuse in current_site.settings.home_reuses[:1] %}
+              <div class="card">
+                {% if reuse.organization %}
+                    <div class="card-logo">
+                        <img alt="{{ reuse.organization.name }}"
+                            src="{{ reuse.organization.logo(70, external=True)|placeholder('organization', external=True) }}"
+                            width="70" height="70">
+                    </div>
+                {% else %}
+                <div class="card-logo">
+                    <img src="{{ ''|placeholder('organization', external=True) }}" alt="">
+                </div>
+                {% endif %}
+                <div class="card-body">
+                    <h4><a href="{{ url_for('reuses.show', reuse=reuse, _external=True) }}">{{ reuse.title }}</a></h4>
+                    <div class="clamp-3">{{ reuse.description|mdstrip(180) }}</div>
+                </div>
+
+                {% if reuse.type == 'application' %}
+                <iframe width="100%" height="414" frameborder="0" src="{{ reuse.url }}?embed=true"></iframe>
+                {% endif %}
+
+                <footer class="card-footer">
+                  <ul>
+                      <li v-tooltip title="{{ _('Number of resources') }}">
+                          <span class="{{ ficon('fa-cubes') }} fa-fw"></span>
+                          {{ reuse.resources | length  }}
+                      </li>
+                      {% if reuse.metrics %}
+                      <li v-tooltip title="{{ _('Reuses') }}">
+                          <span class="{{ ficon('fa-retweet') }} fa-fw"></span>
+                          {{ reuse.metrics.reuses or 0 }}
+                      </li>
+                      <li v-tooltip title="{{ _('Stars') }}">
+                          <span class="{{ ficon('fa-star') }} fa-fw"></span>
+                          {{ reuse.metrics.followers or 0 }}
+                      </li>
+                      {% endif %}
+                  </ul>
+                </footer>
+              </div>
+              {% endfor %}
+          </div>
+          <div class="col-md-4 col-xs-12">
+              <h3 class="section-title">Dernières réutilisations</h3>
+              <div class="row">
+                {% for reuse in recent_reuses[:nb] %}
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                {% include theme('reuse/card.html') %}
+                </div>
+                {% endfor %}
+              </div>
+          </div>
+      </div>
+        <div class="row">
+            <p class="col-xs-12 text-center">
+                <a href="{{ more }}" class="btn btn-link">
+                    <span class="fa fa-fw fa-list" ></span>
+                    {{ _('See more') }}
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+<!-- /Latest reuse -->
+{% endif %}
+{% endmacro %}

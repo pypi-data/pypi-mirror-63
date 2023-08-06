@@ -1,0 +1,81 @@
+{% cache cache_duration, 'footer', g.lang_code|default(config.DEFAULT_LANGUAGE)|string,
+    '-'.join((package_version('udata'), package_version('udata_koumoul')))
+%}
+<a href @click.prevent="$scrollTo('#top')" title="{{ _('Back to top') }}" class="top-button fa fa-4x fa-angle-up"></a>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <section class="col-xs-12 col-sm-5">
+                <h3>Documentation</h3>
+                <ul>
+                    {% for item in nav.footer_documentation %}
+                    <li>
+                        <a href="{{ '' if item.items else item.url }}">{{ item.label }}</a>
+                        {% if item.items %}
+                        <ul>
+                            {% for subitem in item.items %}
+                            <li><a href="{{ subitem.url }}">{{ subitem.label }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+
+            <section class="col-xs-12 col-sm-5 social">
+                <h3>Communication</h3>
+                <ul>
+                  <li>
+                      <a href="https://koumoul.com/blog" title="Blog Koumoul">
+                          <span class="fa fa-fw fa-newspaper-o"></span>
+                          Blog
+                      </a>
+                  </li>
+                    <li>
+                        <a href="{{ current_theme.info.social.twitter }}" title="Twitter">
+                            <span class="fa fa-fw fa-twitter"></span>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ current_theme.info.social.github }}" title="Github">
+                            <span class="fa fa-fw fa-github"></span>
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://koumoul.com/contact">
+                            <span class="fa fa-fw fa-envelope"></span>
+                            {{ config.CONTACT_EMAIL }}
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="col-xs-12 col-sm-2">
+              <h3>A propos</h3>
+              <ul class="versions">
+                    <li>
+                        <a href="https://github.com/opendatateam/udata/" title="Catalogage de données Open Source">uData</a>
+                        <a href="https://pypi.python.org/pypi/udata/{{ package_version('udata') }}/" title="{{ _('Deployed version') }}">{{ package_version('udata') }}</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/koumoul-dev/udata-koumoul/" title="Thème pour udata">Thème Koumoul</a>
+                        <a href="https://pypi.python.org/pypi/udata-koumoul/{{ package_version('udata_koumoul') }}/" title="{{ _('Deployed version') }}">{{ package_version('udata_koumoul') }}</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/koumoul-dev/data-fair/" title="Diffusion de données Open Source">DataFair</a>
+                        <a href="https://github.com/koumoul-dev/data-fair/releases/tag/0.26.0" title="{{ _('Deployed version') }}">0.26.0</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/matomo-org/matomo/" title="Analystics Open Source">Matomo</a>
+                        <a href="https://github.com/matomo-org/matomo/releases/tag/3.5.0" title="{{ _('Deployed version') }}">3.5.0</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</footer>
+{% endcache %}

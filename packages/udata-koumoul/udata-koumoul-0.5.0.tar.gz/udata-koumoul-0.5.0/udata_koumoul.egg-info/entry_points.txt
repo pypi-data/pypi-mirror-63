@@ -1,0 +1,3 @@
+[udata.themes]
+koumoul = udata_koumoul
+

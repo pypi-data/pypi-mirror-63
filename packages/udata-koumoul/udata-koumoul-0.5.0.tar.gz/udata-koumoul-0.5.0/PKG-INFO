@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: udata-koumoul
+Version: 0.5.0
+Summary: Theme for Koumoul demo opendata portal
+Home-page: https://demo.koumoul.com
+Author: Koumoul
+Author-email: contact@koumoul.com
+License: MIT
+Description: udata-koumoul
+        =============
+        
+        Theme for Koumoul's demo opendata portal
+        
+        Usage
+        -----
+        
+        Install the theme package in you udata environement:
+        
+        .. code-block:: bash
+        
+            pip install udata-koumoul
+            
+        
+        
+        Then, define the installed theme as current in you `udata.cfg`:
+        
+        .. code-block:: python
+        
+            THEME = 'koumoul'
+            
+        
+        
+        Development
+        -----------
+        
+        There is a `docker-compose` configuration to get started fast.
+        Just run:
+        
+        .. code-block:: bash
+        
+            docker-compose up
+            
+        
+        
+        Then go to <http://localhost:7000> to connect to the development server
+        with live reload.
+        
+         Publish
+        --------
+        
+        .. code-block:: None
+        
+            python setup.py sdist bdist_wheel
+            twine upload dist/*
+            
+        
+        
+        Changelog
+        =========
+        
+        Current
+        -------
+        
+        Initial release
+        
+        
+Keywords: u,d,a,t,a,,, ,t,h,e,m,e,,, ,u,d,a,t,a,-,k,o,u,m,o,u,l
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Software Distribution
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

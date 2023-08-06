@@ -1,0 +1,11 @@
+{% extends "reuse/display.html" %}
+{% from theme('macros/breadcrumb.html') import breadcrumb with context %}
+
+{% block content %}
+{{ breadcrumb(self,
+    breadcrum_class=breadcrum_class,
+    toolbar_class=toolbar_class
+) }}
+
+{{ super() }}
+{% endblock %}
