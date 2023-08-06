@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: simpletrail
+Version: 0.3
+Summary: simple logging
+Home-page: https://gitlab.com/mfiorani88/simpletrail
+Author: Marco Fiorani
+Author-email: mfiorani88@gmail.com
+License: Commercial
+Download-URL: https://gitlab.com/mfiorani88/simpletrail/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: logging,security,integrity
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
