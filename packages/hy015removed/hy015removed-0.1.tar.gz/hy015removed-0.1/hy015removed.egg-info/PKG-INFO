@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: hy015removed
+Version: 0.1
+Summary: hy015removed : compat functions removed in hy-lang ver0.15 for hy 0.18 
+Home-page: https://github.com/niitsuma/hy015removed/
+Author: Hirotaka Niitsuma
+Author-email: hirotaka.niitsuma@gmail.com
+License: GNU Affero General Public License
+Description: UNKNOWN
+Keywords: hy
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6

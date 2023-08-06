@@ -1,0 +1,10 @@
+README.md
+setup.py
+hy015removed/__init__.py
+hy015removed/core.hy
+hy015removed.egg-info/PKG-INFO
+hy015removed.egg-info/SOURCES.txt
+hy015removed.egg-info/dependency_links.txt
+hy015removed.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.hy
