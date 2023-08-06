@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-17 10:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\django_dynamic_model_admin\apps.py:7
+msgid "Django Dynamic Model Admin"
+msgstr "动态模型管理"
+
+#: .\django_dynamic_model_admin\models.py:108
+msgid "Model Definition Category"
+msgstr "数据模型分类"
+
+#: .\django_dynamic_model_admin\models.py:109
+#: .\django_dynamic_model_admin\models.py:222
+msgid "Verbose Name"
+msgstr "名称"
+
+#: .\django_dynamic_model_admin\models.py:110
+msgid "Verbose Name Plural"
+msgstr "数据集名称"
+
+#: .\django_dynamic_model_admin\models.py:111
+msgid "Title Template"
+msgstr "标题模板"
+
+#: .\django_dynamic_model_admin\models.py:112
+msgid "Label Width"
+msgstr "字段标签宽度"
+
+#: .\django_dynamic_model_admin\models.py:112
+msgid "Add unit, e.g. 120px"
+msgstr "宽度要加单位，如：50%，120px，20em等。"
+
+#: .\django_dynamic_model_admin\models.py:115
+#: .\django_dynamic_model_admin\models.py:303
+#: .\django_dynamic_model_admin\models.py:331
+msgid "Model Definition"
+msgstr "数据模型"
+
+#: .\django_dynamic_model_admin\models.py:116
+msgid "Model Definitions"
+msgstr "数据模型"
+
+#: .\django_dynamic_model_admin\models.py:157
+msgid "Name"
+msgstr "名称"
+
+#: .\django_dynamic_model_admin\models.py:158
+msgid "Fields"
+msgstr "字段集"
+
+#: .\django_dynamic_model_admin\models.py:159
+msgid "Classes"
+msgstr "样式类"
+
+#: .\django_dynamic_model_admin\models.py:160
+#: .\django_dynamic_model_admin\models.py:208
+msgid "Order"
+msgstr "排序"
+
+#: .\django_dynamic_model_admin\models.py:163
+msgid "Model Fieldset"
+msgstr "字段集"
+
+#: .\django_dynamic_model_admin\models.py:164
+msgid "Model Fieldsets"
+msgstr "字段集"
+
+#: .\django_dynamic_model_admin\models.py:201
+msgid "TabularInline"
+msgstr "行内嵌样式"
+
+#: .\django_dynamic_model_admin\models.py:202
+msgid "StackedInline"
+msgstr "堆内嵌样式"
+
+#: .\django_dynamic_model_admin\models.py:205
+msgid "FK Name"
+msgstr "外键字段名称"
+
+#: .\django_dynamic_model_admin\models.py:206
+msgid "Extra Data Number"
+msgstr "空白内嵌对象数"
+
+#: .\django_dynamic_model_admin\models.py:207
+msgid "Inline Type"
+msgstr "内嵌样式"
+
+#: .\django_dynamic_model_admin\models.py:211
+msgid "Model Inline"
+msgstr "内嵌对象"
+
+#: .\django_dynamic_model_admin\models.py:212
+msgid "Model Inlines"
+msgstr "内嵌对象"
+
+#: .\django_dynamic_model_admin\models.py:220
+msgid "Real Field Name"
+msgstr "数据库字段名"
+
+#: .\django_dynamic_model_admin\models.py:221
+msgid "Field Widget"
+msgstr "字段控件"
+
+#: .\django_dynamic_model_admin\models.py:223
+msgid "Prefered Field Name"
+msgstr "字段名"
+
+#: .\django_dynamic_model_admin\models.py:224
+msgid "Help Text"
+msgstr "提示信息"
+
+#: .\django_dynamic_model_admin\models.py:225
+msgid "Requried"
+msgstr "必填"
+
+#: .\django_dynamic_model_admin\models.py:226
+msgid "Parameters"
+msgstr "控件参数"
+
+#: .\django_dynamic_model_admin\models.py:230
+msgid "Model Field"
+msgstr "字段"
+
+#: .\django_dynamic_model_admin\models.py:231
+msgid "Model Fields"
+msgstr "字段"
+
+#: .\django_dynamic_model_admin\models.py:251
+msgid "Title"
+msgstr "标题"
+
+#: .\django_dynamic_model_admin\models.py:254
+msgid "Data"
+msgstr "数据"
+
+#: .\django_dynamic_model_admin\models.py:255
+msgid "Datas"
+msgstr "数据"
+
+#: .\django_dynamic_model_admin\models.py:274
+msgid "Unkown Type"
+msgstr "未知类型数据"
+
+#: .\django_dynamic_model_admin\models.py:276
+#, python-brace-format
+msgid "{0} (ID={1})"
+msgstr "{0}（编号={1}）"
+
+#: .\django_dynamic_model_admin\models.py:278
+#, python-brace-format
+msgid "{0} (Draft)"
+msgstr "{0}（草稿）"
+
+#: .\django_dynamic_model_admin\models.py:326
+#: .\django_dynamic_model_admin\models.py:337
+msgid "Definition"
+msgstr "模型定义"
+
+#: .\django_dynamic_model_admin\models.py:332
+msgid "Target Model Definition"
+msgstr "数据模型"
+
+#~ msgid "Field Type"
+#~ msgstr "字段类型"
+
+#~ msgid "Field Widgets"
+#~ msgstr "字段控件"
+
+#~ msgid "Model Definition Category Parent"
+#~ msgstr "上级分类"
+
+#~ msgid "Model Definition Categories"
+#~ msgstr "数据模型分类"
+
+#~ msgid "Object"
+#~ msgstr "业务数据记录"
+
+#, python-format
+#~ msgid "%s Draft"
+#~ msgstr "%s【草稿】"
+
+#~ msgid "Fieldsets Setting"
+#~ msgstr "字段集设置"
