@@ -1,0 +1,11 @@
+data/__about__.py,sha256=X4YDuD2gSJ9SEFWAvxjcl7S0W3I60ht6eajKty-aee0,75
+data/__init__.py,sha256=rMJQTKJnEiIGBt4xi5gMfdyrP2WgpRN7mVMdZBjR3L8,132
+data/contents.py,sha256=hBdw3x9kUKq-N0rDp0aKORb1B4dA3aoKTZsBKLBHVu4,5779
+data/generators.py,sha256=-1GcADe7MGNw_WOQCNVkTEJd0cdNDzSbHASM2K164TY,5773
+data/signals.py,sha256=UmH6ohrEniFPkcK5ZVE0bu0iEmimZHOCGHDof4Fc8ck,315
+data/tests.py,sha256=DcxB4PCnltV92lDjsUgVBXGXUZe9JXEBiihtqrj_Azk,432
+pelican_data-0.1.0.dist-info/LICENSE,sha256=VcjPDbawwT-fWzC-ipV6xeR4oVdZW7UTEtJtJxQBW9E,1080
+pelican_data-0.1.0.dist-info/METADATA,sha256=TG2rd7RKa24TtjuaGvUDhVrP-_bnqBXuGoFfzb_9XW8,1252
+pelican_data-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pelican_data-0.1.0.dist-info/top_level.txt,sha256=Zmey0aq2oAyqWu5a-K2fFGXlZ6vxwgnRVyfVez6Pbl8,5
+pelican_data-0.1.0.dist-info/RECORD,,
