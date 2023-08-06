@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: coronavirus-plot
+Version: 1.0.10
+Summary: Terminal application to create a plot of coronavirus data for a user selected location.
+Home-page: https://github.com/mskymoore/coronavirus-plot
+Author: Sky Moore
+Author-email: mskymoore@gmail.com
+License: MIT license
+Description: # coronavirus-plot
+        ## Version: 1.0.10
+        ## Install:
+        `pip3 install coronavirus-plot`
+        
+        
+        ## Run:
+        `python3 -m coronavirus-plot`
+        
+        
+        ## Requirements:
+        
+        * python3
+          * console-menu >= 0.6.0
+          * matplotlib >= 3.2.1
+          * requests >= 2.22.0
+        
+        ## Resources:
+        
+        * [CSSEGISandData / COVID-19](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
+          
+Keywords: covid,covid-19,covid19,corona,coronavirus,ncov19,api,async,client
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
