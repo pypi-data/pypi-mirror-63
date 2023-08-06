@@ -1,0 +1,11 @@
+README.md
+setup.py
+pymysql_kits/__init__.py
+pymysql_kits/_connector.py
+pymysql_kits/errors.py
+pymysql_kits/pooling.py
+pymysql_kits.egg-info/PKG-INFO
+pymysql_kits.egg-info/SOURCES.txt
+pymysql_kits.egg-info/dependency_links.txt
+pymysql_kits.egg-info/requires.txt
+pymysql_kits.egg-info/top_level.txt
