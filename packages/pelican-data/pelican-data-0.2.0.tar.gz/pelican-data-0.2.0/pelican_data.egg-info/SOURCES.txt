@@ -1,0 +1,14 @@
+README.md
+setup.py
+data/__about__.py
+data/__init__.py
+data/contents.py
+data/generators.py
+data/signals.py
+data/tests.py
+pelican_data.egg-info/PKG-INFO
+pelican_data.egg-info/SOURCES.txt
+pelican_data.egg-info/dependency_links.txt
+pelican_data.egg-info/not-zip-safe
+pelican_data.egg-info/requires.txt
+pelican_data.egg-info/top_level.txt
