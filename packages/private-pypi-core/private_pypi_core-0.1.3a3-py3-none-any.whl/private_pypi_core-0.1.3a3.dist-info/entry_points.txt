@@ -1,0 +1,3 @@
+[console_scripts]
+private_pypi_server=private_pypi_core.server:run_server_cli
+
