@@ -1,0 +1,40 @@
+{% load qnc_crud %}
+
+{# TODO - document our reliance on "block" and "error" classes, or create our own minimal stylesheet for users to include #}
+
+{% for field in form %}
+{% if field.is_hidden %}
+	{{field}}
+{% else %}
+<div class="block">
+
+	{# TODO - support fields with sub-widgets (the wrapper should not be <label> #}
+	<label for="{{field.id_for_label}}" class="tightlines" style="display: block;">
+		{% if field.field.required %}
+		<b>{{field.label}}</b>
+		{% else %}
+		{{field.label}} <small>(optional)</small>
+		{% endif %}
+
+		{% if field.help_text %}
+		<br><small>{{field.help_text}}</small>
+		{% endif %}
+	</label>
+
+	{# NOTE - in your own templates, you can use {{field|with_error_message_container}} to replace the following 3 items #}
+	{# Here we've left them separate to make it easier to see what markup we produce #}
+
+	{# This has no output - it mutates the field so that it prints differently, and adds a property we can read  #}
+	{{field|add_aria_errormessage}}
+	{{field}}
+	{% comment %}
+		Note - we're adding [aria-errormessage] to each input element, and it's value is the id of this element
+		This is used by set_form_errors.js to link these fields together, as well as for accessibility.
+		Also note - if field has subwidgets, multiple input elements will have same error message element.
+		I'm not sure if that's valid in ARIA, but I haven't found anything saying it isn't.
+	{% endcomment %}
+	<div class="error" aria-live="polite" id="{{field.aria_errormessage_id}}"></div>
+	
+</div>
+{% endif %}
+{% endfor %}
