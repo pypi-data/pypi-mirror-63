@@ -1,0 +1,13 @@
+edman/__init__.py,sha256=wzWQ-WaJrWlhNywbgux_UHobJvxwhf8CgP2fhpm-bGo,169
+edman/config.py,sha256=R5y0mWKNseJbc-GtGb9IftuY_39KgiTrmFAC8U034uQ,1119
+edman/convert.py,sha256=-8wweDUNa_aGdGvJK3SFZKc8KktF9ZWRS5W4ehnT480,17015
+edman/db.py,sha256=WJqj16kPV2FuQ6-aOHr0nW3bip3QI7k27oXzRdjg4GM,40793
+edman/file.py,sha256=xjREBEJ5tWmmMvx8WLYK3l5udKBr3R92Y6Y_3acw-oM,12607
+edman/json_manager.py,sha256=vA2GLCiFTU-8SdnbmM3VerO7-VHT4ACIVJTfXPciSkQ,1376
+edman/search.py,sha256=3BwLFndbNS4MHWqUYy8_S4NAY1pXJMbzQqpOtqaHI0Q,9465
+edman/utils.py,sha256=w-u03pSnaoNjcESuOHcwgO9QhO8UhMuZUyUP8I-wu4g,10676
+edman-0.1.13.dist-info/LICENSE.txt,sha256=D-aqyE-vL9OTKSuGnEw9o3zMpIQFnLe9flVdqcwvjT4,1097
+edman-0.1.13.dist-info/METADATA,sha256=QVXkk_VBdJAsoceDyVtHLTg6c3YUQlTPQGDHEw4JDuU,9013
+edman-0.1.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+edman-0.1.13.dist-info/top_level.txt,sha256=Gf1Otc3royOVvPtLcgpNl2DLSqwu7qfVtGxGqa-KSjo,6
+edman-0.1.13.dist-info/RECORD,,
