@@ -1,0 +1,4 @@
+cobra
+pandas
+pytest
+pytest-cov
