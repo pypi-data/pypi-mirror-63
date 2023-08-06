@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+xcomcan/__init__.py
+xcomcan/addresses.py
+xcomcan/client.py
+xcomcan/node.py
+xcomcan.egg-info/PKG-INFO
+xcomcan.egg-info/SOURCES.txt
+xcomcan.egg-info/dependency_links.txt
+xcomcan.egg-info/requires.txt
+xcomcan.egg-info/top_level.txt
