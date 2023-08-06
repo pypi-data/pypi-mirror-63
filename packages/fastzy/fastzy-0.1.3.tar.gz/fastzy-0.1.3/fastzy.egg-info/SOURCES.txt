@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+fastzy.egg-info/PKG-INFO
+fastzy.egg-info/SOURCES.txt
+fastzy.egg-info/dependency_links.txt
+fastzy.egg-info/not-zip-safe
+fastzy.egg-info/requires.txt
+fastzy.egg-info/top_level.txt
+images/logo.png
+src/fastzy.cpp
+tests/__init__.py
+tests/test_fastzy.py
