@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: physique
+Version: 0.2.2
+Summary: Librairie pour les sciences physiques
+Home-page: https://github.com/david-therincourt/physique
+Author: David THERINCOURT
+Author-email: dtherincourt@gmail.com
+License: UNKNOWN
+Description: # Bibliothèque Python pour les sciences physiques au lycée
+        
+        ## Installation
+        
+        ### Avec PyPi
+        
+        Lancer dans un terminal :
+        
+        	pip install physique
+        
+        ### A partir de l'archive de la bibliothèque
+        
+        Télécharger [ici](https://pypi.org/project/physique/#files) le fichier `physique-x.x.whl`. Les caractères `x` sont à remplacer par les numéros de version.
+        
+        Dans une console Python dans le même répertoire que l'archive et lancer la commande suivante :
+        
+        	pip install physique-x.x.whl
+        
+        ### Utilisation locale
+        
+        La bibliothèque `physique.py` peut s'utiliser sans installation à condition de copier à fois ce fichier dans le même répertoire que le programme Python qui l'utilise. 
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
