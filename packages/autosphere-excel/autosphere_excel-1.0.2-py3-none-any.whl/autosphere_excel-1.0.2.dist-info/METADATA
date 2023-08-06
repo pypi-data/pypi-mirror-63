@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: autosphere-excel
+Version: 1.0.2
+Summary: Autosphere library for excel xlsx file format
+Home-page: https://github.com/mercurialmindsrpa/autosphere-excel.git
+Author: Abdul Mateen
+Author-email: abdul.mateen@mercurialminds.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+
+
+
+AutoSphere-excel library
+
+This AutoSphere Openpyxl library that provides keywords to Open, Read, Write and Save XLSX files. This library uses Openpyxl python module to read and write datas in xlsx files.
+
+Pre-requisities:
+	- Python - 2.7 (Not tested with Python 3.0)
+	- AutoSphere - 3.0.2 (Not tested with other versions)
+	- Openpyxl
+
+Installation:
+
+pip install AutoSphere-excel
+
+Example:
+
+| Library    |    excelrary    |
+| Open Excel | <Filename with path>  |
+
+
+
