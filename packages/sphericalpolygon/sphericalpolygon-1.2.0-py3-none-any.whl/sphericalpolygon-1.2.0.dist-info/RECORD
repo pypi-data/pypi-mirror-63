@@ -1,0 +1,15 @@
+sphericalpolygon/__init__.py,sha256=TV-fcG4ThMFjsJ2GI6sQcTWD6OJ4oQeABP5FSkiYMIQ,496
+sphericalpolygon/centroid.py,sha256=-B9Nkiu3Bjcu7SHT0MYUk7_lxV1vR7F_xj0UiPVYJGo,2614
+sphericalpolygon/create_polygon.py,sha256=q8svUlhKaNFxc8CvFmGHoZssOGWeqe8QlYi48Q_79fw,973
+sphericalpolygon/excess_area.py,sha256=DYvO41Hi2sdkid_KR3mdgHZgWa7qu29DDFLAJBFk83Y,2813
+sphericalpolygon/functions.py,sha256=-Zl2iwyvME0a05SVzAY3gfmV3xuqoU-XgS2iH5_8d8g,1393
+sphericalpolygon/inertia.py,sha256=q3IThrijYH2R-GMG_gk0kEx6MjlLAGNMcPipPLGoHb8,3158
+sphericalpolygon/inside_polygon.py,sha256=CBkE1RFVQXr9SrgzGheo-2H5StMODSWBbFS825QCWjs,2478
+sphericalpolygon/perimeter.py,sha256=XrNuIPAkOdzKgdk2Lx2jwywVtOTlH5XGB63dQ3_u4oI,1282
+sphericalpolygon/polygonclasses/__init__.py,sha256=git2fJOzVPQLOix9-bjKKOWJYOLmadtmH68UURiyu1w,984
+sphericalpolygon/polygonclasses/sphericalpolygon.py,sha256=jniMpW9o_ZEpQMgH4lqg5kPRzhBB7bEaf9qiNXB3sEE,5296
+sphericalpolygon-1.2.0.dist-info/LICENSE.txt,sha256=GBwbbHBzHtX_jM6hcPaLXzKPBpY7-wP8Dm5iAQIrlYU,1054
+sphericalpolygon-1.2.0.dist-info/METADATA,sha256=Dwc1kgfkxGJeRAuJimjvM9kh6t9MMUle7ciGn0DAX6A,4942
+sphericalpolygon-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sphericalpolygon-1.2.0.dist-info/top_level.txt,sha256=wtqiy7yiWOaE48OlWsoh372zac9XswNGDrrVkCnyqnY,17
+sphericalpolygon-1.2.0.dist-info/RECORD,,
