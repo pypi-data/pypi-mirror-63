@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Not Currently Allowed</title>
+    {% include "qnc_crud/user_styles.html" %}
+    <script defer src="{% static "qnc_crud/smart_back_button.js" %}"></script>
+</head>
+<body>
+    <p>
+        Sorry, this operation is not currently allowed:<br>
+        <b>{{reason}}</b>
+    </p>
+    <p>
+       {% include "qnc_crud/smart_back_button.html" %} 
+    </p>
+</body>
+</html>

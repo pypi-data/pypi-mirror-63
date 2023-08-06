@@ -1,0 +1,19 @@
+{% load qnc_crud %}
+{% load static %}
+{% comment %}
+    This script will cause the page to reload whenever it's "stale".
+
+    A page is considered stale if the user has posted any form in the same browser session after the page was initially rendered.
+
+    Staleness is checked at:
+        page load (in case the page was loaded from html cache)
+        pageshow (in case the page was loaded from in-memory 'bf' cache)
+        visibilitychange (in case you opened a form in a new tab, and returned to this tab)
+        window focus (in case you opened a form in a new window, and came back to this window)
+{% endcomment %}
+<script 
+    id="reload_if_necessary_script" 
+    data-rendered="{% millisecond_timestamp %}"
+    src="{% static "qnc_crud/reload_if_necessary.js" %}"
+    defer
+></script>
