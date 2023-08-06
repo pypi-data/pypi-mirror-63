@@ -1,0 +1,14 @@
+README.md
+setup.py
+fastrequest/__init__.py
+fastrequest.egg-info/PKG-INFO
+fastrequest.egg-info/SOURCES.txt
+fastrequest.egg-info/dependency_links.txt
+fastrequest.egg-info/top_level.txt
+fastrequest/http/api.c
+fastrequest/http/funcwrappers.c
+fastrequest/http/http.c
+fastrequest/http/httprequest.c
+fastrequest/http/httpresponse.c
+fastrequest/http/stringbuffer.c
+fastrequest/http/utils.c
