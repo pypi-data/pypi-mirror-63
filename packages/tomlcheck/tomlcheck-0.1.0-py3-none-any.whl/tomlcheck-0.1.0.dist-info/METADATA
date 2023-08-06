@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tomlcheck
+Version: 0.1.0
+Summary: A simple toml syntax checker
+Home-page: http://github.com/sayanarijit/tomlcheck
+License: MIT
+Keywords: toml
+Author: Arijit Basu
+Author-email: sayanarijit@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytest-cov (>=2.8.1,<3.0.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Project-URL: Repository, http://github.com/sayanarijit/tomlcheck
