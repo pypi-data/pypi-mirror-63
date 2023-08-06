@@ -1,0 +1,15 @@
+uniparser/__init__.py,sha256=9O_Q7swUHjnDIDGcGQ4UrV_mo86EzwcF8F-_w-m2iCU,617
+uniparser/__main__.py,sha256=gm3Ii-uCxcFT5d34qVMVZf-LwyNtOm9P1DGKpCPOrNc,227
+uniparser/config.py,sha256=sqyfTERbwdR1IZS38KkOGLlk6c7vVzB9I2pmzSRlVzU,304
+uniparser/crawler.py,sha256=TZ2QbAtICg8MWt4DjB2NUmva2t3wZ2jx79nkJ0PwbiE,8141
+uniparser/exceptions.py,sha256=rnjMGf40OfICe1FdO0V7yld9cMVxBNNN0AjnvpURdx4,127
+uniparser/parsers.py,sha256=cIFMoQ47Fk_59Ub9JqTd2br5MrHBGNXLooc_BNp-wBg,42897
+uniparser/utils.py,sha256=wRra9fz_LmJtoQftJ_a8QWI2zml7mumLveZEtO8EC2U,13626
+uniparser/webui.py,sha256=GGbuBvd3WvRnwNf8pxoRO5yMC3OXhEjHcGGBaAC16do,3526
+uniparser/fastapi_ui/__init__.py,sha256=Vh7n21xwolyvjfXLSZJgy1yHLkpZEsPNAGPT2BYB4Kg,23
+uniparser/fastapi_ui/views.py,sha256=zIshFJ7W-VS8jCeJpeSq3onlBUXCvfTmVf_Hn6ZH1FY,3705
+uniparser/templates/index.html,sha256=PWzz_8T_2l7ee6FJCxp9VRhZYBLX2eeMXEGliQC3m7Y,23124
+uniparser-1.3.0.dist-info/METADATA,sha256=bePe5ph8Pts7mPis7foNLP9rFAZK7CXjAonSRlY0eYg,12109
+uniparser-1.3.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+uniparser-1.3.0.dist-info/top_level.txt,sha256=-gGz96QFSsidz9n7XvgtPpEwWR3SnPdsxm9SZS10Np4,10
+uniparser-1.3.0.dist-info/RECORD,,
