@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: asranger
+Version: 0.0.1
+Summary: Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase 
+Home-page: UNKNOWN
+Author: Less Wright
+Author-email: UNKNOWN
+License: Apache
+Platform: UNKNOWN
+Requires-Dist: torch
+
+UNKNOWN
+
+
