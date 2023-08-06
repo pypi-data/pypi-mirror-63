@@ -1,0 +1,10 @@
+Click
+commonmark
+monotable
+
+[dev]
+check-manifest
+
+[test]
+coverage
+pytest
