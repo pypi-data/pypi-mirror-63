@@ -1,0 +1,9 @@
+LICENSE
+README.md
+cipclient.py
+setup.cfg
+setup.py
+python_cipclient.egg-info/PKG-INFO
+python_cipclient.egg-info/SOURCES.txt
+python_cipclient.egg-info/dependency_links.txt
+python_cipclient.egg-info/top_level.txt
