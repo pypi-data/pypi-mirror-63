@@ -1,0 +1,15 @@
+README.md
+setup.py
+scriptgen/__init__.py
+scriptgen.egg-info/PKG-INFO
+scriptgen.egg-info/SOURCES.txt
+scriptgen.egg-info/dependency_links.txt
+scriptgen.egg-info/top_level.txt
+scriptgen/core/__init__.py
+scriptgen/core/_string_builder.py
+scriptgen/core/_utils.py
+scriptgen/templates/__init__.py
+scriptgen/templates/csharp/__init__.py
+scriptgen/templates/csharp/_csharp.py
+scriptgen/templates/markdown/__init__.py
+scriptgen/templates/markdown/_markdown.py
