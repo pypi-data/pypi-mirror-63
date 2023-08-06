@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: flass
+Version: 0.0.3
+Summary: Train Keras Convolutional Neural Network for image classification
+Home-page: http://flikka.net
+Author: Kristian Flikka
+Author-email: kristian.flikka@gmail.com
+License: MIT
+Description: Train Keras Convolutional Neural Network for image classification
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
