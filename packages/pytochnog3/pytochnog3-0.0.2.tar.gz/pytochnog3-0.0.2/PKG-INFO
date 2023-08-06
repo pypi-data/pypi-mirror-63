@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytochnog3
+Version: 0.0.2
+Summary: A python3 tool to the Tochnog Professional geotechnical FEM analysis programme
+Home-page: https://github.com/numericalfreedom/pytochnog3
+Author: Numerical Freedom Foundation
+Author-email: numericalfreedom@googlemail.com
+License: UNKNOWN
+Description: # pytochnog
+        A python tool to the Tochnog Professional geotechnical FEM analysis programme
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
