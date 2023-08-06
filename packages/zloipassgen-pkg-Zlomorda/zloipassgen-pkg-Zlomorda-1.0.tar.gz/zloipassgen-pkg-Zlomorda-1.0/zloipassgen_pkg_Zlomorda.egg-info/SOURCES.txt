@@ -1,0 +1,8 @@
+README.md
+setup.py
+zloipassgen_pkg/__init__.py
+zloipassgen_pkg/zloipassgen.py
+zloipassgen_pkg_Zlomorda.egg-info/PKG-INFO
+zloipassgen_pkg_Zlomorda.egg-info/SOURCES.txt
+zloipassgen_pkg_Zlomorda.egg-info/dependency_links.txt
+zloipassgen_pkg_Zlomorda.egg-info/top_level.txt
