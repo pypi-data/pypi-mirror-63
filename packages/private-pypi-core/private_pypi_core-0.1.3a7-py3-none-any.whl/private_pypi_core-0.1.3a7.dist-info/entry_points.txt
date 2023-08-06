@@ -1,0 +1,4 @@
+[console_scripts]
+private_pypi_server=private_pypi_core.server:run_server_cli
+private_pypi_update_index=private_pypi_core.workflow:update_index_cli
+
