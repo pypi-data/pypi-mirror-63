@@ -1,0 +1,8 @@
+README.md
+setup.py
+plot_model/__init__.py
+plot_model/plot_model.py
+plot_model.egg-info/PKG-INFO
+plot_model.egg-info/SOURCES.txt
+plot_model.egg-info/dependency_links.txt
+plot_model.egg-info/top_level.txt
