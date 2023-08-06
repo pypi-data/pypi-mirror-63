@@ -1,0 +1,3 @@
+[console_scripts]
+voyant_indicators = voyant_indicators.cli:main
+
