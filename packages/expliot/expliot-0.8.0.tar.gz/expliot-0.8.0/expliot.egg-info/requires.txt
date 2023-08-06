@@ -1,0 +1,14 @@
+bluepy>=1.3.0
+cmd2>=0.9.15
+coapthon3>=1.0.1
+paho-mqtt>=1.5.0
+pycrypto>=2.6.1
+pyi2cflash>=0.1.1
+pymodbus>=1.5.2
+pynetdicom>=1.2.0
+pyparsing>=2.2.0
+pyserial>=3.4
+pyspiflash>=0.5.2
+python-can>=2.1.0
+zeroconf>=0.24.4
+AWSIoTPythonSDK>=1.4.7
