@@ -1,0 +1,10 @@
+urcollectionmanager/api.py,sha256=zaheueE2S_GtxlLJT5lSjIIH4qmws18RcFvFLoenuLU,2979
+urcollectionmanager/auth.py,sha256=cxIWJ0r35nq6gBeWISnqPSjzoqFzqefV54_5QmYcvM4,453
+urcollectionmanager/database.py,sha256=kjr3uuiR2WlZdnmomRXYzMJPLzyUwBVB3W5gveksXWA,3283
+urcollectionmanager/history.py,sha256=FgW7TdVP2n1H2PKWxfrmrvEdodPfC4R_r-JxbIQtv-4,1438
+urcollectionmanager/http.py,sha256=sxj6lBL4_LfIKuUzdJUM-m5agkc36tSc5WBbC2DCWCQ,320
+urcollectionmanager/purchase.py,sha256=t7Qp-iqGTXGiYcm8--VL8jRomkplKxeruOpGdQq5Ss0,3173
+urcollectionmanager-1.0.1.dist-info/LICENSE,sha256=OJ4hoTvKLt4JhBmXgzIDz-fasSqa2iJmumbHqTQxrZQ,1091
+urcollectionmanager-1.0.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+urcollectionmanager-1.0.1.dist-info/METADATA,sha256=PChZStt9JLw9dYNujy8G0tQFU5Hy4wAUva7vvnRgM7w,3617
+urcollectionmanager-1.0.1.dist-info/RECORD,,
