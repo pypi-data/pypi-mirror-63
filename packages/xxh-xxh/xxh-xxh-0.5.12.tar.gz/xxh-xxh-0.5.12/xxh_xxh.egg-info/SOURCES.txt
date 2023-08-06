@@ -1,0 +1,14 @@
+README.md
+setup.py
+xxh
+xxh.xsh
+xxh.zsh
+xxhp
+xxh_xxh/__init__.py
+xxh_xxh/host_info.sh
+xxh_xxh/settings.py
+xxh_xxh.egg-info/PKG-INFO
+xxh_xxh.egg-info/SOURCES.txt
+xxh_xxh.egg-info/dependency_links.txt
+xxh_xxh.egg-info/requires.txt
+xxh_xxh.egg-info/top_level.txt
