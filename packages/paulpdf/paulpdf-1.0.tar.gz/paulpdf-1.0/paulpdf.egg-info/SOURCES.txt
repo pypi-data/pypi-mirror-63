@@ -1,0 +1,6 @@
+README.md
+setup.py
+paulpdf.egg-info/PKG-INFO
+paulpdf.egg-info/SOURCES.txt
+paulpdf.egg-info/dependency_links.txt
+paulpdf.egg-info/top_level.txt
