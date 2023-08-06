@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dypylib
+Version: 0.0.1
+Summary: genomics research
+Home-page: UNKNOWN
+Author: You Duan
+Author-email: duanyou@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# DY python libraries
+
+Collection of Python libraries to parse bioinformatics files.
+
+|         |                                                          |
+| ------- | -------------------------------------------------------- |
+| Authors | [You Duan](https://github.com/yduanBioinfo)              |
+| Email   | <duanyou@outlook.com>                                    |
+| License | [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html)      |
+
+
+
