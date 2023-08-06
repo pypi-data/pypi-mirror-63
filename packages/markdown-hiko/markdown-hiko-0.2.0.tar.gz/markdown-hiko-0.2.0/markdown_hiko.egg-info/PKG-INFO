@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: markdown-hiko
+Version: 0.2.0
+Summary: [Mardown Hiko] i a cli that uploads Markdown images to AWS S3.
+Home-page: https://github.com/yutaka0m/markdown-hiko
+Author: @yutaka0m
+Author-email: UNKNOWN
+License: MIT
+Description: [Mardown Hiko] i a cli that uploads Markdown images to AWS S3.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
