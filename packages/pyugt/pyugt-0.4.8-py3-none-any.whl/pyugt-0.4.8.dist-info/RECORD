@@ -1,0 +1,12 @@
+pyugt/__init__.py,sha256=61jHSX9PdxBz8DAl5xbbAnjTuPx-uggi2GHNxKymsUI,60
+pyugt/_version.py,sha256=YW6HmyFuAzfj6WurfkZ3Gr6R-xS3CKvGf5rFH-7j5cA,21
+pyugt/config.ini,sha256=CNdhEkLPmFF-ySKRRsAeeL6d_op3rT0N5RX9uw9stCA,3319
+pyugt/config_example.ini,sha256=ZF8x4fHtMGCjb16YtkplW_nX_aLj5lvRge9g2VbdzBc,3284
+pyugt/pyugt.py,sha256=uRLJ8TaUeAAPyRpecr-z1t-gRS1knusBVJZCS0W7e5Q,24827
+pyugt/waifu2x.py,sha256=m3HuxGM9Ypqrxunxo5sQUPIC452aFHQBDa3GN34dkHk,755
+pyugt-0.4.8.dist-info/LICENSE,sha256=nW979wbKspd78sk79prLAHFl1UkK4HLJft9asy6FjTs,1078
+pyugt-0.4.8.dist-info/METADATA,sha256=aeJ-dUoZWx48OvyHQmMoDNPgzT7eMAbuixlxtt7EqAk,11952
+pyugt-0.4.8.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pyugt-0.4.8.dist-info/entry_points.txt,sha256=1FUps1w_s_2b_R7Goj6NsmhThLgqq_OcW5E8W4-eNus,44
+pyugt-0.4.8.dist-info/top_level.txt,sha256=9T1wiMUXW7-b-DdjjQZSjr6Ifi_JVqpGtHhmN_NnDQc,6
+pyugt-0.4.8.dist-info/RECORD,,
