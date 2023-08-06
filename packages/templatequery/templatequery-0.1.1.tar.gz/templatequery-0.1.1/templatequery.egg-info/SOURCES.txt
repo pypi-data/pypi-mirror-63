@@ -1,0 +1,8 @@
+README.md
+setup.py
+templatequery/__init__.py
+templatequery/template_query.py
+templatequery.egg-info/PKG-INFO
+templatequery.egg-info/SOURCES.txt
+templatequery.egg-info/dependency_links.txt
+templatequery.egg-info/top_level.txt
