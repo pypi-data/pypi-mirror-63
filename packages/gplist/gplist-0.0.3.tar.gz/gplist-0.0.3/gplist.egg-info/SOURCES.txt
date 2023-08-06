@@ -1,0 +1,8 @@
+README.md
+setup.py
+gplist/__init__.py
+gplist/plist.py
+gplist.egg-info/PKG-INFO
+gplist.egg-info/SOURCES.txt
+gplist.egg-info/dependency_links.txt
+gplist.egg-info/top_level.txt
