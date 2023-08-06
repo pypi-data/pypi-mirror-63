@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: keragan
+Version: 0.0.1
+Summary: Keras GAN Library
+Home-page: https://github.com/shwars/keragan
+Author: Dmitri Soshnikov
+Author-email: dmitri@soshnikov.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: keras
+Requires-Dist: imutils
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
+# keragan
+Keras implementation of GANs
+
+

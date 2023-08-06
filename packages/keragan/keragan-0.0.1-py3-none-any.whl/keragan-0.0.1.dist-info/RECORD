@@ -1,0 +1,10 @@
+keragan/GAN.py,sha256=ZjkvjC7fVLqWxry3VV8sUdyjH2F9ZQY3qJL4Iv8PSfo,6097
+keragan/GANTrainer.py,sha256=CbJcdqSkR9hCoHwtqTQXMbwsOkYGtQCsyaOsi-j8p5M,2863
+keragan/ImageDataset.py,sha256=MNMom0at86ZFoB4TsIntXceoOYj5dK1cR1PcqrVS8Fg,3203
+keragan/__init__.py,sha256=rDNOl24cfcXaqOUaGiBaA7RX4Va49PSjOz5uK3xe3so,117
+keragan/trainer.py,sha256=PW-kmtKMX3zCE2RkEyhTcGAPkMBzf5LapEnlZ21mPLk,2924
+keragan/utils.py,sha256=u0KlO2TCPjF-3zIWPwADL_DpECAKIXTiNotDevEy47A,2258
+keragan-0.0.1.dist-info/METADATA,sha256=Qj8Wk4otvqeLTO3pDFsZifkxstPheG-BqhabCCnkxec,743
+keragan-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+keragan-0.0.1.dist-info/top_level.txt,sha256=7JdetPLpjjjGFwkiPYAMId_mIt7SDwCCCFeFDpGjDjI,8
+keragan-0.0.1.dist-info/RECORD,,
