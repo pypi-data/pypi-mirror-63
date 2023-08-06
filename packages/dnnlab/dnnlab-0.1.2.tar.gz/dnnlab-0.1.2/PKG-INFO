@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dnnlab
+Version: 0.1.2
+Summary: DnnLab
+Home-page: UNKNOWN
+Author: Tobias Hoefer
+Author-email: tobias.hoefer.hm@gmail.com
+License: UNKNOWN
+Description: # DnnLab
+        It provides:
+        TODO
+        
+        ## Installation
+        
+        Run the following to install:
+        ```python
+        pip install dnnlab
+        ```
+        
+        ## Develop
+        Run the following to get all dependecies used to develop dnnlab:
+        ```python
+        pip install dnnlab[dev]
+        ```
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
