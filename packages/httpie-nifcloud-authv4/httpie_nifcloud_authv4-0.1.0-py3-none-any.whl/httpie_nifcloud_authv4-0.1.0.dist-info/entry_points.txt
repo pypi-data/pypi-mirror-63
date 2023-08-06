@@ -1,0 +1,4 @@
+[httpie.plugins.auth.v1]
+httpie_aws_authv4=httpie_nifcloud_authv4:AWSv4AuthPlugin
+httpie_nifcloud_authv4=httpie_nifcloud_authv4:NIFCLOUDv4AuthPlugin
+
