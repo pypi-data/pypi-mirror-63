@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: data-notary
+Version: 0.1.0
+Summary: Simple data validators for Python
+Home-page: https://github.com/threefunkymonkeys/data-notary
+Author: Three Funky Monkeys
+Author-email: kandalf@threefunkymonkeys.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+README
+
+
