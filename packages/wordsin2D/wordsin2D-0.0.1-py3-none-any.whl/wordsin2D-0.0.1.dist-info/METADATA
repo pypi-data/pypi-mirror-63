@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wordsin2D
+Version: 0.0.1
+Summary: this packages helps to extract possible english words from grid of alphabets
+Home-page: https://github.com/siramkalyan/wordsgrid
+Author: siramkalyan
+Author-email: siramkalyan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Example Package
+
+wordsin2D module
+
+This module has the word_from_grid() which takes the grid or 2D matrix as and list of sizes of alphabets as input
+and return the possible english words present in the grid.
+
