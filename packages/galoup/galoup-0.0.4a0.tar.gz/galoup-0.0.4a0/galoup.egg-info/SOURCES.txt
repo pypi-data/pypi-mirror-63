@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+galoup/__init__.py
+galoup/core.py
+galoup/error.py
+galoup/git.py
+galoup/logger.py
+galoup/path.py
+galoup/process.py
+galoup.egg-info/PKG-INFO
+galoup.egg-info/SOURCES.txt
+galoup.egg-info/dependency_links.txt
+galoup.egg-info/requires.txt
+galoup.egg-info/top_level.txt
