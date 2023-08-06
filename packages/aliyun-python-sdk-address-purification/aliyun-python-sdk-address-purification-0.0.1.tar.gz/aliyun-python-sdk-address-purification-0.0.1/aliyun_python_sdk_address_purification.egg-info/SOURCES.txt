@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_address_purification.egg-info/PKG-INFO
+aliyun_python_sdk_address_purification.egg-info/SOURCES.txt
+aliyun_python_sdk_address_purification.egg-info/dependency_links.txt
+aliyun_python_sdk_address_purification.egg-info/requires.txt
+aliyun_python_sdk_address_purification.egg-info/top_level.txt
+aliyunsdkaddress_purification/__init__.py
+aliyunsdkaddress_purification/request/__init__.py
+aliyunsdkaddress_purification/request/v20191118/DescribeProductRequest.py
+aliyunsdkaddress_purification/request/v20191118/GetAlgorithmResultRequest.py
+aliyunsdkaddress_purification/request/v20191118/GetConsoleResultRequest.py
+aliyunsdkaddress_purification/request/v20191118/GetReportRequest.py
+aliyunsdkaddress_purification/request/v20191118/GetUserInfomationRequest.py
+aliyunsdkaddress_purification/request/v20191118/__init__.py
