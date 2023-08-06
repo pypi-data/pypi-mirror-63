@@ -1,0 +1,7 @@
+Click
+pyyaml
+neurodocker
+testkraken
+
+[test]
+pytest
