@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: appthreat-scan-reports
+Version: 1.0.0
+Summary: Library for producing gorgeous html reports from AppThreat scan results. Compatible with SARIF and grafeas format.
+Home-page: https://github.com/appthreat/scan-reports
+Author: Team AppThreat
+Author-email: cloud@appthreat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2
+
+# Introduction
+
+This is a library for producing gorgeous html reports from AppThreat scan results. Compatible with SARIF and grafeas format.
+
+## Installation
+
+```bash
+pip install appthreat-scan-reports
+```
+
+## Usage
+
+This package is internally used by [sast-scan](http://github.com/AppThreat/sast-scan), a free open-source Static Analysis Security Testing tool.
+
+
