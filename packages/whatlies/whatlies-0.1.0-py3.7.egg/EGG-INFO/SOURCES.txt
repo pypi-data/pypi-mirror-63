@@ -1,0 +1,6 @@
+setup.py
+whatlies.egg-info/PKG-INFO
+whatlies.egg-info/SOURCES.txt
+whatlies.egg-info/dependency_links.txt
+whatlies.egg-info/requires.txt
+whatlies.egg-info/top_level.txt
