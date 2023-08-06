@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: appfw
+Version: 0.6
+Summary: Application framework
+Home-page: https://github.com/soysal/appfw
+Author: Ergin Soysal
+Author-email: esoysal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# appfw
+
+An application framework with external configuration, logging and commandline
+parsing support.
+
+## Installation
+
+    pip install appfw
+
+## Usage
+
+   app-init --help
+
+
+
