@@ -1,0 +1,6 @@
+[console_scripts]
+bio2bel = bio2bel.cli:main
+
+[pykeen.triples.extension_importer]
+bio2bel bel = bio2bel.automate.ensure_triples
+
