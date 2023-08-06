@@ -1,0 +1,17 @@
+unicef_sharepoint/__init__.py,sha256=F75CJVqCjuDwAMDunH2Ry3l2KOlV6zm3LgWx_QsS4vY,115
+unicef_sharepoint/admin.py,sha256=zRTmCEB3pCBlhaUCMPjeypMeEPoFVALsP9MXE6PPx3g,660
+unicef_sharepoint/apps.py,sha256=NWA8ZXwmwD-GBo5u8IBl_KyFIKssXSJ3KoRXTHePSBw,163
+unicef_sharepoint/client.py,sha256=T5Fii34PZHWlHu8dpO0b08qndW8-imIvylnwEDTuXUQ,4850
+unicef_sharepoint/filters.py,sha256=Hrt8ix1DdJphCBzotlYTkrUqgvdgAeu2t5wj6Y_gDOE,313
+unicef_sharepoint/models.py,sha256=1r1vouMYdYzlwhi5HGbg41Qe4BeiPglzuFbPdJHdrWc,2324
+unicef_sharepoint/serializers.py,sha256=UvTiRR4t7IL4BwYYuZYHobjZfDWCFJWr8AzRMDNRNAU,4279
+unicef_sharepoint/urls.py,sha256=4eCS_7YsDHnQBCLap363Ij0cJnZd-fJl6y_hKaQBdHU,1072
+unicef_sharepoint/utils.py,sha256=l2vwLIMvzp_XA65yW_Bfwa6X1x2NKu2aUmJHujCII20,202
+unicef_sharepoint/views.py,sha256=LPe1Y0YXwj6kiliNDLtH1pOZV_1ffZq1SA1owOpusXU,6033
+unicef_sharepoint/lib/__init__.py,sha256=QnB7bUMejMYv1SxztUbo5n79_7SXyf-xcmLIUgt1dM8,3413
+unicef_sharepoint/migrations/0001_initial.py,sha256=w_DhHDpfzPWd76HjmTqJSkNODrX8Y7DuNkY6tnVBVEA,3566
+unicef_sharepoint/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unicef_sharepoint-0.2.2.dist-info/METADATA,sha256=V8qESan3dh0HL4V6zcgHqkImsOy5JzQDt_bXtEowPq0,1348
+unicef_sharepoint-0.2.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+unicef_sharepoint-0.2.2.dist-info/top_level.txt,sha256=Mnj1BE4Qh5XWZ3PlNQOyOoHPBe0FULUi2SRvhZAZNng,18
+unicef_sharepoint-0.2.2.dist-info/RECORD,,
