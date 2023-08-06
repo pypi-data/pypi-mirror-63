@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+nameko_sematext/__init__.py
+nameko_sematext/logger.py
+nameko_sematext_logger.egg-info/PKG-INFO
+nameko_sematext_logger.egg-info/SOURCES.txt
+nameko_sematext_logger.egg-info/dependency_links.txt
+nameko_sematext_logger.egg-info/requires.txt
+nameko_sematext_logger.egg-info/top_level.txt
+nameko_sematext_logger.egg-info/zip-safe
