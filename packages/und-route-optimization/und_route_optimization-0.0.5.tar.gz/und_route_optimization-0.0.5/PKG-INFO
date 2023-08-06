@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: und_route_optimization
+Version: 0.0.5
+Summary: servidor para optimizacion de rutas
+Home-page: https://github.com/und-tech/und-python-microservice
+Author: UND
+Author-email: development@orbis.com.pe
+License: UNKNOWN
+Description: MicroService Router
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
