@@ -1,0 +1,13 @@
+README.md
+setup.py
+intermine_boot/__init__.py
+intermine_boot/commands.py
+intermine_boot/docker.py
+intermine_boot/intermine.py
+intermine_boot/utils.py
+intermine_boot.egg-info/PKG-INFO
+intermine_boot.egg-info/SOURCES.txt
+intermine_boot.egg-info/dependency_links.txt
+intermine_boot.egg-info/entry_points.txt
+intermine_boot.egg-info/requires.txt
+intermine_boot.egg-info/top_level.txt
