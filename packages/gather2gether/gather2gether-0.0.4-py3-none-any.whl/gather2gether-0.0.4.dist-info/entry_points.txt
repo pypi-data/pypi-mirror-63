@@ -1,0 +1,10 @@
+[console_scripts]
+g2g = gather2gether.g2g:cli
+gather2gether = gather2gether.run:main
+
+[flask.commands]
+db = gather2gether.cli:db
+projects = gather2gether.cli_project:projects
+tasks = gather2gether.cli_task:tasks
+users = gather2gether.cli_user:users
+
