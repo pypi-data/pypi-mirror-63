@@ -1,0 +1,11 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/launchpad/__init__.py,sha256=RvUivGn-2WyYgJ_bVfa4pjn9J9BcA5dXcA3bw08MaeU,70
+canonicalwebteam/launchpad/models.py,sha256=cXxxO6t_65MhvmHeRIUJFw6x6nkOYN9v04PBkOidoU8,8818
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_launchpad.py,sha256=n3X22tDiaCSemWHrjEYfrGrneq2jYqneYWJuK4PCGXs,1990
+tests/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam.launchpad-0.2.8.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+canonicalwebteam.launchpad-0.2.8.dist-info/METADATA,sha256=Nk0crP0SzhwR9lRs_9a1f-8xD_f0cbHLzPaV8tbNghc,2008
+canonicalwebteam.launchpad-0.2.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+canonicalwebteam.launchpad-0.2.8.dist-info/top_level.txt,sha256=3QzUW8NsRMpxkXDuvyTsaZnBKpWaxA2k0Ofz7ELl5eM,23
+canonicalwebteam.launchpad-0.2.8.dist-info/RECORD,,
