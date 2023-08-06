@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: methcomp
+Version: 1.0.0
+Summary: methcomp: method comparison for clinical chemistry
+Home-page: https://github.com/wptmdoorn/methcomp
+Author: William P.T.M. van Doorn
+Author-email: wptmdoorn@gmail.com
+Maintainer: William P.T.M. van Doorn
+Maintainer-email: wptmdoorn@gmail.com
+License: MIT
+Download-URL: https://github.com/wptmdoorn/methcomp/archive/v1.0.0.tar.gz
+Description: Methcomp is a Python visualization library based and built on `matplotlib <https://matplotlib.org/>`_. It provides a high-level interface for method comparison for clinical chemisty methods, amongst others.
+        Here is some of the functionality that methcomp currently offers:
+        - Method comparison using Bland-Altman plots;
+        - Method comparison using regression techniques such as Passing-Bablok, Deming and simple linear regression;
+        - Method comparison for glucose sensors using Clarke and Parkes error grids.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
