@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pycran
+Version: 0.1.0
+Summary: Parse CRAN package metadata
+Home-page: https://github.com/imanhodjaev/pycran
+Author: Sultan Iman
+Author-email: sultan.imanhodjaev@gmail.com
