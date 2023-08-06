@@ -1,0 +1,16 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+readme.org
+readme.rst
+requirements.txt
+setup.py
+tox.ini
+org_agenda/__init__.py
+org_agenda/ical2org.py
+org_mode_agenda.egg-info/PKG-INFO
+org_mode_agenda.egg-info/SOURCES.txt
+org_mode_agenda.egg-info/dependency_links.txt
+org_mode_agenda.egg-info/entry_points.txt
+org_mode_agenda.egg-info/top_level.txt
+tests/test_ical2org.py

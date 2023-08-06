@@ -1,0 +1,3 @@
+[console_scripts]
+org_agenda_sync = org_agenda:main
+
