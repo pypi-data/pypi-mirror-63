@@ -1,0 +1,8 @@
+qclib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qclib/encoding.py,sha256=5Zxc20npnNeHa4IfV-hcf6Zub6RsfQVXPtAZ1lVuvkg,6264
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_encoding.py,sha256=H-eZk6Ysc-FN_WewHv7qhRZS6tio80-2E1CXC4CZSqY,3642
+qclib-0.0.1a1.dist-info/METADATA,sha256=v0CBSbhRvLJjENuyAR-u3Jd3nsj99fuNzrdU6gEoDak,455
+qclib-0.0.1a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qclib-0.0.1a1.dist-info/top_level.txt,sha256=5utO2dvQdgVZLY50l751Fm3uVAxY1Ujv1U49zYiiIdo,11
+qclib-0.0.1a1.dist-info/RECORD,,
