@@ -1,0 +1,6 @@
+click
+openpyxl==2.5.14
+six
+
+[test]
+pytest

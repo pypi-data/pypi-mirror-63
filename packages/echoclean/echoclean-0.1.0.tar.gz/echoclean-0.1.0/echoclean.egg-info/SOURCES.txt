@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+echoclean/__init__.py
+echoclean/cli.py
+echoclean/ruleset.py
+echoclean/xlsx_dictreader.py
+echoclean.egg-info/PKG-INFO
+echoclean.egg-info/SOURCES.txt
+echoclean.egg-info/dependency_links.txt
+echoclean.egg-info/entry_points.txt
+echoclean.egg-info/not-zip-safe
+echoclean.egg-info/requires.txt
+echoclean.egg-info/top_level.txt
