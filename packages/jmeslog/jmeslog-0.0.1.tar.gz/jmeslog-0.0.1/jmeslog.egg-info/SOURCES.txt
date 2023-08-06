@@ -1,0 +1,9 @@
+README.rst
+jmeslog.py
+setup.py
+jmeslog.egg-info/PKG-INFO
+jmeslog.egg-info/SOURCES.txt
+jmeslog.egg-info/dependency_links.txt
+jmeslog.egg-info/entry_points.txt
+jmeslog.egg-info/top_level.txt
+jmeslog.egg-info/zip-safe
