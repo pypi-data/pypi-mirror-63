@@ -1,0 +1,37 @@
+{% load staticfiles %}
+{% load custom_tags %}
+{% is_production as is_production %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>remo.ai</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{% static 'images/favicon.ico' %}">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    {% if is_production %}
+      <link rel="stylesheet" href="{% static 'dist/styles.css' %}">
+    {% else %}
+      <link rel="stylesheet" href="http://{% get_host request %}:8888/styles.css">
+    {% endif %}
+  </head>
+
+  <body>
+
+    <div id="app">Loading...</div>
+
+    {% if is_production %}
+      <script src="{% static 'dist/bundle.js' %}"></script>
+    {% else %}
+      <script src="http://{% get_host request %}:8888/bundle.js"></script>
+    {% endif %}
+
+    <!-- {% include_raven %}  -->
+  </body>
+</html>
