@@ -1,0 +1,8 @@
+pdsql/__init__.py,sha256=VYyv4wthxcX31leH6cN1KzJt6lKkCDxPC-KSiG9RPNo,63
+pdsql/mssql.py,sha256=sUAFBzM2dujqLuZFf5HvesQw-BMMgczOI0aPiRgRu0o,36747
+pdsql/util.py,sha256=BDQJ4rqKr3ZRnrGiz6Yn1tdhOlA0FJ63GZ1RjK9o97I,7641
+pdsql-1.2.33.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pdsql-1.2.33.dist-info/METADATA,sha256=RdQZpZmEGtfA_hmFmZFv_6QGa_Bu1p3F-IhVg26wOyQ,827
+pdsql-1.2.33.dist-info/WHEEL,sha256=dJmMC6qRDVSr-WswFjwmr1n_Lpd1hJCIBM6Guy9r8vo,116
+pdsql-1.2.33.dist-info/top_level.txt,sha256=SEJ_P0U3aRkZOukk0Bb25Y8GDS98W1YKn0IKbYudtHQ,6
+pdsql-1.2.33.dist-info/RECORD,,
