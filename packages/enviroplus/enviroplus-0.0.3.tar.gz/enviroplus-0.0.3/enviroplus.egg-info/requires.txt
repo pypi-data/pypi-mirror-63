@@ -1,0 +1,10 @@
+setuptools>=30.4.0
+pimoroni-bme280
+pms5003
+ltr559
+st7735
+ads1015
+fonts
+font-roboto
+astral
+pytz
