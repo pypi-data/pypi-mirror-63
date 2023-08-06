@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pyion2json/__init__.py
+pyion2json/pyion2json.py
+pyion2json/test_pyion2json.py
+pyion2json.egg-info/PKG-INFO
+pyion2json.egg-info/SOURCES.txt
+pyion2json.egg-info/dependency_links.txt
+pyion2json.egg-info/requires.txt
+pyion2json.egg-info/top_level.txt
