@@ -1,0 +1,7 @@
+setup.py
+amway_eap_migration/__init__.py
+amway_eap_migration.egg-info/PKG-INFO
+amway_eap_migration.egg-info/SOURCES.txt
+amway_eap_migration.egg-info/dependency_links.txt
+amway_eap_migration.egg-info/requires.txt
+amway_eap_migration.egg-info/top_level.txt
