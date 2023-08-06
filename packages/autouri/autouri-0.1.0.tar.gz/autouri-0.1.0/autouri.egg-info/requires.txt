@@ -1,0 +1,6 @@
+requests
+pyopenssl
+google-cloud-storage
+boto3
+awscli
+filelock
