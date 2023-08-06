@@ -1,0 +1,11 @@
+README.md
+setup.py
+catimage/__init__.py
+catimage/__main__.py
+catimage/catimage.py
+catimage/program_icon.png
+catimage.egg-info/PKG-INFO
+catimage.egg-info/SOURCES.txt
+catimage.egg-info/dependency_links.txt
+catimage.egg-info/entry_points.txt
+catimage.egg-info/top_level.txt
