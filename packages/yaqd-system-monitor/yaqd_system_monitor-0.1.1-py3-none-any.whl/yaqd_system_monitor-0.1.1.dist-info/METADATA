@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: yaqd-system-monitor
+Version: 0.1.1
+Summary: Yaq daemon for monitoring system usage.
+Home-page: https://yaq.fyi
+Author: yaq developers
+Author-email: blaise@untzag.com
+License: GNU Lesser General Public License v3 (LGPL)
+Project-URL: Source, https://gitlab.com/yaq/yaqd-system-monitor
+Project-URL: Documentation, https://yaq.fyi/daemons/system-monitor/
+Project-URL: Issue Tracker, https://gitlab.com/yaq/yaqd-system-monitor/-/issues
+Keywords: system-monitor
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: yaqd-core
+Requires-Dist: psutil
+Requires-Dist: uptime
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: yaqc ; extra == 'tests'
+
+# yaqd-system-monitor
+
+[![PyPI version](https://badge.fury.io/py/yaqd-system-monitor.svg)](https://badge.fury.io/py/yaqd-system-monitor)
+
+Documentation at https://yaq.fyi/daemons/system-monitor/
+
