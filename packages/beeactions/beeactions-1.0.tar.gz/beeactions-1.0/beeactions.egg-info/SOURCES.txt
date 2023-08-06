@@ -1,0 +1,11 @@
+README.rst
+setup.py
+beeactions/__init__.py
+beeactions/main.py
+beeactions/shortcut_manager.py
+beeactions/version.py
+beeactions.egg-info/PKG-INFO
+beeactions.egg-info/SOURCES.txt
+beeactions.egg-info/dependency_links.txt
+beeactions.egg-info/requires.txt
+beeactions.egg-info/top_level.txt
