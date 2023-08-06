@@ -1,0 +1,3 @@
+recursive-include notebooks *
+include requirements-dev.txt
+include *.md *.rst
