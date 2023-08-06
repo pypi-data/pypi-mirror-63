@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Development &mdash; Meta Package Manager 2.9.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Changelog" href="changelog.html" />
+    <link rel="prev" title="meta_package_manager.bitbar - BitBar plugin" href="api/bitbar.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Meta Package Manager
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.9.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="falsehoods.html">Falsehoods Programmers Believe About Package Managers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bitbar.html">BitBar Plugin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/index.html">API Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#philosophy">Philosophy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stability-policy">Stability policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-status">Build status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup-a-development-environment">Setup a development environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unit-tests">Unit-tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coding-style">Coding style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#release-process">Release process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="todolist.html">Todo list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Meta Package Manager</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Development</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/development.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="development">
+<h1>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="philosophy">
+<h2>Philosophy<a class="headerlink" href="#philosophy" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>First create something that work (to provide business value).</p></li>
+<li><p>Then something that’s beautiful (to lower maintenance costs).</p></li>
+<li><p>Finally works on performance (to avoid wasting time on premature
+optimizations).</p></li>
+</ol>
+</div>
+<div class="section" id="stability-policy">
+<h2>Stability policy<a class="headerlink" href="#stability-policy" title="Permalink to this headline">¶</a></h2>
+<p>This project follows <a class="reference external" href="https://semver.org/">Semantic Versioning</a>.</p>
+<p>Which boils down to the following rules of thumb regarding stability:</p>
+<ul class="simple">
+<li><p><strong>Patch releases</strong> (<code class="docutils literal notranslate"><span class="pre">0.x.n</span></code> → <code class="docutils literal notranslate"><span class="pre">0.x.(n+1)</span></code> upgrades) are bug-fix only.
+These releases must not break anything and keeps backward-compatibility with
+<code class="docutils literal notranslate"><span class="pre">0.x.*</span></code> and <code class="docutils literal notranslate"><span class="pre">0.(x-1).*</span></code> series.</p></li>
+<li><p><strong>Minor releases</strong> (<code class="docutils literal notranslate"><span class="pre">0.n.*</span></code> → <code class="docutils literal notranslate"><span class="pre">0.(n+1).0</span></code> upgrades) includes any
+non-bugfix changes. These releases must be backward-compatible with any
+<code class="docutils literal notranslate"><span class="pre">0.n.*</span></code> version but are allowed to drop compatibility with the
+<code class="docutils literal notranslate"><span class="pre">0.(n-1).*</span></code> series and below.</p></li>
+<li><p><strong>Major releases</strong> (<code class="docutils literal notranslate"><span class="pre">n.*.*</span></code> → <code class="docutils literal notranslate"><span class="pre">(n+1).0.0</span></code> upgrades) are not planned yet,
+unless we introduce huge changes to the project.</p></li>
+</ul>
+</div>
+<div class="section" id="build-status">
+<h2>Build status<a class="headerlink" href="#build-status" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 35%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Branch</p></th>
+<th class="head"><p><a class="reference external" href="https://github.com/kdeldycke/meta-package-manager/tree/master"><code class="docutils literal notranslate"><span class="pre">master</span></code></a></p></th>
+<th class="head"><p><a class="reference external" href="https://github.com/kdeldycke/meta-package-manager/tree/develop"><code class="docutils literal notranslate"><span class="pre">develop</span></code></a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Unittests</p></td>
+<td><p><a class="reference external" href="https://github.com/kdeldycke/meta-package-manager/actions?query=workflow%3AUnittests+branch%3Amaster"><img alt="Unittests status" src="https://github.com/kdeldycke/meta-package-manager/workflows/Unittests/badge.svg?branch=master" /></a></p></td>
+<td><p><a class="reference external" href="https://github.com/kdeldycke/meta-package-manager/actions?query=workflow%3AUnittests+branch%3Adevelop"><img alt="Unittests status" src="https://github.com/kdeldycke/meta-package-manager/workflows/Unittests/badge.svg?branch=develop" /></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Coverage</p></td>
+<td><p><a class="reference external" href="https://codecov.io/gh/kdeldycke/meta-package-manager/branch/master"><img alt="Coverage Status" src="https://codecov.io/gh/kdeldycke/meta-package-manager/branch/master/graph/badge.svg" /></a></p></td>
+<td><p><a class="reference external" href="https://codecov.io/gh/kdeldycke/meta-package-manager/branch/develop"><img alt="Coverage Status" src="https://codecov.io/gh/kdeldycke/meta-package-manager/branch/develop/graph/badge.svg" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p>Quality</p></td>
+<td><p><a class="reference external" href="https://scrutinizer-ci.com/g/kdeldycke/meta-package-manager/?branch=master"><img alt="Code Quality" src="https://scrutinizer-ci.com/g/kdeldycke/meta-package-manager/badges/quality-score.png?b=master" /></a></p></td>
+<td><p><a class="reference external" href="https://scrutinizer-ci.com/g/kdeldycke/meta-package-manager/?branch=develop"><img alt="Code Quality" src="https://scrutinizer-ci.com/g/kdeldycke/meta-package-manager/badges/quality-score.png?b=develop" /></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Dependencies</p></td>
+<td><p><a class="reference external" href="https://requires.io/github/kdeldycke/meta-package-manager/requirements/?branch=master"><img alt="Requirements freshness" src="https://requires.io/github/kdeldycke/meta-package-manager/requirements.svg?branch=master" /></a></p></td>
+<td><p><a class="reference external" href="https://requires.io/github/kdeldycke/meta-package-manager/requirements/?branch=develop"><img alt="Requirements freshness" src="https://requires.io/github/kdeldycke/meta-package-manager/requirements.svg?branch=develop" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p>Documentation</p></td>
+<td><p><a class="reference external" href="https://meta-package-manager.readthedocs.io/en/stable/"><img alt="Documentation Status" src="https://readthedocs.org/projects/meta-package-manager/badge/?version=stable" /></a></p></td>
+<td><p><a class="reference external" href="https://meta-package-manager.readthedocs.io/en/develop/"><img alt="Documentation Status" src="https://readthedocs.org/projects/meta-package-manager/badge/?version=develop" /></a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="setup-a-development-environment">
+<h2>Setup a development environment<a class="headerlink" href="#setup-a-development-environment" title="Permalink to this headline">¶</a></h2>
+<p>This <strong>step is required</strong> for all the other sections from this page.</p>
+<p>Check out latest development branch:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> git clone git@github.com:kdeldycke/meta-package-manager.git
+<span class="gp">$</span> <span class="nb">cd</span> ./meta-package-manager
+<span class="gp">$</span> git checkout develop
+</pre></div>
+</div>
+<p>Install package in editable mode with all development dependencies:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> pip install poetry
+<span class="gp">$</span> poetry install
+</pre></div>
+</div>
+<p>Now you’re ready to hack and abuse git!</p>
+</div>
+<div class="section" id="unit-tests">
+<h2>Unit-tests<a class="headerlink" href="#unit-tests" title="Permalink to this headline">¶</a></h2>
+<p>Install test dependencies and run unit-tests:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry run pytest
+</pre></div>
+</div>
+</div>
+<div class="section" id="coding-style">
+<h2>Coding style<a class="headerlink" href="#coding-style" title="Permalink to this headline">¶</a></h2>
+<p>Run <a class="reference external" href="https://github.com/timothycrosley/isort">isort</a> utility to sort Python
+imports:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry run isort --apply
+</pre></div>
+</div>
+<p>Then run <a class="reference external" href="https://pycodestyle.readthedocs.io">pycodestyle</a> and <a class="reference external" href="https://docs.pylint.org">Pylint</a> code style checks:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry run pycodestyle
+<span class="gp">$</span> poetry run pylint --rcfile<span class="o">=</span>setup.cfg meta_package_manager
+</pre></div>
+</div>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>The documentation you’re currently reading can be built locally with <a class="reference external" href="https://www.sphinx-doc.org">Sphinx</a>:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry install --extras docs
+<span class="gp">$</span> poetry run sphinx-build -b html ./docs ./docs/html
+</pre></div>
+</div>
+<p>And once in a while, it’s good to upgrade the <a class="reference external" href="./install.html#python-dependencies">graph of package dependencies</a>:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry show --all --no-dev --tree
+</pre></div>
+</div>
+</div>
+<div class="section" id="release-process">
+<h2>Release process<a class="headerlink" href="#release-process" title="Permalink to this headline">¶</a></h2>
+<p>Check your starting from a clean <code class="docutils literal notranslate"><span class="pre">develop</span></code> branch:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> git checkout develop
+</pre></div>
+</div>
+<p>Revision should already be set to the next version, so we just need to set the
+released date in the changelog:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> vi ./CHANGES.rst
+</pre></div>
+</div>
+<p>Create a release commit, tag it and merge it back to <code class="docutils literal notranslate"><span class="pre">master</span></code> branch:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> git add ./meta_package_manager/__init__.py ./CHANGES.rst
+<span class="gp">$</span> git commit -m <span class="s2">&quot;Release vX.Y.Z&quot;</span>
+<span class="gp">$</span> git tag <span class="s2">&quot;vX.Y.Z&quot;</span>
+<span class="gp">$</span> git push
+<span class="gp">$</span> git push --tags
+<span class="gp">$</span> git checkout master
+<span class="gp">$</span> git pull
+<span class="gp">$</span> git merge <span class="s2">&quot;vX.Y.Z&quot;</span>
+<span class="gp">$</span> git push
+</pre></div>
+</div>
+<p>Build packages:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry build
+</pre></div>
+</div>
+<p>For a smooth release, you also need to <a class="reference external" href="https://packaging.python.org/guides/making-a-pypi-friendly-readme/#validating-restructuredtext-markup">validate the rendering of package’s
+long description on PyPi</a>,
+as well as metadata:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry check
+<span class="gp">$</span> poetry run twine check ./dist/*
+</pre></div>
+</div>
+<p>Publish packaging to <a class="reference external" href="https://pypi.python.org">PyPi</a>:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> poetry publish
+</pre></div>
+</div>
+<p>Update revision with <a class="reference external" href="https://github.com/peritus/bumpversion">bumpversion</a>
+and set it back to development state by increasing the <code class="docutils literal notranslate"><span class="pre">patch</span></code> level.</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> git checkout develop
+<span class="gp">$</span> bumpversion --verbose patch
+<span class="gp">$</span> git add ./meta_package_manager/__init__.py ./CHANGES.rst
+<span class="gp">$</span> git commit -m <span class="s2">&quot;Post release version bump.&quot;</span>
+<span class="gp">$</span> git push
+</pre></div>
+</div>
+<p>Now if the next revision is no longer bug-fix only, bump the <code class="docutils literal notranslate"><span class="pre">minor</span></code>
+revision level instead:</p>
+<div class="highlight-shell-session notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> bumpversion --verbose minor
+<span class="gp">$</span> git add ./meta_package_manager/__init__.py ./CHANGES.rst
+<span class="gp">$</span> git commit -m <span class="s2">&quot;Next release no longer bug-fix only. Bump revision.&quot;</span>
+<span class="gp">$</span> git push
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="changelog.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="api/bitbar.html" class="btn btn-neutral float-left" title="meta_package_manager.bitbar - BitBar plugin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+      <span class="lastupdated">
+        Last updated on YYYY-MM-dd.
+      </span>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    <div role="contentinfo">
+        <p>
+            &copy; Copyright 2016-2020, <a href='https://kevin.deldycke.com'>Kevin Deldycke</a> and <a href='https://github.com/kdeldycke/meta-package-manager/graphs/contributors'>contributors</a>.
+        </p>
+    </div>
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
