@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include django_pell/static *
+recursive-include django_pell/templates *
