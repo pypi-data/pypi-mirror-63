@@ -1,0 +1,15 @@
+amundsenatlastypes/__init__.py,sha256=KoKIcmHpRko5tTCE3-Ur9jeP_Or3HqP1uWRABf_FpHQ,4166
+amundsenatlastypes/client.py,sha256=rOj9akUrdncB5mRnNcqWYg8uUOe9u7rYgxxXe2jpCA8,597
+amundsenatlastypes/types_def.py,sha256=iGvdkzZdhZyFeOlKBnoApCEizWUFdyL1o0e6FJHrhfs,648
+amundsenatlastypes/schema/01_1_reader.json,sha256=Fiu5FniUm1qDD3Sdw1qC3qV2cudAWNLIpqIAzzD2IUw,965
+amundsenatlastypes/schema/01_2_table_schema.json,sha256=oU97ygrHQ1ntaq_K4Gon1ZW4ZM74oBpfxLr07-NNwPg,640
+amundsenatlastypes/schema/01_column_schema.json,sha256=SNvbsf4kXGmFHKrbnvz03TIDCgdhg094ePtBMQfHFLc,1344
+amundsenatlastypes/schema/02_user.json,sha256=R1FVPuA-cjK6CiUJDtKiRCv_aJ_Q6fHccgNwOw6D1rk,237
+amundsenatlastypes/schema/04_user_reader_relation.json,sha256=WXeqRk6Ips_KZl3QG9941NTFTL07QXvdzV4OcOoyYp0,573
+amundsenatlastypes/schema/05_1_hive_table_partition.json,sha256=hJl1Iqn8yJmLcXTAK8aFShNeoaNUxjg-y4bb-kLmlA8,844
+amundsenatlastypes/schema/05_table_partition_schema.json,sha256=91sZ4zJWfuTAr3nIWHSIjVDIGDGjlH5yyAu3l74QxqM,115
+amundsenatlastypes/schema/06_column_partition_schema.json,sha256=ZZAWWIlfAXgz1ePEGUUtLO7tC0sGSiiV3hlpy1H9HTg,214
+amundsenatlastypes-0.0.13.post9.dist-info/METADATA,sha256=yTMnLdtqrcyWbyUsBRtrHLl5etSTcD883Xyv_KOx-as,3104
+amundsenatlastypes-0.0.13.post9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+amundsenatlastypes-0.0.13.post9.dist-info/top_level.txt,sha256=Xwn-aURWtbDhySc6N9YsoHewqXWcKv8x1dYmHgJP-Ns,19
+amundsenatlastypes-0.0.13.post9.dist-info/RECORD,,
