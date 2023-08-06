@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hashable_ndframes
+Version: 0.1.2
+Summary: Hashable (pandas) Series and DataFrames.
+Home-page: https://github.com/baowei521/hashable_ndframes
+License: MIT
+Keywords: hashable pandas series dataframe
+Author: Bao Wei
+Author-email: baowei.ur521@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas >= 0.25
+Requires-Dist: bump2version >= 1.0 ; extra == "dev"
+Requires-Dist: pre-commit >= 2.0 ; extra == "dev"
+Requires-Dist: hypothesis >= 5.5 ; extra == "test"
+Requires-Dist: pytest >= 5.3 ; extra == "test"
+Requires-Dist: pytest-cov >= 2.8 ; extra == "test"
+Requires-Dist: pytest-randomly >= 3.2 ; extra == "test"
+Requires-Dist: pytest-xdist == 1.29 ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
