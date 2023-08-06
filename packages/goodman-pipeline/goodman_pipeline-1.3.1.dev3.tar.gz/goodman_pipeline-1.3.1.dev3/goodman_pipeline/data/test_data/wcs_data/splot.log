@@ -1,0 +1,21 @@
+
+Aug  1 17:25 [non-linear_fits_solution_cheb.fits]: Cu
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  3590.411  1833.064  -97609.3     21.27
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  3543.225  2101.582   2107.91    -1.003   731.944     2.705        0.
+  3543.225  694.2196   9212.78    -13.27   2139.31     4.046        0.
+   3558.18  820.2443   11437.8    -13.94   2721.02     3.949        0.
+
+Aug  1 17:37 [non-linear_fits_solution_cheb.fits]: Cu
+   3558.18  794.4296   11634.9    -14.65   2746.84     3.979        0.
+
+Aug  2  9:26 [linear_fits_solution.fits]: Cu
+  3558.158  796.4277   11316.2    -14.21   2641.46     4.025        0.
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  3516.417  649.1425  -250.814    0.2287
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  4764.703  905.6369   69110.6    -76.31   15804.6     4.108        0.
+
+Aug  2 10:50 [non-linear_fits_solution_cheb.fits]: Cu
+  4764.627  1127.207   67956.2    -60.29   15665.7     4.075        0.
