@@ -1,0 +1,3 @@
+dimp>=0.8.10
+apns2
+numpy
