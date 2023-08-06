@@ -1,0 +1,11 @@
+README.md
+setup.py
+SobolSequence.egg-info/PKG-INFO
+SobolSequence.egg-info/SOURCES.txt
+SobolSequence.egg-info/dependency_links.txt
+SobolSequence.egg-info/requires.txt
+SobolSequence.egg-info/top_level.txt
+sobol/__init__.py
+sobol/sobol.py
+sobol/sobol1111.tsv
+test/test_sobol.py
