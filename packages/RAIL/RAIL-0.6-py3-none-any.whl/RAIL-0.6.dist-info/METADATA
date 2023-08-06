@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RAIL
+Version: 0.6
+Summary: Risk Assessment Library
+Home-page: https://github.com/davidbailey/rail
+Author: David Bailey
+Author-email: david@davidabailey.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+UNKNOWN
+
+
