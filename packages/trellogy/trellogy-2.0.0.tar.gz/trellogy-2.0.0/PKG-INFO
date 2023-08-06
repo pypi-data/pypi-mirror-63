@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: trellogy
+Version: 2.0.0
+Summary: Trello board managing tool via Trello REST API
+Home-page: https://github.com/chiantiscarlett/trellogy
+Author: Chianti Scarlett
+Author-email: chianti.scarlett@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
