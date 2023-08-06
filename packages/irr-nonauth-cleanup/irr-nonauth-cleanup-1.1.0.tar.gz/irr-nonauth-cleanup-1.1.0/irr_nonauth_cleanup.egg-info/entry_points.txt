@@ -1,0 +1,3 @@
+[console_scripts]
+irr-nonauth-cleanup = irr_nonauth_cleanup.irr_nonauth_cleanup:main
+
