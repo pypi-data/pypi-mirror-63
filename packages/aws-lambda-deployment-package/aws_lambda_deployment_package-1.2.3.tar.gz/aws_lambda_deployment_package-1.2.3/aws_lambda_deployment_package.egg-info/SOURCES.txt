@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+aws_lambda_deployment_package/__init__.py
+aws_lambda_deployment_package/deployment_package.py
+aws_lambda_deployment_package/lambda_build.sh
+aws_lambda_deployment_package/lambda_install.sh
+aws_lambda_deployment_package/lambda_optimize.sh
+aws_lambda_deployment_package/lambda_post_build.sh
+aws_lambda_deployment_package/lambda_post_install.sh
+aws_lambda_deployment_package/lambda_pre_build.sh
+aws_lambda_deployment_package/lambda_pre_install.sh
+aws_lambda_deployment_package.egg-info/PKG-INFO
+aws_lambda_deployment_package.egg-info/SOURCES.txt
+aws_lambda_deployment_package.egg-info/dependency_links.txt
+aws_lambda_deployment_package.egg-info/top_level.txt
