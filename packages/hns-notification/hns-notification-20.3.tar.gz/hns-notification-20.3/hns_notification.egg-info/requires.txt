@@ -1,0 +1,1 @@
+opsgenie-sdk<3,>=2
