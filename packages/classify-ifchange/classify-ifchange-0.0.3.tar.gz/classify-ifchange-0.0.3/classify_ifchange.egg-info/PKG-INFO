@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: classify-ifchange
+Version: 0.0.3
+Summary: nlu service tools for classification
+Home-page: https://www.ifchange.com
+Author: ai3
+Author-email: ai3@ifchange.com
+License: Apache License 2.0
+Description: xxx
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
