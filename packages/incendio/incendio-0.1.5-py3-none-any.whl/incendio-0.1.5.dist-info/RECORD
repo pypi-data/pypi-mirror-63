@@ -1,0 +1,15 @@
+incendio/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+incendio/_nbdev.py,sha256=XVnZr2ZjkdOvgJu7aHZw7Gm83p9cgVcbb2CfzImvd3M,2191
+incendio/callbacks.py,sha256=1z7PPKnul9k3QSfE6E9t1XooIdOG5NGUfiGnRLnxj7M,21131
+incendio/core.py,sha256=mN4Gcy0Zr4PgOboyn9FAPxaN57x--zsluCskhsxv29E,22684
+incendio/layers.py,sha256=VroiHEJDEXbcqcWFaUQ_WdmXTw1S6jdPfytJVQuhwLk,7149
+incendio/metrics.py,sha256=_W0gUy-Dd3FqVSOo3WrnC1yO6tOzArVIMLeneSR5Tzk,928
+incendio/nlp.py,sha256=JgposLWGc3qeNHY9Yd54YfK_EMvmKGt-7KemngNuikg,16407
+incendio/optimizers.py,sha256=KQp0coyROCDVyUcJ3ugsAjh2GYx2gcbAeLXuSneJMAY,3965
+incendio/utils.py,sha256=xSaaZI7JoIGe0FwW1-VYBwdseHV2wKOffnGt2_bdhlk,1168
+incendio-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+incendio-0.1.5.dist-info/METADATA,sha256=dUcuzUrceTnPFC5h6-amYi44HV41EclfRcYQb7E_y_Y,1117
+incendio-0.1.5.dist-info/WHEEL,sha256=-ZFxwj8mZJPIVcZGLrsQ8UGRcxVAOExzPLVBGR7u7bE,92
+incendio-0.1.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+incendio-0.1.5.dist-info/top_level.txt,sha256=tPmCYA-wcEXDD0AJ21ZbeXdRxCjcYZcSnHAMG2sGSK4,9
+incendio-0.1.5.dist-info/RECORD,,
