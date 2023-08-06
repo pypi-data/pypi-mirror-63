@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dynapi
+Version: 0.0.1
+Summary: Extras for dyanlist API wrapper.
+Home-page: https://gitlab.com/mindey/dynapi
+Author: Mindey
+Author-email: mindey@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: develop

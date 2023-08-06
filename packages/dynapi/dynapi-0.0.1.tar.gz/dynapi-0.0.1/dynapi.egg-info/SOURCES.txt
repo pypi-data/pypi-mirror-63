@@ -1,0 +1,9 @@
+README.md
+setup.py
+dynapi/__init__.py
+dynapi.egg-info/PKG-INFO
+dynapi.egg-info/SOURCES.txt
+dynapi.egg-info/dependency_links.txt
+dynapi.egg-info/not-zip-safe
+dynapi.egg-info/requires.txt
+dynapi.egg-info/top_level.txt
