@@ -1,0 +1,14 @@
+process_fastq/__init__.py,sha256=43dzc7b9ohbpDDDltWOoaKA0zV8ozupctfm6Ct69z8c,163
+process_fastq/cli.py,sha256=i47htH8FIEhu7fIAULijI8vY26ghuamyW2s9aOIDuNo,4041
+process_fastq/get_directory_paths.py,sha256=PE01-TdOhc0vlzlxscqhIPscQMyGCfIU3qyTXBTRmsQ,5336
+process_fastq/get_fastq_information.py,sha256=wC8hc6Q3wrvIuez6_Fg_AjW8z-LLTw77yEb2-79AM80,2307
+process_fastq/helper.py,sha256=hzWTaX5CgOOoGwse9JtSj3C1JKJdgxDNTtzA2hwBbwM,2678
+process_fastq/process_fastq.py,sha256=QIKclAUvzxPfCYxQPeDVTdeVy_1eC1hkoIWocFHEBFY,18721
+process_fastq/run_cutadapt.py,sha256=WE8AnV4riApNHU4-L7b_qLPjgmeUIaJ9Fcut4nBNSz4,1769
+process_fastq-2.1.2.dist-info/AUTHORS.rst,sha256=IS9pc7-acMmPHOYSiO0kN6Yc1BZ-E0OMbVRyeLGmDV0,163
+process_fastq-2.1.2.dist-info/LICENSE,sha256=vngE4KUIaSMoFxln0tLhqlxSpy0HFFCUbc7dBHDnGXk,590
+process_fastq-2.1.2.dist-info/METADATA,sha256=KNwvqXs-1839xb-0csU7sE-TCAW5Qn8M0eOuO1uytZU,806
+process_fastq-2.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+process_fastq-2.1.2.dist-info/entry_points.txt,sha256=Cnvfw9Qg57RJgDMhf00ym1Bnax82Ps84kiYba8BvqOI,58
+process_fastq-2.1.2.dist-info/top_level.txt,sha256=Lla085DvjIaBLq7QmWqZ-VYEmCv_xVw0KRELue2A5BA,14
+process_fastq-2.1.2.dist-info/RECORD,,
