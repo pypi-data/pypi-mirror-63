@@ -1,0 +1,6 @@
+build
+docs
+phenotrex
+requirements
+tests
+travis
