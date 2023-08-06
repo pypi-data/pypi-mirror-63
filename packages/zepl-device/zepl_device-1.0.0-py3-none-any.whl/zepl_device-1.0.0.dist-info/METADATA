@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zepl-device
+Version: 1.0.0
+Summary: Zepl Devices
+Home-page: https://gitlab.com/zepl1/zepl-device
+Author: Leonard Pollak
+Author-email: leonardp@tr-host.de
+License: AGPL-3.0-or-later
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyzmq
+Requires-Dist: websockets
+
+# zepl-device
+
+zepl devices
+
