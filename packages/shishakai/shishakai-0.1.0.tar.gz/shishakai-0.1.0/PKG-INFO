@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: shishakai
+Version: 0.1.0
+Summary: Gather schedules for movie preview events
+Home-page: https://github.com/speg03/shishakai
+License: MIT
+Keywords: web,scraping,movie
+Author: Takahiro Yano
+Author-email: speg03@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: beautifulsoup4 (>=4.8,<5.0)
+Requires-Dist: importlib-metadata (>=1.5.0,<2.0.0); python_version < "3.8"
+Project-URL: Repository, https://github.com/speg03/shishakai
+Description-Content-Type: text/markdown
+
+# shishakai
+
+shishakai is a Python library that gathers schedules for movie preview events. The "shishakai" (試写会) is a movie preview in Japanese.
+
+[![PyPI](https://img.shields.io/pypi/v/shishakai.svg)](https://pypi.org/project/shishakai/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/shishakai.svg)](https://pypi.org/project/shishakai/)
+[![Python Tests](https://github.com/speg03/shishakai/workflows/Python%20Tests/badge.svg)](https://github.com/speg03/shishakai/actions?query=workflow%3A%22Python+Tests%22)
+[![codecov](https://codecov.io/gh/speg03/shishakai/branch/master/graph/badge.svg)](https://codecov.io/gh/speg03/shishakai)
+
