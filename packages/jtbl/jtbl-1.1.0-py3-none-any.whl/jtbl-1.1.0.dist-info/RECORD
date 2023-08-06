@@ -1,0 +1,10 @@
+jtbl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jtbl/cli.py,sha256=R1BrBFsdqDcqNoZvVrnnUqcjpEAHxhPTqzwHniohTVY,6791
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_outputs.py,sha256=fY-Ttz1E2lV0aXmSzWW9Auf9qB8InYpq1HeHX-WR8wM,46480
+jtbl-1.1.0.dist-info/LICENSE,sha256=GkBMl969MsgABXNr02gHjMyPhYyOuvoldrDDkZr7ksQ,1069
+jtbl-1.1.0.dist-info/METADATA,sha256=KIlINtAbCgpCXTzxD0AWBsR7rL05XH4jj8jYIXsXj8E,10035
+jtbl-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jtbl-1.1.0.dist-info/entry_points.txt,sha256=GdxJZjQEwmv9CcVjPz7LzyOzldKs8aomDfZ4fcu4uHQ,40
+jtbl-1.1.0.dist-info/top_level.txt,sha256=pr-Lydw3NwU0hUc_53h2KOROu39tKwHwMXqYUtlasy0,11
+jtbl-1.1.0.dist-info/RECORD,,
