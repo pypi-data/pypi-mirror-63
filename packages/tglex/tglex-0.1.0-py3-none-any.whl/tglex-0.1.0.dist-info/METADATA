@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tglex
+Version: 0.1.0
+Summary: Lexical analysis base for telegram bots
+Home-page: https://github.com/cordalace/tglex
+Author: Azat Kurbanov
+Author-email: cordalace@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Typing :: Typed
+
+# tglex
+
+Lexical analysis base for telegram bots
+
+[![codecov.io status for master branch](https://codecov.io/gh/cordalace/tglex/branch/master/graph/badge.svg)](https://codecov.io/gh/cordalace/tglex)
+
+
