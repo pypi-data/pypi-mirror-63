@@ -1,0 +1,7 @@
+from seeing import parser, monitor_file_modify_every
+
+if __name__ == '__main__':
+    args = parser.parse_args()
+    seconds, filename = float(args.seconds), args.filename
+    print("Press Ctrl+c to exit")
+    monitor_file_modify_every(seconds, filename)
