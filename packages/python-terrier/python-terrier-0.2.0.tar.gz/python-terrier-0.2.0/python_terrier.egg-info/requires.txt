@@ -1,0 +1,5 @@
+pyjnius
+numpy
+pandas
+wget
+pytrec_eval
