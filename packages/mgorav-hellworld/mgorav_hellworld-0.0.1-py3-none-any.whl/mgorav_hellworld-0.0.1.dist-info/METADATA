@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mgorav-hellworld
+Version: 0.0.1
+Summary: Say hello!
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Python Packaging using PyPi
+
+A project to test PyPi using wheel packaging
+
+```
+
+```
+
