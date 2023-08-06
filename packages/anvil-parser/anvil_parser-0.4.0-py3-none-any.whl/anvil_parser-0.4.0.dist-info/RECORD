@@ -1,0 +1,14 @@
+anvil/__init__.py,sha256=MJrDDwvvBukA9K9OSOPi7CC5FfzsbaRxZmtmst9FL_Y,234
+anvil/block.py,sha256=RbUs8nmlPlNKXdrOHdAqKFb-GXjxwU7LJRr1dPilml0,1494
+anvil/chunk.py,sha256=7UsuCJU1N3N42fJmtqd3IPMk1jbVigYfGNyJB5TvPmM,6477
+anvil/empty_chunk.py,sha256=kWZW3bexsmNC20c1O-4wUmWjTFy-PrDrF3l_MJPpZn4,3740
+anvil/empty_region.py,sha256=rPTCN9ibtQg0NR13zH__VkFe7NHqwPJ8UyNF7XJnBPw,6495
+anvil/empty_section.py,sha256=y9EWhLSqRTbbFf5ZZ6bMMgCzkxmoxM9lFxhQHm67Sao,5338
+anvil/errors.py,sha256=aJARNEzOkij4VmVGMgp0BE9E7Vw6yZlGqQKkLGp_gzQ,104
+anvil/raw_section.py,sha256=F-YcePhRbaMaVr-NZCldyJYXWEeIsld7LXZbtU_jCfA,1476
+anvil/region.py,sha256=SlZ4hZpdo7gKKQUR2RHRfMVjnbhhBMmHLLSs02zMiVc,2313
+anvil_parser-0.4.0.dist-info/LICENSE,sha256=w8DVd9240z6BrwPj4H0qiKUqrMq0qEUkgrlJwRhXnZg,1084
+anvil_parser-0.4.0.dist-info/METADATA,sha256=tp4aAAHBpdjXegYyn1bWWB7c1IjsBibHNURpI_fQ7x4,2070
+anvil_parser-0.4.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+anvil_parser-0.4.0.dist-info/top_level.txt,sha256=gycA6f_tks_RgSgpD1RCnCajfy82IfDuPAziVsc5ce4,6
+anvil_parser-0.4.0.dist-info/RECORD,,
