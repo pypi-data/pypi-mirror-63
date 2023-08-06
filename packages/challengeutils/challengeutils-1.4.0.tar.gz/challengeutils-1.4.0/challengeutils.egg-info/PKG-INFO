@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: challengeutils
+Version: 1.4.0
+Summary: Challenge utility functions
+Home-page: https://github.com/Sage-Bionetworks/challengeutils
+Author: Thomas Yu
+Author-email: thomasyu888@gmail.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
