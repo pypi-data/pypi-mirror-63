@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+src/openscm_runner/__init__.py
+src/openscm_runner/_version.py
+src/openscm_runner/utils.py
+src/openscm_runner.egg-info/PKG-INFO
+src/openscm_runner.egg-info/SOURCES.txt
+src/openscm_runner.egg-info/dependency_links.txt
+src/openscm_runner.egg-info/requires.txt
+src/openscm_runner.egg-info/top_level.txt
