@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: awesomedoc
+Version: 0.0.2.alpha
+Summary: Generate simple markdown from python scripts
+Home-page: https://github.com/tomnaumann/pydoc
+Author: Tom Naumann
+Author-email: tom.naumann.95@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: markdown,awesomedoc,documentation
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
