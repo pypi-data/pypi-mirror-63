@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pyrtfolio/Stock.py
+pyrtfolio/StockPortfolio.py
+pyrtfolio/__init__.py
+pyrtfolio.egg-info/PKG-INFO
+pyrtfolio.egg-info/SOURCES.txt
+pyrtfolio.egg-info/dependency_links.txt
+pyrtfolio.egg-info/requires.txt
+pyrtfolio.egg-info/top_level.txt
+tests/__init__.py
+tests/test_stock_portfolio.py
+tests/test_stock_portfolio_errors.py
