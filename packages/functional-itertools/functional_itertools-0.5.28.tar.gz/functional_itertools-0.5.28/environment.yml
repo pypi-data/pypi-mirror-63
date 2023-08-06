@@ -1,0 +1,5 @@
+name: functional_itertools
+
+dependencies:
+  - python=3.6
+  - flit=2.2.*
