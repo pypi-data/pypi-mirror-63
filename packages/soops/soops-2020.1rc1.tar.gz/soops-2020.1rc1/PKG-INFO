@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: soops
+Version: 2020.1rc1
+Summary: Run parametric studies and scoop output files.
+Home-page: http://github.com/rc/soops
+Author: Robert Cimrman
+Author-email: cimrman3@ntc.zcu.cz
+License: BSD
+Description: soops
+        =====
+        
+        soops = scoop output of parametric studies
+        
+        Utilities to run parametric studies in parallel using dask, and to scoop
+        the output files produced by the studies into a pandas dataframe.
+        
+Keywords: run parametric studies,scoop output
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
