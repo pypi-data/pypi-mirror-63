@@ -1,0 +1,6 @@
+include LICENSE
+include MANIFEST.ini
+include README.md
+
+include ifile/default_config.ini
+include ifile/default_supervisord.conf
