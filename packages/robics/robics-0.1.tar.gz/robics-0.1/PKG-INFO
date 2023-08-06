@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: robics
+Version: 0.1
+Summary: Automatic detection of robust parametrizations for LDA and NMF. Compatible with scikit-learn and gensim.
+Home-page: https://github.com/Christoph/robics
+Author: Christoph Kralj
+Author-email: christoph.kralj@gmail.com
+License: MIT
+Download-URL: https://github.com/Christoph/robics/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: nlp,Topic Model,sklearn,gensim,topic-modeling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
