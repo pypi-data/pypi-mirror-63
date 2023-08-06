@@ -1,0 +1,11 @@
+proxpi/__init__.py,sha256=D4-6U9awGImBrVdX9lcvvvq81wh44JTYQCbNg5Z33-Q,77
+proxpi/config.py,sha256=0iTM0AfXLwN063SuAbKeNKJkCfBMlzElUeyLoaZUKAc,438
+proxpi/data.py,sha256=3G_kjEDgHVJ_LPv46T_WUQeHXoVZUdDebiMIxk2dCC8,8340
+proxpi/routes.py,sha256=RlJBuNrW0aUzKMHcodtYkiDD87O16nzHBeBXpLzl2ns,1383
+proxpi/templates/files.html,sha256=uXUosEO7J7BWXAeD6DHWwf5Op3BjdLOI2tEEOuKVXNI,236
+proxpi/templates/packages.html,sha256=IlVVTrbVNcfCsRdfAGA2cU0wPE7YRl9S_69MOv59SSQ,235
+proxpi-0.1.0a0.dist-info/LICENSE,sha256=hGob4YH7NxvkhfqRfgDuwiH2lOb1CdK9cCfGunM3uH4,1072
+proxpi-0.1.0a0.dist-info/METADATA,sha256=_zghKeZGnVer4XGuUycRmTmjDfFEczHffqm62XmoEQA,1231
+proxpi-0.1.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+proxpi-0.1.0a0.dist-info/top_level.txt,sha256=bRurZ1iluVWWi7R9XJufhsK2jROVKMlVm1r_itmSjN8,7
+proxpi-0.1.0a0.dist-info/RECORD,,
