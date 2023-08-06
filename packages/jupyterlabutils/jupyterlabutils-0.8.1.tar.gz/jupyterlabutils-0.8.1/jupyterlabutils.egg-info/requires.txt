@@ -1,0 +1,8 @@
+bokeh>=0.12.15
+kubernetes>=9.0.0
+maproxy
+dask
+distributed
+pyvo>=1.0
+requests>=2.18
+semver
