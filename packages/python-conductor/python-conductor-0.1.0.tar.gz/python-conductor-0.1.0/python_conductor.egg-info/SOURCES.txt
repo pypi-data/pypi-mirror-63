@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+conductor/__init__.py
+conductor/client.py
+conductor/helper.py
+conductor/manager.py
+python_conductor.egg-info/PKG-INFO
+python_conductor.egg-info/SOURCES.txt
+python_conductor.egg-info/dependency_links.txt
+python_conductor.egg-info/requires.txt
+python_conductor.egg-info/top_level.txt
