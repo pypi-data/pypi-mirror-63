@@ -1,0 +1,9 @@
+eloquasdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eloquasdk/bulk.py,sha256=t3LRjuogm9h1N4ReNE6qUqbQkR6CydyCt8EYvSGKQlc,7287
+eloquasdk/login.py,sha256=VZb9c9hWxXHT9ffkiJmaVfIYSJD8w-sLXvD9jwziU-g,1555
+eloquasdk/rest.py,sha256=iB0dsEugYWR-XO9oP_08_mEjZjITv10pPWdkmAvi6HU,2664
+eloquasdk/utils.py,sha256=Jx0GWXnRpORoWw95LQG42lhApULqryWzG2KzsQXd3-E,171
+eloqua_python_sdk-0.3.2.dist-info/METADATA,sha256=NZCbATsFwLV_e4M2Lbc2WeQn8qNb-0Iq2wB7jRRBkxA,299
+eloqua_python_sdk-0.3.2.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+eloqua_python_sdk-0.3.2.dist-info/top_level.txt,sha256=eVLXGT9rUAnC2K7C4ot17Cl_Vy_27Xj7M6jUA7bkky8,10
+eloqua_python_sdk-0.3.2.dist-info/RECORD,,
