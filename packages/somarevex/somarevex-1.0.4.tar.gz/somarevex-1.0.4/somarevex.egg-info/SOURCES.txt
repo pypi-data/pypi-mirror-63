@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+somarevex/__init__.py
+somarevex/somarevex.py
+somarevex.egg-info/PKG-INFO
+somarevex.egg-info/SOURCES.txt
+somarevex.egg-info/dependency_links.txt
+somarevex.egg-info/top_level.txt
