@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: mazesolver
+Version: 1.1.2
+Summary: A shortest-path maze solving algorithm for image-based mazes.
+Home-page: https://github.com/exciteabletom/mazesolver
+Author: Tommy Dougiamas
+Author-email: tom@digitalnook.net
+License: UNKNOWN
+Description: # Maze Solver
+        #### Created by Tommy Dougiamas  
+        
+        This algorithm finds the shortest path through black and white maze images. It outputs an image with the path marked in green.
+        
+        ### Installing
+        To install, simply run `sudo python3 -m pip install mazesolver` on the command line. 
+        
+        You will have to manually install pip and python3.
+        
+        ### What are the rules for maze images?
+        - Walls marked with black pixels and paths marked with white pixels
+        
+        - Walls around the entire maze
+        
+        - One entrance on the top row and one exit on the bottom row
+        
+        *If this is confusing, check out some of the example mazes in the **pics** directory.*
+        
+        ### How do I use it?
+        
+        To use the maze solver create an image which meets the specifications listed above.
+        
+        You can use `mazesolver --help` to get a list of commands.
+        
+        Normal usage will look something like this: `mazesolver -i path/to/input -o /path/to/dir`
+        
+        
+        ### How does the algorithm work?
+        
+        - Start at the entrance and label it zero.
+        
+        - Move to any neighbouring cells and mark them with 1
+        
+        - Move to any of the cells neighbouring the ones marked 1 and label them 2
+        
+        - Continue doing this until all cells are marked
+        
+        - Start from the exit of the maze and move to any neighbouring path that is marked with a number lower than the current number. Until we reach 0 (the entrance)
+        
+        We now have the shortest path from the entrance to the exit!
+        
+        > Licensed under GNU GPLv3
+        
+        
+        
+Keywords: maze algortihm image solve
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
