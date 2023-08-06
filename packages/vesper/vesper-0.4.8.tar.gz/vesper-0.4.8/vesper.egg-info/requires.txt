@@ -1,0 +1,7 @@
+birdvoxdetect
+django
+jsonschema
+pyephem
+resampy
+ruamel_yaml
+scipy
