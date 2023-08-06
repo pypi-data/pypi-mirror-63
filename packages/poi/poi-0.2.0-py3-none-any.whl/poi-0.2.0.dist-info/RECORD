@@ -1,0 +1,13 @@
+poi/__init__.py,sha256=ObWyzApV3io7k9IRsk1ryb_HHolZUaUkMPLGnqI16tc,111
+poi/nodes.py,sha256=zg_wsZRxK4C-1skPo6zdCHlraSXHJyD2LNCn5PQ_zVQ,12450
+poi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poi/sheet.py,sha256=jFjU51gNJpcYDblRSVQfvAagQMk7vg0QQZFvMCOv_28,1378
+poi/utils.py,sha256=ZeAUoTD-LA7yD_5AoI29-EeHuCLDPNi08uvU317KYtQ,367
+poi/visitors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poi/visitors/printer.py,sha256=tnwwrPgyedWH6r31FLpuwybin6uRoL79-xWK60oKajI,827
+poi/visitors/writer.py,sha256=OjlsRkPBJkbv0MCfpaaYjE9aE9oKlOkPSr7STwywcgw,3749
+poi/writer.py,sha256=RO679yLl31h7K2f6mMb5y7rUfNu55gfqil3hf5-_OTk,1630
+poi-0.2.0.dist-info/LICENSE,sha256=KSkH5nfo1KM1B-V2NV0BBJrNEN0JVmsgXkM7Vf520Es,1066
+poi-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+poi-0.2.0.dist-info/METADATA,sha256=ZBmPZTbBCSUsA-5pJPndkZ39D_R1kHKyrPes1jNjA2s,2292
+poi-0.2.0.dist-info/RECORD,,
