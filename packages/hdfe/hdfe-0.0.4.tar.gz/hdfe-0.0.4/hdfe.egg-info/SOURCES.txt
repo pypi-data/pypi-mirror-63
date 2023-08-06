@@ -1,0 +1,11 @@
+README.md
+setup.py
+hdfe/__init__.py
+hdfe/groupby.py
+hdfe/hdfe.py
+hdfe/multicollinearity.py
+hdfe.egg-info/PKG-INFO
+hdfe.egg-info/SOURCES.txt
+hdfe.egg-info/dependency_links.txt
+hdfe.egg-info/requires.txt
+hdfe.egg-info/top_level.txt
