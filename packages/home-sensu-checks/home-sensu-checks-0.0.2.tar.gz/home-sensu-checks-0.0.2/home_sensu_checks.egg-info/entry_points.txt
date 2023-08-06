@@ -1,0 +1,3 @@
+[console_scripts]
+fritz-metrics = home_sensu_checks.fritz:cli
+
