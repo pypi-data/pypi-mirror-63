@@ -1,0 +1,3 @@
+[console_scripts]
+kinglib = kinglib.run:main
+
