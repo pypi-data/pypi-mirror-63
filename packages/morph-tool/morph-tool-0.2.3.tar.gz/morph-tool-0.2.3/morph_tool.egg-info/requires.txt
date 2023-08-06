@@ -1,0 +1,18 @@
+click>=6.7
+morphio>=2.3.4
+numpy>=1.14
+neurom>=1.4.15
+
+[:python_version < "3.0"]
+functools32>=3.2
+
+[all]
+bluepyopt>=1.6
+plotly>=4.1.0
+pandas>=0.24
+bluepy>=0.14
+
+[plotly]
+plotly>=4.1.0
+pandas>=0.24
+bluepy>=0.14

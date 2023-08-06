@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: morph-tool
+Version: 0.2.3
+Summary: A collection of CLIs and python function related to morphology handling
+Home-page: https://github.com/bluebrain/morph-tool
+Author: BlueBrain NSE
+Author-email: bbp-ou-nse@groupes.epfl.ch
+License: BBP-internal-confidential
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Provides-Extra: plotly
+Provides-Extra: all
