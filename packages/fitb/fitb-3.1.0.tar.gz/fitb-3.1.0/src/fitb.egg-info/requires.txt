@@ -1,0 +1,9 @@
+stevedore
+
+[dev]
+bumpversion
+twine
+
+[test]
+hypothesis
+pytest
