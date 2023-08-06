@@ -1,0 +1,50 @@
+Metadata-Version: 1.0
+Name: py2c2p
+Version: 0.0.1
+Summary: A Python library for 2c2p API
+Home-page: https://github.com/sang-sakarin/py2c2p
+Author: sang_sakarin
+Author-email: sang_sakarin@outlook.com
+License: sang_sakarin
+Description: py2c2p
+        ======
+        
+        A Python library for `2c2p <https://developer.2c2p.com/docs>`__ API
+        
+        Table of Contents
+        -----------------
+        
+        -  `Instalation <#instalation>`__
+        -  `Usage Mobile SDK <#usagemobilesdk>`__
+        -  `Creating a PGW Object <#creatingpgw>`__
+        
+        Installation 
+        -------------
+        
+        ::
+        
+            pip install py2c2p
+        
+        Usage Mobile SDK 
+        -----------------
+        
+        A section for `mobile
+        SDK <https://developer.2c2p.com/docs/mobile-v4-how-it-work>`__ (server)
+        
+        ::
+        
+            from py2c2p import PaymentGatewaySDK
+        
+        Creating a PGW Object 
+        ~~~~~~~~~~~~~~~~~~~~~~
+        
+        ::
+        
+            MID = 'YOUR MERCHANT ID'
+            SECRET_KEY = 'YOUR SECRET KEY'
+        
+            # initial object
+            pgw = PaymentGatewaySDK(MID, SECRET_KEY)
+        
+Keywords: 2c2p 2c2p-python 2c2p-python-sdk
+Platform: UNKNOWN
