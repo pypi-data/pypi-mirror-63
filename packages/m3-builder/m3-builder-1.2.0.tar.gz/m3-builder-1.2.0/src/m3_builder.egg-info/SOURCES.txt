@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+src/m3_builder/__init__.py
+src/m3_builder/build.py
+src/m3_builder.egg-info/PKG-INFO
+src/m3_builder.egg-info/SOURCES.txt
+src/m3_builder.egg-info/dependency_links.txt
+src/m3_builder.egg-info/entry_points.txt
+src/m3_builder.egg-info/requires.txt
+src/m3_builder.egg-info/top_level.txt

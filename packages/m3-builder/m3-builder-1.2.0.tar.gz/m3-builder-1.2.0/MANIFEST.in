@@ -1,0 +1,11 @@
+graft src/m3_builder
+exclude fabfile
+exclude tests
+exclude .isort.cfg
+exclude .python-version
+exclude install.sh
+exclude pylint.rc
+exclude release
+exclude tox.ini
+exclude README.rst
+global-exclude *.pyc *pyo

@@ -1,0 +1,3 @@
+[distutils.setup_keywords]
+set_build_info = m3_builder:set_build_info
+
