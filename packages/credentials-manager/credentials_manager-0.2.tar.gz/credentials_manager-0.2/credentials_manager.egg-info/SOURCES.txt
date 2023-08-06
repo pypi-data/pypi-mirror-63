@@ -1,0 +1,12 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.py
+credentials_manager/__init__.py
+credentials_manager/test_creds_manager.py
+credentials_manager.egg-info/PKG-INFO
+credentials_manager.egg-info/SOURCES.txt
+credentials_manager.egg-info/dependency_links.txt
+credentials_manager.egg-info/not-zip-safe
+credentials_manager.egg-info/requires.txt
+credentials_manager.egg-info/top_level.txt
