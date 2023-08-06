@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "airline"
+author = "Jonathan Stott"
+author-email = "jonathan.stott@gmail.com"
+description-file="README.md"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest ~=5.3",
+]
+
