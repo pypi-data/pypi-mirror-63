@@ -1,0 +1,1 @@
+from discordtr import komutlar
