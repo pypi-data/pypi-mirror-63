@@ -1,0 +1,15 @@
+README.rst
+setup.py
+fbc_curation/__init__.py
+fbc_curation/_version.py
+fbc_curation/examples.py
+fbc_curation/fbc_files.py
+fbc_curation.egg-info/PKG-INFO
+fbc_curation.egg-info/SOURCES.txt
+fbc_curation.egg-info/dependency_links.txt
+fbc_curation.egg-info/entry_points.txt
+fbc_curation.egg-info/not-zip-safe
+fbc_curation.egg-info/requires.txt
+fbc_curation.egg-info/top_level.txt
+fbc_curation/tests/__init__.py
+fbc_curation/tests/test_fbc_curation.py
