@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: auto_basic_server
+Version: 0.0.1
+Summary: basic server functions
+Home-page: UNKNOWN
+Author: Liang Yanpeng
+Author-email: liangyanpeng@qianxin.com
+License: MIT
+Description: Functions that are appropriate for each project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
