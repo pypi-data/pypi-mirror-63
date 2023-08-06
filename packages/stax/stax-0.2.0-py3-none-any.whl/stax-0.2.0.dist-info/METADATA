@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stax
+Version: 0.2.0
+Summary: Stax is a Python tool to manage every aspect of Cloudformation Stacks
+Home-page: https://github.com/acaire/stax
+Author: Ash Caire
+Author-email: ash.caire@gmail.com
+License: MIT
+Keywords: stack,stacks,aws,cloudformation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: GitPython
+Requires-Dist: PyYAML
+Requires-Dist: boto3
+Requires-Dist: click
+
+UNKNOWN
+
+
