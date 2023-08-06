@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mild
+Version: 0.5
+Summary: Tiny build system in Python3
+Home-page: https://github.com/nergzd723/mild
+Author: Mark Hargreaves
+Author-email: clashclanacc2602@gmail.com
+License: GPLv3
+Download-URL: https://github.com/nergzd723/mild/archive/v_05.tar.gz
+Description: UNKNOWN
+Keywords: build,build-system,util
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
