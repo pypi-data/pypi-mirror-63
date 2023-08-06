@@ -1,0 +1,10 @@
+{% load qnc_crud %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Permission Denied</title>
+</head>
+<body>
+    You do not have the required permissions to view this page. If you have another user account, you may want to <button type="button" onclick="window.open({{''|qnc_login_url|qnc_json}})">log in as a different user</button>.
+</body>
+</html>
