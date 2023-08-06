@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: parking-app
+Version: 0.0.5
+Summary: Parking desktop app
+Home-page: https://gitlab.com/optima_iot/parking_desktop_app
+Author: Richard Holly
+Author-email: rho@optimaideas.com
+License: UNKNOWN
+Platform: Any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Requires-Dist: PyQt5
+Requires-Dist: imutils
+Requires-Dist: pyqtgraph
+Requires-Dist: opencv-python
+Requires-Dist: requests
+Requires-Dist: micropipes-cli (==0.6)
+Requires-Dist: qdarkgraystyle
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+
+# Parking management app
+requires 
+- python >= 3.6 installed on desktop
+- pip  
+
+**Install or upgrade**
+
+`pip install parking-app --upgrade`
+
+**Authenticate**
+
+Before first run, you must authenticate.
+From command line
+
+`mpipes auth authenticate --micropipes_url https://devel3.parking.oid.digital --set_default`
+
+and follow instructions. 
+You can issue this command multiple times if you wish to work with multiple users 
+(type different user credentials in web browser). 
+With this feature you can then work/switch multiple authentications in parking-app.
+
+**Run**
+
+`parking-app`
+
+**Run with debug informations**
+
+`parking-app-debug`
+

@@ -1,0 +1,6 @@
+[console_scripts]
+parking-app-debug = app.gui:main
+
+[gui_scripts]
+parking-app = app.gui:main
+
