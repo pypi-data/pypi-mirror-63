@@ -1,0 +1,14 @@
+README.md
+setup.py
+automata_tools.egg-info/PKG-INFO
+automata_tools.egg-info/SOURCES.txt
+automata_tools.egg-info/dependency_links.txt
+automata_tools.egg-info/requires.txt
+automata_tools.egg-info/top_level.txt
+src/automata_tools/Automata.py
+src/automata_tools/BuildAutomata.py
+src/automata_tools/DFAFromNFA.py
+src/automata_tools/WFA.py
+src/automata_tools/__init__.py
+src/automata_tools/constants.py
+src/automata_tools/utils.py
