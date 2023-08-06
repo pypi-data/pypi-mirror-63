@@ -1,0 +1,10 @@
+README.md
+setup.py
+rsgt/__init__.py
+rsgt/augmentation.py
+rsgt/normalization.py
+rsgt.egg-info/PKG-INFO
+rsgt.egg-info/SOURCES.txt
+rsgt.egg-info/dependency_links.txt
+rsgt.egg-info/requires.txt
+rsgt.egg-info/top_level.txt
