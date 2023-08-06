@@ -1,0 +1,13 @@
+README.md
+setup.py
+write_composition.py
+wc_data/bullshit_achievement.json
+wc_data/bullshit_job.json
+wc_data/bullshit_place.json
+wc_data/bullshit_school.json
+wc_data/data.json
+wc_data/data_mingyan.json
+write_composition.egg-info/PKG-INFO
+write_composition.egg-info/SOURCES.txt
+write_composition.egg-info/dependency_links.txt
+write_composition.egg-info/top_level.txt
