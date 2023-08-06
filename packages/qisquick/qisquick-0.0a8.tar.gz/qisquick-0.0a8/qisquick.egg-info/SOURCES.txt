@@ -1,0 +1,17 @@
+README.md
+qisquick_documentation.pdf
+setup.cfg
+setup.py
+qisquick/__init__.py
+qisquick/circuits.py
+qisquick/dbconfig.py
+qisquick/qis_logger.py
+qisquick/run_experiment.py
+qisquick/statblock.py
+qisquick/tools.py
+qisquick/transpilertools.py
+qisquick.egg-info/PKG-INFO
+qisquick.egg-info/SOURCES.txt
+qisquick.egg-info/dependency_links.txt
+qisquick.egg-info/requires.txt
+qisquick.egg-info/top_level.txt
