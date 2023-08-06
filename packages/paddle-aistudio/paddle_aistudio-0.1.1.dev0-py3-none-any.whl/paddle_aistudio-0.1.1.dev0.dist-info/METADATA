@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: paddle-aistudio
+Version: 0.1.1.dev0
+Summary: UNKNOWN
+Home-page: https://aistudio.baidu.com/
+Author: AI-STUDIO
+Author-email: aistudio@baidu.com
+License: BSD
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Requires-Dist: notebook (>=6.0.0)
+Requires-Dist: paddlepaddle (>=1.7.0)
+
+UNKNOWN
+
+
