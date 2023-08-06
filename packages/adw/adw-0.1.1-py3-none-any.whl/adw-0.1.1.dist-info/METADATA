@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: adw
+Version: 0.1.1
+Summary: appdirs wrapper library
+Home-page: https://gitlab.com/mgemmill-pypi/adw
+License: BSD-4-Clause
+Keywords: adw,appdirs
+Author: Mark Gemmill
+Author-email: gitlab@markgemmill.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: appdirs (>=1.4.3,<2.0.0)
+Project-URL: Repository, https://gitlab.com/mgemmill-pypi/adw
