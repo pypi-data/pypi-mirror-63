@@ -1,0 +1,9 @@
+click>=7.0
+numpy>=1.18.0
+pandas>=1.0.1
+
+[plot each step]
+matplotlib>=3.1.3
+
+[write video]
+ffmpeg
