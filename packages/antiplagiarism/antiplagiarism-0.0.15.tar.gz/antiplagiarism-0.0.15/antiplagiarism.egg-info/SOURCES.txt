@@ -1,0 +1,10 @@
+README.md
+setup.py
+antiplagiarism/__init__.py
+antiplagiarism/main.py
+antiplagiarism/util.py
+antiplagiarism.egg-info/PKG-INFO
+antiplagiarism.egg-info/SOURCES.txt
+antiplagiarism.egg-info/dependency_links.txt
+antiplagiarism.egg-info/requires.txt
+antiplagiarism.egg-info/top_level.txt
