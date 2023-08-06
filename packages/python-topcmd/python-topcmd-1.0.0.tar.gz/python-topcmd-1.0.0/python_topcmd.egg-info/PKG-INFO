@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-topcmd
+Version: 1.0.0
+Summary: A python package to do TOPSIS analysis.
+Home-page: UNKNOWN
+Author: Sahil Ahuja
+Author-email: sahil27ahuja1999@gmail.com
+License: MIT
+Description: ### Installation
+        The module, topis requires pandas, math and sys modules to function
+        This module is used to print the score and rank after using TOPSIS (Technique for Order Preference based on Similarity to Ideal Solution)
+        
+        Usages: python topsis.py <InputDataFile> <Weights> <Impacts>
+        	
+        ```sh
+        $ pip install python-topcmd
+        $ python topsis.py myData.csv “1,2,1,1” “+,+,-+”
+        ```
+        ### License
+        MIT
+        ### Author
+        Sahil Ahuja
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
