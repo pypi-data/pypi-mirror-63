@@ -1,0 +1,14 @@
+chibi_gob_mx/__init__.py,sha256=pdsx_tTBuRKMlD8alCM-00uMBAj0zKC_sIPsUOp5eaw,177
+chibi_gob_mx/chibi_gob_mx.py,sha256=zu1j1BHDk-NtlqdRLhr4Ip_kyL9CZbuBlmPOnkibf8I,198
+chibi_gob_mx/cli.py,sha256=w0ECmm8WgY4NIqyJ9Sa5WyK0GaWFSCanZ-GT5oQXTzw,476
+chibi_gob_mx/profeco.py,sha256=X3TBW6wpMTLC22Jghtp3mFRF4IC74J5Lxu_j83N3i84,107
+chibi_gob_mx/response.py,sha256=wkomopPnEd6Lbv94OchF6el9-KfQ3B7iG7fCIgPsBZA,1600
+chibi_gob_mx/serializers.py,sha256=OWUlbw3eOxk4F0fKV6-tTYtP0WiCcgxtreEbMoafLE8,582
+chibi_gob_mx/service.py,sha256=yw3aPkM5n9SdA9D10kglvQWtWQEcw2LaHfksYMz0U0s,115
+chibi_gob_mx-0.0.1.dist-info/AUTHORS.rst,sha256=ayKBnZKv2fuJWauTmcNKFh97UZYpkxHLnYg0NnFUo-k,150
+chibi_gob_mx-0.0.1.dist-info/LICENSE,sha256=px0Ky8O_tlFppUjHs5r9G4-0nuCDLg-UVqji-_lXrtI,470
+chibi_gob_mx-0.0.1.dist-info/METADATA,sha256=oZwCO3g4Eb_7e4v3txEkQXOeIHSBIrm9M_Yt6wZO7VU,1596
+chibi_gob_mx-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+chibi_gob_mx-0.0.1.dist-info/entry_points.txt,sha256=oR3YZc_FaO-gcnPY1kVL3TGyJJfCiXRohYuz3vmEGHA,56
+chibi_gob_mx-0.0.1.dist-info/top_level.txt,sha256=HakBHrFSj5p6M7lnibvYjeqoE9aRJFbtZPk8OEU5heI,13
+chibi_gob_mx-0.0.1.dist-info/RECORD,,
