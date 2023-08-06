@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gyp-next
+Version: 0.1
+Summary: A fork of the GYP build system for use in the Node.js projects
+Home-page: https://github.com/nodejs/gyp-next
+Author: Ujjwal Sharma
+Author-email: ryzokuken@disroot.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
