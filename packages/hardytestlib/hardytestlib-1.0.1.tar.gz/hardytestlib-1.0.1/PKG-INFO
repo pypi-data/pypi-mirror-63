@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: hardytestlib
+Version: 1.0.1
+Summary: this is a very niubi lib
+Home-page: https://github.com/hardy9sap
+Author: hardy9sap
+Author-email: hardy9sap@163.com
+License: MIT
+Description: # 标题1
+        
+        
+        ## 标题2
+        
+        
+        ### 标题3
+        
+        
+        ```
+        很牛逼的库
+        ```
+        
+Platform: UNKNOWN
