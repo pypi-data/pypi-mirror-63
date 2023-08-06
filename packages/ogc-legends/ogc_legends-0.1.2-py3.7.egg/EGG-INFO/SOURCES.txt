@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+ogc_legends.py
+setup.cfg
+setup.py
+ogc_legends.egg-info/PKG-INFO
+ogc_legends.egg-info/SOURCES.txt
+ogc_legends.egg-info/dependency_links.txt
+ogc_legends.egg-info/not-zip-safe
+ogc_legends.egg-info/requires.txt
+ogc_legends.egg-info/top_level.txt
+tests/test_legends.py
