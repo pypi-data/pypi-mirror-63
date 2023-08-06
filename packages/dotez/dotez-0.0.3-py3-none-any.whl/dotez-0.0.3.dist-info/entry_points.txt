@@ -1,0 +1,3 @@
+[console_scripts]
+dotez = dotez.cli:main
+
