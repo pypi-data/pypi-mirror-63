@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cloud_functions_dispatch/__init__.py
+cloud_functions_dispatch/f.py
+cloud_functions_dispatch.egg-info/PKG-INFO
+cloud_functions_dispatch.egg-info/SOURCES.txt
+cloud_functions_dispatch.egg-info/dependency_links.txt
+cloud_functions_dispatch.egg-info/requires.txt
+cloud_functions_dispatch.egg-info/top_level.txt
+docs/.gitkeep
