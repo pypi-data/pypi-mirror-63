@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: canvs-toolbox-canvsUser
+Version: 0.0.9
+Summary: A package for custom canvs analytics
+Home-page: https://github.com/dbproductionsLTD/canvs_tools
+Author: Janet Huang
+Author-email: janet.huang@canvs.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==3.1.1)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (==1.5.0)
+Requires-Dist: keyring (==21.1.1)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: tqdm (==4.43.0)
+Requires-Dist: twine (==3.1.1)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.1.0)
+
+# Canvs Toolbox Package
+
+### Import Statement
+from canvs_toolbox import explore as ex
+
+### Date Formatting
+"MM/DD/YYYY" 
+
+## Canvs TV Tools
+- ex.tv_twitter_daily(api_key, data_mode, start_date, end_date)
+- ex.tv_airings_backfill(api_key, data_mode, start_date, end_date)
+- ex.tv_facebook_backfill(api_key, data_mode, start_date, end_date)
+
+## Canvs Watch Tools
+- ex.watch_post_backfill(api_key, data_mode, start_date, end_date)
+- ex.watch_series_backfill(api_key, data_mode, start_date, end_date)
+
+
+
+
