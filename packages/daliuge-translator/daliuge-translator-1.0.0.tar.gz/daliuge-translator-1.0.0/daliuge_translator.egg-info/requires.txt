@@ -1,0 +1,13 @@
+bottle
+daliuge-common==1.0.0
+metis>=0.2a3
+numpy
+psutil
+pyswarm
+six>=1.10
+
+[:python_version < "3.6"]
+networkx<2.4
+
+[:python_version >= "3.6.0"]
+networkx<2.4,>=2.0
