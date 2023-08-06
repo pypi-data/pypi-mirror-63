@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_gts_phd.egg-info/PKG-INFO
+aliyun_python_sdk_gts_phd.egg-info/SOURCES.txt
+aliyun_python_sdk_gts_phd.egg-info/dependency_links.txt
+aliyun_python_sdk_gts_phd.egg-info/requires.txt
+aliyun_python_sdk_gts_phd.egg-info/top_level.txt
+aliyunsdkgts_phd/__init__.py
+aliyunsdkgts_phd/request/__init__.py
+aliyunsdkgts_phd/request/v20200228/ConfirmApiMsgRequest.py
+aliyunsdkgts_phd/request/v20200228/ListApiMsgRecordsRequest.py
+aliyunsdkgts_phd/request/v20200228/__init__.py
