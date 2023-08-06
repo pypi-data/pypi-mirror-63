@@ -1,0 +1,10 @@
+pytest>=3.50
+
+[:python_version < "3.0"]
+more_itertools<6,>=5
+
+[:python_version >= "3.0"]
+more_itertools>=6
+
+[test]
+pytest-html
