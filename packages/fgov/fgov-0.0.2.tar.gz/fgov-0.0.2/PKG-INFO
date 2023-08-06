@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: fgov
+Version: 0.0.2
+Summary: fgov is a cryptography library supporting several ciphers.
+Home-page: https://github.com/vsp0/fgov
+Author: vsp
+Author-email: veryseriousprogrammer@gmail.com
+License: MIT
+Download-URL: https://github.com/vsp0/fgov/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: cryptography,math,ciphers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
