@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+aclcliextension/__init__.py
+aclcliextension/cli.py
+aclcliextension/dice.py
+aclcliextension.egg-info/PKG-INFO
+aclcliextension.egg-info/SOURCES.txt
+aclcliextension.egg-info/dependency_links.txt
+aclcliextension.egg-info/entry_points.txt
+aclcliextension.egg-info/not-zip-safe
+aclcliextension.egg-info/top_level.txt
