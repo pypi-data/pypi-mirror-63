@@ -1,0 +1,3 @@
+[console_scripts]
+mk_pyproject = mk_pyproject.__main__:main
+
