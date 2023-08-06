@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: telestream-cloud-flip
+Version: 2.1.0
+Summary: Flip API
+Home-page: https://github.com/telestream/telestream-cloud-python-sdk
+Author: Telestream, LLC.
+Author-email: cloudsupport@telestream.net
+License: Apache 2.0
+Keywords: Telestream
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+Flip  # noqa: E501
+
+
