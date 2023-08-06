@@ -1,0 +1,2 @@
+include artellapipe/tools/shadersmanager/__logging__.ini
+recursive-include artellapipe/tools/shadersmanager/resources/* *.*
