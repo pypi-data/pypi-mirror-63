@@ -1,0 +1,12 @@
+include HISTORY.md
+include LICENSE
+include README.md
+
+include htrest/logging.conf
+
+recursive-include tests *
+
+global-exclude __pycache__
+global-exclude .coverage
+global-exclude *.py[co]
+global-exclude .git*
