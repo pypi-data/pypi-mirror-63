@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: private-pypi-github
+Version: 0.1.1a4
+Summary: 
+Home-page: https://github.com/private-pypi/private-pypi-github
+License: MIT
+Keywords: private,pypi,github,packaging,dependency
+Author: huntzhan
+Author-email: huntzhan.dev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyGithub (>=1.46,<2.0)
+Requires-Dist: private-pypi-core (==0.1.3a4)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Project-URL: Repository, https://github.com/private-pypi/private-pypi-github
+Description-Content-Type: text/markdown
+
+# todo
