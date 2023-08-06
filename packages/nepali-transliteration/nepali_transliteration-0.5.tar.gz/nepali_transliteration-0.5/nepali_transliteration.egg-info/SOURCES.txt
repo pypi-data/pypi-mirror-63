@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+nepali_transliteration/__init__.py
+nepali_transliteration/transliteration.py
+nepali_transliteration.egg-info/PKG-INFO
+nepali_transliteration.egg-info/SOURCES.txt
+nepali_transliteration.egg-info/dependency_links.txt
+nepali_transliteration.egg-info/top_level.txt
