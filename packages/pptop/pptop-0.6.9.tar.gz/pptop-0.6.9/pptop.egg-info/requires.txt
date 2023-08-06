@@ -1,0 +1,11 @@
+wheel
+unipath
+psutil
+rapidtables
+neotasker>=0.0.8
+jsonpickle
+pyyaml
+yappi
+neotermcolor
+pygments
+pyaltt2>=0.0.10
