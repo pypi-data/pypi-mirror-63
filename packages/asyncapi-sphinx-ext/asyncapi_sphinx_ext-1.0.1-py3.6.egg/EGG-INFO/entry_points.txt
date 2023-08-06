@@ -1,0 +1,3 @@
+[sphinx.builders]
+asynapi = asyncapi_sphinx_ext
+

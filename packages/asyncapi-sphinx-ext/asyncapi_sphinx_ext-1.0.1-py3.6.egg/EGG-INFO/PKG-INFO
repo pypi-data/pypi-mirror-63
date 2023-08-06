@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: asyncapi-sphinx-ext
+Version: 1.0.1
+Summary: Sphinx extension for Pub/Sub Documentation
+Home-page: http://github.com/mortbauer/asyncapi-sphinx-ext
+Author: Martin Ortbauer
+Author-email: mortbauer@gmail.com
+License: MIT
+Description: Sphinx Extension for Pub/Sub Documentation
+        ##########################################
+        
+        To add documentation about pub/subs in your application.
+        
+        You can use asyncapi_ specifications in your source code doc string or in your
+        documentation to generate a beautiful documentation plus overview. Further the
+        specification might be used for other things as well (not supported yet).
+        
+        .. warning:: 
+        
+            Not every field of the asyncapi_ specification is supported yet, pull
+            requests are welcome though.
+        
+        .. _asyncapi: https://www.asyncapi.com/docs/specifications/2.0.0/
+        
+Platform: UNKNOWN
