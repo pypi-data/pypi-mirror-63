@@ -1,0 +1,52 @@
+python3-gpiodcxx (0.5.1) UNRELEASED; urgency=medium
+
+  * Rename package from gpiod to gpiodcxx
+  * Move xxx class into xxx_wrapper.h
+  * Add blink test module
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Fri, 20 Mar 2020 00:58:05 +0900
+
+python3-gpiod (0.5.0) unstable; urgency=medium
+
+  * Add pybind11/chrono.h for std::chrono
+  * Prevent installation if libgpiodcxx v1.0 or lower
+  * Add xxx_lines into chip class
+  * Add operators
+  * Add MAX_LINES attribute
+  * Fix issue where 'setup.py sdist' is not executed
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Sat, 14 Mar 2020 02:37:13 +0900
+
+python3-gpiod (0.4.1) unstable; urgency=medium
+
+  * Fix issue where pip does not install dependencies
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Thu, 12 Mar 2020 19:11:24 +0900
+
+python3-gpiod (0.4.0) unstable; urgency=medium
+
+  * Add libgpiodcxx version check
+  * Remove -std=c++11 option
+  * Add line_bulk, chip_iter, line_iter classes
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Thu, 12 Mar 2020 14:18:16 +0900
+
+python3-gpiod (0.3.0) unstable; urgency=medium
+
+  * Add open, reset function
+  * Add LICENSE
+  * Create README.md
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Wed, 11 Mar 2020 18:58:14 +0900
+
+python3-gpiod (0.2.0) unstable; urgency=medium
+
+  * Add chip, line_request, line, line_event class
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Wed, 11 Mar 2020 13:28:45 +0900
+
+python3-gpiod (0.1.0) unstable; urgency=medium
+
+  * Add initial setup files
+
+ -- Hyeonki Hong <hhk7734@gmail.com>  Tue, 10 Mar 2020 15:40:13 +0900
