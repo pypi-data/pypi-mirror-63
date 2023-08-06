@@ -1,0 +1,6631 @@
+PVT_metadata_results:
+  created_by:
+  - photovoltaic_thermal
+  file_path: outputs/data/potentials/solar/B001_PVT_sensors.csv
+  file_type: csv
+  schema:
+    columns:
+      AREA_m2:
+        type: float
+      BUILDING:
+        type: string
+      B_deg:
+        type: float
+      CATB:
+        type: int
+      CATGB:
+        type: int
+      CATteta_z:
+        type: int
+      SURFACE:
+        type: string
+      TYPE:
+        type: string
+      Xcoor:
+        type: float
+      Xdir:
+        type: float
+      Ycoor:
+        type: float
+      Ydir:
+        type: float
+      Zcoor:
+        type: float
+      Zdir:
+        type: float
+      area_installed_module_m2:
+        type: float
+      array_spacing_m:
+        type: float
+      intersection:
+        type: int
+      orientation:
+        type: string
+      surface:
+        type: string
+      surface_azimuth_deg:
+        type: float
+      tilt_deg:
+        type: float
+      total_rad_Whm2:
+        type: int
+      type_orientation:
+        type: string
+  used_by: []
+PVT_results:
+  created_by:
+  - photovoltaic_thermal
+  file_path: outputs/data/potentials/solar/B001_PVT.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PVT_m2:
+        type: float
+      Date:
+        type: date
+      E_PVT_gen_kWh:
+        type: float
+      Eaux_PVT_kWh:
+        type: float
+      PVT_roofs_top_E_kWh:
+        type: float
+      PVT_roofs_top_Q_kWh:
+        type: float
+      PVT_roofs_top_m2:
+        type: float
+      PVT_walls_east_E_kWh:
+        type: float
+      PVT_walls_east_Q_kWh:
+        type: float
+      PVT_walls_east_m2:
+        type: float
+      PVT_walls_north_E_kWh:
+        type: float
+      PVT_walls_north_Q_kWh:
+        type: float
+      PVT_walls_north_m2:
+        type: float
+      PVT_walls_south_E_kWh:
+        type: float
+      PVT_walls_south_Q_kWh:
+        type: float
+      PVT_walls_south_m2:
+        type: float
+      PVT_walls_west_E_kWh:
+        type: float
+      PVT_walls_west_Q_kWh:
+        type: float
+      PVT_walls_west_m2:
+        type: float
+      Q_PVT_gen_kWh:
+        type: float
+      Q_PVT_l_kWh:
+        type: float
+      T_PVT_re_C:
+        type: float
+      T_PVT_sup_C:
+        type: float
+      mcp_PVT_kWperC:
+        type: float
+      radiation_kWh:
+        type: float
+  used_by: []
+PVT_total_buildings:
+  created_by:
+  - photovoltaic_thermal
+  file_path: outputs/data/potentials/solar/PVT_total_buildings.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PVT_m2:
+        type: float
+      E_PVT_gen_kWh:
+        type: float
+      Eaux_PVT_kWh:
+        type: float
+      Name:
+        type: string
+      PVT_roofs_top_E_kWh:
+        type: float
+      PVT_roofs_top_Q_kWh:
+        type: float
+      PVT_roofs_top_m2:
+        type: float
+      PVT_walls_east_E_kWh:
+        type: float
+      PVT_walls_east_Q_kWh:
+        type: float
+      PVT_walls_east_m2:
+        type: float
+      PVT_walls_north_E_kWh:
+        type: float
+      PVT_walls_north_Q_kWh:
+        type: float
+      PVT_walls_north_m2:
+        type: float
+      PVT_walls_south_E_kWh:
+        type: float
+      PVT_walls_south_Q_kWh:
+        type: float
+      PVT_walls_south_m2:
+        type: float
+      PVT_walls_west_E_kWh:
+        type: float
+      PVT_walls_west_Q_kWh:
+        type: float
+      PVT_walls_west_m2:
+        type: float
+      Q_PVT_gen_kWh:
+        type: float
+      Q_PVT_l_kWh:
+        type: float
+      radiation_kWh:
+        type: float
+  used_by: []
+PVT_totals:
+  created_by:
+  - photovoltaic_thermal
+  file_path: outputs/data/potentials/solar/PVT_total.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PVT_m2:
+        type: float
+      Date:
+        type: date
+      E_PVT_gen_kWh:
+        type: float
+      Eaux_PVT_kWh:
+        type: float
+      PVT_roofs_top_E_kWh:
+        type: float
+      PVT_roofs_top_Q_kWh:
+        type: float
+      PVT_roofs_top_m2:
+        type: float
+      PVT_walls_east_E_kWh:
+        type: float
+      PVT_walls_east_Q_kWh:
+        type: float
+      PVT_walls_east_m2:
+        type: float
+      PVT_walls_north_E_kWh:
+        type: float
+      PVT_walls_north_Q_kWh:
+        type: float
+      PVT_walls_north_m2:
+        type: float
+      PVT_walls_south_E_kWh:
+        type: float
+      PVT_walls_south_Q_kWh:
+        type: float
+      PVT_walls_south_m2:
+        type: float
+      PVT_walls_west_E_kWh:
+        type: float
+      PVT_walls_west_Q_kWh:
+        type: float
+      PVT_walls_west_m2:
+        type: float
+      Q_PVT_gen_kWh:
+        type: float
+      Q_PVT_l_kWh:
+        type: float
+      T_PVT_re_C:
+        type: float
+      T_PVT_sup_C:
+        type: float
+      mcp_PVT_kWperC:
+        type: float
+      radiation_kWh:
+        type: float
+  used_by:
+  - optimization
+PV_metadata_results:
+  created_by:
+  - photovoltaic
+  file_path: outputs/data/potentials/solar/B001_PV_sensors.csv
+  file_type: csv
+  schema:
+    columns:
+      AREA_m2:
+        type: float
+      BUILDING:
+        type: string
+      B_deg:
+        type: float
+      CATB:
+        type: int
+      CATGB:
+        type: int
+      CATteta_z:
+        type: int
+      SURFACE:
+        type: string
+      TYPE:
+        type: string
+      Xcoor:
+        type: float
+      Xdir:
+        type: float
+      Ycoor:
+        type: float
+      Ydir:
+        type: float
+      Zcoor:
+        type: float
+      Zdir:
+        type: float
+      area_installed_module_m2:
+        type: float
+      array_spacing_m:
+        type: float
+      intersection:
+        type: int
+      orientation:
+        type: string
+      surface:
+        type: string
+      surface_azimuth_deg:
+        type: float
+      tilt_deg:
+        type: float
+      total_rad_Whm2:
+        type: int
+      type_orientation:
+        type: string
+  used_by: []
+PV_results:
+  created_by:
+  - photovoltaic
+  file_path: outputs/data/potentials/solar/B001_PV.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PV_m2:
+        type: float
+      Date:
+        type: date
+      E_PV_gen_kWh:
+        type: float
+      PV_roofs_top_E_kWh:
+        type: float
+      PV_roofs_top_m2:
+        type: float
+      PV_walls_east_E_kWh:
+        type: int
+      PV_walls_east_m2:
+        type: int
+      PV_walls_north_E_kWh:
+        type: int
+      PV_walls_north_m2:
+        type: int
+      PV_walls_south_E_kWh:
+        type: float
+      PV_walls_south_m2:
+        type: float
+      PV_walls_west_E_kWh:
+        type: int
+      PV_walls_west_m2:
+        type: int
+      radiation_kWh:
+        type: float
+  used_by: []
+PV_total_buildings:
+  created_by:
+  - photovoltaic
+  file_path: outputs/data/potentials/solar/PV_total_buildings.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PV_m2:
+        type: float
+      E_PV_gen_kWh:
+        type: float
+      PV_roofs_top_E_kWh:
+        type: float
+      PV_roofs_top_m2:
+        type: float
+      PV_walls_east_E_kWh:
+        type: float
+      PV_walls_east_m2:
+        type: float
+      PV_walls_north_E_kWh:
+        type: float
+      PV_walls_north_m2:
+        type: float
+      PV_walls_south_E_kWh:
+        type: float
+      PV_walls_south_m2:
+        type: float
+      PV_walls_west_E_kWh:
+        type: float
+      PV_walls_west_m2:
+        type: float
+      'Unnamed: 0':
+        type: string
+      radiation_kWh:
+        type: float
+  used_by: []
+PV_totals:
+  created_by:
+  - photovoltaic
+  file_path: outputs/data/potentials/solar/PV_total.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_PV_m2:
+        type: float
+      Date:
+        type: date
+      E_PV_gen_kWh:
+        type: float
+      PV_roofs_top_E_kWh:
+        type: float
+      PV_roofs_top_m2:
+        type: float
+      PV_walls_east_E_kWh:
+        type: int
+      PV_walls_east_m2:
+        type: int
+      PV_walls_north_E_kWh:
+        type: int
+      PV_walls_north_m2:
+        type: int
+      PV_walls_south_E_kWh:
+        type: float
+      PV_walls_south_m2:
+        type: float
+      PV_walls_west_E_kWh:
+        type: int
+      PV_walls_west_m2:
+        type: int
+      radiation_kWh:
+        type: float
+  used_by:
+  - optimization
+SC_metadata_results:
+  created_by:
+  - solar_collector
+  file_path: outputs/data/potentials/solar/B001_SC_ET_sensors.csv
+  file_type: csv
+  schema:
+    columns:
+      AREA_m2:
+        type: float
+      BUILDING:
+        type: string
+      B_deg:
+        type: float
+      CATB:
+        type: int
+      CATGB:
+        type: int
+      CATteta_z:
+        type: int
+      SURFACE:
+        type: string
+      TYPE:
+        type: string
+      Xcoor:
+        type: float
+      Xdir:
+        type: float
+      Ycoor:
+        type: float
+      Ydir:
+        type: float
+      Zcoor:
+        type: float
+      Zdir:
+        type: float
+      area_installed_module_m2:
+        type: float
+      array_spacing_m:
+        type: float
+      intersection:
+        type: int
+      orientation:
+        type: string
+      surface:
+        type: string
+      surface_azimuth_deg:
+        type: float
+      tilt_deg:
+        type: float
+      total_rad_Whm2:
+        type: int
+      type_orientation:
+        type: string
+  used_by: []
+SC_results:
+  created_by:
+  - solar_collector
+  file_path: outputs/data/potentials/solar/B001_SC_ET.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_SC_m2:
+        type: float
+      Date:
+        type: date
+      Eaux_SC_kWh:
+        type: float
+      Q_SC_gen_kWh:
+        type: float
+      Q_SC_l_kWh:
+        type: float
+      SC_ET_roofs_top_Q_kWh:
+        type: float
+      SC_ET_roofs_top_m2:
+        type: float
+      SC_ET_walls_east_Q_kWh:
+        type: int
+      SC_ET_walls_east_m2:
+        type: int
+      SC_ET_walls_north_Q_kWh:
+        type: int
+      SC_ET_walls_north_m2:
+        type: int
+      SC_ET_walls_south_Q_kWh:
+        type: float
+      SC_ET_walls_south_m2:
+        type: float
+      SC_ET_walls_west_Q_kWh:
+        type: int
+      SC_ET_walls_west_m2:
+        type: int
+      T_SC_re_C:
+        type: float
+      T_SC_sup_C:
+        type: float
+      mcp_SC_kWperC:
+        type: float
+      radiation_kWh:
+        type: float
+  used_by:
+  - decentralized
+SC_total_buildings:
+  created_by:
+  - solar_collector
+  file_path: outputs/data/potentials/solar/SC_ET_total_buildings.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_SC_m2:
+        type: float
+      Eaux_SC_kWh:
+        type: float
+      Q_SC_gen_kWh:
+        type: float
+      Q_SC_l_kWh:
+        type: float
+      SC_ET_roofs_top_Q_kWh:
+        type: float
+      SC_ET_roofs_top_m2:
+        type: float
+      SC_ET_walls_east_Q_kWh:
+        type: float
+      SC_ET_walls_east_m2:
+        type: float
+      SC_ET_walls_north_Q_kWh:
+        type: float
+      SC_ET_walls_north_m2:
+        type: float
+      SC_ET_walls_south_Q_kWh:
+        type: float
+      SC_ET_walls_south_m2:
+        type: float
+      SC_ET_walls_west_Q_kWh:
+        type: float
+      SC_ET_walls_west_m2:
+        type: float
+      'Unnamed: 0':
+        type: string
+      radiation_kWh:
+        type: float
+  used_by: []
+SC_totals:
+  created_by:
+  - solar_collector
+  file_path: outputs/data/potentials/solar/SC_FP_total.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_SC_m2:
+        type: float
+      Date:
+        type: date
+      Eaux_SC_kWh:
+        type: float
+      Q_SC_gen_kWh:
+        type: float
+      Q_SC_l_kWh:
+        type: float
+      SC_FP_roofs_top_Q_kWh:
+        type: float
+      SC_FP_roofs_top_m2:
+        type: float
+      SC_FP_walls_east_Q_kWh:
+        type: int
+      SC_FP_walls_east_m2:
+        type: int
+      SC_FP_walls_north_Q_kWh:
+        type: int
+      SC_FP_walls_north_m2:
+        type: int
+      SC_FP_walls_south_Q_kWh:
+        type: float
+      SC_FP_walls_south_m2:
+        type: float
+      SC_FP_walls_west_Q_kWh:
+        type: int
+      SC_FP_walls_west_m2:
+        type: int
+      T_SC_re_C:
+        type: float
+      T_SC_sup_C:
+        type: float
+      mcp_SC_kWperC:
+        type: float
+      radiation_kWh:
+        type: float
+  used_by:
+  - optimization
+get_building_air_conditioning:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/air_conditioning_systems.dbf
+  file_type: dbf
+  schema:
+    columns:
+      Name:
+        type: string
+      cool_ends:
+        type: string
+      cool_starts:
+        type: string
+      heat_ends:
+        type: string
+      heat_starts:
+        type: string
+      type_cs:
+        type: string
+      type_ctrl:
+        type: string
+      type_dhw:
+        type: string
+      type_hs:
+        type: string
+      type_vent:
+        type: string
+  used_by:
+  - demand
+get_building_architecture:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/architecture.dbf
+  file_type: dbf
+  schema:
+    columns:
+      Es:
+        type: float
+      Hs_ag:
+        type: float
+      Hs_bg:
+        type: float
+      Name:
+        type: string
+      Ns:
+        type: float
+      type_base:
+        type: string
+      type_cons:
+        type: string
+      type_floor:
+        type: string
+      type_leak:
+        type: string
+      type_roof:
+        type: string
+      type_shade:
+        type: string
+      type_wall:
+        type: string
+      type_win:
+        type: string
+      void_deck:
+        type: int
+      wwr_east:
+        type: float
+      wwr_north:
+        type: float
+      wwr_south:
+        type: float
+      wwr_west:
+        type: float
+  used_by:
+  - demand
+  - emissions
+  - radiation
+  - schedule_maker
+get_building_comfort:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/indoor_comfort.dbf
+  file_type: dbf
+  schema:
+    columns:
+      Name:
+        type: string
+      RH_max_pc:
+        type: int
+      RH_min_pc:
+        type: int
+      Tcs_set_C:
+        type: int
+      Tcs_setb_C:
+        type: int
+      Ths_set_C:
+        type: int
+      Ths_setb_C:
+        type: int
+      Ve_lpspax:
+        type: float
+  used_by:
+  - demand
+  - schedule_maker
+get_building_internal:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/internal_loads.dbf
+  file_type: dbf
+  schema:
+    columns:
+      Ea_Wm2:
+        type: float
+      Ed_Wm2:
+        type: float
+      El_Wm2:
+        type: float
+      Epro_Wm2:
+        type: float
+      Name:
+        type: string
+      Occ_m2pax:
+        type: float
+      Qcpro_Wm2:
+        type: float
+      Qcre_Wm2:
+        type: float
+      Qhpro_Wm2:
+        type: float
+      Qs_Wpax:
+        type: float
+      Vw_lpdpax:
+        type: float
+      Vww_lpdpax:
+        type: float
+      X_ghpax:
+        type: float
+  used_by:
+  - demand
+  - schedule_maker
+get_building_supply:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/supply_systems.dbf
+  file_type: dbf
+  schema:
+    columns:
+      Name:
+        type: string
+      type_cs:
+        type: string
+      type_dhw:
+        type: string
+      type_el:
+        type: string
+      type_hs:
+        type: string
+  used_by:
+  - decentralized
+  - demand
+  - emissions
+  - system_costs
+get_building_typology:
+  created_by:
+  - database-migrator
+  file_path: inputs/building-properties/typology.dbf
+  file_type: dbf
+  schema:
+    columns:
+      1st_USE:
+        type: float
+      1st_USE_R:
+        type: float
+      2nd_USE:
+        type: string
+      2nd_USE_R:
+        type: float
+      3rd_USE:
+        type: string
+      3rd_USE_R:
+        type: float
+      Name:
+        type: string
+      REFERENCE:
+        type: string
+      STANDARD:
+        type: string
+      YEAR:
+        type: int
+  used_by:
+  - archetypes_mapper
+  - demand
+  - emissions
+get_building_weekly_schedules:
+  created_by:
+  - archetypes_mapper
+  file_path: inputs/building-properties/schedules/B001.csv
+  file_type: csv
+  schema:
+    columns:
+      METADATA:
+        type: float
+      mixed-schedule:
+        type: float
+  used_by:
+  - demand
+  - schedule_maker
+get_costs_operation_file:
+  created_by:
+  - system_costs
+  file_path: outputs/data/costs/operation_costs.csv
+  file_type: csv
+  schema:
+    columns:
+      Aocc_m2:
+        type: float
+      COAL_hs_cost_m2yr:
+        type: float
+      COAL_hs_cost_yr:
+        type: float
+      COAL_ww_cost_m2yr:
+        type: float
+      COAL_ww_cost_yr:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      DC_cdata_cost_m2yr:
+        type: float
+      DC_cdata_cost_yr:
+        type: float
+      DC_cre_cost_m2yr:
+        type: float
+      DC_cre_cost_yr:
+        type: float
+      DC_cs_cost_m2yr:
+        type: float
+      DC_cs_cost_yr:
+        type: float
+      DH_hs_cost_m2yr:
+        type: float
+      DH_hs_cost_yr:
+        type: float
+      DH_ww_cost_m2yr:
+        type: float
+      DH_ww_cost_yr:
+        type: float
+      GRID_cost_m2yr:
+        type: float
+      GRID_cost_yr:
+        type: float
+      NG_hs_cost_m2yr:
+        type: float
+      NG_hs_cost_yr:
+        type: float
+      NG_ww_cost_m2yr:
+        type: float
+      NG_ww_cost_yr:
+        type: float
+      Name:
+        type: string
+      OIL_hs_cost_m2yr:
+        type: float
+      OIL_hs_cost_yr:
+        type: float
+      OIL_ww_cost_m2yr:
+        type: float
+      OIL_ww_cost_yr:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PV_cost_m2yr:
+        type: float
+      PV_cost_yr:
+        type: float
+      SOLAR_hs_cost_m2yr:
+        type: float
+      SOLAR_hs_cost_yr:
+        type: float
+      SOLAR_ww_cost_m2yr:
+        type: float
+      SOLAR_ww_cost_yr:
+        type: float
+      WOOD_hs_cost_m2yr:
+        type: float
+      WOOD_hs_cost_yr:
+        type: float
+      WOOD_ww_cost_m2yr:
+        type: float
+      WOOD_ww_cost_yr:
+        type: float
+  used_by: []
+get_database_air_conditioning_systems:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/assemblies/HVAC.xls
+  file_type: xls
+  schema:
+    CONTROLLER:
+      columns:
+        Description:
+          type: string
+        code:
+          primary: true
+          type: string
+        dT_Qcs:
+          type: float
+        dT_Qhs:
+          type: float
+    COOLING:
+      columns:
+        Description:
+          type: string
+        Qcsmax_Wm2:
+          type: float
+        Tc_sup_air_ahu_C:
+          nullable: true
+          type: float
+        Tc_sup_air_aru_C:
+          nullable: true
+          type: float
+        Tscs0_ahu_C:
+          nullable: true
+          type: float
+        Tscs0_aru_C:
+          nullable: true
+          type: float
+        Tscs0_scu_C:
+          nullable: true
+          type: float
+        class_cs:
+          choice:
+            values:
+            - NONE
+            - CEILING_COOLING
+            - DECENTRALIZED_AC
+            - CENTRAL_AC
+            - HYBRID_AC
+            - FLOOR_COOLING
+          type: string
+        code:
+          primary: true
+          type: string
+        convection_cs:
+          type: float
+        dTcs0_ahu_C:
+          nullable: true
+          type: float
+        dTcs0_aru_C:
+          nullable: true
+          type: float
+        dTcs0_scu_C:
+          nullable: true
+          type: float
+        dTcs_C:
+          type: float
+    HEATING:
+      columns:
+        Description:
+          type: string
+        Qhsmax_Wm2:
+          type: float
+        Th_sup_air_ahu_C:
+          nullable: true
+          type: float
+        Th_sup_air_aru_C:
+          nullable: true
+          type: float
+        Tshs0_ahu_C:
+          nullable: true
+          type: float
+        Tshs0_aru_C:
+          nullable: true
+          type: float
+        Tshs0_shu_C:
+          nullable: true
+          type: float
+        class_hs:
+          choice:
+            values:
+            - NONE
+            - RADIATOR
+            - CENTRAL_AC
+            - FLOOR_HEATING
+          type: string
+        code:
+          primary: true
+          type: string
+        convection_hs:
+          type: float
+        dThs0_ahu_C:
+          nullable: true
+          type: float
+        dThs0_aru_C:
+          nullable: true
+          type: float
+        dThs0_shu_C:
+          nullable: true
+          type: float
+        dThs_C:
+          type: float
+    HOT_WATER:
+      columns:
+        Description:
+          type: string
+        Qwwmax_Wm2:
+          min: 0.0
+          type: float
+        Tsww0_C:
+          min: 0.0
+          type: float
+        code:
+          primary: true
+          type: string
+    VENTILATION:
+      columns:
+        Description:
+          type: string
+        ECONOMIZER:
+          type: boolean
+        HEAT_REC:
+          type: boolean
+        MECH_VENT:
+          type: boolean
+        NIGHT_FLSH:
+          type: boolean
+        WIN_VENT:
+          type: boolean
+        code:
+          primary: true
+          type: string
+  used_by:
+  - demand
+get_database_construction_standards:
+  created_by:
+  - data-initializer
+  file_path: inputs/technology/archetypes/CONSTRUCTION_STANDARDS.xlsx
+  file_type: xlsx
+  schema:
+    ENVELOPE_ASSEMBLIES:
+      columns:
+        Es:
+          max: 1.0
+          min: 0.0
+          type: float
+        Hs_ag:
+          max: 1.0
+          min: 0.0
+          type: float
+        Hs_bg:
+          max: 1.0
+          min: 0.0
+          type: float
+        Ns:
+          max: 1.0
+          min: 0.0
+          type: float
+        STANDARD:
+          primary: true
+          type: string
+        type_base:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: FLOOR
+          type: string
+        type_cons:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: CONSTRUCTION
+          type: string
+        type_floor:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: FLOOR
+          type: string
+        type_leak:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: TIGHTNESS
+          type: string
+        type_part:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: WALL
+          type: string
+        type_roof:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: ROOF
+          type: string
+        type_shade:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: SHADING
+          type: string
+        type_wall:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: WALL
+          type: string
+        type_win:
+          choice:
+            lookup:
+              column: code
+              path: get_database_envelope_systems
+              sheet: WINDOW
+          type: string
+        void_deck:
+          max: 1.0
+          min: 0
+          type: float
+        wwr_east:
+          max: 1.0
+          min: 0
+          type: float
+        wwr_north:
+          max: 1.0
+          min: 0
+          type: float
+        wwr_south:
+          max: 1.0
+          min: 0
+          type: float
+        wwr_west:
+          max: 1.0
+          min: 0
+          type: float
+    HVAC_ASSEMBLIES:
+      columns:
+        STANDARD:
+          primary: true
+          type: string
+        cool_ends:
+          regex: ^\d{2}|\d{2}$
+          type: string
+        cool_starts:
+          regex: ^\d{2}|\d{2}$
+          type: string
+        heat_ends:
+          regex: ^\d{2}|\d{2}$
+          type: string
+        heat_starts:
+          regex: ^\d{2}|\d{2}$
+          type: string
+        type_cs:
+          choice:
+            lookup:
+              column: code
+              path: get_database_air_conditioning_systems
+              sheet: COOLING
+          type: string
+        type_ctrl:
+          choice:
+            lookup:
+              column: code
+              path: get_database_air_conditioning_systems
+              sheet: CONTROLLER
+          type: string
+        type_dhw:
+          choice:
+            lookup:
+              column: code
+              path: get_database_air_conditioning_systems
+              sheet: HOT_WATER
+          type: string
+        type_hs:
+          choice:
+            lookup:
+              column: code
+              path: get_database_air_conditioning_systems
+              sheet: HEATING
+          type: string
+        type_vent:
+          choice:
+            lookup:
+              column: code
+              path: get_database_air_conditioning_systems
+              sheet: VENTILATION
+          type: string
+    STANDARD_DEFINITION:
+      columns:
+        Description:
+          type: string
+        STANDARD:
+          primary: true
+          type: string
+        YEAR_END:
+          min: 0
+          type: int
+        YEAR_START:
+          min: 0
+          type: int
+      constraints:
+        YEAR: YEAR_START < YEAR_END
+    SUPPLY_ASSEMBLIES:
+      columns:
+        STANDARD:
+          primary: true
+          type: string
+        type_cs:
+          choice:
+            lookup:
+              column: code
+              path: get_database_supply_assemblies
+              sheet: COOLING
+          type: string
+        type_dhw:
+          choice:
+            lookup:
+              column: code
+              path: get_database_supply_assemblies
+              sheet: HOT_WATER
+          type: string
+        type_el:
+          choice:
+            lookup:
+              column: code
+              path: get_database_supply_assemblies
+              sheet: ELECTRICITY
+          type: string
+        type_hs:
+          choice:
+            lookup:
+              column: code
+              path: get_database_supply_assemblies
+              sheet: HEATING
+          type: string
+  used_by:
+  - archetypes_mapper
+get_database_conversion_systems:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/components/CONVERSION.xls
+  file_type: xls
+  schema:
+    Absorption_chiller:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        a_e:
+          type: float
+        a_g:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        e_e:
+          type: float
+        e_g:
+          type: float
+        m_cw:
+          type: float
+        m_hw:
+          type: float
+        r_e:
+          type: float
+        r_g:
+          type: float
+        s_e:
+          type: float
+        s_g:
+          type: float
+        type:
+          choice:
+            values:
+            - single
+            - double
+            - triple
+          type: string
+        unit:
+          type: string
+    BH:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    Boiler:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    CCGT:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    CT:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    Chiller:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    FC:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    Furnace:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    HEX:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        a_p:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        b_p:
+          type: float
+        c:
+          type: float
+        c_p:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        d_p:
+          type: float
+        e:
+          type: float
+        e_p:
+          type: float
+        unit:
+          type: string
+    HP:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    PV:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        PV_Bref:
+          type: float
+        PV_a0:
+          type: float
+        PV_a1:
+          type: float
+        PV_a2:
+          type: float
+        PV_a3:
+          type: float
+        PV_a4:
+          type: float
+        PV_n:
+          type: float
+        PV_noct:
+          type: float
+        PV_th:
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        misc_losses:
+          type: float
+        module_length_m:
+          min: 0.0
+          type: float
+        type:
+          choice:
+            values:
+            - PV
+          type: string
+        unit:
+          type: string
+    PVT:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    Pump:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+    SC:
+      columns:
+        C_eff:
+          type: float
+        Cp_fluid:
+          type: float
+        Description:
+          type: string
+        IAM_d:
+          type: float
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        aperture_area_ratio:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        c1:
+          type: float
+        c2:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        dP1:
+          type: float
+        dP2:
+          type: float
+        dP3:
+          type: float
+        dP4:
+          type: float
+        e:
+          type: float
+        mB0_r:
+          type: float
+        mB_max_r:
+          type: float
+        mB_min_r:
+          type: float
+        module_area_m2:
+          type: float
+        module_length_m:
+          type: float
+        n0:
+          type: float
+        t_max:
+          type: float
+        type:
+          choice:
+            values:
+            - FP
+            - ET
+          type: string
+        unit:
+          type: string
+    TES:
+      columns:
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        a:
+          type: float
+        assumption:
+          nullable: true
+          type: string
+        b:
+          type: float
+        c:
+          type: float
+        cap_max:
+          type: float
+        cap_min:
+          type: float
+        code:
+          type: string
+        currency:
+          regex: ^[A-Z]{3}-\d{4}$
+          type: string
+        d:
+          type: float
+        e:
+          type: float
+        unit:
+          type: string
+  used_by:
+  - decentralized
+  - optimization
+  - photovoltaic
+  - photovoltaic_thermal
+  - solar_collector
+get_database_distribution_systems:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/components/DISTRIBUTION.xls
+  file_type: xls
+  schema:
+    THERMAL_GRID:
+      columns:
+        Code:
+          primary: true
+          type: string
+        D_ext_m:
+          type: float
+        D_ins_m:
+          type: float
+        D_int_m:
+          type: float
+        Inv_USD2015perm:
+          type: float
+        Pipe_DN:
+          type: float
+        Vdot_max_m3s:
+          type: float
+        Vdot_min_m3s:
+          type: float
+  used_by:
+  - optimization
+  - thermal_network
+get_database_envelope_systems:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/assemblies/ENVELOPE.xls
+  file_type: xls
+  schema:
+    CONSTRUCTION:
+      columns:
+        Cm_Af:
+          type: float
+        Description:
+          type: string
+        code:
+          primary: true
+          type: string
+    FLOOR:
+      columns:
+        Description:
+          type: string
+        GHG_FLOOR_kgCO2m2:
+          type: float
+        U_base:
+          type: float
+        code:
+          primary: true
+          type: string
+    ROOF:
+      columns:
+        Description:
+          type: string
+        GHG_ROOF_kgCO2m2:
+          type: float
+        U_roof:
+          type: float
+        a_roof:
+          type: float
+        code:
+          primary: true
+          type: string
+        e_roof:
+          type: float
+        r_roof:
+          type: float
+    SHADING:
+      columns:
+        Description:
+          type: string
+        code:
+          primary: true
+          type: string
+        rf_sh:
+          type: float
+    TIGHTNESS:
+      columns:
+        Description:
+          type: string
+        code:
+          primary: true
+          type: string
+        n50:
+          type: float
+    WALL:
+      columns:
+        Description:
+          type: string
+        GHG_WALL_kgCO2m2:
+          type: float
+        U_wall:
+          type: float
+        a_wall:
+          type: float
+        code:
+          primary: true
+          type: string
+        e_wall:
+          type: float
+        r_wall:
+          type: float
+    WINDOW:
+      columns:
+        Description:
+          type: string
+        F_F:
+          type: float
+        GHG_WIN_kgCO2m2:
+          type: float
+        G_win:
+          type: float
+        U_win:
+          type: float
+        code:
+          primary: true
+          type: string
+        e_win:
+          type: float
+  used_by:
+  - demand
+  - radiation
+  - schedule_maker
+get_database_feedstocks:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/components/FEEDSTOCKS.xls
+  file_type: xls
+  schema:
+    BIOGAS:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    COAL:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    DRYBIOMASS:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    GRID:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    NATURALGAS:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    OIL:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    SOLAR:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    WETBIOMASS:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+    WOOD:
+      columns:
+        GHG_kgCO2MJ:
+          type: float
+        Opex_var_buy_USD2015kWh:
+          min: 0.0
+          type: float
+        Opex_var_sell_USD2015kWh:
+          min: 0.0
+          type: float
+        hour:
+          max: 23
+          min: 0
+          primary: true
+          type: int
+        reference:
+          nullable: true
+          type: string
+  used_by:
+  - decentralized
+  - emissions
+  - system_costs
+  - optimization
+get_database_standard_schedules_use:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/archetypes/schedules/RESTAURANT.csv
+  file_type: schedule
+  schema:
+    APPLIANCES:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    COOLING:
+      columns:
+        1:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        2:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        3:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        4:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        5:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        6:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        7:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        8:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        9:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        10:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        11:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        12:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        13:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        14:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        15:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        16:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        17:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        18:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        19:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        20:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        21:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        22:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        23:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        24:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    ELECTROMOBILITY:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    HEATING:
+      columns:
+        1:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        2:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        3:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        4:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        5:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        6:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        7:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        8:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        9:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        10:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        11:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        12:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        13:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        14:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        15:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        16:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        17:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        18:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        19:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        20:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        21:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        22:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        23:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        24:
+          choice:
+            values:
+            - 'OFF'
+            - SETBACK
+            - SETPOINT
+          type: string
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    LIGHTING:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    METADATA:
+      columns:
+        metadata:
+          type: string
+    MONTHLY_MULTIPLIER:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+    OCCUPANCY:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    PROCESSES:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    SERVERS:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+    WATER:
+      columns:
+        1:
+          max: 1.0
+          min: 0.0
+          type: float
+        2:
+          max: 1.0
+          min: 0.0
+          type: float
+        3:
+          max: 1.0
+          min: 0.0
+          type: float
+        4:
+          max: 1.0
+          min: 0.0
+          type: float
+        5:
+          max: 1.0
+          min: 0.0
+          type: float
+        6:
+          max: 1.0
+          min: 0.0
+          type: float
+        7:
+          max: 1.0
+          min: 0.0
+          type: float
+        8:
+          max: 1.0
+          min: 0.0
+          type: float
+        9:
+          max: 1.0
+          min: 0.0
+          type: float
+        10:
+          max: 1.0
+          min: 0.0
+          type: float
+        11:
+          max: 1.0
+          min: 0.0
+          type: float
+        12:
+          max: 1.0
+          min: 0.0
+          type: float
+        13:
+          max: 1.0
+          min: 0.0
+          type: float
+        14:
+          max: 1.0
+          min: 0.0
+          type: float
+        15:
+          max: 1.0
+          min: 0.0
+          type: float
+        16:
+          max: 1.0
+          min: 0.0
+          type: float
+        17:
+          max: 1.0
+          min: 0.0
+          type: float
+        18:
+          max: 1.0
+          min: 0.0
+          type: float
+        19:
+          max: 1.0
+          min: 0.0
+          type: float
+        20:
+          max: 1.0
+          min: 0.0
+          type: float
+        21:
+          max: 1.0
+          min: 0.0
+          type: float
+        22:
+          max: 1.0
+          min: 0.0
+          type: float
+        23:
+          max: 1.0
+          min: 0.0
+          type: float
+        24:
+          max: 1.0
+          min: 0.0
+          type: float
+        DAY:
+          choice:
+            values:
+            - WEEKDAY
+            - SATURDAY
+            - SUNDAY
+          primary: true
+          type: string
+  used_by:
+  - archetypes_mapper
+get_database_supply_assemblies:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/assemblies/SUPPLY.xls
+  file_type: xls
+  schema:
+    COOLING:
+      columns:
+        CAPEX_USD2015kW:
+          min: 0.0
+          type: float
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        code:
+          primary: true
+          type: string
+        efficiency:
+          type: float
+        feedstock:
+          choice:
+            values:
+            - NONE
+            - NATURALGAS
+            - BIOGAS
+            - GRID
+            - SOLAR
+            - OIL
+            - COAL
+            - WOOD
+            - WETBIOMASS
+            - DRYBIOMASS
+          type: string
+        reference:
+          nullable: true
+          type: string
+        scale:
+          choice:
+            values:
+            - NONE
+            - BUILDING
+            - DISTRICT
+            - CITY
+          type: string
+    ELECTRICITY:
+      columns:
+        CAPEX_USD2015kW:
+          min: 0.0
+          type: float
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        code:
+          primary: true
+          type: string
+        efficiency:
+          type: float
+        feedstock:
+          choice:
+            values:
+            - NONE
+            - NATURALGAS
+            - BIOGAS
+            - GRID
+            - SOLAR
+            - OIL
+            - COAL
+            - WOOD
+            - WETBIOMASS
+            - DRYBIOMASS
+          type: string
+        reference:
+          nullable: true
+          type: string
+        scale:
+          choice:
+            values:
+            - NONE
+            - BUILDING
+            - DISTRICT
+            - CITY
+          type: string
+    HEATING:
+      columns:
+        CAPEX_USD2015kW:
+          min: 0.0
+          type: float
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        code:
+          primary: true
+          type: string
+        efficiency:
+          type: float
+        feedstock:
+          choice:
+            values:
+            - NONE
+            - NATURALGAS
+            - BIOGAS
+            - GRID
+            - SOLAR
+            - OIL
+            - COAL
+            - WOOD
+            - WETBIOMASS
+            - DRYBIOMASS
+          type: string
+        reference:
+          nullable: true
+          type: string
+        scale:
+          choice:
+            values:
+            - NONE
+            - BUILDING
+            - DISTRICT
+            - CITY
+          type: string
+    HOT_WATER:
+      columns:
+        CAPEX_USD2015kW:
+          min: 0.0
+          type: float
+        Description:
+          type: string
+        IR_%:
+          min: 0.0
+          type: float
+        LT_yr:
+          min: 0
+          type: int
+        O&M_%:
+          min: 0.0
+          type: float
+        code:
+          primary: true
+          type: string
+        efficiency:
+          type: float
+        feedstock:
+          choice:
+            values:
+            - NONE
+            - NATURALGAS
+            - BIOGAS
+            - GRID
+            - SOLAR
+            - OIL
+            - COAL
+            - WOOD
+            - WETBIOMASS
+            - DRYBIOMASS
+          type: string
+        reference:
+          nullable: true
+          type: string
+        scale:
+          choice:
+            values:
+            - NONE
+            - BUILDING
+            - DISTRICT
+            - CITY
+          type: string
+  used_by:
+  - demand
+  - emissions
+  - system_costs
+get_database_use_types_properties:
+  created_by:
+  - data_initializer
+  file_path: inputs/technology/archetypes/use_types/USE_TYPE_PROPERTIES.xlsx
+  file_type: xls
+  schema:
+    INDOOR_COMFORT:
+      columns:
+        RH_max_pc:
+          type: float
+        RH_min_pc:
+          type: float
+        Tcs_set_C:
+          type: float
+        Tcs_setb_C:
+          type: float
+        Ths_set_C:
+          type: float
+        Ths_setb_C:
+          type: float
+        Ve_lpspax:
+          type: float
+        code:
+          primary: true
+          type: string
+    INTERNAL_LOADS:
+      columns:
+        Ea_Wm2:
+          type: float
+        Ed_Wm2:
+          type: float
+        El_Wm2:
+          type: float
+        Epro_Wm2:
+          type: float
+        Ev_kWveh:
+          type: float
+        Occ_m2pax:
+          type: float
+        Qcpro_Wm2:
+          type: float
+        Qcre_Wm2:
+          type: float
+        Qhpro_Wm2:
+          type: float
+        Qs_Wpax:
+          type: float
+        Vw_lpdpax:
+          type: float
+        Vww_lpdpax:
+          type: float
+        X_ghpax:
+          type: float
+        code:
+          primary: true
+          type: string
+  used_by:
+  - archetypes_mapper
+get_demand_results_file:
+  created_by:
+  - demand
+  file_path: outputs/data/demand/B001.csv
+  file_type: csv
+  schema:
+    columns:
+      COAL_hs_kWh:
+        type: float
+      COAL_ww_kWh:
+        type: float
+      DATE:
+        type: date
+      DC_cdata_kWh:
+        type: float
+      DC_cre_kWh:
+        type: float
+      DC_cs_kWh:
+        type: float
+      DH_hs_kWh:
+        type: float
+      DH_ww_kWh:
+        type: float
+      E_cdata_kWh:
+        type: float
+      E_cre_kWh:
+        type: float
+      E_cs_kWh:
+        type: float
+      E_hs_kWh:
+        type: float
+      E_sys_kWh:
+        type: float
+      E_ww_kWh:
+        type: float
+      Ea_kWh:
+        type: float
+      Eal_kWh:
+        type: float
+      Eaux_kWh:
+        type: float
+      Edata_kWh:
+        type: float
+      El_kWh:
+        type: float
+      Epro_kWh:
+        type: float
+      GRID_a_kWh:
+        type: float
+      GRID_aux_kWh:
+        type: float
+      GRID_cdata_kWh:
+        type: float
+      GRID_cre_kWh:
+        type: float
+      GRID_cs_kWh:
+        type: float
+      GRID_data_kWh:
+        type: float
+      GRID_hs_kWh:
+        type: float
+      GRID_kWh:
+        type: float
+      GRID_l_kWh:
+        type: float
+      GRID_pro_kWh:
+        type: float
+      GRID_ww_kWh:
+        type: float
+      I_rad_kWh:
+        type: float
+      I_sol_and_I_rad_kWh:
+        type: float
+      I_sol_kWh:
+        type: float
+      NG_hs_kWh:
+        type: float
+      NG_ww_kWh:
+        type: float
+      Name:
+        type: string
+      OIL_hs_kWh:
+        type: float
+      OIL_ww_kWh:
+        type: float
+      PV_kWh:
+        type: float
+      QC_sys_kWh:
+        type: float
+      QH_sys_kWh:
+        type: float
+      Q_gain_lat_peop_kWh:
+        type: float
+      Q_gain_sen_app_kWh:
+        type: float
+      Q_gain_sen_base_kWh:
+        type: float
+      Q_gain_sen_data_kWh:
+        type: float
+      Q_gain_sen_light_kWh:
+        type: float
+      Q_gain_sen_peop_kWh:
+        type: float
+      Q_gain_sen_pro_kWh:
+        type: float
+      Q_gain_sen_roof_kWh:
+        type: float
+      Q_gain_sen_vent_kWh:
+        type: float
+      Q_gain_sen_wall_kWh:
+        type: float
+      Q_gain_sen_wind_kWh:
+        type: float
+      Q_loss_sen_ref_kWh:
+        type: float
+      Qcdata_kWh:
+        type: float
+      Qcdata_sys_kWh:
+        type: float
+      Qcpro_sys_kWh:
+        type: float
+      Qcre_kWh:
+        type: float
+      Qcre_sys_kWh:
+        type: float
+      Qcs_dis_ls_kWh:
+        type: float
+      Qcs_em_ls_kWh:
+        type: float
+      Qcs_kWh:
+        type: float
+      Qcs_lat_ahu_kWh:
+        type: float
+      Qcs_lat_aru_kWh:
+        type: float
+      Qcs_lat_sys_kWh:
+        type: float
+      Qcs_sen_ahu_kWh:
+        type: float
+      Qcs_sen_aru_kWh:
+        type: float
+      Qcs_sen_scu_kWh:
+        type: float
+      Qcs_sen_sys_kWh:
+        type: float
+      Qcs_sys_ahu_kWh:
+        type: float
+      Qcs_sys_aru_kWh:
+        type: float
+      Qcs_sys_kWh:
+        type: float
+      Qcs_sys_scu_kWh:
+        type: float
+      Qhpro_sys_kWh:
+        type: float
+      Qhs_dis_ls_kWh:
+        type: float
+      Qhs_em_ls_kWh:
+        type: float
+      Qhs_kWh:
+        type: float
+      Qhs_lat_ahu_kWh:
+        type: float
+      Qhs_lat_aru_kWh:
+        type: float
+      Qhs_lat_sys_kWh:
+        type: float
+      Qhs_sen_ahu_kWh:
+        type: float
+      Qhs_sen_aru_kWh:
+        type: float
+      Qhs_sen_shu_kWh:
+        type: float
+      Qhs_sen_sys_kWh:
+        type: float
+      Qhs_sys_ahu_kWh:
+        type: float
+      Qhs_sys_aru_kWh:
+        type: float
+      Qhs_sys_kWh:
+        type: float
+      Qhs_sys_shu_kWh:
+        type: float
+      Qww_kWh:
+        type: float
+      Qww_sys_kWh:
+        type: float
+      SOLAR_hs_kWh:
+        type: float
+      SOLAR_ww_kWh:
+        type: float
+      T_ext_C:
+        type: float
+      T_int_C:
+        type: float
+      Tcdata_sys_re_C:
+        type: float
+      Tcdata_sys_sup_C:
+        type: float
+      Tcre_sys_re_C:
+        type: float
+      Tcre_sys_sup_C:
+        type: float
+      Tcs_sys_re_C:
+        type: float
+      Tcs_sys_re_ahu_C:
+        type: float
+      Tcs_sys_re_aru_C:
+        type: float
+      Tcs_sys_re_scu_C:
+        type: float
+      Tcs_sys_sup_C:
+        type: float
+      Tcs_sys_sup_ahu_C:
+        type: float
+      Tcs_sys_sup_aru_C:
+        type: float
+      Tcs_sys_sup_scu_C:
+        type: float
+      Ths_sys_re_C:
+        type: float
+      Ths_sys_re_ahu_C:
+        type: float
+      Ths_sys_re_aru_C:
+        type: float
+      Ths_sys_re_shu_C:
+        type: float
+      Ths_sys_sup_C:
+        type: float
+      Ths_sys_sup_ahu_C:
+        type: float
+      Ths_sys_sup_aru_C:
+        type: float
+      Ths_sys_sup_shu_C:
+        type: float
+      Tww_sys_re_C:
+        type: float
+      Tww_sys_sup_C:
+        type: float
+      WOOD_hs_kWh:
+        type: float
+      WOOD_ww_kWh:
+        type: float
+      mcpcdata_sys_kWperC:
+        type: float
+      mcpcre_sys_kWperC:
+        type: float
+      mcpcs_sys_ahu_kWperC:
+        type: float
+      mcpcs_sys_aru_kWperC:
+        type: float
+      mcpcs_sys_kWperC:
+        type: float
+      mcpcs_sys_scu_kWperC:
+        type: float
+      mcphs_sys_ahu_kWperC:
+        type: float
+      mcphs_sys_aru_kWperC:
+        type: float
+      mcphs_sys_kWperC:
+        type: float
+      mcphs_sys_shu_kWperC:
+        type: float
+      mcptw_kWperC:
+        type: float
+      mcpww_sys_kWperC:
+        type: float
+      people:
+        type: float
+      theta_o_C:
+        type: float
+      x_int:
+        type: float
+  used_by:
+  - decentralized
+  - optimization
+  - sewage_potential
+  - thermal_network
+get_geothermal_potential:
+  created_by:
+  - shallow_geothermal_potential
+  file_path: outputs/data/potentials/Shallow_geothermal_potential.csv
+  file_type: csv
+  schema:
+    columns:
+      Area_avail_m2:
+        type: float
+      QGHP_kW:
+        type: float
+      Ts_C:
+        type: float
+  used_by:
+  - optimization
+get_lca_embodied:
+  created_by:
+  - emissions
+  file_path: outputs/data/emissions/Total_LCA_embodied.csv
+  file_type: csv
+  schema:
+    columns:
+      GFA_m2:
+        type: float
+      GHG_sys_embodied_kgCO2m2:
+        type: float
+      GHG_sys_embodied_tonCO2:
+        type: float
+      Name:
+        type: string
+  used_by: []
+get_lca_mobility:
+  created_by:
+  - emissions
+  file_path: outputs/data/emissions/Total_LCA_mobility.csv
+  file_type: csv
+  schema:
+    columns:
+      GFA_m2:
+        type: float
+      GHG_sys_mobility_kgCO2m2:
+        type: float
+      GHG_sys_mobility_tonCO2:
+        type: float
+      Name:
+        type: string
+  used_by: []
+get_lca_operation:
+  created_by:
+  - emissions
+  file_path: outputs/data/emissions/Total_LCA_operation.csv
+  file_type: csv
+  schema:
+    columns:
+      COAL_hs_ghg_kgm2:
+        type: float
+      COAL_hs_ghg_ton:
+        type: float
+      COAL_hs_nre_pen_GJ:
+        type: float
+      COAL_hs_nre_pen_MJm2:
+        type: float
+      COAL_ww_ghg_kgm2:
+        type: float
+      COAL_ww_ghg_ton:
+        type: float
+      COAL_ww_nre_pen_GJ:
+        type: float
+      COAL_ww_nre_pen_MJm2:
+        type: float
+      DC_cdata_ghg_kgm2:
+        type: float
+      DC_cdata_ghg_ton:
+        type: float
+      DC_cdata_nre_pen_GJ:
+        type: float
+      DC_cdata_nre_pen_MJm2:
+        type: float
+      DC_cre_ghg_kgm2:
+        type: float
+      DC_cre_ghg_ton:
+        type: float
+      DC_cre_nre_pen_GJ:
+        type: float
+      DC_cre_nre_pen_MJm2:
+        type: float
+      DC_cs_ghg_kgm2:
+        type: float
+      DC_cs_ghg_ton:
+        type: float
+      DC_cs_nre_pen_GJ:
+        type: float
+      DC_cs_nre_pen_MJm2:
+        type: float
+      DH_hs_ghg_kgm2:
+        type: float
+      DH_hs_ghg_ton:
+        type: float
+      DH_hs_nre_pen_GJ:
+        type: float
+      DH_hs_nre_pen_MJm2:
+        type: float
+      DH_ww_ghg_kgm2:
+        type: float
+      DH_ww_ghg_ton:
+        type: float
+      DH_ww_nre_pen_GJ:
+        type: float
+      DH_ww_nre_pen_MJm2:
+        type: float
+      GFA_m2:
+        type: float
+      GFA_m2.1:
+        type: float
+      GHG_sys_kgCO2m2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      GRID_ghg_kgm2:
+        type: float
+      GRID_ghg_ton:
+        type: float
+      GRID_nre_pen_GJ:
+        type: float
+      GRID_nre_pen_MJm2:
+        type: float
+      NG_hs_ghg_kgm2:
+        type: float
+      NG_hs_ghg_ton:
+        type: float
+      NG_hs_nre_pen_GJ:
+        type: float
+      NG_hs_nre_pen_MJm2:
+        type: float
+      NG_ww_ghg_kgm2:
+        type: float
+      NG_ww_ghg_ton:
+        type: float
+      NG_ww_nre_pen_GJ:
+        type: float
+      NG_ww_nre_pen_MJm2:
+        type: float
+      Name:
+        type: string
+      Name.1:
+        type: string
+      OIL_hs_ghg_kgm2:
+        type: float
+      OIL_hs_ghg_ton:
+        type: float
+      OIL_hs_nre_pen_GJ:
+        type: float
+      OIL_hs_nre_pen_MJm2:
+        type: float
+      OIL_ww_ghg_kgm2:
+        type: float
+      OIL_ww_ghg_ton:
+        type: float
+      OIL_ww_nre_pen_GJ:
+        type: float
+      OIL_ww_nre_pen_MJm2:
+        type: float
+      PV_ghg_kgm2:
+        type: float
+      PV_ghg_kgm2.1:
+        type: float
+      PV_ghg_ton:
+        type: float
+      PV_ghg_ton.1:
+        type: float
+      PV_nre_pen_GJ:
+        type: float
+      PV_nre_pen_GJ.1:
+        type: float
+      PV_nre_pen_MJm2:
+        type: float
+      PV_nre_pen_MJm2.1:
+        type: float
+      SOLAR_hs_ghg_kgm2:
+        type: float
+      SOLAR_hs_ghg_ton:
+        type: float
+      SOLAR_hs_nre_pen_GJ:
+        type: float
+      SOLAR_hs_nre_pen_MJm2:
+        type: float
+      SOLAR_ww_ghg_kgm2:
+        type: float
+      SOLAR_ww_ghg_ton:
+        type: float
+      SOLAR_ww_nre_pen_GJ:
+        type: float
+      SOLAR_ww_nre_pen_MJm2:
+        type: float
+      WOOD_hs_ghg_kgm2:
+        type: float
+      WOOD_hs_ghg_ton:
+        type: float
+      WOOD_hs_nre_pen_GJ:
+        type: float
+      WOOD_hs_nre_pen_MJm2:
+        type: float
+      WOOD_ww_ghg_kgm2:
+        type: float
+      WOOD_ww_ghg_ton:
+        type: float
+      WOOD_ww_nre_pen_GJ:
+        type: float
+      WOOD_ww_nre_pen_MJm2:
+        type: float
+  used_by: []
+get_multi_criteria_analysis:
+  created_by:
+  - multi_criteria_analysis
+  file_path: outputs/data/multicriteria/gen_2_multi_criteria_analysis.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_sys_USD:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      Capex_total_sys_USD:
+        type: float
+      Capex_total_sys_connected_USD:
+        type: float
+      Capex_total_sys_disconnected_USD:
+        type: float
+      GHG_rank:
+        type: float
+      GHG_sys_connected_tonCO2:
+        type: float
+      GHG_sys_disconnected_tonCO2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      Opex_a_sys_USD:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PEN_rank:
+        type: float
+      PEN_sys_MJoil:
+        type: float
+      PEN_sys_connected_MJoil:
+        type: float
+      PEN_sys_disconnected_MJoil:
+        type: float
+      TAC_rank:
+        type: float
+      TAC_sys_USD:
+        type: float
+      TAC_sys_connected_USD:
+        type: float
+      TAC_sys_disconnected_USD:
+        type: float
+      'Unnamed: 0':
+        type: int
+      'Unnamed: 0.1':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+      normalized_Capex_total:
+        type: float
+      normalized_Opex:
+        type: float
+      normalized_TAC:
+        type: float
+      normalized_emissions:
+        type: float
+      normalized_prim:
+        type: float
+      user_MCDA:
+        type: float
+      user_MCDA_rank:
+        type: float
+  used_by: []
+get_network_energy_pumping_requirements_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__plant_pumping_load_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      pressure_loss_return_kW:
+        type: float
+      pressure_loss_substations_kW:
+        type: float
+      pressure_loss_supply_kW:
+        type: float
+      pressure_loss_total_kW:
+        type: float
+  used_by: []
+get_network_layout_edges_shapefile:
+  created_by:
+  - network_layout
+  file_path: outputs/data/thermal-network/DH/edges.shp
+  file_type: shp
+  schema:
+    columns:
+      Name:
+        type: string
+      Pipe_DN:
+        type: float
+      Type_mat:
+        type: string
+      geometry:
+        type: LineString
+      length_m:
+        type: float
+  used_by:
+  - thermal_network
+get_network_layout_nodes_shapefile:
+  created_by:
+  - network_layout
+  file_path: outputs/data/thermal-network/DH/nodes.shp
+  file_type: shp
+  schema:
+    columns:
+      Building:
+        type: string
+      Name:
+        type: string
+      Type:
+        type: string
+      geometry:
+        type: Point
+  used_by:
+  - thermal_network
+get_network_linear_pressure_drop_edges:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__linear_pressure_drop_edges_Paperm.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_network_linear_thermal_loss_edges_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__linear_thermal_loss_edges_Wperm.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_network_pressure_at_nodes:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__pressure_at_nodes_Pa.csv
+  file_type: csv
+  schema:
+    columns:
+      NODE0:
+        type: float
+  used_by: []
+get_network_temperature_plant:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__temperature_plant_K.csv
+  file_type: csv
+  schema:
+    columns:
+      temperature_return_K:
+        type: float
+      temperature_supply_K:
+        type: float
+  used_by: []
+get_network_temperature_return_nodes_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__temperature_return_nodes_K.csv
+  file_type: csv
+  schema:
+    columns:
+      NODE0:
+        type: float
+  used_by: []
+get_network_temperature_supply_nodes_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__temperature_supply_nodes_K.csv
+  file_type: csv
+  schema:
+    columns:
+      NODE0:
+        type: float
+  used_by: []
+get_network_thermal_loss_edges_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__thermal_loss_edges_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_network_total_pressure_drop_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__plant_pumping_pressure_loss_Pa.csv
+  file_type: csv
+  schema:
+    columns:
+      pressure_loss_return_Pa:
+        type: float
+      pressure_loss_substations_Pa:
+        type: float
+      pressure_loss_supply_Pa:
+        type: float
+      pressure_loss_total_Pa:
+        type: float
+  used_by:
+  - optimization
+get_network_total_thermal_loss_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__total_thermal_loss_edges_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      thermal_loss_return_kW:
+        type: float
+      thermal_loss_supply_kW:
+        type: float
+      thermal_loss_total_kW:
+        type: float
+  used_by:
+  - optimization
+get_optimization_checkpoint:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/master/CheckPoint_1
+  file_type: ''
+  schema:
+    columns:
+      !!python/unicode 'difference_generational_distances':
+        type: string
+      !!python/unicode 'generation':
+        type: string
+      !!python/unicode 'generational_distances':
+        type: string
+      !!python/unicode 'selected_population':
+        type: string
+      !!python/unicode 'tested_population':
+        type: string
+  used_by: []
+get_optimization_connected_cooling_capacity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_1_connected_cooling_capacity.csv
+  file_type: csv
+  schema:
+    columns:
+      Capacity_ACHHT_FP_cool_disconnected_W:
+        type: float
+      Capacity_ACH_SC_FP_cool_disconnected_W:
+        type: float
+      Capacity_BaseVCC_AS_cool_disconnected_W:
+        type: float
+      Capacity_DX_AS_cool_disconnected_W:
+        type: float
+      Capacity_VCCHT_AS_cool_disconnected_W:
+        type: float
+      Capaticy_ACH_SC_ET_cool_disconnected_W:
+        type: float
+      Name:
+        type: string
+  used_by: []
+get_optimization_connected_electricity_capacity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/ind_0_connected_electrical_capacity.csv
+  file_type: csv
+  schema:
+    columns:
+      Capacity_GRID_el_connected_W:
+        type: float
+      Capacity_PV_el_connected_W:
+        type: float
+      Capacity_PV_el_connected_m2:
+        type: float
+  used_by: []
+get_optimization_connected_heating_capacity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_0/ind_2_connected_heating_capacity.csv
+  file_type: csv
+  schema:
+    columns:
+      Capacity_BackupBoiler_NG_heat_connected_W:
+        type: float
+      Capacity_BaseBoiler_NG_heat_connected_W:
+        type: float
+      Capacity_CHP_DB_el_connected_W:
+        type: float
+      Capacity_CHP_DB_heat_connected_W:
+        type: float
+      Capacity_CHP_NG_el_connected_W:
+        type: float
+      Capacity_CHP_NG_heat_connected_W:
+        type: float
+      Capacity_CHP_WB_el_connected_W:
+        type: float
+      Capacity_CHP_WB_heat_connected_W:
+        type: float
+      Capacity_HP_DS_heat_connected_W:
+        type: float
+      Capacity_HP_GS_heat_connected_W:
+        type: float
+      Capacity_HP_SS_heat_connected_W:
+        type: float
+      Capacity_HP_WS_heat_connected_W:
+        type: float
+      Capacity_PVT_connected_m2:
+        type: float
+      Capacity_PVT_el_connected_W:
+        type: float
+      Capacity_PVT_heat_connected_W:
+        type: float
+      Capacity_PeakBoiler_NG_heat_connected_W:
+        type: float
+      Capacity_SC_ET_connected_m2:
+        type: float
+      Capacity_SC_ET_heat_connected_W:
+        type: float
+      Capacity_SC_FP_connected_m2:
+        type: float
+      Capacity_SC_FP_heat_connected_W:
+        type: float
+      Capacity_SeasonalStorage_WS_heat_connected_W:
+        type: float
+      Capacity_SeasonalStorage_WS_heat_connected_m3:
+        type: float
+  used_by: []
+get_optimization_decentralized_folder_building_result_heating:
+  created_by:
+  - decentralized
+  file_path: outputs/data/optimization/decentralized/DiscOp_B001_result_heating.csv
+  file_type: csv
+  schema:
+    columns:
+      Best configuration:
+        type: float
+      Capacity_BaseBoiler_NG_W:
+        type: float
+      Capacity_FC_NG_W:
+        type: float
+      Capacity_GS_HP_W:
+        type: float
+      Capex_a_USD:
+        type: float
+      Capex_total_USD:
+        type: float
+      GHG_tonCO2:
+        type: float
+      Nominal heating load:
+        type: float
+      Opex_fixed_USD:
+        type: float
+      Opex_var_USD:
+        type: float
+      PEN_MJoil:
+        type: float
+      TAC_USD:
+        type: float
+      'Unnamed: 0':
+        type: int
+  used_by:
+  - optimization
+get_optimization_decentralized_folder_building_result_heating_activation:
+  created_by:
+  - decentralized
+  file_path: outputs/data/optimization/decentralized/DiscOp_B001_result_heating_activation.csv
+  file_type: csv
+  schema:
+    columns:
+      BackupBoiler_Status:
+        type: int
+      Boiler_Status:
+        type: int
+      E_hs_ww_req_W:
+        type: float
+      GHP_Status:
+        type: int
+      NG_BackupBoiler_req_Wh:
+        type: float
+      NG_Boiler_req_Wh:
+        type: float
+      Q_BackupBoiler_gen_directload_W:
+        type: float
+      Q_Boiler_gen_directload_W:
+        type: float
+      Q_GHP_gen_directload_W:
+        type: float
+      'Unnamed: 0':
+        type: int
+  used_by:
+  - optimization
+get_optimization_disconnected_cooling_capacity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_0_disconnected_cooling_capacity.csv
+  file_type: csv
+  schema:
+    columns:
+      Capacity_ACHHT_FP_cool_disconnected_W:
+        type: float
+      Capacity_ACH_SC_FP_cool_disconnected_W:
+        type: float
+      Capacity_BaseVCC_AS_cool_disconnected_W:
+        type: float
+      Capacity_DX_AS_cool_disconnected_W:
+        type: float
+      Capacity_VCCHT_AS_cool_disconnected_W:
+        type: float
+      Capaticy_ACH_SC_ET_cool_disconnected_W:
+        type: float
+      Name:
+        type: string
+  used_by: []
+get_optimization_disconnected_heating_capacity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_0/ind_1_disconnected_heating_capacity.csv
+  file_type: csv
+  schema:
+    columns:
+      Capacity_BaseBoiler_NG_heat_disconnected_W:
+        type: float
+      Capacity_FC_NG_heat_disconnected_W:
+        type: float
+      Capacity_GS_HP_heat_disconnected_W:
+        type: float
+      Name:
+        type: string
+  used_by: []
+get_optimization_generation_connected_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/gen_1_connected_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_BackupBoiler_NG_connected_USD:
+        type: float
+      Capex_a_BaseBoiler_NG_connected_USD:
+        type: float
+      Capex_a_CHP_NG_connected_USD:
+        type: float
+      Capex_a_DHN_connected_USD:
+        type: float
+      Capex_a_Furnace_dry_connected_USD:
+        type: float
+      Capex_a_Furnace_wet_connected_USD:
+        type: float
+      Capex_a_GHP_connected_USD:
+        type: float
+      Capex_a_GRID_connected_USD:
+        type: float
+      Capex_a_HP_Lake_connected_USD:
+        type: float
+      Capex_a_HP_Server_connected_USD:
+        type: float
+      Capex_a_HP_Sewage_connected_USD:
+        type: float
+      Capex_a_PVT_connected_USD:
+        type: float
+      Capex_a_PV_connected_USD:
+        type: float
+      Capex_a_PeakBoiler_NG_connected_USD:
+        type: float
+      Capex_a_SC_ET_connected_USD:
+        type: float
+      Capex_a_SC_FP_connected_USD:
+        type: float
+      Capex_a_SeasonalStorage_WS_connected_USD:
+        type: float
+      Capex_a_SubstationsHeating_connected_USD:
+        type: float
+      Capex_total_BackupBoiler_NG_connected_USD:
+        type: float
+      Capex_total_BaseBoiler_NG_connected_USD:
+        type: float
+      Capex_total_CHP_NG_connected_USD:
+        type: float
+      Capex_total_DHN_connected_USD:
+        type: float
+      Capex_total_Furnace_dry_connected_USD:
+        type: float
+      Capex_total_Furnace_wet_connected_USD:
+        type: float
+      Capex_total_GHP_connected_USD:
+        type: float
+      Capex_total_GRID_connected_USD:
+        type: float
+      Capex_total_HP_Lake_connected_USD:
+        type: float
+      Capex_total_HP_Server_connected_USD:
+        type: float
+      Capex_total_HP_Sewage_connected_USD:
+        type: float
+      Capex_total_PVT_connected_USD:
+        type: float
+      Capex_total_PV_connected_USD:
+        type: float
+      Capex_total_PeakBoiler_NG_connected_USD:
+        type: float
+      Capex_total_SC_ET_connected_USD:
+        type: float
+      Capex_total_SC_FP_connected_USD:
+        type: float
+      Capex_total_SeasonalStorage_WS_connected_USD:
+        type: float
+      Capex_total_SubstationsHeating_connected_USD:
+        type: float
+      GHG_DB_connected_tonCO2yr:
+        type: float
+      GHG_GRID_exports_connected_tonCO2yr:
+        type: float
+      GHG_GRID_imports_connected_tonCO2yr:
+        type: float
+      GHG_NG_connected_tonCO2yr:
+        type: float
+      GHG_WB_connected_tonCO2yr:
+        type: float
+      Opex_fixed_BackupBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_BaseBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_CHP_NG_connected_USD:
+        type: float
+      Opex_fixed_DHN_connected_USD:
+        type: float
+      Opex_fixed_Furnace_dry_connected_USD:
+        type: float
+      Opex_fixed_Furnace_wet_connected_USD:
+        type: float
+      Opex_fixed_GHP_connected_USD:
+        type: float
+      Opex_fixed_GRID_connected_USD:
+        type: float
+      Opex_fixed_HP_Lake_connected_USD:
+        type: float
+      Opex_fixed_HP_Server_connected_USD:
+        type: float
+      Opex_fixed_HP_Sewage_connected_USD:
+        type: float
+      Opex_fixed_PVT_connected_USD:
+        type: float
+      Opex_fixed_PV_connected_USD:
+        type: float
+      Opex_fixed_PeakBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_SC_ET_connected_USD:
+        type: float
+      Opex_fixed_SC_FP_connected_USD:
+        type: float
+      Opex_fixed_SeasonalStorage_WS_connected_USD:
+        type: float
+      Opex_fixed_SubstationsHeating_connected_USD:
+        type: float
+      Opex_var_DB_connected_USD:
+        type: float
+      Opex_var_GRID_exports_connected_USD:
+        type: float
+      Opex_var_GRID_imports_connected_USD:
+        type: float
+      Opex_var_NG_connected_USD:
+        type: float
+      Opex_var_WB_connected_USD:
+        type: float
+      PEN_DB_connected_MJoilyr:
+        type: float
+      PEN_GRID_exports_connected_MJoilyr:
+        type: float
+      PEN_GRID_imports_connected_MJoilyr:
+        type: float
+      PEN_NG_connected_MJoilyr:
+        type: float
+      PEN_WB_connected_MJoilyr:
+        type: float
+      'Unnamed: 0':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+  used_by: []
+get_optimization_generation_disconnected_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/gen_2_disconnected_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_cooling_disconnected_USD:
+        type: float
+      Capex_a_heating_disconnected_USD:
+        type: float
+      Capex_total_cooling_disconnected_USD:
+        type: float
+      Capex_total_heating_disconnected_USD:
+        type: float
+      GHG_cooling_disconnected_tonCO2:
+        type: float
+      GHG_heating_disconnected_tonCO2:
+        type: float
+      Opex_fixed_cooling_disconnected_USD:
+        type: float
+      Opex_fixed_heating_disconnected_USD:
+        type: float
+      Opex_var_cooling_disconnected_USD:
+        type: float
+      Opex_var_heating_disconnected_USD:
+        type: float
+      PEN_cooling_disconnected_MJoil:
+        type: float
+      PEN_heating_disconnected_MJoil:
+        type: float
+      'Unnamed: 0':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+  used_by: []
+get_optimization_generation_total_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/gen_2_total_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_sys_USD:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      Capex_total_sys_USD:
+        type: float
+      Capex_total_sys_connected_USD:
+        type: float
+      Capex_total_sys_disconnected_USD:
+        type: float
+      GHG_sys_connected_tonCO2:
+        type: float
+      GHG_sys_disconnected_tonCO2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      Opex_a_sys_USD:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PEN_sys_MJoil:
+        type: float
+      PEN_sys_connected_MJoil:
+        type: float
+      PEN_sys_disconnected_MJoil:
+        type: float
+      TAC_sys_USD:
+        type: float
+      TAC_sys_connected_USD:
+        type: float
+      TAC_sys_disconnected_USD:
+        type: float
+      'Unnamed: 0':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+  used_by: []
+get_optimization_generation_total_performance_halloffame:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/gen_1_total_performance_halloffame.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_sys_USD:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      Capex_total_sys_USD:
+        type: float
+      Capex_total_sys_connected_USD:
+        type: float
+      Capex_total_sys_disconnected_USD:
+        type: float
+      GHG_sys_connected_tonCO2:
+        type: float
+      GHG_sys_disconnected_tonCO2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      Opex_a_sys_USD:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PEN_sys_MJoil:
+        type: float
+      PEN_sys_connected_MJoil:
+        type: float
+      PEN_sys_disconnected_MJoil:
+        type: float
+      TAC_sys_USD:
+        type: float
+      TAC_sys_connected_USD:
+        type: float
+      TAC_sys_disconnected_USD:
+        type: float
+      'Unnamed: 0':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+  used_by: []
+get_optimization_generation_total_performance_pareto:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/gen_2_total_performance_pareto.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_sys_USD:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      Capex_total_sys_USD:
+        type: float
+      Capex_total_sys_connected_USD:
+        type: float
+      Capex_total_sys_disconnected_USD:
+        type: float
+      GHG_sys_connected_tonCO2:
+        type: float
+      GHG_sys_disconnected_tonCO2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      Opex_a_sys_USD:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PEN_sys_MJoil:
+        type: float
+      PEN_sys_connected_MJoil:
+        type: float
+      PEN_sys_disconnected_MJoil:
+        type: float
+      TAC_sys_USD:
+        type: float
+      TAC_sys_connected_USD:
+        type: float
+      TAC_sys_disconnected_USD:
+        type: float
+      'Unnamed: 0':
+        type: int
+      generation:
+        type: int
+      individual:
+        type: int
+      individual_name:
+        type: string
+  used_by:
+  - multi_criteria_analysis
+get_optimization_individuals_in_generation:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/generation_2_individuals.csv
+  file_type: csv
+  schema:
+    columns:
+      B01_DH:
+        type: int
+      B02_DH:
+        type: int
+      B03_DH:
+        type: int
+      B04_DH:
+        type: int
+      B05_DH:
+        type: int
+      B06_DH:
+        type: int
+      B07_DH:
+        type: int
+      B08_DH:
+        type: int
+      B09_DH:
+        type: int
+      DB_Cogen:
+        type: float
+      DS_HP:
+        type: float
+      GS_HP:
+        type: float
+      NG_BaseBoiler:
+        type: float
+      NG_Cogen:
+        type: float
+      NG_PeakBoiler:
+        type: float
+      PV:
+        type: float
+      PVT:
+        type: float
+      SC_ET:
+        type: float
+      SC_FP:
+        type: float
+      SS_HP:
+        type: float
+      'Unnamed: 0':
+        type: int
+      WB_Cogen:
+        type: float
+      WS_HP:
+        type: float
+      generation:
+        type: int
+      individual:
+        type: int
+  used_by: []
+get_optimization_network_results_summary:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/network/DH_Network_summary_result_0x1be.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      Q_DHNf_W:
+        type: float
+      Q_DH_losses_W:
+        type: float
+      Qcdata_netw_total_kWh:
+        type: float
+      T_DHNf_re_K:
+        type: float
+      T_DHNf_sup_K:
+        type: float
+      mcpdata_netw_total_kWperC:
+        type: float
+      mdot_DH_netw_total_kgpers:
+        type: float
+  used_by:
+  - optimization
+get_optimization_slave_building_connectivity:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/ind_1_building_connectivity.csv
+  file_type: csv
+  schema:
+    columns:
+      DC_connectivity:
+        type: int
+      DH_connectivity:
+        type: int
+      Name:
+        type: string
+  used_by: []
+get_optimization_slave_connected_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_2_buildings_connected_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_BackupBoiler_NG_connected_USD:
+        type: float
+      Capex_a_BaseBoiler_NG_connected_USD:
+        type: float
+      Capex_a_CHP_NG_connected_USD:
+        type: float
+      Capex_a_DHN_connected_USD:
+        type: float
+      Capex_a_Furnace_dry_connected_USD:
+        type: float
+      Capex_a_Furnace_wet_connected_USD:
+        type: float
+      Capex_a_GHP_connected_USD:
+        type: float
+      Capex_a_GRID_connected_USD:
+        type: float
+      Capex_a_HP_Lake_connected_USD:
+        type: float
+      Capex_a_HP_Server_connected_USD:
+        type: float
+      Capex_a_HP_Sewage_connected_USD:
+        type: float
+      Capex_a_PVT_connected_USD:
+        type: float
+      Capex_a_PV_connected_USD:
+        type: float
+      Capex_a_PeakBoiler_NG_connected_USD:
+        type: float
+      Capex_a_SC_ET_connected_USD:
+        type: float
+      Capex_a_SC_FP_connected_USD:
+        type: float
+      Capex_a_SeasonalStorage_WS_connected_USD:
+        type: float
+      Capex_a_SubstationsHeating_connected_USD:
+        type: float
+      Capex_total_BackupBoiler_NG_connected_USD:
+        type: float
+      Capex_total_BaseBoiler_NG_connected_USD:
+        type: float
+      Capex_total_CHP_NG_connected_USD:
+        type: float
+      Capex_total_DHN_connected_USD:
+        type: float
+      Capex_total_Furnace_dry_connected_USD:
+        type: float
+      Capex_total_Furnace_wet_connected_USD:
+        type: float
+      Capex_total_GHP_connected_USD:
+        type: float
+      Capex_total_GRID_connected_USD:
+        type: float
+      Capex_total_HP_Lake_connected_USD:
+        type: float
+      Capex_total_HP_Server_connected_USD:
+        type: float
+      Capex_total_HP_Sewage_connected_USD:
+        type: float
+      Capex_total_PVT_connected_USD:
+        type: float
+      Capex_total_PV_connected_USD:
+        type: float
+      Capex_total_PeakBoiler_NG_connected_USD:
+        type: float
+      Capex_total_SC_ET_connected_USD:
+        type: float
+      Capex_total_SC_FP_connected_USD:
+        type: float
+      Capex_total_SeasonalStorage_WS_connected_USD:
+        type: float
+      Capex_total_SubstationsHeating_connected_USD:
+        type: float
+      GHG_DB_connected_tonCO2yr:
+        type: float
+      GHG_GRID_exports_connected_tonCO2yr:
+        type: float
+      GHG_GRID_imports_connected_tonCO2yr:
+        type: float
+      GHG_NG_connected_tonCO2yr:
+        type: float
+      GHG_WB_connected_tonCO2yr:
+        type: float
+      Opex_fixed_BackupBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_BaseBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_CHP_NG_connected_USD:
+        type: float
+      Opex_fixed_DHN_connected_USD:
+        type: float
+      Opex_fixed_Furnace_dry_connected_USD:
+        type: float
+      Opex_fixed_Furnace_wet_connected_USD:
+        type: float
+      Opex_fixed_GHP_connected_USD:
+        type: float
+      Opex_fixed_GRID_connected_USD:
+        type: float
+      Opex_fixed_HP_Lake_connected_USD:
+        type: float
+      Opex_fixed_HP_Server_connected_USD:
+        type: float
+      Opex_fixed_HP_Sewage_connected_USD:
+        type: float
+      Opex_fixed_PVT_connected_USD:
+        type: float
+      Opex_fixed_PV_connected_USD:
+        type: float
+      Opex_fixed_PeakBoiler_NG_connected_USD:
+        type: float
+      Opex_fixed_SC_ET_connected_USD:
+        type: float
+      Opex_fixed_SC_FP_connected_USD:
+        type: float
+      Opex_fixed_SeasonalStorage_WS_connected_USD:
+        type: float
+      Opex_fixed_SubstationsHeating_connected_USD:
+        type: float
+      Opex_var_DB_connected_USD:
+        type: float
+      Opex_var_GRID_exports_connected_USD:
+        type: float
+      Opex_var_GRID_imports_connected_USD:
+        type: float
+      Opex_var_NG_connected_USD:
+        type: float
+      Opex_var_WB_connected_USD:
+        type: float
+      PEN_DB_connected_MJoilyr:
+        type: float
+      PEN_GRID_exports_connected_MJoilyr:
+        type: float
+      PEN_GRID_imports_connected_MJoilyr:
+        type: float
+      PEN_NG_connected_MJoilyr:
+        type: float
+      PEN_WB_connected_MJoilyr:
+        type: float
+  used_by: []
+get_optimization_slave_cooling_activation_pattern:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_2_Cooling_Activation_Pattern.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+  used_by: []
+get_optimization_slave_disconnected_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/ind_0_buildings_disconnected_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_cooling_disconnected_USD:
+        type: float
+      Capex_a_heating_disconnected_USD:
+        type: float
+      Capex_total_cooling_disconnected_USD:
+        type: float
+      Capex_total_heating_disconnected_USD:
+        type: float
+      GHG_cooling_disconnected_tonCO2:
+        type: float
+      GHG_heating_disconnected_tonCO2:
+        type: float
+      Opex_fixed_cooling_disconnected_USD:
+        type: float
+      Opex_fixed_heating_disconnected_USD:
+        type: float
+      Opex_var_cooling_disconnected_USD:
+        type: float
+      Opex_var_heating_disconnected_USD:
+        type: float
+      PEN_cooling_disconnected_MJoil:
+        type: float
+      PEN_heating_disconnected_MJoil:
+        type: float
+  used_by: []
+get_optimization_slave_electricity_activation_pattern:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_1_Electricity_Activation_Pattern.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      E_CHP_gen_directload_W:
+        type: float
+      E_CHP_gen_export_W:
+        type: float
+      E_Furnace_dry_gen_directload_W:
+        type: float
+      E_Furnace_dry_gen_export_W:
+        type: float
+      E_Furnace_wet_gen_directload_W:
+        type: float
+      E_Furnace_wet_gen_export_W:
+        type: float
+      E_GRID_directload_W:
+        type: float
+      E_PVT_gen_directload_W:
+        type: float
+      E_PVT_gen_export_W:
+        type: float
+      E_PV_gen_directload_W:
+        type: float
+      E_PV_gen_export_W:
+        type: float
+      E_Trigen_gen_directload_W:
+        type: float
+      E_Trigen_gen_export_W:
+        type: float
+  used_by: []
+get_optimization_slave_electricity_requirements_data:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_1/ind_1_Electricity_Requirements_Pattern.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      E_BackupBoiler_req_W:
+        type: float
+      E_BackupVCC_AS_req_W:
+        type: float
+      E_BaseBoiler_req_W:
+        type: float
+      E_BaseVCC_AS_req_W:
+        type: float
+      E_BaseVCC_WS_req_W:
+        type: float
+      E_DCN_req_W:
+        type: float
+      E_DHN_req_W:
+        type: float
+      E_GHP_req_W:
+        type: float
+      E_HP_Lake_req_W:
+        type: float
+      E_HP_PVT_req_W:
+        type: float
+      E_HP_SC_ET_req_W:
+        type: float
+      E_HP_SC_FP_req_W:
+        type: float
+      E_HP_Server_req_W:
+        type: float
+      E_HP_Sew_req_W:
+        type: float
+      E_PeakBoiler_req_W:
+        type: float
+      E_PeakVCC_AS_req_W:
+        type: float
+      E_PeakVCC_WS_req_W:
+        type: float
+      E_Storage_charging_req_W:
+        type: float
+      E_Storage_discharging_req_W:
+        type: float
+      E_cs_cre_cdata_req_connected_W:
+        type: float
+      E_cs_cre_cdata_req_disconnected_W:
+        type: float
+      E_electricalnetwork_sys_req_W:
+        type: float
+      E_hs_ww_req_connected_W:
+        type: float
+      E_hs_ww_req_disconnected_W:
+        type: float
+      Eal_req_W:
+        type: float
+      Eaux_req_W:
+        type: float
+      Edata_req_W:
+        type: float
+      Epro_req_W:
+        type: float
+  used_by: []
+get_optimization_slave_heating_activation_pattern:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_2/ind_0_Heating_Activation_Pattern.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      E_CHP_gen_W:
+        type: float
+      E_Furnace_dry_gen_W:
+        type: float
+      E_Furnace_wet_gen_W:
+        type: float
+      E_PVT_gen_W:
+        type: float
+      Q_BackupBoiler_gen_directload_W:
+        type: float
+      Q_BaseBoiler_gen_directload_W:
+        type: float
+      Q_CHP_gen_directload_W:
+        type: float
+      Q_Furnace_dry_gen_directload_W:
+        type: float
+      Q_Furnace_wet_gen_directload_W:
+        type: float
+      Q_GHP_gen_directload_W:
+        type: float
+      Q_HP_Lake_gen_directload_W:
+        type: float
+      Q_HP_Server_gen_directload_W:
+        type: float
+      Q_HP_Server_storage_W:
+        type: float
+      Q_HP_Sew_gen_directload_W:
+        type: float
+      Q_PVT_gen_directload_W:
+        type: float
+      Q_PVT_gen_storage_W:
+        type: float
+      Q_PeakBoiler_gen_directload_W:
+        type: float
+      Q_SC_ET_gen_directload_W:
+        type: float
+      Q_SC_ET_gen_storage_W:
+        type: float
+      Q_SC_FP_gen_directload_W:
+        type: float
+      Q_SC_FP_gen_storage_W:
+        type: float
+      Q_Storage_gen_directload_W:
+        type: float
+      Q_districtheating_sys_req_W:
+        type: float
+  used_by: []
+get_optimization_slave_total_performance:
+  created_by:
+  - optimization
+  file_path: outputs/data/optimization/slave/gen_0/ind_2_total_performance.csv
+  file_type: csv
+  schema:
+    columns:
+      Capex_a_sys_USD:
+        type: float
+      Capex_a_sys_connected_USD:
+        type: float
+      Capex_a_sys_disconnected_USD:
+        type: float
+      Capex_total_sys_USD:
+        type: float
+      Capex_total_sys_connected_USD:
+        type: float
+      Capex_total_sys_disconnected_USD:
+        type: float
+      GHG_sys_connected_tonCO2:
+        type: float
+      GHG_sys_disconnected_tonCO2:
+        type: float
+      GHG_sys_tonCO2:
+        type: float
+      Opex_a_sys_USD:
+        type: float
+      Opex_a_sys_connected_USD:
+        type: float
+      Opex_a_sys_disconnected_USD:
+        type: float
+      PEN_sys_MJoil:
+        type: float
+      PEN_sys_connected_MJoil:
+        type: float
+      PEN_sys_disconnected_MJoil:
+        type: float
+      TAC_sys_USD:
+        type: float
+      TAC_sys_connected_USD:
+        type: float
+      TAC_sys_disconnected_USD:
+        type: float
+  used_by: []
+get_optimization_substations_results_file:
+  created_by:
+  - decentralized
+  - optimization
+  - thermal_network
+  file_path: outputs/data/optimization/substations/110011011DH_B001_result.csv
+  file_type: csv
+  schema:
+    columns:
+      A_hex_dhw_design_m2:
+        type: float
+      A_hex_heating_design_m2:
+        type: float
+      Q_dhw_W:
+        type: float
+      Q_heating_W:
+        type: float
+      T_return_DH_result_K:
+        type: float
+      T_supply_DH_result_K:
+        type: float
+      mdot_DH_result_kgpers:
+        type: float
+  used_by:
+  - optimization
+get_optimization_substations_total_file:
+  created_by:
+  - optimization
+  - thermal_network
+  file_path: outputs/data/optimization/substations/Total_DH_111111111.csv
+  file_type: csv
+  schema:
+    columns:
+      Af_m2:
+        type: float
+      Aocc_m2:
+        type: float
+      Aroof_m2:
+        type: float
+      COAL_hs0_kW:
+        type: float
+      COAL_hs_MWhyr:
+        type: float
+      COAL_ww0_kW:
+        type: float
+      COAL_ww_MWhyr:
+        type: float
+      DC_cdata0_kW:
+        type: float
+      DC_cdata_MWhyr:
+        type: float
+      DC_cre0_kW:
+        type: float
+      DC_cre_MWhyr:
+        type: float
+      DC_cs0_kW:
+        type: float
+      DC_cs_MWhyr:
+        type: float
+      DH_hs0_kW:
+        type: float
+      DH_hs_MWhyr:
+        type: float
+      DH_ww0_kW:
+        type: float
+      DH_ww_MWhyr:
+        type: float
+      E_cdata0_kW:
+        type: float
+      E_cdata_MWhyr:
+        type: float
+      E_cre0_kW:
+        type: float
+      E_cre_MWhyr:
+        type: float
+      E_cs0_kW:
+        type: float
+      E_cs_MWhyr:
+        type: float
+      E_hs0_kW:
+        type: float
+      E_hs_MWhyr:
+        type: float
+      E_sys0_kW:
+        type: float
+      E_sys_MWhyr:
+        type: float
+      E_ww0_kW:
+        type: float
+      E_ww_MWhyr:
+        type: float
+      Ea0_kW:
+        type: float
+      Ea_MWhyr:
+        type: float
+      Eal0_kW:
+        type: float
+      Eal_MWhyr:
+        type: float
+      Eaux0_kW:
+        type: float
+      Eaux_MWhyr:
+        type: float
+      Edata0_kW:
+        type: float
+      Edata_MWhyr:
+        type: float
+      El0_kW:
+        type: float
+      El_MWhyr:
+        type: float
+      Epro0_kW:
+        type: float
+      Epro_MWhyr:
+        type: float
+      GFA_m2:
+        type: float
+      GRID0_kW:
+        type: float
+      GRID_MWhyr:
+        type: float
+      GRID_a0_kW:
+        type: float
+      GRID_a_MWhyr:
+        type: float
+      GRID_aux0_kW:
+        type: float
+      GRID_aux_MWhyr:
+        type: float
+      GRID_cdata0_kW:
+        type: float
+      GRID_cdata_MWhyr:
+        type: float
+      GRID_cre0_kW:
+        type: float
+      GRID_cre_MWhyr:
+        type: float
+      GRID_cs0_kW:
+        type: float
+      GRID_cs_MWhyr:
+        type: float
+      GRID_data0_kW:
+        type: float
+      GRID_data_MWhyr:
+        type: float
+      GRID_hs0_kW:
+        type: float
+      GRID_hs_MWhyr:
+        type: float
+      GRID_l0_kW:
+        type: float
+      GRID_l_MWhyr:
+        type: float
+      GRID_pro0_kW:
+        type: float
+      GRID_pro_MWhyr:
+        type: float
+      GRID_ww0_kW:
+        type: float
+      GRID_ww_MWhyr:
+        type: float
+      NG_hs0_kW:
+        type: float
+      NG_hs_MWhyr:
+        type: float
+      NG_ww0_kW:
+        type: float
+      NG_ww_MWhyr:
+        type: float
+      Name:
+        type: string
+      OIL_hs0_kW:
+        type: float
+      OIL_hs_MWhyr:
+        type: float
+      OIL_ww0_kW:
+        type: float
+      OIL_ww_MWhyr:
+        type: float
+      PV0_kW:
+        type: float
+      PV_MWhyr:
+        type: float
+      QC_sys0_kW:
+        type: float
+      QC_sys_MWhyr:
+        type: float
+      QH_sys0_kW:
+        type: float
+      QH_sys_MWhyr:
+        type: float
+      Qcdata0_kW:
+        type: float
+      Qcdata_MWhyr:
+        type: float
+      Qcdata_sys0_kW:
+        type: float
+      Qcdata_sys_MWhyr:
+        type: float
+      Qcpro_sys0_kW:
+        type: float
+      Qcpro_sys_MWhyr:
+        type: float
+      Qcre0_kW:
+        type: float
+      Qcre_MWhyr:
+        type: float
+      Qcre_sys0_kW:
+        type: float
+      Qcre_sys_MWhyr:
+        type: float
+      Qcs0_kW:
+        type: float
+      Qcs_MWhyr:
+        type: float
+      Qcs_dis_ls0_kW:
+        type: float
+      Qcs_dis_ls_MWhyr:
+        type: float
+      Qcs_em_ls0_kW:
+        type: float
+      Qcs_em_ls_MWhyr:
+        type: float
+      Qcs_lat_ahu0_kW:
+        type: float
+      Qcs_lat_ahu_MWhyr:
+        type: float
+      Qcs_lat_aru0_kW:
+        type: float
+      Qcs_lat_aru_MWhyr:
+        type: float
+      Qcs_lat_sys0_kW:
+        type: float
+      Qcs_lat_sys_MWhyr:
+        type: float
+      Qcs_sen_ahu0_kW:
+        type: float
+      Qcs_sen_ahu_MWhyr:
+        type: float
+      Qcs_sen_aru0_kW:
+        type: float
+      Qcs_sen_aru_MWhyr:
+        type: float
+      Qcs_sen_scu0_kW:
+        type: float
+      Qcs_sen_scu_MWhyr:
+        type: float
+      Qcs_sen_sys0_kW:
+        type: float
+      Qcs_sen_sys_MWhyr:
+        type: float
+      Qcs_sys0_kW:
+        type: float
+      Qcs_sys_MWhyr:
+        type: float
+      Qcs_sys_ahu0_kW:
+        type: float
+      Qcs_sys_ahu_MWhyr:
+        type: float
+      Qcs_sys_aru0_kW:
+        type: float
+      Qcs_sys_aru_MWhyr:
+        type: float
+      Qcs_sys_scu0_kW:
+        type: float
+      Qcs_sys_scu_MWhyr:
+        type: float
+      Qhpro_sys0_kW:
+        type: float
+      Qhpro_sys_MWhyr:
+        type: float
+      Qhs0_kW:
+        type: float
+      Qhs_MWhyr:
+        type: float
+      Qhs_dis_ls0_kW:
+        type: float
+      Qhs_dis_ls_MWhyr:
+        type: float
+      Qhs_em_ls0_kW:
+        type: float
+      Qhs_em_ls_MWhyr:
+        type: float
+      Qhs_lat_ahu0_kW:
+        type: null
+      Qhs_lat_ahu_MWhyr:
+        type: null
+      Qhs_lat_aru0_kW:
+        type: null
+      Qhs_lat_aru_MWhyr:
+        type: null
+      Qhs_lat_sys0_kW:
+        type: float
+      Qhs_lat_sys_MWhyr:
+        type: float
+      Qhs_sen_ahu0_kW:
+        type: float
+      Qhs_sen_ahu_MWhyr:
+        type: float
+      Qhs_sen_aru0_kW:
+        type: float
+      Qhs_sen_aru_MWhyr:
+        type: float
+      Qhs_sen_shu0_kW:
+        type: float
+      Qhs_sen_shu_MWhyr:
+        type: float
+      Qhs_sen_sys0_kW:
+        type: float
+      Qhs_sen_sys_MWhyr:
+        type: float
+      Qhs_sys0_kW:
+        type: float
+      Qhs_sys_MWhyr:
+        type: float
+      Qhs_sys_ahu0_kW:
+        type: float
+      Qhs_sys_ahu_MWhyr:
+        type: float
+      Qhs_sys_aru0_kW:
+        type: float
+      Qhs_sys_aru_MWhyr:
+        type: float
+      Qhs_sys_shu0_kW:
+        type: float
+      Qhs_sys_shu_MWhyr:
+        type: float
+      Qww0_kW:
+        type: float
+      Qww_MWhyr:
+        type: float
+      Qww_sys0_kW:
+        type: float
+      Qww_sys_MWhyr:
+        type: float
+      SOLAR_hs0_kW:
+        type: float
+      SOLAR_hs_MWhyr:
+        type: float
+      SOLAR_ww0_kW:
+        type: float
+      SOLAR_ww_MWhyr:
+        type: float
+      'Unnamed: 0':
+        type: int
+      WOOD_hs0_kW:
+        type: float
+      WOOD_hs_MWhyr:
+        type: float
+      WOOD_ww0_kW:
+        type: float
+      WOOD_ww_MWhyr:
+        type: float
+      people0:
+        type: float
+  used_by: []
+get_optimization_thermal_network_data_file:
+  created_by: []
+  file_path: outputs/data/optimization/network/DH_Network_summary_result_0x19b.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      Q_DHNf_W:
+        type: float
+      Q_DH_losses_W:
+        type: float
+      Qcdata_netw_total_kWh:
+        type: float
+      T_DHNf_re_K:
+        type: float
+      T_DHNf_sup_K:
+        type: float
+      mcpdata_netw_total_kWperC:
+        type: float
+      mdot_DH_netw_total_kgpers:
+        type: float
+  used_by:
+  - optimization
+get_radiation_building:
+  created_by:
+  - radiation
+  file_path: outputs/data/solar-radiation/B001_radiation.csv
+  file_type: csv
+  schema:
+    columns:
+      Date:
+        type: date
+      roofs_top_kW:
+        type: float
+      roofs_top_m2:
+        type: float
+      walls_east_kW:
+        type: float
+      walls_east_m2:
+        type: float
+      walls_north_kW:
+        type: float
+      walls_north_m2:
+        type: float
+      walls_south_kW:
+        type: float
+      walls_south_m2:
+        type: float
+      walls_west_kW:
+        type: float
+      walls_west_m2:
+        type: float
+      windows_east_kW:
+        type: float
+      windows_east_m2:
+        type: float
+      windows_north_kW:
+        type: float
+      windows_north_m2:
+        type: float
+      windows_south_kW:
+        type: float
+      windows_south_m2:
+        type: float
+      windows_west_kW:
+        type: float
+      windows_west_m2:
+        type: float
+  used_by:
+  - demand
+  - photovoltaic
+  - photovoltaic_thermal
+  - solar_collector
+get_radiation_building_sensors:
+  created_by:
+  - radiation
+  file_path: outputs/data/solar-radiation/B001_insolation_Whm2.json
+  file_type: json
+  schema:
+    columns:
+      srf0:
+        type: float
+  used_by:
+  - demand
+  - photovoltaic
+  - photovoltaic_thermal
+  - solar_collector
+get_radiation_materials:
+  created_by:
+  - radiation
+  file_path: outputs/data/solar-radiation/buidling_materials.csv
+  file_type: csv
+  schema:
+    columns:
+      G_win:
+        type: float
+      Name:
+        type: string
+      r_roof:
+        type: float
+      r_wall:
+        type: float
+      type_base:
+        type: string
+      type_floor:
+        type: string
+      type_roof:
+        type: string
+      type_wall:
+        type: string
+      type_win:
+        type: string
+  used_by: []
+get_radiation_metadata:
+  created_by:
+  - radiation
+  file_path: outputs/data/solar-radiation/B001_geometry.csv
+  file_type: csv
+  schema:
+    columns:
+      AREA_m2:
+        type: float
+      BUILDING:
+        type: string
+      SURFACE:
+        type: string
+      TYPE:
+        type: string
+      Xcoor:
+        type: float
+      Xdir:
+        type: float
+      Ycoor:
+        type: float
+      Ydir:
+        type: float
+      Zcoor:
+        type: float
+      Zdir:
+        type: float
+      intersection:
+        type: int
+      orientation:
+        type: string
+  used_by:
+  - demand
+  - photovoltaic
+  - photovoltaic_thermal
+  - solar_collector
+get_schedule_model_file:
+  created_by:
+  - schedule_maker
+  file_path: outputs/data/occupancy/B001.csv
+  file_type: csv
+  schema:
+    columns:
+      DATE:
+        type: date
+      Ea_W:
+        type: float
+      Ed_W:
+        type: float
+      El_W:
+        type: float
+      Epro_W:
+        type: float
+      Qcpro_W:
+        type: float
+      Qcre_W:
+        type: float
+      Qhpro_W:
+        type: float
+      Qs_W:
+        type: float
+      Tcs_set_C:
+        type: string
+      Ths_set_C:
+        type: string
+      Ve_lps:
+        type: float
+      Vw_lph:
+        type: float
+      Vww_lph:
+        type: float
+      X_gh:
+        type: float
+      people_pax:
+        type: float
+  used_by:
+  - demand
+get_sewage_heat_potential:
+  created_by:
+  - sewage_potential
+  file_path: outputs/data/potentials/Sewage_heat_potential.csv
+  file_type: csv
+  schema:
+    columns:
+      Qsw_kW:
+        type: float
+      T_in_HP_C:
+        type: float
+      T_in_sw_C:
+        type: float
+      T_out_HP_C:
+        type: float
+      T_out_sw_C:
+        type: float
+      Ts_C:
+        type: float
+      mww_zone_kWperC:
+        type: float
+  used_by:
+  - optimization
+get_street_network:
+  created_by: []
+  file_path: inputs/networks/streets.shp
+  file_type: shp
+  schema:
+    columns:
+      Id:
+        type: int
+      geometry:
+        type: LineString
+  used_by:
+  - network_layout
+  - optimization
+get_surroundings_geometry:
+  created_by: []
+  file_path: inputs/building-geometry/surroundings.shp
+  file_type: shp
+  schema:
+    columns:
+      Name:
+        type: string
+      floors_ag:
+        type: int
+      floors_bg:
+        type: int
+      geometry:
+        type: Polygon
+      height_ag:
+        type: float
+      height_bg:
+        type: float
+  used_by:
+  - radiation
+  - schedule_maker
+get_terrain:
+  created_by: []
+  file_path: inputs/topography/terrain.tif
+  file_type: tif
+  schema:
+    columns:
+      raster_value:
+        type: !!python/name:__builtin__.float ''
+  used_by:
+  - radiation
+  - schedule_maker
+get_thermal_demand_csv_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__thermal_demand_per_building_W.csv
+  file_type: csv
+  schema:
+    columns:
+      B01:
+        type: float
+  used_by: []
+get_thermal_network_edge_list_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__metadata_edges.csv
+  file_type: csv
+  schema:
+    columns:
+      D_int_m:
+        type: float
+      Pipe_DN:
+        type: int
+      Type_mat:
+        type: string
+      length_m:
+        type: float
+  used_by:
+  - optimization
+get_thermal_network_layout_massflow_edges_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__massflow_edges_kgs.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_thermal_network_layout_massflow_nodes_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__massflow_nodes_kgs.csv
+  file_type: csv
+  schema:
+    columns:
+      NODE0:
+        type: float
+  used_by: []
+get_thermal_network_node_types_csv_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__metadata_nodes.csv
+  file_type: csv
+  schema:
+    columns:
+      Building:
+        type: string
+      Type:
+        type: string
+  used_by: []
+get_thermal_network_plant_heat_requirement_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__plant_thermal_load_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      NONE:
+        type: float
+  used_by: []
+get_thermal_network_pressure_losses_edges_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__pressure_losses_edges_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_thermal_network_substation_ploss_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__pumping_load_due_to_substations_kW.csv
+  file_type: csv
+  schema:
+    columns:
+      B01:
+        type: float
+  used_by: []
+get_thermal_network_velocity_edges_file:
+  created_by:
+  - thermal_network
+  file_path: outputs/data/thermal-network/DH__velocity_edges_mpers.csv
+  file_type: csv
+  schema:
+    columns:
+      PIPE0:
+        type: float
+  used_by: []
+get_total_demand:
+  created_by:
+  - demand
+  file_path: outputs/data/demand/Total_demand.csv
+  file_type: csv
+  schema:
+    columns:
+      Af_m2:
+        type: float
+      Aocc_m2:
+        type: float
+      Aroof_m2:
+        type: float
+      COAL_hs0_kW:
+        type: float
+      COAL_hs_MWhyr:
+        type: float
+      COAL_ww0_kW:
+        type: float
+      COAL_ww_MWhyr:
+        type: float
+      DC_cdata0_kW:
+        type: float
+      DC_cdata_MWhyr:
+        type: float
+      DC_cre0_kW:
+        type: float
+      DC_cre_MWhyr:
+        type: float
+      DC_cs0_kW:
+        type: float
+      DC_cs_MWhyr:
+        type: float
+      DH_hs0_kW:
+        type: float
+      DH_hs_MWhyr:
+        type: float
+      DH_ww0_kW:
+        type: float
+      DH_ww_MWhyr:
+        type: float
+      E_cdata0_kW:
+        type: float
+      E_cdata_MWhyr:
+        type: float
+      E_cre0_kW:
+        type: float
+      E_cre_MWhyr:
+        type: float
+      E_cs0_kW:
+        type: float
+      E_cs_MWhyr:
+        type: float
+      E_hs0_kW:
+        type: float
+      E_hs_MWhyr:
+        type: float
+      E_sys0_kW:
+        type: float
+      E_sys_MWhyr:
+        type: float
+      E_ww0_kW:
+        type: float
+      E_ww_MWhyr:
+        type: float
+      Ea0_kW:
+        type: float
+      Ea_MWhyr:
+        type: float
+      Eal0_kW:
+        type: float
+      Eal_MWhyr:
+        type: float
+      Eaux0_kW:
+        type: float
+      Eaux_MWhyr:
+        type: float
+      Edata0_kW:
+        type: float
+      Edata_MWhyr:
+        type: float
+      El0_kW:
+        type: float
+      El_MWhyr:
+        type: float
+      Epro0_kW:
+        type: float
+      Epro_MWhyr:
+        type: float
+      GFA_m2:
+        type: float
+      GRID0_kW:
+        type: float
+      GRID_MWhyr:
+        type: float
+      GRID_a0_kW:
+        type: float
+      GRID_a_MWhyr:
+        type: float
+      GRID_aux0_kW:
+        type: float
+      GRID_aux_MWhyr:
+        type: float
+      GRID_cdata0_kW:
+        type: float
+      GRID_cdata_MWhyr:
+        type: float
+      GRID_cre0_kW:
+        type: float
+      GRID_cre_MWhyr:
+        type: float
+      GRID_cs0_kW:
+        type: float
+      GRID_cs_MWhyr:
+        type: float
+      GRID_data0_kW:
+        type: float
+      GRID_data_MWhyr:
+        type: float
+      GRID_hs0_kW:
+        type: float
+      GRID_hs_MWhyr:
+        type: float
+      GRID_l0_kW:
+        type: float
+      GRID_l_MWhyr:
+        type: float
+      GRID_pro0_kW:
+        type: float
+      GRID_pro_MWhyr:
+        type: float
+      GRID_ww0_kW:
+        type: float
+      GRID_ww_MWhyr:
+        type: float
+      NG_hs0_kW:
+        type: float
+      NG_hs_MWhyr:
+        type: float
+      NG_ww0_kW:
+        type: float
+      NG_ww_MWhyr:
+        type: float
+      Name:
+        type: string
+      OIL_hs0_kW:
+        type: float
+      OIL_hs_MWhyr:
+        type: float
+      OIL_ww0_kW:
+        type: float
+      OIL_ww_MWhyr:
+        type: float
+      PV0_kW:
+        type: float
+      PV_MWhyr:
+        type: float
+      QC_sys0_kW:
+        type: float
+      QC_sys_MWhyr:
+        type: float
+      QH_sys0_kW:
+        type: float
+      QH_sys_MWhyr:
+        type: float
+      Qcdata0_kW:
+        type: float
+      Qcdata_MWhyr:
+        type: float
+      Qcdata_sys0_kW:
+        type: float
+      Qcdata_sys_MWhyr:
+        type: float
+      Qcpro_sys0_kW:
+        type: float
+      Qcpro_sys_MWhyr:
+        type: float
+      Qcre0_kW:
+        type: float
+      Qcre_MWhyr:
+        type: float
+      Qcre_sys0_kW:
+        type: float
+      Qcre_sys_MWhyr:
+        type: float
+      Qcs0_kW:
+        type: float
+      Qcs_MWhyr:
+        type: float
+      Qcs_dis_ls0_kW:
+        type: float
+      Qcs_dis_ls_MWhyr:
+        type: float
+      Qcs_em_ls0_kW:
+        type: float
+      Qcs_em_ls_MWhyr:
+        type: float
+      Qcs_lat_ahu0_kW:
+        type: float
+      Qcs_lat_ahu_MWhyr:
+        type: float
+      Qcs_lat_aru0_kW:
+        type: float
+      Qcs_lat_aru_MWhyr:
+        type: float
+      Qcs_lat_sys0_kW:
+        type: float
+      Qcs_lat_sys_MWhyr:
+        type: float
+      Qcs_sen_ahu0_kW:
+        type: float
+      Qcs_sen_ahu_MWhyr:
+        type: float
+      Qcs_sen_aru0_kW:
+        type: float
+      Qcs_sen_aru_MWhyr:
+        type: float
+      Qcs_sen_scu0_kW:
+        type: float
+      Qcs_sen_scu_MWhyr:
+        type: float
+      Qcs_sen_sys0_kW:
+        type: float
+      Qcs_sen_sys_MWhyr:
+        type: float
+      Qcs_sys0_kW:
+        type: float
+      Qcs_sys_MWhyr:
+        type: float
+      Qcs_sys_ahu0_kW:
+        type: float
+      Qcs_sys_ahu_MWhyr:
+        type: float
+      Qcs_sys_aru0_kW:
+        type: float
+      Qcs_sys_aru_MWhyr:
+        type: float
+      Qcs_sys_scu0_kW:
+        type: float
+      Qcs_sys_scu_MWhyr:
+        type: float
+      Qhpro_sys0_kW:
+        type: float
+      Qhpro_sys_MWhyr:
+        type: float
+      Qhs0_kW:
+        type: float
+      Qhs_MWhyr:
+        type: float
+      Qhs_dis_ls0_kW:
+        type: float
+      Qhs_dis_ls_MWhyr:
+        type: float
+      Qhs_em_ls0_kW:
+        type: float
+      Qhs_em_ls_MWhyr:
+        type: float
+      Qhs_lat_ahu0_kW:
+        type: null
+      Qhs_lat_ahu_MWhyr:
+        type: null
+      Qhs_lat_aru0_kW:
+        type: null
+      Qhs_lat_aru_MWhyr:
+        type: null
+      Qhs_lat_sys0_kW:
+        type: float
+      Qhs_lat_sys_MWhyr:
+        type: float
+      Qhs_sen_ahu0_kW:
+        type: float
+      Qhs_sen_ahu_MWhyr:
+        type: float
+      Qhs_sen_aru0_kW:
+        type: float
+      Qhs_sen_aru_MWhyr:
+        type: float
+      Qhs_sen_shu0_kW:
+        type: float
+      Qhs_sen_shu_MWhyr:
+        type: float
+      Qhs_sen_sys0_kW:
+        type: float
+      Qhs_sen_sys_MWhyr:
+        type: float
+      Qhs_sys0_kW:
+        type: float
+      Qhs_sys_MWhyr:
+        type: float
+      Qhs_sys_ahu0_kW:
+        type: float
+      Qhs_sys_ahu_MWhyr:
+        type: float
+      Qhs_sys_aru0_kW:
+        type: float
+      Qhs_sys_aru_MWhyr:
+        type: float
+      Qhs_sys_shu0_kW:
+        type: float
+      Qhs_sys_shu_MWhyr:
+        type: float
+      Qww0_kW:
+        type: float
+      Qww_MWhyr:
+        type: float
+      Qww_sys0_kW:
+        type: float
+      Qww_sys_MWhyr:
+        type: float
+      SOLAR_hs0_kW:
+        type: float
+      SOLAR_hs_MWhyr:
+        type: float
+      SOLAR_ww0_kW:
+        type: float
+      SOLAR_ww_MWhyr:
+        type: float
+      WOOD_hs0_kW:
+        type: float
+      WOOD_hs_MWhyr:
+        type: float
+      WOOD_ww0_kW:
+        type: float
+      WOOD_ww_MWhyr:
+        type: float
+      people0:
+        type: float
+  used_by:
+  - decentralized
+  - emissions
+  - network_layout
+  - system_costs
+  - optimization
+  - sewage_potential
+  - thermal_network
+get_water_body_potential:
+  created_by:
+  - water_body_potential
+  file_path: outputs/data/potentials/Water_body_potential.csv
+  file_type: csv
+  schema:
+    columns:
+      QLake_kW:
+        type: float
+      Ts_C:
+        type: float
+  used_by:
+  - optimization
+get_weather:
+  created_by: []
+  file_path: databases/weather/Zug-inducity_1990_2010_TMY.epw
+  file_type: epw
+  schema:
+    columns:
+      Albedo (index = 32):
+        type: float
+      aerosol_opt_thousandths (index = 29):
+        type: float
+      atmos_Pa (index = 9):
+        type: int
+      ceiling_hgt_m (index = 25):
+        type: int
+      datasource (index = 5):
+        type: string
+      day (index = 2):
+        type: int
+      days_last_snow (index = 31):
+        type: int
+      dewpoint_C (index = 7):
+        type: float
+      difhorillum_lux (index = 18):
+        type: int
+      difhorrad_Whm2 (index = 15):
+        type: int
+      dirnorillum_lux (index = 17):
+        type: int
+      dirnorrad_Whm2 (index = 14):
+        type: int
+      drybulb_C (index = 6):
+        type: float
+      extdirrad_Whm2 (index = 11):
+        type: int
+      exthorrad_Whm2 (index = 10):
+        type: int
+      glohorillum_lux (index = 16):
+        type: int
+      glohorrad_Whm2 (index = 13):
+        type: int
+      horirsky_Whm2 (index = 12):
+        type: int
+      hour (index = 3):
+        type: int
+      liq_precip_depth_mm (index = 33):
+        type: float
+      liq_precip_rate_Hour (index = 34):
+        type: float
+      minute (index = 4):
+        type: int
+      month (index = 1):
+        type: int
+      opaqskycvr_tenths (index = 23):
+        type: int
+      precip_wtr_mm (index = 28):
+        type: int
+      presweathcodes (index = 27):
+        type: int
+      presweathobs (index = 26):
+        type: int
+      relhum_percent (index = 8):
+        type: int
+      snowdepth_cm (index = 30):
+        type: int
+      totskycvr_tenths (index = 22):
+        type: int
+      visibility_km (index = 24):
+        type: int
+      winddir_deg (index = 20):
+        type: int
+      windspd_ms (index = 21):
+        type: float
+      year (index = 0):
+        type: int
+      zenlum_lux (index = 19):
+        type: int
+  used_by:
+  - weather_helper
+get_weather_file:
+  created_by:
+  - weather_helper
+  file_path: inputs/weather/weather.epw
+  file_type: epw
+  schema:
+    columns:
+      Albedo (index = 32):
+        type: float
+      aerosol_opt_thousandths (index = 29):
+        type: float
+      atmos_Pa (index = 9):
+        type: int
+      ceiling_hgt_m (index = 25):
+        type: int
+      datasource (index = 5):
+        type: string
+      day (index = 2):
+        type: int
+      days_last_snow (index = 31):
+        type: int
+      dewpoint_C (index = 7):
+        type: float
+      difhorillum_lux (index = 18):
+        type: int
+      difhorrad_Whm2 (index = 15):
+        type: int
+      dirnorillum_lux (index = 17):
+        type: int
+      dirnorrad_Whm2 (index = 14):
+        type: int
+      drybulb_C (index = 6):
+        type: float
+      extdirrad_Whm2 (index = 11):
+        type: int
+      exthorrad_Whm2 (index = 10):
+        type: int
+      glohorillum_lux (index = 16):
+        type: int
+      glohorrad_Whm2 (index = 13):
+        type: int
+      horirsky_Whm2 (index = 12):
+        type: int
+      hour (index = 3):
+        type: int
+      liq_precip_depth_mm (index = 33):
+        type: float
+      liq_precip_rate_Hour (index = 34):
+        type: float
+      minute (index = 4):
+        type: int
+      month (index = 1):
+        type: int
+      opaqskycvr_tenths (index = 23):
+        type: int
+      precip_wtr_mm (index = 28):
+        type: int
+      presweathcodes (index = 27):
+        type: int
+      presweathobs (index = 26):
+        type: int
+      relhum_percent (index = 8):
+        type: int
+      snowdepth_cm (index = 30):
+        type: int
+      totskycvr_tenths (index = 22):
+        type: int
+      visibility_km (index = 24):
+        type: int
+      winddir_deg (index = 20):
+        type: int
+      windspd_ms (index = 21):
+        type: float
+      year (index = 0):
+        type: int
+      zenlum_lux (index = 19):
+        type: int
+  used_by:
+  - decentralized
+  - demand
+  - optimization
+  - photovoltaic
+  - photovoltaic_thermal
+  - radiation
+  - schedule_maker
+  - shallow_geothermal_potential
+  - solar_collector
+  - thermal_network
+get_zone_geometry:
+  created_by: []
+  file_path: inputs/building-geometry/zone.shp
+  file_type: shp
+  schema:
+    columns:
+      Name:
+        type: string
+      floors_ag:
+        type: int
+      floors_bg:
+        type: int
+      geometry:
+        type: Polygon
+      height_ag:
+        type: float
+      height_bg:
+        type: float
+  used_by:
+  - archetypes_mapper
+  - decentralized
+  - demand
+  - emissions
+  - network_layout
+  - optimization
+  - photovoltaic
+  - photovoltaic_thermal
+  - radiation
+  - schedule_maker
+  - sewage_potential
+  - shallow_geothermal_potential
+  - solar_collector
+  - thermal_network
