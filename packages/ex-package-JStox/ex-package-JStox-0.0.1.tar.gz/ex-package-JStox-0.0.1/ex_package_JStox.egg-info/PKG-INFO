@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: ex-package-JStox
+Version: 0.0.1
+Summary: An example package
+Home-page: https://www.github.com/JStox/example_package
+Author: JStox
+License: UNKNOWN
+Description: This is my first attempt at package creation. I am doing this to show that I can make a package and to give myself a guideline of how to do it in the future.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
