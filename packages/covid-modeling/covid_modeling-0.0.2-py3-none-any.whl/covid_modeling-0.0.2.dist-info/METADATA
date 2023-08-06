@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: covid-modeling
+Version: 0.0.2
+Summary: COVID-19 Modeling
+Home-page: https://github.com/josephsdavid/COVID-modeling
+Maintainer: David Josephs
+Maintainer-email: josephsd@smu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# COMODELS
+
+Models for COVID - 19
+
+For documentation, see the docstrings!
+Much more to come
+
+## Penn model
+
+```python
+# import the penn model
+from comodels.sir import Penn
+
+print(Penn.__doc__)
+tx = Penn(28304596, 223, 0)
+
+print(Penn.sir.__doc__)
+curve, occupancy = tx.sir(n_days = 23)
+
+print(curve.keys())
+print(occupancy.keys())
+```
+
+
