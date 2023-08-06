@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: libaio-bins
+Version: 0.0.1
+Summary: Libraries for libaio on Alpine Linux
+Home-page: https://github.com/spencer-hanson/libaio-turbo
+Author: Spencer Hanson
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: libaio
+Platform: UNKNOWN
+
+Libraries for libaio Turbo on Alpine Linux
+
+
