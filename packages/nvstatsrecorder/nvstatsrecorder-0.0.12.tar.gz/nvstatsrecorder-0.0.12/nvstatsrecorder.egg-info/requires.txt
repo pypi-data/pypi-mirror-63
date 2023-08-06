@@ -1,0 +1,5 @@
+psutil
+pynvml
+py3nvml
+matplotlib
+numpy
