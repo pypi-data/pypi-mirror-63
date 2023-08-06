@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aws-ecs-cluster
+Version: 1.0.1
+Summary: AWS CDK package that correctly manages ECS Cluster.
+Home-page: https://github.com/idenfy/AwsEcsCluster.git
+Author: Laimonas Sutkus
+Author-email: laimonas@idenfy.com, laimonas.sutkus@gmail.com
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Keywords: AWS CDK ECS Cluster
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.core (<1.28.0,>=1.27.0)
+Requires-Dist: aws-cdk.aws-cloudformation (<1.28.0,>=1.27.0)
+Requires-Dist: aws-cdk.aws-ec2 (<1.28.0,>=1.27.0)
+Requires-Dist: aws-cdk.aws-ecs (<1.28.0,>=1.27.0)
+Requires-Dist: aws-cdk.aws-iam (<1.28.0,>=1.27.0)
+Requires-Dist: aws-cdk.aws-lambda (<1.28.0,>=1.27.0)
+
+## AWS ECS Cluster
+
+A custom ECS Cluster resource with an ability to completely 
+delete itself (even if it contains active tasks within).
+
+#### Remarks
+
+The project is written by [Laimonas Sutkus](https://github.com/laimonassutkus) 
+and is owned by [iDenfy](https://github.com/idenfy). This is an open source
+library intended to be used by anyone. [iDenfy](https://github.com/idenfy) aims
+to share its knowledge and educate market for better and more secure IT infrastructure.
+
+
+# Release history
+
+#### 1.0.1
+Add permissions to put logs to log group.
+
+#### 1.0.0
+Initial project. Not tested. No extensive readme.
+
+
