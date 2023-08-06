@@ -1,0 +1,14 @@
+nntoolkit/__init__.py,sha256=vqfMkq2OxnsWpExa_iRxfdK1r2JrnSXkjPzvTXKep2A,887
+nntoolkit/activation_functions.py,sha256=J1t_ZOoxmAr6yMjVl5mx-sQtua_9RsX8dNSOUElmG5I,2650
+nntoolkit/cli.py,sha256=jZ5WMF9OTofahRWtaqlL7oPKStHTZezFU5oK9AZHDz8,4415
+nntoolkit/create.py,sha256=Nct3KqbSHktuRiEt9IUTlnCe-wldUPRiGB4gi1DMKzE,5594
+nntoolkit/evaluate.py,sha256=JJ3ta5RX7jhuO5CJ33tikSgKT1SGVsk-_HDFVCvREbw,3348
+nntoolkit/test.py,sha256=pIZO9VH-MB-IKRncAbuUQvsxjAh1ZHvb22isa-6dL7I,1108
+nntoolkit/train.py,sha256=j0u-HTyYgFi8njqFOO9CkFyqSmCs6NZQexPz32kjSXw,4416
+nntoolkit/utils.py,sha256=01AUUgOSeHU8V7f5Ul-EGwdOXT0cit-BKHfkTISV23o,7505
+nntoolkit-0.2.0.dist-info/LICENSE,sha256=KGPp-iq3kh0K0VojNhRb5gjD9aK6XvsXqKUIXZ2XEl4,1079
+nntoolkit-0.2.0.dist-info/METADATA,sha256=ZjlUtBRVuJqGTU1xEBe3hgKL9qz2Dni96NbbENpVYXg,2023
+nntoolkit-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nntoolkit-0.2.0.dist-info/entry_points.txt,sha256=9cMpnrbddQQnOs25-iXAVjyL-_3-4C4kP5jaIfEgvUA,57
+nntoolkit-0.2.0.dist-info/top_level.txt,sha256=O9lZr0rEBMAbuLRH3DGvF2mV1NxscOwzVvt95efCWto,10
+nntoolkit-0.2.0.dist-info/RECORD,,
