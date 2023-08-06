@@ -1,0 +1,13 @@
+daemail/__init__.py,sha256=WVxQT2vxpHDakVk5vPNg-OVrgfmCJKenFTgPMYKamb4,570
+daemail/__main__.py,sha256=IsdQ11VorP5sdzizzPKVXVfzdtACp9PXngB27INi1Qc,12831
+daemail/message.py,sha256=_GSPmulCrnnsYYrQOHVOxes4e9FLPrVGHzU_6ahw9f0,2508
+daemail/reporter.py,sha256=wjd41GCfvYF1EDsmFHspRvd3xmwUabAZFoE482fHGqQ,2831
+daemail/runner.py,sha256=bOVnhxMZjGLwnIMAjkRK_IMDTm5ne2VpA40ayqhr7ag,1943
+daemail/senders.py,sha256=Hbwr4YgvwVdl1resozsNCty-dVrIXEzupdXx_GsROn0,4123
+daemail/util.py,sha256=bX6IEqMox_SP7jjDuWgZpgMxdNKXm4VQB9SqZhA4cNU,4415
+daemail-0.6.0.dist-info/LICENSE,sha256=1OqB0ttCenTfc22XK3-2LXHVPVLDfTS3buwyUoNcz08,1095
+daemail-0.6.0.dist-info/METADATA,sha256=Lp6vzibPY_HAJcBumvlBP6NbdBgBtm9vZOidQq0JSPk,10150
+daemail-0.6.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+daemail-0.6.0.dist-info/entry_points.txt,sha256=hvh5MmvNmj2-slFr5M7ck7854iV3-BHD4df2pxW3V4s,51
+daemail-0.6.0.dist-info/top_level.txt,sha256=Blo_-eHn6r-YoxAlnh-DZQxV1X4vTTFGC25ypUBI6j8,8
+daemail-0.6.0.dist-info/RECORD,,
