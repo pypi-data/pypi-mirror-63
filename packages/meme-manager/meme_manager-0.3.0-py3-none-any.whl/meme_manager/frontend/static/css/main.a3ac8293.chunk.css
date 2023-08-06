@@ -1,0 +1,2 @@
+.dynamic-delete-button{cursor:pointer;position:relative;top:4px;font-size:24px;color:#f30;-webkit-transition:all .3s;transition:all .3s;margin-left:6px}.dynamic-delete-button:hover{color:#c30}.dynamic-delete-button[disabled]{cursor:not-allowed;opacity:.5}.tag{background-color:#eee;border-radius:5px;padding:5px;margin:5px;cursor:pointer}.tag:hover{background-color:#ccc}.imageBox{border:1px solid #eee}.imageBox:hover{border-color:#000}#addImageForm .ant-btn{margin-right:8px}
+/*# sourceMappingURL=main.a3ac8293.chunk.css.map */

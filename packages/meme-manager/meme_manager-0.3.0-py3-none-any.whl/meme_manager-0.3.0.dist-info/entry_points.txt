@@ -1,0 +1,3 @@
+[console_scripts]
+meme-manager = meme_manager:cli
+
