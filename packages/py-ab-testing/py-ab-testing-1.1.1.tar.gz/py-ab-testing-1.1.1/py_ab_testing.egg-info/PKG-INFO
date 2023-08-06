@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: py-ab-testing
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/appannie/ab-testing
+License: MIT
+Description: # Py AB Testing
+        
+        AB testing library supporting multi-variance testing with a deterministic algorithm not requiring any complex backend or database.
+        
+        The segmentation logic is maintained in the AB testing client and based itself on a centralized configuration. The cohort assignment logic is deterministic and follows a simple hash pattern based on the `crc32c` algorithm (`crc32c(userId, crc32c(experimentName)) % 100`)
+        
+        # Installation
+        
+        ```sh
+        pip install py-ab-testing
+        # or
+        pipenv install py-ab-testing
+        ```
+        
+        # Usage
+        
+        Note: The `config` variable holds an `dict` with [configuration file format that documented here](../../README.md).
+        
+        ```python
+        from ABTesting import ABTestingController
+        
+        user_profile = {
+            'persona': user.persona,
+            'employee': user.isEmployee,
+        }
+        
+        controller = ABTestingController(config, user.id, user_profile)
+        cohort = controller.get_cohort('experiment-name')
+        
+        if cohort == 'blue':
+            do_something()
+        elif cohort == 'red':
+            do_something_else()
+        else:
+            do_default_behavior()
+        ```
+        
+        # Protecting Private Information
+        
+        Similar to the Javascript SDKs, the package comes with an optional util for hashing private information with `sha256`.
+        
+        ## Prepare config file BEFORE make it public
+        
+        ```python
+        from ABTesting.utils import hash_dict
+        
+        config['salt'] = salt
+        for experiment in config['experiments']:
+            for cohort in experiment['cohorts']:
+                cohort['force_include'] = hash_dict(cohort['force_include'], salt)
+        ```
+        
+        ## In runtime
+        
+        ```python
+        from ABTesting.utils import hash_dict
+        
+        hashed_user_profile = hash_dict(
+            {
+                'persona': user.persona,
+                'employee': user.isEmployee,
+            },
+            salt
+        )
+        
+        # Make sure config is hashed with the same salt
+        controller = ABTestingController(config, user.id, hashed_user_profile)
+        ```
+        
+        # Credits
+        
+        Made with ❤️ by [Zhang Tao](https://github.com/BananaWanted) and [Simon Boudrias](https://github.com/SBoudrias) from the App Annie Beijing office.
+        
+        Available for public use under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Description-Content-Type: text/markdown
