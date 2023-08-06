@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: whatlies
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: spacy
+Requires-Dist: mkdocs-jupyter
+
+UNKNOWN
+
+
