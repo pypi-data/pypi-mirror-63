@@ -1,0 +1,3545 @@
+cT,cN,cM,cTNM,edition,T,N,M,TNM,death
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,4-6 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+3,0,1,4,TNM 6,3,0,1B,4,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,> 2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,> 2 years
+NULL,3,1,4,TNM 6,3,3,1B,4,4-6 months
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+1,3,1,4,TNM 6,1A,3,1B,4,NULL
+4,0,1,4,TNM 6,4,0,1A,4,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+NULL,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,> 2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+NULL,2,0,NULL,TNM 6,4,2,0,3B,1-4 months
+1,3,0,3B,TNM 6,1A,3,0,3B,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+1,1,1,4,TNM 6,1B,1,1B,4,1-4 months
+X,0,1,4,TNM 6,X,0,1B,4,0-30 days
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+NULL,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,3,0,3B,TNM 6,2A,3,0,3B,1-4 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,0,0,X,TNM 6,X,0,0,X,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,0,1,4,TNM 6,3,0,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+NULL,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,1-4 months
+4,1,1,4,TNM 6,3,1,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,1-2 years
+X,2,1,4,TNM 6,X,2,1A,4,1-2 years
+X,0,1,4,TNM 6,X,0,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,0-30 days
+2,1,1,4,TNM 6,2B,1,1A,4,6-12 months
+4,0,0,3B,TNM 6,3,0,0,2B,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2 - 4,0,1,4,TNM 6,4,0,0,3A,> 2 years
+1,1,1,4,TNM 6,1B,1,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+X,0,1,4,TNM 6,X,0,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+2,1,1,4,TNM 6,2B,1,1B,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1A,4,4-6 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,0,1,4,TNM 6,4,0,1B,4,NULL
+4,2,1,4,TNM 6,3,2,1A,4,1-4 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-2 years
+3,3,1,4,TNM 6,3,3,1A,4,6-12 months
+2,0,1,4,TNM 6,2B,0,1A,4,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,0-30 days
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+X,2,1,4,TNM 6,X,2,1B,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,> 2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+1,0,1,4,TNM 6,1B,0,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,4-6 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,> 2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,1,1,4,TNM 6,4,1,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+NULL,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,1,0,3B,TNM 6,3,1,0,3A,> 2 years
+NULL,2,1,4,TNM 6,3,2,1A,4,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+4,3,1,4,TNM 6,3,3,1B,4,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-2 years
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+1,1,1,4,TNM 6,1A,1,1B,4,> 2 years
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+4,0,1,4,TNM 6,3,0,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,0,1,4,TNM 6,3,0,1B,4,4-6 months
+1,1,1,4,TNM 6,1A,1,1B,4,0-30 days
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,> 2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1A,4,0-30 days
+4,2,1,4,TNM 6,3,2,1B,4,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+NULL,2,0,NULL,TNM 6,4,2,0,3B,> 2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,0,0,X,TNM 6,X,0,0,X,NULL
+X,3,0,3B,TNM 6,X,3,0,3B,0-30 days
+NULL,0,1,4,TNM 6,3,0,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+X,0,0,X,TNM 6,X,0,0,X,NULL
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+NULL,0,1,4,TNM 6,4,0,1A,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+X,3,1,4,TNM 6,X,3,1A,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,0-30 days
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+4,3,1,4,TNM 6,4,3,1A,4,1-2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,3,0,3B,TNM 6,2B,3,0,3B,1-4 months
+X,2,1,4,TNM 6,X,2,1A,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,1-4 months
+1,1,1,4,TNM 6,1A,1,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+3,1,0,3A,TNM 6,3,1,0,3A,4-6 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+NULL,0,1,4,TNM 6,3,0,1A,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,0-30 days
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2 - 3,3,1,4,TNM 6,3,3,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,1,4,TNM 6,2A,0,1A,4,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+1,3,0,3B,TNM 6,1B,3,0,3B,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,1-2 years
+NULL,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2,0,1,4,TNM 6,2A,0,1B,4,4-6 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,0-30 days
+2,1,1,4,TNM 6,2B,1,1B,4,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,1,4,TNM 6,2B,1,1B,4,6-12 months
+2,1,0,2B,TNM 6,2B,1,0,2B,6-12 months
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+NULL,0,1,4,TNM 6,3,0,1B,4,6-12 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,1,4,TNM 6,1A,0,1B,4,0-30 days
+3,3,1,4,TNM 6,3,3,1B,4,> 2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,> 2 years
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+X,2,0,3A,TNM 6,X,2,0,3A,1-4 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+2,3,1,4,TNM 6,2B,3,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+1,2,1,4,TNM 6,1A,2,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,NULL
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+X,0,1,4,TNM 6,X,0,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+4,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,2,1,4,TNM 6,1A,2,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,> 2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,> 2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+NULL,3,1,4,TNM 6,3,3,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,4-6 months
+NULL,3,0,3B,TNM 6,4,3,0,3B,NULL
+2,2,1,4,TNM 6,2B,2,1A,4,1-4 months
+3,0,1,4,TNM 6,3,0,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1A,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,1-2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+3,1,0,3A,TNM 6,3,1,0,3A,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1A,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1A,4,0-30 days
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+1,3,0,3B,TNM 6,1A,3,0,3B,1-2 years
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1A,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+1,3,0,3B,TNM 6,1B,3,0,3B,6-12 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,NULL
+NULL,1,1,4,TNM 6,4,1,1B,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+3,3,1,4,TNM 6,3,3,1A,4,6-12 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,1,0,2B,TNM 6,2B,1,0,2B,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,6-12 months
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,3,1,4,TNM 6,1B,3,1B,4,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,> 2 years
+X,0,1,4,TNM 6,X,0,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,1,4,TNM 6,1B,0,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,1A,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+4,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,> 2 years
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+3,0,1,4,TNM 6,3,0,1A,4,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,0-30 days
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,1,1,4,TNM 6,1A,1,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-2 years
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+NULL,0,1,4,TNM 6,3,0,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,> 2 years
+2 - 3,0,1,4,TNM 6,3,0,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1B,4,0-30 days
+X,1,1,4,TNM 6,X,1,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+1,3,1,4,TNM 6,1B,3,1A,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+NULL,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,4-6 months
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+4,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,2,1,4,TNM 6,1A,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1A,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,3,1,4,TNM 6,2B,3,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1B,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+X,3,1,4,TNM 6,X,3,1A,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,0-30 days
+4,1,1,4,TNM 6,3,1,1A,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1B,4,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,0,1,4,TNM 6,3,0,1B,4,6-12 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,4-6 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+4,0,1,4,TNM 6,4,0,1A,4,> 2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,> 2 years
+X,0,0,X,TNM 6,X,0,0,X,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+NULL,3,0,3B,TNM 6,3,3,0,3B,0-30 days
+X,2,0,3A,TNM 6,X,2,0,3A,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+2,1,1,4,TNM 6,2B,1,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 3,1,1,4,TNM 6,3,1,1B,4,4-6 months
+1,2,1,4,TNM 6,1A,2,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+2 - 4,0,1,4,TNM 6,4,0,0,3A,> 2 years
+1,2,1,4,TNM 6,1B,2,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+NULL,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+1,3,1,4,TNM 6,1A,3,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+NULL,0,1,4,TNM 6,3,0,1B,4,6-12 months
+4,1,1,4,TNM 6,4,1,1B,4,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,4-6 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,0-30 days
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,> 2 years
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+NULL,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,1,0,3B,TNM 6,4,1,0,3A,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-2 years
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+NULL,2,0,NULL,TNM 6,3,2,0,3A,4-6 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2,3,0,3B,TNM 6,2A,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1A,4,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,> 2 years
+2,2,0,3A,TNM 6,2B,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+1,0,1,4,TNM 6,1B,0,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,4-6 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,> 2 years
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,1,0,2B,TNM 6,2B,1,0,2B,0-30 days
+4,0,1,4,TNM 6,4,0,1A,4,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,1,4,TNM 6,2A,1,1A,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,6-12 months
+1,3,0,3B,TNM 6,1B,3,0,3B,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,> 2 years
+4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+NULL,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+NULL,0,1,4,TNM 6,4,0,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,3,0,3B,TNM 6,1A,3,0,3B,> 2 years
+4,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+4,0,1,4,TNM 6,3,0,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,1,4,TNM 6,2B,0,1B,4,6-12 months
+1,0,1,4,TNM 6,1B,0,1B,4,4-6 months
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+2,1,0,2B,TNM 6,2A,1,0,2A,1-2 years
+4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+2,1,1,4,TNM 6,2B,1,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,1-2 years
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,3,0,3B,TNM 6,1A,3,0,3B,6-12 months
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+X,1,1,4,TNM 6,X,1,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+NULL,2,1,4,TNM 6,4,2,1B,4,4-6 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+NULL,1,1,4,TNM 6,3,1,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,0-30 days
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,0,1,4,TNM 6,2B,0,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+4,2,1,4,TNM 6,3,2,1A,4,1-2 years
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,1-2 years
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,1-2 years
+4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+4,1,0,3B,TNM 6,3,1,0,3A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+4,2,0,3B,TNM 6,3,2,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 3,1,1,4,TNM 6,3,1,1A,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+1,0,1,4,TNM 6,1A,0,1A,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1A,4,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,> 2 years
+NULL,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,0-30 days
+2,0,0,1B,TNM 6,2B,0,0,2A,> 2 years
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,0,1,4,TNM 6,1A,0,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+4,2,1,4,TNM 6,3,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,2,0,NULL,TNM 6,3,2,0,3A,> 2 years
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2,1,1,4,TNM 6,2B,1,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+X,3,1,4,TNM 6,X,3,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-2 years
+1,0,1,4,TNM 6,1B,0,1A,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,> 2 years
+4,2,1,4,TNM 6,3,2,1B,4,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,1,1,4,TNM 6,3,1,1B,4,1-2 years
+2,1,0,2B,TNM 6,2A,1,0,2A,1-2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2 - 3,1,1,4,TNM 6,3,1,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+X,3,1,4,TNM 6,X,3,1A,4,1-4 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+X,3,0,3B,TNM 6,X,3,0,3B,NULL
+X,2,1,4,TNM 6,X,2,1B,4,0-30 days
+NULL,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-2 years
+2,1,0,2B,TNM 6,2A,1,0,2A,> 2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,> 2 years
+NULL,2,1,4,TNM 6,1,2,1B,4,6-12 months
+3,2,1,4,TNM 6,3,2,1B,4,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,NULL
+4,0,1,4,TNM 6,3,0,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,1-4 months
+3,0,1,4,TNM 6,3,0,1A,4,6-12 months
+NULL,2,1,4,TNM 6,3,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,1,1,4,TNM 6,3,1,1B,4,> 2 years
+4,2,0,3B,TNM 6,3,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,0,0,NULL,TNM 6,4,0,0,3A,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,0,3A,> 2 years
+2 - 3,1,1,4,TNM 6,3,1,1B,4,0-30 days
+4,1,1,4,TNM 6,4,1,1B,4,6-12 months
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,> 2 years
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+2,3,1,4,TNM 6,2B,3,1B,4,0-30 days
+2 - 4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,0,1,4,TNM 6,2B,0,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,> 2 years
+2 - 3,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2,1,0,2B,TNM 6,2A,1,0,2A,1-2 years
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,0,0,NULL,TNM 6,1,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,1-2 years
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+4,0,1,4,TNM 6,3,0,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+1,2,1,4,TNM 6,1B,2,1A,4,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,0,1,4,TNM 6,4,0,1B,4,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,2,1,4,TNM 6,1A,2,1A,4,1-4 months
+X,3,1,4,TNM 6,X,3,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-4 months
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,3,1,4,TNM 6,3,3,1A,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,> 2 years
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,3,0,3B,TNM 6,1B,3,0,3B,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,4-6 months
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,0,1,4,TNM 6,3,0,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+NULL,0,0,NULL,TNM 6,1,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2,2,1,4,TNM 6,2B,2,1A,4,1-2 years
+NULL,2,1,4,TNM 6,4,2,1A,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+4,2,0,3B,TNM 6,3,2,0,3A,> 2 years
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,3,0,3B,TNM 6,2A,3,0,3B,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2B,0,1B,4,1-2 years
+1,0,1,4,TNM 6,1B,0,1B,4,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,1-2 years
+1,0,1,4,TNM 6,1B,0,1B,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2 - 3,3,1,4,TNM 6,3,3,1A,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,6-12 months
+1,3,1,4,TNM 6,1A,3,1A,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2,1,1,4,TNM 6,2B,1,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+X,2,1,4,TNM 6,X,2,1A,4,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+3,2,0,3A,TNM 6,3,2,0,3A,> 2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,4-6 months
+2,2,1,4,TNM 6,2B,2,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,0,0,X,TNM 6,X,0,0,X,> 2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+2,1,1,4,TNM 6,2B,1,1B,4,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,> 2 years
+1,3,0,3B,TNM 6,1A,3,0,3B,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-2 years
+NULL,1,0,NULL,TNM 6,3,1,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,1,1,4,TNM 6,4,1,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+3,2,1,4,TNM 6,3,2,1B,4,0-30 days
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,> 2 years
+X,3,1,4,TNM 6,X,3,1A,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,2,0,3A,TNM 6,X,2,0,3A,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+NULL,3,1,4,TNM 6,3,3,1A,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,4-6 months
+4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+NULL,2,1,4,TNM 6,1,2,1B,4,4-6 months
+2,1,0,2B,TNM 6,2A,1,0,2A,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,0,3B,TNM 6,3,2,0,3A,1-2 years
+1,1,1,4,TNM 6,1B,1,1A,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,6-12 months
+X,2,1,4,TNM 6,X,2,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,> 2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+4,0,0,3B,TNM 6,3,0,0,2B,> 2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+NULL,0,0,NULL,TNM 6,3,0,0,2B,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+3,3,1,4,TNM 6,3,3,1A,4,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+1,2,0,3A,TNM 6,1A,2,0,3A,1-2 years
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,2,1,4,TNM 6,2A,2,1A,4,6-12 months
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,6-12 months
+2 - 3,1,1,4,TNM 6,3,1,1B,4,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,4-6 months
+2 - 3,1,1,4,TNM 6,3,1,1B,4,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+X,0,0,X,TNM 6,X,0,0,X,> 2 years
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-2 years
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+1,0,1,4,TNM 6,1A,0,1B,4,4-6 months
+2,1,0,2B,TNM 6,2B,1,0,2B,> 2 years
+X,3,1,4,TNM 6,X,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+4,3,1,4,TNM 6,4,3,1A,4,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,NULL
+2,2,1,4,TNM 6,2B,2,1A,4,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2,1,1,4,TNM 6,2A,1,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,1,1,4,TNM 6,2B,1,1B,4,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,4-6 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,4-6 months
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+NULL,2,0,NULL,TNM 6,4,2,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,0,0,3B,TNM 6,4,0,0,3A,0-30 days
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+4,3,1,4,TNM 6,3,3,1A,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,4-6 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2,3,1,4,TNM 6,2B,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,0-30 days
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+NULL,3,1,4,TNM 6,3,3,1B,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,> 2 years
+NULL,2,1,4,TNM 6,4,2,1A,4,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,0-30 days
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,> 2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,0-30 days
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,4-6 months
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+3,0,1,4,TNM 6,3,0,1A,4,0-30 days
+4,0,0,3B,TNM 6,4,0,0,3A,4-6 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,> 2 years
+3,1,1,4,TNM 6,3,1,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,0,1,4,TNM 6,3,0,1A,4,1-2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+NULL,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+NULL,3,1,4,TNM 6,3,3,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,4-6 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,0,1,4,TNM 6,3,0,1A,4,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+NULL,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,NULL
+X,0,0,X,TNM 6,X,0,0,X,> 2 years
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,NULL
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+X,3,0,3B,TNM 6,X,3,0,3B,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+4,3,0,3B,TNM 6,3,3,0,3B,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,> 2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,1-2 years
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-2 years
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,1,4,TNM 6,1A,0,1B,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,1,0,3B,TNM 6,3,1,0,3A,1-2 years
+2 - 4,0,1,4,TNM 6,4,0,1B,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+4,3,0,3B,TNM 6,4,3,0,3B,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,2,1,4,TNM 6,4,2,1B,4,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+2,0,1,4,TNM 6,2B,0,1A,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,4-6 months
+2,2,1,4,TNM 6,2A,2,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+3,1,0,3A,TNM 6,3,1,0,3A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+3,0,1,4,TNM 6,3,0,1A,4,1-2 years
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,4-6 months
+NULL,3,0,3B,TNM 6,3,3,0,3B,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+X,2,0,3A,TNM 6,X,2,0,3A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,0,1,4,TNM 6,4,0,1B,4,NULL
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,1,1,4,TNM 6,2B,1,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2 - 4,1,1,4,TNM 6,4,1,1A,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1B,4,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,0,1,4,TNM 6,3,0,1B,4,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+NULL,0,1,4,TNM 6,4,0,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+X,0,1,4,TNM 6,X,0,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,1,4,TNM 6,1B,0,1A,4,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,1,4,TNM 6,1A,0,1B,4,1-2 years
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,1,0,3B,TNM 6,4,1,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+NULL,2,1,4,TNM 6,3,2,1B,4,6-12 months
+NULL,2,1,4,TNM 6,4,2,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,> 2 years
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,> 2 years
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+4,3,1,4,TNM 6,3,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,> 2 years
+2 - 4,0,1,4,TNM 6,4,0,0,3A,> 2 years
+2,1,1,4,TNM 6,2A,1,1B,4,6-12 months
+2,3,1,4,TNM 6,2B,3,1A,4,1-2 years
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-2 years
+1,1,0,2A,TNM 6,1B,1,0,2A,6-12 months
+X,2,1,4,TNM 6,X,2,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+NULL,0,0,NULL,TNM 6,3,0,0,2B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1A,4,1-4 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+X,2,0,3A,TNM 6,X,2,0,3A,1-4 months
+NULL,2,1,4,TNM 6,3,2,1A,4,6-12 months
+4,0,0,3B,TNM 6,3,0,0,2B,> 2 years
+X,2,1,4,TNM 6,X,2,1A,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1A,4,NULL
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,1-4 months
+1,0,1,4,TNM 6,1B,0,1A,4,4-6 months
+2,2,0,3A,TNM 6,2B,2,0,3A,4-6 months
+1,0,1,4,TNM 6,1A,0,1A,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-2 years
+3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+2,1,1,4,TNM 6,2A,1,1A,4,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,0-30 days
+NULL,0,1,4,TNM 6,3,0,1A,4,1-4 months
+X,2,1,4,TNM 6,X,2,1B,4,0-30 days
+2,1,1,4,TNM 6,2A,1,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,1,4,TNM 6,2B,0,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,> 2 years
+2,3,0,3B,TNM 6,2A,3,0,3B,> 2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+X,0,1,4,TNM 6,X,0,1A,4,> 2 years
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,2,0,NULL,TNM 6,3,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,2,1,4,TNM 6,1A,2,1B,4,4-6 months
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+1,2,0,3A,TNM 6,1A,2,0,3A,1-2 years
+X,3,1,4,TNM 6,X,3,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,0,1,4,TNM 6,3,0,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,1,1,4,TNM 6,3,1,1B,4,1-2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,1-4 months
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1A,4,4-6 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1A,4,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,1,0,2A,TNM 6,1A,1,0,2A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1A,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,2,0,3A,TNM 6,1A,2,0,3A,1-2 years
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,1,1,4,TNM 6,4,1,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+NULL,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+4,1,0,3B,TNM 6,4,1,0,3A,4-6 months
+2,3,0,3B,TNM 6,2A,3,0,3B,> 2 years
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,1,4,TNM 6,4,0,1A,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+3,2,1,4,TNM 6,3,2,1A,4,4-6 months
+3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,0-30 days
+2,0,1,4,TNM 6,2B,0,1B,4,6-12 months
+NULL,0,1,4,TNM 6,3,0,1A,4,1-2 years
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,0,3B,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+1,1,0,2A,TNM 6,1A,1,0,2A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,1,4,TNM 6,2A,0,1B,4,4-6 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,1,1,4,TNM 6,1A,1,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2 - 3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,2,1,4,TNM 6,X,2,1B,4,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+1,2,1,4,TNM 6,1A,2,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,4-6 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,NULL
+X,2,1,4,TNM 6,X,2,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2B,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1B,4,0-30 days
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1A,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1B,4,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-4 months
+3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1B,4,1-2 years
+1,0,1,4,TNM 6,1A,0,1B,4,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,> 2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,> 2 years
+2,3,0,3B,TNM 6,2B,3,0,3B,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,0-30 days
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,2,1,4,TNM 6,3,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,> 2 years
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,> 2 years
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,1,4,TNM 6,2A,0,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,4,3,1A,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,0-30 days
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,0,1,4,TNM 6,X,0,1A,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+NULL,2,0,NULL,TNM 6,3,2,0,3A,0-30 days
+NULL,0,1,4,TNM 6,3,0,1A,4,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1A,4,4-6 months
+1,2,1,4,TNM 6,1A,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,0,1,4,TNM 6,2B,0,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,4-6 months
+1,0,1,4,TNM 6,1B,0,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,4-6 months
+NULL,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+NULL,3,1,4,TNM 6,3,3,1B,4,4-6 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,1,4,TNM 6,1A,0,1A,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,3,0,3B,TNM 6,2B,3,0,3B,6-12 months
+4,1,1,4,TNM 6,4,1,1B,4,0-30 days
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1A,4,NULL
+X,3,1,4,TNM 6,X,3,1A,4,6-12 months
+NULL,3,1,4,TNM 6,1,3,1B,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+4,0,1,4,TNM 6,3,0,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,1,1,4,TNM 6,3,1,1B,4,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+X,0,0,X,TNM 6,X,0,0,X,NULL
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,4-6 months
+2 - 4,1,1,4,TNM 6,4,1,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2 - 3,2,1,4,TNM 6,3,2,1A,4,6-12 months
+1,2,0,3A,TNM 6,1A,2,0,3A,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+X,0,1,4,TNM 6,X,0,1A,4,0-30 days
+3,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1A,4,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+1,2,1,4,TNM 6,1A,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+4,0,1,4,TNM 6,4,0,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,1-4 months
+1,0,1,4,TNM 6,1B,0,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,1,4,TNM 6,1B,0,1B,4,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+X,0,1,4,TNM 6,X,0,1A,4,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,3,3,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+NULL,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+3,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+3,1,0,3A,TNM 6,3,1,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+NULL,0,0,NULL,TNM 6,3,0,0,2B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,0,1,4,TNM 6,3,0,1A,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1A,4,6-12 months
+2,2,1,4,TNM 6,2B,2,1A,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,0,1,4,TNM 6,X,0,1A,4,1-2 years
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,NULL
+4,1,0,3B,TNM 6,3,1,0,3A,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+3,2,0,3A,TNM 6,3,2,0,3A,4-6 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,0,3B,0-30 days
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+4,2,1,4,TNM 6,3,2,1A,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,1-2 years
+3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+NULL,3,1,4,TNM 6,3,3,1A,4,0-30 days
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+2,3,1,4,TNM 6,2B,3,1B,4,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,1-2 years
+2 - 4,1,1,4,TNM 6,4,1,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,0,1,4,TNM 6,2B,0,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1A,4,6-12 months
+3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+3,0,1,4,TNM 6,3,0,1B,4,4-6 months
+NULL,2,0,NULL,TNM 6,4,2,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1A,4,0-30 days
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+NULL,3,1,4,TNM 6,3,3,1A,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,0-30 days
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2B,2,1B,4,4-6 months
+1,2,1,4,TNM 6,1B,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,1,1,4,TNM 6,2A,1,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,4-6 months
+1,0,1,4,TNM 6,1A,0,1B,4,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1A,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,2,1,4,TNM 6,3,2,1A,4,NULL
+2,3,1,4,TNM 6,2B,3,1A,4,6-12 months
+2,2,0,3A,TNM 6,2B,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+4,2,1,4,TNM 6,4,2,1A,4,0-30 days
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,NULL
+1,1,1,4,TNM 6,1B,1,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,NULL
+1,3,0,3B,TNM 6,1A,3,0,3B,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+NULL,2,1,4,TNM 6,3,2,1A,4,4-6 months
+X,2,0,3A,TNM 6,X,2,0,3A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+4,0,1,4,TNM 6,3,0,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+3,1,1,4,TNM 6,3,1,1A,4,NULL
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1B,4,1-2 years
+3,2,0,3A,TNM 6,3,2,0,3A,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,1,1,4,TNM 6,3,1,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1B,4,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,4-6 months
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+4,0,1,4,TNM 6,3,0,1B,4,1-4 months
+NULL,3,1,4,TNM 6,3,3,1B,4,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+3,3,1,4,TNM 6,3,3,1A,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+X,3,0,3B,TNM 6,X,3,0,3B,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,0,3A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+3,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,3,3,1A,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1B,4,NULL
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+X,0,1,4,TNM 6,X,0,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,0,1,4,TNM 6,2A,0,1A,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+X,3,1,4,TNM 6,X,3,1A,4,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+2,2,1,4,TNM 6,2B,2,1B,4,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2,0,1,4,TNM 6,2B,0,1A,4,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+3,2,1,4,TNM 6,3,2,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+X,3,1,4,TNM 6,X,3,1B,4,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,1,4,TNM 6,1B,0,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+X,0,0,X,TNM 6,X,0,0,X,6-12 months
+1,1,0,2A,TNM 6,1A,1,0,2A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,0-30 days
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+3,1,0,3A,TNM 6,3,1,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,NULL
+3,3,1,4,TNM 6,3,3,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+NULL,1,0,NULL,TNM 6,3,1,0,3A,4-6 months
+2,3,1,4,TNM 6,2A,3,1A,4,6-12 months
+3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+3,3,1,4,TNM 6,3,3,1A,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,3,1,4,TNM 6,3,3,1A,4,1-2 years
+X,1,1,4,TNM 6,X,1,1A,4,NULL
+4,1,0,3B,TNM 6,4,1,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+NULL,2,0,NULL,TNM 6,4,2,0,3B,6-12 months
+4,2,1,4,TNM 6,3,2,1A,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+2,3,1,4,TNM 6,2B,3,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+NULL,2,1,4,TNM 6,3,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,4,3,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,1,4,TNM 6,4,0,1A,4,4-6 months
+4,0,1,4,TNM 6,3,0,1A,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,0,1,4,TNM 6,X,0,1A,4,4-6 months
+2 - 4,1,1,4,TNM 6,4,1,0,3A,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+X,2,1,4,TNM 6,X,2,1B,4,4-6 months
+4,3,0,3B,TNM 6,3,3,0,3B,NULL
+NULL,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+1,2,1,4,TNM 6,1A,2,1B,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,1,1,4,TNM 6,2B,1,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,1,0,3A,TNM 6,3,1,0,3A,6-12 months
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+NULL,0,1,4,TNM 6,3,0,1A,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+1,0,1,4,TNM 6,1B,0,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+X,3,0,3B,TNM 6,X,3,0,3B,1-4 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,4-6 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1A,4,1-2 years
+4,1,0,3B,TNM 6,4,1,0,3A,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,4-6 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+3,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+NULL,0,0,NULL,TNM 6,4,0,0,3A,NULL
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,0-30 days
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+3,2,1,4,TNM 6,3,2,1B,4,0-30 days
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+3,0,0,2B,TNM 6,3,0,0,2B,1-4 months
+4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1A,4,6-12 months
+NULL,1,1,4,TNM 6,3,1,1B,4,6-12 months
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1B,4,0-30 days
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+2,1,1,4,TNM 6,2A,1,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,4-6 months
+NULL,1,0,NULL,TNM 6,3,1,0,3A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,1,4,TNM 6,2B,3,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+NULL,2,1,4,TNM 6,3,2,1A,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-2 years
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+1,2,0,3A,TNM 6,1A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,1,4,TNM 6,3,0,1B,4,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+1,2,1,4,TNM 6,1B,2,1A,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2B,2,1A,4,6-12 months
+1,2,0,3A,TNM 6,1A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+X,2,1,4,TNM 6,X,2,1A,4,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1A,4,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+1,0,1,4,TNM 6,1A,0,1A,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,1-2 years
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+2,2,1,4,TNM 6,2B,2,1A,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+3,0,0,2B,TNM 6,3,0,0,2B,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+X,1,1,4,TNM 6,X,1,1A,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,4-6 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+4,3,1,4,TNM 6,3,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,NULL
+4,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+3,3,0,3B,TNM 6,3,3,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,1,1,4,TNM 6,4,1,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+4,3,1,4,TNM 6,3,3,1A,4,6-12 months
+4,2,1,4,TNM 6,4,2,1B,4,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+X,0,1,4,TNM 6,X,0,1B,4,NULL
+X,0,1,4,TNM 6,X,0,1A,4,6-12 months
+1,1,1,4,TNM 6,1B,1,1B,4,6-12 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1A,4,1-4 months
+3,0,1,4,TNM 6,3,0,1A,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,1,1,4,TNM 6,3,1,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,4-6 months
+NULL,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,4-6 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+3,3,1,4,TNM 6,3,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,0-30 days
+4,0,1,4,TNM 6,4,0,1B,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+3,3,1,4,TNM 6,3,3,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,1,1,4,TNM 6,3,1,1B,4,6-12 months
+4,0,1,4,TNM 6,3,0,1B,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+X,2,0,3A,TNM 6,X,2,0,3A,NULL
+3,1,0,3A,TNM 6,3,1,0,3A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,NULL
+X,0,0,X,TNM 6,X,0,0,X,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,0,3B,TNM 6,2B,3,0,3B,NULL
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+X,1,0,3A,TNM 6,X,1,0,3A,0-30 days
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+4,0,1,4,TNM 6,4,0,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,4-6 months
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2 - 3,2,1,4,TNM 6,3,2,1A,4,0-30 days
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+1,3,0,3B,TNM 6,1A,3,0,3B,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+NULL,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2,3,0,3B,TNM 6,2B,3,0,3B,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,2,1,4,TNM 6,1A,2,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1A,4,NULL
+3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,1-4 months
+NULL,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,4-6 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+3,1,0,3A,TNM 6,3,1,0,3A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,1,0,3B,TNM 6,3,1,0,3A,6-12 months
+1,3,0,3B,TNM 6,1A,3,0,3B,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,1,4,TNM 6,1A,2,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,6-12 months
+1,1,0,2A,TNM 6,1A,1,0,2A,4-6 months
+2,2,1,4,TNM 6,2B,2,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1A,4,NULL
+3,2,1,4,TNM 6,3,2,1B,4,0-30 days
+4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+2,1,1,4,TNM 6,2B,1,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-2 years
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-4 months
+1,0,1,4,TNM 6,1A,0,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,0-30 days
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,3,0,3B,TNM 6,3,3,0,3B,NULL
+2 - 3,0,1,4,TNM 6,3,0,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,0,0,X,TNM 6,X,0,0,X,NULL
+4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+NULL,3,1,4,TNM 6,3,3,1B,4,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1A,2,1B,4,1-2 years
+2,2,1,4,TNM 6,2A,2,1A,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+4,1,1,4,TNM 6,4,1,1B,4,0-30 days
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,1-2 years
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1A,4,4-6 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,6-12 months
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+2,0,1,4,TNM 6,2A,0,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+1,0,1,4,TNM 6,1B,0,1B,4,NULL
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,4-6 months
+2,1,1,4,TNM 6,2B,1,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,1-2 years
+3,2,1,4,TNM 6,3,2,1A,4,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,4-6 months
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+3,0,1,4,TNM 6,3,0,1B,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+3,0,1,4,TNM 6,3,0,1B,4,4-6 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,4-6 months
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+4,1,0,3B,TNM 6,4,1,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+NULL,2,1,4,TNM 6,4,2,1A,4,0-30 days
+X,3,0,3B,TNM 6,X,3,0,3B,1-4 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,1-4 months
+3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+2 - 3,1,1,4,TNM 6,3,1,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,6-12 months
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,6-12 months
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+X,2,0,3A,TNM 6,X,2,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+4,2,1,4,TNM 6,4,2,1A,4,NULL
+1,0,1,4,TNM 6,1A,0,1A,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+NULL,1,1,4,TNM 6,4,1,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-2 years
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+3,0,1,4,TNM 6,3,0,1B,4,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,0-30 days
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,0,1,4,TNM 6,3,0,1A,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2 - 3,0,1,4,TNM 6,3,0,1B,4,0-30 days
+1,3,0,3B,TNM 6,1B,3,0,3B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+3,0,0,2B,TNM 6,3,0,0,2B,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1B,4,4-6 months
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+X,0,0,X,TNM 6,X,0,0,X,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1B,2,1A,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1A,4,4-6 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,1,4,TNM 6,1A,0,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,3,0,3B,TNM 6,1B,3,0,3B,1-4 months
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+1,0,1,4,TNM 6,1B,0,1B,4,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,0,1,4,TNM 6,2B,0,1A,4,6-12 months
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,1,1,4,TNM 6,2B,1,1B,4,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,1,4,TNM 6,1B,0,1A,4,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,4-6 months
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+4,2,1,4,TNM 6,4,2,1A,4,4-6 months
+2 - 3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+3,2,1,4,TNM 6,3,2,1A,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,2,0,3A,TNM 6,2A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+X,3,1,4,TNM 6,X,3,1A,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1A,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+NULL,3,1,4,TNM 6,4,3,1B,4,0-30 days
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-2 years
+NULL,3,1,4,TNM 6,4,3,1A,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+1,2,1,4,TNM 6,1A,2,1B,4,0-30 days
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1A,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+4,1,0,3B,TNM 6,3,1,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,3,0,3B,TNM 6,3,3,0,3B,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+NULL,2,0,NULL,TNM 6,4,2,0,3B,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,6-12 months
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+2,2,0,3A,TNM 6,2B,2,0,3A,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+NULL,2,0,NULL,TNM 6,1,2,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,NULL
+2,0,1,4,TNM 6,2B,0,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,0-30 days
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-2 years
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,0-30 days
+2,2,1,4,TNM 6,2B,2,1A,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,2,1,4,TNM 6,X,2,1B,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1A,4,0-30 days
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,0,1,4,TNM 6,2A,0,1B,4,NULL
+4,2,1,4,TNM 6,3,2,1A,4,NULL
+NULL,3,0,3B,TNM 6,3,3,0,3B,NULL
+NULL,2,0,NULL,TNM 6,3,2,0,3A,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,3,0,3B,TNM 6,3,3,0,3B,1-2 years
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+1,2,1,4,TNM 6,1A,2,1A,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,1,4,TNM 6,1B,0,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,1,4,TNM 6,2A,0,1A,4,4-6 months
+4,0,1,4,TNM 6,3,0,1B,4,0-30 days
+2 - 4,0,1,4,TNM 6,4,0,0,3A,0-30 days
+2,3,1,4,TNM 6,2A,3,1A,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1A,4,1-4 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,6-12 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+1,3,1,4,TNM 6,1A,3,1B,4,1-2 years
+NULL,3,1,4,TNM 6,4,3,1A,4,0-30 days
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+2,0,1,4,TNM 6,2A,0,1A,4,NULL
+1,3,1,4,TNM 6,1B,3,1A,4,1-2 years
+1,1,1,4,TNM 6,1B,1,1B,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,NULL
+3,1,0,3A,TNM 6,3,1,0,3A,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,0-30 days
+X,2,0,3A,TNM 6,X,2,0,3A,6-12 months
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2 - 3,2,1,4,TNM 6,3,2,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,2,1,4,TNM 6,3,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,1,1,4,TNM 6,2B,1,1B,4,6-12 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+4,1,0,3B,TNM 6,3,1,0,3A,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+3,0,1,4,TNM 6,3,0,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,6-12 months
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,0-30 days
+2,3,1,4,TNM 6,2B,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,3,1,4,TNM 6,3,3,1B,4,4-6 months
+1,1,0,2A,TNM 6,1A,1,0,2A,6-12 months
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+1,2,1,4,TNM 6,1A,2,1A,4,NULL
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+2 - 4,1,1,4,TNM 6,4,1,0,3A,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+1,1,1,4,TNM 6,1A,1,1B,4,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,4-6 months
+NULL,1,0,NULL,TNM 6,3,1,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+1,2,1,4,TNM 6,1B,2,1B,4,1-4 months
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+2 - 4,0,1,4,TNM 6,4,0,1A,4,1-2 years
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,1,4,TNM 6,1A,2,1B,4,1-2 years
+4,0,1,4,TNM 6,4,0,1A,4,1-2 years
+3,2,1,4,TNM 6,3,2,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+1,3,1,4,TNM 6,1B,3,1A,4,4-6 months
+1,3,0,3B,TNM 6,1A,3,0,3B,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,1-2 years
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+4,1,0,3B,TNM 6,4,1,0,3A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,2,1,4,TNM 6,3,2,1B,4,6-12 months
+4,1,0,3B,TNM 6,3,1,0,3A,1-2 years
+2,2,0,3A,TNM 6,2B,2,0,3A,1-2 years
+4,3,0,3B,TNM 6,4,3,0,3B,0-30 days
+1,3,1,4,TNM 6,1A,3,1B,4,1-4 months
+3,2,0,3A,TNM 6,3,2,0,3A,0-30 days
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,0,1,4,TNM 6,3,0,1A,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+3,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+2 - 4,0,1,4,TNM 6,4,0,1A,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,4-6 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-2 years
+4,2,1,4,TNM 6,3,2,1A,4,6-12 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+1,2,1,4,TNM 6,1B,2,1B,4,6-12 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,3,0,3B,TNM 6,3,3,0,3B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,4-6 months
+1,2,0,3A,TNM 6,1A,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,6-12 months
+4,0,0,3B,TNM 6,3,0,0,2B,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+2,0,1,4,TNM 6,2B,0,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1B,4,1-4 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1A,4,0-30 days
+2,3,0,3B,TNM 6,2A,3,0,3B,6-12 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+4,0,1,4,TNM 6,4,0,1B,4,NULL
+1,1,1,4,TNM 6,1B,1,1B,4,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1A,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,3,0,3B,TNM 6,1B,3,0,3B,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 4,0,1,4,TNM 6,4,0,1A,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,3,1,4,TNM 6,X,3,1B,4,4-6 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,6-12 months
+1,3,0,3B,TNM 6,1A,3,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+3,3,1,4,TNM 6,3,3,1A,4,4-6 months
+3,0,0,2B,TNM 6,3,0,0,2B,1-2 years
+2,2,0,3A,TNM 6,2A,2,0,3A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-4 months
+2 - 3,3,1,4,TNM 6,3,3,1A,4,NULL
+4,0,0,3B,TNM 6,3,0,0,2B,NULL
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,4-6 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2,0,1,4,TNM 6,2B,0,1B,4,0-30 days
+2 - 3,3,1,4,TNM 6,3,3,1B,4,6-12 months
+1,2,1,4,TNM 6,1A,2,1B,4,6-12 months
+X,2,1,4,TNM 6,X,2,1B,4,6-12 months
+2,2,1,4,TNM 6,2B,2,1B,4,4-6 months
+1,2,0,3A,TNM 6,1A,2,0,3A,1-4 months
+2,3,1,4,TNM 6,2A,3,1A,4,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+3,2,0,3A,TNM 6,3,2,0,3A,NULL
+2,0,1,4,TNM 6,2A,0,1A,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,0,1,4,TNM 6,4,0,0,3A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,0-30 days
+2 - 4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+NULL,1,1,4,TNM 6,4,1,1B,4,1-2 years
+4,3,1,4,TNM 6,4,3,1A,4,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+NULL,1,0,NULL,TNM 6,3,1,0,3A,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,NULL
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,2,0,3A,TNM 6,1A,2,0,3A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,0,1,4,TNM 6,2B,0,1B,4,0-30 days
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2,1,1,4,TNM 6,2A,1,1B,4,1-4 months
+X,0,0,X,TNM 6,X,0,0,X,NULL
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,6-12 months
+4,0,1,4,TNM 6,4,0,1B,4,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1A,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+X,0,1,4,TNM 6,X,0,1A,4,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+4,0,1,4,TNM 6,4,0,1A,4,NULL
+2 - 4,2,1,4,TNM 6,4,2,0,3B,0-30 days
+2 - 4,3,1,4,TNM 6,4,3,0,3B,6-12 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+1,1,0,2A,TNM 6,1B,1,0,2A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+1,3,1,4,TNM 6,1B,3,1B,4,1-4 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1A,4,0-30 days
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,2,1,4,TNM 6,2A,2,1B,4,6-12 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+1,0,1,4,TNM 6,1A,0,1B,4,6-12 months
+2,2,0,3A,TNM 6,2B,2,0,3A,NULL
+NULL,3,1,4,TNM 6,3,3,1B,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 3,3,1,4,TNM 6,3,3,1B,4,1-4 months
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,1,1,4,TNM 6,3,1,1B,4,NULL
+NULL,0,0,NULL,TNM 6,1,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,0-30 days
+X,3,1,4,TNM 6,X,3,1B,4,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-4 months
+4,3,1,4,TNM 6,3,3,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1B,4,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+NULL,3,1,4,TNM 6,3,3,1A,4,6-12 months
+X,0,1,4,TNM 6,X,0,1A,4,0-30 days
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,1,4,TNM 6,3,3,1B,4,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,3,1,4,TNM 6,2B,3,1B,4,NULL
+X,1,1,4,TNM 6,X,1,1B,4,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+3,0,0,2B,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,4-6 months
+X,2,1,4,TNM 6,X,2,1B,4,4-6 months
+1,1,0,2A,TNM 6,1A,1,0,2A,NULL
+2,1,0,2B,TNM 6,2A,1,0,2A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1A,4,NULL
+2,1,0,2B,TNM 6,2B,1,0,2B,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,1,0,2B,TNM 6,2A,1,0,2A,1-4 months
+2,3,1,4,TNM 6,2A,3,1B,4,1-4 months
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,3,1,4,TNM 6,2B,3,1B,4,0-30 days
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,3,2,1B,4,4-6 months
+4,2,1,4,TNM 6,4,2,1A,4,0-30 days
+4,0,1,4,TNM 6,4,0,1B,4,1-2 years
+4,2,0,3B,TNM 6,4,2,0,3B,6-12 months
+2,1,0,2B,TNM 6,2B,1,0,2B,6-12 months
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+X,2,1,4,TNM 6,X,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1A,0,0,1A,1-2 years
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,3,0,3B,TNM 6,2A,3,0,3B,NULL
+2,2,1,4,TNM 6,2A,2,1A,4,1-4 months
+1,0,0,1A,TNM 6,1B,0,0,1A,6-12 months
+NULL,1,0,NULL,TNM 6,3,1,0,3A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,4-6 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,4-6 months
+4,3,1,4,TNM 6,3,3,1A,4,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,1-4 months
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+4,0,0,3B,TNM 6,4,0,0,3A,1-4 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,6-12 months
+2,1,1,4,TNM 6,2B,1,1B,4,1-4 months
+X,3,1,4,TNM 6,X,3,1A,4,1-4 months
+2 - 4,3,1,4,TNM 6,4,3,1B,4,0-30 days
+2,2,1,4,TNM 6,2A,2,1B,4,1-4 months
+X,2,1,4,TNM 6,X,2,1A,4,0-30 days
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,3,1,4,TNM 6,3,3,1A,4,NULL
+4,2,0,3B,TNM 6,4,2,0,3B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,NULL
+X,3,1,4,TNM 6,X,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+1,3,1,4,TNM 6,1A,3,1A,4,NULL
+X,2,0,3A,TNM 6,X,2,0,3A,0-30 days
+2,0,1,4,TNM 6,2A,0,1B,4,NULL
+X,2,0,3A,TNM 6,X,2,0,3A,6-12 months
+3,3,1,4,TNM 6,3,3,1B,4,0-30 days
+3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+1,2,1,4,TNM 6,1B,2,1A,4,1-4 months
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-4 months
+3,1,0,3A,TNM 6,3,1,0,3A,1-2 years
+4,1,1,4,TNM 6,4,1,1B,4,4-6 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+X,0,1,4,TNM 6,X,0,1A,4,1-2 years
+NULL,2,0,NULL,TNM 6,3,2,0,3A,1-4 months
+1,3,1,4,TNM 6,1B,3,1B,4,4-6 months
+2 - 4,2,1,4,TNM 6,4,2,0,3B,6-12 months
+2 - 4,1,1,4,TNM 6,4,1,1A,4,1-2 years
+2,2,1,4,TNM 6,2B,2,1A,4,1-2 years
+NULL,0,0,NULL,TNM 6,3,0,0,2B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,2,0,3A,TNM 6,1B,2,0,3A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,1,1,4,TNM 6,2A,1,1B,4,6-12 months
+2,3,1,4,TNM 6,2A,3,1B,4,0-30 days
+4,3,1,4,TNM 6,3,3,1B,4,1-2 years
+2,0,0,1B,TNM 6,2A,0,0,1B,1-4 months
+2,3,0,3B,TNM 6,2B,3,0,3B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,1,4,TNM 6,4,3,1B,4,6-12 months
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,1-2 years
+4,0,1,4,TNM 6,3,0,1B,4,0-30 days
+2,2,0,3A,TNM 6,2B,2,0,3A,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,0-30 days
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2 - 3,0,0,"{1A, 2B}",TNM 6,3,0,0,2B,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+4,3,0,3B,TNM 6,4,3,0,3B,6-12 months
+2 - 4,2,1,4,TNM 6,4,2,1B,4,1-4 months
+2,0,1,4,TNM 6,2A,0,1A,4,1-4 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+2,2,1,4,TNM 6,2A,2,1A,4,0-30 days
+2,1,1,4,TNM 6,2A,1,1A,4,6-12 months
+2 - 3,1,0,"{2B, 3A}",TNM 6,3,1,0,3A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,6-12 months
+X,0,1,4,TNM 6,X,0,1B,4,1-4 months
+NULL,2,0,NULL,TNM 6,3,2,0,3A,6-12 months
+X,0,1,4,TNM 6,X,0,1A,4,1-4 months
+4,3,1,4,TNM 6,4,3,1B,4,1-4 months
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,NULL
+4,3,0,3B,TNM 6,3,3,0,3B,NULL
+4,1,1,4,TNM 6,3,1,1B,4,1-2 years
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+4,1,0,3B,TNM 6,4,1,0,3A,NULL
+2 - 4,1,1,4,TNM 6,4,1,1B,4,1-2 years
+2 - 4,2,1,4,TNM 6,4,2,1A,4,6-12 months
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+2 - 4,3,1,4,TNM 6,4,3,1B,4,4-6 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,0,0,1A,TNM 6,1B,0,0,1A,NULL
+4,2,1,4,TNM 6,4,2,1B,4,4-6 months
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+4,2,0,3B,TNM 6,3,2,0,3A,NULL
+2,0,0,1B,TNM 6,2B,0,0,2A,6-12 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+1,3,1,4,TNM 6,1A,3,1B,4,6-12 months
+1,0,0,1A,TNM 6,1A,0,0,1A,NULL
+2,2,0,3A,TNM 6,2A,2,0,3A,1-2 years
+2 - 3,2,0,3A,TNM 6,3,2,0,3A,1-2 years
+1,2,1,4,TNM 6,1A,2,1A,4,NULL
+X,0,0,X,TNM 6,X,0,0,X,1-4 months
+2,0,0,1B,TNM 6,2A,0,0,1B,NULL
+2,2,1,4,TNM 6,2B,2,1B,4,1-4 months
