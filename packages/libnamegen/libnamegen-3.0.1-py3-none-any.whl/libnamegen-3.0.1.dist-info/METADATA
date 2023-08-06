@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: libnamegen
+Version: 3.0.1
+Summary: Library containing name generation methods
+Home-page: https://github.com/BBaoVanC/libnamegen
+Author: BBaoVanC
+Author-email: bbaovanc@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: libprogress
+
+# libnamegen
+Clone of the libnamegen package from https://github.com/BBaoVanC/NameGenerator. For PyPI. Contains the latest release of libnamegen.
+
+
