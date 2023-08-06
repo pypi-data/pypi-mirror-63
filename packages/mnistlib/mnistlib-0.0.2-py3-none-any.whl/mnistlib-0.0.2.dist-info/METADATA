@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mnistlib
+Version: 0.0.2
+Summary: geometric transformations for mnist dataset
+Home-page: https://github.com/sedol1339/SkillFactory/tree/master/Module%201/mnistlib%20python%20module/dist/mnistlib-0.0.2.tar.gz
+Author: Oleg Zyablov
+Author-email: oleg.z98@mail.ru
+License: MIT
+Keywords: mnist
+Platform: UNKNOWN
+Requires-Dist: mnist
+Requires-Dist: matplotlib
+Requires-Dist: PIL
+
+UNKNOWN
+
+
