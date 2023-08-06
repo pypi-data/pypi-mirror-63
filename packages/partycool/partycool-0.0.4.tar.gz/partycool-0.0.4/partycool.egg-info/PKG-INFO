@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: partycool
+Version: 0.0.4
+Summary: Particle Size Analysis Package for All Microscopy Images
+Home-page: https://github.com/yamanmy/partycool
+Author: Muammer yaman, Ximin Hu, Margherita Taddei, Yangwei Shi
+Author-email: author@example.com
+License: UNKNOWN
+Description: This package can be used to analyze the particle size from microscopy images such as FEM, SEM images and optical microscopy. We will try to implement also the recignition of AFM images through Machine Learning. In addition, there is a visualization tools that can be used to plot the size distribution of the particles.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
