@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: hammett
+Version: 0.1.0
+Summary: hammett is a fast python test runner
+Home-page: https://github.com/boxed/hammett
+Author: Anders Hovmöller
+Author-email: boxed@killingar.net
+License: BSD
+Description: hammett
+        =======
+        
+        hammett is a fast python test runner that is largely compatible with pytest.
+        
+        It does not support class based tests at this time though.
+        
+        
+        Usage
+        ------
+        
+        First install: :code:`pip install hammett`
+        
+        Then run hammett: :code:`python -m hammett`
+        
+        Hopefully it will run your entire test suite!
+        
+        hammett works with some pytest plugins, most notably pytest-django, at least for some projects.
+        
+        
+        License
+        -------
+        
+        BSD
+        
+Keywords: hammett
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
