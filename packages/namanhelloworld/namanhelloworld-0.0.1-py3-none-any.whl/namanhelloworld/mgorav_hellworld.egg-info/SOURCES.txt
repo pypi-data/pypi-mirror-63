@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+helloworld/hello.py
+helloworld/mgorav_hellworld.egg-info/PKG-INFO
+helloworld/mgorav_hellworld.egg-info/SOURCES.txt
+helloworld/mgorav_hellworld.egg-info/dependency_links.txt
+helloworld/mgorav_hellworld.egg-info/top_level.txt
