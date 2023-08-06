@@ -1,0 +1,3 @@
+[console_scripts]
+resin-release-tool=resin_release_tool.cli:cli
+
