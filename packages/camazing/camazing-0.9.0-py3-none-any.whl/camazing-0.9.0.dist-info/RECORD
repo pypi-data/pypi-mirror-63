@@ -1,0 +1,11 @@
+camazing/__init__.py,sha256=M5tpgChutBCvxb3_iLRH2eg4lRopuHEox4HP7_4oykw,156
+camazing/core.py,sha256=kLpBKGSPZ8RvbLKl4DywJRx44UXCrVdgdcxRSyxQoOQ,41458
+camazing/feature_types.py,sha256=68Dh2MLTerUqMlk57qKECY9C48RZVRKGLpct1DEJki4,7186
+camazing/pixelformats.py,sha256=GgjH7ykB_hh4yO8zt2pxQyQiGrcICpGbjQlEpo0_0Bg,2271
+camazing/util.py,sha256=kbBRyWlUrqLuputIDslUkyVE4HalY6MLN2S_O6m7WYw,994
+camazing-0.9.0.dist-info/AUTHORS.rst,sha256=CYWZaf1oYbBI8zIns_VoddUx87Ci0Uumi03jVUwos54,287
+camazing-0.9.0.dist-info/LICENSE,sha256=vEl9uWqx9JSa1np6vV4jJVhowVtz3zZ166Hq_NSbyi0,1113
+camazing-0.9.0.dist-info/METADATA,sha256=E9olZJ4oChBFAqS1ahnqX6pNf9iMaeGaXAASqCo2yjM,1594
+camazing-0.9.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+camazing-0.9.0.dist-info/top_level.txt,sha256=gdD_W_cHmC9SBlZQk5cHrThw1_FOpLkjPQN2Oi-Zkg4,9
+camazing-0.9.0.dist-info/RECORD,,

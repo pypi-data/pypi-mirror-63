@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: camazing
+Version: 0.9.0
+Summary: Machine vision library for GenICam-compliant cameras
+Home-page: https://github.com/silmae/camazing
+Author: Severi Jääskeläinen
+Author-email: severi.jaaskelainen@gmail.com
+License: MIT licence
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: genicam2
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: toml
+Requires-Dist: tabulate
+Requires-Dist: zipfile36
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-markdown-tables ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+
+# camazing
+
+Easy-to-use machine vision library for GenICam-compliant cameras.
+
+## Features
+
+ * Fully Pythonic operation (no messing with C structures)
+ * Data acquisition (with rich metadata for scientific use cases)
+ * Advanced camera setting control (including saving and loading settings, proper checks for valid values, etc.)
+ * Free software (MIT licensed)
+
+## Getting started
+
+See the documentation at https://camazing.readthedocs.io.
+
+
