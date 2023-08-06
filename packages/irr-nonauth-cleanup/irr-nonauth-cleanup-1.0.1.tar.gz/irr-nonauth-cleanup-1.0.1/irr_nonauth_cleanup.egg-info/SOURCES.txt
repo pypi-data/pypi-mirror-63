@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+irr_nonauth_cleanup/__init__.py
+irr_nonauth_cleanup/irr_nonauth_cleanup.py
+irr_nonauth_cleanup/rpkitools.py
+irr_nonauth_cleanup.egg-info/PKG-INFO
+irr_nonauth_cleanup.egg-info/SOURCES.txt
+irr_nonauth_cleanup.egg-info/dependency_links.txt
+irr_nonauth_cleanup.egg-info/entry_points.txt
+irr_nonauth_cleanup.egg-info/requires.txt
+irr_nonauth_cleanup.egg-info/top_level.txt
