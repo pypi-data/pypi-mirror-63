@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: APOExptime
+Version: 1.2
+Summary: Exposure time calculator for Apache point observatory
+Home-page: https://github.com/APOExposureTimeCalculator/APOExptime
+Author: Alexander Stone-Martinez
+Author-email: stonemaa@nmsu.edu
+License: AGPLv3
+Download-URL: https://github.com/APOExposureTimeCalculator/APOExptime/archive/v_1.2.tar.gz
+Keywords: Exposure time,Astronomy,APO
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: wheel
+Requires-Dist: synphot
+
+UNKNOWN
+
+
