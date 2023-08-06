@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: matts-food-sim
+Version: 1.1
+Summary: Python package for simulating a town's food consumption
+Home-page: https://github.com/MattFrench019/Food-Sim
+Author: Matt French
+Author-email: matt@mfrench.net
+License: MIT
+Description: # Food-Sim
+Platform: UNKNOWN
