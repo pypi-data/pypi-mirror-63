@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: factnn
+Version: 0.5
+Summary: UNKNOWN
+Home-page: https://github.com/jacobbieker/factnn
+Author: Jacob Bieker
+Author-email: UNKNOWN
+License: GPLv3
+Download-URL: https://github.com/jacobbieker/factnn/archive/v0.5.0.tar.gz
+Description: UNKNOWN
+Keywords: IACT Astronomy,FACT,Machine Learning,Tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
