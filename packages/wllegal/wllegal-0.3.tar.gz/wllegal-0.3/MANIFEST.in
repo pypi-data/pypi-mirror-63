@@ -1,0 +1,8 @@
+include README.md
+include manage.py
+recursive-include wllegal *.py
+recursive-include wllegal/templates *.html *.txt
+global-exclude *.swp *.swo
+recursive-include wllegal/locale *.pot
+recursive-include wllegal/locale *.po
+recursive-include wllegal/locale *.mo
