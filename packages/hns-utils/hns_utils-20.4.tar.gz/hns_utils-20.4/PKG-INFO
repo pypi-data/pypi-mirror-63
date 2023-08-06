@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hns_utils
+Version: 20.4
+Summary: Just some common helpful utility functions like OS agnostic ping
+Home-page: https://gitlab.com/horsebridge/hns_utils.git
+Author: Nitin Sidhu
+Author-email: nitin.sidhu23@gmail.com
+License: MIT
+Description: # hns_utils
+        Just some common helpful utility functions
+        
+        ## Installation
+        `pip install hns-utils`
+        
+        ## Import
+        `from hns_utils import <function_name>`
+        
+        ## Dependencies 
+        The functions here are for convenience. The packages required by 
+        them would need to be installed before a function can be used. If 
+        a function requires a third party package then that is listed in the 
+        docstring on the function. Install that package first and then use 
+        the function. 
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
