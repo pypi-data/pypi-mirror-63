@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jsonschema2rdbmsddl
+Version: 0.0.1
+Summary: Converts JSON Schema to RDBMS DDL
+Home-page: https://github.com/Inciter/jsonschema2rdbmsddl
+Author: Jacob Joseph
+Author-email: jacob@inciter.io
+License: UNKNOWN
+Description: # jsonschema2rdbmsddl
+        Converts JSON Schema to RDBMS (MySQL) DDL
+        
+        Inspired by [jsonschema2db](https://github.com/better/jsonschema2db).
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

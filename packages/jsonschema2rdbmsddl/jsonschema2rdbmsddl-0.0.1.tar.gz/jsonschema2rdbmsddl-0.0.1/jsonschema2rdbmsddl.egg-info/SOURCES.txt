@@ -1,0 +1,7 @@
+README.md
+setup.py
+jsonschema2rdbmsddl/__init__.py
+jsonschema2rdbmsddl.egg-info/PKG-INFO
+jsonschema2rdbmsddl.egg-info/SOURCES.txt
+jsonschema2rdbmsddl.egg-info/dependency_links.txt
+jsonschema2rdbmsddl.egg-info/top_level.txt
