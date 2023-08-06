@@ -1,0 +1,7 @@
+setup.py
+luckynum/__init__.py
+luckynum/luckynum.py
+luckynum.egg-info/PKG-INFO
+luckynum.egg-info/SOURCES.txt
+luckynum.egg-info/dependency_links.txt
+luckynum.egg-info/top_level.txt
