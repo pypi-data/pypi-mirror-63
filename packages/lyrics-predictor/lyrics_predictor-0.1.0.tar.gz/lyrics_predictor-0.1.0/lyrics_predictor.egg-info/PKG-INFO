@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: lyrics-predictor
+Version: 0.1.0
+Summary: scrape lytics and train a model to predict the artist
+Home-page: https://github.com/Ayazdi/lyrics_predictor
+Author: Amirali Yazdi
+Author-email: amirali.yazdi@yahoo.com
+License: MIT license
+Description: # Lyrics-Predictor [![Build Status](https://travis-ci.com/Ayazdi/Lyrics-Predictor.svg?branch=master)](https://travis-ci.com/Ayazdi/Lyrics-Predictor)
+        A python program to scrape lyrics from any artist on metrolyrics.com and train a lyrics predictor model to predict which artist the given lyrics belongs.
+        
+        contact = amirali.yazdi@yahoo.com
+        
+        ## Usage:
+        python lyrics_predictor.py
+        
+        ## Description:
+        - Enter names of two artists: program will scrape lyrics of the first two pages on the website and train a model on them
+        
+        - Enter lyrics of a song: program will predict which artist it belongs and print the result.
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-03-18)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: lyrics_predictor
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

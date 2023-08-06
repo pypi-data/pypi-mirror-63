@@ -1,0 +1,12 @@
+README.md
+setup.py
+lyrics_predictor/__init__.py
+lyrics_predictor/clean_and_save.py
+lyrics_predictor/get_urls_and_scrape.py
+lyrics_predictor/lyrics_predictor.py
+lyrics_predictor/vectorize_and_train.py
+lyrics_predictor.egg-info/PKG-INFO
+lyrics_predictor.egg-info/SOURCES.txt
+lyrics_predictor.egg-info/dependency_links.txt
+lyrics_predictor.egg-info/not-zip-safe
+lyrics_predictor.egg-info/top_level.txt
