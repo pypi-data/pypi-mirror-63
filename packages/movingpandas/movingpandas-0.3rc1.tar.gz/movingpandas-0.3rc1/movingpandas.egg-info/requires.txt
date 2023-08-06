@@ -1,0 +1,10 @@
+numpy
+matplotlib
+shapely==1.7a3
+pandas
+geopandas
+hvplot
+bokeh<2.0
+cartopy
+geoviews
+pyproj
