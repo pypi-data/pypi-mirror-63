@@ -1,0 +1,4 @@
+cached_url>=0.0.6pyyaml
+telegram_util>=0.0.34
+pic_cut>=0.0.8
+bs4
