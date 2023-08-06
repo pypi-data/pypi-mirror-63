@@ -1,0 +1,3 @@
+
+include artellapipe/tools/dependenciesmanager/__logging__.ini
+recursive-include artellapipe/tools/dependenciesmanager/resources/* *.*
