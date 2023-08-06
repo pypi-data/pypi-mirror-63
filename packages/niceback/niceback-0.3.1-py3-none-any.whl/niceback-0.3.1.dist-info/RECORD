@@ -1,0 +1,11 @@
+niceback/__init__.py,sha256=TCzBabJf0Ys0anX3mpChc5g3RHtjOXrqK_KGipm7R1o,227
+niceback/html.py,sha256=MSD_RYfqzHxsx6R0j9p-vVX5qoD1bxYb0-FOI_PGSo0,4664
+niceback/inspector.py,sha256=W768-sG_gif0mY8o6N6mCQmYnemyLo7L08frKOBJdPQ,2491
+niceback/logging.py,sha256=qeAA-K8sI8DyO_kWz8Ahiw4XTF-JGxBUuPzvhs4s-20,85
+niceback/on_notebook.py,sha256=gWPFZiyXy1RdOBDUEDY3c5sk0ZFNSejftQ8Bm_YKa-M,947
+niceback/style.css,sha256=5KZKTTc2_yB0Nhygb41O9QTCwQIGZVbomPUFsuH8cF8,2216
+niceback/trace.py,sha256=CiGHoohwHbA347bCUgAdEMqM9NauV5E-sgPZPjytPLA,5410
+niceback-0.3.1.dist-info/METADATA,sha256=nD5iZHjubTcu1znQWCbhl9daU0YqffAHr-X-WlavcKE,3605
+niceback-0.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+niceback-0.3.1.dist-info/top_level.txt,sha256=OrLWJg0Mgk3QLnd7Kw_AjPGG38UxRVRzLytr8jF8PPI,9
+niceback-0.3.1.dist-info/RECORD,,
