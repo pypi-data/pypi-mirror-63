@@ -1,0 +1,11 @@
+notelate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notelate/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notelate/scripts/app.py,sha256=rpgSvKx8C5hoDO0NEMSGunQHjT1IhrnQiUNprG3A8yI,868
+notelate/scripts/notelate.py,sha256=BylDI3zECxUKgvuWBA7-PFPfN85nySVB6elA-uiqlJM,2820
+notelate/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notelate-0.0.4.dist-info/LICENSE,sha256=WZ_bQUVi5619fH4DWWpoplVDZO4WmO6eebuBHDIIbKY,1065
+notelate-0.0.4.dist-info/METADATA,sha256=eIFjSHDOP096aGfzFaLBi3XwGzo5FnO6rh9ZSxLabhQ,1694
+notelate-0.0.4.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+notelate-0.0.4.dist-info/entry_points.txt,sha256=ZeRhM1TsoMZoEfl3eSLkMvHorZ-q-EaIeHqJGyJkFaQ,102
+notelate-0.0.4.dist-info/top_level.txt,sha256=jFq40FFniLTwz8vsk6wWcHYkdaoTNe2xc6eON9whT-Y,9
+notelate-0.0.4.dist-info/RECORD,,
