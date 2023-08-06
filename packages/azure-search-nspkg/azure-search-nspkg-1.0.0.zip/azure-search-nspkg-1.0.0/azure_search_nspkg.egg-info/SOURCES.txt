@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+azure/__init__.py
+azure/search/__init__.py
+azure_search_nspkg.egg-info/PKG-INFO
+azure_search_nspkg.egg-info/SOURCES.txt
+azure_search_nspkg.egg-info/dependency_links.txt
+azure_search_nspkg.egg-info/not-zip-safe
+azure_search_nspkg.egg-info/requires.txt
+azure_search_nspkg.egg-info/top_level.txt
