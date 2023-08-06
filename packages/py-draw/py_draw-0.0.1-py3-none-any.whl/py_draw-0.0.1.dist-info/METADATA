@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-draw
+Version: 0.0.1
+Summary: This program is drawing tool written using pygame
+Home-page: https://github.com/taiseiyo/Self-made-python-script/tree/master/command/pydraw/
+Author: suzuki taisei
+Author-email: taiseiyo11@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pygame
+Requires-Dist: pyautogui
+
+UNKNOWN
+
+
