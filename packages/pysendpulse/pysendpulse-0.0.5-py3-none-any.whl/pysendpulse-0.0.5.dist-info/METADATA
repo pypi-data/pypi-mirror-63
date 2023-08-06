@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysendpulse
+Version: 0.0.5
+Summary: A simple SendPulse REST client library and example for Python
+Home-page: https://github.com/sendpulse/sendpulse-rest-api-python
+Author: Maksym Ustymenko
+Author-email: tech@sendpulse.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python3-memcached
+
+UNKNOWN
+
+
