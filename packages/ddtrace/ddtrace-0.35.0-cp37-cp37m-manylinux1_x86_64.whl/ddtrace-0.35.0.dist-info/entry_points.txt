@@ -1,0 +1,4 @@
+[console_scripts]
+ddtrace-run = ddtrace.commands.ddtrace_run:main
+pyddprofile = ddtrace.profile.__main__:main
+
