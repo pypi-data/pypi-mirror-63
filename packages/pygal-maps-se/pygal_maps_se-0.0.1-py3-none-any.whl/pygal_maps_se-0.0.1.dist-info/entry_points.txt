@@ -1,0 +1,3 @@
+[pygal.maps]
+se = pygal_maps_se.maps
+
