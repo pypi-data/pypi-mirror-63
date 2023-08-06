@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: TileGenerator
+Version: 0.0.2
+Summary: Package to generate tiles from Mapbox using predefined or user created styles
+Home-page: https://github.com/LU-C4i/TileGenerator
+Author: Aaron Swaving
+Author-email: a.c.swaving@sea.leidenuniv.nl
+License: Apache Software License 2.0
+Keywords: satellite imagery Mapbox
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: mapbox
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pandas
+Requires-Dist: dataclasses
+
+# TileGenerator
+> Convenience functions for use of Mapbox API for Deep Learning
+
+
+## Install
+
+`pip install your_project_name`
+
+## How to use
+
+Use this library in conjunction with [Mapbox](https://www.mapbox.com/) to generate satellite imagery tiles or related style tiles.
+
+
