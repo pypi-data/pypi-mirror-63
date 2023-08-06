@@ -1,0 +1,15 @@
+LICENSE,sha256=W27-vTonCox6yzr1WzSiep5vb-i9mtoZsL2b-HDu1kI,1044
+README.md,sha256=YsiwcIk4O24z8IWV4xzVio98-ZRscOqROvvL86S7jPg,2576
+gutenhaiku/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gutenhaiku/app.py,sha256=hD0nsYrbgmXHlt2lm6cqTXOdTBTOta25onYgZBHSRb0,9198
+gutenhaiku/cleaner.py,sha256=0J-viGS9irRc4pne6MzXycjMirgf0y-oueocCKQBNo8,6875
+gutenhaiku/download.py,sha256=CTLPkN3oKaQvcnmDLAA1vVkOfOsOIRkqgSYeynqic9s,1177
+gutenhaiku/models/__init__.py,sha256=2Plfvf4zwPxWMDoINAxr0INhjQ2phtDy28ouRDS5C2Y,239
+gutenhaiku/models/params,sha256=QaYk_-gDGp1_Ycir799ea07znKimc647ZYVGJ7DGkZ8,2337
+gutenhaiku/pipeline.py,sha256=TNcu6UQQs1gy-S1s6h9cZDPDSnYHlxwgy_Rc5DKCKV4,4105
+gutenhaiku/utils.py,sha256=GFYzPbPAX39HZKG-h7edek5gmRbhVblnCpR43gS49z4,716
+gutenhaiku-1.0.0.dist-info/entry_points.txt,sha256=NW1z1lZKHh8i05Ezy1LbDHu8OW23z4Bmm9zqpEnj6y4,49
+gutenhaiku-1.0.0.dist-info/LICENSE,sha256=W27-vTonCox6yzr1WzSiep5vb-i9mtoZsL2b-HDu1kI,1044
+gutenhaiku-1.0.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+gutenhaiku-1.0.0.dist-info/METADATA,sha256=n3IdlDk4_Rhf2_axdtEsMRBPjMlK79b4USGYAZGm2xQ,3717
+gutenhaiku-1.0.0.dist-info/RECORD,,
