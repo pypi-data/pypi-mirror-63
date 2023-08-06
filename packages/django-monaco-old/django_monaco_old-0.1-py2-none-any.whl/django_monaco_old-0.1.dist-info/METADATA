@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-monaco-old
+Version: 0.1
+Summary: Monaco editor widgets in the Django Admin
+Home-page: UNKNOWN
+Author: Ayush Shanker
+License: MIT
+Keywords: django<1.11,monaco
+Platform: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Django (<1.11)
+
+# Django Monaco (old)
+
+This works with django 1.9
+
+## Installation
+
+To install the package by `pip` run following command
+
+```sh
+$ pip install django-monaco-old
+```
+
+todo: add README
+
+
