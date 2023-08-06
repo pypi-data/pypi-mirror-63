@@ -1,0 +1,9 @@
+README.md
+setup.py
+keras_webhook_callback/__init__.py
+keras_webhook_callback/main.py
+keras_webhook_callback.egg-info/PKG-INFO
+keras_webhook_callback.egg-info/SOURCES.txt
+keras_webhook_callback.egg-info/dependency_links.txt
+keras_webhook_callback.egg-info/requires.txt
+keras_webhook_callback.egg-info/top_level.txt
