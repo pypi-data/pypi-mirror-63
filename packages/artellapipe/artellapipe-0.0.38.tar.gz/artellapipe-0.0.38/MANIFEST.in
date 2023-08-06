@@ -1,0 +1,4 @@
+include artellapipe/__logging__.ini
+include artellapipe/changelog.yml
+include artellapipe/*.json
+recursive-include artellapipe/resources/* *.*
