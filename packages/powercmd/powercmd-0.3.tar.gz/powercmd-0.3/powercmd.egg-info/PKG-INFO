@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: powercmd
+Version: 0.3
+Summary: A generic framework to build typesafe line-oriented command interpreters
+Home-page: http://github.com/dextero/powercmd
+Author: Marcin Radomski
+Author-email: marcin@mradomski.pl
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
