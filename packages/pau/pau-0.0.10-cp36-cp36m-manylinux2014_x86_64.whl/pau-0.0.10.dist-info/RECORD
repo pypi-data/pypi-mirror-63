@@ -1,0 +1,10 @@
+pau_cuda.cpython-36m-x86_64-linux-gnu.so,sha256=rRrAuXAk5q7KglkBcxjZ9OYKCAowQaS6fiBNxjEQ2sk,7420648
+pau-0.0.10.dist-info/WHEEL,sha256=ASlvFmB1HC-u47CkWqDDIw6dg1MYiruGUyEW4H0WPms,112
+pau-0.0.10.dist-info/METADATA,sha256=4KBuhQtKvbJT6J2LswlO3qWmPXfedMvMbKSxR3nQobI,507
+pau-0.0.10.dist-info/RECORD,,
+pau-0.0.10.dist-info/top_level.txt,sha256=Imcng5p4Y2GppO4tXshQCr22trqvc-uzrAYyWR7kUH4,24
+pytorch_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_module/pade_activation.py,sha256=MLGqg42jPZqq__1c1ccnAYK9qHMKMyoKX5_3RSy1l1o,12295
+pytorch_module/Pade.py,sha256=GQWu1U6WSl41cSyempHnyeXuRMZNltXFHf4qYXozZQI,15846
+pytorch_module/utils.py,sha256=wFIHJR1DM68BYV8poA9RCpNLx8bNgxBEvHg2IaEFsTs,9311
+pau.libs/libcudart-1b201d85.so.10.1.243,sha256=imP4KIg7XqFvzLtV40Zdy3OTxsuNrE5n05ZPtTTBTG8,519008
