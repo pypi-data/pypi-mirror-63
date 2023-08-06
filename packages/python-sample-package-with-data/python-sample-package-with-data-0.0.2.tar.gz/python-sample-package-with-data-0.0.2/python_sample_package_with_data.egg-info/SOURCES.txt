@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+python-sample-package-with-data
+setup.py
+python_sample_package_with_data/__init__.py
+python_sample_package_with_data/mydata.txt
+python_sample_package_with_data.egg-info/PKG-INFO
+python_sample_package_with_data.egg-info/SOURCES.txt
+python_sample_package_with_data.egg-info/dependency_links.txt
+python_sample_package_with_data.egg-info/top_level.txt
