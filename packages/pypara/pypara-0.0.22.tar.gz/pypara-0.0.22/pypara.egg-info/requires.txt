@@ -1,0 +1,4 @@
+python-dateutil<3.0
+
+[:python_version == "3.6"]
+dataclasses==0.7
