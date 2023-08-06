@@ -1,0 +1,10 @@
+README.md
+setup.py
+test/test_athena_dataset.py
+tf_data_athena/__init__.py
+tf_data_athena/factory.py
+tf_data_athena.egg-info/PKG-INFO
+tf_data_athena.egg-info/SOURCES.txt
+tf_data_athena.egg-info/dependency_links.txt
+tf_data_athena.egg-info/requires.txt
+tf_data_athena.egg-info/top_level.txt
