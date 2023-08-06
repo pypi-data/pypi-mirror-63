@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tdk-search
+Version: 1.0.0
+Summary: fetches meanings of the turkish words from sozluk.gov.tr
+Home-page: https://github.com/xis/tdk
+Author: Enes Furkan Olcay
+Author-email: sarhosgitar@gmail.com
+License: MIT
+Description: <div align="center">
+          <h1>tdk yan sanayi</h1>
+           fetches meanings of turkish words from sozluk.gov.tr
+        </div>
+        
+        ## Installation
+        ```bash
+        pip install tdk-fetch
+        ```
+        
+        ## Usage
+        ```python
+        from tdk import tdk
+        
+        # create new word
+        word = tdk.new_word("şarap")
+        # prints meaning of the word
+        print(word.meaning())
+        # prints all the word's data
+        print(word.all_data())
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
