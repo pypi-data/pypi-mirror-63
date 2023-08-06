@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pynetcon
+Version: 0.1.10
+Summary: UNKNOWN
+Home-page: https://github.com/TensorCon/PyNetcon
+Author: David Anekstein
+Author-email: aneksteind@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: oct2py (==4.0.6)
+
+UNKNOWN
+
+
