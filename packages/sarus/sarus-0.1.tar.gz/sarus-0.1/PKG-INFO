@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: sarus
+Version: 0.1
+Summary: Python client for the Sarus Gateway. Users can explore & train AI models on sensitive data, via synthetic data browsing, remote training and differential privacy.
+Home-page: UNKNOWN
+Author: Sarus Technologies
+Author-email: contact@sarus.tech
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: differential privacy,AI,Data privacy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
