@@ -1,0 +1,12 @@
+sslmqs/__init__.py,sha256=oUmPNi4rR7HJJjuxnP4BedbSa7c2hoqvZPSt1tewjJY,163
+sslmqs/mqs.py,sha256=E6MjsolPC_1pnjfg_7WekRyt0YWmJHIB7tXGodqZIR4,5047
+sslmqs/mqs_publisher.py,sha256=TsI_oOXArhRbkjQZsP6aXeuUckWMjqQulDEPz2qSRGs,2688
+sslmqs/mqs_subscriber.py,sha256=jMIkeis9FVcdpEGS8OtVItuoy9qc1yy8SCImeDwEMsw,4564
+sslmqs/retry.py,sha256=sIhMXIe5l7fdXvT17gjcT-68IrtMDHutDEaICC2VWMM,1796
+sslmqs/sigterm.py,sha256=NMQKIZE6taVMbILktcBw-DkcP0cFWCNd-zMaDw9CPH4,387
+sslmqs-2.0.0.dist-info/DESCRIPTION.rst,sha256=hbbIzKgfgoBp8ExUNvy4kBggZgm-AYMu86MenP9EpIg,861
+sslmqs-2.0.0.dist-info/METADATA,sha256=39llVrNSIDglYKAEXoJ1NMy0PKeaedVtfrotHcGYHKE,1214
+sslmqs-2.0.0.dist-info/RECORD,,
+sslmqs-2.0.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+sslmqs-2.0.0.dist-info/metadata.json,sha256=mtbQfD2Z61pZxgkBMSwc8flJD2M25imMANowUFL7rk4,591
+sslmqs-2.0.0.dist-info/top_level.txt,sha256=4zlhR4Y9AMbkHMn_-i9LrY7_1SXi_ZPLmy3v7_VaQ54,7
