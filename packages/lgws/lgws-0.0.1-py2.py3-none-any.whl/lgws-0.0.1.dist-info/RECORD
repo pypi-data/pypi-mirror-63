@@ -1,0 +1,11 @@
+lgws/__init__.py,sha256=DOOTzN1Mue-wl2Gi2gxkkOZ-Ieo-ylFSahSuyaVCosU,202
+lgws/__main__.py,sha256=UQChCSChFfMbvQwH7RFdSxgt9Y-WW9SLrDEuQm60UPQ,501
+lgws/bridge.py,sha256=t7aH3Aw2XETiAzFFL-f0dt0ljKeOv1uMX4HACH6k2DQ,1464
+lgws/cli.py,sha256=eirNeYYmnTpeqVXDyDKxzpk6yerzEcdyi2-QbzilMao,2874
+lgws/lgws.py,sha256=CwxrcH_nP7LNIp3tnXcJhRZYZwt1YrxwlERiOPm5_i8,1698
+lgws/utils.py,sha256=OCgCiCsbBQbinHGLde2eE0h3h3tdfLM9GkBoRl6z3Mc,831
+lgws-0.0.1.dist-info/entry_points.txt,sha256=Z169p99qlyN1DD3jrFBgvtQ3SiR0t648iLINMFdTN7g,35
+lgws-0.0.1.dist-info/LICENSE,sha256=aZgB_fAWTrgYdBQCjK2W_ZUXtGQ51ghuYwLTZVvWSbI,1100
+lgws-0.0.1.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+lgws-0.0.1.dist-info/METADATA,sha256=M-lVEq5AD0H6DobDgd-cts_FpBY0X5loqZpd2RjxkIM,333
+lgws-0.0.1.dist-info/RECORD,,

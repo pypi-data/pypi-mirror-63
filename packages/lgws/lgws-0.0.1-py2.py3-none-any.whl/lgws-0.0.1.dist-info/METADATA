@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lgws
+Version: 0.0.1
+Summary: PyLGMqtt
+Home-page: https://github.com/eagleamon/lgws.git
+License: UNKNOWN
+Author: Joseph Piron
+Author-email: joseph.piron@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pywebostv
+Requires-Dist: wakeonlan
+Requires-Dist: click
+Requires-Dist: gmqtt
