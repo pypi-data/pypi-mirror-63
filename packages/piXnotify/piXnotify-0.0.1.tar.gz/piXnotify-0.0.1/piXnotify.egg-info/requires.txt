@@ -1,0 +1,6 @@
+
+[:platform_system == "Darwin"]
+pync
+
+[:platform_system == "Linux"]
+notify2
