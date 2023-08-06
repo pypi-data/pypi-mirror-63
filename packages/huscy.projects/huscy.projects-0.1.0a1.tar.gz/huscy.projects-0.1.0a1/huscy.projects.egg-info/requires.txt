@@ -1,0 +1,17 @@
+Django>=2.0
+djangorestframework>=3.10
+django-filter
+
+[development]
+psycopg2-binary
+
+[docs]
+django-extensions
+pydot
+
+[release]
+twine
+
+[testing]
+tox
+watchdog
