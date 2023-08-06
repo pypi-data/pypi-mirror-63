@@ -1,0 +1,5 @@
+plotly>=3.4.2
+numpy>=1.15.4
+neurom>=1.4.13
+six>=1.12.0
+click>=6.0

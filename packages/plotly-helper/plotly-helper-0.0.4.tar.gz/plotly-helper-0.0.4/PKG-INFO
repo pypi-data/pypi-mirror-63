@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: plotly-helper
+Version: 0.0.4
+Summary: Package that makes plotly easy
+Home-page: https://github.com/bluebrain/plotly-helper
+Author: BlueBrain NSE
+Author-email: bbp-ou-nse@groupes.epfl.ch
+License: BBP-internal-confidential
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
