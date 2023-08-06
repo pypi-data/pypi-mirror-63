@@ -1,0 +1,19 @@
+# Import python libs
+import os
+
+
+def version(hub, bname):
+    """
+    Gather the version number of the pop project if possible
+    """
+    dir_ = hub.pop_build.BUILDS[bname]["dir"]
+    name = hub.pop_build.BUILDS[bname]["name"]
+    name = name.replace("-", "_")
+    path = os.path.join(dir_, name, "version.py")
+    _locals = {}
+    version = "1"
+    if os.path.isfile(path):
+        with open(path) as fp:
+            exec(fp.read(), None, _locals)
+            version = _locals["version"]
+    hub.pop_build.BUILDS[bname]["version"] = version

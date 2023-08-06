@@ -1,0 +1,17 @@
+pop_build/conf.py,sha256=gWiXMKXSvgZ0I7x1wU7yf3qNK4Je_eYJGwjnV2JjWkM,3812
+pop_build/scripts.py,sha256=awnvCbPiz3ZeVJSIUmPIKKhVTaorUDB1Iex5hA4PkWM,149
+pop_build/version.py,sha256=s2xkRhA8hT5ERvlxGTwJFZ3a1NOmmiBsz0JO5Wj_Xfo,38
+pop_build/pop_build/build.py,sha256=VfsHLwANv__ODL1Cr71C97VXn-wF3wvNp98GaYQWMnw,1377
+pop_build/pop_build/data.py,sha256=Pf8Rdvjf_2PWAfvqbuJuzY4niw-YYEZBjOQexxTn6P4,544
+pop_build/pop_build/init.py,sha256=q-HwaByTR2sHjkvdETKbPU55gaTCqReU_5eHXtSNhLI,4446
+pop_build/pop_build/inst.py,sha256=LfeheEVeR9KNhIXWZ825XgWZ5TFjxvCSsda-1SzBACQ,2978
+pop_build/pop_build/post.py,sha256=2czwc-gr0hj7G4JEull49sHS149ezGQROLev3VnAWTU,610
+pop_build/pop_build/venv.py,sha256=elCAFHrH04aTJgcPjyqqez79oQ1q0m0q8JFKxUk_mmU,4836
+pop_build/pop_build/pkg/fpm.py,sha256=v-FBessUARVG7INujGqlCUHiTKRCZvtm8JUbpz0CZUg,3300
+pop_build/pop_build/pkg/init.py,sha256=ot9AfY0NQcikcfAZpTMA_n8_7LsfsGZcczi6-V0ZUzg,232
+pop_build-2.dist-info/LICENSE,sha256=pZUC-Jz_OkbURD3ZSsQBh6u1Giu7OTkbeNF8oUembIY,11348
+pop_build-2.dist-info/METADATA,sha256=Jy4OyvgL36TDahyRBRLhALYocf6_lb5onJncnj99SFE,5220
+pop_build-2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pop_build-2.dist-info/entry_points.txt,sha256=z7pe63DpXP572Dx-mgUOa7s0FrLYx7lfmvayS8L3Le4,55
+pop_build-2.dist-info/top_level.txt,sha256=J4pRxzBDzDiUjjD3r5iXIhVsFdQqssLLOnf-gOyCZG0,10
+pop_build-2.dist-info/RECORD,,
