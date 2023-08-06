@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: credentials-manager
+Version: 0.2
+Summary: Simple credential management
+Home-page: https://github.com/dreynolds/CredentialsManager
+Author: David Reynolds
+Author-email: david@reynoldsfamily.org.uk
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keyring (==21.1.1)
+
+CredentialsManager
+==================
+
+Simple python credentials manager which uses home directory files and the keyring module.
+
+Usage example:
+
+    cm = CredentialsManager()
+    cm.load()
+    login_to_external_service(username=cm.username, password=cm.password)
+
+
