@@ -1,0 +1,3 @@
+[console_scripts]
+graphreport = graphreport_metrics.runner:main
+
