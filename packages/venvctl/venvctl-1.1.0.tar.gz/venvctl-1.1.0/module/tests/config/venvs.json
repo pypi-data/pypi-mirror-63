@@ -1,0 +1,21 @@
+[{
+        "name": "base",
+        "packages": [
+            "docker==4.1.0"
+        ]
+    },
+    {
+        "name": "ansible_2_9",
+        "parent": "base",
+        "packages": [
+            "ansible==2.9"
+        ]
+    },
+    {
+        "name": "ansible_2_9_networking",
+        "parent": "ansible_2_9",
+        "packages": [
+            "tox==3.12.1"
+        ]
+    }
+]
