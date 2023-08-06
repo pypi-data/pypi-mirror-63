@@ -1,0 +1,10 @@
+datacatalogtordf/__init__.py,sha256=dLXL2WW4MOg4_uZKJMI9jGFPvq6v4tmF_Qv16toLGcA,600
+datacatalogtordf/catalog.py,sha256=ZDrJAOG2RzVtgWpXn-7FGL4J8LqJAmAPK1iLeeakOl0,2008
+datacatalogtordf/dataservice.py,sha256=hkCmYs8R1JqkaKqIhTdqWF_8TgfStZLY2kgQNwPMioE,3629
+datacatalogtordf/dataset.py,sha256=wiL4OPDpheSYQZnlMWflxiFWmdG3i8CZS-qIgmtzyzs,2328
+datacatalogtordf/distribution.py,sha256=_KozA_fd9BXD_Iz6c8w1bMKVBb8a-fUr3YtdKBRjC6A,2703
+datacatalogtordf/resource.py,sha256=CazCW-2861MXx1_n2qVheliFNhrLQxzU32qEa_5yiBM,5029
+datacatalogtordf-0.1.0a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datacatalogtordf-0.1.0a3.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+datacatalogtordf-0.1.0a3.dist-info/METADATA,sha256=8nqPzcwaK9COZqpTwvXSazMHsUb-Bnzf4yfreQQjynU,3419
+datacatalogtordf-0.1.0a3.dist-info/RECORD,,
