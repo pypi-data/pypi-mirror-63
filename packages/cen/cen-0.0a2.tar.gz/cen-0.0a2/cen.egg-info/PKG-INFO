@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cen
+Version: 0.0a2
+Summary: Contextual Explanation Networks.
+Home-page: https://github.com/alshedivat/cen
+Author: Maruan Al-Shedivat
+Author-email: maruan@alshedivat.com
+License: UNKNOWN
+Description: # Contextual Explanation Networks (CEN)
+        
+        Code release for Contextual Explanation Networks.
+        
+        Repository under constructions. More details coming soon.
+        
+Keywords: deep learning,machine learning,explainability,interpretability,tensorflow,keras,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
