@@ -1,0 +1,6 @@
+invoice_generate/__init__.py,sha256=eZ_neonv8D-x6537H-26abC3KqdAzdCQE6FPC9BamyM,4755
+invoice_generate/templates/template.tpl,sha256=tRFpOK-1TXOfVTTCnmVxXC9Opg0QHvdIWk1kHnoBENI,5105
+invoice_generate-0.1.2.dist-info/entry_points.txt,sha256=9id-A0mqevTV3XHn71R9LPh1JyMCqvl4CGuvxbwRa_o,58
+invoice_generate-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+invoice_generate-0.1.2.dist-info/METADATA,sha256=nm51iCcYCo9V4Fhh38NNga-xq5Ydzp_MzqAIzs7Es_c,560
+invoice_generate-0.1.2.dist-info/RECORD,,

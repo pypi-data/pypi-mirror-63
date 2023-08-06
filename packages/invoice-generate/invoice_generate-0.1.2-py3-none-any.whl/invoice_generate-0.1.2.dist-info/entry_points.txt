@@ -1,0 +1,3 @@
+[console_scripts]
+invoice-generate=invoice_generate:main
+
