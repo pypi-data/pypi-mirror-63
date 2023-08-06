@@ -1,0 +1,15 @@
+README.md
+setup.py
+pyappsflyer/__init__.py
+pyappsflyer/api.py
+pyappsflyer/base.py
+pyappsflyer/exceptions.py
+pyappsflyer/settings.py
+pyappsflyer.egg-info/PKG-INFO
+pyappsflyer.egg-info/SOURCES.txt
+pyappsflyer.egg-info/dependency_links.txt
+pyappsflyer.egg-info/not-zip-safe
+pyappsflyer.egg-info/requires.txt
+pyappsflyer.egg-info/top_level.txt
+test/test_base.py
+test/test_report.py
