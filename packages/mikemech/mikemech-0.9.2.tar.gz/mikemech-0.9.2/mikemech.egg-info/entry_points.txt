@@ -1,0 +1,3 @@
+[console_scripts]
+mech = mech.mech_cli:cli
+
