@@ -1,0 +1,8 @@
+check_glue_catalog/__init__.py,sha256=ZzCTOJZ2JQirPh-obCOpxW6D7dn9ZL0ysVYiE6P7wDA,42
+check_glue_catalog/check_glue_catalog.py,sha256=GofiOEmBVlkJqipS_H54CyyaK4MrELxNld000YYbLuw,1211
+check_glue_catalog/utils.py,sha256=vwfav3XmorPDlAsOsDsisOQtcqZb6-eCxIkw5pAS3NI,1540
+check_glue_catalog-0.1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+check_glue_catalog-0.1.2.dist-info/METADATA,sha256=lw4E9sdUHNUPWnl4svYkC06S2NeNxNE0xVNE5x7V1iM,1888
+check_glue_catalog-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+check_glue_catalog-0.1.2.dist-info/top_level.txt,sha256=6ro73cuJ-YXgcdTORaZeMW0_NFYnWHL50ehy5WbY2d8,19
+check_glue_catalog-0.1.2.dist-info/RECORD,,
