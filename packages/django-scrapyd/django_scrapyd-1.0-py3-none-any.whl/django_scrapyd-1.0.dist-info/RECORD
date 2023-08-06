@@ -1,0 +1,17 @@
+django_scrapyd-1.0.dist-info/DESCRIPTION.rst,sha256=WDjzCcbn3i1jreJRNoIcoHmlUMDct9kjfZBIe_ZdAMw,393
+django_scrapyd-1.0.dist-info/METADATA,sha256=yyr1mjPh5Vsj5Fc52Z57C6AgqyD967AV9oj7rTo2ia8,1195
+django_scrapyd-1.0.dist-info/RECORD,,
+django_scrapyd-1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+django_scrapyd-1.0.dist-info/metadata.json,sha256=BPsPZ2MIGe3D3mrFkwUtrJRGWfNVw9HILD6mZA6Qra4,942
+django_scrapyd-1.0.dist-info/top_level.txt,sha256=EzNJFrjhfh0CXeF4F56VV2BGqx8QflXS1fclETAlQjM,8
+scrapyd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapyd/admin.py,sha256=XOpdjbh8pqhER26Fn4NjvWUILfIsD9MrlGPEb4yaO6E,7018
+scrapyd/apps.py,sha256=lhqBuW1PdsvGzWQT5FhhHEnMRDtpZXyvtfcToFO5QMY,285
+scrapyd/models.py,sha256=G_asPsKYcBdkvTMH1xa5erwlsJrmO6UbHoxVI5nCwjs,378
+scrapyd/scrapyd.py,sha256=GDy6k-rs2ZKIvyMyGuNixBV1MmqWbMJYVjdhl7MX34M,1421
+scrapyd/urls.py,sha256=UQfRPItsrK1qiNGXQ8Ek0clZguDGzo-bg3a0go6EMW8,110
+scrapyd/views.py,sha256=r8E6u6mHwabVePOusEISR8IZXIoBUNtaVAnaKQwchdw,165
+scrapyd/migrations/0001_initial.py,sha256=PWyA8j4TTmoU4PLBtrC2d1vDnAVFltiT6ShYICsObc8,608
+scrapyd/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapyd/templates/scrapyd/log_stats.html,sha256=GYewBep53oz1fO3xGuCR6BDWxPZv1cajVBJNyu9AK68,3373
+scrapyd/templates/scrapyd/status.html,sha256=I2yxQ-IDcTIRuWRpjCayubKg_ZggQjEuu-wuUMMvdt4,7793
