@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: irr-nonauth-cleanup
+Version: 1.1.2
+Summary: IRR-NONAUTH Cleanup Analyser
+Home-page: https://github.com/job/irr-nonauth-cleanup
+Maintainer: Job Snijders
+Maintainer-email: job@ntt.net
+License: BSD 2-Clause
+Description: UNKNOWN
+Keywords: rpki prefix routing networking
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
