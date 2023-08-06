@@ -1,0 +1,15 @@
+README.md
+setup.py
+bin/nmslib-viz
+nmslib_viz/__init__.py
+nmslib_viz/config.py
+nmslib_viz/file_manager.py
+nmslib_viz/nmslib.py
+nmslib_viz/pca.py
+nmslib_viz/plot.py
+nmslib_viz.egg-info/PKG-INFO
+nmslib_viz.egg-info/SOURCES.txt
+nmslib_viz.egg-info/dependency_links.txt
+nmslib_viz.egg-info/not-zip-safe
+nmslib_viz.egg-info/requires.txt
+nmslib_viz.egg-info/top_level.txt
