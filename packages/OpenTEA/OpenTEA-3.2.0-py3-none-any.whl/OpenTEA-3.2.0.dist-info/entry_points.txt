@@ -1,0 +1,6 @@
+[console_scripts]
+gui_test_complex = opentea.examples.calculator.startup:main
+gui_test_simple = opentea.examples.simple.startup:main
+gui_test_trivial = opentea.examples.trivial.startup:main
+opentea_test_schema = opentea.cli:test_schema
+

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: OpenTEA
+Version: 3.2.0
+Summary: Nested object manipulations
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: coop@cerfacs.fr
+License: CeCILL-B
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.16.2)
+Requires-Dist: h5py (>=2.9.0)
+Requires-Dist: jsonschema
+Requires-Dist: markdown
+Requires-Dist: Pillow (>=5.4.1)
+Requires-Dist: PyYAML (>=3.13)
+Requires-Dist: nob (>=0.4.1)
+Requires-Dist: click
+Requires-Dist: tiny-3d-engine
+
+UNKNOWN
+
+
