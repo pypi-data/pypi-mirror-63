@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jconfigparser
+Version: 0.1.0a1
+Summary: Augmented python configparser
+License: ISC
+Author: Florian Knoop
+Author-email: florian_knoop@gmx.de
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
