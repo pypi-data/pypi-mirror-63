@@ -1,0 +1,5 @@
+- prefix: '/optimization'
+- routes:
+  # Health
+  - /health: routing.controllers.health.HealthController
+  - /router: routing.controllers.router.RouterController
