@@ -1,0 +1,3 @@
+[console_scripts]
+cfpusher = cfpusher.__main__:main
+
