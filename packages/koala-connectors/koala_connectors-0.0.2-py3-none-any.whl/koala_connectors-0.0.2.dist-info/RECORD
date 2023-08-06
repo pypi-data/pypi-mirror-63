@@ -1,0 +1,7 @@
+koala_connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_connectors/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_connectors/connectors/oracle_connector.py,sha256=uMDqyVi3dWdDejUfoCNXyvq3wBQl5Rv2Zl01Sud53vE,1603
+koala_connectors-0.0.2.dist-info/METADATA,sha256=OFdrTZYOm65HRLjXjieL94lOEyuScFFRVwYXxkn03LM,583
+koala_connectors-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+koala_connectors-0.0.2.dist-info/top_level.txt,sha256=crApbTaik9rEwN0a6vMy0R7qrRadw38swfVvc71UI58,17
+koala_connectors-0.0.2.dist-info/RECORD,,
