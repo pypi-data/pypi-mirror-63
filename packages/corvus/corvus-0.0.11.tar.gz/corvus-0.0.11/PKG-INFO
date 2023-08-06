@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: corvus
+Version: 0.0.11
+Summary: Python WebSocket framework with JSON-RPC implementation
+Home-page: https://github.com/OlenEnkeli/corvus
+Author: Anton Niksolkiy
+Author-email: angeloffree@yandex.ru
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
