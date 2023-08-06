@@ -1,0 +1,14 @@
+README.md
+setup.py
+not_tf_opt/__init__.py
+not_tf_opt/optimize.py
+not_tf_opt/variables.py
+not_tf_opt.egg-info/PKG-INFO
+not_tf_opt.egg-info/SOURCES.txt
+not_tf_opt.egg-info/dependency_links.txt
+not_tf_opt.egg-info/requires.txt
+not_tf_opt.egg-info/top_level.txt
+tests/__init__.py
+tests/test_optimize.py
+tests/test_variables.py
+tests/utils.py
