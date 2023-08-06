@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tnng/__init__.py
+tnng/generator.py
+tnng/layer.py
+tnng.egg-info/PKG-INFO
+tnng.egg-info/SOURCES.txt
+tnng.egg-info/dependency_links.txt
+tnng.egg-info/requires.txt
+tnng.egg-info/top_level.txt
