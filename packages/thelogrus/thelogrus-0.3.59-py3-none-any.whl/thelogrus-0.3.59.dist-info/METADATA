@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: thelogrus
+Version: 0.3.59
+Summary: The Logrus is a collection of random utility functions
+Home-page: https://github.com/unixorn/thelogrus
+Author: Joe Block
+Author-email: jpb@unixorn.net
+License: UNKNOWN
+Download-URL: https://github.com/unixorn/thelogrus/tarball/0.3.59
+Keywords: devops,utility
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dateutils
+
+UNKNOWN
+
+
