@@ -1,0 +1,13 @@
+spherical_dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spherical_dev/clean.py,sha256=htFBIsgByZcKULdzeuD4E-a3kBO-bakXC71uZyUOvBI,517
+spherical_dev/debugger.py,sha256=_4l0aTZYj8IeQVGMkbNPKvfPQ10vyvyV-J8LdzLiRCA,912
+spherical_dev/flake.py,sha256=QLP4WONqd72DNAyTfJ8EB5eXkINK08sEipCSMkwHmVU,110
+spherical_dev/isort.py,sha256=4AOIe0ca4HRkL0H2vy8JIyvWayY3QvsXRgwYVwiQHoE,101
+spherical_dev/tasks.py,sha256=U6YJ5SUyY8yeN00rtf31b_m6eggw5yqEHXnBUW_eHkw,154
+spherical_dev/test.py,sha256=Bj3J5Np8C-9hc83AOJgsiivr4YAY_Wy_2y58KJBKiBs,905
+spherical_dev/utils.py,sha256=ekXC-gOgh3HvoCS7Aosb4BPdD0mnydI9S4726sXiM30,385
+spherical_dev-0.0.1.dist-info/METADATA,sha256=GI2L88DBXdYN_Q1Tt6A86GpykQOnIj8ax-OP5SUHbSU,401
+spherical_dev-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spherical_dev-0.0.1.dist-info/top_level.txt,sha256=Kr4XLt9kqaOvhAU2nykfnQl74XnwNj_hrDZNSSEPQQI,14
+spherical_dev-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spherical_dev-0.0.1.dist-info/RECORD,,
