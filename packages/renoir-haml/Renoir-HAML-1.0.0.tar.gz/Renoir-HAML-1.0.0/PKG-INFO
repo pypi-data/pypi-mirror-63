@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: renoir-haml
+Version: 1.0.0
+Summary: HAML syntax for Renoir templates
+Home-page: https://github.com/gi0baro/renoir-haml
+License: BSD-3-Clause
+Keywords: web,templates,haml,renoir
+Author: Giovanni Barillari
+Author-email: gi0baro@d4net.org
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: renoir (>=1.1,<2.0)
+Project-URL: Repository, https://github.com/gi0baro/renoir-haml
+Description-Content-Type: text/markdown
+
+# Renoir-HAML
+
+Renoir-HAML is an extension for the [Renoir engine](https://github.com/emmett-framework/renoir) providing an HAML like syntax for templates. This is not a template engine but a compiler which converts HAML files to HTML Renoir templates.
+
+[![pip version](https://img.shields.io/pypi/v/renoir-haml.svg?style=flat)](https://pypi.python.org/pypi/Renoir-HAML) 
+
+## Installation
+
+You can install Renoir-HAML using pip:
+
+    pip install renoir-haml
+
+And add it to your Renoir engine:
+
+```python
+from renoir_haml import Haml
+
+renoir.use_extension(Haml)
+```
+
+## Configuration
+
+| param | default | description |
+| --- | --- | --- |
+| encoding | utf8 | encoding for IO |
+| reload | `False` | enable auto reload on file changes |
+
+## License
+
+Renoir-HAML is released under BSD license. Check the LICENSE file for more details.
+
