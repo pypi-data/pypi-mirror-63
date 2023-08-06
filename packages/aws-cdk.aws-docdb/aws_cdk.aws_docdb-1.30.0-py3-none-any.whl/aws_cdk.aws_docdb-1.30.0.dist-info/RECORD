@@ -1,0 +1,8 @@
+aws_cdk/aws_docdb/__init__.py,sha256=vlhCcVji9BWzYcB3D8QQcE9XDa9gm-wgc6yyLANYBGs,57736
+aws_cdk/aws_docdb/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_docdb/_jsii/__init__.py,sha256=VnLwMvXrdWVupqGfnW9QU4WfA6W7s9IyTG7PGQwAtAY,195
+aws_cdk/aws_docdb/_jsii/aws-docdb@1.30.0.jsii.tgz,sha256=F8p5vJ2_O0Ou2pQ21yTZB11RLD5xS2somEKvmySA_J4,28270
+aws_cdk.aws_docdb-1.30.0.dist-info/METADATA,sha256=uH7i5gHaGE9ciPUJfm5H6E_lpLjv0CMYPZ7cr2Pdy4A,2058
+aws_cdk.aws_docdb-1.30.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_docdb-1.30.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_docdb-1.30.0.dist-info/RECORD,,
