@@ -1,0 +1,16 @@
+README.md
+setup.py
+phisuite.data.egg-info/PKG-INFO
+phisuite.data.egg-info/SOURCES.txt
+phisuite.data.egg-info/dependency_links.txt
+phisuite.data.egg-info/requires.txt
+phisuite.data.egg-info/top_level.txt
+phisuite/data/__init__.py
+phisuite/data/common_pb2.py
+phisuite/data/common_pb2_grpc.py
+phisuite/data/entity_pb2.py
+phisuite/data/entity_pb2_grpc.py
+phisuite/data/event_pb2.py
+phisuite/data/event_pb2_grpc.py
+phisuite/data/process_pb2.py
+phisuite/data/process_pb2_grpc.py
