@@ -1,0 +1,12 @@
+README.rst
+setup.py
+data/dados.json
+estudo_python.egg-info/PKG-INFO
+estudo_python.egg-info/SOURCES.txt
+estudo_python.egg-info/dependency_links.txt
+estudo_python.egg-info/requires.txt
+estudo_python.egg-info/top_level.txt
+pkg_proj/__init__.py
+pkg_proj/__main__.py
+pkg_proj/meuprograma.py
+pkg_proj/rodaprograma.py
