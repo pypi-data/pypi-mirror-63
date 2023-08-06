@@ -1,0 +1,14 @@
+README.md
+setup.py
+aiohttp_debugmode/__init__.py
+aiohttp_debugmode/debug.py
+aiohttp_debugmode/handler.py
+aiohttp_debugmode/hlp.py
+aiohttp_debugmode/manager.py
+aiohttp_debugmode/observe_stdout.py
+aiohttp_debugmode/pseudopty.py
+aiohttp_debugmode.egg-info/PKG-INFO
+aiohttp_debugmode.egg-info/SOURCES.txt
+aiohttp_debugmode.egg-info/dependency_links.txt
+aiohttp_debugmode.egg-info/requires.txt
+aiohttp_debugmode.egg-info/top_level.txt
