@@ -1,0 +1,3 @@
+[console_scripts]
+private_pypi_github_create_package_repo=private_pypi_backends.github.impl:github_create_package_repo_cli
+
