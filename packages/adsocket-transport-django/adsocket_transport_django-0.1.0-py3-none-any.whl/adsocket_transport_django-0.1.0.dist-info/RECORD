@@ -1,0 +1,16 @@
+adsocket_transport_django/__init__.py,sha256=b8KX8AQ6fS20BhvAso4cfeOldhTMIxZXZtdc20TjLzM,125
+adsocket_transport_django/activity.py,sha256=sB-VzgdRXEapqd2s13Oq964IAd2gfPTzlCU34HaCphc,223
+adsocket_transport_django/apps.py,sha256=dh51Xa8vq-01Kd6Ufs7FtmPZGS2J1zyPELog3zhqWwI,830
+adsocket_transport_django/creator.py,sha256=X1KjLTe7e_j3DZ9MGqiLpQzEj8IxxGvSBTyJdO8jQCo,1853
+adsocket_transport_django/exceptions.py,sha256=PSv4HBXymBL25hfW6eFwS_B15gjnJZ2ulOKYEIBnRnU,184
+adsocket_transport_django/settings.py,sha256=zkz1D37EsvHu2Av8rtBjYiwipFwR_2GpsUV23hYCsvU,852
+adsocket_transport_django/test.py,sha256=MGtddftYyStC665nlHJvpqDL2lCvHLhlq_JT5UzmxrE,372
+adsocket_transport_django/transport.py,sha256=Rd8TPgUOeIDgiCBg64Woz2OTiuSE14grNsXxFwa6zCk,9696
+adsocket_transport_django/utils.py,sha256=9XjEB_CYk9a7Ddh7ONnIgELjjYrkILXYOb4U72I8b4M,860
+adsocket_transport_django/version.py,sha256=O-4hvTJ7q9bt9dTTvEwi6gG9su6FfRmr_Xz5jJBTFeA,23
+adsocket_transport_django-0.1.0.dist-info/LICENSE,sha256=oRbtx1xZHvmMepcN93aRM_xV8D2Xl6jYnPWbs2FmE78,1078
+adsocket_transport_django-0.1.0.dist-info/METADATA,sha256=uyr-luj11qNaBrK9eDCnD5AiIg84bgGBOzsxoCTnKt0,1804
+adsocket_transport_django-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+adsocket_transport_django-0.1.0.dist-info/top_level.txt,sha256=oty56hVyyIyLXkiyC3mkepVpUtekwki4cd4RxMQCpjE,26
+adsocket_transport_django-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+adsocket_transport_django-0.1.0.dist-info/RECORD,,
