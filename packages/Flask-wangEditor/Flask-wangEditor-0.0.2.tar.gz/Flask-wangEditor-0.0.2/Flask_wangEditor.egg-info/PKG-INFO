@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Flask-wangEditor
+Version: 0.0.2
+Summary: wangEditor integration for Flask.
+Home-page: https://github.com/Nuctori/flask_wangEditor
+Author: Nuctori
+Author-email: Nuctori@foxmail.com
+License: MIT
+Description: # Flask-WangEditor
+        
+        wangEditor integration for Flask,a more simple and concies editor
+        
+        ## Links
+        
+        * [Documentation #!todo](#todo)
+        
+        
+        ## License
+        
+        This project is licensed under the MIT License (see the `LICENSE` file for details).
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
