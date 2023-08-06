@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: persistQueue
+Version: 0.0.9
+Summary: A implementation of Class for Persist Queue
+Home-page: http://re91877z@10.55.200.102:7990/scm/edge/lib-persist-queue.git
+Author: logicalis
+Author-email: eugenio@eugenio.io
+License: MIT
+Description: ***PERSIST QUEUE PACKAGE*** 
+        ===========================
+        
+        This project is based on the achievements of `persist-queue <https://pypi.org/project/persist-queue/>`
+        
+        ``persistQueue`` is a class that created for ease the develop.
+        
+        Requirements
+        --------------
+        * Python 2.7
+        * Full suport for Linux
+        
+        Installation
+        --------------
+        
+        ```pip install persistQueue==__version__```
+        
+        * Adding path for python shell
+        
+        ```echo export PYTHONPATH=.local/lib/python2.7/site-packages/persistQueue:${PYTHONPATH} >> .bashrc```
+        
+        Examples
+        --------
+        Example usage with a SQLite3 based queue
+        
+        .. code-block:: python
+        
+            >>> from persistQueue import PersistQueue
+            >>> q = PersistQueue()
+            >>> q.put('str1')
+            >>> q.put('str2')
+            >>> q.put('str3')
+            >>> q.get()
+            'str1'
+            >>> del q
+        
+        
+Keywords: queue,persistence,iot,embedded
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries
