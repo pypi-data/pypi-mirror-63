@@ -1,0 +1,16 @@
+os: linux
+language: python
+python:
+- '3.6'
+install:
+- pip install -r requirements-dev.txt
+script:
+- make flake
+deploy:
+  provider: pypi
+  user: __token__
+  password:
+    secure: I+CGZwKlUqKxzqbrw//qAk15f9vcWbBLrqmaqWqRdBJhdO9bmRyrkm63eBd/O0rHi2yg8KKL346FA4k2tae/QLpCiq5WEOmV+1zXTI62NoXoUeE9w+Vuk5ngn3a/spBM+L3ZbGYOMXO8eB+kRzkfimMOgkIRlRrCcjGzb356qvrfv0RcprspaUl4dn0T86V3TAo+mbHhELSZ8dWEvmgcO7mVhWruwTRlEaYMjkLrNjI4CTYZTV+tRbDYQBOfY9zN3by7gBDK1FaA01PNWwQyPRxrs6o38cmGovfzlG9TgMVr4dP+nok1oaF+4IIzAW+PF0R0jjW80ya/VMAhfdI0TQR1lyZmtm8RMEsd8DezwaTczIFYwJgCx+JMMfsMZ0NAR+Yv4by8nP3KQXWzNZ5r8VQ/njg1X0yno3jRmsCh5j/Udnei54QLSn+K+B0/dYd0FxJPjm3CtoVx4/QrJXXmiPZwU4ti0eGoPC4Oj7gADxdAOitzpj3JOlqMvKe4c52zn5YAl2oaDqYtXt+CGw6s7RhCN7ENifEHteE3m4OAuoPg9SiEivGg9dUGlZo/iVyrfn4MWvhKqXB25Kbwq4bWYChU+hRpddkyJqlnyPwEol2OUeX6aciH8Z9/HfWAnPJzE/RskCzbNFM+RypYBYfUkALmxcfRCarUqppYwopZqEw=
+  on:
+    branch: master
+    tags: true
