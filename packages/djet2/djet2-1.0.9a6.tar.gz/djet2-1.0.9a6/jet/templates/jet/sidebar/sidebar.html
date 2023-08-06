@@ -1,0 +1,22 @@
+{% load jet_tags %}
+<div class="sidebar sidebar-dependent">
+    <div class="sidebar-wrapper scrollable">
+        {% for section in self.render_sections %}
+            {{ section }}
+        {% endfor %}
+    </div>
+
+    {% jet_get_menu as app_list %}
+    {% if app_list and not SIDE_MENU_COMPACT %}
+        <div class="sidebar-popup-container">
+            <div class="sidebar-popup scrollable">
+                <a href="#" class="sidebar-close sidebar-back">
+                    <span class="sidebar-close-icon fas fa-chevron-left"></span>
+                </a>
+                {% for section in self.render_popups %}
+                    {{ section }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</div>
