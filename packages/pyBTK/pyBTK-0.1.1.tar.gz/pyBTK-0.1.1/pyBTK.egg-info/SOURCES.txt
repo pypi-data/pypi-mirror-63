@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+pyBTK/__init__.py
+pyBTK/_btk.pyd
+pyBTK/btk.py
+pyBTK.egg-info/PKG-INFO
+pyBTK.egg-info/SOURCES.txt
+pyBTK.egg-info/dependency_links.txt
+pyBTK.egg-info/not-zip-safe
+pyBTK.egg-info/top_level.txt
+pyBTK/__pycache__/__init__.cpython-37.pyc
+pyBTK/__pycache__/btk.cpython-37.pyc
