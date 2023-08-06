@@ -1,0 +1,3 @@
+[console_scripts]
+flask-dj = Flask_DJ:command
+
