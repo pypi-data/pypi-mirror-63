@@ -1,0 +1,13 @@
+dataplay/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+dataplay/_nbdev.py,sha256=JViiXOStyeiQ2PVbhQuU5RzIJUnOj4EEggYZaRRaKfY,443
+dataplay/acsDownload.py,sha256=Th5kaOlmpxaX04wsbi2478fI-Ty5qxVu1-QUdAHrtsk,8692
+dataplay/mergeData.py,sha256=WP4gP6uIdemx6TeHCiWztodG_qTWM65LdDFDOtTcFFA,117
+dataplay/__pycache__/__init__.cpython-36.pyc,sha256=0r2g1SS8z41kq65lJyZ9mRkJhg5eTxhygvAth0SHCfw,164
+dataplay/__pycache__/_nbdev.cpython-36.pyc,sha256=qX9DpGely4VtZGlZiroppQTUgnN_539FCgkh8APsdMQ,552
+dataplay/__pycache__/acsDownload.cpython-36.pyc,sha256=LewXiO0UEuheJ-UZVfRdW22UII6Le3aaN4cCNwx6S6U,4530
+dataplay-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dataplay-0.0.1.dist-info/METADATA,sha256=p7C_iUdhopVwRyvEXUU355AK40hM3BthPMxMtpVhtvQ,7317
+dataplay-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dataplay-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dataplay-0.0.1.dist-info/top_level.txt,sha256=fYpjstXeDpjhS0nYa5sUHJzp2g_Wtnt8tXiUS6exTDA,9
+dataplay-0.0.1.dist-info/RECORD,,
