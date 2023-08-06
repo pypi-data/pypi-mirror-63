@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: awshelper
+Version: 0.5
+Summary: helps you run aws commands with sso-based credentials
+Home-page: https://github.com/trondhindenes/awshelper
+Author: Trond Hindenes
+Author-email: trond@hindenes.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
