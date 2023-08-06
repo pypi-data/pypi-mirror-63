@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+gcspath.py
+setup.cfg
+setup.py
+gcspath.egg-info/PKG-INFO
+gcspath.egg-info/SOURCES.txt
+gcspath.egg-info/dependency_links.txt
+gcspath.egg-info/requires.txt
+gcspath.egg-info/top_level.txt
