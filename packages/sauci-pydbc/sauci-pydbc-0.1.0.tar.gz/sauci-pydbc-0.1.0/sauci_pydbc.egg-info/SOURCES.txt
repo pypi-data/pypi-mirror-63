@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+pydbc/__init__.py
+pydbc/exception.py
+pydbc/node.py
+pydbc/test_parser.py
+pydbc/parser/__init__.py
+pydbc/parser/lexer.py
+pydbc/parser/parser.py
+pydbc/parser/parsetab.py
+sauci_pydbc.egg-info/PKG-INFO
+sauci_pydbc.egg-info/SOURCES.txt
+sauci_pydbc.egg-info/dependency_links.txt
+sauci_pydbc.egg-info/entry_points.txt
+sauci_pydbc.egg-info/requires.txt
+sauci_pydbc.egg-info/top_level.txt
