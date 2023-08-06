@@ -1,0 +1,15 @@
+jupyterlab>=1.0.0
+requests>=2.22.0
+tornado>=6.0.0
+
+[dev]
+jupyterlab>=1.0.0
+requests>=2.22.0
+tornado>=6.0.0
+pytest
+pytest-cov
+pylint
+flake8
+bump2version
+autopep8
+mock

@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>jupyterlab_iframe &mdash; jupyterlab_iframe 0.2.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> jupyterlab_iframe
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">jupyterlab_iframe</a><ul>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#options">Options</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#caveats">Caveats</a><ul>
+<li><a class="reference internal" href="#update-for-version-v0-0-12-most-of-these-are-covered-by-31">Update for version v0.0.12 - Most of these are covered by #31</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#similar-packages">Similar Packages</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">jupyterlab_iframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>jupyterlab_iframe</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="jupyterlab-iframe">
+<h1>jupyterlab_iframe<a class="headerlink" href="#jupyterlab-iframe" title="Permalink to this headline">¶</a></h1>
+<p>Open a site in a widget, or add a set of “quicklinks”.</p>
+<p><a class="reference external" href="https://travis-ci.org/timkpaine/jupyterlab_iframe"><img alt="Build Status" src="https://travis-ci.org/timkpaine/jupyterlab_iframe.svg?branch=master" /></a> <a href="#id1"><span class="problematic" id="id2">|GitHub issues|</span></a> <a class="reference external" href="https://codecov.io/gh/timkpaine/jupyterlab_iframe"><img alt="codecov" src="https://codecov.io/gh/timkpaine/jupyterlab_iframe/branch/master/graph/badge.svg" /></a> <a class="reference external" href="https://pypi.python.org/pypi/jupyterlab_iframe"><img alt="PyPI" src="https://img.shields.io/pypi/v/jupyterlab_iframe.svg" /></a> <a class="reference external" href="https://pypi.python.org/pypi/jupyterlab_iframe"><img alt="PyPI" src="https://img.shields.io/pypi/v/jupyterlab_iframe.svg" /></a> <a class="reference external" href="https://www.npmjs.com/package/jupyterlab_iframe"><img alt="npm" src="https://img.shields.io/npm/v/jupyterlab_iframe.svg" /></a></p>
+<p><img alt="image6" src="https://raw.githubusercontent.com/timkpaine/jupyterlab_iframe/master/docs/example1.gif" /></p>
+<div class="section" id="install">
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install jupyterlab_iframe
+jupyter labextension install jupyterlab_iframe
+jupyter serverextension <span class="nb">enable</span> --py jupyterlab_iframe
+</pre></div>
+</div>
+</div>
+<div class="section" id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>install the server extension, and add the following to
+<code class="docutils literal notranslate"><span class="pre">jupyter_notebook_config.py</span></code></p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">c</span><span class="o">.</span><span class="n">JupyterLabIFrame</span><span class="o">.</span><span class="n">iframes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;list&#39;</span><span class="p">,</span> <span class="s1">&#39;of&#39;</span><span class="p">,</span> <span class="s1">&#39;sites&#39;</span><span class="p">]</span>
+<span class="n">c</span><span class="o">.</span><span class="n">JupyterLabIFrame</span><span class="o">.</span><span class="n">welcome</span> <span class="o">=</span> <span class="s1">&#39;a site&#39;</span>
+</pre></div>
+</div>
+<p>In this example, <code class="docutils literal notranslate"><span class="pre">list</span></code>, <code class="docutils literal notranslate"><span class="pre">of</span></code>, and <code class="docutils literal notranslate"><span class="pre">sites</span></code> will be available as
+links in the command palette, and <code class="docutils literal notranslate"><span class="pre">a</span> <span class="pre">site</span></code> will open by default the
+first time JupyterLab is opened.</p>
+</div>
+</div>
+<div class="section" id="caveats">
+<h2>Caveats<a class="headerlink" href="#caveats" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="update-for-version-v0-0-12-most-of-these-are-covered-by-31">
+<h3>Update for version v0.0.12 - Most of these are covered by #31<a class="headerlink" href="#update-for-version-v0-0-12-most-of-these-are-covered-by-31" title="Permalink to this headline">¶</a></h3>
+<p>[STRIKEOUT:This package uses iframes, so is subject to a few
+restrictions:] [STRIKEOUT:- If Jlab is served over SSL, so must the
+sites (http/https must match)] [STRIKEOUT:- If the underlying site
+enforces same-origin, then we cannot navigate to them (e.g. google)]</p>
+</div>
+</div>
+<div class="section" id="similar-packages">
+<h2>Similar Packages<a class="headerlink" href="#similar-packages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/mflevine/jupyterlab_html">Jupyterlab-html</a>
+displays local html files as websites in an iframe</p></li>
+<li><p><a class="reference external" href="https://github.com/canavandl/jupyterlab_sandbox">Jupyterlab-sandbox</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jupyterlab/jupyterlab/issues/2369">Main JLab
+Issue</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Tim Paine
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
