@@ -1,0 +1,16 @@
+modeanalytics/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+modeanalytics/admin.py,sha256=2h43pTXd3NKV8-_fkUEkzkS4zqih0qBLE8q6Yj7fpEg,33
+modeanalytics/apps.py,sha256=0-UuxVggDvqpHpvY_OUiScHqKEUifn3n6Q2Gmh8cmz4,101
+modeanalytics/models.py,sha256=yur4mtep_0lGMeLYoAsWKlctbE_b4u81cZebeXpdejY,2278
+modeanalytics/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+modeanalytics/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+modeanalytics/migrations/0001_initial.py,sha256=d3AuGtFvJ0U-Vb_sVl4mw3-OhTwzSfb2b3x7s1fPt2s,1324
+modeanalytics/migrations/0002_auto_20200317_2144.py,sha256=gQ38IzuP0MP0Zc6bc-6QeHnug6AbsMw67Ne1AYsJwcs,578
+modeanalytics/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_app/migrations/0001_initial.py,sha256=f-gyuRohZhexTVeBYOz1MSEsj8zsUUcZJ0i07pCRoZw,1017
+test_app/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modeanalytics-0.0.3.dist-info/LICENSE,sha256=DD6cMea90kNxdJ1EW6W-QMmiMb9BvH_V6BVGCE85_ho,1516
+modeanalytics-0.0.3.dist-info/METADATA,sha256=649Kw08WJd_IyL7yqY6wsCC1tcm0p6vVnjerrZ5O9ao,1326
+modeanalytics-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+modeanalytics-0.0.3.dist-info/top_level.txt,sha256=hfrw8a7eSCNATlrjUVC6GMHLTxfgtv8tXHi1UhW_np4,23
+modeanalytics-0.0.3.dist-info/RECORD,,
