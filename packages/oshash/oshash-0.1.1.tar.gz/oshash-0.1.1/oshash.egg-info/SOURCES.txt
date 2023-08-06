@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+oshash/__init__.py
+oshash/__version__.py
+oshash/api.py
+oshash/command.py
+oshash/utils.py
+oshash.egg-info/PKG-INFO
+oshash.egg-info/SOURCES.txt
+oshash.egg-info/dependency_links.txt
+oshash.egg-info/entry_points.txt
+oshash.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+oshash = oshash.command:main
+
