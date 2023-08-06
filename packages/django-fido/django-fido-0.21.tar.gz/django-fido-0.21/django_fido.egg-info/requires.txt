@@ -1,0 +1,14 @@
+Django>=1.11
+fido2
+sqlparse
+django-app-settings>=0.6.1
+
+[quality]
+isort
+flake8
+pydocstyle
+mypy
+polint
+
+[test]
+mock
