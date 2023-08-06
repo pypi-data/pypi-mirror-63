@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+OverwatchAchievementExporter/__init__.py
+OverwatchAchievementExporter/achievements.py
+OverwatchAchievementExporter/exporter.py
+OverwatchAchievementExporter.egg-info/PKG-INFO
+OverwatchAchievementExporter.egg-info/SOURCES.txt
+OverwatchAchievementExporter.egg-info/dependency_links.txt
+OverwatchAchievementExporter.egg-info/requires.txt
+OverwatchAchievementExporter.egg-info/top_level.txt
