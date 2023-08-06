@@ -1,0 +1,3 @@
+[console_scripts]
+aws_iam_tester = aws_iam_tester.cli:test_policies
+
