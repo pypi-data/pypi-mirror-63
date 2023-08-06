@@ -1,0 +1,11 @@
+colab_ssh/__init__.py,sha256=K0sA-G-rP01qTZ7J6hhbd0j_VTG-tB_w62nfoCoFt9k,142
+colab_ssh/_command.py,sha256=_AedqhI-FzkufbhRtL7biXkkomT7Kf4JbeBG-GKUJXM,743
+colab_ssh/init_git.py,sha256=JhkTKW2SY4lsRgML6oYdPcyg9KrkVeBOtcb3wNj2ojc,1283
+colab_ssh/launch_ssh.py,sha256=CO7HrH79sY9bpnIPurLbUBy6xxagjE7l98D__-FDwCw,1854
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/init_git_test.py,sha256=ZFcK-LAymng-E42wlr-c_skN2l9a0hQkCTvi3jF7Nyk,387
+tests/launch_ssh.py,sha256=uW_zYc7P10KbHzxgII1dVXskjQlcYrbdN9J7EXrkI-w,153
+colab_ssh-0.2.37.dist-info/METADATA,sha256=YDpHPrePKaNzMaLUyh2Y0ZUYWo3YidMY9do3kwWmizE,2725
+colab_ssh-0.2.37.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+colab_ssh-0.2.37.dist-info/top_level.txt,sha256=1yu-oVSVZFXwjdkL9l9ZttFNQPYewIvWNLx_dA13eWQ,16
+colab_ssh-0.2.37.dist-info/RECORD,,
