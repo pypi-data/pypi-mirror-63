@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: aws-empty-ecr-repository
+Version: 1.0.1
+Summary: AWS CDK package that manages ECR repository and is able to fully delete it.
+Home-page: https://github.com/idenfy/AwsEmptyEcr.git
+Author: Laimonas Sutkus
+Author-email: laimonas@idenfy.com, laimonas.sutkus@gmail.com
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Description: ## AWS Empty ECR Repository
+        
+        A custom ECR Repository resource which can delete itself event if it contains docker images within.
+        
+        #### Remarks
+        
+        The project is written by [Laimonas Sutkus](https://github.com/laimonassutkus) 
+        and is owned by [iDenfy](https://github.com/idenfy). This is an open source
+        library intended to be used by anyone. [iDenfy](https://github.com/idenfy) aims
+        to share its knowledge and educate market for better and more secure IT infrastructure.
+        
+        
+        # Release history
+        
+        #### 1.0.1
+        Delete README copied info.
+        
+        #### 1.0.0
+        Initial. No extensive readme.
+        
+Keywords: AWS CDK ECR
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
