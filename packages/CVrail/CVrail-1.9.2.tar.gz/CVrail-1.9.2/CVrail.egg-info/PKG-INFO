@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: CVrail
+Version: 1.9.2
+Summary: Detecta a movimentação nos taludes ferroviários
+Home-page: https://gitlab.com/simaoduarte/cvrail
+Author: Simão Duarte
+Author-email: maravilha1sapo@hotmail.com
+License: UNKNOWN
+Description: Tirar fotos detetar diferenças
+Platform: UNKNOWN

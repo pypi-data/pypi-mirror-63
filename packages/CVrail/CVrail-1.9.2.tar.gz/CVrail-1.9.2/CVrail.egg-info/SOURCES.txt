@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+CVrail.egg-info/PKG-INFO
+CVrail.egg-info/SOURCES.txt
+CVrail.egg-info/dependency_links.txt
+CVrail.egg-info/top_level.txt
