@@ -1,0 +1,9 @@
+guenv/__init__.py,sha256=51_AQ5QGc1NL37OCnFL9NPYE-yWD8EIQX5lV16Q6kmg,12
+guenv/cli.py,sha256=FSN-LK8SXtC-a3C49zb37gzMn6rIlZnxLgXnbo0gENU,2842
+guenv/utils.py,sha256=anjb6e2ENwUmYN9fkTnk_tgdksLrS1ap-207lkBkiyo,1615
+guenv-0.0.3.dist-info/LICENSE.txt,sha256=DeVuS9A5lfE_coGrZA-EktsrQfB7LNOsDnF7PDyc4Cs,1470
+guenv-0.0.3.dist-info/METADATA,sha256=0trQuQ-1smXOMJTc9rmhsZdh_cihHyGfUKhhoFpPueQ,1730
+guenv-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+guenv-0.0.3.dist-info/entry_points.txt,sha256=r6Wi4k4r_11xT_A7l7_wrqSnkOyO1cXQLVMvzrrm0LI,77
+guenv-0.0.3.dist-info/top_level.txt,sha256=j6UMcqdBEfVxNIWtnFvvtB146UgKyL9y3jo46EGqdmY,6
+guenv-0.0.3.dist-info/RECORD,,
