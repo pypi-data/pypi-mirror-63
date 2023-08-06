@@ -1,0 +1,2 @@
+jax>=0.1.58
+frozendict
