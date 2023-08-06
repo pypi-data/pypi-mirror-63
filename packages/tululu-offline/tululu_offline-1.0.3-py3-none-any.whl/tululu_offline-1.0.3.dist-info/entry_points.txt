@@ -1,0 +1,3 @@
+[console_scripts]
+tululu-offline=tululu_offline.app:main
+
