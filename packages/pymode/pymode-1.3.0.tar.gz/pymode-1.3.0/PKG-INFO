@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pymode
+Version: 1.3.0
+Summary: A python client for typed interactions with the Mode Analytics API.
+Home-page: https://github.com/dwallace0723/pymode
+Author: David Wallace
+Author-email: dwallace0723@gmail.com
+License: MIT
+Description: # pymode
+        [![PyPI version](https://badge.fury.io/py/pymode.svg)](https://badge.fury.io/py/pymode)
+        ![PyPI - Status](https://img.shields.io/pypi/status/pymode)
+        [![Build Status](https://travis-ci.com/goodeggs/pymode.svg?branch=master)](https://travis-ci.com/goodeggs/pymode.svg?branch=master)
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pymode)
+        ![PyPI - License](https://img.shields.io/pypi/l/pymode)
+        
+        PyMode is a Python 3.x library to enable typed interactions with the [Mode Analytics v2 API](http://developer.modeanalytics.com/).
+        
+        ### Installation
+        
+        ```bash
+        $ pip install pymode
+        ```
+        
+        ### Example Usage
+        
+        ```python
+        import os
+        from pymode import Mode
+        
+        ORGANIZATION = os.environ["MODE_ORGANIZATION"]
+        TOKEN = os.environ["MODE_API_TOKEN"]
+        PASSWORD = os.environ["MODE_API_PASSWORD"]
+        
+        mode = Mode(organization=ORGANIZATION, token=TOKEN, password=PASSWORD)
+        ```
+        
+Keywords: mode analytics python
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
