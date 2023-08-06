@@ -1,0 +1,16 @@
+thomas/jupyter/__build__,sha256=9co490ih1ur3JrikL7V1w8cfGGSoFDMBeC3hPaLZICs,2
+thomas/jupyter/__init__.py,sha256=amkFT4Wrck0E2Dv2LfiI_MTf5lz36U_FoFa8FtC-8os,1074
+thomas/jupyter/_version.py,sha256=fYpXavksSOimtmTqhFyWAvLs858GRVd0KqbNBt4K_0c,548
+thomas/jupyter/example.py,sha256=mKLM4Z07crNhJzF7uS8ifZn-3DmJO2NHaSO4cGUEpB4,1255
+thomas/jupyter/widget.py,sha256=e-Wu8e82uqyggthN_BTMH2iRqP3cc-whw8dAg8S9jys,3057
+thomas/jupyter/static/extension.js,sha256=lHWWaRnnmFaPFaebDXCZNRIVOpLmBmo0IAJEdZAodpI,3369
+thomas/jupyter/static/index.js,sha256=ceUPskSj66_qXbZQNDssgz0jNKtJ1ZzLLTm4ZfuRQF0,981781
+thomas/jupyter/static/index.js.map,sha256=7lJmaatmEYUrET-Uvg5FRVMWMu34AHDTp76nWLeA5Tk,1199023
+thomas_jupyter_widget-0.1.0a20.data/data/etc/jupyter/nbconfig/notebook.d/thomas-jupyter-widget.json,sha256=hdF5rgKcjEz40k-8SAsjKfZZtUY0YBsY44LqTGtprM4,75
+thomas_jupyter_widget-0.1.0a20.data/data/share/jupyter/nbextensions/thomas-jupyter-widget/extension.js,sha256=lHWWaRnnmFaPFaebDXCZNRIVOpLmBmo0IAJEdZAodpI,3369
+thomas_jupyter_widget-0.1.0a20.data/data/share/jupyter/nbextensions/thomas-jupyter-widget/index.js,sha256=ceUPskSj66_qXbZQNDssgz0jNKtJ1ZzLLTm4ZfuRQF0,981781
+thomas_jupyter_widget-0.1.0a20.data/data/share/jupyter/nbextensions/thomas-jupyter-widget/index.js.map,sha256=7lJmaatmEYUrET-Uvg5FRVMWMu34AHDTp76nWLeA5Tk,1199023
+thomas_jupyter_widget-0.1.0a20.dist-info/METADATA,sha256=KFEJn7533CChStK-5-NPS4fWYYnBk8IFiHQbVygOy_c,1694
+thomas_jupyter_widget-0.1.0a20.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+thomas_jupyter_widget-0.1.0a20.dist-info/top_level.txt,sha256=e44Wndphk4_l4lGBNoB1CsjVErboOKa3-HGSN1uSdoQ,7
+thomas_jupyter_widget-0.1.0a20.dist-info/RECORD,,
