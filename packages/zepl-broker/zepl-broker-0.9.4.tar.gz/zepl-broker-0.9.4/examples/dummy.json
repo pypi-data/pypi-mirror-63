@@ -1,0 +1,8 @@
+{
+	"dummy1": {
+		"dev_ip": "localhost",
+		"dev_port": 5001,
+		"proto": "dummy-example",
+		"dev_pw": "asdf"
+	}
+}

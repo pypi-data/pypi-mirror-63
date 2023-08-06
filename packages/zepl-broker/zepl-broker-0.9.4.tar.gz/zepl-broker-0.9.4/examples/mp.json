@@ -1,0 +1,37 @@
+{
+	"dut2": {
+		"dev_ip": "192.168.0.87",
+		"dev_port": 8266,
+		"proto": "WebREPL",
+		"dev_pw": "asdf",
+		"dev_mac": "240ac444e2e4",
+		"fpath": "./mpy-scripts",
+		"init_sync": false,
+		"sync_flist": [
+			"app_a.py",
+			"app_b.py",
+			"wifi_util.py",
+			"wifi.secret",
+			"main.py",
+			"boot.py"
+		],
+		"init_run": "3"
+	},
+	"dut1": {
+		"dev_ip": "192.168.0.55",
+		"dev_port": 8266,
+		"proto": "WebREPL",
+		"dev_pw": "asdf",
+		"fpath": "./mpy-scripts",
+		"init_sync": true,
+		"sync_flist": [
+			"app_a.py",
+			"app_b.py",
+			"wifi_util.py",
+			"wifi.secret",
+			"main.py",
+			"boot.py"
+		],
+		"init_run": "3"
+	}
+}
