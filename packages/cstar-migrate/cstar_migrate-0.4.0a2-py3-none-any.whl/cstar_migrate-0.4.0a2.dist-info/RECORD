@@ -1,0 +1,13 @@
+cstarmigrate/__init__.py,sha256=jKFGEn_eOs3rNSASps1tyZpaHTx7Eh2ppyvGkVb7ShI,1642
+cstarmigrate/__main__.py,sha256=oQKFPpYBM4TgILpfazc5n0EYWImm00VGiES2JnvrUnI,87
+cstarmigrate/cli.py,sha256=EEtzgdIvns5kwS10_3xuobrw5VJpinaDzP5FgPtA-0k,6073
+cstarmigrate/config.py,sha256=Tp9IKXj_QBTMb_6GU4FYgoFijFIk7XP9Id7Xar2XUf0,3555
+cstarmigrate/cql.py,sha256=SHupjV1fz65EPdFAlM4YOECcSdcTzKMvpoOBk1l7ZYQ,2237
+cstarmigrate/migration.py,sha256=C9fBlzDPJXfdqD_SoxdTdKY6S0oRe7V1T6JIcGk7Tgk,3449
+cstarmigrate/migrator.py,sha256=eJm4Rs_lRv8NizLzu_VoPrrn24enAV4uFc3aEpSXANY,20845
+cstar_migrate-0.4.0a2.dist-info/LICENSE,sha256=0-1zH4m1D4Xkeuyg4It2KYS5E5jeyLNS-OQUVuJpGKQ,1085
+cstar_migrate-0.4.0a2.dist-info/METADATA,sha256=phYPbMBSdeD09spXjOXX7m0ERnLQ0kFidBQTLjLh3kM,9787
+cstar_migrate-0.4.0a2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cstar_migrate-0.4.0a2.dist-info/entry_points.txt,sha256=0Qb3RXXcFC8CdK5-qL2oejx147DgngB6bmBAqIubLjI,62
+cstar_migrate-0.4.0a2.dist-info/top_level.txt,sha256=ebyyasi40I_AF4UrbZjhKniRL4FkgOhIQTfKpU9CP5g,13
+cstar_migrate-0.4.0a2.dist-info/RECORD,,
