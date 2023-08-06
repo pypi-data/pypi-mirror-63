@@ -1,0 +1,13 @@
+tinycal/__init__.py,sha256=0qLzaQupgIekdiU1DXWiiY-dqYEBci3pE8pp1dzOIVA,134
+tinycal/__main__.py,sha256=waqE_JC9M3kMekoGNng5lZcrSfM7O1g9HYKbF8dQd9o,44
+tinycal/cli.py,sha256=e0mzdmwqGsK8a09pSFH4gW_NS2yac2fP9Gt12XT5ZW4,4871
+tinycal/config.py,sha256=jTxO8LL9AO9ftDZpJ4YVFH8HC7W7O48u8SL6F0mXl9Q,8983
+tinycal/declarative_config.py,sha256=7UQZxqRjJoPyzvIm_ZZb1mKha3S2jHhTGYKqVok1Mi8,2857
+tinycal/render.py,sha256=K3hORulIhIpEucggP3Klcy9569bR6Z-FfQa5INDlGuo,10680
+tinycal/tcal.py,sha256=u1_fOXlcXn1n9E7NJxKUDFClvVYWeO3Hy35YHs4cKH8,9513
+tinycal-0.3.1.dist-info/LICENSE.txt,sha256=jjjdOpqYclCfmqnE9Myzz2mmB9frJOg2RHUXY7rfX5Y,1296
+tinycal-0.3.1.dist-info/METADATA,sha256=lIqwywo81feacOSZu5hodvjTgpAGKCiGoeQvhbX-11g,670
+tinycal-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tinycal-0.3.1.dist-info/entry_points.txt,sha256=ciTRfLsSeKJlSYDYCFM1cGqPbgYGiFUNx43xXzSz_HU,44
+tinycal-0.3.1.dist-info/top_level.txt,sha256=dFbHt0k-0d66ejVTPxpWYuEPx2tnxCxB7S3UWu1IWMs,8
+tinycal-0.3.1.dist-info/RECORD,,
