@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nepali_transliteration
+Version: 0.5.4
+Summary: Convert roman English to Nepali text
+Home-page: https://github.com/santoshdahal2016/nepali-transliteration
+Author: Santosh Dahal
+Author-email: dahalsantosh2018@gmail.com
+License: UNKNOWN
+Description: # nepali_transliteration
+        ## Package to convert Romanized English to Nepali.
+        
+        
+        
+        ## Contributions
+        
+        The package is licenced with The MIT License (MIT) about which details can be found in the [LICENSE](LICENSE) file. As
+        the package is open sourced and requires many improvements and extensions, any contributions are welcome. Any other
+        feedback of any sort are highly welcome.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
