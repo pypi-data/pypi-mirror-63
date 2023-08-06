@@ -1,0 +1,8 @@
+README.md
+setup.py
+getostheme/__init__.py
+getostheme.egg-info/PKG-INFO
+getostheme.egg-info/SOURCES.txt
+getostheme.egg-info/dependency_links.txt
+getostheme.egg-info/entry_points.txt
+getostheme.egg-info/top_level.txt
