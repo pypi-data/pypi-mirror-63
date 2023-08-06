@@ -1,0 +1,10 @@
+README.md
+setup.py
+wsgi_microservice_middleware/__init__.py
+wsgi_microservice_middleware/cors.py
+wsgi_microservice_middleware/request_id.py
+wsgi_microservice_middleware.egg-info/PKG-INFO
+wsgi_microservice_middleware.egg-info/SOURCES.txt
+wsgi_microservice_middleware.egg-info/dependency_links.txt
+wsgi_microservice_middleware.egg-info/requires.txt
+wsgi_microservice_middleware.egg-info/top_level.txt
