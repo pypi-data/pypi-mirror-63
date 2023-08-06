@@ -1,0 +1,1 @@
+svcca@ git+ssh://git@github.com/themightyoarfish/svcca-gpu
