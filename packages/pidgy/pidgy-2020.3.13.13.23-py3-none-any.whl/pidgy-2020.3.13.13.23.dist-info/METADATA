@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pidgy
+Version: 2020.3.13.13.23
+Summary: Conventions for writing code in the notebook.
+Home-page: https://github.com/deathbeds/pidgy
+Author: deathbeds
+Author-email: tony.fast@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nbconvert
+Requires-Dist: importnb
+Requires-Dist: IPython (>7)
+Requires-Dist: dataclasses
+Requires-Dist: pyyaml
+Requires-Dist: emoji
+Requires-Dist: htmlmin
+Requires-Dist: webcolors
+Requires-Dist: attrs (>=17.4.0)
+Requires-Dist: stringcase
+Requires-Dist: click
+
+# The `pidgy` package and paper
+
+`pidgy` is a fun way to program in [Markdown] that can be reused as python modules, scripts, and applications.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deathbeds/pidgy/master?urlpath=lab)
+[![Documentation Status](https://readthedocs.org/projects/pidgin-notebook/badge/?version=latest)](https://pidgin-notebook.readthedocs.io/en/latest/?badge=latest)
+![Python package](https://github.com/deathbeds/pidgy/workflows/Python%20package/badge.svg)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pidgy)
+
+```bash
+pip install pidgy    # Install pidgy
+pidgy kernel install # Install the pidgy kernel
+```
+
+`pidgy` has a few components to it:
+
+- It is an interactive [Literate Programming] implementation for interactive computing in `IPython`
+- A specification of a _potentially_ more kernel approach for literate programming applied to other languages.
+- A complete unit of computable scientific literate. It is written in a literate programming style with the literature as the primary outcome. _Read the `pidgy` paper_.
+
+## Importing `pidgy` documents
+
+## The `pidgy` extension
+
+`pidgy` can be actived as an `IPython` extension
+
+```ipython
+%load_ext pidgy
+```
+
+## The `pidgy` CLI
+
+
+
+
