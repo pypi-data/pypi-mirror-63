@@ -1,0 +1,11 @@
+didtoday/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+didtoday/__main__.py,sha256=G9aEDP8CqOG6V2De55ibnMVSEkkFy57CHZZNG8iYuUY,39
+didtoday/commands.py,sha256=B4eEJTQOBXA4Q4bLID7_JwMlYY40vKbte9xu6B7Z-jM,353
+didtoday/constants.py,sha256=yCV4b2UuWmZVzfd3e2U2jjiT80obhBqZzT4ybi8FJgk,53
+didtoday/file.py,sha256=7wIByD0weEeMZ_F91ix5x_Rgc9sD3Y5fggZuJvA2LG0,874
+didtoday/helpers.py,sha256=3mSVRe2qEtMxEfBQT6xNbTCZjdnnw41JbI0CJfYBqAg,610
+didtoday/main.py,sha256=dMzoEtkv0QeOh87FVCV1yrWS6Fr_hblzIw9ATIHsoiI,810
+didtoday-0.1.1.dist-info/entry_points.txt,sha256=FtxAddsG3xHEblH29_0LAgcJwMED6dWbWglB3tjDAqw,47
+didtoday-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+didtoday-0.1.1.dist-info/METADATA,sha256=zgMynMpn2MpMY7suirppvaEHR7-CBtRlmR3cgHpSyAM,243
+didtoday-0.1.1.dist-info/RECORD,,
