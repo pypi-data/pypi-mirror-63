@@ -1,0 +1,8 @@
+scipy
+sklearn
+pandas
+numpy
+matplotlib
+shapely
+descartes
+nolds
