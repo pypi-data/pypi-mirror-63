@@ -1,0 +1,9 @@
+README.md
+gemfeed.py
+setup.py
+gemfeed.egg-info/PKG-INFO
+gemfeed.egg-info/SOURCES.txt
+gemfeed.egg-info/dependency_links.txt
+gemfeed.egg-info/entry_points.txt
+gemfeed.egg-info/requires.txt
+gemfeed.egg-info/top_level.txt
