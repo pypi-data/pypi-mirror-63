@@ -1,0 +1,13 @@
+avanza/__init__.py,sha256=bvidt8F0MYwaCaAYbrzivQfIdAPWGUZIsqNPCzvm2ko,124
+avanza/_version.py,sha256=VkqKNhCu7_SPtm2SJjQ7vIeLd6wBQJZl_t1N5uPUZuc,22
+avanza/base.py,sha256=GyL-0MaYiDm9NmNCauYsrMd_iOqYYHsNwhR_YEzk9eY,2247
+avanza/chartdata.py,sha256=0pJz2NLDv5Ywf9i8vNqbLxsT9fSd1cvb5H__Wli6rwc,1355
+avanza/collection.py,sha256=Ob9sxEWfp4-Dhow7HZkU6clf06XwUJk-SXD8iiW5Hxs,3388
+avanza/constants.py,sha256=dKGuZKm18YqNsksx1MjYcfJ2Fpo4mq9--UjKVHEV32o,3602
+avanza/search.py,sha256=5_WMxBJUsrsKEFXuCYkZauxJmuNisGNm7rTEPSukgoY,1774
+avanza/ticker.py,sha256=bXdg1WhYm6nV7xHPRCjmbkDf_T4Eu3Y4wtaQXH2KVck,4039
+Avanza-0.0.9.dist-info/LICENSE,sha256=UHbDQp0iCH-MvWW2_1VFQ9p3O816s8-vll9WkMP8keY,1064
+Avanza-0.0.9.dist-info/METADATA,sha256=dsz_-WAl0rhIFASc2d3Nz4Jt9MbY56KKBIDA8eJqyu4,2336
+Avanza-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Avanza-0.0.9.dist-info/top_level.txt,sha256=4Sxe4l1ohC6D4OwzO5FC4r_cP1xkGKsFHS4IOrXnOeE,7
+Avanza-0.0.9.dist-info/RECORD,,
