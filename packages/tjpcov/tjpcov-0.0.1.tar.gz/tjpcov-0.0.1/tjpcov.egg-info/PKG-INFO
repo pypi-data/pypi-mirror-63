@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tjpcov
+Version: 0.0.1
+Summary: Covariances for LSST DESC
+Home-page: https://github.com/LSSTDESC/tjpcov
+Author: Sukhdeep Singh
+License: MIT
+Description: # TJPCov
+        
+        TJPCov is a general covariance calculator interface to be used within LSST DESC.
+        
+        This is currently a placeholder with a handful of functions that may be useful.
+        See the notebooks in the examples directory.
+        
+        
+        ## Planning
+        
+        Join the #desc-tjpcov channel on the LSST DESC slack to contribute.
+        
+        See also [terms of reference](https://github.com/LSSTDESC/TJPCov/blob/master/doc/Terms_of_Reference.md).
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
