@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: drf-app-generators
+Version: 0.0.2
+Summary: Generate DRF Serializers, Views, Apis, Unit tests for your application.
+Home-page: https://github.com/drf-tools/drf-app-generators
+Author: Huy Tran
+Author-email: huy.tranquoc@asnet.com.vn
+License: MIT
+Download-URL: https://github.com/drf-tools/drf-app-generators/archive/v_002.tar.gz
+Description: UNKNOWN
+Keywords: API REST framework generate scaffold
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.7.*
