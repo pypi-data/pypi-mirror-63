@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+astroimages_fits/__init__.py
+astroimages_fits/fits_util_functions.py
+astroimages_fits.egg-info/PKG-INFO
+astroimages_fits.egg-info/SOURCES.txt
+astroimages_fits.egg-info/dependency_links.txt
+astroimages_fits.egg-info/requires.txt
+astroimages_fits.egg-info/top_level.txt
