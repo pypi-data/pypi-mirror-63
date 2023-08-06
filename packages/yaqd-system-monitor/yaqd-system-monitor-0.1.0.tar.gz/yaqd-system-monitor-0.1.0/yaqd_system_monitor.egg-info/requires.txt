@@ -1,0 +1,10 @@
+psutil
+uptime
+yaqd-core
+
+[dev]
+black
+pre-commit
+
+[tests]
+yaqc

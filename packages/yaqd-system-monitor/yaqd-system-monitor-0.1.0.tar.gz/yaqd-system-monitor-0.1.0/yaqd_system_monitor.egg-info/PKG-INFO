@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yaqd-system-monitor
+Version: 0.1.0
+Summary: Yaq daemon for monitoring system usage.
+Home-page: https://gitlab.com/yaq/system-monitor
+Author: yaq developers
+Author-email: blaise@untzag.com
+License: GNU Lesser General Public License v3 (LGPL)
+Description: UNKNOWN
+Keywords: system-monitor
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
