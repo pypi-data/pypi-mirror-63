@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Required</title>
+    {% include "qnc_crud/user_styles.html" %}
+</head>
+<body>
+    {% comment %}
+        NOTE - the following approach does NOT work well.
+        If you try to navigate to a new page from js immediately when the page loads, the browser treats it like loction.replace, and replaces the current history entry. Then the login form won't take back you to the correct page when it does history.back(); 
+        
+        <script>
+            location = document.body.getAttribute({{json_encoded_login_url}});
+        </script>
+    {% endcomment %}
+    You must be logged in to view this page. <a href="{% url 'qnc_crud_login' %}">Log In</a>.
+
+    {% comment %}
+        Note- we intentionally don't back button or any other links, because there may be no other public pages
+    {% endcomment %}
+</body>
+</html>
