@@ -1,0 +1,12 @@
+shareplum/__init__.py,sha256=KIoBIvtxqZLjvPCAFqcvg4UZwKxXBfNS3WrMzQd2hvc,372
+shareplum/list.py,sha256=y8RFSW_CfzqLnLj5bqUU91VS58o2Zwq9Doids1evrmM,19234
+shareplum/list_dict.py,sha256=AuH5QOFz7uaya0SU2ABrWSEkrd6UrtwTRcuXmEWIFI4,2360
+shareplum/office365.py,sha256=jyjIwQKMliSJpE8zNy0usBkuZzcDt-CYmg0s9YfjCs8,3671
+shareplum/site.py,sha256=deW1xGECDttDVqGCq2imjDFfylvY5oChye4lGERNy6Y,10193
+shareplum/soap.py,sha256=UMM0rcBsZCftNQ74y9CX0SwEzQjJB0kyGAabDd0RM4s,4841
+shareplum/version.py,sha256=uY3cMAMpdqMKE578vu86FHlJK6FgmnTzyGQFF28Mpx0,23
+SharePlum-0.3.0.dist-info/LICENSE.txt,sha256=8qp1FweN-pDd8kK03jVBqeZuu1cvaV_RGfztTtYKBKE,1074
+SharePlum-0.3.0.dist-info/METADATA,sha256=U4iGqZHMyI9amhhoiAm4_qLrHAZMkCTvSDQS1UQfYmk,2741
+SharePlum-0.3.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+SharePlum-0.3.0.dist-info/top_level.txt,sha256=M2npnL4XZn76iBVNJ8t_ku9rQ7YE3tj0HqEOUuQ_3sU,10
+SharePlum-0.3.0.dist-info/RECORD,,
