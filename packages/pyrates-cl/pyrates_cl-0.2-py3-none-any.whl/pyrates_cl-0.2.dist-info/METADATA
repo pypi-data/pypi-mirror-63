@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyrates-cl
+Version: 0.2
+Summary: Currency Conversion
+Home-page: https://github.com/lindeneg/pyrates-cl
+Author: Christian Lindeneg
+Author-email: christian@lindeneg.org
+License: UNKNOWN
+Keywords: currency conversion
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (>=2019.11.28)
+Requires-Dist: chardet (>=3.0.4)
+Requires-Dist: idna (>=2.9)
+Requires-Dist: lxml (>=4.5.0)
+Requires-Dist: mypy (>=0.770)
+Requires-Dist: mypy-extensions (>=0.4.3)
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: typed-ast (>=1.4.1)
+Requires-Dist: typing-extensions (>=3.7.4.1)
+Requires-Dist: urllib3 (>=1.25.8)
+
+PyRates
+=============
+PyRates supports conversion between 54 currency rates
+-------
+Can be used as:
+- Package/Module
+- CLI
+- GUI
+
+The rates are fetched by webscraping x-rates.com and saved locally
+
+In order to keep get-requests to a minimum, rates are only updated if they are older than 30 minutes
+
+The base currency is by default: Euro. Work in progress to let the user change the base currency at will
+
+# [Documentation](https://github.com/Lindeneg/pyrates-cl/tree/0.2/docs)
+
