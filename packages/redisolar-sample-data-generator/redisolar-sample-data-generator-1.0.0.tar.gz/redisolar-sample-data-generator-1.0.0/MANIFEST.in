@@ -1,0 +1,10 @@
+include requirements.txt
+include requirements-dev.txt
+include README.md
+include LICENSE.txt
+include mypy.ini
+include sample_data_generator/fixtures/*
+include sample_data_generator/scripts/*.lua
+global-exclude __pycache__
+global-exclude env
+global-exclude *.py[co]
