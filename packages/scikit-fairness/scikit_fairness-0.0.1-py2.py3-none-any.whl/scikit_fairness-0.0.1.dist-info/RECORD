@@ -1,0 +1,12 @@
+skfair/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+skfair/common.py,sha256=oMARKdTklAwp26poqdjkU9f5TKnCPuRuV7CYv9KoqfI,1926
+skfair/datasets.py,sha256=maNbFigNEydeajf-m8dZ5CVDakeLm5W-Dd2p0e31uTE,1687
+skfair/data/arrests.zip,sha256=Mw8Izy1aLK7a2jWGS3pCOwsmxULC1vgSJREEiVCibIU,18826
+skfair/preprocessing/__init__.py,sha256=T9O5MDzdJaBbf0Re8lrlEYZog1aelJwEWrnfV1qp52M,48
+skfair/preprocessing/informationfilter.py,sha256=La6fXNZGx1jn4ZewmdrgOiGBkEyXi3BnVTsb5t71T9Y,4608
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=zp62_2s0Z7LiioOoI7FmKKUq_3vF2s_GnKwRPEFY0z8,4687
+scikit_fairness-0.0.1.dist-info/METADATA,sha256=eO_OLWH1nkFyZQKdyOxlkp-Rq355djEtBXmHkZDJoAk,2364
+scikit_fairness-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+scikit_fairness-0.0.1.dist-info/top_level.txt,sha256=7vesGiQgozEWxxd8I0kK1Up8k2_JGc6izOw7J-_dFWc,13
+scikit_fairness-0.0.1.dist-info/RECORD,,
