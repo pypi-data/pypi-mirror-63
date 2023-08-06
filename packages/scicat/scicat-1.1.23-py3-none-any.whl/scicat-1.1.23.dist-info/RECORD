@@ -1,0 +1,13 @@
+scicat/__init__.py,sha256=5Vk07tkRuXG6YrvFZdsR9Xe8eZvDbCiu2atnI-u6few,238
+scicat/api.py,sha256=TpBydcedL7D2HouXdHIU0ujfyqunI50wcSF24h-S7ns,415
+scicat/attach.py,sha256=yHqmMRgBcBXt0cjH2zXF32U7dObTWMIkkoFzTXbVVzA,1707
+scicat/base64_im.py,sha256=m5nPxItyQCUpN-1E3zc5xH0ASC8aJP4ypEX281wd4TE,793
+scicat/download.py,sha256=VMj0RCwT5wJa7GBC1X1-XnN1zshUB5xHQ_tiorxaHEs,4639
+scicat/login.py,sha256=JPNAQ1gIcgQ1EKcGj-OYCcfxGJwUL4rYbzFw7ZRad4Y,3558
+scicat/search.py,sha256=kVb0UALSvs4Q429phoGWx68XSzgp5SH6YUAZOVPXYEk,726
+scicat/upload.py,sha256=5msgi0bQnD4-r04PlBzMG3tI7fF17kyvLhAnuNmsSAw,5201
+scicat-1.1.23.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+scicat-1.1.23.dist-info/METADATA,sha256=TQ9akEBxR2SR_uSHgexXfLpay_94acaWfUMK5A5KdpA,968
+scicat-1.1.23.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scicat-1.1.23.dist-info/top_level.txt,sha256=7EFfq5RUMAcCZZXl7iKlsT_S18dY9ynw2Loect85an4,7
+scicat-1.1.23.dist-info/RECORD,,
